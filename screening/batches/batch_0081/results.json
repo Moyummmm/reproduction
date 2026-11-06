@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03241",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; LLM sandbox for privacy-rule authoring, but security task and OS target are not established.",
+    "evidence": "Assisting Users in Authoring Contextual Privacy Rules with an LLM Sandbox"
+  },
+  {
+    "id": "R03242",
+    "decision": "EXCLUDE",
+    "reason": "LLM remediation targets Infrastructure-as-Code, not OS components or privileged interfaces.",
+    "evidence": "Diff-Only LLM Remediation for Infrastructure-as-Code with Policy, Test, and Sandbox Gates"
+  },
+  {
+    "id": "R03243",
+    "decision": "EXCLUDE",
+    "reason": "Regulatory and clinical validation of ambient AI scribes, not security analysis or an OS target.",
+    "evidence": "a sandbox approach to validating scope expansion in LLM-based ambient AI scribes"
+  },
+  {
+    "id": "R03244",
+    "decision": "EXCLUDE",
+    "reason": "Studies evolutionary search of LLM-agent strategies; no security analysis, testing, or OS target.",
+    "evidence": "We ask when maintaining behavioural diversity rescues evolutionary search of natural-language agent strategies"
+  },
+  {
+    "id": "R03245",
+    "decision": "EXCLUDE",
+    "reason": "Malware detection for Android apps without any LLM role; no LLM-based security analysis demonstrated.",
+    "evidence": "The Mining Android Sandbox (MAS) approach has been used to identify malicious behavior in repackaged Android applications"
+  },
+  {
+    "id": "R03246",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based social simulation for policy optimization, not security analysis or an OS target.",
+    "evidence": "An LLM-Based Agent Social Simulation Sandbox for Proactive Policy Optimization"
+  },
+  {
+    "id": "R03247",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates LLM agents in enterprise work environments; no security analysis or OS target indicated.",
+    "evidence": "A Sandbox for Evaluating LLM Agents in Enterprise Environments"
+  },
+  {
+    "id": "R03248",
+    "decision": "EXCLUDE",
+    "reason": "Policy report on privacy-enhancing technologies; no LLM role or OS security analysis.",
+    "evidence": "A report produced from a collaboration"
+  },
+  {
+    "id": "R03249",
+    "decision": "UNCLEAR",
+    "reason": "Title-only malware detection in an OT sandbox; LLM role and OS-level scope are not established.",
+    "evidence": "Operational Technology Sandbox Environment for Malware Detection"
+  },
+  {
+    "id": "R03250",
+    "decision": "EXCLUDE",
+    "reason": "Sandbox behavior detection for malicious software without any LLM component.",
+    "evidence": "This paper proposes a dynamic behavior detection technique based on sandboxing"
+  },
+  {
+    "id": "R03251",
+    "decision": "EXCLUDE",
+    "reason": "Legal and regulatory discussion of a DLT sandbox; no LLM security analysis or OS target.",
+    "evidence": "DLT-Pilotregime – EU Regulatory Sandbox"
+  },
+  {
+    "id": "R03252",
+    "decision": "EXCLUDE",
+    "reason": "LLM code migration and behavior preservation, not security analysis targeting OS components.",
+    "evidence": "Passing Parity Is Not Preserving Behaviour: Oracle Escape in Function-Level LLM Code Migration"
+  },
+  {
+    "id": "R03253",
+    "decision": "EXCLUDE",
+    "reason": "Regulatory sandbox commentary, not LLM-based security research on OS components.",
+    "evidence": "A regulatory sandbox, that is"
+  },
+  {
+    "id": "R03254",
+    "decision": "UNCLEAR",
+    "reason": "Title-only CAPEv2 malware analysis; whether an LLM is used and whether OS scope is targeted are unclear.",
+    "evidence": "A Dynamic Analysis Approach Using CAPEv2 Sandbox for Malware Detection"
+  },
+  {
+    "id": "R03255",
+    "decision": "EXCLUDE",
+    "reason": "Dictionary-entry title with no research, security, LLM, or OS content.",
+    "evidence": "sandbox, n."
+  },
+  {
+    "id": "R03256",
+    "decision": "EXCLUDE",
+    "reason": "Title-only literary or cultural item; no LLM-based security analysis or OS target evident.",
+    "evidence": "Sandbox Fictions"
+  },
+  {
+    "id": "R03257",
+    "decision": "EXCLUDE",
+    "reason": "LLM risk-evaluation framework for social harms; not security analysis of OS components.",
+    "evidence": "a novel risk evaluation framework that simulates human-LLM behavior"
+  },
+  {
+    "id": "R03258",
+    "decision": "UNCLEAR",
+    "reason": "Title-only container-escape detection using a GNN; LLM role and OS security scope are not established.",
+    "evidence": "Spatial-Temporal Graph Neural Network for the Detection of Container Escape Events"
+  },
+  {
+    "id": "R03259",
+    "decision": "UNCLEAR",
+    "reason": "Title-only ransomware detection using sandbox security; LLM role and OS-level analysis are not established.",
+    "evidence": "Ransomware Detection and Mitigation Using Sandbox Security"
+  },
+  {
+    "id": "R03260",
+    "decision": "UNCLEAR",
+    "reason": "Title-only virtual sandbox for malware analysis; whether an LLM is used and OS scope is unclear.",
+    "evidence": "Virtual Sandbox for Malware Analysis and Threat Detection"
+  },
+  {
+    "id": "R03261",
+    "decision": "EXCLUDE",
+    "reason": "EdTech sandbox handbook, not LLM-based security analysis or OS research.",
+    "evidence": "An output of the EdTech Hub"
+  },
+  {
+    "id": "R03262",
+    "decision": "EXCLUDE",
+    "reason": "Legal chapter on a BaFin regulatory sandbox; no LLM security analysis or OS target.",
+    "evidence": "Kapitel 6 De lege ferenda – Zulässigkeit einer BaFin-Regulatory Sandbox"
+  },
+  {
+    "id": "R03263",
+    "decision": "EXCLUDE",
+    "reason": "Sandbox-escape and containment methodology for reasoning agents, not LLM-based security analysis of OS components.",
+    "evidence": "measure whether a model probes and exits its evaluation environment before running that model in an environment where exit has consequences"
+  },
+  {
+    "id": "R03264",
+    "decision": "EXCLUDE",
+    "reason": "Legal chapter on a BaFin regulatory sandbox, not LLM-based security research on OS components.",
+    "evidence": "Kapitel 4 Notwendigkeit und Ausgestaltung einer BaFin-Regulatory Sandbox"
+  },
+  {
+    "id": "R03265",
+    "decision": "UNCLEAR",
+    "reason": "Title-only dynamic malware detection in sandboxes; LLM role and OS-level scope are not established.",
+    "evidence": "A Dynamic Malware Detection Algorithm for Enhanced Security in Sandbox Environments"
+  },
+  {
+    "id": "R03266",
+    "decision": "EXCLUDE",
+    "reason": "Sandbox resource re-allocation for LLM agents, not security analysis or OS protection.",
+    "evidence": "Cross-Agent Sandbox Re-allocation for LLM Agents"
+  },
+  {
+    "id": "R03267",
+    "decision": "UNCLEAR",
+    "reason": "Title-only slice-escape detection; LLM role, security task, and OS relevance are ambiguous.",
+    "evidence": "A Slice Escape Detection Model Based on Full Flow Adaptive Detection"
+  },
+  {
+    "id": "R03268",
+    "decision": "EXCLUDE",
+    "reason": "Legal education escape-room chapter; no LLM-based security analysis or OS target.",
+    "evidence": "el escape room como estrategia docente en Derecho Procesal Penal"
+  },
+  {
+    "id": "R03269",
+    "decision": "EXCLUDE",
+    "reason": "Review of an avian-vision aircraft-detection study; no LLM security analysis or OS target.",
+    "evidence": "Review for \"Light tuned to the avian eye elicits early detection and escape from an approaching aircraft\""
+  },
+  {
+    "id": "R03270",
+    "decision": "EXCLUDE",
+    "reason": "Legal comparison of regulatory sandboxes, not LLM security research on OS components.",
+    "evidence": "Kapitel 3 Vergleich von BaFin-Innovation Hub und FCA-Regulatory Sandbox"
+  },
+  {
+    "id": "R03271",
+    "decision": "EXCLUDE",
+    "reason": "Legal chapter on inadmissibility of a BaFin regulatory sandbox; no LLM or OS security analysis.",
+    "evidence": "Kapitel 5 De lege lata – Unzulässigkeit einer BaFin-Regulatory Sandbox"
+  },
+  {
+    "id": "R03272",
+    "decision": "EXCLUDE",
+    "reason": "LLM assistants for mathematics education escape games; no security task or OS target.",
+    "evidence": "LLM-basierten Assistenten zur Unterstützung in solchen Situationen"
+  },
+  {
+    "id": "R03273",
+    "decision": "UNCLEAR",
+    "reason": "Title-only distributed malware detection with a sandbox; LLM role and OS-level scope are not established.",
+    "evidence": "State-based Sandbox Tool for Distributed Malware Detection with Avoid Techniques"
+  },
+  {
+    "id": "R03274",
+    "decision": "EXCLUDE",
+    "reason": "Duplicate review of an avian-vision aircraft-detection study; no LLM or OS security research.",
+    "evidence": "Review for \"Light tuned to the avian eye elicits early detection and escape from an approaching aircraft\""
+  },
+  {
+    "id": "R03275",
+    "decision": "EXCLUDE",
+    "reason": "Legal chapter on BaFin and FCA regulatory sandboxes; no LLM security analysis or OS target.",
+    "evidence": "Kapitel 1 BaFin-Innovation Hub und FCA-Regulatory Sandbox – Hintergründe und Funktionsweisen"
+  },
+  {
+    "id": "R03276",
+    "decision": "EXCLUDE",
+    "reason": "Financial-services accountability sandbox proposal, not LLM-based security analysis of OS components.",
+    "evidence": "process sandbox in Ireland"
+  },
+  {
+    "id": "R03277",
+    "decision": "EXCLUDE",
+    "reason": "Malware detection using conventional and deep ML with Cuckoo Sandbox; no LLM role.",
+    "evidence": "two categories of deep learning and conventional machine learning were used to classify malware"
+  },
+  {
+    "id": "R03278",
+    "decision": "EXCLUDE",
+    "reason": "Conceptual framework for LLMs in policy simulation; no security analysis or OS target.",
+    "evidence": "LLMs as Policymakers (in a Sandbox)"
+  },
+  {
+    "id": "R03279",
+    "decision": "EXCLUDE",
+    "reason": "LLM detection of aircraft mechanical failures; aviation safety, not security analysis of OS components.",
+    "evidence": "General-Purpose LLM Detection of Twin-Engine Aircraft Failures"
+  },
+  {
+    "id": "R03280",
+    "decision": "EXCLUDE",
+    "reason": "LLM threat detection targets smart grids, not OS components or privileged interfaces.",
+    "evidence": "Real-Time Adaptive Threat Detection in Smart Grids Using Online Graph-LLM Fusion"
+  }
+]

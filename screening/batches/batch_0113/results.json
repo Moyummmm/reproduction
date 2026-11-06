@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R04521",
+    "decision": "EXCLUDE",
+    "reason": "NLP supertagging; no security task or OS target.",
+    "evidence": "LLM-supertagger: Categorial Grammar Supertagging via Large Language Models"
+  },
+  {
+    "id": "R04522",
+    "decision": "UNCLEAR",
+    "reason": "Security-relevant fuzzing, but no LLM role is stated and OS scope is unclear without an abstract.",
+    "evidence": "Grammar-Based Fuzzing for Vulnerability Discovery in 5G NGAP Control Plane Protocols"
+  },
+  {
+    "id": "R04523",
+    "decision": "EXCLUDE",
+    "reason": "General parser/application fuzzing methodology; no LLM or OS security target shown.",
+    "evidence": "Discovering Grammar Information from One Parser to Enhance All Parser-Based Application Fuzzing"
+  },
+  {
+    "id": "R04524",
+    "decision": "EXCLUDE",
+    "reason": "No LLM; fuzzing materials-science parsers rather than OS components.",
+    "evidence": "Grammar‐based fuzzing of data integration parsers in computational materials science"
+  },
+  {
+    "id": "R04525",
+    "decision": "EXCLUDE",
+    "reason": "Grammar-inference fuzzing technique; no LLM, security, or OS target evident.",
+    "evidence": "Fuzzing-Based Grammar Inference"
+  },
+  {
+    "id": "R04526",
+    "decision": "EXCLUDE",
+    "reason": "No LLM; tests AMQP brokers, not OS components or privileged interfaces.",
+    "evidence": "proposing the usage of grammar-based fuzzing to test AMQP brokers"
+  },
+  {
+    "id": "R04527",
+    "decision": "EXCLUDE",
+    "reason": "CDN forwarding/DoS fuzzing; no LLM role and target is a CDN service, not an OS component.",
+    "evidence": "ReqsMiner: Automated Discovery of CDN Forwarding Request Inconsistencies and DoS Attacks with Grammar-based Fuzzing"
+  },
+  {
+    "id": "R04528",
+    "decision": "EXCLUDE",
+    "reason": "Grammar fuzzing for general programs; no LLM or OS security target.",
+    "evidence": "Reducing Coverage-Equivalent Inputs in Grammar-Based Fuzzing by Avoiding Recurrent Rule Sequences"
+  },
+  {
+    "id": "R04529",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based REST API testing; no security outcome or OS target.",
+    "evidence": "MASTEST: A LLM-Based Multi-Agent System For Testing RESTful APIs"
+  },
+  {
+    "id": "R04530",
+    "decision": "EXCLUDE",
+    "reason": "LLM used for C-to-Rust transpilation; testing general code, not OS security.",
+    "evidence": "RustAssure: Differential Symbolic Testing for LLM-Transpiled C-to-Rust Code"
+  },
+  {
+    "id": "R04531",
+    "decision": "EXCLUDE",
+    "reason": "LLM evaluation design; no security task or OS target.",
+    "evidence": "we validate the practical impact in an 880-run LLM evaluation experiment using the GraphDOE framework"
+  },
+  {
+    "id": "R04532",
+    "decision": "EXCLUDE",
+    "reason": "Testing privacy-preserving LLM pipelines; security of LLMs, not OS.",
+    "evidence": "RIPPLE: Differential Testing of Exact-Value Restoration Boundaries in Privacy-Preserving LLM Pipelines"
+  },
+  {
+    "id": "R04533",
+    "decision": "UNCLEAR",
+    "reason": "WASI testing is OS-adjacent, but LLM role is unstated and abstract is missing.",
+    "evidence": "WASIT: Deep and Continuous Differential Testing of WebAssembly System Interface Implementations"
+  },
+  {
+    "id": "R04534",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted testing of array frameworks; no security outcome or OS target.",
+    "evidence": "leverage LLMs to transfer NumPy's requirements to other frameworks"
+  },
+  {
+    "id": "R04535",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM generates seeds for differential testing of WASI, an OS system interface; original bug-finding.",
+    "evidence": "the first general-purpose differential testing framework for WASI implementations. Our approach uses a large language model to generate seeds"
+  },
+  {
+    "id": "R04536",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted testing of database connectors; no OS security target.",
+    "evidence": "LLM-based Dynamic Differential Testing for Database Connectors with Reinforcement Learning-Guided Prompt Selection"
+  },
+  {
+    "id": "R04537",
+    "decision": "UNCLEAR",
+    "reason": "LLM-assisted differential testing of Wasm runtimes; security task and scope unclear without abstract.",
+    "evidence": "LWDIFF: an LLM-Assisted Differential Testing Framework for Webassembly Runtimes"
+  },
+  {
+    "id": "R04538",
+    "decision": "EXCLUDE",
+    "reason": "Agricultural advisory system; no security analysis or OS target.",
+    "evidence": "AgriAdvisor: On-Device Embedded LLM System for Crop Disease Detection and Prescriptive Advisory with Differential Privacy"
+  },
+  {
+    "id": "R04539",
+    "decision": "EXCLUDE",
+    "reason": "LLM fairness testing; not security/OS.",
+    "evidence": "LLM-Based Automatic Metamorphic Test Case Generation for LLM Fairness Testing"
+  },
+  {
+    "id": "R04540",
+    "decision": "EXCLUDE",
+    "reason": "LLM-generated Java compiler tests; no security outcome or OS target.",
+    "evidence": "A Differential Testing Pipeline for Validating Lambda Expression Handling in Java Compilers Through LLM-Generated Test Cases"
+  },
+  {
+    "id": "R04541",
+    "decision": "EXCLUDE",
+    "reason": "Greenwashing monitoring; no security/OS target.",
+    "evidence": "DeepGreen: Effective LLM-Driven Greenwashing Monitoring System Designed for Empirical Testing — Evidence from China"
+  },
+  {
+    "id": "R04542",
+    "decision": "EXCLUDE",
+    "reason": "Compiler-driven differential testing; no LLM or OS security evidence.",
+    "evidence": "Finding Unstable Code via Compiler-Driven Differential Testing"
+  },
+  {
+    "id": "R04543",
+    "decision": "EXCLUDE",
+    "reason": "Psychology survey method; no security task or OS target.",
+    "evidence": "integrates Multistage Testing (MST) with open-ended questions that are automatically analyzed by large language models (LLMs)"
+  },
+  {
+    "id": "R04544",
+    "decision": "EXCLUDE",
+    "reason": "Research-integrity procedures; no LLM security analysis or OS target.",
+    "evidence": "Pilot Testing Standard Operating Procedures for Research Integrity"
+  },
+  {
+    "id": "R04545",
+    "decision": "EXCLUDE",
+    "reason": "Finance/backtest overfitting; no security task or OS target.",
+    "evidence": "Large language models can propose and backtest trading strategies at effectively unbounded scale"
+  },
+  {
+    "id": "R04546",
+    "decision": "EXCLUDE",
+    "reason": "LLM-generated QA charters; no security task or OS target.",
+    "evidence": "LLM-Based Exploratory Testing Charter Generation:A Framework and Empirical Evaluation"
+  },
+  {
+    "id": "R04547",
+    "decision": "EXCLUDE",
+    "reason": "Battery degradation testing; no LLM security analysis or OS target.",
+    "evidence": "Testing the reliability of learned battery degradation dynamics under changing operating conditions"
+  },
+  {
+    "id": "R04548",
+    "decision": "EXCLUDE",
+    "reason": "Embedded hardware testing via OS; no LLM or security target.",
+    "evidence": "An Alternative Way of Testing Embedded Hardware Using Operating System"
+  },
+  {
+    "id": "R04549",
+    "decision": "EXCLUDE",
+    "reason": "OS deployment/testing for power systems; no explicit LLM or security outcome.",
+    "evidence": "Research on Automatic Deployment and Intelligent Testing Framework of Autonomous Controllable Operating System for Power Energy System"
+  },
+  {
+    "id": "R04550",
+    "decision": "EXCLUDE",
+    "reason": "LLM/multimodal A/B testing in creative work; no security/OS target.",
+    "evidence": "Generative Models in Creative Work: How LLM and Multimodal AI are Transforming A/B Testing"
+  },
+  {
+    "id": "R04551",
+    "decision": "EXCLUDE",
+    "reason": "Psychology survey method; no security task or OS target.",
+    "evidence": "automatically analyzed by large language models (LLMs)"
+  },
+  {
+    "id": "R04552",
+    "decision": "UNCLEAR",
+    "reason": "LLM pentesting agent is security-relevant, but OS/privileged target is unstated and abstract missing.",
+    "evidence": "Enhancing Automated Penetration Testing with Minimal Human Intervention: The AutoPentester LLM Agent Framework"
+  },
+  {
+    "id": "R04553",
+    "decision": "EXCLUDE",
+    "reason": "LLM evaluation harness; no security task or OS target.",
+    "evidence": "zero-dependency evaluation harness for mixed-check regression testing across LLM and agent workflows"
+  },
+  {
+    "id": "R04554",
+    "decision": "EXCLUDE",
+    "reason": "Security testing of Ethereum VM, a blockchain runtime, not an OS component or privileged interface.",
+    "evidence": "a differential testing framework for EVM, which takes advantage of LLMs and static analysis methods"
+  },
+  {
+    "id": "R04555",
+    "decision": "EXCLUDE",
+    "reason": "Hardware-induced corruption in LLM training; no OS security analysis.",
+    "evidence": "When Silicon Fails Silently: Characterizing Hardware-Induced Corruption in LLM Training"
+  },
+  {
+    "id": "R04556",
+    "decision": "EXCLUDE",
+    "reason": "Metamorphic testing of multi-agent LLM systems; no security/OS target.",
+    "evidence": "Metamorphic Testing of Multi-Agent LLM Systems: A Trace-Based Behavioral Oracle Framework"
+  },
+  {
+    "id": "R04557",
+    "decision": "EXCLUDE",
+    "reason": "Database system testing; no LLM or security/OS evidence.",
+    "evidence": "Scaling Automated Database System Testing"
+  },
+  {
+    "id": "R04558",
+    "decision": "EXCLUDE",
+    "reason": "Financial market simulation; no security/OS target.",
+    "evidence": "Can Large Language Models Trade? Testing Financial Theories with LLM Agents in Market Simulations"
+  },
+  {
+    "id": "R04559",
+    "decision": "EXCLUDE",
+    "reason": "AUTOSAR OS conformance testing; no LLM or security outcome.",
+    "evidence": "Decision Table-based Conformance Testing Research of AUTOSAR Operating System"
+  },
+  {
+    "id": "R04560",
+    "decision": "EXCLUDE",
+    "reason": "HVAC control study; no security/OS target.",
+    "evidence": "Development of Operating Strategies for Return Fan in HVAC System Considering Differential Pressure"
+  }
+]

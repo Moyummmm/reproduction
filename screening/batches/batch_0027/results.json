@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01081",
+    "decision": "EXCLUDE",
+    "reason": "LLM is used for stock-trading reinforcement learning; no security task or OS target.",
+    "evidence": "LLM-augmented reinforcement learning for stock trading"
+  },
+  {
+    "id": "R01082",
+    "decision": "EXCLUDE",
+    "reason": "LLM query expansion for dense retrieval; no security or OS component.",
+    "evidence": "LLM-Based Query Expansion with Gaussian Kernel Semantic Enhancement for Dense Retrieval"
+  },
+  {
+    "id": "R01083",
+    "decision": "UNCLEAR",
+    "reason": "Kernel error-handling bug detection is potentially relevant, but the missing abstract does not establish an LLM role.",
+    "evidence": "Detecting Error-Handling Bugs in the Linux Kernel Through Systematic Static Analysis"
+  },
+  {
+    "id": "R01084",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Combines LLM semantic reasoning with static analysis to detect missing-check vulnerabilities in the Linux kernel.",
+    "evidence": "combines static analysis with LLM-based semantic reasoning for missing-check bug detection"
+  },
+  {
+    "id": "R01085",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted error-specification inference is evaluated on general systems code, not OS components, and no security outcome is established.",
+    "evidence": "real-world benchmarks such as Apache HTTPD and MbedTLS"
+  },
+  {
+    "id": "R01086",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based Android malware analysis is security-relevant, but the missing abstract does not establish analysis of OS components or privileged interfaces.",
+    "evidence": "Fine Tuned LLM for Static Android Malware Analysis Report"
+  },
+  {
+    "id": "R01087",
+    "decision": "EXCLUDE",
+    "reason": "General secure-software DevSecOps framework; no OS component or privileged-interface target.",
+    "evidence": "LLM-driven DevSecOps framework"
+  },
+  {
+    "id": "R01088",
+    "decision": "EXCLUDE",
+    "reason": "Random Forest analysis of LLM survey metadata; no security or OS task.",
+    "evidence": "analyzing metadata from survey papers on large language models"
+  },
+  {
+    "id": "R01089",
+    "decision": "EXCLUDE",
+    "reason": "LLM acceleration and kernel-mapping performance work; no security outcome.",
+    "evidence": "Efficient Kernel Mapping and Comprehensive System Evaluation of LLM Acceleration"
+  },
+  {
+    "id": "R01090",
+    "decision": "EXCLUDE",
+    "reason": "LLM-guided kernel scheduling for efficiency; no security analysis or OS security target.",
+    "evidence": "Efficient Fused Kernel Scheduling"
+  },
+  {
+    "id": "R01091",
+    "decision": "EXCLUDE",
+    "reason": "LLM-agent memory extraction; no security or OS focus.",
+    "evidence": "Proactive Memory Extraction for LLM Agents"
+  },
+  {
+    "id": "R01092",
+    "decision": "EXCLUDE",
+    "reason": "LLM-generated adversarial smart contracts target blockchain, not OS components or privileged interfaces.",
+    "evidence": "Generating Adversarial Smart Contracts to Exploit Reentrancy Vulnerabilities"
+  },
+  {
+    "id": "R01093",
+    "decision": "EXCLUDE",
+    "reason": "Self-evolving LLM tool agents; no security or OS task.",
+    "evidence": "Self-Evolving LLM Tool Agents via Continual Documentation Adaptation"
+  },
+  {
+    "id": "R01094",
+    "decision": "EXCLUDE",
+    "reason": "Verification targets data-pipeline leakage and quality faults, not OS security components.",
+    "evidence": "Leakage and Data-Quality Faults"
+  },
+  {
+    "id": "R01095",
+    "decision": "EXCLUDE",
+    "reason": "LLM inference pruning and serving efficiency; no security outcome.",
+    "evidence": "Unified Static-Dynamic Pruning for Efficient LLM Inference"
+  },
+  {
+    "id": "R01096",
+    "decision": "EXCLUDE",
+    "reason": "GEMM kernel optimization for LLM serving; no security outcome.",
+    "evidence": "Hardware-Efficient W4A8 GEMM Kernel for High-Performance LLM Serving"
+  },
+  {
+    "id": "R01097",
+    "decision": "EXCLUDE",
+    "reason": "LLM policy reinforcement learning for recommendation; no security or OS task.",
+    "evidence": "Imitation-Enhanced Reinforcement Learning for Recommendation"
+  },
+  {
+    "id": "R01098",
+    "decision": "EXCLUDE",
+    "reason": "PHP web-application vulnerability detection; outside OS components and privileged interfaces.",
+    "evidence": "identify security weaknesses in PHP web applications"
+  },
+  {
+    "id": "R01099",
+    "decision": "UNCLEAR",
+    "reason": "Linux syscall capability mapping is potentially relevant, but the missing abstract does not establish an LLM role.",
+    "evidence": "Mapping the Capabilities Required for Linux Kernel Defined System Calls"
+  },
+  {
+    "id": "R01100",
+    "decision": "EXCLUDE",
+    "reason": "Static analysis of LLM-assisted PHP applications; the LLM is the code source, not the security analysis method, and the target is not OS.",
+    "evidence": "detect security vulnerabilities in student-developed PHP code"
+  },
+  {
+    "id": "R01101",
+    "decision": "EXCLUDE",
+    "reason": "LLM agent repairs Python vulnerabilities; general software, not OS components.",
+    "evidence": "Automated Python Static Vulnerability Repair"
+  },
+  {
+    "id": "R01102",
+    "decision": "EXCLUDE",
+    "reason": "Local-LLM vulnerability detection for general open-source software; no OS-specific target.",
+    "evidence": "Vulnerability Detection and Mitigation Guidance in Open-Source Software"
+  },
+  {
+    "id": "R01103",
+    "decision": "EXCLUDE",
+    "reason": "Scalability analysis of LLM endpoints; no security or OS task.",
+    "evidence": "Program Scalability Analysis for LLM Endpoints"
+  },
+  {
+    "id": "R01104",
+    "decision": "EXCLUDE",
+    "reason": "Kernel sampling for LLM reasoning; an ML method with no security outcome.",
+    "evidence": "Confidence-Guided Kernel Sampling with Multi-Stage Aggregation for LLM Reasoning"
+  },
+  {
+    "id": "R01105",
+    "decision": "EXCLUDE",
+    "reason": "Semantic-kernel orchestration of LLM agents; no security or OS task.",
+    "evidence": "Semantic Kernel Usage for Orchestration of Multi-Agent LLM-Based Systems"
+  },
+  {
+    "id": "R01106",
+    "decision": "EXCLUDE",
+    "reason": "Reproducing-kernel Hilbert space mathematics; no security, LLM, or OS component.",
+    "evidence": "n-Best kernel approximation in reproducing kernel Hilbert spaces"
+  },
+  {
+    "id": "R01107",
+    "decision": "EXCLUDE",
+    "reason": "Mixed-precision quantization for LLM compression; no security outcome.",
+    "evidence": "Rethinking Static Mixed-Precision for Near-Lossless LLM Compression"
+  },
+  {
+    "id": "R01108",
+    "decision": "EXCLUDE",
+    "reason": "Classification of LLM survey data; no security or OS task.",
+    "evidence": "Trends and Classification Performance in LLM Survey Data Analysis"
+  },
+  {
+    "id": "R01109",
+    "decision": "EXCLUDE",
+    "reason": "Survey and taxonomy of healthcare LLM agents; surveys are outside the core empirical set and no OS security target is present.",
+    "evidence": "Taxonomy and Survey of Self-Evolving LLM Agents for Healthcare"
+  },
+  {
+    "id": "R01110",
+    "decision": "EXCLUDE",
+    "reason": "Kernel-level DVFS energy measurement for LLM operations; OS engineering without a security outcome.",
+    "evidence": "Evidence from Kernel-Level DVFS"
+  },
+  {
+    "id": "R01111",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted concurrency bug detection evaluated on general concurrency datasets, not OS components.",
+    "evidence": "DataRaceBench, the concurrency subset of Juliet, and DeepRace"
+  },
+  {
+    "id": "R01112",
+    "decision": "UNCLEAR",
+    "reason": "LLM interpretation of intrusion-detection data is security-relevant, but the missing abstract does not establish an OS-component target.",
+    "evidence": "Exploring Prompt and Model Variability in Large Language Model Interpretations of Intrusion Detection Data"
+  },
+  {
+    "id": "R01113",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based bug detection with data-flow; general software bug finding with no OS target.",
+    "evidence": "Sanitizing Large Language Models in Bug Detection with Data-Flow"
+  },
+  {
+    "id": "R01114",
+    "decision": "EXCLUDE",
+    "reason": "Cyberbullying detection with LLMs; not a security analysis of OS components.",
+    "evidence": "Use of Large Language Model for Cyberbullying Detection"
+  },
+  {
+    "id": "R01115",
+    "decision": "EXCLUDE",
+    "reason": "Meta-agentic LLM framework for general software bug detection; no OS-specific security target.",
+    "evidence": "Meta-agentic Framework for Software bug detection using Large Language Models"
+  },
+  {
+    "id": "R01116",
+    "decision": "EXCLUDE",
+    "reason": "Duplicate bug-report detection; no security analysis or OS component focus.",
+    "evidence": "Automated Duplicate Bug Report Detection in Large Open Bug Repositories"
+  },
+  {
+    "id": "R01117",
+    "decision": "EXCLUDE",
+    "reason": "Bug triage with a pre-trained language model; no security or OS task.",
+    "evidence": "A Light Bug Triage Framework for Applying Large Pre-trained Language Model"
+  },
+  {
+    "id": "R01118",
+    "decision": "EXCLUDE",
+    "reason": "Phishing email detection; security-adjacent but not targeting OS components or privileged interfaces.",
+    "evidence": "An Explainable Transformer-Based Model for Phishing Email Detection"
+  },
+  {
+    "id": "R01119",
+    "decision": "EXCLUDE",
+    "reason": "Software defect prediction framework; general software engineering with no OS security target.",
+    "evidence": "A Large Language Model Framework for Early Software Bug Prediction in Software Engineering"
+  },
+  {
+    "id": "R01120",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted fuzzing of quantum chemistry software; not OS components or privileged interfaces.",
+    "evidence": "Large Language Models-Assisted Fuzzing for Quantum Chemistry Software Bug Detection"
+  }
+]

@@ -1,0 +1,52 @@
+Historical query formulations reproduced from the manuscript. Their original database-specific execution details, dates, and results are not established.
+
+/* General Code & System Reasoning */
+("LLM" OR "Large Language Model" OR "Transformer") 
+  AND ("Operating System Security" OR "OS Security")
+("LLM" OR "Large Language Model") AND "System Security"
+("LLM Agent" OR "Autonomous Agent") AND "OS Security"
+
+/* Kernel Security & Fuzzing */
+("Operating System" OR "OS Kernel" OR "RTOS" OR "Firmware") 
+  AND ("Fuzzing" OR "Fuzzer" OR "Testing") 
+  AND ("LLM" OR "Machine Learning")
+("LLM" OR "Large Language Model") 
+  AND "Specification Inference" AND "System Calls"
+("LLM" OR "Large Language Model") 
+  AND "Driver Fuzzing" AND "Constraint Solving"
+
+/* Vulnerability Detection & Static Analysis */
+("LLM" OR "Large Language Model") AND "Vulnerability" 
+  AND ("Detection" OR "Localization" OR "Assessment") 
+  AND ("OS" OR "Linux" OR "Kernel") 
+("LLM" OR "Large Language Model") AND "Static Analysis" 
+  AND "OS"
+("LLM" OR "Large Language Model") 
+  AND ("Data-Flow" OR "Control-Flow" OR "Inter-Procedural") 
+  AND ("OS" OR "Linux" OR "Kernel")
+
+/* Automated Exploit Generation & Patching */
+("Large Language Model" OR "LLM") 
+  AND "Exploit Generation" AND "Kernel"
+("LLM" OR "Large Language Model") 
+  AND "Automated Program Repair" 
+  AND "Security Patches" AND "Linux Kernel"
+("LLM Agent") AND "Iterative Vulnerability Repair" 
+  AND "Validation Feedback"
+
+/* System Architecture & Verification */
+("LLM" OR "Large Language Model") 
+  AND "Formal Verification" AND "Kernel"
+("Trusted Execution Environment" OR "TEE" 
+  OR "Hardware Isolation") AND "LLM"
+("eBPF" OR "Network") AND "Security Analysis" 
+  AND "Large Language Model"
+
+/* Adversarial Robustness & Model Side-Channels */
+("LLM" OR "Large Language Model") 
+  AND ("Internal State" OR "Privacy") 
+  AND "Input Inversion" AND "Kernel"
+("LLM" OR "Large Language Model") 
+  AND "Timing Side Channel" AND "Shared Cache"
+("LLM" OR "Large Language Model") AND "System Call" 
+  AND "OS"

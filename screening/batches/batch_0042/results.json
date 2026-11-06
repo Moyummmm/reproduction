@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01681",
+    "decision": "EXCLUDE",
+    "reason": "General-purpose LLM model paper; no security analysis or OS component target.",
+    "evidence": "A High-performance and Low-energy-consumption Large Language Model"
+  },
+  {
+    "id": "R01682",
+    "decision": "EXCLUDE",
+    "reason": "Studies jailbreak vulnerability of a health LLM, which is LLM safety rather than OS security.",
+    "evidence": "vulnerability of a health LLM for jailbreaking across 3 languages"
+  },
+  {
+    "id": "R01683",
+    "decision": "EXCLUDE",
+    "reason": "Monthly report, not original empirical security research on OS components.",
+    "evidence": "LLM Monthly Report (2024 Apr)"
+  },
+  {
+    "id": "R01684",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based ABAC policy synthesis may concern security policy, but the missing abstract leaves the OS target and evaluation unclear.",
+    "evidence": "LLM-based ABAC Policy Synthesis from Unstructured Text"
+  },
+  {
+    "id": "R01685",
+    "decision": "EXCLUDE",
+    "reason": "Bias correction and data synthesis; no security analysis or OS component target.",
+    "evidence": "Bias Correction and Data Synthesis through Reflective LLM Collaboration"
+  },
+  {
+    "id": "R01686",
+    "decision": "EXCLUDE",
+    "reason": "LLM explanations for EDA synthesis errors; electronic design, not OS security.",
+    "evidence": "LLM-aided explanations of EDA synthesis errors"
+  },
+  {
+    "id": "R01687",
+    "decision": "EXCLUDE",
+    "reason": "Hardware HLS/HDL generation and repair; no security analysis of OS components.",
+    "evidence": "LLM-Based Agentic High-Level Synthesis and HDL Circuit Generation"
+  },
+  {
+    "id": "R01688",
+    "decision": "EXCLUDE",
+    "reason": "Automotive driver risk perception, not OS driver or security analysis.",
+    "evidence": "Enhancing Driver Perception of Potential Risks With LLM and HUD"
+  },
+  {
+    "id": "R01689",
+    "decision": "EXCLUDE",
+    "reason": "Driver licensing knowledge-test validity; not OS security research.",
+    "evidence": "Assessing the Cognitive and Content Validity of the Driver Licensing Knowledge Test"
+  },
+  {
+    "id": "R01690",
+    "decision": "EXCLUDE",
+    "reason": "Synthesis of fake-news detection approaches, not OS security; appears to be a review.",
+    "evidence": "A Synthesis of Approaches and Future Directions"
+  },
+  {
+    "id": "R01691",
+    "decision": "EXCLUDE",
+    "reason": "Low-code/no-code game scripting; general software synthesis, not OS security.",
+    "evidence": "LLM Guided Low Code/No Code Synthesis: Visual Scripting for Games"
+  },
+  {
+    "id": "R01692",
+    "decision": "EXCLUDE",
+    "reason": "LLM fuzz-driver generation for library APIs, not OS components or privileged interfaces.",
+    "evidence": "LLM-Driven Incremental Fuzz Driver Generation for Library APIs"
+  },
+  {
+    "id": "R01693",
+    "decision": "EXCLUDE",
+    "reason": "SVRF code synthesis is semiconductor verification, not OS security.",
+    "evidence": "An AST-guided LLM Approach for SVRF Code Synthesis"
+  },
+  {
+    "id": "R01694",
+    "decision": "EXCLUDE",
+    "reason": "VANET fog-computing scheduling; abstract shows no LLM use and no OS component security.",
+    "evidence": "a priority-based fog computing model designed to mitigate delay and latency challenges in connected vehicles"
+  },
+  {
+    "id": "R01695",
+    "decision": "EXCLUDE",
+    "reason": "LLM voice warnings in driver monitoring; automotive UX, not OS security.",
+    "evidence": "LLM-Generated Explainable Voice Warnings on User Experience in Driver Monitoring Systems"
+  },
+  {
+    "id": "R01696",
+    "decision": "EXCLUDE",
+    "reason": "Synthesis of driver mileage and accident evidence; no LLM or OS security.",
+    "evidence": "The relationship between driver mileage and accident involvement has been a controversial topic for at least 20 years."
+  },
+  {
+    "id": "R01697",
+    "decision": "EXCLUDE",
+    "reason": "Automotive driving-style alignment for an LLM driver agent; not OS security.",
+    "evidence": "Driving Style Alignment for LLM-powered Driver Agent"
+  },
+  {
+    "id": "R01698",
+    "decision": "EXCLUDE",
+    "reason": "Biology review on synaptic protein synthesis; not LLM or OS security.",
+    "evidence": "Local protein synthesis at synapses: a driver for synapse diversification"
+  },
+  {
+    "id": "R01699",
+    "decision": "EXCLUDE",
+    "reason": "Chemistry synthesis paper; no LLM or OS security analysis.",
+    "evidence": "Synthesis of Nitroso, Nitro, and Related Compounds"
+  },
+  {
+    "id": "R01700",
+    "decision": "UNCLEAR",
+    "reason": "Title addresses OS driver-isolation threats, but the missing abstract leaves any LLM role and security evaluation unclear.",
+    "evidence": "Beyond Driver Isolation - Triaging Threats against Driver Isolation"
+  },
+  {
+    "id": "R01701",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted materials literature curation; no security or OS component analysis.",
+    "evidence": "Context-Alignment Failures in LLM-Assisted Quantum Dot Synthesis Literature Curation"
+  },
+  {
+    "id": "R01702",
+    "decision": "EXCLUDE",
+    "reason": "General LLM-based program repair; no security task or OS component target stated.",
+    "evidence": "Evaluating Symbolic Feedback Granularity for LLM-Based Program Repair"
+  },
+  {
+    "id": "R01703",
+    "decision": "EXCLUDE",
+    "reason": "Memorization in general LLM program repair; no OS security target.",
+    "evidence": "Memorization in LLM-Based Program Repair"
+  },
+  {
+    "id": "R01704",
+    "decision": "EXCLUDE",
+    "reason": "General LLM program repair using patch retrieval; no OS security target.",
+    "evidence": "Context-Aware LLM-Based Program Repair Enhanced by Historical Patch Retrieval"
+  },
+  {
+    "id": "R01705",
+    "decision": "EXCLUDE",
+    "reason": "LLM post-training data construction and repair; no security analysis of OS components.",
+    "evidence": "Source Loss and Repair in Tool-Augmented LLM Post-Training"
+  },
+  {
+    "id": "R01706",
+    "decision": "EXCLUDE",
+    "reason": "LLM self-debugging on Python benchmarks; general code repair, not OS security.",
+    "evidence": "Inducing Code Change in LLM Self-Debugging: Effects on Program Repair"
+  },
+  {
+    "id": "R01707",
+    "decision": "EXCLUDE",
+    "reason": "Repair of SysML models, not OS components or security analysis.",
+    "evidence": "Towards LLM-Based repair of SysML®v2 models"
+  },
+  {
+    "id": "R01708",
+    "decision": "EXCLUDE",
+    "reason": "Test-repair study on general repository defects; no OS component or security outcome.",
+    "evidence": "When Does LLM Test Repair Destroy Bug-Revealing Tests?"
+  },
+  {
+    "id": "R01709",
+    "decision": "EXCLUDE",
+    "reason": "Cancer genomics paper; no LLM or OS security analysis.",
+    "evidence": "Endogenous base damage as a driver of genomic instability in homologous recombination-deficient cancers"
+  },
+  {
+    "id": "R01710",
+    "decision": "EXCLUDE",
+    "reason": "General LLM program-repair artifact tracing; no OS security target.",
+    "evidence": "Externalizing Requirement-to-Repair Artifacts as Observable Traces for LLM-Based Program Repair"
+  },
+  {
+    "id": "R01711",
+    "decision": "EXCLUDE",
+    "reason": "Verilog hardware repair, not OS component security.",
+    "evidence": "Adding Context to LLM-Guided Verilog Repair"
+  },
+  {
+    "id": "R01712",
+    "decision": "EXCLUDE",
+    "reason": "Test-driven repair on QuixBugs algorithmic programs; general software, not OS security.",
+    "evidence": "Verifiable Automated Program Repair on QuixBugs"
+  },
+  {
+    "id": "R01713",
+    "decision": "EXCLUDE",
+    "reason": "Vulnerability repair is security-related, but the abstract targets general code/SecurityEval tasks, not OS components.",
+    "evidence": "LLM-based pipelines can generate, analyze, and repair code"
+  },
+  {
+    "id": "R01714",
+    "decision": "EXCLUDE",
+    "reason": "RL-guided general LLM code repair; no security task or OS component target.",
+    "evidence": "Diagnosing Candidate Quality Bottlenecks in RL-Guided LLM Code Repair"
+  },
+  {
+    "id": "R01715",
+    "decision": "EXCLUDE",
+    "reason": "Conversational LLM repair study; no security analysis or OS component target.",
+    "evidence": "Conversational LLM-Based Repair"
+  },
+  {
+    "id": "R01716",
+    "decision": "EXCLUDE",
+    "reason": "Taxonomy of conversational repair in human-AI interaction, not program repair or OS security.",
+    "evidence": "A Taxonomy of Repair Strategies by Users and LLM-Based Conversational Agents"
+  },
+  {
+    "id": "R01717",
+    "decision": "EXCLUDE",
+    "reason": "Factual repair of RAG answers; no security analysis of OS components.",
+    "evidence": "Evidence-Bound Factual Repair in Retrieval-Augmented LLM Answers"
+  },
+  {
+    "id": "R01718",
+    "decision": "EXCLUDE",
+    "reason": "General evaluation of LLM repair under prompts; no OS security target stated.",
+    "evidence": "Evaluating the Repair Ability of LLM Under Different Prompt Settings"
+  },
+  {
+    "id": "R01719",
+    "decision": "EXCLUDE",
+    "reason": "General automated program repair architecture; no OS security target.",
+    "evidence": "A Cognitive Architecture for LLM-Based Automated Program Repair"
+  },
+  {
+    "id": "R01720",
+    "decision": "EXCLUDE",
+    "reason": "LLM fairness repair auditing; not OS component security.",
+    "evidence": "Tamper-Evident Auditing for LLM Fairness Repair"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "R05186",
+    "os_target": "unknown",
+    "llm_role": "unknown",
+    "security_task": "unknown",
+    "evidence": "This study examines how formal methods are applied to quantum circuit verification.",
+    "suggested": "unclear",
+    "uncertainty": "The abstract concerns quantum-circuit formal verification and does not establish an OS component, LLM role, or security task."
+  },
+  {
+    "id": "R05282",
+    "os_target": "unknown",
+    "llm_role": "LLM inference workload",
+    "security_task": "unknown",
+    "evidence": "Large Language Model (LLM) inference presents a unique scheduling challenge due to the Key-Value (KV) cache",
+    "suggested": "unclear",
+    "uncertainty": "The work schedules LLM inference but names no OS component or security task."
+  },
+  {
+    "id": "R05292",
+    "os_target": "unknown",
+    "llm_role": "multi-model LLM inference serving",
+    "security_task": "unknown",
+    "evidence": "We present VPID (VIRTUAL PROCESSING-IN-DISK), a novel architecture",
+    "suggested": "unclear",
+    "uncertainty": "NVMe storage and memory tiering are described, but no OS component or security task is established."
+  },
+  {
+    "id": "R05330",
+    "os_target": "unknown",
+    "llm_role": "NL-to-CTL specification generator",
+    "security_task": "cybersecurity case-study validation",
+    "evidence": "The framework combines neural structured generation with symbolic verifier feedback to produce NuSMV-ready Computation Tree Logic (CTL) formulas",
+    "suggested": "adjacent",
+    "uncertainty": "Security appears only as a case study; no OS component or privileged interface is named."
+  },
+  {
+    "id": "R05366",
+    "os_target": "unknown",
+    "llm_role": "offensive-security agent and LLM judge",
+    "security_task": "CTF offensive security",
+    "evidence": "Recent advances in LLM agentic systems have improved the automation of offensive security tasks, particularly for Capture the Flag (CTF) challenges.",
+    "suggested": "adjacent",
+    "uncertainty": "CTF categories are listed, but no specific OS component or privileged interface is established."
+  },
+  {
+    "id": "R05451",
+    "os_target": "unknown",
+    "llm_role": "multi-agent code generation and vulnerability repair",
+    "security_task": "secure code generation and vulnerability auditing",
+    "evidence": "SafeCodeRL models code generation as a security-aware sequential decision process, where Planner, Code, Security, Test, and Critic agents jointly optimize task decomposition, code synthesis, vulnerability auditing, and sandbox-based validation.",
+    "suggested": "adjacent",
+    "uncertainty": "IoT/CPS software and edge services are mentioned, but no specific OS component or privileged interface is established."
+  },
+  {
+    "id": "R05462",
+    "os_target": "unknown",
+    "llm_role": "multi-agent LLM differentiation",
+    "security_task": "unknown",
+    "evidence": "We propose Agora, a framework that differentiates agents through six continuous drives",
+    "suggested": "unclear",
+    "uncertainty": "The abstract addresses multi-agent LLM design and names no OS component or security task."
+  },
+  {
+    "id": "R05485",
+    "os_target": "unknown",
+    "llm_role": "LLM-based agents in a multi-agent detector",
+    "security_task": "insider attack detection",
+    "evidence": "The paper considers the problem of detecting insider attacks using intelligent agents.",
+    "suggested": "adjacent",
+    "uncertainty": "Computer systems and SOCs are mentioned, but no specific OS component or privileged interface is identified."
+  },
+  {
+    "id": "R05530",
+    "os_target": "unknown",
+    "llm_role": "agentic AI across enterprise applications",
+    "security_task": "governance, compliance, auditability, and RBAC",
+    "evidence": "Oracle AI: Agentic AI and Enterprise Applications Transforming Cloud ERP, Financial Systems, and Compliance Through Autonomous Multi-Agent Architectures",
+    "suggested": "adjacent",
+    "uncertainty": "Cloud ERP and database platforms are discussed, but no OS component or privileged interface is established."
+  },
+  {
+    "id": "R05620",
+    "os_target": "unknown",
+    "llm_role": "LLM-generated SQL",
+    "security_task": "prompt injection defense and RBAC",
+    "evidence": "This paper proposes SecureMCP, a policy-enforced framework that integrates Role-Based Access Control (RBAC) with an MCP server to establish multi-layer defense for LLM-generated SQL execution.",
+    "suggested": "adjacent",
+    "uncertainty": "MCP server is an application interface; the abstract does not establish it as an OS component or privileged OS interface."
+  },
+  {
+    "id": "R05641",
+    "os_target": "unknown",
+    "llm_role": "security recommendation generator",
+    "security_task": "prompt-induced bias in security advice",
+    "evidence": "This study explores how prompt phrasing influences the securityrecommendations produced by large language models.",
+    "suggested": "adjacent",
+    "uncertainty": "No OS component or privileged interface is described."
+  },
+  {
+    "id": "R05712",
+    "os_target": "unknown",
+    "llm_role": "literature screening assessor and ranker",
+    "security_task": "unknown",
+    "evidence": "This study examines the application of a large language model (LLM) as an assessor for screening prioritisation in climate-sensitive zoonotic disease research.",
+    "suggested": "unclear",
+    "uncertainty": "The abstract concerns disease-model literature review and does not establish an OS component or security task."
+  },
+  {
+    "id": "R05722",
+    "os_target": "unknown",
+    "llm_role": "literature screening ranking assistant",
+    "security_task": "unknown",
+    "evidence": "This paper focuses on leveraging large language models (LLMs) to assist in the initial selection and ranking of primary studies",
+    "suggested": "unclear",
+    "uncertainty": "The abstract concerns zoonotic disease literature review and does not establish an OS component or security task."
+  },
+  {
+    "id": "R05880",
+    "os_target": "unknown",
+    "llm_role": "security assistant and vulnerable-system simulator",
+    "security_task": "cybersecurity best-practice advice and vulnerable IoT simulation",
+    "evidence": "The first one is a security assistant that helps with cybersecurity best practices advices.",
+    "suggested": "adjacent",
+    "uncertainty": "An IoT system is discussed, but no specific OS component or privileged interface is named."
+  },
+  {
+    "id": "R05931",
+    "os_target": "unknown",
+    "llm_role": "cybersecurity log classifier and explainer",
+    "security_task": "threat and vulnerability detection",
+    "evidence": "This paper investigates the application of Large Language Models (LLMs), specifically qwen2.5:7b, gemma3:4b, llama3.2:3b, qwen3:8b and qwen2.5:32b to cybersecurity log classification",
+    "suggested": "adjacent",
+    "uncertainty": "Cybersecurity logs are analyzed, but no specific OS component or privileged interface is established."
+  },
+  {
+    "id": "R06009",
+    "os_target": "OS kernel",
+    "llm_role": "LLM-guided mutation and test-case generation",
+    "security_task": "kernel direct fuzzing and vulnerability discovery",
+    "evidence": "This paper introduces SyzAgent, a framework that integrates LLMs with the state-of-the-art kernel fuzzer Syzkaller, where the LLMs are used to guide the mutation and generation of test cases in real-time.",
+    "suggested": "possible_core",
+    "uncertainty": "The abstract names the kernel and Syzkaller but does not identify a specific OS."
+  },
+  {
+    "id": "R06010",
+    "os_target": "Linux kernel",
+    "llm_role": "LLM agent synthesizing a fuzzing harness",
+    "security_task": "patch-based kernel vulnerability reproduction",
+    "evidence": "Given a patch, SyzHarness uses an LLM agent grounded by code navigation tools to synthesize a parameterized fuzzing harness",
+    "suggested": "possible_core",
+    "uncertainty": "Security relevance is tied to reproducing real-world Linux kernel vulnerabilities."
+  },
+  {
+    "id": "R06011",
+    "os_target": "Linux kernel",
+    "llm_role": "LLM-assisted semantic mutation of syscall groups",
+    "security_task": "kernel data race detection",
+    "evidence": "we incorporate LLM-assisted semantic mutation for generating diverse syscall groups",
+    "suggested": "possible_core",
+    "uncertainty": "The LLM role is assistive within the fuzzing pipeline, but all three dimensions are present."
+  },
+  {
+    "id": "R06013",
+    "os_target": "Linux kernel",
+    "llm_role": "LLM agents resolving kernel crashes",
+    "security_task": "kernel crash resolution of fuzzer-discovered bugs",
+    "evidence": "we present (i) Live-kBench, an evaluation framework for self-evolving benchmarks that continuously scrapes and evaluates agents on freshly discovered kernel bugs",
+    "suggested": "possible_core",
+    "uncertainty": "The abstract frames the task as crash resolution; security relevance is implied by fuzzer-discovered kernel bugs rather than stated explicitly."
+  },
+  {
+    "id": "R06015",
+    "os_target": "Linux kernel",
+    "llm_role": "execution-guided crash resolution agent",
+    "security_task": "repairing security-sensitive kernel crashes",
+    "evidence": "Fuzzing frameworks like syzkaller have uncovered thousands of Linux kernel crashes, many of which are critical and security-sensitive.",
+    "suggested": "possible_core",
+    "uncertainty": "The abstract explicitly ties the crashes to security sensitivity, though the evaluation is on benchmark bugs."
+  }
+]

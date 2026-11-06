@@ -1,0 +1,182 @@
+[
+  {
+    "id": "R06243",
+    "os_target": "unknown",
+    "llm_role": "LLM-based C-to-Rust translation with iterative feedback-driven refinement",
+    "security_task": "Improve memory safety and semantic equivalence by translating C to Rust and reducing unsafe statements",
+    "evidence": "SmartC2Rust: Iterative, Feedback-Driven C-to-Rust Translation via Large Language Models for Safety and Equivalence. In this paper, we design an automated C-to-Rust translation system, called SmartC2Rust, to segment and convert the C code to Rust with memory safety and semantic equivalence.",
+    "suggested": "adjacent",
+    "uncertainty": "The abstract concerns legacy C code generally; no OS component or privileged interface is named."
+  },
+  {
+    "id": "R06248",
+    "os_target": "unknown",
+    "llm_role": "Autonomous LLM-powered debugging agent that formulates hypotheses, probes runtime memory and execution, and synthesizes patches",
+    "security_task": "Patch severe security vulnerabilities and low-level memory-safety faults",
+    "evidence": "To overcome these limitations, we introduce DebugHarness, an autonomous LLM-powered debugging agent harness that resolves complex vulnerabilities by emulating the interactive debugging practices of human systems engineers.",
+    "suggested": "adjacent",
+    "uncertainty": "A live runtime environment is mentioned, but it is not specified as an OS component or privileged interface."
+  },
+  {
+    "id": "R06256",
+    "os_target": "unknown",
+    "llm_role": "LLM generates constrained, bug-property-guided mitigations with in-prompt debugging knowledge and stepwise validation",
+    "security_task": "Mitigate spatial memory corruption and prevent exploitation by inserting fail-stop guards",
+    "evidence": "Instead of asking an LLM to generate a permanent repair, CodeMechanic reconstructs the violated memory-safety property from the crash, validates the dereferenced pointer and its buffer range, and inserts a local fail-stop guard before the dangerous access.",
+    "suggested": "adjacent",
+    "uncertainty": "The target is program memory-access behavior; no OS component or privileged interface is identified."
+  },
+  {
+    "id": "R06322",
+    "os_target": "unknown",
+    "llm_role": "LLM-based threat modeling using retrieval-augmented generation, in-context learning, and supervised fine-tuning to identify threats, attack techniques, attack paths, and countermeasures",
+    "security_task": "Threat modeling and attack-path identification for transportation cyber-physical systems",
+    "evidence": "TraCR-TMF identifies threats, potential attack techniques, and relevant countermeasures for transportation CPS.",
+    "suggested": "adjacent",
+    "uncertainty": "Transportation CPS is the target domain; no OS component or privileged interface is named."
+  },
+  {
+    "id": "R06358",
+    "os_target": "system logs",
+    "llm_role": "Optimized GPT-2 model for log anomaly detection with structured input and Focal Loss",
+    "security_task": "Detect anomalous events in system logs for cybersecurity defense",
+    "evidence": "Identification of anomalous events within system logs constitutes a pivotal element within the frame- work of cybersecurity defense strategies. The experimental re- sults demonstrate that the optimized GPT-2 model significantly outperforms the unoptimized model in a range of key metrics, including precision, recall, and F1 score.",
+    "suggested": "possible_core",
+    "uncertainty": "System logs are the stated data source, but no specific OS component or privileged interface is named; the core suggestion depends on treating system logs as the OS target."
+  },
+  {
+    "id": "R06359",
+    "os_target": "system logs",
+    "llm_role": "LLM decision support that generates candidate response actions, checks consistency and lookahead, and refines them through in-context learning",
+    "security_task": "Incident response and recovery planning",
+    "evidence": "Our framework integrates the LLM in an iterative loop where it generates candidate actions that are checked for consistency with system constraints and lookahead predictions. Moreover, we apply it to an incident response use case where the goal is to generate a response and recovery plan based on system logs.",
+    "suggested": "possible_core",
+    "uncertainty": "System logs are the input, but no specific OS component or privileged interface is named; the task is security-management planning."
+  },
+  {
+    "id": "R06360",
+    "os_target": "application and system log files",
+    "llm_role": "Sixty fine-tuned language models benchmarked for log analysis",
+    "security_task": "Analyze application and system logs for security",
+    "evidence": "This work explores LLMs with different architectures (BERT, RoBERTa, DistilRoBERTa, GPT-2, and GPT-Neo) that are benchmarked for their capacity to better analyze application and system log files for security.",
+    "suggested": "possible_core",
+    "uncertainty": "This is a benchmark and evaluation study; system logs are data sources, not a specific OS component or privileged interface."
+  },
+  {
+    "id": "R06362",
+    "os_target": "unknown",
+    "llm_role": "Evaluate LLMs' ability to identify security risks from system logs, including supervised fine-tuning and RLVR/GRPO training",
+    "security_task": "Detect security risks in MCP server system logs",
+    "evidence": "we present the first synthetic benchmark for evaluating LLMs' ability to identify security risks from system logs. limited attention has been given to the underlying system logs associated with malicious MCP servers.",
+    "suggested": "adjacent",
+    "uncertainty": "MCP server logs are an external tool-interface artifact; no OS component or privileged interface is established."
+  },
+  {
+    "id": "R06363",
+    "os_target": "system logs",
+    "llm_role": "LLM interprets system logs and is evaluated under adversarial prompt injection",
+    "security_task": "Evade or detect manipulation of LLM-based log interpretation",
+    "evidence": "LLMs are increasingly integrated into Security Operations Center (SOC) workflows, where they support analysts in tasks such as the interpretation of system logs. In particular, attackers can inject contextual information or explicit instructions into log entries in order to influence how malicious activity is interpreted by the model.",
+    "suggested": "adjacent",
+    "uncertainty": "The work targets LLM robustness and protection in SOC log interpretation, not an OS component or privileged interface."
+  },
+  {
+    "id": "R06364",
+    "os_target": "system logs (one of several heterogeneous data sources)",
+    "llm_role": "Multimodal LLM processes heterogeneous data within a federated-learning system",
+    "security_task": "Distributed security threat detection",
+    "evidence": "This paper presents a novel distributed security threat detection system that integrates federated learning with multimodal large language models (LLMs). Our system leverages federated learning to ensure data privacy while employing multimodal LLMs to process heterogeneous data sources including network traffic, system logs, images, and sensor data.",
+    "suggested": "adjacent",
+    "uncertainty": "System logs are only one of several data sources; no specific OS component or privileged interface is named."
+  },
+  {
+    "id": "R06366",
+    "os_target": "system logs and security alerts",
+    "llm_role": "LLM-based domain- and format-agnostic interpretation in an illustrative case study",
+    "security_task": "Interpret attack manifestations for intrusion detection and forensic analysis",
+    "evidence": "Large Language Models enable domain- and format-agnostic interpretation of system logs and security alerts. We further present an illustrative case study utilizing an LLM to process the CAM-LDS.",
+    "suggested": "possible_core",
+    "uncertainty": "LLM use is an illustrative case study rather than the main dataset contribution; system logs are data, not a specific OS component or interface."
+  },
+  {
+    "id": "R06367",
+    "os_target": "security logs (system logs)",
+    "llm_role": "LLM generates executable query code from natural-language security questions grounded in log-format context",
+    "security_task": "Query logs to detect threats and investigate incidents",
+    "evidence": "Security analysts routinely query system logs to detect threats and investigate incidents, but each log source uses its own semi-structured format: logs are cheap to produce, but expensive to use. We present Sieve, a system that generates executable query code from natural-language security questions by grounding a large language model with lightweight, automatically extracted log-format context, requiring only one LLM call per query followed by deterministic execution.",
+    "suggested": "possible_core",
+    "uncertainty": "Security logs are the target data; no specific OS component or privileged interface is named."
+  },
+  {
+    "id": "R06369",
+    "os_target": "edge devices (including system logs)",
+    "llm_role": "LLM in-context learning and lightweight models on edge devices, with LLM servers supporting adaptation",
+    "security_task": "Cyber threat detection and mitigation, including device quarantine",
+    "evidence": "This approach involves the deployment of lightweight machine learning models directly onto edge devices to analyze local data streams, such as network traffic and system logs, in real-time. LLM servers can enable these edge servers to autonomously adapt to evolving threats and attack patterns",
+    "suggested": "adjacent",
+    "uncertainty": "Edge devices are a deployment platform; no specific OS component or privileged interface is established."
+  },
+  {
+    "id": "R06370",
+    "os_target": "system logs",
+    "llm_role": "GPT-Neo fine-tuned with PPO for log anomaly detection",
+    "security_task": "Real-time log anomaly detection for reliability and security",
+    "evidence": "Detecting anomalies in large-scale system logs is critical for the reliability and security of modern computing infrastructure. We present LogNEO, a log anomaly detector built on EleutherAI's GPT-Neo (1.3B parameters) and fine-tuned with a novel partial-credit, exponentially decaying position-aware reward scheme combined with cross-entropy regularisation via Proximal Policy Optimisation (PPO).",
+    "suggested": "possible_core",
+    "uncertainty": "System logs are the data source; no specific OS component or privileged interface is named, and security relevance includes reliability."
+  },
+  {
+    "id": "R06372",
+    "os_target": "system logs and alerts",
+    "llm_role": "End-to-end 14B LLM agent for perception, reasoning, planning, and action",
+    "security_task": "Autonomous network incident response and recovery",
+    "evidence": "we propose to leverage large language models' (LLM) pre-trained security knowledge and in-context learning to create an end-to-end agentic solution for incident response planning. our LLM agent is capable of processing system logs and inferring the underlying network state (perception), updating its conjecture of attack models (reasoning), simulating consequences under different response strategies (planning), and generating an effective response (action).",
+    "suggested": "possible_core",
+    "uncertainty": "System logs are inputs, but no specific OS component or privileged interface is named; the focus is network incident response."
+  },
+  {
+    "id": "R06373",
+    "os_target": "system logs",
+    "llm_role": "LLM-generated semantic embeddings used with an autoencoder for anomaly detection",
+    "security_task": "Advanced persistent threat detection",
+    "evidence": "This paper proposes a novel anomaly detection approach that leverages semantic embeddings generated by Large Language Models (LLMs). The method enhances APT detection by extracting meaningful semantic representations from unstructured system log data.",
+    "suggested": "possible_core",
+    "uncertainty": "System logs are the data source; no specific OS component or privileged interface is named."
+  },
+  {
+    "id": "R06374",
+    "os_target": "SIEM alerts and system logs",
+    "llm_role": "LLM in a SOC pipeline guarded by SIEM decoders and NeMo Guardrails",
+    "security_task": "Defend against indirect prompt injection and log poisoning and ensure pipeline integrity",
+    "evidence": "The integration of Large Language Models (LLMs) into Security Operations Centers (SOCs) streamlines threat intelligence but introduces critical vulnerabilities, notably indirect prompt injection via log poisoning. To address this, we propose a novel neurosymbolic defense-in-depth architecture that ensures end-to-end pipeline integrity.",
+    "suggested": "adjacent",
+    "uncertainty": "The SIEM/SOC pipeline is security infrastructure, not an OS component or privileged interface."
+  },
+  {
+    "id": "R06378",
+    "os_target": "system logs and host telemetry",
+    "llm_role": "Benchmark of frontier LLMs for host-based intrusion detection",
+    "security_task": "Host-based intrusion detection",
+    "evidence": "we present a new benchmark to assess LLMs' capabilities in supporting host-based intrusion detection systems (HIDS). our benchmark unifies three public system log datasets, DARPA-E3, DARPA-E5, and NodLink, and introduces a data construction pipeline that transforms raw host telemetry into LLM-compatible inputs",
+    "suggested": "possible_core",
+    "uncertainty": "This is a benchmark and evaluation study, not an OS-integrated defense; system logs and host telemetry are data sources, not a specific OS component or interface."
+  },
+  {
+    "id": "R06379",
+    "os_target": "audit logs (system-level activities)",
+    "llm_role": "LLM provides explanatory narratives while behavior extraction, a knowledge graph, and graph embeddings support diagnosis",
+    "security_task": "Detect and explain malicious behaviors and unknown attacks",
+    "evidence": "SmartGuard extracts specific behaviors (function level) from incoming system logs and constructs a knowledge graph, divides events by threads, and combines event summaries with graph embeddings to achieve information diagnosis and provide explanatory narratives through large language models.",
+    "suggested": "possible_core",
+    "uncertainty": "The LLM role may be limited to explanatory narratives; audit logs are OS-level data, but no specific component or interface is named."
+  },
+  {
+    "id": "R06380",
+    "os_target": "system logs",
+    "llm_role": "LLM and ML clustering-based chatbot for summarization, pattern extraction, and anomaly detection",
+    "security_task": "Log analysis for breach prevention and incident investigation",
+    "evidence": "this study introduces LLMLogAnalyzer, a clustering-based log analysis chatbot that leverages Large Language Models (LLMs) and Machine Learning (ML) algorithms to simplify and streamline log analysis processes. enabling more effective summarization, pattern extraction, and anomaly detection tasks.",
+    "suggested": "possible_core",
+    "uncertainty": "This is a general log-analysis chatbot; system logs are data, not a specific OS component or privileged interface."
+  }
+]

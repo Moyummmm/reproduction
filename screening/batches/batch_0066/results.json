@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02641",
+    "decision": "UNCLEAR",
+    "reason": "LLM-assisted vulnerability detection is security-relevant, but the OS/privileged target is not explicit and the abstract is missing.",
+    "evidence": "LLM-Assisted Vulnerability Detection for Continuous Integration"
+  },
+  {
+    "id": "R02642",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based malware detection is security-relevant, but the target scope and evaluation are unclear because the abstract is missing.",
+    "evidence": "The Llvm Challenge in Llm-Based Malware Detection"
+  },
+  {
+    "id": "R02643",
+    "decision": "EXCLUDE",
+    "reason": "Anomaly detection for industrial and financial time-series is not an OS security task.",
+    "evidence": "the early detection of equipment and facility conditions in industrial settings"
+  },
+  {
+    "id": "R02644",
+    "decision": "EXCLUDE",
+    "reason": "Content scoring with LLM-generated training data is not a security or OS task.",
+    "evidence": "Overcoming the Cold-Start Problem in Supervised Content Scoring"
+  },
+  {
+    "id": "R02645",
+    "decision": "UNCLEAR",
+    "reason": "Use-after-free prevention is OS security-relevant, but the title does not establish an LLM role and the abstract is missing.",
+    "evidence": "Fast Pointer Nullification for Use-After-Free Prevention"
+  },
+  {
+    "id": "R02646",
+    "decision": "EXCLUDE",
+    "reason": "Distributed LLM inference serving is a performance systems topic without a security outcome.",
+    "evidence": "Stall-Free Distributed Disaggregated LLM Inference"
+  },
+  {
+    "id": "R02647",
+    "decision": "UNCLEAR",
+    "reason": "Use-after-free prevention is OS security-relevant, but the title does not establish an LLM role and the abstract is missing.",
+    "evidence": "Efficient Use-After-Free Prevention with Opportunistic Page-Level Sweeping"
+  },
+  {
+    "id": "R02648",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based documentation translation is not a security or OS task.",
+    "evidence": "Use an LLM to translate help documentation on-the-fly"
+  },
+  {
+    "id": "R02649",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based documentation translation is not a security or OS task.",
+    "evidence": "Use an LLM to translate help documentation on-the-fly"
+  },
+  {
+    "id": "R02650",
+    "decision": "EXCLUDE",
+    "reason": "Evaluating LLM refusal behavior concerns LLM safety, not OS-targeted security analysis.",
+    "evidence": "A Reference-free, Severity-weighted, Dual-axis Metric for Evaluating LLM Refusal Behavior"
+  },
+  {
+    "id": "R02651",
+    "decision": "EXCLUDE",
+    "reason": "LLM-guided diffusion augmentation for object detection is not a security or OS task.",
+    "evidence": "Enhancing few-shot object detection via LLM-Guided diffusion augmentation"
+  },
+  {
+    "id": "R02652",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based malware detection is security-relevant, but the target scope and evaluation are unclear because the abstract is missing.",
+    "evidence": "Malware Detection with LLM"
+  },
+  {
+    "id": "R02653",
+    "decision": "EXCLUDE",
+    "reason": "This is a legal doctrine article, not security or OS research.",
+    "evidence": "Revisiting Use of United States Free Speech Doctrine"
+  },
+  {
+    "id": "R02654",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based APT detection in edge networks is security-relevant, but the OS/privileged target is not explicit and the abstract is missing.",
+    "evidence": "Label-Free Detection Against APTs in Edge Networks via LLM and GCN"
+  },
+  {
+    "id": "R02655",
+    "decision": "EXCLUDE",
+    "reason": "The paper addresses security of LLM agent tool use rather than an OS component or privileged-interface target.",
+    "evidence": "Secure-by-Default Guardrails for MCP-Based Tool Use"
+  },
+  {
+    "id": "R02656",
+    "decision": "EXCLUDE",
+    "reason": "Detecting LLM-generated creative writing is not a security or OS task.",
+    "evidence": "Detection of LLM-Generated Creative Writing"
+  },
+  {
+    "id": "R02657",
+    "decision": "EXCLUDE",
+    "reason": "The study defends LLM applications against prompt injection, which is security of LLMs rather than OS security.",
+    "evidence": "Prompt injection attacks against large language models (LLMs) deployed in production environments"
+  },
+  {
+    "id": "R02658",
+    "decision": "EXCLUDE",
+    "reason": "The target is EV charging infrastructure, not OS components or privileged interfaces.",
+    "evidence": "Cyber Threats in Electric Vehicle Charging Systems"
+  },
+  {
+    "id": "R02659",
+    "decision": "EXCLUDE",
+    "reason": "Physiological stress detection is not a security or OS task.",
+    "evidence": "multimodal physiological signal stress detection for wearable devices"
+  },
+  {
+    "id": "R02660",
+    "decision": "EXCLUDE",
+    "reason": "Hallucination detection in conversational LLM systems is not an OS security task.",
+    "evidence": "Integrating Hallucination Detection Techniques in Llm-Based Conversational Systems"
+  },
+  {
+    "id": "R02661",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based feature selection for seizure detection is not a security or OS task.",
+    "evidence": "Agentic Feature Selection via LLM for Epileptic Seizure Detection"
+  },
+  {
+    "id": "R02662",
+    "decision": "EXCLUDE",
+    "reason": "Hallucination detection in conversational LLM systems is not an OS security task.",
+    "evidence": "Integrating Hallucination Detection Techniques in Llm-Based Conversational Systems"
+  },
+  {
+    "id": "R02663",
+    "decision": "EXCLUDE",
+    "reason": "Stance detection with LLM finetuning is not a security or OS task.",
+    "evidence": "Open Target Stance Detection with LLM Finetuning, Prompting and Evaluation"
+  },
+  {
+    "id": "R02664",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection detection protects LLM pipelines, not OS components or privileged interfaces.",
+    "evidence": "Robust Prompt Injection Detection in LLM Pipelines"
+  },
+  {
+    "id": "R02665",
+    "decision": "EXCLUDE",
+    "reason": "Detecting power-wasters in FPGA netlists is hardware design analysis, not OS security.",
+    "evidence": "Detection of Power-Wasters in Routed FPGA Netlists"
+  },
+  {
+    "id": "R02666",
+    "decision": "EXCLUDE",
+    "reason": "Deployment-time LLM-supervised adaptation is not a security or OS task.",
+    "evidence": "An Audited Study of LLM-Supervised Online Adaptation"
+  },
+  {
+    "id": "R02667",
+    "decision": "EXCLUDE",
+    "reason": "Governed continual improvement for enterprise LLM systems is MLOps, not OS security research.",
+    "evidence": "Governed Continual Improvement for LLM-Backed Enterprise Systems"
+  },
+  {
+    "id": "R02668",
+    "decision": "EXCLUDE",
+    "reason": "LLM-agent comparison for object detection evolution is not a security or OS task.",
+    "evidence": "LLM-Guided Evolution for Object Detection"
+  },
+  {
+    "id": "R02669",
+    "decision": "EXCLUDE",
+    "reason": "Detecting LLM-generated text is not a security or OS task.",
+    "evidence": "Training-Free Detection of LLM-Generated Text via Spectral Analysis"
+  },
+  {
+    "id": "R02670",
+    "decision": "EXCLUDE",
+    "reason": "LLM-augmented entity alignment is not a security or OS task.",
+    "evidence": "Llm-Augmented Entity Alignment"
+  },
+  {
+    "id": "R02671",
+    "decision": "EXCLUDE",
+    "reason": "Foreign-key detection in databases is not a security or OS task.",
+    "evidence": "Multi-Agent LLM Reasoning for Foreign Key Detection in Large-Scale Complex Databases"
+  },
+  {
+    "id": "R02672",
+    "decision": "EXCLUDE",
+    "reason": "Financial-distress sentiment analysis is not a security or OS task.",
+    "evidence": "LLM-based Sentiment Analysis for Financial Distress Detection"
+  },
+  {
+    "id": "R02673",
+    "decision": "EXCLUDE",
+    "reason": "Runtime risk control for AI agents and LLM applications concerns LLM-application security, not OS targets.",
+    "evidence": "Runtime Risk Detection and Control for AI Agents and LLM Applications"
+  },
+  {
+    "id": "R02674",
+    "decision": "UNCLEAR",
+    "reason": "The paper concerns a system-service DoS vulnerability, but the title does not establish an LLM role and the abstract is missing.",
+    "evidence": "Prevention of DoS Attacks on Use-After-Free Vulnerabilities in Mosquitto"
+  },
+  {
+    "id": "R02675",
+    "decision": "EXCLUDE",
+    "reason": "Analysis of evaluative expressions in human and LLM-generated text is not a security or OS task.",
+    "evidence": "Spread and (Mis)use of Evaluative Expressions in Human Written and LLM-Based Generated Text"
+  },
+  {
+    "id": "R02676",
+    "decision": "UNCLEAR",
+    "reason": "The paper targets an IoT operating system security issue, but the title does not establish an LLM role and the abstract is missing.",
+    "evidence": "Analysis of Preventive Measures Against Buffer Overflow Attacks on an IoT Operating System"
+  },
+  {
+    "id": "R02677",
+    "decision": "UNCLEAR",
+    "reason": "The buffer-overflow readiness assessment may be security-relevant, but the LLM role is not explicit and the abstract is missing.",
+    "evidence": "The Buffer Overflow Readiness Inventory System (BORIS): Re-thinking Assessments"
+  },
+  {
+    "id": "R02678",
+    "decision": "UNCLEAR",
+    "reason": "The buffer-overflow readiness assessment may be security-relevant, but the LLM role is not explicit and the abstract is missing.",
+    "evidence": "The Buffer Overflow Readiness Inventory System (Boris): Re-Thinking Assessments"
+  },
+  {
+    "id": "R02679",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based buffer-overflow detection is security-relevant, but the OS/privileged target is not explicit and the abstract is missing.",
+    "evidence": "LLM-Based Approach for Buffer Overflow Detection in Source Code"
+  },
+  {
+    "id": "R02680",
+    "decision": "EXCLUDE",
+    "reason": "The available abstract describes buffer-overflow fundamentals and tools without an LLM role or original LLM-based security research.",
+    "evidence": "The article presents the fundamentals of finding buffer overflow weaknesses"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R05201",
+    "decision": "EXCLUDE",
+    "reason": "Mathematical automated theorem proving with a graph neural network; no security or OS target.",
+    "evidence": "The machine learning component, a graph neural network, is tasked with learning to predict which choices are useful"
+  },
+  {
+    "id": "R05202",
+    "decision": "EXCLUDE",
+    "reason": "Title indicates Lean theorem proving; no security/OS task or LLM role is stated.",
+    "evidence": "Modeling Tactics as Operators: Effect-Grounded Representations for Lean Theorem Proving"
+  },
+  {
+    "id": "R05203",
+    "decision": "EXCLUDE",
+    "reason": "Title-only theorem-proving item; no security/OS or LLM dimension is evident.",
+    "evidence": "Proving Central Theorem 1"
+  },
+  {
+    "id": "R05204",
+    "decision": "EXCLUDE",
+    "reason": "Title-only theorem-proving item; no security/OS or LLM dimension is evident.",
+    "evidence": "Proving Central Theorem 4"
+  },
+  {
+    "id": "R05205",
+    "decision": "EXCLUDE",
+    "reason": "LLM applied to congressional testimony analysis; no security or OS task.",
+    "evidence": "Congressional Witnesses Matter: Proving Witness Testimony Impact Using Large Language Models"
+  },
+  {
+    "id": "R05206",
+    "decision": "EXCLUDE",
+    "reason": "Mathematical proof of Fermat's Last Theorem; no LLM or security/OS task.",
+    "evidence": "Fermat's Last Theorem using elementary mathematics methods"
+  },
+  {
+    "id": "R05207",
+    "decision": "EXCLUDE",
+    "reason": "Geometric/analytic proof of Fermat's Last Theorem; no LLM or security/OS task.",
+    "evidence": "a geometric and analytic reformulation of Fermat’s Last Theorem (FLT)"
+  },
+  {
+    "id": "R05208",
+    "decision": "EXCLUDE",
+    "reason": "Recipe-generation NLG using automated theorem proving; no LLM or security/OS task.",
+    "evidence": "FASTFOOD, a rule-based natural language generation (NLG) program for cooking recipes"
+  },
+  {
+    "id": "R05209",
+    "decision": "EXCLUDE",
+    "reason": "Generic theorem-proving title; no security/OS task or LLM role indicated.",
+    "evidence": "Mechanized Theorem Proving"
+  },
+  {
+    "id": "R05210",
+    "decision": "EXCLUDE",
+    "reason": "LLM fine-tuned for political-science testimony analysis; no security/OS task.",
+    "evidence": "We fine tune a large language model (LLM) to conduct a comprehensive search for high-semantic similarity sentence pairings"
+  },
+  {
+    "id": "R05211",
+    "decision": "EXCLUDE",
+    "reason": "Formal verification of bioinformatics software; no LLM and no OS security target.",
+    "evidence": "Formal verification of bioinformatics software using model checking and theorem proving"
+  },
+  {
+    "id": "R05212",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted automated theorem proving; no security/OS task.",
+    "evidence": "LLM-SYM: Integrating Symbolic Methods and Large Language Models for Automated Theorem Proving"
+  },
+  {
+    "id": "R05213",
+    "decision": "EXCLUDE",
+    "reason": "Survey of geometry theorem proving and neuro-symbolic verification; reviews are excluded and no OS security.",
+    "evidence": "A Survey of LLM-Augmented Verification and Neuro-Symbolic Theorem Proving"
+  },
+  {
+    "id": "R05214",
+    "decision": "EXCLUDE",
+    "reason": "Non-security mathematical/philosophical essay on calculus; no LLM or OS task.",
+    "evidence": "The Fundamental Theorem of Calculus is true because integration is the inverse operation of derivation."
+  },
+  {
+    "id": "R05215",
+    "decision": "EXCLUDE",
+    "reason": "Compiler-guided theorem-proving search; no security/OS task or explicit LLM role.",
+    "evidence": "Compiler-Guided Adaptive Proof Search with Cross-Model Synergy on Context-Dependent Theorem Proving"
+  },
+  {
+    "id": "R05216",
+    "decision": "UNCLEAR",
+    "reason": "Title links interactive theorem proving and security, but missing abstract leaves LLM role and OS target unresolved.",
+    "evidence": "Interactive Theorem Proving and Security"
+  },
+  {
+    "id": "R05217",
+    "decision": "EXCLUDE",
+    "reason": "Abstract concerns logical proof/refutation methodology; no LLM or security/OS task.",
+    "evidence": "Exploring the proofs and refutations of an abstract statement"
+  },
+  {
+    "id": "R05218",
+    "decision": "EXCLUDE",
+    "reason": "Historical/mathematical account of the Prime Number Theorem; no LLM or security/OS task.",
+    "evidence": "Riemann’s plan for proving the Prime Number Theorem"
+  },
+  {
+    "id": "R05219",
+    "decision": "UNCLEAR",
+    "reason": "Title pairs theorem proving with security, but missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "Theorem Proving and Security"
+  },
+  {
+    "id": "R05220",
+    "decision": "EXCLUDE",
+    "reason": "LLM retrieval-augmented Lean theorem proving; no security/OS task.",
+    "evidence": "LeanDojo: Theorem Proving with Retrieval-Augmented Language Models"
+  },
+  {
+    "id": "R05221",
+    "decision": "EXCLUDE",
+    "reason": "Editorial commentary on superhuman theorem proving and AI safety, not original research.",
+    "evidence": "Here are some of my thoughts on the tradeoffs"
+  },
+  {
+    "id": "R05222",
+    "decision": "EXCLUDE",
+    "reason": "Interactive theorem proving in mathematics education; no LLM or security/OS task.",
+    "evidence": "improving students' mathematical proving skills"
+  },
+  {
+    "id": "R05223",
+    "decision": "EXCLUDE",
+    "reason": "Title-only formal payment theorem; no LLM, security, or OS task shown.",
+    "evidence": "Proving the Main Payment Theorem for Hierarchies"
+  },
+  {
+    "id": "R05224",
+    "decision": "UNCLEAR",
+    "reason": "Title pairs theorem proving with security, but missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "Theorem Proving and Security"
+  },
+  {
+    "id": "R05225",
+    "decision": "EXCLUDE",
+    "reason": "Mathematical stability estimates for kernel-based methods; no LLM or security/OS task.",
+    "evidence": "Proving the Stability Estimates of Variational Least-Squares Kernel-Based Methods"
+  },
+  {
+    "id": "R05226",
+    "decision": "EXCLUDE",
+    "reason": "Nonlinear shell-model existence theorem; no LLM or security/OS task.",
+    "evidence": "AN EXISTENCE THEOREM FOR A NONLINEAR SHELL MODEL"
+  },
+  {
+    "id": "R05227",
+    "decision": "EXCLUDE",
+    "reason": "Benchmark for formally verified code generation; no security/OS task or explicit LLM role.",
+    "evidence": "A Benchmark for Formally Verified Code Generation"
+  },
+  {
+    "id": "R05228",
+    "decision": "EXCLUDE",
+    "reason": "Formal theorem-proving search; no security/OS task or explicit LLM role.",
+    "evidence": "Learning to Explore the Crux in Formal Theorem Proving"
+  },
+  {
+    "id": "R05229",
+    "decision": "EXCLUDE",
+    "reason": "LLM plus theorem proving for tax-law legal reasoning; no security/OS task.",
+    "evidence": "applied to legal reasoning for tax law"
+  },
+  {
+    "id": "R05230",
+    "decision": "EXCLUDE",
+    "reason": "LLM plus theorem proving for tax-law legal reasoning; no security/OS task.",
+    "evidence": "applied to legal reasoning for tax law"
+  },
+  {
+    "id": "R05231",
+    "decision": "EXCLUDE",
+    "reason": "Width-based model checking and graph-theoretic theorem proving; no LLM or security/OS task.",
+    "evidence": "From Width-Based Model Checking to Width-Based Automated Theorem Proving"
+  },
+  {
+    "id": "R05232",
+    "decision": "EXCLUDE",
+    "reason": "Automated theorem proving for a group-presentation trivialization; no LLM or security/OS task.",
+    "evidence": "Automated Theorem Proving Reveals a Lengthy Andrews-Curtis Trivialization for a Miller-Schupp Trivial Group Presentation"
+  },
+  {
+    "id": "R05233",
+    "decision": "EXCLUDE",
+    "reason": "Backward-chaining formal theorem prover; no security/OS task or explicit LLM role.",
+    "evidence": "BC-Prover: Backward Chaining Prover for Formal Theorem Proving"
+  },
+  {
+    "id": "R05234",
+    "decision": "EXCLUDE",
+    "reason": "LLM neural theorem proving over Isabelle/HOL; no security/OS task.",
+    "evidence": "Neural Theorem Proving (NTP) employs Large Language Models (LLMs) to automate formal proofs in proof assistants."
+  },
+  {
+    "id": "R05235",
+    "decision": "EXCLUDE",
+    "reason": "Coq/CiC interactive theorem-proving exposition; no LLM or security/OS task.",
+    "evidence": "This paper formally presents the Calculus of Inductive Constructions (CiC)"
+  },
+  {
+    "id": "R05236",
+    "decision": "EXCLUDE",
+    "reason": "Editorial commentary on superhuman theorem proving and AI safety, not original research.",
+    "evidence": "Here are some of my thoughts on the tradeoffs"
+  },
+  {
+    "id": "R05237",
+    "decision": "EXCLUDE",
+    "reason": "Title-only hardware assurance/theorem-proving work; no LLM or OS-security task shown.",
+    "evidence": "Microprocessor Assurance and the Role of Theorem Proving"
+  },
+  {
+    "id": "R05238",
+    "decision": "EXCLUDE",
+    "reason": "Title-only hardware assurance/theorem-proving work; no LLM or OS-security task shown.",
+    "evidence": "Microprocessor Assurance and the Role of Theorem Proving"
+  },
+  {
+    "id": "R05239",
+    "decision": "EXCLUDE",
+    "reason": "Combinatorial binomial-coefficient theorem; no LLM or security/OS task.",
+    "evidence": "A Generalized Method for proving the Theorem derived from the Binomial Coefficients in Combinatorial Geometric Series"
+  },
+  {
+    "id": "R05240",
+    "decision": "EXCLUDE",
+    "reason": "Fault-tree analysis via model checking and theorem proving; no LLM or OS security task.",
+    "evidence": "A Hybrid Model Checking and Theorem Proving based Approach for Fault Tree Analysis"
+  }
+]

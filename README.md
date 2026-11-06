@@ -1,0 +1,54 @@
+# Literature collection and reproducibility materials
+
+This directory is the canonical collection of the survey's reproducibility materials. It can be placed on GitHub either as a directory in a repository or as the root of a separate repository. Search queries, saved results, inventories, screening records, audit notes and supporting scripts are organized in the subdirectories below. A repository URL can be added to the manuscript and reviewer response after the repository has actually been published.
+
+This directory records the available evidence for the retrospective survey and the subsequent exploratory update. The historical search and screening records are incomplete. These files support inspection and partial reproduction; they do not establish an exhaustive search, an independently screened study set, or a final count of unique eligible studies.
+
+## New discovery audit and preliminary screening
+
+- `search_protocol/README.md` describes a separate Crossref top-100 and arXiv search snapshot, exact query logs, hit-to-record mapping, SHA-256 checks and deterministic offline reconstruction. `search_protocol/reporting_checklist.md` maps the documented process and its gaps to PRISMA-S search-reporting topics.
+- `arxiv_pagination/README.md` describes a later paginated refresh of two previously truncated arXiv searches, including the requests, rate-limit interruption and comparison to the frozen snapshot. It is a separate run, with its own time and possible ranking changes.
+- `screening/` holds the frozen protocol, inputs, prompts, raw model outputs, preliminary record-level decisions and subsequent review queues. The two calls for records with available abstracts used separate sessions of the same model, not two human reviewers. Decisions are not final eligibility judgments.
+- `audit/` contains mappings from manuscript citations, targeted source checks, known-study retention checks, and a separately documented Codex review of a stratified sample. This automated audit is not human independent screening.
+- `revision/` contains the citation-to-inventory and citation-to-search mappings for the revised manuscript, source-checked bibliography reports and a manuscript source snapshot for running the current citation audit when this directory is copied independently. It does not overwrite the earlier frozen citation audit. The former appendix source is kept here for reference only and is not part of the current manuscript.
+- `openalex/README.md` records an attempted DOI-based abstract enrichment. The service returned HTTP 429 and reported its anonymous daily allowance exhausted. The attempt retrieved no new abstracts; failed and unattempted requests are not exclusions.
+
+These later search and screening materials are separate from the earlier 225-row candidate workbook described below. Their results do not retroactively reconstruct the historical survey's selection decisions. Raw responses and prompts contain source-provided abstracts; review the data providers' redistribution terms and the PRISMA-S guidance on sharing abstracts before releasing the directory publicly.
+
+## Inventories
+
+- `supplementary_legacy_inventory.csv` (Supplementary Table S2): the 220 records with scores 1–3 (45, 116 and 59 respectively) in the surviving historical archive. These counts match the earlier manuscript, but the submitted supplementary file is unavailable for a record-by-record comparison. The archive has 485 rows; the other 265 rows cannot be treated as verified exclusions.
+- `supplementary_candidate_inventory.csv` (Supplementary Table S1): the later 225-row merged candidate inventory. It contains 130 retained legacy records and 95 additional records. Six further new records were matched to retained records during the original merge. Scores 0, 1, 2 and 3 have 1, 37, 164 and 23 records respectively. Scores indicate preliminary topical fit, not verified eligibility or study quality.
+- `legacy_to_candidate_crosswalk.csv`: all 485 historical rows, their old and revised scores, and documented or provisional links to the later inventory. Absence of a link does not establish an exclusion decision.
+- `potential_duplicate_pairs.csv`: flagged candidate pairs. Consult its status and evidence before treating records as one study.
+- `inventory/build_inventory.py` and `inventory/sources/`: inputs and script used to export the inventories and crosswalk. These reproduce record-level exports from the saved snapshots, not the historical screening decisions.
+- `source_data/`: the 200-record quick-screen input and archived selection/merge scripts. Those scripts preserve their original workspace paths and should be read as provenance, not run directly against this directory.
+
+The 220 and 225 inventories are different record sets, not sequential stages. Their scores use different assessments. A candidate or an old score of 3 does not establish a unique eligible study. Abstract and conclusion summaries have different evidence scopes; see the `证据范围` and source columns for each current record.
+
+## Search snapshot
+
+`search/historical_query_formulations.txt` preserves the 18 historical formulations formerly displayed in the manuscript. These are separate from the 100 later search queries, and their original database-specific execution dates and results are not established.
+
+`google_scholar_queries.csv` contains the 100 original query formulations. Automated Google Scholar requests encountered HTTP 429/CAPTCHA, and were not bypassed. On 5 November 2026, an exploratory Crossref bibliographic search was run instead. Each query requested up to 20 results, with a publication-date lower bound of 2022-01-01. The script removes quotation marks, Boolean operators and parentheses before passing the query to Crossref; its search is not an exact implementation of the original Boolean expressions.
+
+`search/search_metadata.csv` records each original query, timestamp (China Standard Time), outcome and returned count. `search/q001.csv` through `q100.csv` and `search/all_results.csv` preserve the 2,000 returned result rows with query identifiers and ranks. Search results may contain the same work under multiple queries. The top-20 limit, Crossref coverage and ranking, and subsequent quick selection limit recall. Later top-100 Crossref and arXiv searches in the working project were not incorporated into this 225-record inventory.
+
+`search/run_crossref_search.py` records the request parameters and query transformation. To rerun it without overwriting the snapshot, copy `google_scholar_queries.csv` and the `search/` directory into a separate working directory preserving their relative paths, then run `python3 search/run_crossref_search.py` from that copy. It makes network requests and overwrites its local result files. Crossref metadata and ranking change over time, so future results can differ from the saved snapshot.
+
+The 18 saved historical formulations describe earlier search themes; execution dates, database-specific expressions, and returned results for that earlier collection are unavailable. They are not the same logged search as the 100-query update.
+
+## Checking the saved materials
+
+From this directory, run the following commands to verify the saved search and screening file hashes without making network requests:
+
+```sh
+(cd search_protocol && shasum -a 256 -c SHA256SUMS)
+shasum -a 256 -c screening/SHA256SUMS
+```
+
+The `screening/README.md` also describes how to check saved model responses and recompute derived screening files. Those Python checks write their reports and can overwrite derived CSVs, so run them on a copy if those files have been edited. A fresh network search or model call can return different results; the saved snapshot is the basis of the numbers reported here.
+
+For publication, `PUBLIC_EXPORT.md` explains how to create a separate metadata-only copy without overwriting this archive. That copy omits abstracts and raw model responses; its hashes identify omitted files but do not enable their content to be checked or replayed without separately obtaining them.
+
+The revision directory also contains claim_citation_audit.md, which records the parallel technical-claim/citation review, and literature_addendum.csv, which records LLM-CAL and the later-added OpenAI and Anthropic reports separately from the frozen inventory.

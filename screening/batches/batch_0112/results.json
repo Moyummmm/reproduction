@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R04481",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; directed fuzzing is potentially security testing, but LLM role and OS target are unstated.",
+    "evidence": "Multiple Targets Directed Greybox Fuzzing: From Reachable to Exploited"
+  },
+  {
+    "id": "R04482",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; directed hybrid fuzzing could be security testing, but LLM role and OS target are unstated.",
+    "evidence": "HyperGo: Probability-based directed hybrid fuzzing"
+  },
+  {
+    "id": "R04483",
+    "decision": "EXCLUDE",
+    "reason": "Target is smart contracts, outside OS components or privileged interfaces.",
+    "evidence": "directed search for smart contracts"
+  },
+  {
+    "id": "R04484",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; directed fuzzing is potentially relevant, but LLM role and OS target are unstated.",
+    "evidence": "Confidence-Based Directed Greybox Fuzzing for Programs with Unreliable Call Graphs"
+  },
+  {
+    "id": "R04485",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; directed fuzzing is potentially security testing, but LLM role and OS target are unstated.",
+    "evidence": "TRIGFUZZ: Triggering Conditions Guided Directed Fuzzing"
+  },
+  {
+    "id": "R04486",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; directed fuzzing is potentially security testing, but LLM role and OS target are unstated.",
+    "evidence": "Directed fuzzing with variable state diversity"
+  },
+  {
+    "id": "R04487",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; directed fuzzing is potentially relevant, but LLM role and OS target are unstated.",
+    "evidence": "ArgvFuzz: Argv-Sensitive Multi-Target Directed Greybox Fuzzing"
+  },
+  {
+    "id": "R04488",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; directed fuzzing is potentially security testing, but LLM role and OS target are unstated.",
+    "evidence": "LibAFLGo: Evaluating and Advancing Directed Greybox Fuzzing"
+  },
+  {
+    "id": "R04489",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; directed fuzzing is potentially security testing, but LLM role and OS target are unstated.",
+    "evidence": "VDFUZZ: Visual Directed Fuzzer for Understanding and Intervening Fuzzing"
+  },
+  {
+    "id": "R04490",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; directed fuzzing is potentially security testing, but LLM role and OS target are unstated.",
+    "evidence": "BEACON: Directed Grey-Box Fuzzing with Provable Path Pruning"
+  },
+  {
+    "id": "R04491",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; directed fuzzing is potentially security testing, but LLM role and OS target are unstated.",
+    "evidence": "Directed Fuzzing with Adaptive Path Guidance and Weighted Distribution"
+  },
+  {
+    "id": "R04492",
+    "decision": "EXCLUDE",
+    "reason": "LLM study addresses output pathology, not security testing of OS components.",
+    "evidence": "Large language models exhibit pleasing behavior"
+  },
+  {
+    "id": "R04493",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; directed fuzzing is potentially security testing, but LLM role and OS target are unstated.",
+    "evidence": "DDGF: Dynamic Directed Greybox Fuzzing with Path Profiling"
+  },
+  {
+    "id": "R04494",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; directed fuzzing is potentially security testing, but LLM role and OS target are unstated.",
+    "evidence": "Directed Fuzzing Based on Bottleneck Detection"
+  },
+  {
+    "id": "R04495",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; vulnerability-guided fuzzing is potentially relevant, but LLM role and OS target are unstated.",
+    "evidence": "VCDFuzz: A Vulnerability Characteristic Guided Directed Greybox Fuzzing Approach"
+  },
+  {
+    "id": "R04496",
+    "decision": "EXCLUDE",
+    "reason": "Abstract describes conventional directed fuzzing with no LLM use.",
+    "evidence": "Directed grey-box fuzzers focus on testing specific target code."
+  },
+  {
+    "id": "R04497",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; directed fuzzing is potentially security testing, but LLM role and OS target are unstated.",
+    "evidence": "Critical Variable State-Aware Directed Greybox Fuzzing"
+  },
+  {
+    "id": "R04498",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; XAI-based fuzzing does not establish an LLM role or OS target.",
+    "evidence": "GDFuzz: An efficient directed fuzzing method based on XAI"
+  },
+  {
+    "id": "R04499",
+    "decision": "EXCLUDE",
+    "reason": "Abstract evaluates grammar fuzzing on Java JSON libraries, not OS security; no LLM use is reported.",
+    "evidence": "evaluated across ten open-source Java JSON-processing libraries"
+  },
+  {
+    "id": "R04500",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; grammar-aware fuzzing is potentially security testing, but LLM role and OS target are unstated.",
+    "evidence": "Fieldsfuzz: Implement Efficient Fuzzing Based on Grammar-Aware Mutation Strategy"
+  },
+  {
+    "id": "R04501",
+    "decision": "EXCLUDE",
+    "reason": "Abstract describes a grammar fuzzer with no LLM use or OS target.",
+    "evidence": "We built a fuzzer, called JIMA-Fuzzing"
+  },
+  {
+    "id": "R04502",
+    "decision": "EXCLUDE",
+    "reason": "Fuzzing targets materials-science parsers, not OS security; no LLM use is reported.",
+    "evidence": "grammar-based fuzzing on these parsers"
+  },
+  {
+    "id": "R04503",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; grammar-coverage fuzzing is potentially security testing, but LLM role and OS target are unstated.",
+    "evidence": "Input Output Grammar Coverage in Fuzzing"
+  },
+  {
+    "id": "R04504",
+    "decision": "EXCLUDE",
+    "reason": "LLM translation study has no security or OS component.",
+    "evidence": "Gender Explicitation in LLM Translation: Prompt and Model Variaion"
+  },
+  {
+    "id": "R04505",
+    "decision": "EXCLUDE",
+    "reason": "Survey of grammar-based fuzzing, excluded from core empirical research.",
+    "evidence": "Grammar-based fuzzing for interpreters: A survey"
+  },
+  {
+    "id": "R04506",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; parser grammar testing could be security testing, but LLM role and OS target are unstated.",
+    "evidence": "Grammar Mutation for Testing Input Parsers (Registered Report)"
+  },
+  {
+    "id": "R04507",
+    "decision": "EXCLUDE",
+    "reason": "Performance fuzzing addresses performance, not a security outcome.",
+    "evidence": "Bottleneck Analysis via Grammar-based Performance Fuzzing"
+  },
+  {
+    "id": "R04508",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; grammar-based fuzzing is potentially security testing, but LLM role and OS target are unstated.",
+    "evidence": "Shaping Test Inputs in Grammar-Based Fuzzing"
+  },
+  {
+    "id": "R04509",
+    "decision": "EXCLUDE",
+    "reason": "LLM work is constrained natural-language generation, not security analysis.",
+    "evidence": "GRAMMAR-LLM: Grammar-Constrained Natural Language Generation"
+  },
+  {
+    "id": "R04510",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; grammar-aware fuzzing is potentially security testing, but LLM role and OS target are unstated.",
+    "evidence": "Grammar-Aware Coverage-Guided Fuzzing with Grammarinator and AFL++"
+  },
+  {
+    "id": "R04511",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; API fuzzing could be security testing, but LLM role and OS target are unstated.",
+    "evidence": "Grammar-Based Evolutionary Fuzzing for JSON-RPC APIs"
+  },
+  {
+    "id": "R04512",
+    "decision": "EXCLUDE",
+    "reason": "LLM code-execution study targets latency, not security analysis of OS components.",
+    "evidence": "incremental execution improves responsiveness without altering task outcomes"
+  },
+  {
+    "id": "R04513",
+    "decision": "EXCLUDE",
+    "reason": "LLM contract-review framework is legal analysis, not OS security.",
+    "evidence": "Large language models (LLMs) are increasingly used to review commercial contracts"
+  },
+  {
+    "id": "R04514",
+    "decision": "EXCLUDE",
+    "reason": "Performance fuzzing targets performance, not a security outcome.",
+    "evidence": "TreeLine and SlackLine: Grammar-Based Performance Fuzzing on Coffee Break"
+  },
+  {
+    "id": "R04515",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; DBMS fuzzing is potentially relevant, but LLM role and OS scope are unstated.",
+    "evidence": "Grammar-Free DBMS Fuzzing"
+  },
+  {
+    "id": "R04516",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; grammar-based fuzzing is potentially security testing, but LLM role and OS target are unstated.",
+    "evidence": "Advanced Grammar-Based Fuzzing"
+  },
+  {
+    "id": "R04517",
+    "decision": "EXCLUDE",
+    "reason": "Grammar-learning study does not establish a security task or OS target.",
+    "evidence": "Fuzzing-based grammar learning from a minimal set of seed inputs"
+  },
+  {
+    "id": "R04518",
+    "decision": "EXCLUDE",
+    "reason": "Specification-inference tool targets general software engineering, not security analysis.",
+    "evidence": "SpecFuzzer: A Tool for Inferring Class Specifications via Grammar-Based Fuzzing"
+  },
+  {
+    "id": "R04519",
+    "decision": "EXCLUDE",
+    "reason": "Mutation-testing study targets general software testing, not security analysis.",
+    "evidence": "Enhancing Mutation Testing Through Grammar Fuzzing and Parse Tree-Driven Mutation Generation"
+  },
+  {
+    "id": "R04520",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; grammar-aware fuzzing is potentially security testing, but LLM role and OS target are unstated.",
+    "evidence": "FieldsFuzz: Implement efficient fuzzing based on grammar-aware mutation strategy"
+  }
+]

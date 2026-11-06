@@ -1,0 +1,8 @@
+﻿record_id,stratum,sample_frame_decision,current_decision,audit_proposed,audit_differs_current,rationale,review_status
+R03368,POSSIBLE_CORE:has_abstract,POSSIBLE_CORE,POSSIBLE_CORE,UNCLEAR,yes,Uses a pretrained BERT model for generic system-log anomaly detection; generative LLM scope and OS security targets are not demonstrated.,Codex audit; adjudication pending
+R06013,POSSIBLE_CORE:has_abstract,POSSIBLE_CORE,POSSIBLE_CORE,UNCLEAR,yes,Abstract discusses kernel crash repair but does not establish which crashes are security vulnerabilities.,Codex audit; adjudication pending
+R06183,POSSIBLE_CORE:has_abstract,POSSIBLE_CORE,POSSIBLE_CORE,UNCLEAR,yes,Abstract mentions heterogeneous telemetry and multiple OSs; it does not explicitly establish OS-component telemetry or privileged-interface target.,Codex audit; adjudication pending
+R01786,POSSIBLE_CORE:no_abstract,POSSIBLE_CORE,POSSIBLE_CORE,UNCLEAR,yes,"Linux-based embedded firmware and library functions are named, but OS-component scope is not explicit in title alone.",Codex audit; adjudication pending
+R01835,POSSIBLE_CORE:no_abstract,POSSIBLE_CORE,POSSIBLE_CORE,UNCLEAR,yes,Embedded Linux firmware and backdoors are stated but an OS-component or privileged-interface target is not explicit.,Codex audit; adjudication pending
+R03411,POSSIBLE_CORE:no_abstract,POSSIBLE_CORE,POSSIBLE_CORE,UNCLEAR,yes,"Container misconfigurations and LLM are explicit, but a security-specific repair target is not explicit in title.",Codex audit; adjudication pending
+R04873,POSSIBLE_CORE:no_abstract,POSSIBLE_CORE,POSSIBLE_CORE,UNCLEAR,yes,OS command injection exploit generation can target application input handling; OS-component target not established by title.,Codex audit; adjudication pending

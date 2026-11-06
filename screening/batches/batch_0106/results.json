@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R04241",
+    "decision": "EXCLUDE",
+    "reason": "Conventional optimization/ML intrusion detection; no LLM role or OS-component target is indicated.",
+    "evidence": "Hybrid Reverse - Binary Meerkat Optimization Algorithm and Support Vector Machine with Improved Random Forest"
+  },
+  {
+    "id": "R04242",
+    "decision": "EXCLUDE",
+    "reason": "LLM strategic-interaction study; no security analysis or OS/privileged target.",
+    "evidence": "LLM agents playing iterated Prisoner's Dilemma"
+  },
+  {
+    "id": "R04243",
+    "decision": "UNCLEAR",
+    "reason": "Binary protocol reverse engineering could be security-adjacent, but LLM role, security outcome, and OS target are not stated; abstract missing.",
+    "evidence": "Automatic Field Extraction of Extended TLV for Binary Protocol Reverse Engineering"
+  },
+  {
+    "id": "R04244",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-engineering/ergonomics case study; no security task or OS target.",
+    "evidence": "Human-Chat GPT interaction can be influenced under the proper usage of prompt engineering"
+  },
+  {
+    "id": "R04245",
+    "decision": "EXCLUDE",
+    "reason": "LLM translation study; no security analysis or OS/privileged target.",
+    "evidence": "English-to-Korean LLM Translation of Non-Binary Singular They"
+  },
+  {
+    "id": "R04246",
+    "decision": "UNCLEAR",
+    "reason": "LLM use and software reverse engineering are explicit, but security task and OS target are unclear because the abstract is missing.",
+    "evidence": "Human-LLM Teaming in Software Reverse Engineering"
+  },
+  {
+    "id": "R04247",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted CAD reverse engineering; no security task or OS/privileged target.",
+    "evidence": "LiCoCAD: A Lightweight Model–LLM Collaborative Framework for CAD Reverse Engineering From Point Clouds"
+  },
+  {
+    "id": "R04248",
+    "decision": "EXCLUDE",
+    "reason": "Telomerase/RNA biology study; no LLM, security, or OS focus.",
+    "evidence": "Binary complex of TERT (telomerase reverse transcriptase) with RNA/telomeric DNA hybrid"
+  },
+  {
+    "id": "R04249",
+    "decision": "EXCLUDE",
+    "reason": "LLM fairness audit of insurance claims; no security task or OS target.",
+    "evidence": "six LLMs produce differential outcomes for claimants based on gender"
+  },
+  {
+    "id": "R04250",
+    "decision": "EXCLUDE",
+    "reason": "LLM hallucination/prompt-engineering work; no security analysis or OS target.",
+    "evidence": "LLM Enhancement with Domain Expert Mental Model to Reduce LLM Hallucination with Causal Prompt Engineering"
+  },
+  {
+    "id": "R04251",
+    "decision": "EXCLUDE",
+    "reason": "General binary-code modularization framework; no LLM, security outcome, or OS target indicated.",
+    "evidence": "SBCM: Semantic-Driven Reverse Engineering Framework for Binary Code Modularization"
+  },
+  {
+    "id": "R04252",
+    "decision": "UNCLEAR",
+    "reason": "LLM verification and binary code similarity are explicit, but security outcome and OS target are unclear; abstract missing.",
+    "evidence": "Advancing Binary Code Similarity Detection via Context-Content Fusion and LLM Verification"
+  },
+  {
+    "id": "R04253",
+    "decision": "EXCLUDE",
+    "reason": "Professional-perspectives study on LLM integration; no security task or OS target.",
+    "evidence": "Professional Engineering Perspectives On LLM Integration"
+  },
+  {
+    "id": "R04254",
+    "decision": "EXCLUDE",
+    "reason": "LLM-to-LLM evaluation framework; no security task or OS/privileged target.",
+    "evidence": "Ad Hoc LLM-to-LLM Evaluation Framework"
+  },
+  {
+    "id": "R04255",
+    "decision": "EXCLUDE",
+    "reason": "General reverse-engineering tools/strategies overview; no LLM, security analysis, or OS target indicated.",
+    "evidence": "Reverse Engineering: Tools and Strategies"
+  },
+  {
+    "id": "R04256",
+    "decision": "EXCLUDE",
+    "reason": "Source-code restoration from binaries; no LLM, security outcome, or OS target indicated.",
+    "evidence": "Restore the Program’s Source Code from a Binary Code"
+  },
+  {
+    "id": "R04257",
+    "decision": "EXCLUDE",
+    "reason": "Legal analysis of reverse-engineering restrictions; no LLM, security task, or OS target.",
+    "evidence": "Vertragliche Beschränkungsmöglichkeiten des Reverse Engineering"
+  },
+  {
+    "id": "R04258",
+    "decision": "EXCLUDE",
+    "reason": "Legal analysis of reverse-engineering freedom; no LLM, security task, or OS target.",
+    "evidence": "Die Reverse Engineering-Freiheit des GeschGehG"
+  },
+  {
+    "id": "R04259",
+    "decision": "EXCLUDE",
+    "reason": "Mathematical binary-tree encoding framework; no LLM, security analysis, or OS target.",
+    "evidence": "Recursive Symbolic Binary-Tree Encoding (RSBTE)"
+  },
+  {
+    "id": "R04260",
+    "decision": "EXCLUDE",
+    "reason": "Legal analysis of reverse engineering and special protection rights; no LLM/security/OS.",
+    "evidence": "Reverse Engineering im Wirkungsbereich der Sonderschutzrechte"
+  },
+  {
+    "id": "R04261",
+    "decision": "EXCLUDE",
+    "reason": "Legal analysis of reverse engineering's object; no LLM, security task, or OS target.",
+    "evidence": "Zielobjekt des Reverse Engineering – das Geschäftsgeheimnis"
+  },
+  {
+    "id": "R04262",
+    "decision": "EXCLUDE",
+    "reason": "Legal/historical analysis of reverse engineering; no LLM, security task, or OS target.",
+    "evidence": "Bedeutung und Ursprung des Reverse Engineering"
+  },
+  {
+    "id": "R04263",
+    "decision": "UNCLEAR",
+    "reason": "Binary-protocol reverse engineering may be security-adjacent, but LLM role, security outcome, and OS target are unstated; abstract missing.",
+    "evidence": "Network Message Field Type Clustering for Reverse Engineering of Unknown Binary Protocols"
+  },
+  {
+    "id": "R04264",
+    "decision": "EXCLUDE",
+    "reason": "Copyright-law analysis of reverse-engineering provisions; no LLM, security task, or OS target.",
+    "evidence": "new provisions relating to the reverse engineering of computer programs"
+  },
+  {
+    "id": "R04265",
+    "decision": "EXCLUDE",
+    "reason": "Binary/game data modification with no LLM role or OS/privileged target; security framing is generic.",
+    "evidence": "two network games are used for the demonstrations"
+  },
+  {
+    "id": "R04266",
+    "decision": "EXCLUDE",
+    "reason": "LLM output supervision/alignment study; no security analysis or OS target.",
+    "evidence": "Binary outcome-feedback supervision of memoryless LLM outputs under a budgeted intervention policy"
+  },
+  {
+    "id": "R04267",
+    "decision": "UNCLEAR",
+    "reason": "Security-focused static binary reverse engineering is explicit, but LLM role and OS target are unclear; abstract missing.",
+    "evidence": "A Task Analysis of Static Binary Reverse Engineering for Security"
+  },
+  {
+    "id": "R04268",
+    "decision": "UNCLEAR",
+    "reason": "Cybersecurity vulnerability detection in binaries is explicit, but LLM role and OS target are unclear; abstract missing.",
+    "evidence": "Detect Cybersecurity Vulnerabilities in Binary Executables"
+  },
+  {
+    "id": "R04269",
+    "decision": "UNCLEAR",
+    "reason": "Binary-protocol reverse engineering may be security-adjacent, but LLM role, security outcome, and OS target are unstated; abstract missing.",
+    "evidence": "Toward Automated Field Semantics Inference for Binary Protocol Reverse Engineering"
+  },
+  {
+    "id": "R04270",
+    "decision": "UNCLEAR",
+    "reason": "Binary-protocol reverse engineering may be security-adjacent, but LLM role, security outcome, and OS target are unstated; abstract missing.",
+    "evidence": "BinPRE: Enhancing Field Inference in Binary Analysis Based Protocol Reverse Engineering"
+  },
+  {
+    "id": "R04271",
+    "decision": "EXCLUDE",
+    "reason": "Neural decompilation for math equations; no LLM-specific role, security task, or OS target.",
+    "evidence": "reverse engineer math equations from binaries"
+  },
+  {
+    "id": "R04272",
+    "decision": "EXCLUDE",
+    "reason": "LLM preference-alignment method; no security task or OS/privileged target.",
+    "evidence": "Binary Feedback in Large Language Model Alignment"
+  },
+  {
+    "id": "R04273",
+    "decision": "EXCLUDE",
+    "reason": "Evaluation of human-oriented binary reverse engineering; no LLM, security outcome, or OS target indicated.",
+    "evidence": "Beyond Text Matching: Towards Reference-Free Evaluation for Human-Oriented Binary Reverse Engineering"
+  },
+  {
+    "id": "R04274",
+    "decision": "EXCLUDE",
+    "reason": "Ontology-driven LLM assistance for systems engineering; no security task or OS target.",
+    "evidence": "Ontology-Driven LLM Assistance for Task-Oriented Systems Engineering"
+  },
+  {
+    "id": "R04275",
+    "decision": "EXCLUDE",
+    "reason": "LLM-agent stability/alignment architecture; no security analysis or OS/privileged target.",
+    "evidence": "self-modifying agents can maintain stable behaviour over extended periods of time"
+  },
+  {
+    "id": "R04276",
+    "decision": "EXCLUDE",
+    "reason": "LLM twin concept/architecture; no security task or OS target.",
+    "evidence": "Understanding the LLM Twin Concept and Architecture"
+  },
+  {
+    "id": "R04277",
+    "decision": "EXCLUDE",
+    "reason": "Control in LLM-based recommender systems; no security task or OS/privileged target.",
+    "evidence": "Engineering Control in LLM-Based Recommender Systems"
+  },
+  {
+    "id": "R04278",
+    "decision": "UNCLEAR",
+    "reason": "Dynamic binary analysis with evasion resistance may be security-relevant, but LLM role and OS target are unclear; abstract missing.",
+    "evidence": "Hardware-Based Approach to Efficient and Evasion-Resistant Dynamic Binary Analysis"
+  },
+  {
+    "id": "R04279",
+    "decision": "EXCLUDE",
+    "reason": "LLM-enabled construction-robot planning; no security task or OS/privileged target.",
+    "evidence": "LLM as the cognitive core for autonomous construction robots"
+  },
+  {
+    "id": "R04280",
+    "decision": "EXCLUDE",
+    "reason": "Multi-model LLM search engine; no security task or OS/privileged target.",
+    "evidence": "LLM-MS: A Multi-Model LLM Search Engine"
+  }
+]

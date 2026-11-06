@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02921",
+    "decision": "EXCLUDE",
+    "reason": "LLM is used for PLC code translation and safety verification, not security analysis or testing of OS components or privileged interfaces.",
+    "evidence": "structured translation and Software-in-the-Loop (SIL) verification of LLM-generated PLC logic"
+  },
+  {
+    "id": "R02922",
+    "decision": "EXCLUDE",
+    "reason": "TEE-based Bitcoin mixing paper; no LLM role or OS-targeted LLM security task is indicated.",
+    "evidence": "Secure and Efficient Decentralized Bitcoin Mixing Scheme using Trusted Execution Environment"
+  },
+  {
+    "id": "R02923",
+    "decision": "EXCLUDE",
+    "reason": "ABAC policy enforcement using TEE; no LLM role is indicated.",
+    "evidence": "APETEEt -- Secure Enforcement of ABAC Policies using Trusted Execution Environment"
+  },
+  {
+    "id": "R02924",
+    "decision": "EXCLUDE",
+    "reason": "Identity verification using TEE; no LLM role is indicated.",
+    "evidence": "Proposal of an Identity Verification System Using Trusted Execution Environment"
+  },
+  {
+    "id": "R02925",
+    "decision": "EXCLUDE",
+    "reason": "Byzantine fault tolerance using TEE; no LLM role is indicated.",
+    "evidence": "TBFT: Efficient Byzantine Fault Tolerance Using Trusted Execution Environment"
+  },
+  {
+    "id": "R02926",
+    "decision": "UNCLEAR",
+    "reason": "AI skill execution with TEE and attestation may involve LLM and security, but the missing abstract leaves the LLM role and security task unclear.",
+    "evidence": "Governable AI Skill Execution under Operational Constraint: Encrypted Skill Packs, Trusted Execution Environments, and Executable Attestation"
+  },
+  {
+    "id": "R02927",
+    "decision": "EXCLUDE",
+    "reason": "LSM key-value store protection using TEE; no LLM role is indicated.",
+    "evidence": "Pldb: Protecting LSM-based Key-Value Store using Trusted Execution Environment"
+  },
+  {
+    "id": "R02928",
+    "decision": "EXCLUDE",
+    "reason": "Vehicle access control using TEE; no LLM role or LLM-based security analysis is indicated.",
+    "evidence": "An Adaptive Risk-Based Access Control with Trusted Execution Environment for Vehicles"
+  },
+  {
+    "id": "R02929",
+    "decision": "EXCLUDE",
+    "reason": "LLM repair of browser workflows is not an explicit security task targeting OS components or privileged interfaces.",
+    "evidence": "Apex Browse: Deterministic Browser Workflow Execution with Bounded Large-Language-Model Repair"
+  },
+  {
+    "id": "R02930",
+    "decision": "EXCLUDE",
+    "reason": "Generic OS-controls title; no LLM role or security research is indicated.",
+    "evidence": "Operating System Controls"
+  },
+  {
+    "id": "R02931",
+    "decision": "EXCLUDE",
+    "reason": "Automotive EDR data uplink using TEE; no LLM role is indicated.",
+    "evidence": "Accident-Driven Secure Uplink Scheme for Automotive Event Data Recorder (Edr) Data Based on Trusted Execution Environment (Tee)"
+  },
+  {
+    "id": "R02932",
+    "decision": "EXCLUDE",
+    "reason": "Privacy-preserving ML using TEE and GPU; no LLM-based security analysis is indicated.",
+    "evidence": "Privacy-Preserving Multi-Party Machine Learning Based on Trusted Execution Environment and GPU Accelerator"
+  },
+  {
+    "id": "R02933",
+    "decision": "EXCLUDE",
+    "reason": "Third-party IoT security using TEE; no LLM role is indicated.",
+    "evidence": "3rdParTEE: Securing Third-Party IoT Services Using the Trusted Execution Environment"
+  },
+  {
+    "id": "R02934",
+    "decision": "EXCLUDE",
+    "reason": "Confidential-computing model chapter; no LLM role or OS-targeted LLM security task is indicated.",
+    "evidence": "Confidential computing models"
+  },
+  {
+    "id": "R02935",
+    "decision": "EXCLUDE",
+    "reason": "Introductory confidential-computing chapter; no LLM role is indicated.",
+    "evidence": "Introduction to confidential computing"
+  },
+  {
+    "id": "R02936",
+    "decision": "EXCLUDE",
+    "reason": "TEE-IO model chapter; no LLM role is indicated.",
+    "evidence": "Confidential computing TEE-IO model"
+  },
+  {
+    "id": "R02937",
+    "decision": "EXCLUDE",
+    "reason": "Front matter; no research or LLM role is indicated.",
+    "evidence": "Confidential ComputingFront Matter"
+  },
+  {
+    "id": "R02938",
+    "decision": "EXCLUDE",
+    "reason": "Confidential-computing chapter; no LLM role or OS-targeted LLM security task is indicated.",
+    "evidence": "Confidential Computing"
+  },
+  {
+    "id": "R02939",
+    "decision": "EXCLUDE",
+    "reason": "Use-case report and interviews, not original empirical research, and no LLM role is indicated.",
+    "evidence": "This use case report interviewed members of the confidential computing community"
+  },
+  {
+    "id": "R02940",
+    "decision": "EXCLUDE",
+    "reason": "Front matter; no research or LLM role is indicated.",
+    "evidence": "Dedication"
+  },
+  {
+    "id": "R02941",
+    "decision": "EXCLUDE",
+    "reason": "Front matter; no research or LLM role is indicated.",
+    "evidence": "Copyright"
+  },
+  {
+    "id": "R02942",
+    "decision": "EXCLUDE",
+    "reason": "Back matter; no research or LLM role is indicated.",
+    "evidence": "Index"
+  },
+  {
+    "id": "R02943",
+    "decision": "EXCLUDE",
+    "reason": "Back matter; no research or LLM role is indicated.",
+    "evidence": "References"
+  },
+  {
+    "id": "R02944",
+    "decision": "EXCLUDE",
+    "reason": "Front matter; no research or LLM role is indicated.",
+    "evidence": "Preface"
+  },
+  {
+    "id": "R02945",
+    "decision": "EXCLUDE",
+    "reason": "Introductory privacy-computing chapter; no LLM role is indicated.",
+    "evidence": "Introduction to privacy computing"
+  },
+  {
+    "id": "R02946",
+    "decision": "EXCLUDE",
+    "reason": "Front matter; no research or LLM role is indicated.",
+    "evidence": "Foreword 3"
+  },
+  {
+    "id": "R02947",
+    "decision": "EXCLUDE",
+    "reason": "Author biography; no research or LLM role is indicated.",
+    "evidence": "About the author"
+  },
+  {
+    "id": "R02948",
+    "decision": "EXCLUDE",
+    "reason": "Front matter; no research or LLM role is indicated.",
+    "evidence": "Foreword 2"
+  },
+  {
+    "id": "R02949",
+    "decision": "EXCLUDE",
+    "reason": "Front matter; no research or LLM role is indicated.",
+    "evidence": "Foreword 1"
+  },
+  {
+    "id": "R02950",
+    "decision": "EXCLUDE",
+    "reason": "LLM use concerns privacy and explainability in science, not security analysis or testing of OS components or privileged interfaces.",
+    "evidence": "Privacy Meets Explainability: Managing Confidential Data and Transparency Policies in LLM-Empowered Science"
+  },
+  {
+    "id": "R02951",
+    "decision": "EXCLUDE",
+    "reason": "Hardware-enabled security title; no LLM role or OS-targeted LLM security task is indicated.",
+    "evidence": "Hardware Enabled Security:"
+  },
+  {
+    "id": "R02952",
+    "decision": "EXCLUDE",
+    "reason": "LLM vulnerability detection on general software, not an OS component or privileged-interface target.",
+    "evidence": "The Richer Representation Fallacy: Are We Just Adding Noise to LLM-based Software Vulnerability Detectors?"
+  },
+  {
+    "id": "R02953",
+    "decision": "EXCLUDE",
+    "reason": "Workshop proceedings, not original research, and no specific LLM security analysis is indicated.",
+    "evidence": "Proceedings 2024 Workshop on AI Systems with Confidential COmputing"
+  },
+  {
+    "id": "R02954",
+    "decision": "EXCLUDE",
+    "reason": "Software-development chapter; no LLM role or security outcome is indicated.",
+    "evidence": "Software development"
+  },
+  {
+    "id": "R02955",
+    "decision": "EXCLUDE",
+    "reason": "Comparative cloud architecture analysis mentions AI and confidential computing but describes no LLM-based security analysis of OS components.",
+    "evidence": "comparative architectural analysis of ten major platforms"
+  },
+  {
+    "id": "R02956",
+    "decision": "EXCLUDE",
+    "reason": "TEE special-function chapter; no LLM role is indicated.",
+    "evidence": "TEE special function"
+  },
+  {
+    "id": "R02957",
+    "decision": "EXCLUDE",
+    "reason": "TEE-IO lifecycle chapter; no LLM role is indicated.",
+    "evidence": "TEE-IO lifecycle"
+  },
+  {
+    "id": "R02958",
+    "decision": "EXCLUDE",
+    "reason": "TEE attestation model chapter; no LLM role is indicated.",
+    "evidence": "TEE attestation model"
+  },
+  {
+    "id": "R02959",
+    "decision": "EXCLUDE",
+    "reason": "TEE-IO attestation model chapter; no LLM role is indicated.",
+    "evidence": "TEE-IO attestation model"
+  },
+  {
+    "id": "R02960",
+    "decision": "EXCLUDE",
+    "reason": "LLM classifies vulnerability-fixing commits in general software, not OS components or privileged interfaces.",
+    "evidence": "classify vulnerability-fixing commits"
+  }
+]

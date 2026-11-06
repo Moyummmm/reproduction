@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01121",
+    "decision": "EXCLUDE",
+    "reason": "General software bug-severity classification, not OS-targeted security analysis.",
+    "evidence": "Bug Severity Classification with Large Language Model Embeddings"
+  },
+  {
+    "id": "R01122",
+    "decision": "EXCLUDE",
+    "reason": "Studies LLM memorization of bug benchmarks rather than an OS security task.",
+    "evidence": "Are Large Language Models Memorizing Bug Benchmarks?"
+  },
+  {
+    "id": "R01123",
+    "decision": "EXCLUDE",
+    "reason": "Web application injection-payload classification, not an OS component or privileged interface.",
+    "evidence": "classify web application payloads as either malicious or benign"
+  },
+  {
+    "id": "R01124",
+    "decision": "EXCLUDE",
+    "reason": "Chemical process fault detection; no LLM security task or OS target.",
+    "evidence": "Chemical Process Fault Detection"
+  },
+  {
+    "id": "R01125",
+    "decision": "EXCLUDE",
+    "reason": "Compiler bug localization is general software engineering, not OS security.",
+    "evidence": "Compiler bug localization via large language model-based root cause analysis"
+  },
+  {
+    "id": "R01126",
+    "decision": "UNCLEAR",
+    "reason": "Vulnerability detection is security-relevant, but the OS target is unstated and the abstract is missing.",
+    "evidence": "Large Language Model-Based Software Vulnerability Detection"
+  },
+  {
+    "id": "R01127",
+    "decision": "EXCLUDE",
+    "reason": "Bug-issue type classification in deep-learning projects, not OS security.",
+    "evidence": "Dialogue Framework for Bug Issue Types Classification"
+  },
+  {
+    "id": "R01128",
+    "decision": "EXCLUDE",
+    "reason": "Performance bug detection, not a security outcome targeting OS components.",
+    "evidence": "Performance Bug Detection"
+  },
+  {
+    "id": "R01129",
+    "decision": "EXCLUDE",
+    "reason": "MPI error detection and repair, not OS-targeted security.",
+    "evidence": "MPI error detection and repair"
+  },
+  {
+    "id": "R01130",
+    "decision": "EXCLUDE",
+    "reason": "Duplicate bug detection, not security analysis of OS components.",
+    "evidence": "Duplicate Bug Detection"
+  },
+  {
+    "id": "R01131",
+    "decision": "EXCLUDE",
+    "reason": "Ship detection in imagery; no security task or OS target.",
+    "evidence": "Ship Detection Algorithm"
+  },
+  {
+    "id": "R01132",
+    "decision": "EXCLUDE",
+    "reason": "Assesses bug detection by LLM-generated unit tests, not OS security.",
+    "evidence": "Improving Bug Detection in LLM-Generated Unit Tests"
+  },
+  {
+    "id": "R01133",
+    "decision": "UNCLEAR",
+    "reason": "Memory bug detection/repair could be security-relevant, but OS scope is unstated and abstract missing.",
+    "evidence": "Memory Bug Detection and Repair"
+  },
+  {
+    "id": "R01134",
+    "decision": "EXCLUDE",
+    "reason": "Bug report classification, not OS security analysis.",
+    "evidence": "bug report classification framework"
+  },
+  {
+    "id": "R01135",
+    "decision": "EXCLUDE",
+    "reason": "Tunnel fire detection; no security task or OS target.",
+    "evidence": "Intelligent Tunnel Fire Detection Technology"
+  },
+  {
+    "id": "R01136",
+    "decision": "EXCLUDE",
+    "reason": "Fake news detection, not OS security.",
+    "evidence": "Large Language Model Based Fake News Detection"
+  },
+  {
+    "id": "R01137",
+    "decision": "EXCLUDE",
+    "reason": "Logic-error bug detection in programming education, not OS security.",
+    "evidence": "Decoding Logic Errors: A Comparative Study on Bug Detection"
+  },
+  {
+    "id": "R01138",
+    "decision": "EXCLUDE",
+    "reason": "General software bug detection and resolution, not OS security.",
+    "evidence": "Automated Bug Detection and Resolution in Software Engineering"
+  },
+  {
+    "id": "R01139",
+    "decision": "EXCLUDE",
+    "reason": "Concrete-wall defect detection; no security task or OS target.",
+    "evidence": "multidefect detection model for concrete walls"
+  },
+  {
+    "id": "R01140",
+    "decision": "EXCLUDE",
+    "reason": "Bug reporting support, not security analysis of OS components.",
+    "evidence": "Enhancing Bug Reporting Activities"
+  },
+  {
+    "id": "R01141",
+    "decision": "EXCLUDE",
+    "reason": "Animal object detection; no security task or OS target.",
+    "evidence": "Real-Time Animal Object Detection Model"
+  },
+  {
+    "id": "R01142",
+    "decision": "EXCLUDE",
+    "reason": "Bug-report priority/severity prediction, not OS security.",
+    "evidence": "Bug Report Priority and Severity Prediction"
+  },
+  {
+    "id": "R01143",
+    "decision": "EXCLUDE",
+    "reason": "Deep-learning framework bug prediction, not OS-targeted security.",
+    "evidence": "deep learning framework bug prediction"
+  },
+  {
+    "id": "R01144",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM use for ransomware detection via kernel-level behavior analysis suggests an OS protection task.",
+    "evidence": "Ransomware Detection with Kernel-Level Behavior Analysis and Large Language Models"
+  },
+  {
+    "id": "R01145",
+    "decision": "EXCLUDE",
+    "reason": "LLM hallucination detection, not OS security analysis.",
+    "evidence": "Large Language Model Hallucination Detection"
+  },
+  {
+    "id": "R01146",
+    "decision": "EXCLUDE",
+    "reason": "Emotion and intention detection, not a security or OS task.",
+    "evidence": "Emotion and Intention Detection in a Large Language Model"
+  },
+  {
+    "id": "R01147",
+    "decision": "EXCLUDE",
+    "reason": "Geoscience disaster risk detection, not OS security.",
+    "evidence": "natural disaster risk detection and early warning"
+  },
+  {
+    "id": "R01148",
+    "decision": "EXCLUDE",
+    "reason": "Cyberbullying detection, not OS-targeted security.",
+    "evidence": "The Use of a Large Language Model for Cyberbullying Detection"
+  },
+  {
+    "id": "R01149",
+    "decision": "EXCLUDE",
+    "reason": "Fabric defect detection; no security task or OS target.",
+    "evidence": "fabric defect detection model"
+  },
+  {
+    "id": "R01150",
+    "decision": "EXCLUDE",
+    "reason": "Object detection network, not OS security.",
+    "evidence": "Large kernel convolution object detection network"
+  },
+  {
+    "id": "R01151",
+    "decision": "EXCLUDE",
+    "reason": "Duplicate bug report detection, not OS security.",
+    "evidence": "Duplicate Bug Report Detection Using an Attention-Based Neural Language Model"
+  },
+  {
+    "id": "R01152",
+    "decision": "EXCLUDE",
+    "reason": "Bug triaging and duplicate detection, not OS security.",
+    "evidence": "bug triaging and duplicate bug detection"
+  },
+  {
+    "id": "R01153",
+    "decision": "EXCLUDE",
+    "reason": "Community detection, not OS security.",
+    "evidence": "Community Detection"
+  },
+  {
+    "id": "R01154",
+    "decision": "EXCLUDE",
+    "reason": "Robotic action issue recovery, not OS-targeted security.",
+    "evidence": "Robotic Action Issue Detection, Explanation and Recovery"
+  },
+  {
+    "id": "R01155",
+    "decision": "EXCLUDE",
+    "reason": "Phishing email detection, not an OS component task.",
+    "evidence": "Phishing Email Detection"
+  },
+  {
+    "id": "R01156",
+    "decision": "EXCLUDE",
+    "reason": "Cloud API threat detection, not OS components or privileged interfaces.",
+    "evidence": "zero-day API threat detection across multiple organizations"
+  },
+  {
+    "id": "R01157",
+    "decision": "EXCLUDE",
+    "reason": "Lane detection, not security or OS.",
+    "evidence": "Lane Detection Via Multimodal Large Language Model"
+  },
+  {
+    "id": "R01158",
+    "decision": "EXCLUDE",
+    "reason": "Hate speech detection, not OS security.",
+    "evidence": "explainable hate speech detection"
+  },
+  {
+    "id": "R01159",
+    "decision": "EXCLUDE",
+    "reason": "Bug triaging and duplicate detection, not OS security.",
+    "evidence": "bug triaging and duplicate bug detection"
+  },
+  {
+    "id": "R01160",
+    "decision": "EXCLUDE",
+    "reason": "Pedestrian detection, not security or OS.",
+    "evidence": "Pedestrian detection algorithm"
+  }
+]

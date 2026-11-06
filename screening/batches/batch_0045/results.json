@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01801",
+    "decision": "UNCLEAR",
+    "reason": "Abstract missing; title suggests Linux security but does not establish an LLM role or study design.",
+    "evidence": "Linux Security Foundations"
+  },
+  {
+    "id": "R01802",
+    "decision": "EXCLUDE",
+    "reason": "Human-factors compliance study; title indicates no LLM or OS-component security task.",
+    "evidence": "The Role of Heuristics and Biases in Linux Server Administrators’ Information Security Policy Compliance"
+  },
+  {
+    "id": "R01803",
+    "decision": "UNCLEAR",
+    "reason": "Abstract missing; user-behavior monitoring could be security-related, but LLM role and scope are unknown.",
+    "evidence": "Real-time user behavior monitoring technique in Linux environment"
+  },
+  {
+    "id": "R01804",
+    "decision": "EXCLUDE",
+    "reason": "Sensor device-driver engineering; no LLM or security task indicated.",
+    "evidence": "Linux SPI Device Driver for a Smart Temperature and Pressure Sensor"
+  },
+  {
+    "id": "R01805",
+    "decision": "UNCLEAR",
+    "reason": "Abstract missing; Linux sandboxing is potentially relevant, but LLM role and evaluation are unknown.",
+    "evidence": "Application Sandboxing for Linux Desktops: A User-friendly Approach"
+  },
+  {
+    "id": "R01806",
+    "decision": "EXCLUDE",
+    "reason": "Open-source security leadership piece; not empirical LLM research on OS components.",
+    "evidence": "Leading Through Influence at Scale: Open Source Security at the Linux Foundation"
+  },
+  {
+    "id": "R01807",
+    "decision": "UNCLEAR",
+    "reason": "Generic title and missing abstract; scope and LLM role cannot be determined.",
+    "evidence": "System Security"
+  },
+  {
+    "id": "R01808",
+    "decision": "EXCLUDE",
+    "reason": "Teaching-material study for Linux driver programming; no security or LLM task.",
+    "evidence": "Improvement of Teaching Materials for Linux Device Driver Programming Considering Motivation"
+  },
+  {
+    "id": "R01809",
+    "decision": "UNCLEAR",
+    "reason": "Abstract missing; Linux anti-ransomware monitoring is potentially relevant, but LLM use is not shown.",
+    "evidence": "LARM: Linux Anti Ransomware Monitor"
+  },
+  {
+    "id": "R01810",
+    "decision": "EXCLUDE",
+    "reason": "LLM-backed Linux proficiency assessment; education/assessment rather than a security task.",
+    "evidence": "A Modular LLM-Backed Framework for Adaptive Linux Proficiency Assessment"
+  },
+  {
+    "id": "R01811",
+    "decision": "UNCLEAR",
+    "reason": "Generic title and missing abstract; scope and LLM role cannot be determined.",
+    "evidence": "Security"
+  },
+  {
+    "id": "R01812",
+    "decision": "UNCLEAR",
+    "reason": "Generic title and missing abstract; scope and LLM role cannot be determined.",
+    "evidence": "Files"
+  },
+  {
+    "id": "R01813",
+    "decision": "EXCLUDE",
+    "reason": "Empirical Linux hosting security analytics; abstract describes no LLM use.",
+    "evidence": "A predictive security analytics framework is further proposed and validated against the measured attack landscape."
+  },
+  {
+    "id": "R01814",
+    "decision": "EXCLUDE",
+    "reason": "Wireless penetration testing with Linux tools; no LLM and target is wireless networks, not OS components.",
+    "evidence": "performing wireless penetration testing and security auditing using Linux-based tools"
+  },
+  {
+    "id": "R01815",
+    "decision": "UNCLEAR",
+    "reason": "Abstract missing; ML-driven daemon security may be relevant, but LLM role is not explicit.",
+    "evidence": "Practice-Informed Pedagogy for Linux Security: Perspectives on ML-Driven Solutions for Daemon Security"
+  },
+  {
+    "id": "R01816",
+    "decision": "EXCLUDE",
+    "reason": "Overview of Linux security mechanisms, not original LLM research.",
+    "evidence": "The article provides an overview of the key security aspects of the Linux operating system."
+  },
+  {
+    "id": "R01817",
+    "decision": "UNCLEAR",
+    "reason": "Generic title and missing abstract; scope and LLM role cannot be determined.",
+    "evidence": "Bash"
+  },
+  {
+    "id": "R01818",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Title explicitly evaluates LLM-generated Linux password policies, a security verification task on a Linux policy.",
+    "evidence": "Silent Fallbacks and Semantic Gaps: Evaluating the Functional Soundness of LLM-Generated Linux Password Policies"
+  },
+  {
+    "id": "R01819",
+    "decision": "UNCLEAR",
+    "reason": "Abstract missing; Linux security validation may be relevant, but LLM role is not explicit.",
+    "evidence": "An Autonomous Security Validation Architecture for Linux Systems in Regulated Financial Environments"
+  },
+  {
+    "id": "R01820",
+    "decision": "UNCLEAR",
+    "reason": "Abstract missing; Linux security isolation mechanism could be relevant, but LLM role is not explicit.",
+    "evidence": "A Linux Security Mechanism for Multi-domain Isolation Environment"
+  },
+  {
+    "id": "R01821",
+    "decision": "EXCLUDE",
+    "reason": "Embedded Linux camera driver porting; no LLM or security task.",
+    "evidence": "Porting and driver design for embedded Linux device camera"
+  },
+  {
+    "id": "R01822",
+    "decision": "EXCLUDE",
+    "reason": "Driver-programming lab for a sound processor; no LLM or security task.",
+    "evidence": "Lab 17 Writing a Linux Device Driver to Control Your Sound Effect Processor"
+  },
+  {
+    "id": "R01823",
+    "decision": "EXCLUDE",
+    "reason": "Linux host runtime-risk framework; abstract describes no LLM use.",
+    "evidence": "CRRS, a causal–temporal runtime-risk framework for Linux hosts"
+  },
+  {
+    "id": "R01824",
+    "decision": "UNCLEAR",
+    "reason": "Abstract missing; security-aware Linux file updates are potentially relevant, but LLM role is not explicit.",
+    "evidence": "Crash2Compromise: CrashGuard-FS for Security-Aware Linux File Updates"
+  },
+  {
+    "id": "R01825",
+    "decision": "UNCLEAR",
+    "reason": "Abstract missing; LLM agents manage Linux servers, but a security task and outcome are not established.",
+    "evidence": "Managing Linux servers with LLM-based AI agents: An empirical evaluation with GPT4"
+  },
+  {
+    "id": "R01826",
+    "decision": "EXCLUDE",
+    "reason": "Oscilloscope kernel-driver design; no LLM or security task.",
+    "evidence": "Linux-Based Oscilloscope Kernel Driver Software Design"
+  },
+  {
+    "id": "R01827",
+    "decision": "EXCLUDE",
+    "reason": "Educational overview of Linux vulnerabilities and hardening; not original LLM research.",
+    "evidence": "This paper seeks to first educate the users on what the Linux platforms is"
+  },
+  {
+    "id": "R01828",
+    "decision": "UNCLEAR",
+    "reason": "Abstract missing; security evaluation of Linux OS and apps may be relevant, but LLM role is unknown.",
+    "evidence": "Security evaluation of Linux OS and apps"
+  },
+  {
+    "id": "R01829",
+    "decision": "UNCLEAR",
+    "reason": "Abstract missing; Linux privilege-management module is potentially relevant, but LLM role is not explicit.",
+    "evidence": "RootAsRole: a security module to manage the administrative privileges for Linux"
+  },
+  {
+    "id": "R01830",
+    "decision": "EXCLUDE",
+    "reason": "Radar presence-detection device driver; no LLM or security task.",
+    "evidence": "A Linux Device Driver for Human Presence Detection Using Millimeter-Wave Radar"
+  },
+  {
+    "id": "R01831",
+    "decision": "UNCLEAR",
+    "reason": "Abstract missing; Linux firmware memory sanitizer may involve vulnerability discovery, but LLM role is not explicit.",
+    "evidence": "DFirmSan: A lightweight dynamic memory sanitizer for Linux-based firmware"
+  },
+  {
+    "id": "R01832",
+    "decision": "UNCLEAR",
+    "reason": "Generic title and missing abstract; scope and LLM role cannot be determined.",
+    "evidence": "Software Management"
+  },
+  {
+    "id": "R01833",
+    "decision": "UNCLEAR",
+    "reason": "Abstract missing; firmware vulnerability detection is relevant, but LLM role is not explicit.",
+    "evidence": "FirmUpdate: Automated multi-phase static analysis for detecting firmware update vulnerabilities in IoT Linux-based firmware"
+  },
+  {
+    "id": "R01834",
+    "decision": "UNCLEAR",
+    "reason": "Generic title and missing abstract; scope and LLM role cannot be determined.",
+    "evidence": "Users and Groups"
+  },
+  {
+    "id": "R01835",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Title explicitly evaluates LLM-assisted backdoor construction in embedded Linux firmware, an offensive security task on OS firmware.",
+    "evidence": "BackdoorCraft: Evaluating LLM-Assisted Backdoor Construction in Embedded Linux Firmware"
+  },
+  {
+    "id": "R01836",
+    "decision": "UNCLEAR",
+    "reason": "Abstract missing; security subsystem analysis may be relevant, but LLM role and OS scope are uncertain.",
+    "evidence": "An Analysis of Local Security Authority Subsystem Services for Windows and Linux"
+  },
+  {
+    "id": "R01837",
+    "decision": "UNCLEAR",
+    "reason": "Abstract missing; Docker security is potentially relevant, but LLM role is unknown.",
+    "evidence": "Docker Security"
+  },
+  {
+    "id": "R01838",
+    "decision": "UNCLEAR",
+    "reason": "Abstract missing; SELinux and AppArmor are OS security modules, but LLM role is unknown.",
+    "evidence": "SELinux and AppArmor"
+  },
+  {
+    "id": "R01839",
+    "decision": "UNCLEAR",
+    "reason": "Abstract missing; Linux privilege-escalation auditing may be relevant, but LLM role is not explicit.",
+    "evidence": "Framework for Security Auditing in Linux: Detecting and Mitigating Privilege Escalation Vulnerabilities Using Privilynis"
+  },
+  {
+    "id": "R01840",
+    "decision": "UNCLEAR",
+    "reason": "Abstract missing; Linux hardening may be relevant, but LLM role and study type are uncertain.",
+    "evidence": "Enhance Linux Security Server Misconfigurations and hardening Methods"
+  }
+]

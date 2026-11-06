@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03984",
+    "decision": "EXCLUDE",
+    "reason": "Static taint analysis of Android apps; no LLM use and no OS-component targeting.",
+    "evidence": "This approach uses static taint analysis to detect vulnerabilities inside a given Android application"
+  },
+  {
+    "id": "R03996",
+    "decision": "EXCLUDE",
+    "reason": "Animal-science review of immunocastration; no LLM, security, or OS content.",
+    "evidence": "This review integrates current knowledge on the biochemical basis of boar taint"
+  },
+  {
+    "id": "R04000",
+    "decision": "EXCLUDE",
+    "reason": "Tests static taint analyzers; no LLM involvement and no OS-component target.",
+    "evidence": "a testing oracle for static taint analysis"
+  },
+  {
+    "id": "R04007",
+    "decision": "EXCLUDE",
+    "reason": "Taint analysis for Graph APIs; no LLM and target is API access control, not OS components.",
+    "evidence": "static and dynamic taint analysis for Graph APIs focusing on broken access control"
+  },
+  {
+    "id": "R04015",
+    "decision": "EXCLUDE",
+    "reason": "Static analysis of Lua firmware apps; no LLM use.",
+    "evidence": "a novel progressive static analysis approach specifically designed to detect taint-style vulnerabilities in Lua applications in IoT firmware"
+  },
+  {
+    "id": "R04046",
+    "decision": "EXCLUDE",
+    "reason": "Compiler and dataflow optimization article; no LLM or security task.",
+    "evidence": "implement a global optimization pass, and show how to use the dataflow analysis framework to verify the results of our optimization"
+  },
+  {
+    "id": "R04047",
+    "decision": "EXCLUDE",
+    "reason": "LLM multi-agent pipeline for road-network vulnerability, not security of OS components.",
+    "evidence": "automated LLM-based multi-agent pipeline for road network vulnerability analysis"
+  },
+  {
+    "id": "R04048",
+    "decision": "EXCLUDE",
+    "reason": "Compiler and dataflow optimization article; no LLM or security task.",
+    "evidence": "implement a global optimization pass, and show how to use the dataflow analysis framework to verify the results of our optimization"
+  },
+  {
+    "id": "R04056",
+    "decision": "EXCLUDE",
+    "reason": "Educational assessment drift study; LLM is an exogenous shock, not a security tool.",
+    "evidence": "Large Language Models (LLMs) provide a dateable exogenous shock"
+  },
+  {
+    "id": "R04057",
+    "decision": "EXCLUDE",
+    "reason": "LLM vulnerability analysis targets compiled DNNs and compiler tooling, not OS components or privileged interfaces.",
+    "evidence": "LLM-driven vulnerability analysis system for compiled DNNs"
+  },
+  {
+    "id": "R04061",
+    "decision": "EXCLUDE",
+    "reason": "Dataflow implementation chapter; no LLM or security outcome.",
+    "evidence": "This chapter presents dataflow paradigm in general and cyclic execution graphs"
+  },
+  {
+    "id": "R04062",
+    "decision": "EXCLUDE",
+    "reason": "Dataflow classification chapter; no LLM or security outcome.",
+    "evidence": "implementation of data mining methods on dataflow computers"
+  },
+  {
+    "id": "R04063",
+    "decision": "EXCLUDE",
+    "reason": "Dataflow neural-network implementation; no LLM or security outcome.",
+    "evidence": "implementation details of multilayer perceptron neural networks"
+  },
+  {
+    "id": "R04066",
+    "decision": "EXCLUDE",
+    "reason": "Dataflow density-based algorithm chapter; no LLM or security outcome.",
+    "evidence": "implementation details of KNN and k-means density based algorithms on the dataflow accelerators"
+  },
+  {
+    "id": "R04067",
+    "decision": "EXCLUDE",
+    "reason": "Dataflow decision-tree chapter; no LLM or security outcome.",
+    "evidence": "implementation details of C4.5 on the dataflow accelerators"
+  },
+  {
+    "id": "R04070",
+    "decision": "EXCLUDE",
+    "reason": "GNN vulnerability detection; no LLM use and general software target.",
+    "evidence": "an edge-conditioned GNN named FastVulnGNN is proposed"
+  },
+  {
+    "id": "R04081",
+    "decision": "EXCLUDE",
+    "reason": "GNN loop-oriented vulnerability detection; no LLM and general software target.",
+    "evidence": "an automated loop-oriented code vulnerability detection approach"
+  },
+  {
+    "id": "R04082",
+    "decision": "EXCLUDE",
+    "reason": "Rust vulnerability classification with classical ML; no LLM and general software target.",
+    "evidence": "LLVM-IR-derived CPG embeddings for within-dataset vulnerability classification"
+  },
+  {
+    "id": "R04090",
+    "decision": "EXCLUDE",
+    "reason": "LLM graph building from text; no security analysis or OS target.",
+    "evidence": "Creating structured graphs out of unstructured text"
+  },
+  {
+    "id": "R04091",
+    "decision": "EXCLUDE",
+    "reason": "LLM graph building from text; no security analysis or OS target.",
+    "evidence": "Creating structured graphs out of unstructured text"
+  },
+  {
+    "id": "R04093",
+    "decision": "EXCLUDE",
+    "reason": "GNN-based severity assessment for general source code; no LLM or OS target.",
+    "evidence": "vulnerability severity assessment method based on a multi-scale feature fusion network for code visualization graphs"
+  },
+  {
+    "id": "R04101",
+    "decision": "EXCLUDE",
+    "reason": "Prompt and graph vulnerability detection on general code; no OS-component target.",
+    "evidence": "Structure-Enhanced Prompt Learning for Graph-Based Code Vulnerability Detection"
+  },
+  {
+    "id": "R04102",
+    "decision": "EXCLUDE",
+    "reason": "LLM builds a materials knowledge graph; no security task or OS target.",
+    "evidence": "constructing a knowledge graph of material property relationships"
+  },
+  {
+    "id": "R04107",
+    "decision": "EXCLUDE",
+    "reason": "GNN vulnerability detection on general code; no LLM and no OS target.",
+    "evidence": "fed into a Gated Graph Neural Network (GGNN)"
+  },
+  {
+    "id": "R04119",
+    "decision": "EXCLUDE",
+    "reason": "LLM code synthesis framework; no security outcome or OS target.",
+    "evidence": "five-tiered framework for LLM-driven code synthesis"
+  },
+  {
+    "id": "R04121",
+    "decision": "EXCLUDE",
+    "reason": "Graph and multimodal vulnerability detection on general code; no LLM and no OS target.",
+    "evidence": "joint graph and multimodal feature fusion"
+  },
+  {
+    "id": "R04122",
+    "decision": "EXCLUDE",
+    "reason": "Deep sequence and graph vulnerability detection; no LLM and general code target.",
+    "evidence": "a dual-channel software code vulnerability detection method based on deep sequence and graph model"
+  },
+  {
+    "id": "R04123",
+    "decision": "EXCLUDE",
+    "reason": "GNN Go vulnerability detection; no LLM and general code target.",
+    "evidence": "a Go program vulnerability detection method based on a graph neural network (GNN)"
+  },
+  {
+    "id": "R04124",
+    "decision": "EXCLUDE",
+    "reason": "Repairs insecure LLM-generated code; this is security of LLM output, not LLM applied to OS security.",
+    "evidence": "automatic correction of insecure LLM outputs"
+  },
+  {
+    "id": "R04133",
+    "decision": "EXCLUDE",
+    "reason": "GNN code vulnerability detection; no LLM and general code target.",
+    "evidence": "a code vulnerability detection method, named VulGraB"
+  },
+  {
+    "id": "R04134",
+    "decision": "EXCLUDE",
+    "reason": "Pretrained DL vulnerability detection on general software; no explicit LLM use or OS target.",
+    "evidence": "a DL-based approach that utilizes rich code semantics"
+  },
+  {
+    "id": "R04139",
+    "decision": "EXCLUDE",
+    "reason": "CodeBERT-based vulnerability detection on general code; no OS target.",
+    "evidence": "code vulnerability detection method based on an augmented program dependency graph and optimized CodeBERT"
+  },
+  {
+    "id": "R04140",
+    "decision": "EXCLUDE",
+    "reason": "GNN dependency vulnerability detection; no LLM and general software target.",
+    "evidence": "a GNN-based framework for identifying vulnerabilities within code dependency graphs"
+  },
+  {
+    "id": "R04151",
+    "decision": "EXCLUDE",
+    "reason": "LLM code clone detection for microservice repositories; no security task or OS target.",
+    "evidence": "leveraged Large Language Models to identify code clones"
+  },
+  {
+    "id": "R04155",
+    "decision": "EXCLUDE",
+    "reason": "BERT statement-level vulnerability detection in Python; no LLM or OS target.",
+    "evidence": "statement-level vulnerability detection (SVD) in source code, with a focus on Python"
+  },
+  {
+    "id": "R04159",
+    "decision": "EXCLUDE",
+    "reason": "LLM repository-level program repair; no security or OS focus.",
+    "evidence": "LLM-based program repair framework"
+  },
+  {
+    "id": "R04161",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted repository discovery for software development; no security task or OS target.",
+    "evidence": "Multi-Signal Repository Discovery for LLM-Assisted Software Development"
+  },
+  {
+    "id": "R04163",
+    "decision": "EXCLUDE",
+    "reason": "Fraud detection with clustering ML; no LLM and not OS security.",
+    "evidence": "detecting fraud in financial transactions"
+  },
+  {
+    "id": "R04167",
+    "decision": "EXCLUDE",
+    "reason": "MCP server for LLM knowledge-graph manipulation; no security analysis or OS target.",
+    "evidence": "LLM-enhanced knowledge graph repository manipulation"
+  },
+  {
+    "id": "R04168",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-based vulnerability detection with demonstrated discovery of Linux kernel bugs and CVEs.",
+    "evidence": "detect 10 previously-unknown bugs in the recent Linux kernel release with six assigned CVEs"
+  }
+]

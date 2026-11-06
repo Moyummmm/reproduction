@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01961",
+    "decision": "EXCLUDE",
+    "reason": "Hardware security verification, not an OS component or privileged interface.",
+    "evidence": "Automation of LLM Self-Instructing for Hardware Security Verification"
+  },
+  {
+    "id": "R01962",
+    "decision": "EXCLUDE",
+    "reason": "Hardware design verification with no security or OS target.",
+    "evidence": "Functional Coverpoint Plan Generation Using LLM in Early Design Verification Stage"
+  },
+  {
+    "id": "R01963",
+    "decision": "EXCLUDE",
+    "reason": "Nuclear systems compliance verification, not OS security research.",
+    "evidence": "An LLM-Based Approach for Nuclear Systems Engineering"
+  },
+  {
+    "id": "R01964",
+    "decision": "EXCLUDE",
+    "reason": "Industrial fault diagnosis and hallucination verification, not OS security.",
+    "evidence": "Verification of LLM Agents for Industrial Fault Diagnosis"
+  },
+  {
+    "id": "R01965",
+    "decision": "UNCLEAR",
+    "reason": "Security-relevant firewall policy verification, but OS or privileged-interface scope is unstated and the abstract is missing.",
+    "evidence": "Formal Verification of LLM-Generated Firewall Policies"
+  },
+  {
+    "id": "R01966",
+    "decision": "EXCLUDE",
+    "reason": "Systematic review, not original empirical research.",
+    "evidence": "A Systematic Review of Retrieval-Augmented Approaches"
+  },
+  {
+    "id": "R01967",
+    "decision": "EXCLUDE",
+    "reason": "General test oracle enhancement, with no security task or OS target.",
+    "evidence": "Enhancing Tests with LLM-Driven Oracles"
+  },
+  {
+    "id": "R01968",
+    "decision": "EXCLUDE",
+    "reason": "LLM routing for software testing, not security or OS-targeted research.",
+    "evidence": "LLM Router for Software Testing Tasks"
+  },
+  {
+    "id": "R01969",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted dataset annotation and evaluation, not security or OS-targeted.",
+    "evidence": "LLM annotation of gold-standard datasets"
+  },
+  {
+    "id": "R01970",
+    "decision": "EXCLUDE",
+    "reason": "Security study of LLM-generated Terraform, not OS components or privileged interfaces.",
+    "evidence": "Treat LLM-Generated Terraform as Untrusted"
+  },
+  {
+    "id": "R01971",
+    "decision": "EXCLUDE",
+    "reason": "Product compatibility verification for cross-selling, not security or OS.",
+    "evidence": "ТЕХНІЧНОЇ СУМІСНОСТІ ТОВАРІВ"
+  },
+  {
+    "id": "R01972",
+    "decision": "EXCLUDE",
+    "reason": "Labelling GUI test cases, not a security task or OS target.",
+    "evidence": "LLM-Based Labelling of Recorded Automated GUI-Based Test Cases"
+  },
+  {
+    "id": "R01973",
+    "decision": "EXCLUDE",
+    "reason": "Runtime verification of LLM agent actions, not an OS-targeted security task.",
+    "evidence": "Automatic Runtime Verification of LLM Agent Actions"
+  },
+  {
+    "id": "R01974",
+    "decision": "EXCLUDE",
+    "reason": "Verification of scientific code, not security or OS-targeted research.",
+    "evidence": "Verification of LLM-Generated Scientific Code"
+  },
+  {
+    "id": "R01975",
+    "decision": "EXCLUDE",
+    "reason": "Financial transaction constraint verification, not OS security.",
+    "evidence": "constraint verification for LLM-driven internet finance transaction execution"
+  },
+  {
+    "id": "R01976",
+    "decision": "EXCLUDE",
+    "reason": "Assertion retrieval and generation for formal verification, with no security or OS target indicated.",
+    "evidence": "LLM Assertion Retrieval and Generation for Formal Verification"
+  },
+  {
+    "id": "R01977",
+    "decision": "EXCLUDE",
+    "reason": "Review of LLM-driven design verification, not original security research.",
+    "evidence": "This review synthesizes the most recent developments"
+  },
+  {
+    "id": "R01978",
+    "decision": "EXCLUDE",
+    "reason": "Audit of LLM agent self-reports, not a security task targeting OS components.",
+    "evidence": "Agent self-reports should therefore be treated as claims to verify"
+  },
+  {
+    "id": "R01979",
+    "decision": "EXCLUDE",
+    "reason": "Verification of emergency instructions, not OS security research.",
+    "evidence": "Protocol-Grounded Verification for LLM Emergency Instructions"
+  },
+  {
+    "id": "R01980",
+    "decision": "EXCLUDE",
+    "reason": "Model development with deduction-based verification, with no security or OS target indicated.",
+    "evidence": "RE-oriented Model Development with LLM Support and Deduction-based Verification"
+  },
+  {
+    "id": "R01981",
+    "decision": "EXCLUDE",
+    "reason": "Runtime guardrails for LLM conversations, not an OS-targeted security task.",
+    "evidence": "Temporal Guardrails for LLM Conversations"
+  },
+  {
+    "id": "R01982",
+    "decision": "EXCLUDE",
+    "reason": "Defending LLM services against chain-of-thought attacks is security of LLMs, not OS security.",
+    "evidence": "Program Verification to Defend Chain-of-Thought Attacks for LLM Services"
+  },
+  {
+    "id": "R01983",
+    "decision": "UNCLEAR",
+    "reason": "Security protocol verification with LLM aid, but OS or privileged-interface scope is unstated and the abstract is missing.",
+    "evidence": "LLM-Aided Automatic Modeling for Security Protocol Verification"
+  },
+  {
+    "id": "R01984",
+    "decision": "EXCLUDE",
+    "reason": "C-to-Verilog translation with automated verification, not security or OS-targeted.",
+    "evidence": "LLM-Driven C-to-Verilog Translation via HLS with Automated Verification"
+  },
+  {
+    "id": "R01985",
+    "decision": "EXCLUDE",
+    "reason": "Adaptive testing of LLM-based applications, not a security task or OS target.",
+    "evidence": "Adaptive Testing for LLM-Based Applications"
+  },
+  {
+    "id": "R01986",
+    "decision": "UNCLEAR",
+    "reason": "Storage security system with no LLM role indicated and no abstract, leaving scope uncertain.",
+    "evidence": "Least-Privileged Storage System with Stronger Security"
+  },
+  {
+    "id": "R01987",
+    "decision": "EXCLUDE",
+    "reason": "Retracted cloud-storage deduplication paper, not an OS-targeted LLM security study.",
+    "evidence": "Retracted: Secure Data Deduplication System"
+  },
+  {
+    "id": "R01988",
+    "decision": "EXCLUDE",
+    "reason": "Cloud data storage security, not OS components or an LLM security task.",
+    "evidence": "Secure Data Storage in Cloud by Using Dynamic Security System"
+  },
+  {
+    "id": "R01989",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based secure storage for distributed hybrid clouds, not OS filesystems or privileged interfaces.",
+    "evidence": "LLM-Based Secure Partitioned Storage Scheme in Distributed Hybrid Clouds"
+  },
+  {
+    "id": "R01990",
+    "decision": "EXCLUDE",
+    "reason": "Power-system frequency security and energy storage dispatch, not LLM or OS security.",
+    "evidence": "frequency security electric power system with mobile energy storage"
+  },
+  {
+    "id": "R01991",
+    "decision": "EXCLUDE",
+    "reason": "Battery energy storage configuration with power-system security constraints, not LLM or OS security.",
+    "evidence": "battery energy storage system considering nodal RoCoF security constraints"
+  },
+  {
+    "id": "R01992",
+    "decision": "EXCLUDE",
+    "reason": "Cloud network security storage, not an OS component or LLM security task.",
+    "evidence": "Computer Network Security Storage System in Cloud Computing"
+  },
+  {
+    "id": "R01993",
+    "decision": "EXCLUDE",
+    "reason": "IPFS cloud storage system, not security or OS-targeted LLM research.",
+    "evidence": "Improved Cloud Storage System Using IPFS"
+  },
+  {
+    "id": "R01994",
+    "decision": "EXCLUDE",
+    "reason": "Attacks on LLM watermarks are security of LLMs, not OS-targeted security.",
+    "evidence": "Character-Level Perturbations Disrupt LLM Watermarks"
+  },
+  {
+    "id": "R01995",
+    "decision": "EXCLUDE",
+    "reason": "Power-system battery-storage security paper, not LLM or OS security.",
+    "evidence": "Battery Energy Storage System Considering Nodal Rocof Security Constraints"
+  },
+  {
+    "id": "R01996",
+    "decision": "EXCLUDE",
+    "reason": "Security-oriented code review targets general code, not OS components or privileged interfaces.",
+    "evidence": "Security Issue-Oriented Code Review"
+  },
+  {
+    "id": "R01997",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM inference I/O bottlenecks, not security research.",
+    "evidence": "A Survey of Storage and Memory Bottlenecks"
+  },
+  {
+    "id": "R01998",
+    "decision": "UNCLEAR",
+    "reason": "Plausibly deniable storage system with no LLM role indicated and no abstract, leaving scope uncertain.",
+    "evidence": "Storage Hardware-Independent Plausibly Deniable Storage System"
+  },
+  {
+    "id": "R01999",
+    "decision": "EXCLUDE",
+    "reason": "LLM trust and safety lens, not OS-targeted security research.",
+    "evidence": "Trust, Safety, and the LLM-SHIELD Lens"
+  },
+  {
+    "id": "R02000",
+    "decision": "EXCLUDE",
+    "reason": "Denial-of-service attacks on LLM services are security of LLMs, not OS components.",
+    "evidence": "Denial-of-Service Attacks against Black-box LLM Services"
+  }
+]

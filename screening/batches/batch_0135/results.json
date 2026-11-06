@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R05401",
+    "decision": "EXCLUDE",
+    "reason": "LLM benchmark for due-process recognition; no security or OS task indicated.",
+    "evidence": "An LLM Benchmark for Due Process Recognition"
+  },
+  {
+    "id": "R05402",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-extraction benchmark concerns security of LLM applications, not OS-targeted security work.",
+    "evidence": "Prompt Extraction Benchmark of LLM-Integrated Applications"
+  },
+  {
+    "id": "R05403",
+    "decision": "EXCLUDE",
+    "reason": "Tax and accounting question-answering benchmark; no security or OS component.",
+    "evidence": "Romania-specific regulatory question answering in taxation"
+  },
+  {
+    "id": "R05404",
+    "decision": "EXCLUDE",
+    "reason": "Metaheuristic optimization benchmark; no security or OS focus.",
+    "evidence": "LLM-Driven Evolution of Metaheuristic Components"
+  },
+  {
+    "id": "R05405",
+    "decision": "UNCLEAR",
+    "reason": "Cyber attack/defense evaluation may be security-relevant, but missing abstract leaves LLM role and OS target unverified.",
+    "evidence": "Evaluating LLMs in Cyber Attack &amp; Defense"
+  },
+  {
+    "id": "R05406",
+    "decision": "EXCLUDE",
+    "reason": "Numerical-reasoning benchmark; no security or OS task.",
+    "evidence": "benchmark to assess numerical reasoning skills in Large Language Models"
+  },
+  {
+    "id": "R05407",
+    "decision": "EXCLUDE",
+    "reason": "Synthetic behavioral-health data generation; no security or OS focus.",
+    "evidence": "Generating Synthetic Behavioral Health Data"
+  },
+  {
+    "id": "R05408",
+    "decision": "EXCLUDE",
+    "reason": "News-discovery diversity evaluation; no security or OS component.",
+    "evidence": "Evaluation of Diversity in LLM-Based News Discovery"
+  },
+  {
+    "id": "R05409",
+    "decision": "EXCLUDE",
+    "reason": "Intelligent tutoring system; no security or OS task.",
+    "evidence": "LLM-powered multi-agent framework designed to deliver goal-oriented, personalized learning"
+  },
+  {
+    "id": "R05410",
+    "decision": "EXCLUDE",
+    "reason": "Cryo-EM model building and refinement; scientific workflow, no security or OS target.",
+    "evidence": "cryo-EM model building and refinement"
+  },
+  {
+    "id": "R05411",
+    "decision": "EXCLUDE",
+    "reason": "Market narrative intelligence; no security or OS task.",
+    "evidence": "Market Narrative Intelligence System"
+  },
+  {
+    "id": "R05412",
+    "decision": "EXCLUDE",
+    "reason": "Open-data maturity assessment; no security or OS component.",
+    "evidence": "Open Data Maturity Index"
+  },
+  {
+    "id": "R05413",
+    "decision": "EXCLUDE",
+    "reason": "UML class diagram generation; software modeling, no security or OS target.",
+    "evidence": "UML Class Diagram Generation from Natural Language Requirements"
+  },
+  {
+    "id": "R05414",
+    "decision": "EXCLUDE",
+    "reason": "Clinical dialogue simulation; no security or OS task.",
+    "evidence": "role-locked, multi-agent LLM system designed to generate realistic emergency department conversations"
+  },
+  {
+    "id": "R05415",
+    "decision": "EXCLUDE",
+    "reason": "Socio-political system modeling; no security or OS component.",
+    "evidence": "Autonomous Planetary Modeling Layer"
+  },
+  {
+    "id": "R05416",
+    "decision": "EXCLUDE",
+    "reason": "General LLM adaptation framework; no security or OS task.",
+    "evidence": "An Escalation Framework for LLM Adaptation"
+  },
+  {
+    "id": "R05417",
+    "decision": "UNCLEAR",
+    "reason": "LLM-driven intrusion response is security-relevant, but missing abstract leaves the OS or privileged-interface target uncertain.",
+    "evidence": "An LLM-Driven Agent for Network Intrusion Response"
+  },
+  {
+    "id": "R05418",
+    "decision": "EXCLUDE",
+    "reason": "Secures AI-agent runtime rather than using an LLM for OS-targeted security; abstract missing.",
+    "evidence": "A Reference Monitor Framework for Confined AI Agents"
+  },
+  {
+    "id": "R05419",
+    "decision": "EXCLUDE",
+    "reason": "Disruption-aware planning framework; no security or OS task.",
+    "evidence": "A Stateful Multi-LLM Agent Framework for Disruption-Aware Planning"
+  },
+  {
+    "id": "R05420",
+    "decision": "EXCLUDE",
+    "reason": "Educational project management; no security or OS component.",
+    "evidence": "An LLM-agent-based Dynamic Planning and Monitoring System in the Educational Domain"
+  },
+  {
+    "id": "R05421",
+    "decision": "UNCLEAR",
+    "reason": "Cyber threat intelligence enrichment is security-adjacent, but missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "Multi-Agent LLM Framework for Cyber Threat Intelligence Enrichment"
+  },
+  {
+    "id": "R05422",
+    "decision": "EXCLUDE",
+    "reason": "ASIC design automation; no security or OS task.",
+    "evidence": "An Autonomous Multi-Agent System for ASIC Design"
+  },
+  {
+    "id": "R05423",
+    "decision": "EXCLUDE",
+    "reason": "Trading-agent abstention study; no security or OS component.",
+    "evidence": "Ablating the LLM in an LLM Trading Agent"
+  },
+  {
+    "id": "R05424",
+    "decision": "EXCLUDE",
+    "reason": "Ontology population for ADHD; no security or OS task.",
+    "evidence": "A Multi-LLM Agent System for Modular Ontology Population"
+  },
+  {
+    "id": "R05425",
+    "decision": "EXCLUDE",
+    "reason": "Uses multi-agent reinforcement learning, not an LLM, and detection target is not OS-specific.",
+    "evidence": "Based on Multi-Agent Reinforcement Learning"
+  },
+  {
+    "id": "R05426",
+    "decision": "EXCLUDE",
+    "reason": "Defends LLM agent pipelines against instruction laundering; security of LLM/software, not OS components.",
+    "evidence": "Cross-Stage Instruction Laundering in LLM Agent Pipelines"
+  },
+  {
+    "id": "R05427",
+    "decision": "EXCLUDE",
+    "reason": "Multi-agent deliberation stopping strategies; no security or OS task.",
+    "evidence": "Optimal Stopping Strategies for Multi-Agent LLM Deliberation"
+  },
+  {
+    "id": "R05428",
+    "decision": "EXCLUDE",
+    "reason": "General code review, debugging and security analysis; no OS component or privileged interface indicated.",
+    "evidence": "Adaptive Code Review, Debugging, and Security Analysis"
+  },
+  {
+    "id": "R05429",
+    "decision": "EXCLUDE",
+    "reason": "Trustworthy human-agent collaboration in software engineering; no security or OS task.",
+    "evidence": "LLM-based Multi-Agent System oriented Software Engineering"
+  },
+  {
+    "id": "R05430",
+    "decision": "EXCLUDE",
+    "reason": "Agent architecture modeling framework; no security or OS component.",
+    "evidence": "LLM-based Agent Unified Modeling Framework"
+  },
+  {
+    "id": "R05431",
+    "decision": "EXCLUDE",
+    "reason": "Retail operating system is a business platform, not OS-kernel or privileged-interface security.",
+    "evidence": "A Multi-Agent Operating System for Human-Centric Phygital Retail"
+  },
+  {
+    "id": "R05432",
+    "decision": "EXCLUDE",
+    "reason": "Tool-definition approach for LLM agents; no security or OS task.",
+    "evidence": "A Tool Definition Approach for Empower LLM-based Agent Systems"
+  },
+  {
+    "id": "R05433",
+    "decision": "EXCLUDE",
+    "reason": "Macro-financial asset allocation; no security or OS component.",
+    "evidence": "From macro narratives to strategic asset allocation"
+  },
+  {
+    "id": "R05434",
+    "decision": "EXCLUDE",
+    "reason": "Personalized investment advisory; no security or OS task.",
+    "evidence": "Personalized Investment Advisory System"
+  },
+  {
+    "id": "R05435",
+    "decision": "EXCLUDE",
+    "reason": "Security-requirements elicitation, not a core OS security analysis, test, or repair task; abstract missing.",
+    "evidence": "Eliciting Inclusive Security Requirements"
+  },
+  {
+    "id": "R05436",
+    "decision": "EXCLUDE",
+    "reason": "Grant application generation; no security or OS component.",
+    "evidence": "Automated Grant Application Generation"
+  },
+  {
+    "id": "R05437",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial multi-LLM reasoning; no explicit security or OS task.",
+    "evidence": "SocraSynth: Adversarial Multi-LLM Reasoning"
+  },
+  {
+    "id": "R05438",
+    "decision": "EXCLUDE",
+    "reason": "Policy for AI-agent security, not use of an LLM for OS-targeted security; abstract missing.",
+    "evidence": "Contextual Agent Security: A Policy for Every Purpose"
+  },
+  {
+    "id": "R05439",
+    "decision": "EXCLUDE",
+    "reason": "MOOSE simulation automation; no security or OS task.",
+    "evidence": "A Llm Based Multi-Agent System for Automating Moose Simulation"
+  },
+  {
+    "id": "R05440",
+    "decision": "EXCLUDE",
+    "reason": "Industrial multi-agent system operations; security mechanisms mentioned but no OS-targeted LLM security research.",
+    "evidence": "Building and Operating a Large Scale Multi-Agent System"
+  }
+]

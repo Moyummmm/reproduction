@@ -1,0 +1,242 @@
+[
+  {
+    "id": "arxiv:2605.17444",
+    "decision": "EXCLUDE",
+    "reason": "General repository-level vulnerability repair, not an OS component or privileged interface.",
+    "evidence": "three representative repository-level vulnerability repair benchmarks: SEC-Bench, PatchEval"
+  },
+  {
+    "id": "arxiv:2605.17475",
+    "decision": "EXCLUDE",
+    "reason": "Formal model synthesis and repair for correctness, with no security task or OS target.",
+    "evidence": "constructs an initial model and iteratively repairs and refines it using formal verification feedback"
+  },
+  {
+    "id": "arxiv:2605.17480",
+    "decision": "EXCLUDE",
+    "reason": "Security of multi-agent LLM systems, not operating-system components or privileged interfaces.",
+    "evidence": "Multi-agent systems ... creates new attack surfaces"
+  },
+  {
+    "id": "arxiv:2605.18153",
+    "decision": "EXCLUDE",
+    "reason": "General source-code vulnerability detection, not an OS-specific security task.",
+    "evidence": "Automated vulnerability detection is crucial for enhancing software security"
+  },
+  {
+    "id": "arxiv:2605.18357",
+    "decision": "EXCLUDE",
+    "reason": "Media-economics study using LLM classifiers, with no security or OS task.",
+    "evidence": "how polarizing content affects engagement ... on a major news platform"
+  },
+  {
+    "id": "arxiv:2605.18825",
+    "decision": "EXCLUDE",
+    "reason": "LLM serving and prefix-cache optimization, not security or OS work.",
+    "evidence": "semantic-adaptive prefix cache eviction policy"
+  },
+  {
+    "id": "arxiv:2605.22566",
+    "decision": "EXCLUDE",
+    "reason": "LLM-agent workflow serving management, with no security outcome or OS target.",
+    "evidence": "workflow management paradigm ... agent serving"
+  },
+  {
+    "id": "arxiv:2605.22721",
+    "decision": "EXCLUDE",
+    "reason": "Decentralized memory for multi-agent systems, not security analysis or OS work.",
+    "evidence": "decentralized memory framework in which each agent maintains its own dual-pool memory"
+  },
+  {
+    "id": "arxiv:2605.24236",
+    "decision": "EXCLUDE",
+    "reason": "Scientific source retrieval shared task, not security or OS research.",
+    "evidence": "multilingual scientific-source retrieval"
+  },
+  {
+    "id": "arxiv:2605.24632",
+    "decision": "EXCLUDE",
+    "reason": "Economic analysis of LLM vulnerability discovery, not an LLM-based OS security task.",
+    "evidence": "examines LLM-driven vulnerability discovery through a bugonomics lens"
+  },
+  {
+    "id": "arxiv:2605.24832",
+    "decision": "EXCLUDE",
+    "reason": "Diffusion LLM serving and decoding optimization, not security or OS work.",
+    "evidence": "serving system that enables elastic decoding for diffusion LLMs"
+  },
+  {
+    "id": "arxiv:2605.25141",
+    "decision": "EXCLUDE",
+    "reason": "Review of LLM agents for renewable-energy forecasting, with no security or OS outcome.",
+    "evidence": "This review investigates how large language model LLM agents can enhance renewable energy forecasting"
+  },
+  {
+    "id": "arxiv:2605.25404",
+    "decision": "EXCLUDE",
+    "reason": "ASR-LLM error recovery for spoken dialogue, not a security or OS task.",
+    "evidence": "cause-aware error recovery paradigm"
+  },
+  {
+    "id": "arxiv:2605.26195",
+    "decision": "UNCLEAR",
+    "reason": "LLM cybersecurity agent, but the target's OS-component scope is not specified.",
+    "evidence": "CTF challenges, vulnerability exploitation, and penetration-testing tasks"
+  },
+  {
+    "id": "arxiv:2605.26819",
+    "decision": "EXCLUDE",
+    "reason": "Academic course recommender, not security or OS research.",
+    "evidence": "neurosymbolic recommender system for academic course recommendation"
+  },
+  {
+    "id": "arxiv:2605.27545",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreaking multimodal generative AI, which is security of LLMs rather than OS security.",
+    "evidence": "adaptive jailbreak framework ... multimodal text to image models"
+  },
+  {
+    "id": "arxiv:2605.27823",
+    "decision": "EXCLUDE",
+    "reason": "Defense against adversarial prompts for LLMs, not an OS security task.",
+    "evidence": "defense mechanism that proactively identifies and neutralizes malicious components in input prompts"
+  },
+  {
+    "id": "arxiv:2605.29357",
+    "decision": "EXCLUDE",
+    "reason": "Compiler pass generation and optimization, with no security outcome or OS target.",
+    "evidence": "LLM-based compiler pass generation"
+  },
+  {
+    "id": "arxiv:2605.29667",
+    "decision": "EXCLUDE",
+    "reason": "LLM safety benchmark, not an operating-system security task.",
+    "evidence": "benchmark of 1,897 adversarial Chinese prompts"
+  },
+  {
+    "id": "arxiv:2605.29960",
+    "decision": "EXCLUDE",
+    "reason": "Memory poisoning of LLM agents, which is security of LLM systems rather than OS security.",
+    "evidence": "plant backdoors in LLM agents"
+  },
+  {
+    "id": "arxiv:2605.29963",
+    "decision": "UNCLEAR",
+    "reason": "LLM honeypot evaluation is security-related, but an OS-component target is not explicit.",
+    "evidence": "evaluation framework for LLM-powered HTTP honeypots"
+  },
+  {
+    "id": "arxiv:2605.30534",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection defense for LLM agents, not OS security.",
+    "evidence": "defends LLM agents against prompt injections"
+  },
+  {
+    "id": "arxiv:2605.30667",
+    "decision": "EXCLUDE",
+    "reason": "Attacks LLM-powered reverse-engineering agents, not OS components or privileged interfaces.",
+    "evidence": "deceive LLM-powered disassembly and decompilation systems"
+  },
+  {
+    "id": "arxiv:2606.00189",
+    "decision": "EXCLUDE",
+    "reason": "General agent design and optimization, with no security or OS task.",
+    "evidence": "designing and optimizing practical agentic systems"
+  },
+  {
+    "id": "arxiv:2606.00448",
+    "decision": "EXCLUDE",
+    "reason": "Compositional risk in agent skill ecosystems, which is security of agents rather than OS security.",
+    "evidence": "compositional security measurement framework"
+  },
+  {
+    "id": "arxiv:2606.00774",
+    "decision": "EXCLUDE",
+    "reason": "Cost-efficient LLM selection for compound AI systems, not security or OS work.",
+    "evidence": "constrained LLM selection for compound AI systems"
+  },
+  {
+    "id": "arxiv:2606.00866",
+    "decision": "EXCLUDE",
+    "reason": "KV-cache offloading for agent serving, not a security or OS task.",
+    "evidence": "agent serving system"
+  },
+  {
+    "id": "arxiv:2606.02859",
+    "decision": "EXCLUDE",
+    "reason": "Multi-agent economic coordination, with no security or OS target.",
+    "evidence": "agent economy in which agents compete via auctions for the right to act"
+  },
+  {
+    "id": "arxiv:2606.03090",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection attacks on LLM grading systems, not OS security.",
+    "evidence": "PI attacks in AG systems"
+  },
+  {
+    "id": "arxiv:2606.03811",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-powered adaptive worm exploits Linux, Windows, and IoT targets, a security task against OSes.",
+    "evidence": "The worm parasitically uses compromised machines to run open-weight large language models (LLMs)"
+  },
+  {
+    "id": "arxiv:2606.04329",
+    "decision": "EXCLUDE",
+    "reason": "Memory poisoning attacks on LLM agents, not operating-system security.",
+    "evidence": "memory poisoning in LLM-based agents"
+  },
+  {
+    "id": "arxiv:2606.04580",
+    "decision": "EXCLUDE",
+    "reason": "Social-media threat-intelligence reporting, with no explicit OS-component target.",
+    "evidence": "monitors four platforms ... produces structured TI reports"
+  },
+  {
+    "id": "arxiv:2606.04599",
+    "decision": "EXCLUDE",
+    "reason": "Industrial anomaly detection, not a security or OS task.",
+    "evidence": "Industrial anomaly detection (IAD) is essential for manufacturing quality"
+  },
+  {
+    "id": "arxiv:2606.05489",
+    "decision": "EXCLUDE",
+    "reason": "Vector-retrieval index optimization, with no security outcome or OS target.",
+    "evidence": "LLM-Guided ANN Index Optimization"
+  },
+  {
+    "id": "arxiv:2606.05567",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-driven penetration testing against Windows Server post-exploitation targets OS/system services.",
+    "evidence": "Windows Server 2022 post-exploitation prototype across five scenarios"
+  },
+  {
+    "id": "arxiv:2606.06833",
+    "decision": "EXCLUDE",
+    "reason": "Acoustic adversarial attacks on ASR pipelines, not OS components.",
+    "evidence": "subvert real-time ASR pipelines"
+  },
+  {
+    "id": "arxiv:2606.06914",
+    "decision": "EXCLUDE",
+    "reason": "Web-UI deceptive-pattern defense, not OS security.",
+    "evidence": "repair privacy deceptive interfaces in live web environments"
+  },
+  {
+    "id": "arxiv:2606.07420",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-assisted vulnerability discovery in the Android framework, an OS component.",
+    "evidence": "uses large language models to reason about method semantics and identify behavioral divergences"
+  },
+  {
+    "id": "arxiv:2606.07790",
+    "decision": "EXCLUDE",
+    "reason": "Security and robustness of LLM coordination communication, not OS security.",
+    "evidence": "communication channels can be exploited as adversarial injection vectors"
+  },
+  {
+    "id": "arxiv:2606.07992",
+    "decision": "EXCLUDE",
+    "reason": "Prompt injection via MCP tool-error paths, which is security of LLM agents rather than OS security.",
+    "evidence": "error-path injection triples the success rate"
+  }
+]

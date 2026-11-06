@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R00678",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based vulnerability detection targets smart contracts, not OS components.",
+    "evidence": "Smart Contract Vulnerability Detection"
+  },
+  {
+    "id": "R00681",
+    "decision": "EXCLUDE",
+    "reason": "LLM multi-agent detection and patching targets smart contracts, outside OS scope.",
+    "evidence": "Automated Smart Contract Vulnerability Detection and Patching"
+  },
+  {
+    "id": "R00682",
+    "decision": "EXCLUDE",
+    "reason": "LLM/SAST comparison evaluates general C# code, not OS components.",
+    "evidence": "detecting security vulnerabilities in C# code"
+  },
+  {
+    "id": "R00684",
+    "decision": "EXCLUDE",
+    "reason": "Vulnerability detection on general software via code-model embeddings, not OS-targeted.",
+    "evidence": "Software Vulnerability Detection"
+  },
+  {
+    "id": "R00686",
+    "decision": "EXCLUDE",
+    "reason": "VSCode plugin detects general code vulnerabilities; no OS-component focus.",
+    "evidence": "real-time VSCode plugin"
+  },
+  {
+    "id": "R00687",
+    "decision": "EXCLUDE",
+    "reason": "LLM-annotated vulnerability detection is evaluated on general code benchmarks, not OS components.",
+    "evidence": "Experiments on Devign, ReVeal, and DiverseVul"
+  },
+  {
+    "id": "R00691",
+    "decision": "EXCLUDE",
+    "reason": "LLM semantic analysis targets smart contract vulnerabilities, not OS components.",
+    "evidence": "Smart Contract Vulnerability Detection"
+  },
+  {
+    "id": "R00692",
+    "decision": "EXCLUDE",
+    "reason": "LLM post-processing audits industrial IoT anomaly detection, not OS security.",
+    "evidence": "streaming industrial Internet of Things (IoT) sensor data"
+  },
+  {
+    "id": "R00707",
+    "decision": "EXCLUDE",
+    "reason": "End-to-end LLM vulnerability detection covers general source code, not OS components.",
+    "evidence": "detect security vulnerabilities in source code repositories"
+  },
+  {
+    "id": "R00712",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted labeling supports equipment condition monitoring, not OS security.",
+    "evidence": "LLM-assisted diagnostics"
+  },
+  {
+    "id": "R00714",
+    "decision": "EXCLUDE",
+    "reason": "LLM log anomaly benchmark addresses system diagnostics and reliability, not OS security.",
+    "evidence": "System log anomaly detection"
+  },
+  {
+    "id": "R00715",
+    "decision": "EXCLUDE",
+    "reason": "LLM vulnerability detection targets general software, not OS components.",
+    "evidence": "software vulnerabilities"
+  },
+  {
+    "id": "R00717",
+    "decision": "EXCLUDE",
+    "reason": "Human-LLM epistemic risk analysis is not OS security research.",
+    "evidence": "risk in human-LLM interaction"
+  },
+  {
+    "id": "R00720",
+    "decision": "EXCLUDE",
+    "reason": "Review-style chapter on LLM security-system evaluation, not original OS-targeted research.",
+    "evidence": "performance evaluation of large language model (LLM)-based security systems"
+  },
+  {
+    "id": "R00723",
+    "decision": "EXCLUDE",
+    "reason": "Tripwire intrusion detection targets UNIX filesystem but describes no LLM use.",
+    "evidence": "Intrusion Detection using Tripwire in UNIX Operating System"
+  },
+  {
+    "id": "R00724",
+    "decision": "EXCLUDE",
+    "reason": "LLM/RAG vulnerability detection targets multilingual legacy code, not OS components.",
+    "evidence": "Multi-Lingual Vulnerability Detection in Legacy Codebases"
+  },
+  {
+    "id": "R00725",
+    "decision": "EXCLUDE",
+    "reason": "Explainable LLM detection targets smart contract vulnerabilities, outside OS scope.",
+    "evidence": "Smart Contract Vulnerability Detection"
+  },
+  {
+    "id": "R00726",
+    "decision": "EXCLUDE",
+    "reason": "LLM drug-interaction detection is healthcare and e-commerce, not OS security.",
+    "evidence": "Real-Time Drug Interaction Detection in E-Commerce"
+  },
+  {
+    "id": "R00728",
+    "decision": "EXCLUDE",
+    "reason": "LLM-enhanced dependency tracking addresses OSS supply chains and container scanning, not OS components.",
+    "evidence": "container image scanning"
+  },
+  {
+    "id": "R00729",
+    "decision": "EXCLUDE",
+    "reason": "LLM smart-contract vulnerability detection is outside OS-component scope.",
+    "evidence": "Smart Contract Vulnerability Detection"
+  },
+  {
+    "id": "R00732",
+    "decision": "EXCLUDE",
+    "reason": "LLM vulnerability-fix detection targets OSS commits, not OS components.",
+    "evidence": "Detecting vulnerability fix commits in open-source software"
+  },
+  {
+    "id": "R00743",
+    "decision": "EXCLUDE",
+    "reason": "Android system-service fuzzing targets privileged interfaces but describes no LLM use.",
+    "evidence": "FASSFuzzer uses ADB to quickly detect null pointer reference vulnerabilities in Android services."
+  },
+  {
+    "id": "R00744",
+    "decision": "EXCLUDE",
+    "reason": "Repair of insecure LLM-generated code is general software, not OS-targeted.",
+    "evidence": "900 insecure LLM-generated samples"
+  },
+  {
+    "id": "R00745",
+    "decision": "EXCLUDE",
+    "reason": "LLM-serving scheduler benchmark is performance research, not OS security.",
+    "evidence": "LLM-Serving Scheduler Portability Benchmark"
+  },
+  {
+    "id": "R00775",
+    "decision": "EXCLUDE",
+    "reason": "Conceptual human-AI agency framework is not OS security research.",
+    "evidence": "AI as a Generative Pathway System"
+  },
+  {
+    "id": "R00785",
+    "decision": "EXCLUDE",
+    "reason": "Business-automation GenAI security commentary is not OS-targeted research.",
+    "evidence": "security implications for business automation"
+  },
+  {
+    "id": "R00792",
+    "decision": "EXCLUDE",
+    "reason": "Generative AI for physical-layer communication security is not OS-component research.",
+    "evidence": "security at the physical layer of communication networks"
+  },
+  {
+    "id": "R00794",
+    "decision": "EXCLUDE",
+    "reason": "IoT and robotics platform engineering lacks an OS security task.",
+    "evidence": "robotic operating platforms"
+  },
+  {
+    "id": "R00802",
+    "decision": "EXCLUDE",
+    "reason": "Systematic review of enterprise GenAI security risks is not core empirical OS research.",
+    "evidence": "systematic literature review"
+  },
+  {
+    "id": "R00809",
+    "decision": "EXCLUDE",
+    "reason": "Chapter on AI privacy and security is not original OS-component research.",
+    "evidence": "Information Security and Privacy Protection"
+  },
+  {
+    "id": "R00810",
+    "decision": "EXCLUDE",
+    "reason": "Generative AI for web application security is outside OS-component scope.",
+    "evidence": "Enhanced Web Application Security"
+  },
+  {
+    "id": "R00811",
+    "decision": "EXCLUDE",
+    "reason": "General cybersecurity chapter on generative AI is not OS-targeted empirical research.",
+    "evidence": "Generative AI for Cybersecurity"
+  },
+  {
+    "id": "R00813",
+    "decision": "EXCLUDE",
+    "reason": "Blockchain wallet security protocol is not OS-component research.",
+    "evidence": "Wallet Cybersecurity"
+  },
+  {
+    "id": "R00817",
+    "decision": "EXCLUDE",
+    "reason": "Systematic review of enterprise GenAI security risks; not core OS research.",
+    "evidence": "systematic literature review"
+  },
+  {
+    "id": "R00821",
+    "decision": "EXCLUDE",
+    "reason": "Federated digital-twin cybersecurity ecosystem is not OS-component research.",
+    "evidence": "Predictive Cyber Security Ecosystem"
+  },
+  {
+    "id": "R00827",
+    "decision": "EXCLUDE",
+    "reason": "Healthcare GenAI security and sustainability review is not OS-component research.",
+    "evidence": "Transforming Healthcare Security and Sustainability"
+  },
+  {
+    "id": "R00832",
+    "decision": "EXCLUDE",
+    "reason": "Agentic GenAI defense policy analysis is not OS-targeted empirical research.",
+    "evidence": "U.S. National Security and Defense"
+  },
+  {
+    "id": "R00833",
+    "decision": "EXCLUDE",
+    "reason": "Generative AI cloud security framework is not specifically OS-component research.",
+    "evidence": "Security Frameworks Using Generative AI for Cloud Ecosystems"
+  },
+  {
+    "id": "R00836",
+    "decision": "EXCLUDE",
+    "reason": "General generative AI overview is not OS security research.",
+    "evidence": "Generative AI"
+  },
+  {
+    "id": "R00838",
+    "decision": "EXCLUDE",
+    "reason": "Power-system islanding and load shedding has no LLM or OS-security component.",
+    "evidence": "Forced Islanding and Adaptive Load Shedding"
+  }
+]

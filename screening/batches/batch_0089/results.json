@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03561",
+    "decision": "EXCLUDE",
+    "reason": "Sweet-potato quality study using Six Sigma/RCA; no LLM, security, or OS component.",
+    "evidence": "Efforts to Improve Sweet Potato Quality Through Six Sigma and Root Cause Analysis (RCA)"
+  },
+  {
+    "id": "R03562",
+    "decision": "EXCLUDE",
+    "reason": "Shoe-quality improvement using FMEA/GRA/RCA; outside LLM security/OS scope.",
+    "evidence": "Shoes Quality Improvement Strategy with Failure Mode and Effect Analysis, Grey Relational Analysis, and Root Cause Analysis"
+  },
+  {
+    "id": "R03563",
+    "decision": "UNCLEAR",
+    "reason": "LLM agents named, but no abstract to establish a security task or OS target.",
+    "evidence": "Exploring LLM-Based Agents for Root Cause Analysis"
+  },
+  {
+    "id": "R03564",
+    "decision": "EXCLUDE",
+    "reason": "LLM-powered RCA for device failures; no security or OS-component task indicated.",
+    "evidence": "Accelerating Root Cause Analysis for Multi-Vendor Device Failures with LLM-Powered Reasoning"
+  },
+  {
+    "id": "R03565",
+    "decision": "EXCLUDE",
+    "reason": "Concrete quality-control study; no LLM or security/OS element.",
+    "evidence": "Concrete Quality Control Using the Seven Tools Method and Root Cause Analysis (RCA)"
+  },
+  {
+    "id": "R03566",
+    "decision": "EXCLUDE",
+    "reason": "Permit-to-work process improvement; no LLM or security/OS research.",
+    "evidence": "analyze waste in the confined space work permit issuance process"
+  },
+  {
+    "id": "R03567",
+    "decision": "EXCLUDE",
+    "reason": "GNN trace RCA for microservices; no LLM, security, or OS target.",
+    "evidence": "Sleuth: A Trace-Based Root Cause Analysis System for Large-Scale Microservices with Graph Neural Networks"
+  },
+  {
+    "id": "R03568",
+    "decision": "EXCLUDE",
+    "reason": "Side-channel leakage analysis but no LLM use; hardware/software focus.",
+    "evidence": "explain the origin of side-channel leakage in a software program"
+  },
+  {
+    "id": "R03569",
+    "decision": "EXCLUDE",
+    "reason": "Pump failure factors; no LLM or security/OS content.",
+    "evidence": "Key Factors in Pump System Failure"
+  },
+  {
+    "id": "R03570",
+    "decision": "EXCLUDE",
+    "reason": "Hot-oil system RCA; process-safety reliability, not LLM/OS security research.",
+    "evidence": "field-based root cause analysis of a chronic low-flash-point condition in a closed-loop hot oil system"
+  },
+  {
+    "id": "R03571",
+    "decision": "EXCLUDE",
+    "reason": "Digital-twin predictive maintenance/RCA; no LLM security or OS target.",
+    "evidence": "digital twins (DTs) emerged as a powerful tool for performance monitoring, deviation analysis and predictive maintenance"
+  },
+  {
+    "id": "R03572",
+    "decision": "EXCLUDE",
+    "reason": "Processed-meat quality FMEA/RCA; outside LLM security/OS scope.",
+    "evidence": "Quality Control of Processed Meat Using Failure Modes and Effects Analysis (FMEA) and Root Cause Analysis (RCA) Methods"
+  },
+  {
+    "id": "R03573",
+    "decision": "EXCLUDE",
+    "reason": "LLM unit-test generation; general software testing, not security/OS.",
+    "evidence": "Improving LLM-Based Unit Test Generation Through Root-Cause-Driven Prompt Design"
+  },
+  {
+    "id": "R03574",
+    "decision": "EXCLUDE",
+    "reason": "Nuclear-plant pipe RCA; no LLM or security/OS task.",
+    "evidence": "Root cause analysis for cracked pipe in auxiliary system in nuclear power plant"
+  },
+  {
+    "id": "R03575",
+    "decision": "EXCLUDE",
+    "reason": "LLM satellite fault RCA; fault diagnosis, not security/OS analysis.",
+    "evidence": "SAFE: Situation-Aware Fault Evidence Diagnosis with KG-Guided LLM Reasoning for Satellite Fault Root Cause Analysis"
+  },
+  {
+    "id": "R03576",
+    "decision": "UNCLEAR",
+    "reason": "LLM agents for microservice incident response; security/OS scope unclear without abstract.",
+    "evidence": "GALA: Graph-Augmented LLM Agents for Root Cause Analysis and Incident Response in Microservices"
+  },
+  {
+    "id": "R03577",
+    "decision": "EXCLUDE",
+    "reason": "Six Sigma/RCA shoe-industry performance study; no LLM or security/OS.",
+    "evidence": "This research aims to identify the performance of PT. XYZ"
+  },
+  {
+    "id": "R03578",
+    "decision": "EXCLUDE",
+    "reason": "SERVQUAL service-quality RCA; outside LLM security/OS scope.",
+    "evidence": "Analysis of Service Quality Using the SERVQUAL Method and Root Cause Analysis (RCA)"
+  },
+  {
+    "id": "R03579",
+    "decision": "EXCLUDE",
+    "reason": "ANN-based IT incident RCA; not LLM and no security/OS target stated.",
+    "evidence": "Root Cause Analysis for IT Incident using Artificial Neural Network (ANN)"
+  },
+  {
+    "id": "R03580",
+    "decision": "EXCLUDE",
+    "reason": "Manufacturing production RCA; no LLM or security/OS element.",
+    "evidence": "A Root Cause Analysis Method for Abnormal Production in Discrete Manufacturing Workshop"
+  },
+  {
+    "id": "R03581",
+    "decision": "EXCLUDE",
+    "reason": "Rotating-equipment vibration RCA; no LLM or security/OS.",
+    "evidence": "Vibration Signature Analysis and Structural Dynamic Response of Rotating Equipment under Different Operating Speeds"
+  },
+  {
+    "id": "R03582",
+    "decision": "EXCLUDE",
+    "reason": "Halal-food packaging quality RCA; outside scope.",
+    "evidence": "Analysis Packaging Quality of Halal Food Products Using the Six Sigma Method and Root Cause Analysis (RCA)"
+  },
+  {
+    "id": "R03583",
+    "decision": "EXCLUDE",
+    "reason": "Car exhaust quality-control RCA; outside LLM security/OS scope.",
+    "evidence": "Analysis Quality Control of Car Exhaust Components Using the Method Six Sigma and Root Cause Analysis (RCA)"
+  },
+  {
+    "id": "R03584",
+    "decision": "EXCLUDE",
+    "reason": "Shrimp-cracker production RCA; food quality, outside scope.",
+    "evidence": "Optimizing Shrimp Cracker Production Using Response Surface Methodology and Root Cause Analysis to Improve Quality"
+  },
+  {
+    "id": "R03585",
+    "decision": "UNCLEAR",
+    "reason": "Generic log-analysis RCA tools; missing abstract leaves LLM/security/OS role unclear.",
+    "evidence": "Advanced Log Analysis Tools for Efficient Root Cause Identification"
+  },
+  {
+    "id": "R03586",
+    "decision": "EXCLUDE",
+    "reason": "LLM expert system for foundry defect RCA; manufacturing, no security/OS target.",
+    "evidence": "an offline expert system for root-cause analysis of casting defects and equipment failures in a steel foundry"
+  },
+  {
+    "id": "R03587",
+    "decision": "UNCLEAR",
+    "reason": "System-call failure RCA is OS-adjacent, but LLM and security roles are not stated.",
+    "evidence": "DeepErr: Automatic Root-Cause Analysis of System Call Failures"
+  },
+  {
+    "id": "R03588",
+    "decision": "EXCLUDE",
+    "reason": "Corneal bacterial contamination RCA; no LLM or security/OS.",
+    "evidence": "Root cause analysis of corneal contamination with bacteria Ralstonia insidiosa"
+  },
+  {
+    "id": "R03589",
+    "decision": "EXCLUDE",
+    "reason": "Rural school improvement RCA; outside scope.",
+    "evidence": "Using Root Cause Analysis for Rural School Improvement"
+  },
+  {
+    "id": "R03590",
+    "decision": "EXCLUDE",
+    "reason": "Jenkins test-automation RCA with ML; no LLM or security/OS target.",
+    "evidence": "The data currently used from Build Test Automation from Jenkins Pipeline."
+  },
+  {
+    "id": "R03591",
+    "decision": "EXCLUDE",
+    "reason": "Language-model temporal RCA; general diagnostics, no security/OS task.",
+    "evidence": "a framework that employs contextual embedding language models to enhance temporal root-cause analysis"
+  },
+  {
+    "id": "R03592",
+    "decision": "EXCLUDE",
+    "reason": "ML RCA bot for test failures; not LLM or security/OS research.",
+    "evidence": "apply machine learning (ML) techniques to predict the root cause of the failure"
+  },
+  {
+    "id": "R03593",
+    "decision": "EXCLUDE",
+    "reason": "RCA for LLM applications; addresses LLM reliability, not OS security.",
+    "evidence": "fault diagnosis in these applications is challenging due to distributed deployment and complex component interactions"
+  },
+  {
+    "id": "R03594",
+    "decision": "EXCLUDE",
+    "reason": "ML RCA bot for test failures; not LLM or security/OS research.",
+    "evidence": "apply the machine learning (ML) techniques to predicts the root cause of the failure"
+  },
+  {
+    "id": "R03595",
+    "decision": "EXCLUDE",
+    "reason": "ML RCA bot for test failures; not LLM or security/OS research.",
+    "evidence": "apply machine learning (ML) techniques to predict the root cause of the failure"
+  },
+  {
+    "id": "R03596",
+    "decision": "EXCLUDE",
+    "reason": "LLM RCA for CI/CD self-healing; software delivery, not security/OS.",
+    "evidence": "Large Language Model-assisted root cause analysis, multi-agent recovery planning, safe remediation execution"
+  },
+  {
+    "id": "R03597",
+    "decision": "EXCLUDE",
+    "reason": "Manufacturing quality data analysis; no LLM or security/OS.",
+    "evidence": "Compositional Data Analysis for Quality Assessment and Root Cause Analysis in Manufacturing"
+  },
+  {
+    "id": "R03598",
+    "decision": "UNCLEAR",
+    "reason": "Automotive cybersecurity CVE RCA, but LLM role and OS target unclear without abstract.",
+    "evidence": "CVE Compliance Auditor: A Standard-Based Root Cause Analysis System for Automotive Cybersecurity"
+  },
+  {
+    "id": "R03599",
+    "decision": "EXCLUDE",
+    "reason": "AI test-failure RCA; general software testing, not security/OS.",
+    "evidence": "AI - Based Root Cause Analysis of Test Failures Using Allure Reports"
+  },
+  {
+    "id": "R03600",
+    "decision": "EXCLUDE",
+    "reason": "LLM RCA for microservice CPU/network faults; reliability, not security/OS.",
+    "evidence": "LLM-augmented multi-source root cause attribution method for CPU-load, network-delay, and network-loss incidents in microservice systems"
+  }
+]

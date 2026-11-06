@@ -1,0 +1,155 @@
+[
+  {
+    "id": "R06381",
+    "os_target": "unknown",
+    "llm_role": "Retrieval-augmented large language model used in a question-and-answer pipeline to detect anomalies from logs.",
+    "security_task": "Log anomaly detection to support cyber resiliency, fault identification, and cyber investigation/digital forensics.",
+    "evidence": "In this research work, we explore the use of a Retrieval Augmented Large Language Model that leverages a vector database to detect anomalies from logs. We used a Question and Answer configuration pipeline.",
+    "suggested": "unclear",
+    "uncertainty": "System logs are the data source, but the abstract does not identify a specific OS component or privileged interface."
+  },
+  {
+    "id": "R06385",
+    "os_target": "unknown",
+    "llm_role": "LLM guided by domain ontologies and SHACL constraints to extract structured cybersecurity information.",
+    "security_task": "Cyber threat intelligence extraction and identification/interpretation of malicious events from cybersecurity logs.",
+    "evidence": "In this work, we propose a novel methodology that combines ontology-driven structured outputs with Large Language Models (LLMs), to build an Artificial Intelligence (AI) agent that improves the accuracy and explainability of information extraction from cybersecurity logs.",
+    "suggested": "unclear",
+    "uncertainty": "Honeypot and cybersecurity logs are the data source, but no specific OS component or privileged interface is established."
+  },
+  {
+    "id": "R06387",
+    "os_target": "unknown",
+    "llm_role": "LLM-based multi-agent framework simulating benign and malicious insider activities and generating system logs.",
+    "security_task": "Insider threat simulation and generation of a benchmark dataset for insider threat detection.",
+    "evidence": "To address this challenge, we propose Chimera, an LLM-based multi-agent framework that automatically simulates both benign and malicious insider activities and generates comprehensive system logs across diverse enterprise environments.",
+    "suggested": "unclear",
+    "uncertainty": "The work concerns enterprise system logs and insider threat detection, but the abstract does not name an OS component or privileged interface."
+  },
+  {
+    "id": "R06392",
+    "os_target": "Arm TrustZone trusted execution environment (TEE), REE/TEE NPU driver, OpenHarmony OS",
+    "llm_role": "On-device LLM is the protected workload whose model parameters and inference are secured inside the TEE.",
+    "security_task": "Protecting proprietary on-device LLM models from leakage to end users.",
+    "evidence": "To mitigate this risk, we propose a system design for protecting on-device LLMs using Arm Trusted Execution Environment (TEE), TrustZone.",
+    "suggested": "adjacent",
+    "uncertainty": "The LLM is the asset being protected rather than an LLM performing security analysis, matching the stated LLM-protection adjacent category."
+  },
+  {
+    "id": "R06395",
+    "os_target": "Cloud network, host, and hypervisor layers",
+    "llm_role": "LLM performs semantic analysis and explanation for unresolved low-confidence intrusion events and contributes calibrated confidence to final attack promotion.",
+    "security_task": "Multilevel intrusion detection across network, host, and hypervisor layers.",
+    "evidence": "The system secures three distinct layers: network, host, and hypervisor. Machine learning models at each layer detect known attack patterns, while prediction confidence distinguishes reliable decisions from uncertain outcomes. Within the multi-gate flow, low-confidence events pass through a learned-threshold confidence gate (Gate-1), followed by a Chroma memory-matching gate (Gate-2), with unresolved events escalated to a large language model (LLM) for semantic analysis and explanation.",
+    "suggested": "possible_core",
+    "uncertainty": "Hypervisor and host layers are named, but the abstract does not identify a particular OS component or interface within them."
+  },
+  {
+    "id": "arxiv:2405.09318",
+    "os_target": "System calls",
+    "llm_role": "Pre-trained LLMs adapted via transfer learning to classify malware from system call data.",
+    "security_task": "Malware detection based on system call activity.",
+    "evidence": "Integrating large language models (LLMs) with system call analysis offers a promising approach to enhance malware detection. This work presents a novel framework leveraging LLMs to classify malware based on system call data. The framework uses transfer learning to adapt pre-trained LLMs for malware detection.",
+    "suggested": "possible_core",
+    "uncertainty": "System calls are clearly the OS interface, though the abstract does not specify the OS or which system calls."
+  },
+  {
+    "id": "arxiv:2407.11279",
+    "os_target": "Android filesystem and access control mechanisms",
+    "llm_role": "LLMs generate targeted exploit code from identified vulnerabilities and generated input payloads to support validation.",
+    "security_task": "Detection of filesystem vulnerabilities (path traversal, hijacking, luring) and exploit validation.",
+    "evidence": "In this paper, we present PathSentinel, which overcomes the limitations of previous techniques by combining static program analysis and access control policy analysis to detect three types of filesystem vulnerabilities: path traversals, hijacking vulnerabilities, and luring vulnerabilities. By unifying program and access control policy analysis, PathSentinel identifies attack surfaces accurately and prunes many impractical attacks to generate input payloads for vulnerability testing. To streamline vulnerability validation, PathSentinel leverages large language models (LLMs) to generate targeted exploit code based on the identified vulnerabilities and generated input payloads.",
+    "suggested": "possible_core",
+    "uncertainty": "LLM use is limited to exploit-code generation for validation; the OS component is the Android filesystem/access-control layer."
+  },
+  {
+    "id": "arxiv:2410.17141",
+    "os_target": "unknown",
+    "llm_role": "LLMs act as automated penetration-testing agents, evaluated via PentestGPT.",
+    "security_task": "Automated penetration testing, including enumeration, exploitation, and privilege escalation.",
+    "evidence": "This paper introduces a novel open benchmark for LLM-based automated penetration testing, addressing this critical gap. We first evaluate the performance of LLMs, including GPT-4o and LLama 3.1-405B, using the state-of-the-art PentestGPT tool.",
+    "suggested": "unclear",
+    "uncertainty": "Targets are described generically as systems and networks; no specific OS component or privileged interface is established."
+  },
+  {
+    "id": "arxiv:2412.01655",
+    "os_target": "Command-line interface (CLI) commands and command interception systems",
+    "llm_role": "LLM-based transformer classifier provides command risk classification and identifies rare dangerous commands.",
+    "security_task": "Risk assessment and interception of dangerous CLI commands, plus auditing of rule-based systems.",
+    "evidence": "In this paper, we propose a transformer-based command risk classification system, which leverages the generalization power of Large Language Models (LLM) to provide accurate classification and the ability to identify rare dangerous commands effectively, by exploiting the power of transfer learning.",
+    "suggested": "possible_core",
+    "uncertainty": "The CLI is the analyzed interface, but the abstract does not tie it to a specific OS or privilege level."
+  },
+  {
+    "id": "arxiv:2602.17622",
+    "os_target": "unknown",
+    "llm_role": "LLM-based penetration-testing agent with difficulty-aware planning and a tool/skill layer.",
+    "security_task": "Real-world automated penetration testing and attack-chain completion.",
+    "evidence": "LLM-based agents show promise for automating penetration testing, yet reported performance varies widely across systems and benchmarks. We analyze 28 LLM-based penetration testing systems and evaluate five representative implementations across three benchmarks of increasing complexity.",
+    "suggested": "unclear",
+    "uncertainty": "Evaluation environments such as GOAD and CTF are named, but no specific OS component or privileged interface is identified."
+  },
+  {
+    "id": "arxiv:2602.19831",
+    "os_target": "Volatile system memory (RAM) and kernel-assisted memory analysis on Windows and Android",
+    "llm_role": "General-purpose LLMs interpret memory-analysis outputs, extract IoCs, correlate artifacts, and justify malware classifications.",
+    "security_task": "Memory forensics and malware analysis, including IoC extraction.",
+    "evidence": "In this paper, we propose an explainable, AI-assisted memory forensics approach that leverages general-purpose large language models (LLMs) to interpret memory analysis outputs in a human-readable form and to automatically extract meaningful Indicators of Compromise (IoCs), in some circumstances detecting more IoCs than current state-of-the-art tools.",
+    "suggested": "possible_core",
+    "uncertainty": "The OS target is system memory/kernel-assisted analysis rather than a narrowly named interface; exact OS internals are unspecified."
+  },
+  {
+    "id": "arxiv:2605.17406",
+    "os_target": "iOS OS-level side channels observable by unprivileged applications",
+    "llm_role": "LLM-based semantic reasoning drives agent exploration and documentation-based side-channel discovery and verification.",
+    "security_task": "Discovery and analysis of side-channel leakage and privacy risk.",
+    "evidence": "To identify sensitive targets beyond manually specified events, SCAgent performs agent-driven system exploration guided by LLM-based semantic reasoning. To systematically discover side channels while mitigating the risk of LLM hallucination, it reasons over system documentation and incorporates explicit verification to enforce semantic consistency, threat-model feasibility, and per-channel usability. To enable scalable analysis under limited data, SCAgent adopts a few-shot learning paradigm based on foundation models, avoiding the need to train bespoke models for each channel--event pair. To bridge the gap between raw time-series side-channel signals and tabular foundation models, SCAgent further introduces a time-shift--robust feature extraction layer that enables effective downstream analysis. We instantiate SCAgent on iOS as a first step, focusing on OS-level side channels observable by unprivileged applications.",
+    "suggested": "possible_core",
+    "uncertainty": "The OS-level target is established, but the abstract does not name a specific iOS component or privileged interface beyond the unprivileged-app observation boundary."
+  },
+  {
+    "id": "arxiv:2606.03811",
+    "os_target": "unknown",
+    "llm_role": "Open-weight LLMs run on compromised machines to reason about targets and synthesize attack strategies.",
+    "security_task": "Self-propagating malware/worm attacks across networked machines.",
+    "evidence": "The worm parasitically uses compromised machines to run open-weight large language models (LLMs) to sustain its reasoning, or extend its reach for further attacks.",
+    "suggested": "unclear",
+    "uncertainty": "Linux, Windows, and IoT are named as platforms, but no specific OS component or privileged interface is established."
+  },
+  {
+    "id": "arxiv:2606.05567",
+    "os_target": "Windows Server 2022 post-exploitation environment and Sysmon telemetry",
+    "llm_role": "LLM-driven attacker agent plans and executes attack steps; LLM Defender detects attacks; Judge agent adjudicates and reports.",
+    "security_task": "Automated penetration testing under intelligent defense, with detection and auditability.",
+    "evidence": "For realism, ZERO-APT embeds a configurable LLM Defender that consumes Sysmon telemetry and detects attacks in real time, exposing the attacker to a live opponent rather than a passive target.",
+    "suggested": "possible_core",
+    "uncertainty": "Windows Server 2022 is the platform and Sysmon the telemetry source, but no more specific privileged interface used by the attacker is named."
+  },
+  {
+    "id": "arxiv:2606.07420",
+    "os_target": "Android framework components in AOSP with parallel Java-Kotlin implementations",
+    "llm_role": "LLMs reason about method semantics and identify behavioral divergences between parallel methods.",
+    "security_task": "Discovery of security-relevant framework vulnerabilities and behavioral divergences.",
+    "evidence": "We design and build ParaDroid, an analysis framework that identifies parallel methods at scale and compares their behaviors. ParaDroid normalizes code into a bytecode-level intermediate representation, reconstructs class-to-source mappings, and uses large language models to reason about method semantics and identify behavioral divergences.",
+    "suggested": "possible_core",
+    "uncertainty": "The Android framework is clearly the OS target, though the abstract does not identify which specific framework component or interface is most affected."
+  },
+  {
+    "id": "arxiv:2609.09087",
+    "os_target": "Linux privilege-escalation surface (Dockerized Linux scenarios)",
+    "llm_role": "LLM agents execute privilege-escalation tasks; PrivEscAgent augments a generic ReAct agent with enumeration, category matching, and step planning.",
+    "security_task": "Offensive Linux privilege escalation, benchmarked for risk assessment and red-team training.",
+    "evidence": "As Large Language Model (LLM) agents increasingly automate offensive operations across the cyber kill chain, their efficacy in complex local post-exploitation tasks remains inadequately quantified. Among these, Linux privilege escalation is a key step between initial access and full system compromise.",
+    "suggested": "possible_core",
+    "uncertainty": "Linux privilege escalation is explicitly the OS-level task, but no specific privileged interface (for example setuid or sudo) is named."
+  },
+  {
+    "id": "arxiv:2609.36573",
+    "os_target": "unknown",
+    "llm_role": "LLM-based attacker agents use native host mechanisms to install and maintain persistence.",
+    "security_task": "Post-compromise installation and persistence, evaluated as an adversarial survival task.",
+    "evidence": "Decoupled from upfront exploitation, CyberPersistBench frames persistence as an adversarial survival task in which agents use native host mechanisms to maintain footholds across staged system disruptions.",
+    "suggested": "unclear",
+    "uncertainty": "Native host mechanisms are referenced but not specified, so the OS component or privileged interface remains unknown."
+  }
+]

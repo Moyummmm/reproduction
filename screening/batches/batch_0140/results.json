@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R05601",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection detection in an LLM hiring application, not an LLM used against OS components.",
+    "evidence": "Detecting prompt injection attacks in LLM-driven hiring"
+  },
+  {
+    "id": "R05602",
+    "decision": "EXCLUDE",
+    "reason": "Detects prompt injection in LLM systems; this is security of LLMs, with no OS target.",
+    "evidence": "Prompt Injection Detection in LLM Systems"
+  },
+  {
+    "id": "R05603",
+    "decision": "EXCLUDE",
+    "reason": "LLM serving privacy/security issue involving KV-cache prompt leakage, not an OS security task.",
+    "evidence": "Prompt Leakage via KV-Cache Sharing in Multi-Tenant LLM Serving"
+  },
+  {
+    "id": "R05604",
+    "decision": "EXCLUDE",
+    "reason": "Defends an LLM fraud-detection application; target is fraud detection, not OS components.",
+    "evidence": "Defensive Architectures for LLM-Based Fraud Detection"
+  },
+  {
+    "id": "R05605",
+    "decision": "EXCLUDE",
+    "reason": "Prompt injection in document-centric LLM decision systems; no OS component target.",
+    "evidence": "Prompt Injection in Document-Centric LLM Decision Systems"
+  },
+  {
+    "id": "R05606",
+    "decision": "EXCLUDE",
+    "reason": "Benchmark for prompt injection in tool-using LLM agents; security of LLM agents, not OS.",
+    "evidence": "Indirect Prompt Injection in Tool-Using LLM Agents"
+  },
+  {
+    "id": "R05607",
+    "decision": "EXCLUDE",
+    "reason": "LLM firewall for a RAG enterprise knowledge system; security of the LLM application, not OS.",
+    "evidence": "LLM firewall with output-level security validation"
+  },
+  {
+    "id": "R05608",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection risks in LLM peer review; no OS component or OS security task.",
+    "evidence": "Prompt Injection Risks in Peer Review"
+  },
+  {
+    "id": "R05609",
+    "decision": "EXCLUDE",
+    "reason": "Analyzes LLM prompt-obfuscation vulnerabilities; security of LLMs, not OS.",
+    "evidence": "security and safety vulnerabilities in Large Language Models (LLMs)"
+  },
+  {
+    "id": "R05610",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection risks in LLM peer review; no OS component or OS security task.",
+    "evidence": "Prompt Injection Risks in Peer Review"
+  },
+  {
+    "id": "R05611",
+    "decision": "EXCLUDE",
+    "reason": "Survey and threat model for clinical EHR LLM agents; review and no OS target.",
+    "evidence": "a structured survey of prompt injection in medical LLMs"
+  },
+  {
+    "id": "R05612",
+    "decision": "EXCLUDE",
+    "reason": "Protects an LLM agent from prompt injection; security of LLM, no OS target.",
+    "evidence": "Protect the LLM Agent Against the Prompt Injection Attack"
+  },
+  {
+    "id": "R05613",
+    "decision": "EXCLUDE",
+    "reason": "Detects LLM backdoors involving prompt injection; security of LLM models, not OS.",
+    "evidence": "Detection Method of LLM Backdoor with Prompt Injection Attacks"
+  },
+  {
+    "id": "R05614",
+    "decision": "EXCLUDE",
+    "reason": "Prompt injection in LLM-assisted textual evidence triage; no OS component target.",
+    "evidence": "Evidence-borne prompt injection in LLM-assisted textual evidence triage"
+  },
+  {
+    "id": "R05615",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection defense for LLM educational systems; no OS target.",
+    "evidence": "Prompt Injection in LLM-Augmented Educational Systems"
+  },
+  {
+    "id": "R05616",
+    "decision": "EXCLUDE",
+    "reason": "Guardrail evaluation for tool-using LLM agents on AgentDojo; security of LLM agents, not OS.",
+    "evidence": "Prompt-Injection Resistance with Utility Preservation"
+  },
+  {
+    "id": "R05617",
+    "decision": "EXCLUDE",
+    "reason": "Indirect prompt injection in LLM email agents; no OS component target.",
+    "evidence": "Indirect Prompt Injection in LLM-Based Email Agents"
+  },
+  {
+    "id": "R05618",
+    "decision": "EXCLUDE",
+    "reason": "Framework for evaluating LLM robustness to malicious prompts; security of LLMs, not OS.",
+    "evidence": "Evaluating LLM Robustness Against Malicious Prompts"
+  },
+  {
+    "id": "R05619",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection detector for LLM systems; no OS component target.",
+    "evidence": "Selective Test-Time Adaptation for Prompt Injection Detection"
+  },
+  {
+    "id": "R05620",
+    "decision": "EXCLUDE",
+    "reason": "Defends LLM-generated SQL for AIoT databases; database application, not OS components.",
+    "evidence": "LLM-Generated SQL for AIoT Databases"
+  },
+  {
+    "id": "R05621",
+    "decision": "EXCLUDE",
+    "reason": "Protects the LLM environment via prompt security; security of LLMs, not OS.",
+    "evidence": "Protection of LLM Environment Using Prompt Security"
+  },
+  {
+    "id": "R05622",
+    "decision": "EXCLUDE",
+    "reason": "Prompt injection causing LLM agent data leakage; security of LLM agents, not OS.",
+    "evidence": "Implicit Prompt Injection Makes LLM Agents Leak without a Trace"
+  },
+  {
+    "id": "R05623",
+    "decision": "EXCLUDE",
+    "reason": "Attacks and defenses on LLM agents; security of LLMs, no OS target.",
+    "evidence": "Defenses Against Indirect Prompt Injection Attacks on LLM Agents"
+  },
+  {
+    "id": "R05624",
+    "decision": "EXCLUDE",
+    "reason": "Defends LLMs via system prompt engineering; security of LLMs, not OS.",
+    "evidence": "Defending Against Prompt Injection Attacks Using Automatic System Prompt Engineering"
+  },
+  {
+    "id": "R05625",
+    "decision": "EXCLUDE",
+    "reason": "Defense against indirect prompt injection in LLMs; security of LLMs, not OS.",
+    "evidence": "Defend Against Indirect Prompt Injection Attacks in LLMs"
+  },
+  {
+    "id": "R05626",
+    "decision": "EXCLUDE",
+    "reason": "Stored prompt injection in a Flask LLM shopping app; application security, not OS.",
+    "evidence": "from Review Text to an Unauthorised DeleteAccount Tool Call"
+  },
+  {
+    "id": "R05627",
+    "decision": "EXCLUDE",
+    "reason": "Recovery from prompt injection in tool-using LLM agents; security of LLM agents, not OS.",
+    "evidence": "Recovery from Indirect Prompt Injection in Tool-using LLM Agents"
+  },
+  {
+    "id": "R05628",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection integrity protocol for agentic LLM networks; no OS component target.",
+    "evidence": "Agentic large language model (LLM) networks"
+  },
+  {
+    "id": "R05629",
+    "decision": "EXCLUDE",
+    "reason": "Survey of prompt injection in AI browsers; review and no OS target.",
+    "evidence": "survey of 35+ peer-reviewed papers"
+  },
+  {
+    "id": "R05630",
+    "decision": "EXCLUDE",
+    "reason": "Systematic survey of prompt injection attacks and defenses; review, not empirical OS security.",
+    "evidence": "A Systematic Survey of Prompt Injection Attacks and Defenses"
+  },
+  {
+    "id": "R05631",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-level defenses in voice-based LLM systems; no OS target.",
+    "evidence": "Injection in Voice-Based LLM Systems"
+  },
+  {
+    "id": "R05632",
+    "decision": "EXCLUDE",
+    "reason": "Defends the system prompt of LLM agents; security of LLM agents, not OS.",
+    "evidence": "Securing the System Prompt of LLM Agents"
+  },
+  {
+    "id": "R05633",
+    "decision": "EXCLUDE",
+    "reason": "Defenses for prompt injection and hallucination in LLM-powered development; no OS target.",
+    "evidence": "Role-Based Prompt Injection and Dependency Hallucination in LLM-Powered Development"
+  },
+  {
+    "id": "R05634",
+    "decision": "UNCLEAR",
+    "reason": "Title implies LLM-enabled threat detection, potentially a security task, but missing abstract leaves OS target and LLM role unclear.",
+    "evidence": "RAPID: A Resource-Aware Prompt Injection Defense for LLM-Enabled Threat Detection"
+  },
+  {
+    "id": "R05635",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection prevention for financial LLM applications; no OS component target.",
+    "evidence": "Financial Applications Integrated with LLM"
+  },
+  {
+    "id": "R05636",
+    "decision": "EXCLUDE",
+    "reason": "Assesses prompt-injection defenses in LLM systems; security of LLMs, not OS.",
+    "evidence": "Assessing Defenses Against Prompt Injection Attacks in LLM Systems"
+  },
+  {
+    "id": "R05637",
+    "decision": "EXCLUDE",
+    "reason": "Analyzes prompt-injection vulnerabilities across LLMs; security of LLMs, not OS security.",
+    "evidence": "Prompt Injection Vulnerabilities in Diverse LLM Architectures"
+  },
+  {
+    "id": "R05638",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based API/server runtime with database tools; general software engineering, not OS target.",
+    "evidence": "LLM as API Server"
+  },
+  {
+    "id": "R05639",
+    "decision": "EXCLUDE",
+    "reason": "Privacy and security risks of LLMs including prompt injection; security of LLMs, not OS.",
+    "evidence": "Privacy and Security Risks in LLMs"
+  },
+  {
+    "id": "R05640",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection measurement and runtime monitors for LLM agents; security of LLM agents, not OS.",
+    "evidence": "Runtime Monitors in Tool-Using LLM Agents"
+  }
+]

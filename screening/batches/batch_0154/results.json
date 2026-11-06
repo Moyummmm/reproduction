@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R06161",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-based vulnerability analysis and repair explicitly applied to open-source IoT operating-system code.",
+    "evidence": "identify zero-day and N-day vulnerabilities in 6 Open Source IoT Operating Systems"
+  },
+  {
+    "id": "R06162",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM prioritizes functions across a whole Windows OS image to support vulnerability research.",
+    "evidence": "use a low-cost language model to assign a reachability tier, a risk level, a bug-class hypothesis"
+  },
+  {
+    "id": "R06163",
+    "decision": "EXCLUDE",
+    "reason": "Defends LLM agents against prompt injection; security of LLM agents rather than an OS-targeted security task.",
+    "evidence": "defends against indirect prompt injection through explicit memory management"
+  },
+  {
+    "id": "R06164",
+    "decision": "EXCLUDE",
+    "reason": "Analyzes security threats of an agent framework; the LLM/agent is the object of study, not a tool for OS security.",
+    "evidence": "comprehensive security analysis of the OpenClaw ecosystem"
+  },
+  {
+    "id": "R06165",
+    "decision": "EXCLUDE",
+    "reason": "Uses confidential computing to protect LLM inference; no LLM-driven OS security analysis.",
+    "evidence": "runs the LLM service inside a confidential virtual machine (CVM)"
+  },
+  {
+    "id": "R06166",
+    "decision": "EXCLUDE",
+    "reason": "Discusses security and privacy of foundation models; this is security of LLMs, not LLM use for OS security.",
+    "evidence": "discuss 10 basic security and privacy problems for the pre-trained foundation models"
+  },
+  {
+    "id": "R06167",
+    "decision": "UNCLEAR",
+    "reason": "LLM plans incident-response commands, but targeting of OS components or privileged interfaces is not specified.",
+    "evidence": "translated into executable commands by a lightweight LLM agent"
+  },
+  {
+    "id": "R06168",
+    "decision": "EXCLUDE",
+    "reason": "Systematization of knowledge/survey of MCP security; reviews are excluded and topic is LLM ecosystem security.",
+    "evidence": "This Systematization of Knowledge (SoK)"
+  },
+  {
+    "id": "R06169",
+    "decision": "EXCLUDE",
+    "reason": "Analyzes agents as operating systems and their security mechanisms, not LLM application to OS security tasks.",
+    "evidence": "we argue that a deployed agent already is like an operating system (AaOS)"
+  },
+  {
+    "id": "R06170",
+    "decision": "EXCLUDE",
+    "reason": "Layered survey/review of autonomous-agent security; no original LLM-driven OS security research.",
+    "evidence": "this survey presents a layered review"
+  },
+  {
+    "id": "R06171",
+    "decision": "EXCLUDE",
+    "reason": "General LLM-based code orchestration with no security analysis or testing outcome.",
+    "evidence": "implements a text editor whose business logic is purely backed by large language model prompts"
+  },
+  {
+    "id": "R06172",
+    "decision": "EXCLUDE",
+    "reason": "Benchmarks LLM agent task performance on an OS; not a security analysis/testing task.",
+    "evidence": "AndroidArena, an environment and benchmark designed to evaluate LLM agents on a modern operating system"
+  },
+  {
+    "id": "R06173",
+    "decision": "EXCLUDE",
+    "reason": "Defense for LLM agents against prompt injection; security of LLM agents, not OS security.",
+    "evidence": "defense framework that enforces semantic privilege separation"
+  },
+  {
+    "id": "R06174",
+    "decision": "EXCLUDE",
+    "reason": "Governs privileged LLM agents; focus is agent safety architecture, not LLM-driven OS security analysis.",
+    "evidence": "interposing four roles (planner, policy gate, executor, auditor) between agent and operating system"
+  },
+  {
+    "id": "R06175",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-based anomaly detection on OS process provenance traces across multiple operating systems.",
+    "evidence": "leverages LLMs to encode process-action provenance traces into semantically rich embeddings"
+  },
+  {
+    "id": "R06176",
+    "decision": "EXCLUDE",
+    "reason": "Benchmark of CLI-agent misuse/safety; security of LLM agents rather than LLM use for OS security analysis.",
+    "evidence": "evaluating OS-level misuse risks of CLI agents"
+  },
+  {
+    "id": "R06177",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM agents perform forensic analysis and remediation on compromised host OS artifacts across five OSes.",
+    "evidence": "evaluate LLM agents on the post-compromise incident-response workflow"
+  },
+  {
+    "id": "R06178",
+    "decision": "EXCLUDE",
+    "reason": "Systematic survey of agentic skills; reviews/surveys are excluded from core empirical set.",
+    "evidence": "A Systematic Survey of Agentic Skills"
+  },
+  {
+    "id": "R06179",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based software test-script generation, not a security task.",
+    "evidence": "application of large language models (LLM) in the domain of mobile application test script generation"
+  },
+  {
+    "id": "R06180",
+    "decision": "EXCLUDE",
+    "reason": "Drone command-and-control harness; not OS component or privileged-interface security.",
+    "evidence": "LLM-agnostic command-and-control interface and agentic harness joining the Model Context Protocol (MCP) to MAVLink"
+  },
+  {
+    "id": "R06181",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM investigation of system provenance for intrusion detection across operating systems.",
+    "evidence": "combines evidence curation with context-grounded LLM reasoning"
+  },
+  {
+    "id": "R06182",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM synthesizes patches for TEE partitioning vulnerabilities, directly in scope.",
+    "evidence": "leverage large language models (LLMs) to reason about code semantics and synthesize context-aware patches"
+  },
+  {
+    "id": "R06183",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM agents reconstruct attack chains from OS telemetry across multiple operating systems.",
+    "evidence": "diagnostic benchmark for evidence-grounded attack chain reconstruction that enables stage-wise evaluation of LLM agents"
+  },
+  {
+    "id": "R06184",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreak/safety benchmark for LLM agents in OS environments; security of LLM agents.",
+    "evidence": "Benchmarking Behavioral Jailbreaks of LLM Agents in Real OS Environments"
+  },
+  {
+    "id": "R06185",
+    "decision": "EXCLUDE",
+    "reason": "Translation deployment study; no security analysis or OS security task.",
+    "evidence": "locally deployable, free language models as a viable alternative"
+  },
+  {
+    "id": "R06186",
+    "decision": "UNCLEAR",
+    "reason": "LLM output attribution for incident logs; OS-component targeting and security-task role are ambiguous.",
+    "evidence": "LLM Output Geometry for Incident Log Analysis"
+  },
+  {
+    "id": "R06187",
+    "decision": "EXCLUDE",
+    "reason": "Characterizes an attack on coding agents via OS state composition; security of LLM agents.",
+    "evidence": "Knowledge-Guided CLI Command Composition Attack in LLM Coding Agents"
+  },
+  {
+    "id": "R06188",
+    "decision": "UNCLEAR",
+    "reason": "LLM generates OS security policy rules, but whether this is analysis/testing/verification/repair/protection with a security outcome is unclear.",
+    "evidence": "managing operating system security policies"
+  },
+  {
+    "id": "R06189",
+    "decision": "EXCLUDE",
+    "reason": "LLM code generation for GPU cryptographic acceleration; no OS security task.",
+    "evidence": "GPU-friendly code generation using various LLMs"
+  },
+  {
+    "id": "R06190",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM translates adversary-emulation procedures across OSes, with structural verification for defender testing.",
+    "evidence": "Translating them across operating systems supports cross-platform defender evaluation, and large language models (LLMs) can automate this task"
+  },
+  {
+    "id": "R06191",
+    "decision": "EXCLUDE",
+    "reason": "General-purpose OS agent; security is only mentioned as future work.",
+    "evidence": "an OS agent designed to engage in long-horizon, robust interactions with the environment"
+  },
+  {
+    "id": "R06192",
+    "decision": "UNCLEAR",
+    "reason": "LLM discovers command-denylist bypasses at OS shell level, but the framing is AI-agent guardrail security, leaving scope ambiguous.",
+    "evidence": "proposes an LLM-driven pipeline, ShellSieve, to detect such fragility"
+  },
+  {
+    "id": "R06193",
+    "decision": "EXCLUDE",
+    "reason": "Indirect prompt-injection benchmark for computer-use agents; security of LLM agents.",
+    "evidence": "low-harm injected goals, such as starring a repository or installing a package"
+  },
+  {
+    "id": "R06194",
+    "decision": "EXCLUDE",
+    "reason": "6G AI-RAN position paper; security appears only as a future orchestration challenge.",
+    "evidence": "This position paper argues that to achieve Level 5 autonomous 6G networks"
+  },
+  {
+    "id": "R06195",
+    "decision": "EXCLUDE",
+    "reason": "Agentic workspace for scientific discovery; no OS security analysis.",
+    "evidence": "a unified, multi-modal operating system designed for Artificial Intelligence for Science"
+  },
+  {
+    "id": "R06196",
+    "decision": "EXCLUDE",
+    "reason": "Forensic artifact study of local LLM clients; LLM is the subject, not a tool for OS security analysis.",
+    "evidence": "systematic, cross platform forensic analysis of these popular local LLM clients"
+  },
+  {
+    "id": "R06197",
+    "decision": "EXCLUDE",
+    "reason": "Mines cyberthreat-intelligence reports; target is CTI text rather than OS components or privileged interfaces.",
+    "evidence": "mining temporal attack patterns from cyberthreat intelligence (CTI) reports"
+  },
+  {
+    "id": "R06198",
+    "decision": "EXCLUDE",
+    "reason": "Position/discussion on general-purpose AI risks; security of LLMs, not LLM use for OS security.",
+    "evidence": "an almost ``operating system''-like status that can control decisions and logic of an application"
+  },
+  {
+    "id": "R06199",
+    "decision": "EXCLUDE",
+    "reason": "General cross-log consolidation and analysis, not a security task specifically targeting OS components.",
+    "evidence": "leverages Large Language Models (LLMs) integrated with Retrieval-Augmented Generation (RAG)"
+  },
+  {
+    "id": "R06200",
+    "decision": "EXCLUDE",
+    "reason": "Red-teams computer-use agents via prompt injection toward OS compromise; security of LLM agents.",
+    "evidence": "black-box self-improving IPI framework that (i) composes task-specific injections"
+  }
+]

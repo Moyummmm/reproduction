@@ -1,0 +1,242 @@
+[
+  {
+    "id": "arxiv:2512.06555",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based cybercrime narrative analysis; no OS component or privileged-interface target.",
+    "evidence": "structured, interpretable, and scalable analysis of cybercrime"
+  },
+  {
+    "id": "arxiv:2512.07312",
+    "decision": "EXCLUDE",
+    "reason": "LLM accelerator cache performance work with no security task or OS target.",
+    "evidence": "a shared system-level cache and application-aware management policies"
+  },
+  {
+    "id": "arxiv:2512.07404",
+    "decision": "EXCLUDE",
+    "reason": "Code-correctness representation for general code generation; no security or OS target.",
+    "evidence": "explores if LLMs similarly represent code correctness"
+  },
+  {
+    "id": "arxiv:2512.07796",
+    "decision": "EXCLUDE",
+    "reason": "General causal-model construction; no security task or OS target.",
+    "evidence": "Large Causal Models from Large Language Models"
+  },
+  {
+    "id": "arxiv:2512.08289",
+    "decision": "EXCLUDE",
+    "reason": "RAG corpus-poisoning attack; security of LLM pipeline, not OS components.",
+    "evidence": "corpus poisoning"
+  },
+  {
+    "id": "arxiv:2512.09487",
+    "decision": "EXCLUDE",
+    "reason": "Efficient RAG retrieval; no security task or OS target.",
+    "evidence": "RouteRAG: Efficient Retrieval-Augmented Generation from Text and Graph via Reinforcement Learning"
+  },
+  {
+    "id": "arxiv:2512.09548",
+    "decision": "EXCLUDE",
+    "reason": "Agentic data-management architecture; no security outcome or OS target.",
+    "evidence": "Agent-Centric Data Fabric"
+  },
+  {
+    "id": "arxiv:2512.11269",
+    "decision": "EXCLUDE",
+    "reason": "FHE-based encrypted LLM inference; privacy system, not OS security task.",
+    "evidence": "inference directly over encrypted queries"
+  },
+  {
+    "id": "arxiv:2512.11529",
+    "decision": "EXCLUDE",
+    "reason": "LLM recommendation serving efficiency; no security or OS target.",
+    "evidence": "a GR-oriented serving system"
+  },
+  {
+    "id": "arxiv:2512.12112",
+    "decision": "EXCLUDE",
+    "reason": "LLM-supported threat analytics for ICS/OT assets, not OS components or privileged interfaces.",
+    "evidence": "AI-driven Knowledge Graph (KG) framework for context-aware threat analysis"
+  },
+  {
+    "id": "arxiv:2512.12154",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial detection for time-series LLMs in energy forecasting; security of LLMs, not OS target.",
+    "evidence": "adversarial examples (AEs)"
+  },
+  {
+    "id": "arxiv:2512.12284",
+    "decision": "EXCLUDE",
+    "reason": "Video-LLM accelerator performance; no security task or OS target.",
+    "evidence": "streaming video LLM inference"
+  },
+  {
+    "id": "arxiv:2512.12326",
+    "decision": "EXCLUDE",
+    "reason": "Systematic literature review; excluded from core empirical research set.",
+    "evidence": "This systematic literature review examines how Artificial Intelligence (AI) is reshaping penetration testing"
+  },
+  {
+    "id": "arxiv:2512.12921",
+    "decision": "EXCLUDE",
+    "reason": "AI security/safety taxonomy framework; not empirical LLM security work on OS components.",
+    "evidence": "unified, lifecycle-aware taxonomy and operationalization framework"
+  },
+  {
+    "id": "arxiv:2512.14233",
+    "decision": "UNCLEAR",
+    "reason": "LLM penetration-testing benchmark; target environments not specified as OS components or privileged interfaces.",
+    "evidence": "346 tasks covering all stages in 12 realistic vulnerable scenarios"
+  },
+  {
+    "id": "arxiv:2512.14879",
+    "decision": "EXCLUDE",
+    "reason": "Information-geometric model-collapse theory; no security task or OS target.",
+    "evidence": "model collapse"
+  },
+  {
+    "id": "arxiv:2512.16814",
+    "decision": "EXCLUDE",
+    "reason": "NL-to-temporal-logic translation; no security task or OS target.",
+    "evidence": "Translating natural language (NL) into a formal language such as temporal logic (TL)"
+  },
+  {
+    "id": "arxiv:2512.18244",
+    "decision": "EXCLUDE",
+    "reason": "Psychological jailbreak of LLMs; security of LLMs, not OS components.",
+    "evidence": "a new jailbreak attack paradigm"
+  },
+  {
+    "id": "arxiv:2512.18730",
+    "decision": "EXCLUDE",
+    "reason": "Theory of RL-tuned language models; no security task or OS target.",
+    "evidence": "KL-regularized reinforcement learning"
+  },
+  {
+    "id": "arxiv:2512.19016",
+    "decision": "EXCLUDE",
+    "reason": "Red-teaming of LLM agents; security of LLMs, not OS components.",
+    "evidence": "systematic evaluation of LLM agents against dynamic, multi-stage attacks"
+  },
+  {
+    "id": "arxiv:2512.20812",
+    "decision": "EXCLUDE",
+    "reason": "Symbolic-reasoning evaluation of LLMs; no security task or OS target.",
+    "evidence": "semantic deceptions"
+  },
+  {
+    "id": "arxiv:2512.21236",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreak testing for malicious code generation; LLM alignment, not OS target.",
+    "evidence": "evaluate the weakness of security alignment in malicious code generation"
+  },
+  {
+    "id": "arxiv:2512.21250",
+    "decision": "EXCLUDE",
+    "reason": "Evasion of LLM code-review detectors; security of LLMs, not OS components.",
+    "evidence": "adversarial code obfuscation framework targeting CoT-enhanced LLM detectors"
+  },
+  {
+    "id": "arxiv:2512.21380",
+    "decision": "EXCLUDE",
+    "reason": "Social-media threat early detection; no LLM use on OS components or privileged interfaces.",
+    "evidence": "leverages social media signals for early detection of cyber attacks"
+  },
+  {
+    "id": "arxiv:2512.21404",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial evasion of Android malware detectors; ML/model security, not OS component target.",
+    "evidence": "bypass ML-based Android malware classifiers"
+  },
+  {
+    "id": "arxiv:2512.21964",
+    "decision": "EXCLUDE",
+    "reason": "Medical MLLM robustness; no security analysis or OS target.",
+    "evidence": "robustness in real clinical scenarios"
+  },
+  {
+    "id": "arxiv:2512.23132",
+    "decision": "EXCLUDE",
+    "reason": "Threat mitigation for AI/ML systems; security of LLMs, not OS components.",
+    "evidence": "ML-specific threat modeling for foundation, multimodal, and RAG systems"
+  },
+  {
+    "id": "arxiv:2512.23914",
+    "decision": "EXCLUDE",
+    "reason": "Hardware-acceleration survey; excluded and no security task.",
+    "evidence": "This survey reviews the current technology landscape for hardware acceleration of deep learning"
+  },
+  {
+    "id": "arxiv:2512.23995",
+    "decision": "EXCLUDE",
+    "reason": "DoS via MoE routing concentration in LLM serving; not OS component or privileged-interface target.",
+    "evidence": "denial-of-service attack vector"
+  },
+  {
+    "id": "arxiv:2512.24077",
+    "decision": "EXCLUDE",
+    "reason": "Evolutionary code/algorithm search; no security task or OS target.",
+    "evidence": "self-evolving agent framework"
+  },
+  {
+    "id": "arxiv:2601.00566",
+    "decision": "EXCLUDE",
+    "reason": "Poisoning attack on distributed LoRA LLM systems; security of LLMs, not OS components.",
+    "evidence": "Gradient Assembly Poisoning (GAP), a novel attack"
+  },
+  {
+    "id": "arxiv:2601.00867",
+    "decision": "EXCLUDE",
+    "reason": "Psychological adversarial testing of LLM agents; security of LLMs, not OS components.",
+    "evidence": "adversarial scenarios targeting LLM decision-making"
+  },
+  {
+    "id": "arxiv:2601.01310",
+    "decision": "EXCLUDE",
+    "reason": "Failure resilience for MoE inference; no security task or OS target.",
+    "evidence": "a resilient MoE inference framework"
+  },
+  {
+    "id": "arxiv:2601.01461",
+    "decision": "EXCLUDE",
+    "reason": "Speech-LLM ASR performance; no security task or OS target.",
+    "evidence": "multilingual conversational ASR with large language models (LLMs)"
+  },
+  {
+    "id": "arxiv:2601.02917",
+    "decision": "EXCLUDE",
+    "reason": "Hallucination mitigation in retrieval service systems; no security task or OS target.",
+    "evidence": "eliminates generation hallucination"
+  },
+  {
+    "id": "arxiv:2601.03070",
+    "decision": "EXCLUDE",
+    "reason": "Robot explainability architecture; no security task or OS target.",
+    "evidence": "explainability approaches in robotics"
+  },
+  {
+    "id": "arxiv:2601.04786",
+    "decision": "EXCLUDE",
+    "reason": "Agent history compression; no security task or OS target.",
+    "evidence": "representing the accumulated observation-action history as a compact rendered image"
+  },
+  {
+    "id": "arxiv:2601.04878",
+    "decision": "EXCLUDE",
+    "reason": "Scientific knowledge representation; no security task or OS target.",
+    "evidence": "hypergraph-based knowledge representations"
+  },
+  {
+    "id": "arxiv:2601.05258",
+    "decision": "EXCLUDE",
+    "reason": "Trending query detection for chatbots; no security task or OS target.",
+    "evidence": "trending query detection method"
+  },
+  {
+    "id": "arxiv:2601.05539",
+    "decision": "EXCLUDE",
+    "reason": "General defect localization/repair for LLM-integrated software; no security outcome or OS target.",
+    "evidence": "defect localization in LLM-integrated software"
+  }
+]

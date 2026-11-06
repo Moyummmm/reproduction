@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01841",
+    "decision": "EXCLUDE",
+    "reason": "Generic systemd/process topic; no LLM or security task indicated.",
+    "evidence": "Processes and systemd"
+  },
+  {
+    "id": "R01842",
+    "decision": "EXCLUDE",
+    "reason": "Linux firewall configuration study; no LLM use.",
+    "evidence": "the iptables utility, used to configure the Linux kernel firewall"
+  },
+  {
+    "id": "R01843",
+    "decision": "EXCLUDE",
+    "reason": "Filesystem diagnostic/testing topic; no LLM or security task indicated.",
+    "evidence": "Diagnostic and Testing of the Ceph Filesystem"
+  },
+  {
+    "id": "R01844",
+    "decision": "EXCLUDE",
+    "reason": "Generic filesystem navigation; no LLM or security task indicated.",
+    "evidence": "Moving Around the Filesystem"
+  },
+  {
+    "id": "R01845",
+    "decision": "EXCLUDE",
+    "reason": "Container/filesystem engineering; no LLM or security task indicated.",
+    "evidence": "Userspace Squash Filesystem for Launching Linux Containers on HPC Systems"
+  },
+  {
+    "id": "R01846",
+    "decision": "EXCLUDE",
+    "reason": "Keynote/review format, not core empirical research.",
+    "evidence": "Is “AI” Useful for Fuzzing? (Keynote)"
+  },
+  {
+    "id": "R01847",
+    "decision": "EXCLUDE",
+    "reason": "Embedded filesystem uses TinyML, not an LLM, and has no security task.",
+    "evidence": "using a lightweight TinyML decision tree"
+  },
+  {
+    "id": "R01848",
+    "decision": "EXCLUDE",
+    "reason": "LLM fuzzing targets FPGA EDA compilers, not OS components.",
+    "evidence": "detect compiler defects in FPGA synthesis and simulation tools"
+  },
+  {
+    "id": "R01849",
+    "decision": "UNCLEAR",
+    "reason": "Fuzzing title suggests security testing, but LLM role and target are absent.",
+    "evidence": "First, Fuzz the Mutants"
+  },
+  {
+    "id": "R01850",
+    "decision": "EXCLUDE",
+    "reason": "Profile-guided fuzzing; title indicates no LLM role.",
+    "evidence": "Profile-Guided Optimization for Fuzzing"
+  },
+  {
+    "id": "R01851",
+    "decision": "EXCLUDE",
+    "reason": "LLM fuzzing targets SPICE simulators, not OS components.",
+    "evidence": "use training-free LLMs to generate effective and diverse SPICE netlists to test SPICE simulators"
+  },
+  {
+    "id": "R01852",
+    "decision": "EXCLUDE",
+    "reason": "LLM-guided ISA/hardware co-design targets a RISC-V accelerator, not OS components.",
+    "evidence": "LLM-Guided ISA Co-Design and Reinforcement Learning Fuzzing"
+  },
+  {
+    "id": "R01853",
+    "decision": "EXCLUDE",
+    "reason": "LLM-agent fuzzing targets database feature testing, not OS components.",
+    "evidence": "LLM-Agent-Guided Fuzzing for Database Feature-Level Delta Testing"
+  },
+  {
+    "id": "R01854",
+    "decision": "EXCLUDE",
+    "reason": "Tensor compiler fuzzing; no LLM indicated.",
+    "evidence": "Fuzzing Sparse Tensor Compilers"
+  },
+  {
+    "id": "R01855",
+    "decision": "EXCLUDE",
+    "reason": "Keynote reflections on fuzzing, not original empirical research.",
+    "evidence": "Three Colours of Fuzzing: Reflections and Open Challenges (Keynote)"
+  },
+  {
+    "id": "R01856",
+    "decision": "UNCLEAR",
+    "reason": "LLM-guided fuzzing for memory corruption, but target scope is not stated.",
+    "evidence": "LLM-Guided Greybox Fuzzing for Spatial Memory Corruption"
+  },
+  {
+    "id": "R01857",
+    "decision": "EXCLUDE",
+    "reason": "Filesystem performance comparison; no LLM or security task.",
+    "evidence": "compare the two most popular and competing file systems"
+  },
+  {
+    "id": "R01858",
+    "decision": "EXCLUDE",
+    "reason": "WebAssembly fuzzing target; no LLM indicated.",
+    "evidence": "WebAssembly as a Fuzzing Compilation Target"
+  },
+  {
+    "id": "R01859",
+    "decision": "EXCLUDE",
+    "reason": "JavaScript engine fuzzing; no LLM indicated.",
+    "evidence": "Type Coverage Directed JavaScript Engine Fuzzing"
+  },
+  {
+    "id": "R01860",
+    "decision": "EXCLUDE",
+    "reason": "LLM fuzzing targets DL framework APIs, not OS components.",
+    "evidence": "Deep Learning Framework APIs Fuzzing"
+  },
+  {
+    "id": "R01861",
+    "decision": "EXCLUDE",
+    "reason": "Fuzzer evaluation; no LLM indicated.",
+    "evidence": "Dissecting American Fuzzy Lop - A FuzzBench Evaluation"
+  },
+  {
+    "id": "R01862",
+    "decision": "EXCLUDE",
+    "reason": "Keynote on fuzzing, not original empirical research.",
+    "evidence": "Reasons for the Unreasonable Success of Fuzzing (Keynote)"
+  },
+  {
+    "id": "R01863",
+    "decision": "EXCLUDE",
+    "reason": "Generic filesystem management; no LLM or security task indicated.",
+    "evidence": "Filesystem Management"
+  },
+  {
+    "id": "R01864",
+    "decision": "EXCLUDE",
+    "reason": "GPU instruction-set test generation; no LLM indicated.",
+    "evidence": "Generating Test Suites for GPU Instruction Sets through Mutation and Equivalence Checking"
+  },
+  {
+    "id": "R01865",
+    "decision": "EXCLUDE",
+    "reason": "Workshop proceedings, not an original research record.",
+    "evidence": "Proceedings 2026 International Fuzzing Workshop"
+  },
+  {
+    "id": "R01866",
+    "decision": "EXCLUDE",
+    "reason": "LLM fuzzing targets DL libraries, not OS components.",
+    "evidence": "evaluate it on three mainstream DL libraries: PyTorch, TensorFlow, and MindSpore"
+  },
+  {
+    "id": "R01867",
+    "decision": "EXCLUDE",
+    "reason": "CI/CD fuzzing; no LLM indicated.",
+    "evidence": "Effective Fuzzing within CI/CD Pipelines"
+  },
+  {
+    "id": "R01868",
+    "decision": "UNCLEAR",
+    "reason": "LLM used for vulnerability-relevant file discovery, but target/OS scope is unstated.",
+    "evidence": "leveraging description augmentation with large language models for vulnerability-relevant file uncovery"
+  },
+  {
+    "id": "R01869",
+    "decision": "EXCLUDE",
+    "reason": "File-upload vulnerability prevention; no LLM and application-level target.",
+    "evidence": "FILE UPLOAD VULNERABILITY PREVENTION: IN THE PYTHON PROGRAMMING LANGUAGE"
+  },
+  {
+    "id": "R01870",
+    "decision": "EXCLUDE",
+    "reason": "LLM agents generate simulation input files; no security or OS task.",
+    "evidence": "Automating Input-File Based Modeling and Simulation with Large Language Model Agents"
+  },
+  {
+    "id": "R01871",
+    "decision": "EXCLUDE",
+    "reason": "LLM vulnerability detection on general web vulnerability types, not OS components.",
+    "evidence": "the three most common (as well as dangerous) vulnerabilities: XSS, SQL injection, and path traversal"
+  },
+  {
+    "id": "R01872",
+    "decision": "EXCLUDE",
+    "reason": "Security analysis of LLMs themselves; not an OS security task.",
+    "evidence": "Security Vulnerability Analyses of Large Language Models (LLMs)"
+  },
+  {
+    "id": "R01873",
+    "decision": "EXCLUDE",
+    "reason": "LLM generates TCAD input; no security or OS task.",
+    "evidence": "TCAD Structure Input File Generation Using Large Language Model"
+  },
+  {
+    "id": "R01874",
+    "decision": "EXCLUDE",
+    "reason": "LLM forensic file-fragment classification, not OS security testing/analysis.",
+    "evidence": "Resilient File Fragment Classification Under Anti-Forensic Obfuscation Using Parameter-Efficient Large Language Model"
+  },
+  {
+    "id": "R01875",
+    "decision": "EXCLUDE",
+    "reason": "LLM vulnerability discovery targets microservice APIs, not OS components.",
+    "evidence": "automated BLV discovery in microservice APIs"
+  },
+  {
+    "id": "R01876",
+    "decision": "EXCLUDE",
+    "reason": "LLM generates MODFLOW input files; no security or OS task.",
+    "evidence": "A large language model (LLM) coding agent can build complete MODFLOW 6 input file sets"
+  },
+  {
+    "id": "R01877",
+    "decision": "EXCLUDE",
+    "reason": "Survey of KV-cache serving; not original empirical security research.",
+    "evidence": "In this survey, we focus on system-aware KV infrastructure for serving LLMs"
+  },
+  {
+    "id": "R01878",
+    "decision": "EXCLUDE",
+    "reason": "Survey of KV-cache serving; not original empirical security research.",
+    "evidence": "In this survey, we focus on system-aware KV infrastructure for serving LLMs"
+  },
+  {
+    "id": "R01879",
+    "decision": "EXCLUDE",
+    "reason": "LLM question answering for crane safety, not security or OS research.",
+    "evidence": "Retrieval augmented generation and large language model integrated question answering system for safe crane lifting"
+  },
+  {
+    "id": "R01880",
+    "decision": "EXCLUDE",
+    "reason": "LLM risk recognition for autonomous driving, not security or OS research.",
+    "evidence": "Developing a Risk Recognition System Based on a Large Language Model for Autonomous Driving"
+  }
+]

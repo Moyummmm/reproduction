@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R04961",
+    "decision": "EXCLUDE",
+    "reason": "IaC self-healing is general infrastructure/software repair without explicit security outcome or OS target.",
+    "evidence": "self-healing of Infrastructure as Code projects using constrained LLM technologies"
+  },
+  {
+    "id": "R04962",
+    "decision": "EXCLUDE",
+    "reason": "Function-level APR on Defects4J; general software repair, not OS security.",
+    "evidence": "LLM-based function-level APR"
+  },
+  {
+    "id": "R04963",
+    "decision": "EXCLUDE",
+    "reason": "Competition item, not original empirical research on LLM security or OS.",
+    "evidence": "Program Repair Competition"
+  },
+  {
+    "id": "R04964",
+    "decision": "EXCLUDE",
+    "reason": "LLM plus logic-programming reasoning; no security task or OS component.",
+    "evidence": "combines Large Language Models (LLMs) with Logic Programming (LP) to address complex reasoning tasks"
+  },
+  {
+    "id": "R04965",
+    "decision": "EXCLUDE",
+    "reason": "General automated program repair; no OS or security target.",
+    "evidence": "Automated Program Repair Framework Based on Code Retrieval Enhancement and LLM Agent"
+  },
+  {
+    "id": "R04966",
+    "decision": "EXCLUDE",
+    "reason": "Fault-localization/APR dataset; general software engineering, not OS security.",
+    "evidence": "dataset to address the data leakage concern for LLM-Based Fault Localization and Program Repair"
+  },
+  {
+    "id": "R04967",
+    "decision": "EXCLUDE",
+    "reason": "Committee listing, not research.",
+    "evidence": "Technical Program Committee"
+  },
+  {
+    "id": "R04968",
+    "decision": "EXCLUDE",
+    "reason": "Genetic improvement and APR; general software, not OS security.",
+    "evidence": "Scaling genetic improvement and automated program repair"
+  },
+  {
+    "id": "R04969",
+    "decision": "UNCLEAR",
+    "reason": "Security reverse analysis is potentially relevant, but title-only and LLM role/OS target are not explicit.",
+    "evidence": "Program Structure Defect Localization and Repair Methods in Software Security Reverse Analysis"
+  },
+  {
+    "id": "R04970",
+    "decision": "EXCLUDE",
+    "reason": "Debugger-driven repair of LLM-generated code; general software, no security or OS focus.",
+    "evidence": "Complex logic errors in LLM-generated code are challenging to diagnose and repair"
+  },
+  {
+    "id": "R04971",
+    "decision": "EXCLUDE",
+    "reason": "LLM bug localization/repair on Defects4J; general software, not OS security.",
+    "evidence": "LLM-based Bug Localization and Program Repair"
+  },
+  {
+    "id": "R04972",
+    "decision": "EXCLUDE",
+    "reason": "Broad APR scope; general software repair without security or OS focus.",
+    "evidence": "Extending the Range of Bugs That Automated Program Repair Can Handle"
+  },
+  {
+    "id": "R04973",
+    "decision": "EXCLUDE",
+    "reason": "Program repair as code completion; general software, no security or OS target.",
+    "evidence": "Framing program repair as code completion"
+  },
+  {
+    "id": "R04974",
+    "decision": "UNCLEAR",
+    "reason": "Firmware-layer security workarounds could be relevant, but title-only and LLM role/evaluation are unclear.",
+    "evidence": "Extending Automated Program Repair to Firmware-Layer Security Workarounds"
+  },
+  {
+    "id": "R04975",
+    "decision": "EXCLUDE",
+    "reason": "API-specific APR; general software repair, not OS security.",
+    "evidence": "API-Specific Automated Program Repair Based on API Usage Graphs"
+  },
+  {
+    "id": "R04976",
+    "decision": "EXCLUDE",
+    "reason": "Security risk of LLM-based APR concerns security of LLMs, not an OS security task.",
+    "evidence": "Adversarial Bug Reports as a Security Risk in Language Model-Based Automated Program Repair"
+  },
+  {
+    "id": "R04977",
+    "decision": "EXCLUDE",
+    "reason": "Competition APR system; general software repair, no security or OS focus.",
+    "evidence": "ARJA-e for the First International Competition on Automated Program Repair"
+  },
+  {
+    "id": "R04978",
+    "decision": "EXCLUDE",
+    "reason": "Local LLM deployment for 5G CVE classification; not an OS component security task.",
+    "evidence": "Optimizing Local LLM Deployment for 5G CVE Classification Avoiding External Data Exposure"
+  },
+  {
+    "id": "R04979",
+    "decision": "EXCLUDE",
+    "reason": "LLM agents target web-application CVEs in sandboxes, not OS components.",
+    "evidence": "40 real-world, critical-severity web application CVEs in containerized sandboxes"
+  },
+  {
+    "id": "R04980",
+    "decision": "EXCLUDE",
+    "reason": "Binary CVE confirmation uses semantic contracts; LLM is only a baseline and target scope is not OS-specific.",
+    "evidence": "LLM-Judge baselines and PS3 either make safety-critical false decisions or lack full end-to-end coverage"
+  },
+  {
+    "id": "R04981",
+    "decision": "EXCLUDE",
+    "reason": "Protein classification summaries; no security or OS task.",
+    "evidence": "LLM generated summaries for protein classification at InterPro"
+  },
+  {
+    "id": "R04982",
+    "decision": "UNCLEAR",
+    "reason": "LLM repair of real-world CVEs is security-relevant, but missing abstract leaves OS/privileged target uncertain.",
+    "evidence": "Benchmarking LLM-based Software Engineering Agent’s Ability to Repair Real-World CVE Vulnerabilities"
+  },
+  {
+    "id": "R04983",
+    "decision": "UNCLEAR",
+    "reason": "LLM-assisted CVE exploitation detection in host data is potentially relevant, but missing abstract leaves target and evaluation unclear.",
+    "evidence": "Automated LLM-Assisted Detection of CVE Exploitation Attempts in Host-Captured Data"
+  },
+  {
+    "id": "R04984",
+    "decision": "EXCLUDE",
+    "reason": "LLM solutions for education and online courses; not security or OS.",
+    "evidence": "FUNCTIONAL-ARCHITECTURAL CLASSIFICATION OF LLM SOLUTIONS FOR EDUCATION AND ONLINE COURSES"
+  },
+  {
+    "id": "R04985",
+    "decision": "EXCLUDE",
+    "reason": "CVE threat-intelligence summarization; not OS security analysis or testing.",
+    "evidence": "LLM Fine-Tuned Threat Intelligence Summarization Agent for CVE Report Automation"
+  },
+  {
+    "id": "R04986",
+    "decision": "EXCLUDE",
+    "reason": "LLM-evolved GNN functions for neuron classification; no security or OS task.",
+    "evidence": "discover novel message-passing functions for graph neural networks (GNNs) applied to neuron classification"
+  },
+  {
+    "id": "R04987",
+    "decision": "EXCLUDE",
+    "reason": "Website vulnerability classification using CodeBERT/ML; not LLM-driven OS security analysis.",
+    "evidence": "website vulnerability detection that integrates insights from the National Vulnerability Database (NVD)"
+  },
+  {
+    "id": "R04988",
+    "decision": "EXCLUDE",
+    "reason": "Review, not original empirical research.",
+    "evidence": "Review of: \"LLM Confidence Evaluation Measures in Zero-Shot CSS Classification\""
+  },
+  {
+    "id": "R04989",
+    "decision": "EXCLUDE",
+    "reason": "Review, not original empirical research.",
+    "evidence": "Review of: \"LLM Confidence Evaluation Measures in Zero-Shot CSS Classification\""
+  },
+  {
+    "id": "R04990",
+    "decision": "EXCLUDE",
+    "reason": "LLM-generated image-class descriptions; no security or OS task.",
+    "evidence": "LLM-Generated Class Descriptions for Semantically Meaningful Image Classification"
+  },
+  {
+    "id": "R04991",
+    "decision": "EXCLUDE",
+    "reason": "LLM vulnerability evaluation for a medical-device portfolio; not OS component security testing.",
+    "evidence": "learn vulnerability evaluation from historical assessments of medical device vulnerabilities"
+  },
+  {
+    "id": "R04992",
+    "decision": "EXCLUDE",
+    "reason": "Data reconstruction attacks against LLM text classifiers; security/privacy of LLMs, not OS.",
+    "evidence": "targeted data reconstruction attack, termed the Mix And Match attack"
+  },
+  {
+    "id": "R04993",
+    "decision": "EXCLUDE",
+    "reason": "Verification of CVE-to-ATT&CK mappings; threat-intelligence mapping, not OS security task.",
+    "evidence": "verification of LLM-generated CVE–ATT&CK mappings"
+  },
+  {
+    "id": "R04994",
+    "decision": "EXCLUDE",
+    "reason": "BERT classification of CVE impacts; not LLM-driven OS security analysis.",
+    "evidence": "BERT-Based Multi-Label Classification of CIA Triad Impacts in CVE Descriptions"
+  },
+  {
+    "id": "R04995",
+    "decision": "EXCLUDE",
+    "reason": "Immigration media-narrative classification; no security or OS task.",
+    "evidence": "Issue Attention, Media Narratives, and Immigration Shocks: An LLM Classification Approach"
+  },
+  {
+    "id": "R04996",
+    "decision": "EXCLUDE",
+    "reason": "CVE-to-ATT&CK tactic classification; threat-intelligence mapping, not OS security testing.",
+    "evidence": "multi-label CVE-to-ATT&CK tactic classification"
+  },
+  {
+    "id": "R04997",
+    "decision": "EXCLUDE",
+    "reason": "Immigration media-narrative classification; no security or OS task.",
+    "evidence": "Issue Attention, Media Narratives, and Immigration Shocks: An LLM Classification Approach"
+  },
+  {
+    "id": "R04998",
+    "decision": "EXCLUDE",
+    "reason": "Immigration media-narrative classification; no security or OS task.",
+    "evidence": "Issue Attention, Media Narratives, and Immigration Shocks: An LLM Classification Approach"
+  },
+  {
+    "id": "R04999",
+    "decision": "EXCLUDE",
+    "reason": "General software vulnerability detection from CVE fix patterns; not OS-specific.",
+    "evidence": "learns semantic vulnerability transformations directly from CVE fix differentials"
+  },
+  {
+    "id": "R05000",
+    "decision": "EXCLUDE",
+    "reason": "LLM complaint classification; not security or OS.",
+    "evidence": "Knowledge Graph as Guardrails: Achieving Conceptually Sound LLM Complaint Classification Without Fine-Tuning"
+  }
+]

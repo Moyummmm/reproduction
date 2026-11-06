@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02681",
+    "decision": "EXCLUDE",
+    "reason": "Industrial process-control study of dewatering tanks; no LLM or security task.",
+    "evidence": "This paper proposes an advanced regulatory control strategy composed of cascade and override loops for a dewatering system."
+  },
+  {
+    "id": "R02682",
+    "decision": "EXCLUDE",
+    "reason": "Title concerns energy-aware scheduling and input-buffer prevention, not LLM security analysis of OS components.",
+    "evidence": "Energy-aware Scheduling and Input Buffer Overflow Prevention for Energy-harvesting Systems"
+  },
+  {
+    "id": "R02683",
+    "decision": "EXCLUDE",
+    "reason": "Queueing-theory paper on buffer overflow duration with server vacations; no LLM or security task.",
+    "evidence": "Buffer Overflow Duration in a Processing System with a Flexible Server Vacation"
+  },
+  {
+    "id": "R02684",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; title suggests buffer-overflow mitigation but does not make an LLM role or OS target explicit.",
+    "evidence": "BASICS: Binary Analysis and Stack Integrity Checker System for Buffer Overflow Mitigation"
+  },
+  {
+    "id": "R02685",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; generic stack/buffer-overflow title gives no explicit LLM role, security task, or OS target.",
+    "evidence": "Stack (buffer) Overflow"
+  },
+  {
+    "id": "R02686",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; title alone does not establish an LLM-based empirical security study or its target.",
+    "evidence": "Buffer Overflow Attacks"
+  },
+  {
+    "id": "R02687",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; title alone does not establish an LLM-based empirical security study or its target.",
+    "evidence": "Buffer Overflow Attacks"
+  },
+  {
+    "id": "R02688",
+    "decision": "EXCLUDE",
+    "reason": "Uses CNN-based machine learning for IoT attack detection, not an LLM or OS-component security task.",
+    "evidence": "In this research, CNN, a deep learning technique, was applied for extracting features from the network traffic data"
+  },
+  {
+    "id": "R02689",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; binary stack model checking is security-relevant, but LLM use and OS scope are unstated.",
+    "evidence": "On the Path to Buffer Overflow Detection by Model Checking the Stack of Binary Programs"
+  },
+  {
+    "id": "R02690",
+    "decision": "EXCLUDE",
+    "reason": "General buffer-overflow overview/prevention discussion with no LLM component or empirical LLM security analysis.",
+    "evidence": "This paper mainly focuses on buffer overflow attack vulnerabilities and the preventive measures"
+  },
+  {
+    "id": "R02691",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates ASan and AFL++ fuzzing, not an LLM, for general C/C++ vulnerability detection.",
+    "evidence": "This study evaluates compile-time shadow memory instrumentation using AddressSanitizer (ASan) and the AFL++ Fuzzer"
+  },
+  {
+    "id": "R02692",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; title indicates fuzzing-based buffer-overflow detection but not an LLM role or OS target.",
+    "evidence": "Buffer Access Monitoring for Enhanced Buffer Overflow Detection in Fuzzing"
+  },
+  {
+    "id": "R02693",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; attack/defense topic is security-relevant, but LLM use and OS-component scope are unstated.",
+    "evidence": "Restore Buffer Overflow Attacks: Breaking Undo-Based Defense Schemes"
+  },
+  {
+    "id": "R02694",
+    "decision": "EXCLUDE",
+    "reason": "Arithmetic bit-grid overflow in a residual-class computer system; no LLM or security analysis.",
+    "evidence": "the process of determining the overflow of the bit grid of a computer system"
+  },
+  {
+    "id": "R02695",
+    "decision": "EXCLUDE",
+    "reason": "LLM serving performance work, not security analysis of OS components or privileged interfaces.",
+    "evidence": "Pipelining Network and Compute for Real-Time LLM Serving"
+  },
+  {
+    "id": "R02696",
+    "decision": "EXCLUDE",
+    "reason": "MANET MAC and buffer-management performance study; no LLM or OS security task.",
+    "evidence": "proposed the Mutual Exclusion MAC protocol for avoiding hidden and exposed terminal problem in MANET"
+  },
+  {
+    "id": "R02697",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; title indicates ensemble-learning exploit detection, but LLM use and OS scope are unstated.",
+    "evidence": "Use of Ensemble Learning to Detect Buffer Overflow Exploitation"
+  },
+  {
+    "id": "R02698",
+    "decision": "EXCLUDE",
+    "reason": "Work on deterministic LLM inference and speculation; no security analysis or OS security outcome.",
+    "evidence": "LLM-42: Enabling Determinism in LLM Inference with Verified Speculation"
+  },
+  {
+    "id": "R02699",
+    "decision": "UNCLEAR",
+    "reason": "Title explicitly pairs LLMs with overflow vulnerability detection, but no abstract and no OS/privileged-interface target are provided.",
+    "evidence": "Analytical Study on Large Language Models' Detection Capability for Buffer Overflow and Integer Overflow Vulnerabilities"
+  },
+  {
+    "id": "R02700",
+    "decision": "EXCLUDE",
+    "reason": "Queueing model for LLM inference batching; no security task.",
+    "evidence": "A finite-buffer bulk-service queue with bounded queue-length-dependent vacations and state-dependent batch arrivals"
+  },
+  {
+    "id": "R02701",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; title suggests code-based overflow detection using GraphCodeBERT, but LLM role and OS scope are uncertain.",
+    "evidence": "Buffer overflow fault detection using HMRBO, CNN-ANN with GraphcodeBERT, PDG features, and gated attention fusion"
+  },
+  {
+    "id": "R02702",
+    "decision": "EXCLUDE",
+    "reason": "LLM recommendation system for Flutter packages; not security analysis of OS components.",
+    "evidence": "A Hybrid LLM-Driven Recommendation System for Selecting Flutter Packages"
+  },
+  {
+    "id": "R02703",
+    "decision": "EXCLUDE",
+    "reason": "LLM streaming/reasoning-control systems work; no security analysis.",
+    "evidence": "DRLLMS: Network-Adaptive Reasoning Control for Interactive LLM Streaming"
+  },
+  {
+    "id": "R02704",
+    "decision": "EXCLUDE",
+    "reason": "Statistical evaluation of LLM model-exclusion rules; no security analysis or OS target.",
+    "evidence": "Operating Characteristics of Model-Exclusion Rules in LLM Evaluation"
+  },
+  {
+    "id": "R02705",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; stack-overflow prevention is security-relevant, but LLM use and OS scope are not explicit.",
+    "evidence": "LsStk: Lightweight solution to preventing Stack from buffer overflow vulnerability"
+  },
+  {
+    "id": "R02706",
+    "decision": "EXCLUDE",
+    "reason": "Measurement campaign of LLM video-call apps; no security analysis of OS components.",
+    "evidence": "Make a Video Call with LLM: A Measurement Campaign over Five Mainstream Apps"
+  },
+  {
+    "id": "R02707",
+    "decision": "EXCLUDE",
+    "reason": "Title identifies a short review of buffer-overflow attacks and prevention; reviews are excluded and no LLM is indicated.",
+    "evidence": "A Short Review of Buffer Overflow Attack and its Prevention"
+  },
+  {
+    "id": "R02708",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; fuzzing-guided overflow detection is security-relevant, but LLM use and OS target are unstated.",
+    "evidence": "Buffer Overflow Fuzzing Guided by Directed Identification Metric"
+  },
+  {
+    "id": "R02709",
+    "decision": "EXCLUDE",
+    "reason": "Signature-based buffer-overflow detection during file transmission, with no LLM component.",
+    "evidence": "The signature and signature free detection mechanism is implemented for detection of buffer overflow during transmission"
+  },
+  {
+    "id": "R02710",
+    "decision": "EXCLUDE",
+    "reason": "Analysis of existing buffer-overflow protections and bypasses; no LLM and largely a review/analysis.",
+    "evidence": "This paper discusses the mechanism of buffer overflow on a stack as well as existing modern means of detecting or preventing buffer overflows"
+  },
+  {
+    "id": "R02711",
+    "decision": "EXCLUDE",
+    "reason": "Hydropower reservoir control under uncertainty; no LLM or security task.",
+    "evidence": "Stochastic Sequential Model Predictive Control for Operating Buffer Reservoir in Hjartdøla Hydropower System under Uncertainty"
+  },
+  {
+    "id": "R02712",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; locating overflow vulnerabilities is security-relevant, but LLM use and OS scope are unstated.",
+    "evidence": "Locating Buffer Overflow Vulnerabilities Based on Sensitive Functions"
+  },
+  {
+    "id": "R02713",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; automatic overflow detection/exploitation is security-relevant, but LLM use and OS scope are unstated.",
+    "evidence": "PwnMaster: Automatic Buffer Overflow and Format String Vulnerability Detection and Exploitation"
+  },
+  {
+    "id": "R02714",
+    "decision": "EXCLUDE",
+    "reason": "Fundamentals/tutorial on overflow attacks and ASLR/DEP bypass; no LLM-based empirical security analysis.",
+    "evidence": "The article presents the fundamentals of finding buffer overflow weaknesses and methods of analyzing them"
+  },
+  {
+    "id": "R02715",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted annotation of Stack Overflow (the Q&A site) data; not a security task.",
+    "evidence": "a synergistic human–LLM collaboration approach for data annotation enhancement"
+  },
+  {
+    "id": "R02716",
+    "decision": "EXCLUDE",
+    "reason": "AI-native OS engineering with LLM orchestration; no security analysis or security outcome described.",
+    "evidence": "Zypher OS, an AI-native operating system"
+  },
+  {
+    "id": "R02717",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; brute-force and buffer-overflow attacks are security-relevant, but LLM use and OS scope are unstated.",
+    "evidence": "Brute-Force and Buffer Overflow Attacks"
+  },
+  {
+    "id": "R02718",
+    "decision": "EXCLUDE",
+    "reason": "Traffic-assisted vulnerability mining in ADAS firmware; no LLM component described.",
+    "evidence": "we proposed a communication-traffic-assisted ADAS BOF vulnerability mining and exploitation method"
+  },
+  {
+    "id": "R02719",
+    "decision": "EXCLUDE",
+    "reason": "Study of unanimous LLM juries for code evaluation; no security task or OS target.",
+    "evidence": "Vibe Coding on Trial: Operating Characteristics of Unanimous LLM Juries"
+  },
+  {
+    "id": "R02720",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; compositional heap overflow detection is security-relevant, but LLM use and OS scope are unstated.",
+    "evidence": "Precise Compositional Buffer Overflow Detection via Heap Disjointness"
+  }
+]

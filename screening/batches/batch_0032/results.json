@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01281",
+    "decision": "UNCLEAR",
+    "reason": "Title gives no indication of LLM use, security task, or OS target, and the abstract is missing.",
+    "evidence": "Chronos vs. Chaos"
+  },
+  {
+    "id": "R01282",
+    "decision": "UNCLEAR",
+    "reason": "Linux kernel UAF discovery is core OS security, but the title does not state an LLM role and no abstract is available.",
+    "evidence": "Statically Discover Complex Cross-Entry Use-After-Free Vulnerabilities in the Linux Kernel"
+  },
+  {
+    "id": "R01283",
+    "decision": "EXCLUDE",
+    "reason": "Kernel/log intrusion detection is OS security, but the method is a Random Forest ensemble, not an LLM.",
+    "evidence": "processed using a Random Forest ensemble"
+  },
+  {
+    "id": "R01284",
+    "decision": "UNCLEAR",
+    "reason": "Kernel-module protection is OS security, but the title does not state an LLM role and no abstract is available.",
+    "evidence": "CARAT KOP: Towards Protecting the Core HPC Kernel from Linux Kernel Modules"
+  },
+  {
+    "id": "R01285",
+    "decision": "EXCLUDE",
+    "reason": "Kernel scheduler development is OS engineering without a security outcome and does not mention an LLM.",
+    "evidence": "Enoki: High Velocity Linux Kernel Scheduler Development"
+  },
+  {
+    "id": "R01286",
+    "decision": "EXCLUDE",
+    "reason": "Rust/C kernel-module performance and stability testing has no LLM component and no clear security outcome.",
+    "evidence": "comparative analysis of Rust and C implementations of kernel modules"
+  },
+  {
+    "id": "R01287",
+    "decision": "UNCLEAR",
+    "reason": "Kernel CVE/recency analysis is potentially OS vulnerability work, but LLM involvement and method are not stated.",
+    "evidence": "Linux Kernel Recency Matters, CVE Severity Doesn’t, and History Fades"
+  },
+  {
+    "id": "R01288",
+    "decision": "EXCLUDE",
+    "reason": "OpenvSwitch security fuzzing uses syzkaller, not an LLM.",
+    "evidence": "The syzkaller tool was used for fuzzing testing."
+  },
+  {
+    "id": "R01289",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM (GPT-4.1) is used substantively across penetration-testing stages on a VulnHub machine, suggesting security testing of an OS environment.",
+    "evidence": "GPT-4.1 can significantly accelerate all stages of the pentest, from reconnaissance to exploitation."
+  },
+  {
+    "id": "R01290",
+    "decision": "EXCLUDE",
+    "reason": "Traffic-crash information extraction from social media is not OS security work.",
+    "evidence": "Extracting Traffic Crash Information from Social Media: An Llm-Based Approach"
+  },
+  {
+    "id": "R01291",
+    "decision": "EXCLUDE",
+    "reason": "Traffic-crash GIS validation is not OS security work.",
+    "evidence": "Llm-Assisted GIS Validation: A Computational Method for Improving Traffic Crash Location Data"
+  },
+  {
+    "id": "R01292",
+    "decision": "EXCLUDE",
+    "reason": "Autonomous-vehicle insurance crash triage is not OS security work.",
+    "evidence": "From Crash Narratives to Structured Liability and Severity: An LLM Information-Extraction Pipeline for Autonomous-Vehicle Insurance Triage"
+  },
+  {
+    "id": "R01293",
+    "decision": "EXCLUDE",
+    "reason": "Injury-severity modeling from crash narratives is not OS security work.",
+    "evidence": "Crash Narratives as Safety Evidence: LLM-Derived Risk Factors for Injury Severity Modeling"
+  },
+  {
+    "id": "R01294",
+    "decision": "EXCLUDE",
+    "reason": "Traffic-crash information extraction is not OS security work.",
+    "evidence": "Extracting traffic crash information from social media: an LLM-based approach"
+  },
+  {
+    "id": "R01295",
+    "decision": "EXCLUDE",
+    "reason": "Linux kernel-crash telemetry for AI clusters is reliability work and does not use an LLM for security analysis.",
+    "evidence": "uses Linux kdump technology"
+  },
+  {
+    "id": "R01296",
+    "decision": "EXCLUDE",
+    "reason": "Multi-disease medical diagnosis with LLM explanations is outside OS security.",
+    "evidence": "multi-disease diagnosis using a lightweight neural network architecture combined with large language model (LLM) powered explanations"
+  },
+  {
+    "id": "R01297",
+    "decision": "EXCLUDE",
+    "reason": "Clinical differential diagnosis using an LLM agent is outside OS security.",
+    "evidence": "LLM-powered diagnostic agent with a deterministic controller"
+  },
+  {
+    "id": "R01298",
+    "decision": "UNCLEAR",
+    "reason": "LLM embeddings for crash deduplication could be security-adjacent, but the missing abstract leaves the target and security task unclear.",
+    "evidence": "GPTrace: Effective Crash Deduplication Using LLM Embeddings"
+  },
+  {
+    "id": "R01299",
+    "decision": "EXCLUDE",
+    "reason": "Road-safety crash analysis on Twitter is not OS security work.",
+    "evidence": "Multi-Task Learning for Road Safety Using Twitter: A Fine-Tuned Llm Framework for Real-Time Traffic Crash Analysis"
+  },
+  {
+    "id": "R01300",
+    "decision": "EXCLUDE",
+    "reason": "Monoclonal gammopathy diagnostic testing is medical, not OS security.",
+    "evidence": "Stepwise Testing in the Diagnosis of Monoclonal Gammopathies"
+  },
+  {
+    "id": "R01301",
+    "decision": "EXCLUDE",
+    "reason": "Psychometric diagnosis with an LLM agent is not OS security.",
+    "evidence": "integrates a large language model (LLM) agent with psychometric software"
+  },
+  {
+    "id": "R01302",
+    "decision": "EXCLUDE",
+    "reason": "Rare-disease diagnosis from EHRs is medical, not OS security.",
+    "evidence": "LLM-Powered Contextual Diagnosis Support for Rare Diseases Using Electronic Health Records"
+  },
+  {
+    "id": "R01303",
+    "decision": "EXCLUDE",
+    "reason": "Psychometric diagnosis with an LLM agent is not OS security.",
+    "evidence": "integrates a large language model (LLM) agent with psychometric software"
+  },
+  {
+    "id": "R01304",
+    "decision": "EXCLUDE",
+    "reason": "Monoclonal gammopathy diagnostic testing is medical, not OS security.",
+    "evidence": "Monoklonal Gamopatilerin Tanısında Basamaklı Test İstemi"
+  },
+  {
+    "id": "R01305",
+    "decision": "EXCLUDE",
+    "reason": "Bearing fault diagnosis and remaining-useful-life prediction is industrial maintenance, not OS security.",
+    "evidence": "PHM-LLM: A cross-modal pre-trained LLM for bearing fault diagnosis and remaining useful life prediction"
+  },
+  {
+    "id": "R01306",
+    "decision": "EXCLUDE",
+    "reason": "Road-traffic crash analysis on Twitter is not OS security work.",
+    "evidence": "Multitask Learning for Crash Analysis: A Fine-Tuned LLM Framework Using Twitter Data"
+  },
+  {
+    "id": "R01307",
+    "decision": "EXCLUDE",
+    "reason": "L-DED maintenance and LLM fault-diagnosis evaluation is industrial, not OS security.",
+    "evidence": "Dt and Llm Driven Intelligent Maintenance System for L-Ded and Dag-Based Llm Fault Diagnosis Evaluation Framework"
+  },
+  {
+    "id": "R01308",
+    "decision": "EXCLUDE",
+    "reason": "Pipeline-parallel LLM training bottleneck diagnosis is performance work, not security.",
+    "evidence": "Pipeline Parallelism (PP) is essential for hyperscale Large Language Model (LLM) training"
+  },
+  {
+    "id": "R01309",
+    "decision": "EXCLUDE",
+    "reason": "Medical image diagnosis and clinical decision support are outside OS security.",
+    "evidence": "Lightweight Multimodal AI for Medical Image Diagnosis and LLM-Based Clinical Decision Support&amp;nbsp;"
+  },
+  {
+    "id": "R01310",
+    "decision": "EXCLUDE",
+    "reason": "Conceptual analysis of LLM execution avoidance is not an OS security task and presents no empirical study.",
+    "evidence": "The contribution is conceptual, not empirical"
+  },
+  {
+    "id": "R01311",
+    "decision": "EXCLUDE",
+    "reason": "GUI-based software crash diagnosis is general software testing without an LLM or clear security target.",
+    "evidence": "automated software crash-diagnosis technique using a state transition graph (STG)"
+  },
+  {
+    "id": "R01312",
+    "decision": "EXCLUDE",
+    "reason": "Cloud fault diagnosis and self-healing is reliability work, not security analysis of OS components.",
+    "evidence": "Existing methods for fault detection in cloud and quantum systems are powerful but brittle."
+  },
+  {
+    "id": "R01313",
+    "decision": "EXCLUDE",
+    "reason": "Autonomous-vehicle crash narrative analysis is traffic safety, not OS security.",
+    "evidence": "LLM-driven causal chain extraction: An interpretable framework for autonomous vehicle crash narrative analysis"
+  },
+  {
+    "id": "R01314",
+    "decision": "EXCLUDE",
+    "reason": "Enterprise misconfiguration troubleshooting is operational diagnosis, not security analysis of OS components.",
+    "evidence": "Misconfigurations in enterprise IT systems remain a leading cause of service disruptions and vulnerabilities."
+  },
+  {
+    "id": "R01315",
+    "decision": "EXCLUDE",
+    "reason": "HPC performance diagnosis with an LLM is not a security task.",
+    "evidence": "LLM assisted approach for performance diagnosis of parallel programs"
+  },
+  {
+    "id": "R01316",
+    "decision": "UNCLEAR",
+    "reason": "Resilient monolithic OS kernels is OS engineering/security-adjacent, but the LLM role is not stated and no abstract is available.",
+    "evidence": "Compartment, Crash, and Continue: Toward Resilient Monolithic OS Kernels"
+  },
+  {
+    "id": "R01317",
+    "decision": "EXCLUDE",
+    "reason": "Real-time crash-risk prediction is predictive safety/reliability, not security analysis of OS components.",
+    "evidence": "LLM-enhanced causal graph learning for real-time crash risk prediction"
+  },
+  {
+    "id": "R01318",
+    "decision": "EXCLUDE",
+    "reason": "Brain MRI differential diagnosis is medical, not OS security.",
+    "evidence": "Performing Best When Needed Least: Reader Experience Shapes Accuracy Gains in LLM-assisted Brain MRI Differential Diagnosis | Tweetorial"
+  },
+  {
+    "id": "R01319",
+    "decision": "EXCLUDE",
+    "reason": "Student simulation and cognitive diagnosis is education, not OS security.",
+    "evidence": "One LLM Does Not Simulate All Students: Ability-Aware Student Simulation via Cognitive Diagnosis Guided LLM Assignment"
+  },
+  {
+    "id": "R01320",
+    "decision": "EXCLUDE",
+    "reason": "Traffic forecasting with crash evidence is transportation safety, not OS security.",
+    "evidence": "LLM-Explained Graph Traffic Forecasting for DOT Corridor Operations: Full Empirical Evaluation on METR-LA and PEMS-BAY with Crash Evidence"
+  }
+]

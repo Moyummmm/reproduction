@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R00841",
+    "decision": "EXCLUDE",
+    "reason": "General commentary on generative-AI risk, not original empirical research on LLM-based OS security.",
+    "evidence": "Minimising the risks and maximising the opportunities of generative AI"
+  },
+  {
+    "id": "R00844",
+    "decision": "EXCLUDE",
+    "reason": "Literature review and policy proposal on AI cybercrime analysis; no LLM-based security testing of OS components.",
+    "evidence": "the study focused on literature review and case analysis"
+  },
+  {
+    "id": "R00846",
+    "decision": "EXCLUDE",
+    "reason": "Conceptual chapter on Gen-AI security architecture; no OS-targeted security task or empirical LLM analysis.",
+    "evidence": "This chapter will provide a complete Gen-AI security architecture"
+  },
+  {
+    "id": "R00847",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Proposes LLM-based generation of Linux syscall specifications to support kernel fuzzing and crash discovery.",
+    "evidence": "automatic generation of system call specifications based on large language models"
+  },
+  {
+    "id": "R00848",
+    "decision": "EXCLUDE",
+    "reason": "Kernel fuzzing crash deduplication without any LLM component.",
+    "evidence": "ECHO, a lightweight call stack-based deduplication tool"
+  },
+  {
+    "id": "R00849",
+    "decision": "EXCLUDE",
+    "reason": "Kernel network-stack fuzzing but no LLM use in the proposed system.",
+    "evidence": "we introduce Pacaller, a packet-syscall coordinated fuzzer"
+  },
+  {
+    "id": "R00852",
+    "decision": "EXCLUDE",
+    "reason": "Attack-surface analysis for Linux kernel fuzzing without an LLM component.",
+    "evidence": "analyze possible methods for determining the attack surface"
+  },
+  {
+    "id": "R00854",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM synthesizes syscall specifications and discovers Linux kernel bugs and CVEs.",
+    "evidence": "automatically synthesizing syscall specifications via Large Language Models"
+  },
+  {
+    "id": "R00867",
+    "decision": "EXCLUDE",
+    "reason": "Diversity-guided Linux kernel fuzzing with no LLM component.",
+    "evidence": "we propose a diversity-guided kernel fuzzer SyzDiversity"
+  },
+  {
+    "id": "R00876",
+    "decision": "EXCLUDE",
+    "reason": "Security and robustness testing of LLMs themselves, not OS-targeted security.",
+    "evidence": "An Automated Recursive Token-Level Security Fuzzing Test for Large Language Models"
+  },
+  {
+    "id": "R00877",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted network-protocol fuzzing of user-space protocol programs, not the OS network stack.",
+    "evidence": "state-handling method for stateful network protocol programs"
+  },
+  {
+    "id": "R00878",
+    "decision": "UNCLEAR",
+    "reason": "LLM-guided directed fuzzing for vulnerability discovery, but target software is unspecified and no OS component is identified.",
+    "evidence": "evaluation of HGFuzzer on 23 real-world bugs"
+  },
+  {
+    "id": "R00888",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted fuzzing targets application-level charging management systems, not OS components or privileged interfaces.",
+    "evidence": "Charging Station Management System (CSMS)"
+  },
+  {
+    "id": "R00890",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Integrates LLMs with Syzkaller to guide kernel test-case mutation and generation.",
+    "evidence": "LLMs are used to guide the mutation and generation of test cases"
+  },
+  {
+    "id": "R00891",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted option fuzzing of general programs; no OS component or privileged interface is targeted.",
+    "evidence": "an advanced option-fuzzing approach that directly extracts options"
+  },
+  {
+    "id": "R00894",
+    "decision": "EXCLUDE",
+    "reason": "Virtualization-backed kernel fuzzing without an LLM component.",
+    "evidence": "a virtualization-backed fuzzing framework using differential snapshot orchestration"
+  },
+  {
+    "id": "R00896",
+    "decision": "EXCLUDE",
+    "reason": "RL-guided kernel fuzzing without an LLM component.",
+    "evidence": "an RL-guided fuzzing scheduler"
+  },
+  {
+    "id": "R00897",
+    "decision": "EXCLUDE",
+    "reason": "Linux network configuration language proposal; no LLM and no security analysis.",
+    "evidence": "adopting Linux networking commands as a standard configuration language"
+  },
+  {
+    "id": "R00898",
+    "decision": "EXCLUDE",
+    "reason": "Study of Linux kernel maintainership; no LLM use or security outcome.",
+    "evidence": "a multivocal literature review"
+  },
+  {
+    "id": "R00900",
+    "decision": "EXCLUDE",
+    "reason": "LLM-generated seeds for multimedia protocol fuzzing of user-space servers, not OS components.",
+    "evidence": "generate diverse seeds for multimedia protocol fuzzing"
+  },
+  {
+    "id": "R00907",
+    "decision": "EXCLUDE",
+    "reason": "RL-guided kernel fuzzing without an LLM component.",
+    "evidence": "an RL-guided fuzzing scheduler"
+  },
+  {
+    "id": "R00908",
+    "decision": "EXCLUDE",
+    "reason": "Constraint-guided kernel fuzzing without an LLM component.",
+    "evidence": "constraint inference to improve directed fuzzing"
+  },
+  {
+    "id": "R00910",
+    "decision": "EXCLUDE",
+    "reason": "Hardware-telemetry-guided kernel fuzzing without an LLM component.",
+    "evidence": "a hardware-assisted fuzzing framework"
+  },
+  {
+    "id": "R00913",
+    "decision": "EXCLUDE",
+    "reason": "Descriptive discussion of Linux zombie processes; no LLM, security testing, or vulnerability discovery.",
+    "evidence": "A zombie process is a type of process"
+  },
+  {
+    "id": "R00914",
+    "decision": "EXCLUDE",
+    "reason": "Taint-guided kernel fuzzing without an LLM component.",
+    "evidence": "integrate static taint analysis with dynamic fuzzing"
+  },
+  {
+    "id": "R00916",
+    "decision": "EXCLUDE",
+    "reason": "Linux network-interface fuzzing approach with no LLM component.",
+    "evidence": "fuzzing testing of network interfaces of Linux family operating systems"
+  },
+  {
+    "id": "R00921",
+    "decision": "EXCLUDE",
+    "reason": "Filesystem kernel fuzzing with behavior modeling but no LLM component.",
+    "evidence": "We build a behavior model that encodes I/O path states"
+  },
+  {
+    "id": "R00925",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted protocol fuzzing of general network protocol implementations, not OS kernel networking.",
+    "evidence": "protocol-fuzzing method with message syntax comprehension"
+  },
+  {
+    "id": "R00930",
+    "decision": "EXCLUDE",
+    "reason": "Review of LLM-based fuzzing; surveys are excluded from the core empirical set.",
+    "evidence": "This paper presents a literature review"
+  },
+  {
+    "id": "R00932",
+    "decision": "EXCLUDE",
+    "reason": "Kernel syscall fuzzing uses a GNN, not an LLM.",
+    "evidence": "A lightweight GNN-based model predicts probabilistic syscall transitions"
+  },
+  {
+    "id": "R00939",
+    "decision": "EXCLUDE",
+    "reason": "Linux kernel adaptation for industrial timing; no LLM and no security outcome.",
+    "evidence": "Adaptation of the Linux Operating System Kernel"
+  },
+  {
+    "id": "R00940",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based generative fuzzing of protocols and closed-source systems, not OS components.",
+    "evidence": "a generative fuzzing framework based on large language models"
+  },
+  {
+    "id": "R00945",
+    "decision": "EXCLUDE",
+    "reason": "LLM-guided fuzzing of general user-space targets, not OS components.",
+    "evidence": "including libpng, tcpdump, and sqlite"
+  },
+  {
+    "id": "R00947",
+    "decision": "EXCLUDE",
+    "reason": "Security testing and red-teaming of LLMs themselves, not OS-targeted security analysis.",
+    "evidence": "automated red-teaming fuzzers against Large Language Models"
+  },
+  {
+    "id": "R00957",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted fuzzing of IoT application protocols, not OS components.",
+    "evidence": "an intelligent fuzzer, LIPFuzzer, for testing IoT protocols"
+  },
+  {
+    "id": "R00960",
+    "decision": "EXCLUDE",
+    "reason": "Long-context LLM inference architecture; the kernel here is not an OS component and no security task is present.",
+    "evidence": "RIS-Kernel: A Model-agnostic Architecture for Long-context LLM Inference"
+  },
+  {
+    "id": "R00968",
+    "decision": "EXCLUDE",
+    "reason": "LLM-agent governance framework, not LLM-based security analysis of OS components.",
+    "evidence": "an experimental shared governance kernel"
+  },
+  {
+    "id": "R00988",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based black-box fuzzing of network protocol programs, not the OS network stack.",
+    "evidence": "Generation-Based Black-Box Fuzzing for Network Protocols via LLMs"
+  },
+  {
+    "id": "R00990",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based compiler fuzzing for performance bugs; not OS-targeted security research.",
+    "evidence": "On the Practicality of LLM-Based Compiler Fuzzing"
+  },
+  {
+    "id": "R01006",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM generates syscall seeds with retrieval augmentation to improve Linux kernel fuzzing and vulnerability detection.",
+    "evidence": "automatically generate effective seeds for LFS via Large Language Model"
+  }
+]

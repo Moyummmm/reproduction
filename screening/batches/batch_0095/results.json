@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03801",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; an LLM-based Android permission model could be OS access control, but the security task and evaluation details are missing.",
+    "evidence": "Assessing the Effectiveness of an LLM-Based Permission Model for Android"
+  },
+  {
+    "id": "R03802",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; AI-based Android source-code vulnerability detection may cover OS code, but LLM use is unconfirmed.",
+    "evidence": "Labelled Vulnerability Dataset on Android Source Code (LVDAndro) to Develop AI-Based Code Vulnerability Detection Models"
+  },
+  {
+    "id": "R03803",
+    "decision": "EXCLUDE",
+    "reason": "LLM-guided DAST targets Android applications, not OS components or privileged interfaces.",
+    "evidence": "using an LLM as an interactive guide for dynamic application security testing (DAST) of Android applications"
+  },
+  {
+    "id": "R03804",
+    "decision": "EXCLUDE",
+    "reason": "LLM attacks an Android malware detector, an ML/application-level target rather than OS components.",
+    "evidence": "LAMLAD: LLM-Based Adversarial Attack Against Machine Learning for Android Malware Detection"
+  },
+  {
+    "id": "R03805",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based vulnerability reproduction is security-related, but the target system and OS scope are unspecified.",
+    "evidence": "An LLM-based framework for generating vulnerability reproduction steps and mapping exploits"
+  },
+  {
+    "id": "R03806",
+    "decision": "EXCLUDE",
+    "reason": "GAN-based Android certificate vulnerability detection does not use an LLM.",
+    "evidence": "Wasserstein GAN-Based Android Certificate Validation Vulnerability Detection Framework"
+  },
+  {
+    "id": "R03807",
+    "decision": "EXCLUDE",
+    "reason": "Review of Android security literature; surveys are excluded and no LLM use is reported.",
+    "evidence": "A Comprehensive Review of Malware Detection, App Permissions and Vulnerability Assessment in Android Security"
+  },
+  {
+    "id": "R03808",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; ML-based Android vulnerability detection may involve an LLM or OS code, but scope is unconfirmed.",
+    "evidence": "From code to security: machine learning approaches in android vulnerability detection"
+  },
+  {
+    "id": "R03809",
+    "decision": "EXCLUDE",
+    "reason": "Study of LLM API misuse in Android apps concerns LLM application security, not LLM-driven OS security.",
+    "evidence": "Demystifying LLM API Misuses: A Lifecycle-Based Empirical Study on Real-World Android Apps"
+  },
+  {
+    "id": "R03810",
+    "decision": "UNCLEAR",
+    "reason": "LLM generates attack scenarios, but target assets and OS-level scope are unspecified.",
+    "evidence": "LLM-based Attack Scenarios Generator with IT Asset Management and Vulnerability Information"
+  },
+  {
+    "id": "R03811",
+    "decision": "EXCLUDE",
+    "reason": "Automated detection targets Android application vulnerabilities, not OS components, and no LLM is indicated.",
+    "evidence": "Automated Approach for Detecting Next- Intent Security Vulnerability in Android Applications"
+  },
+  {
+    "id": "R03812",
+    "decision": "EXCLUDE",
+    "reason": "Assessment of LLM agent deployments concerns security of LLM agents, not LLM use for OS security.",
+    "evidence": "comparative vulnerability assessment of LLM agent deployment paradigms"
+  },
+  {
+    "id": "R03813",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor defense for LLM-based vulnerability detection concerns LLM security, not an OS security task.",
+    "evidence": "Defending backdoor attacks on intelligent vulnerability detection via redundant semantic LLM compression"
+  },
+  {
+    "id": "R03814",
+    "decision": "EXCLUDE",
+    "reason": "Automated vulnerability detection targets Android apps, not OS components, and no LLM is indicated.",
+    "evidence": "Automated Security Vulnerability Detection for Android Apps"
+  },
+  {
+    "id": "R03815",
+    "decision": "EXCLUDE",
+    "reason": "LLM-powered Android malware detection is application-level security, not an OS-component task.",
+    "evidence": "An LLM-Powered Robust and Efficient Android Malware Detection Framework"
+  },
+  {
+    "id": "R03816",
+    "decision": "EXCLUDE",
+    "reason": "LLM vulnerability repair is evaluated on Android applications, not OS components or privileged interfaces.",
+    "evidence": "Evaluating LLMs Vulnerability Repair Performance in Android Applications"
+  },
+  {
+    "id": "R03817",
+    "decision": "EXCLUDE",
+    "reason": "Blockchain federated neural network detects Android code vulnerabilities without an LLM.",
+    "evidence": "Real-time Android code vulnerability detection via blockchain federated neural network with XAI"
+  },
+  {
+    "id": "R03818",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreak analysis targets LLM safety filtering, not OS security analysis or protection.",
+    "evidence": "An Experimental Analysis of the Surface Vulnerability of LLM-Safe Filtering"
+  },
+  {
+    "id": "R03819",
+    "decision": "EXCLUDE",
+    "reason": "Deep-learning Android vulnerability detection does not use an LLM and targets application-level security.",
+    "evidence": "Hyperparameter-Tuned Deep Learning Approach for Robust Software Vulnerability Detection"
+  },
+  {
+    "id": "R03820",
+    "decision": "EXCLUDE",
+    "reason": "Android security advisor uses fuzzy logic, not an LLM, and does not conduct OS security research.",
+    "evidence": "Hierarchical system uses fuzzy logic to provide users with the generalized score based on the metrics."
+  },
+  {
+    "id": "R03821",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based Android malware detection is application-level, not OS-component security analysis.",
+    "evidence": "An LLM-Based Few-Shot Multi-Label Detection for Android Malware"
+  },
+  {
+    "id": "R03822",
+    "decision": "UNCLEAR",
+    "reason": "Title provides no evidence about LLM use, security task, or OS target.",
+    "evidence": "Epilogue"
+  },
+  {
+    "id": "R03823",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; smartphone architectural security may cover OS components, but LLM use and study type are unclear.",
+    "evidence": "A Multi-Layered Vulnerability Assessment of Android and iOS Ecosystems (2020-2025)"
+  },
+  {
+    "id": "R03824",
+    "decision": "EXCLUDE",
+    "reason": "Hyperparameter-tuned deep learning for Android vulnerability detection uses no LLM and is application-focused.",
+    "evidence": "Hyperparameter Tuned Deep Learning Approach for Robust Software Vulnerability Detection"
+  },
+  {
+    "id": "R03825",
+    "decision": "UNCLEAR",
+    "reason": "LLM prioritizes vulnerability assessment items, but the IoT target and OS-level scope are unspecified.",
+    "evidence": "Prioritizing Vulnerability Assessment Items Using LLM Based on IoT Device Documentations"
+  },
+  {
+    "id": "R03826",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; Android security may include OS-level controls, but LLM use and study type are unclear.",
+    "evidence": "Exploring Android Security and OWASP MASVS"
+  },
+  {
+    "id": "R03827",
+    "decision": "EXCLUDE",
+    "reason": "LLM-augmented static rules target Android app security, not OS components or privileged interfaces.",
+    "evidence": "LLM-Augmented Synthesis of Static Security Detection Rules for Android Apps"
+  },
+  {
+    "id": "R03828",
+    "decision": "EXCLUDE",
+    "reason": "Study tests and protects LLM applications in cockpits; the LLM is the target, not an OS-analysis tool.",
+    "evidence": "security vulnerabilities of LLM applications in intelligent cockpit scenarios"
+  },
+  {
+    "id": "R03829",
+    "decision": "EXCLUDE",
+    "reason": "Introduction to vulnerability is not original empirical research and shows no LLM use.",
+    "evidence": "An introduction to vulnerability"
+  },
+  {
+    "id": "R03830",
+    "decision": "EXCLUDE",
+    "reason": "Security assessment of the ChatGPT Android app targets an LLM application, not OS components.",
+    "evidence": "An in-Depth Vulnerability Assessment and Security Testing of the ChatGPT Android Application"
+  },
+  {
+    "id": "R03831",
+    "decision": "EXCLUDE",
+    "reason": "ML-based Android malware detection with adversarial examples does not use an LLM as the security tool.",
+    "evidence": "Machine Learning (ML) promises to enhance the efficacy of Android Malware Detection (AMD)"
+  },
+  {
+    "id": "R03832",
+    "decision": "EXCLUDE",
+    "reason": "Gemini chatbot development is application engineering without a security analysis or OS security outcome.",
+    "evidence": "implementasi dari kunci API Gemini dapat dilakukan pada aplikasi AI, khususnya aplikasi chatbot"
+  },
+  {
+    "id": "R03833",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; offensive security of iOS/Android devices is in scope, but LLM use and original research are unconfirmed.",
+    "evidence": "Mobile offensive security: Hacking iOS and Android devices"
+  },
+  {
+    "id": "R03834",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based code vulnerability localization addresses general software, not OS components or privileged interfaces.",
+    "evidence": "Attention Is All You Need for LLM-Based Code Vulnerability Localization"
+  },
+  {
+    "id": "R03835",
+    "decision": "EXCLUDE",
+    "reason": "Analysis of LLM capabilities in software vulnerability detection is general software work, not OS-targeted.",
+    "evidence": "Analysing LLM Capabilities in Software Vulnerability Detection"
+  },
+  {
+    "id": "R03836",
+    "decision": "EXCLUDE",
+    "reason": "Android FinTech app vulnerability analysis is application-level and does not indicate LLM use.",
+    "evidence": "Vulnerability analysis of android based FinTech apps in India"
+  },
+  {
+    "id": "R03837",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based function-level vulnerability detection targets general code, not OS components.",
+    "evidence": "An Effective Function Level Vulnerability Detection Model Using LLM and Code Chunk"
+  },
+  {
+    "id": "R03838",
+    "decision": "EXCLUDE",
+    "reason": "LLM-powered PHP vulnerability detection targets web software, not OS components.",
+    "evidence": "LLM-Powered Two-Stage PHP Vulnerability Detection and Automated Localization"
+  },
+  {
+    "id": "R03839",
+    "decision": "EXCLUDE",
+    "reason": "Foundation-model malware detection is application-level Android security, not OS-component analysis.",
+    "evidence": "LLM-Guard Semantic Analysis for Android Malware Detection Using Foundation Models"
+  },
+  {
+    "id": "R03840",
+    "decision": "EXCLUDE",
+    "reason": "Home security application is not an LLM-based OS security study.",
+    "evidence": "Android-based Home Security Application"
+  }
+]

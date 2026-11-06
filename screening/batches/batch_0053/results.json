@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02121",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; general protocol-fuzzing state selection, with no LLM or OS-component target.",
+    "evidence": "Complexity Aware State Selection Algorithm for Network Protocol Fuzzing"
+  },
+  {
+    "id": "R02122",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; satellite-network protocol fuzzing, not OS-component security and no LLM.",
+    "evidence": "Protocol Vulnerability Detection Method Based on Fuzzing in Low Earth Orbit Satellite Network"
+  },
+  {
+    "id": "R02123",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; state-sensitive fuzzing of general protocol implementations, not LLM-based OS security.",
+    "evidence": "State Sensitive Fuzzing for Network Protocol Implementations"
+  },
+  {
+    "id": "R02124",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; fingerprint discovery via protocol fuzzing, not OS security with an LLM.",
+    "evidence": "Automatic Network Protocol Fingerprint Discovery with Difference-Guided Fuzzing"
+  },
+  {
+    "id": "R02125",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; industrial protocol fuzzing with deep adversarial networks, not an LLM or OS target.",
+    "evidence": "An Industrial Network Protocol Fuzzing Framework Based on Deep Adversarial Networks"
+  },
+  {
+    "id": "R02126",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; state-sensitive protocol fuzzing, no explicit LLM or OS-component focus.",
+    "evidence": "Multi-criteria state-sensitive network protocol fuzzing"
+  },
+  {
+    "id": "R02127",
+    "decision": "EXCLUDE",
+    "reason": "Network-protocol fuzzing framework for state/seed selection; no LLM and targets general protocol programs.",
+    "evidence": "network protocol fuzzing framework based on selection algorithm with enhanced contextual information"
+  },
+  {
+    "id": "R02128",
+    "decision": "EXCLUDE",
+    "reason": "Stateful protocol fuzzing uses a QRNN filter, not an LLM, and targets general protocol entities.",
+    "evidence": "quasi-recurrent neural network (QRNN) to filter the test cases"
+  },
+  {
+    "id": "R02129",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; greybox protocol fuzzing from semantic fragments, not OS-component LLM security.",
+    "evidence": "Network Protocol Greybox Fuzzing Based on Semantic Fragments"
+  },
+  {
+    "id": "R02130",
+    "decision": "EXCLUDE",
+    "reason": "Reinforcement-learning seed scheduling for protocol fuzzing; no LLM and general protocol targets.",
+    "evidence": "Reinforcement Learning-Based Multi-Phase Seed Scheduling for Network Protocol Fuzzing"
+  },
+  {
+    "id": "R02131",
+    "decision": "EXCLUDE",
+    "reason": "Greybox protocol fuzzing via Markov property and message mutation; no LLM or OS-component target.",
+    "evidence": "A Greybox Protocol Fuzzing Method Based on the Protocol-Controlled Markov Property and Message-Pair Correlated Mutation"
+  },
+  {
+    "id": "R02132",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; vulnerability-guided prompting for network-protocol fuzzing, not OS-targeted LLM security.",
+    "evidence": "Vulnerability Knowledge Guided Prompting for Efficient Network Protocol Fuzzing"
+  },
+  {
+    "id": "R02133",
+    "decision": "EXCLUDE",
+    "reason": "LLM/MCP agents for network management and optimization, not security analysis of OS components.",
+    "evidence": "incorporates the Model Context Protocol (MCP), large language models (LLMs), retrieval-augmented generation (RAG), and autonomous AI agents, as a means of network management"
+  },
+  {
+    "id": "R02134",
+    "decision": "EXCLUDE",
+    "reason": "Protocol syntax extraction to support grammar-based fuzzing; no LLM and no OS security outcome.",
+    "evidence": "A Novel Network Protocol Syntax Extracting Method for Grammar-Based Fuzzing"
+  },
+  {
+    "id": "R02135",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; branch-guided protocol fuzzing, no explicit LLM or OS-component target.",
+    "evidence": "Branch Information Enhanced Network Protocol Fuzzing"
+  },
+  {
+    "id": "R02136",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; general network-protocol fuzzing efficiency work, not LLM-based OS security.",
+    "evidence": "Boosting Network Protocol Fuzzing Efficiency with Modern Techniques"
+  },
+  {
+    "id": "R02137",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; general network security risk/protocol vulnerability mining, not OS-component LLM research.",
+    "evidence": "Research on network security risk detection and management protocol vulnerability mining based on fuzzing"
+  },
+  {
+    "id": "R02138",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; state-transition-score protocol fuzzing, no explicit LLM or OS target.",
+    "evidence": "A Network Protocol Fuzzing Based on State Transition Score"
+  },
+  {
+    "id": "R02139",
+    "decision": "UNCLEAR",
+    "reason": "Embedded network-stack fuzzing may touch OS components, but the missing abstract leaves the LLM role unclear.",
+    "evidence": "Fuzzing of Embedded Network Stacks"
+  },
+  {
+    "id": "R02140",
+    "decision": "EXCLUDE",
+    "reason": "LLM agents for network remediation and optimization, not security analysis of OS components.",
+    "evidence": "Intent-Aware Auto Remediation for Network Disruption or Failures Using AI Agents, Large Language Models (LLM) and Model Context Protocol (MCP) Mechanisms"
+  },
+  {
+    "id": "R02141",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; high-speed protocol fuzzing with connection reuse, not LLM-based OS security.",
+    "evidence": "High-Speed Network Protocol Fuzzing With Connection Reuse"
+  },
+  {
+    "id": "R02142",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; dense-retrieval multi-agent protocol fuzzing, not OS-targeted LLM security.",
+    "evidence": "A Dense Retrieval-based Multi-Agent System for Network Protocol Fuzzing"
+  },
+  {
+    "id": "R02143",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; LLM-based protocol translation, with no security task or OS-component target.",
+    "evidence": "Llm-Based Autonomous Adaptive Semantic and Syntactic Protocol Translation"
+  },
+  {
+    "id": "R02144",
+    "decision": "EXCLUDE",
+    "reason": "Neural-network/RL protocol fuzzing, not an LLM, targeting general protocol implementations.",
+    "evidence": "two neural networks are employed to learn the potential mappings from seeds and states to path coverage"
+  },
+  {
+    "id": "R02145",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; hybrid-analysis protocol fuzzing, no explicit LLM or OS-component target.",
+    "evidence": "State-Aware Protocol Fuzzing Through Hybrid Analysis of Persistent Enumeration Variables"
+  },
+  {
+    "id": "R02146",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; state-selection study for protocol fuzzing, not LLM-based OS security.",
+    "evidence": "State Selection Algorithms and Their Impact on The Performance of Stateful Network Protocol Fuzzing"
+  },
+  {
+    "id": "R02147",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; semantics-aware fuzzing of general protocol implementations, not OS-targeted LLM research.",
+    "evidence": "A Semantics-Aware Fuzzing Framework for Network Protocol Implementations"
+  },
+  {
+    "id": "R02148",
+    "decision": "UNCLEAR",
+    "reason": "Linux network-stack fuzzing is OS-targeted, but the missing abstract leaves the LLM role unverified.",
+    "evidence": "Fuzzing Linux Network Stack via Protocol-System Call Payload Synthesis"
+  },
+  {
+    "id": "R02149",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; LLM alignment protocol, not LLM use for OS security analysis or testing.",
+    "evidence": "A Non-Collapsing Protocol for LLM Alignment Tasks"
+  },
+  {
+    "id": "R02150",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; seed-corpus construction for protocol fuzzing, not OS-component LLM security.",
+    "evidence": "Automated Construction of High-Quality Initial Seed Corpus for Network Protocol Fuzzing"
+  },
+  {
+    "id": "R02151",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; EV-charging firmware/protocol fuzzing, not OS-component LLM security.",
+    "evidence": "Comprehensive Black-Box Fuzzing of Electric Vehicle Charging Firmware"
+  },
+  {
+    "id": "R02152",
+    "decision": "EXCLUDE",
+    "reason": "Governance of LLM-agent execution; this is security of LLM systems, not LLM analysis of OS components.",
+    "evidence": "protocol-mediated execution layers as a governance architecture for LLM agent systems"
+  },
+  {
+    "id": "R02153",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; LLM and P2P networking integration, not an LLM OS-security task.",
+    "evidence": "Toward LLM Democratization: When LLM Meets P2P Network"
+  },
+  {
+    "id": "R02154",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; ASN.1/RRC radio-protocol fuzzing, not OS component and no LLM role.",
+    "evidence": "An ASN.1 UPER Encoding Based Fuzzing Method for Radio Resource Control Protocol"
+  },
+  {
+    "id": "R02155",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; stateful protocol fuzzing, no explicit LLM or OS-component target.",
+    "evidence": "DSFuzz: deep state of stateful protocol fuzzing"
+  },
+  {
+    "id": "R02156",
+    "decision": "EXCLUDE",
+    "reason": "Review/analysis of network-protocol fuzzing inefficiency; reviews excluded, and no LLM OS-security task.",
+    "evidence": "comprehensive analysis of all the root causes behind the inefficiency of fuzzing network protocols"
+  },
+  {
+    "id": "R02157",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; statemap-based state selection for protocol fuzzing, not OS-targeted LLM research.",
+    "evidence": "Stateful Protocol Fuzzing with Statemap-Based Reverse State Selection"
+  },
+  {
+    "id": "R02158",
+    "decision": "EXCLUDE",
+    "reason": "OAuth 2.0 server fuzzing; general application software, not OS components, and no LLM.",
+    "evidence": "Protocol-Aware Adaptive Fuzzing for OAuth 2.0 Implementations"
+  },
+  {
+    "id": "R02159",
+    "decision": "EXCLUDE",
+    "reason": "Industrial PLC protocol fuzzing; no LLM and not an OS-component security task.",
+    "evidence": "Fuzzing Technology Based on Information Theory for Industrial Proprietary Protocol"
+  },
+  {
+    "id": "R02160",
+    "decision": "EXCLUDE",
+    "reason": "Abstract missing; cross-state protocol fuzzing, no explicit LLM or OS-component target.",
+    "evidence": "Seed-Adapted Cross-State Protocol Fuzzing"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "arxiv:2606.30755",
+    "decision": "EXCLUDE",
+    "reason": "Security benchmark for LLM-agent platforms; the OS-like framing is an analogy, not an OS-component security task.",
+    "evidence": "treating a Claw-like agent as an agentic computer system"
+  },
+  {
+    "id": "arxiv:2606.31984",
+    "decision": "EXCLUDE",
+    "reason": "Industrial recommendation re-ranking; no security task or OS target.",
+    "evidence": "Generative Reasoning Re-Ranker"
+  },
+  {
+    "id": "arxiv:2607.00255",
+    "decision": "EXCLUDE",
+    "reason": "UAV wireless power transfer optimization; no security task.",
+    "evidence": "UAV-enabled Wireless Power Transfer (WPT) systems"
+  },
+  {
+    "id": "arxiv:2607.00260",
+    "decision": "EXCLUDE",
+    "reason": "Dementia classification from speech; no security task or OS target.",
+    "evidence": "automatic dementia classification (ADC) systems from voice recordings"
+  },
+  {
+    "id": "arxiv:2607.00481",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreak attack on function-calling LLMs; security of LLMs, not OS components.",
+    "evidence": "Jailbreak attacks remain a critical threat"
+  },
+  {
+    "id": "arxiv:2607.00760",
+    "decision": "EXCLUDE",
+    "reason": "KV-cache compression for serving; systems efficiency, no security outcome.",
+    "evidence": "KV cache compression system for extremely long-context serving"
+  },
+  {
+    "id": "arxiv:2607.01678",
+    "decision": "EXCLUDE",
+    "reason": "Distributed LLM training optimizer; no security task or OS target.",
+    "evidence": "communication-efficient distributed optimizer for LLM training"
+  },
+  {
+    "id": "arxiv:2607.02802",
+    "decision": "EXCLUDE",
+    "reason": "Rule-adherence study for TRPG adjudicators; game setting, not OS security.",
+    "evidence": "Call of Cthulhu (CoC)"
+  },
+  {
+    "id": "arxiv:2607.04261",
+    "decision": "EXCLUDE",
+    "reason": "Legal judgment prediction and shortcut learning; no OS security task.",
+    "evidence": "Legal Judgment Prediction (LJP)"
+  },
+  {
+    "id": "arxiv:2607.04379",
+    "decision": "EXCLUDE",
+    "reason": "Poisoning and defense for an LLM-RAG mission-control framework; target is not OS components.",
+    "evidence": "Policy-Aware LLM Retrieval-Augmented Generation (PA-LLM-RAG) framework for Internet of Battlefield Things (IoBT) mission control"
+  },
+  {
+    "id": "arxiv:2607.05132",
+    "decision": "EXCLUDE",
+    "reason": "LLM-agent honesty in repeated games; no security testing of OS components.",
+    "evidence": "agents that publicly commit to actions will honor those commitments"
+  },
+  {
+    "id": "arxiv:2607.05474",
+    "decision": "EXCLUDE",
+    "reason": "General software algorithmic-complexity vulnerability discovery; targets include CPython and JDK, not OS components.",
+    "evidence": "non-trivial computational costs hidden inside seemingly benign standard library APIs"
+  },
+  {
+    "id": "arxiv:2607.05868",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted steganography cost-function generation; not an OS security task.",
+    "evidence": "spatial steganography cost functions"
+  },
+  {
+    "id": "arxiv:2607.07862",
+    "decision": "EXCLUDE",
+    "reason": "Multi-GPU execution and latency optimization; no security outcome.",
+    "evidence": "multi-GPU systems"
+  },
+  {
+    "id": "arxiv:2607.08095",
+    "decision": "EXCLUDE",
+    "reason": "zkML proof-construction acceleration; cryptographic verification of ML inference, not OS security.",
+    "evidence": "Zero-knowledge machine learning (zkML)"
+  },
+  {
+    "id": "arxiv:2607.08681",
+    "decision": "EXCLUDE",
+    "reason": "Trustworthy-agent benchmark for energy markets; not OS-component security.",
+    "evidence": "decentralized energy markets"
+  },
+  {
+    "id": "arxiv:2607.09008",
+    "decision": "EXCLUDE",
+    "reason": "Vision-language prompt refinement for class imbalance; no security task.",
+    "evidence": "open-vocabulary detectors"
+  },
+  {
+    "id": "arxiv:2607.09207",
+    "decision": "EXCLUDE",
+    "reason": "Resource scheduling for RL post-training; no security task or OS target.",
+    "evidence": "disaggregated and asynchronous RL post-training"
+  },
+  {
+    "id": "arxiv:2607.09385",
+    "decision": "EXCLUDE",
+    "reason": "Energy-efficient NPU inference for OS workflows; no security outcome.",
+    "evidence": "energy-efficient inference on laptop-class systems-on-chip (SoCs)"
+  },
+  {
+    "id": "arxiv:2607.09653",
+    "decision": "UNCLEAR",
+    "reason": "LLM agents perform IoT vulnerability discovery and exploitation, but the abstract does not establish that targets are OS components or privileged interfaces.",
+    "evidence": "vulnerability discovery and exploitation in IoT environments using LLM-based reasoning and offensive security tools"
+  },
+  {
+    "id": "arxiv:2607.10016",
+    "decision": "EXCLUDE",
+    "reason": "Tokenization for LLM recommendation; no security task.",
+    "evidence": "Tokenizing Numerical and Embedding Features for LLM RecSys"
+  },
+  {
+    "id": "arxiv:2607.10315",
+    "decision": "UNCLEAR",
+    "reason": "LLM-driven vulnerability discovery targets cellular core-network implementations; whether these are OS components or privileged interfaces is not explicit.",
+    "evidence": "discover new iTrues in CN implementations"
+  },
+  {
+    "id": "arxiv:2607.10316",
+    "decision": "EXCLUDE",
+    "reason": "Efficient RAG indexing via SVD; no security task or OS target.",
+    "evidence": "Retrieval-Augmented Generation via Singular Value Decomposition"
+  },
+  {
+    "id": "arxiv:2607.10522",
+    "decision": "EXCLUDE",
+    "reason": "Agentic medical-imaging model development; no security objective.",
+    "evidence": "autonomous multi-agent framework for medical imaging model development"
+  },
+  {
+    "id": "arxiv:2607.11722",
+    "decision": "EXCLUDE",
+    "reason": "Career-path recommendation from resumes; no security task.",
+    "evidence": "career-path recommendation system"
+  },
+  {
+    "id": "arxiv:2607.11976",
+    "decision": "EXCLUDE",
+    "reason": "Fused attention indexer kernel for efficiency; no security task.",
+    "evidence": "fused Indexer-TopK kernel"
+  },
+  {
+    "id": "arxiv:2607.12098",
+    "decision": "EXCLUDE",
+    "reason": "Auditing query expansion in information retrieval; no OS security task.",
+    "evidence": "Pseudo-Relevance Feedback (PRF)"
+  },
+  {
+    "id": "arxiv:2607.12188",
+    "decision": "EXCLUDE",
+    "reason": "Cost attribution and governance for multi-tenant RAG; not security analysis of OS components.",
+    "evidence": "Unified Per-Tenant Cost Attribution"
+  },
+  {
+    "id": "arxiv:2607.12316",
+    "decision": "EXCLUDE",
+    "reason": "Neuro-symbolic vulnerability discovery in general and LLM-serving systems; no explicit LLM role or OS-component target.",
+    "evidence": "neuro-symbolic detector synthesis"
+  },
+  {
+    "id": "arxiv:2607.12340",
+    "decision": "EXCLUDE",
+    "reason": "Hallucinated skill recommendations and supply-chain risk in LLM agents; security of LLM agents, not OS.",
+    "evidence": "skill name hallucination"
+  },
+  {
+    "id": "arxiv:2607.12839",
+    "decision": "EXCLUDE",
+    "reason": "Heterogeneous edge LLM inference scheduling; no security outcome.",
+    "evidence": "energy-efficient edge LLM inference"
+  },
+  {
+    "id": "arxiv:2607.13359",
+    "decision": "EXCLUDE",
+    "reason": "Latency-aware multi-agent orchestration; no security task.",
+    "evidence": "Latency-Aware Orchestration for Multi-Agent Systems"
+  },
+  {
+    "id": "arxiv:2607.13801",
+    "decision": "EXCLUDE",
+    "reason": "Certified defense for LLM-based network IDS; target is network traffic, not OS components or privileged interfaces.",
+    "evidence": "intrusion detection systems (IDS) are increasingly studied for security monitoring"
+  },
+  {
+    "id": "arxiv:2607.14166",
+    "decision": "EXCLUDE",
+    "reason": "Security and repair of LLM-agent framework control primitives; LLM is the hazard source, not an OS-security tool.",
+    "evidence": "Production LLM-agent frameworks ship control primitives"
+  },
+  {
+    "id": "arxiv:2607.14493",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection study of LLM log analysis in SOCs; security of LLM analysis, not OS components.",
+    "evidence": "passive prompt injection"
+  },
+  {
+    "id": "arxiv:2607.14604",
+    "decision": "EXCLUDE",
+    "reason": "A/B-test variance reduction; no security task or OS target.",
+    "evidence": "Online controlled experiments"
+  },
+  {
+    "id": "arxiv:2607.16488",
+    "decision": "EXCLUDE",
+    "reason": "Auto-scaling heterogeneous NPUs for LLM serving; efficiency only, no security outcome.",
+    "evidence": "auto-scaling framework"
+  },
+  {
+    "id": "arxiv:2607.19198",
+    "decision": "EXCLUDE",
+    "reason": "Neural sampler for amorphous materials; no security task.",
+    "evidence": "foundation neural sampler for amorphous materials"
+  },
+  {
+    "id": "arxiv:2607.19438",
+    "decision": "EXCLUDE",
+    "reason": "Apple Silicon inference runtime optimization; no security task or OS target.",
+    "evidence": "native Metal inference runtime for large language models on Apple Silicon"
+  },
+  {
+    "id": "arxiv:2607.19957",
+    "decision": "EXCLUDE",
+    "reason": "Attack on LLM KV-cache reuse; security of LLM inference, not OS components.",
+    "evidence": "KV Cache Hijacking"
+  }
+]

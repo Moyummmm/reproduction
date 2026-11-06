@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03281",
+    "decision": "EXCLUDE",
+    "reason": "LLM generates synthetic Android malware feature records; the security task does not target OS components or privileged interfaces.",
+    "evidence": "fine-tune GPT-4.1-mini to produce structured records for three malware families"
+  },
+  {
+    "id": "R03282",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted SMS phishing detection targets messages, not OS components or privileged interfaces.",
+    "evidence": "pairing an LLM with link-and brand-context retrieval improves explainable SMS-phishing detection"
+  },
+  {
+    "id": "R03283",
+    "decision": "EXCLUDE",
+    "reason": "Medical question-answering hallucination detection is not an OS security task.",
+    "evidence": "detects and mitigates hallucinations in medical question answering"
+  },
+  {
+    "id": "R03284",
+    "decision": "EXCLUDE",
+    "reason": "Defense addresses prompt injection against LLM agents, not OS components or privileged interfaces.",
+    "evidence": "Prompt injection—the manipulation of an LLM-based agent through adversarial content"
+  },
+  {
+    "id": "R03285",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based intrusion detection is a security task, but the target is intrusion alerts/datasets; an OS component or privileged interface is not established.",
+    "evidence": "LLM-based intrusion detection"
+  },
+  {
+    "id": "R03286",
+    "decision": "EXCLUDE",
+    "reason": "Secures LLMs against adversarial prompts; security of LLMs is outside the core OS-target scope.",
+    "evidence": "detection and mitigation of adversarial prompt attacks against LLMs"
+  },
+  {
+    "id": "R03287",
+    "decision": "EXCLUDE",
+    "reason": "No LLM is used; network-flow and system-log classifiers do not establish an LLM security role.",
+    "evidence": "compares class-balanced logistic regression with a 90-tree random forest"
+  },
+  {
+    "id": "R03288",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM role, security outcome, and OS-component target are unknown.",
+    "evidence": "A Comparative Study of Log-Based Anomaly Detection Methods in Real-World System Logs"
+  },
+  {
+    "id": "R03289",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; ensemble learning is indicated but LLM role and OS security target are unverified.",
+    "evidence": "Construction of System Log Anomaly Detection and Prediction Model Based on Ensemble Learning"
+  },
+  {
+    "id": "R03290",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM is explicit but security outcome and OS-component target are unverified.",
+    "evidence": "FORGE: An Interpretable Framework for LLM-Assisted Log Anomaly Detection"
+  },
+  {
+    "id": "R03291",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM is explicit but security outcome and OS-component target are unverified.",
+    "evidence": "Collaborative Log Anomaly Detection Using LLM With Privacy-Constrained Retrieval"
+  },
+  {
+    "id": "R03292",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; transformer-based title does not establish an LLM role or an OS-component target.",
+    "evidence": "A Green Hybrid Transformer-based System Log Anomaly Detection Framework for System Security"
+  },
+  {
+    "id": "R03293",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM is explicit but security outcome and OS-component target are unverified.",
+    "evidence": "Clustering-Informed Retrieval-Augmented Generation for LLM-Based Log Anomaly Detection"
+  },
+  {
+    "id": "R03294",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM role and whether the cyber-range target is an OS component are unclear.",
+    "evidence": "Toward a Log-based Anomaly Detection System for Cyber Range Platforms"
+  },
+  {
+    "id": "R03295",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; the title names a temporal convolution method but LLM role and OS security target are unverified.",
+    "evidence": "Semi-supervised log anomaly detection based on bidirectional temporal convolution network"
+  },
+  {
+    "id": "R03296",
+    "decision": "EXCLUDE",
+    "reason": "LLM is used for explainability in CI/CD log analysis, not substantive security analysis of OS components.",
+    "evidence": "Comparing Transformer-Based Log Anomaly Detection With LLM Explainability In CI/CD Pipelines"
+  },
+  {
+    "id": "R03297",
+    "decision": "EXCLUDE",
+    "reason": "T5 is only a feature encoder; the task is energy-efficient log anomaly detection for system failure, not OS security.",
+    "evidence": "encodes word embeddings from a pre-trained T5-base model into spatiotemporal spike sequences"
+  },
+  {
+    "id": "R03298",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM is explicit but security outcome and OS-component target are unverified.",
+    "evidence": "LLMaaD: LLM-Based Multi-Agent Framework for Interpretable Log Anomaly Detection"
+  },
+  {
+    "id": "R03299",
+    "decision": "EXCLUDE",
+    "reason": "No real LLM is used; simulated AIOps log routing is not OS security analysis.",
+    "evidence": "implements deterministic local policies that simulate zero-shot and few-shot LLM-style inference"
+  },
+  {
+    "id": "R03300",
+    "decision": "EXCLUDE",
+    "reason": "LLM generates runbooks while anomaly detection and root-cause analysis remain AIOps, not LLM-based OS security.",
+    "evidence": "produces operator-ready runbooks using an LLM-style agent"
+  },
+  {
+    "id": "R03301",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM-compatible representation learning leaves LLM role and OS-component target unclear.",
+    "evidence": "Toward LLM-Compatible Log Representation Learning: A Hierarchical Semantic-Structural Framework for HPC Anomaly Detection"
+  },
+  {
+    "id": "R03302",
+    "decision": "EXCLUDE",
+    "reason": "Federated LLM supports reliability-oriented log anomaly detection, not security analysis of OS components.",
+    "evidence": "Anomaly detection plays a pivotal role in ensuring the reliability of modern large-scale distributed systems"
+  },
+  {
+    "id": "R03303",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; transfer learning is indicated but LLM role and OS security target are unverified.",
+    "evidence": "CATL: contrast adaptive transfer learning for cross-system log anomaly detection"
+  },
+  {
+    "id": "R03304",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; ensemble-based learning is indicated but LLM role and OS security target are unverified.",
+    "evidence": "Deep Anomaly Detection in Unstructured System Log Files with Ensemble-Based Learning"
+  },
+  {
+    "id": "R03305",
+    "decision": "EXCLUDE",
+    "reason": "Uses Isolation Forest and an autoencoder, not an LLM; the security log analysis has no LLM role.",
+    "evidence": "CPU-only unsupervised anomaly detection engine"
+  },
+  {
+    "id": "R03306",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM is explicit but security outcome and OS-component target are unverified.",
+    "evidence": "LLM-LADE: Large language model-based log anomaly detection with explanation"
+  },
+  {
+    "id": "R03307",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; statistical log analysis in cyber security leaves LLM role and OS-component target unclear.",
+    "evidence": "Analysis of statistical properties of variables in log data for advanced anomaly detection in cyber security"
+  },
+  {
+    "id": "R03308",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; transformer-based autoencoder is indicated but LLM role and OS security target are unverified.",
+    "evidence": "Cross-System Few-shot Log Anomaly Detection with Transformer-based Supervised Autoencoder and Data Augmentation"
+  },
+  {
+    "id": "R03309",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM is explicit but security outcome and OS-component target are unverified.",
+    "evidence": "LogRAIL: A Retrieval-Augmented LLM Reverification Layer for Log Anomaly Detection"
+  },
+  {
+    "id": "R03310",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; Simhash is indicated but LLM role and OS security target are unverified.",
+    "evidence": "SimLog: System Log Anomaly Detection Method Based on Simhash"
+  },
+  {
+    "id": "R03311",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; anomaly transformer is indicated but LLM role and OS security target are unverified.",
+    "evidence": "Anomaly Transformer-based System Log Anomaly Detection"
+  },
+  {
+    "id": "R03312",
+    "decision": "EXCLUDE",
+    "reason": "No LLM role; transfer-learning log anomaly detection is not OS security analysis.",
+    "evidence": "a transfer learning-based approach for cross-system log anomaly detection"
+  },
+  {
+    "id": "R03313",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM is explicit but security outcome and OS-component target are unverified.",
+    "evidence": "LLMeLog: An Approach for Anomaly Detection based on LLM-enriched Log Events"
+  },
+  {
+    "id": "R03314",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM is explicit but security outcome and OS-component target are unverified.",
+    "evidence": "Poster: GLog: Self-Evolving Log Anomaly Type Prediction via Instruction-Tuned LLM and Clustering"
+  },
+  {
+    "id": "R03315",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM and APT security are explicit, but an OS-component target is not established.",
+    "evidence": "From Anomaly to Attack Path: LLM-Based Network Traffic Investigation for APT Detection"
+  },
+  {
+    "id": "R03316",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM is explicit but security outcome and OS-component target are unverified.",
+    "evidence": "Hybrid Prompting for LLM-based Log Anomaly Detection"
+  },
+  {
+    "id": "R03317",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM is explicit but security outcome and OS-component target are unverified.",
+    "evidence": "Log Anomaly Detection by Leveraging LLM-Based Parsing and Embedding with Attention Mechanism"
+  },
+  {
+    "id": "R03318",
+    "decision": "EXCLUDE",
+    "reason": "No LLM is indicated; enterprise-software log analysis is general software work, not OS security.",
+    "evidence": "Log-based Anomaly Detection of Enterprise Software: An Empirical Study"
+  },
+  {
+    "id": "R03319",
+    "decision": "EXCLUDE",
+    "reason": "No LLM; graph-based LSTM log analysis lacks an LLM security role.",
+    "evidence": "LSTM (Long Short-Term Memory), Bi-LSTM, and GRU(Gated Recurrent Unit)"
+  },
+  {
+    "id": "R03320",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based log anomaly detection is framed for system operations and maintenance, not OS security analysis.",
+    "evidence": "a two-stage Log Anomaly Detection Framework (LogADF) based on large language model"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "inputs": {
+    "records.csv": "f208532691daab6add97eeb13e39322617e1233b0a80a24d4618ae10bb3e09c5",
+    "new_records.csv": "14ade594377f605121cb29d46f3c75d095c44656edc614ac66d76f7f7a65749b"
+  },
+  "queue_sha256": "f699cccb088e4ba8dbee3626a69f9b6f09d5013fd80033f1a0de5470d7cf60fb",
+  "protocol_sha256": "83838aabc79edc9c68fca10a5fa131f24b87e3bf9c3958a63028a0871bc75e4f",
+  "records": 197,
+  "model": "deepseek/deepseek-flash",
+  "client": "opencode v2.2.5",
+  "model_snapshot": "unknown",
+  "generation_parameters": "unknown",
+  "started_utc": "2026-11-05T08:21:21.520284+00:00",
+  "batch_size": 20
+}

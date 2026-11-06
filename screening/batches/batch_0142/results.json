@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R05681",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreak benchmark concerns LLM safety, not an OS-component security task.",
+    "evidence": "Jailbreak Vulnerabilities in Large Language Models"
+  },
+  {
+    "id": "R05682",
+    "decision": "EXCLUDE",
+    "reason": "Defends financial RAG systems against jailbreaks; target is an LLM application, not OS components.",
+    "evidence": "Defending Financial RAG Systems Against Jailbreak Attacks"
+  },
+  {
+    "id": "R05683",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial poetry jailbreak study targets LLM alignment, not OS security.",
+    "evidence": "versificação de prompts constitui um mecanismo adversarial altamente eficaz contra LLMs alinhados"
+  },
+  {
+    "id": "R05684",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreak defense for LLMs; no OS component or privileged interface.",
+    "evidence": "Jailbreak Defense"
+  },
+  {
+    "id": "R05685",
+    "decision": "EXCLUDE",
+    "reason": "Studies LLM jailbreak susceptibility, not OS-targeted security.",
+    "evidence": "Models Efficiently Learn Jailbreak Susceptibility"
+  },
+  {
+    "id": "R05686",
+    "decision": "EXCLUDE",
+    "reason": "Narrative literature review of LLM prompt injection/jailbreak; reviews excluded and target is LLM agents, not OS.",
+    "evidence": "narrative literature review methodology"
+  },
+  {
+    "id": "R05687",
+    "decision": "EXCLUDE",
+    "reason": "Optimizes LLM jailbreak attacks; target is aligned LLMs, not OS components.",
+    "evidence": "automatically generating covert jailbreak prompts"
+  },
+  {
+    "id": "R05688",
+    "decision": "EXCLUDE",
+    "reason": "LLM jailbreak paper; no OS target indicated.",
+    "evidence": "Successfully Jailbreak LLM"
+  },
+  {
+    "id": "R05689",
+    "decision": "EXCLUDE",
+    "reason": "Detects prompt injection/jailbreak in LLM chatbots, not OS-level security.",
+    "evidence": "Securing LLM-Integrated Chatbots"
+  },
+  {
+    "id": "R05690",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreak attack and defense research on LLMs, not OS security.",
+    "evidence": "Enhancing Jailbreak Attack and Defense"
+  },
+  {
+    "id": "R05691",
+    "decision": "EXCLUDE",
+    "reason": "Analyzes commercial jailbreak services against LLMs, not OS components.",
+    "evidence": "prompt-based attacks against large language models (LLMs)"
+  },
+  {
+    "id": "R05692",
+    "decision": "EXCLUDE",
+    "reason": "Medical carotid stenting technique; unrelated to LLMs or OS security.",
+    "evidence": "Transradial Carotid Artery Stenting"
+  },
+  {
+    "id": "R05693",
+    "decision": "EXCLUDE",
+    "reason": "Social-justice study using jailbreak metaphor; no LLM or OS security task.",
+    "evidence": "Multiracial Resistance, Resilient Praxis, and Community Power"
+  },
+  {
+    "id": "R05694",
+    "decision": "EXCLUDE",
+    "reason": "Conceptual human-LLM interaction framework; no OS security task.",
+    "evidence": "human-LLM dyad as a single, integrated cybernetic system"
+  },
+  {
+    "id": "R05695",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreak defense calibration for LLMs; not OS component security.",
+    "evidence": "improves jailbreak robustness"
+  },
+  {
+    "id": "R05696",
+    "decision": "EXCLUDE",
+    "reason": "LLM governance and accountability study; no security testing or OS target.",
+    "evidence": "focusing on the practicalities of establishing and maintaining AI infrastructure"
+  },
+  {
+    "id": "R05697",
+    "decision": "EXCLUDE",
+    "reason": "Measures extraction risk in LLM APIs; target is model IP or privacy, not OS.",
+    "evidence": "Measuring Extraction Risk in LLM APIs"
+  },
+  {
+    "id": "R05698",
+    "decision": "EXCLUDE",
+    "reason": "LLM knowledge extraction for information security, not security analysis of OS components.",
+    "evidence": "LLM-Based Knowledge Extraction Method for Information Security"
+  },
+  {
+    "id": "R05699",
+    "decision": "EXCLUDE",
+    "reason": "Policy-analysis extraction and scoring platform; no security or OS focus.",
+    "evidence": "LLM-Assisted Policy Analysis"
+  },
+  {
+    "id": "R05700",
+    "decision": "EXCLUDE",
+    "reason": "Model extraction against commercial security AI services; not OS components.",
+    "evidence": "Commercial Security AI Services"
+  },
+  {
+    "id": "R05701",
+    "decision": "EXCLUDE",
+    "reason": "Aspect sentiment extraction; LLM used for semantic cues, not OS security.",
+    "evidence": "Aspect Sentiment Triplet Extraction"
+  },
+  {
+    "id": "R05702",
+    "decision": "EXCLUDE",
+    "reason": "Relation extraction with LLM and constraint graph; no OS security task.",
+    "evidence": "relation extraction"
+  },
+  {
+    "id": "R05703",
+    "decision": "EXCLUDE",
+    "reason": "Medical text mining and knowledge extraction; unrelated to OS security.",
+    "evidence": "Medical Text Mining and Knowledge Extraction"
+  },
+  {
+    "id": "R05704",
+    "decision": "EXCLUDE",
+    "reason": "Cybersecurity information extraction, not analysis, testing, or repair of OS components.",
+    "evidence": "Cybersecurity Semi-Open Information Extraction"
+  },
+  {
+    "id": "R05705",
+    "decision": "EXCLUDE",
+    "reason": "Load forecasting model; no security or OS component.",
+    "evidence": "Multi-Scale Load Forecasting"
+  },
+  {
+    "id": "R05706",
+    "decision": "EXCLUDE",
+    "reason": "Load forecasting model; no security or OS component.",
+    "evidence": "Multi-Scale Load Forecasting"
+  },
+  {
+    "id": "R05707",
+    "decision": "EXCLUDE",
+    "reason": "Load forecasting model; no security or OS component.",
+    "evidence": "Multi-Scale Load Forecasting"
+  },
+  {
+    "id": "R05708",
+    "decision": "EXCLUDE",
+    "reason": "LLM for economic security in the dairy industry; not OS-component security.",
+    "evidence": "economic security and efficiency of dairy industry enterprises"
+  },
+  {
+    "id": "R05709",
+    "decision": "EXCLUDE",
+    "reason": "Biomedical relation-extraction evaluation; no OS security task.",
+    "evidence": "Biomedical Relation Extraction Evaluation"
+  },
+  {
+    "id": "R05710",
+    "decision": "EXCLUDE",
+    "reason": "DNA classification technique; unrelated to LLM security or OS.",
+    "evidence": "DNA LLM Classification Techniques"
+  },
+  {
+    "id": "R05711",
+    "decision": "EXCLUDE",
+    "reason": "Conceptual social-justice LLM proposal; no OS security task.",
+    "evidence": "Dismantling White Supremacy"
+  },
+  {
+    "id": "R05712",
+    "decision": "EXCLUDE",
+    "reason": "LLM ranking for disease-model literature extraction; no OS security.",
+    "evidence": "Disease Model Parameter Extraction"
+  },
+  {
+    "id": "R05713",
+    "decision": "UNCLEAR",
+    "reason": "Title-only and generic; missing abstract leaves security relevance and OS target indeterminate.",
+    "evidence": "A Behavioral Analysis and Typology of Large Language Model (LLM)"
+  },
+  {
+    "id": "R05714",
+    "decision": "EXCLUDE",
+    "reason": "Automated FAIR data extraction from publications; not OS security.",
+    "evidence": "Automatic extraction of FAIR data from publications using LLM"
+  },
+  {
+    "id": "R05715",
+    "decision": "EXCLUDE",
+    "reason": "Benchmarks LLM extraction from scientific figures; no OS security.",
+    "evidence": "Benchmarking LLM Data Extraction Performance"
+  },
+  {
+    "id": "R05716",
+    "decision": "EXCLUDE",
+    "reason": "Knowledge-graph extraction for engineering design; no OS security task.",
+    "evidence": "Integrating Knowledge Graph Extraction Into LLM-Enhanced Engineering Design"
+  },
+  {
+    "id": "R05717",
+    "decision": "EXCLUDE",
+    "reason": "Benchmarks LLM extraction from scientific figures; no OS security.",
+    "evidence": "Benchmarking LLM Data Extraction Performance"
+  },
+  {
+    "id": "R05718",
+    "decision": "EXCLUDE",
+    "reason": "Guidance for evaluating LLM extraction and judgement tools; no OS security study.",
+    "evidence": "evaluating LLM-based extraction and judgement tools"
+  },
+  {
+    "id": "R05719",
+    "decision": "EXCLUDE",
+    "reason": "Topic-name extraction using XAI and LLM; no OS security task.",
+    "evidence": "Automatic Topic Name Extraction"
+  },
+  {
+    "id": "R05720",
+    "decision": "EXCLUDE",
+    "reason": "Automated FAIR data extraction from publications; not OS security.",
+    "evidence": "Automatic extraction of FAIR data from publications using LLM"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "groups": {
+    "batches": {
+      "result_files": 161,
+      "verified": 161
+    },
+    "second_pass/batches": {
+      "result_files": 58,
+      "verified": 58
+    },
+    "arxiv_extension/batches": {
+      "result_files": 30,
+      "verified": 30
+    },
+    "third_pass/batches": {
+      "result_files": 10,
+      "verified": 10
+    },
+    "crosssource/triage/batches": {
+      "result_files": 1,
+      "verified": 1
+    }
+  },
+  "errors": [],
+  "note": "Equality of parsed saved events with results; does not establish factual correctness."
+}

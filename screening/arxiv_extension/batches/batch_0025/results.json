@@ -1,0 +1,242 @@
+[
+  {
+    "id": "arxiv:2608.15303",
+    "decision": "EXCLUDE",
+    "reason": "LLM reasoning efficiency study with no security task or OS component target.",
+    "evidence": "Test-time compute can substantially improve Large Language Model (LLM) reasoning performance"
+  },
+  {
+    "id": "arxiv:2608.15762",
+    "decision": "EXCLUDE",
+    "reason": "Model-serving scheduling system; no security analysis or OS security target.",
+    "evidence": "a dynamic operator-level scheduling system for multi-tenant model serving"
+  },
+  {
+    "id": "arxiv:2608.15857",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted smart-contract gas optimization; not security analysis of OS components.",
+    "evidence": "uses a large language model to pinpoint and automatically fix Gas inefficiencies"
+  },
+  {
+    "id": "arxiv:2608.15893",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial security study but targets social-media bot detection, not OS components or privileged interfaces.",
+    "evidence": "centered on the challenge of social media bot detection"
+  },
+  {
+    "id": "arxiv:2608.16174",
+    "decision": "EXCLUDE",
+    "reason": "Satellite offloading framework using LLMs; no security task or OS target.",
+    "evidence": "a decentralized game-theoretic offloading framework empowered by large language models (LLMs) and counterfactual inference"
+  },
+  {
+    "id": "arxiv:2608.17769",
+    "decision": "EXCLUDE",
+    "reason": "6G channel prediction and environment reconstruction; no security task or OS target.",
+    "evidence": "joint environment reconstruction and channel prediction"
+  },
+  {
+    "id": "arxiv:2608.17776",
+    "decision": "EXCLUDE",
+    "reason": "RLAIF training and reward hacking study; not LLM use for OS security.",
+    "evidence": "reduces reward hacking compared to a reinforcement learning from AI feedback (RLAIF) baseline"
+  },
+  {
+    "id": "arxiv:2608.19218",
+    "decision": "EXCLUDE",
+    "reason": "Prognostics/remaining-useful-life prediction; no security task or OS target.",
+    "evidence": "remaining useful life (RUL) estimation with multimodal large language models"
+  },
+  {
+    "id": "arxiv:2608.19263",
+    "decision": "EXCLUDE",
+    "reason": "Agent evaluation protocol; no security task or OS component target.",
+    "evidence": "a portable evaluation contract layer for agentic systems"
+  },
+  {
+    "id": "arxiv:2608.20342",
+    "decision": "EXCLUDE",
+    "reason": "Agent memory orchestration and deployment report; no security analysis or OS target.",
+    "evidence": "a system that spawns new instances of Claude Code"
+  },
+  {
+    "id": "arxiv:2608.20376",
+    "decision": "EXCLUDE",
+    "reason": "Detects LLM-agent shilling attacks on recommender systems, not OS security.",
+    "evidence": "LLM-Agent Shilling Attack Detection"
+  },
+  {
+    "id": "arxiv:2608.20481",
+    "decision": "EXCLUDE",
+    "reason": "Protects MCP tool ecosystem from resource abuse; not OS components or privileged interfaces.",
+    "evidence": "Preventing Cross-Domain Resource Abuse in MCP"
+  },
+  {
+    "id": "arxiv:2608.21095",
+    "decision": "EXCLUDE",
+    "reason": "RAG misinformation and poisoning detection; application-layer security, not OS target.",
+    "evidence": "Detecting Misinformation and Knowledge Poisoning in Generative AI Systems"
+  },
+  {
+    "id": "arxiv:2608.21107",
+    "decision": "EXCLUDE",
+    "reason": "Structured survey/review, excluded from core empirical research set.",
+    "evidence": "An Evidence-Centered Structured Survey"
+  },
+  {
+    "id": "arxiv:2608.21447",
+    "decision": "EXCLUDE",
+    "reason": "BIM scene-program generation and ingestion; no security task or OS target.",
+    "evidence": "Material-Aware Structured Scene Programs for BIM Ingestion"
+  },
+  {
+    "id": "arxiv:2608.21547",
+    "decision": "EXCLUDE",
+    "reason": "Anti-phishing detection and training framework; not OS security analysis.",
+    "evidence": "A Two-Stage Framework for Detection and Personalized Training"
+  },
+  {
+    "id": "arxiv:2608.21614",
+    "decision": "EXCLUDE",
+    "reason": "MoE inference runtime optimization; no security task or OS target.",
+    "evidence": "a stage-aware MoE inference runtime"
+  },
+  {
+    "id": "arxiv:2608.21719",
+    "decision": "EXCLUDE",
+    "reason": "LLM serving power management; no security task or OS target.",
+    "evidence": "LLM Serving under Demand Response"
+  },
+  {
+    "id": "arxiv:2608.22551",
+    "decision": "EXCLUDE",
+    "reason": "SQL pipeline rewriting with an LLM; no security task or OS component target.",
+    "evidence": "Dependency-Aware Rewriting for dbt-Style SQL Pipelines"
+  },
+  {
+    "id": "arxiv:2608.22643",
+    "decision": "EXCLUDE",
+    "reason": "Storage-backed LLM inference; OS paging is an implementation detail, not a security outcome.",
+    "evidence": "replacing reactive operating-system demand paging with explicit, model-aware weight movement"
+  },
+  {
+    "id": "arxiv:2608.25727",
+    "decision": "EXCLUDE",
+    "reason": "Privacy audit of LLM-enhanced GNNs; not security analysis of OS components.",
+    "evidence": "systematically audit the privacy risks of LLM-enhanced GNNs"
+  },
+  {
+    "id": "arxiv:2608.26016",
+    "decision": "EXCLUDE",
+    "reason": "Review of Bayesian optimization for materials labs; no security or OS target.",
+    "evidence": "This review presents BO for materials SDLs"
+  },
+  {
+    "id": "arxiv:2608.26882",
+    "decision": "EXCLUDE",
+    "reason": "LLM-agent PLC/ICS testing for physical impact; not OS components or privileged interfaces.",
+    "evidence": "Can Autonomous LLM Agents Turn PLC Access into Sustained Physical Impact?"
+  },
+  {
+    "id": "arxiv:2608.26895",
+    "decision": "EXCLUDE",
+    "reason": "Recommender-system memory design; no security task or OS target.",
+    "evidence": "Collaborative Vector Memory for Agentic Recommender Systems"
+  },
+  {
+    "id": "arxiv:2608.28389",
+    "decision": "EXCLUDE",
+    "reason": "RAG poisoning attack and defense; application-layer, not OS security.",
+    "evidence": "A Poisoning Attack Against Retrieval-Augmented Language Models Using Camouflaged Documents"
+  },
+  {
+    "id": "arxiv:2608.29296",
+    "decision": "EXCLUDE",
+    "reason": "LLM reinforcement-learning batch-scaling study; no security task or OS target.",
+    "evidence": "When Do Larger Batches Help Scale LLM Reinforcement Learning?"
+  },
+  {
+    "id": "arxiv:2608.29605",
+    "decision": "EXCLUDE",
+    "reason": "Agent memory supervision; no security analysis or OS component target.",
+    "evidence": "Supervising Memory Management with Auditable Hindsight Credit"
+  },
+  {
+    "id": "arxiv:2608.29646",
+    "decision": "EXCLUDE",
+    "reason": "Failure attribution for multi-agent reliability; no security task or OS target.",
+    "evidence": "Cascade Failure Attribution for Multi-Agent Systems"
+  },
+  {
+    "id": "arxiv:2608.30047",
+    "decision": "EXCLUDE",
+    "reason": "Creativity evaluation on ML engineering tasks; no security task or OS target.",
+    "evidence": "Evaluating Creativity on ML Engineering Tasks"
+  },
+  {
+    "id": "arxiv:2608.30466",
+    "decision": "EXCLUDE",
+    "reason": "Content-ranking ecosystem simulation; no security task or OS target.",
+    "evidence": "How Content Ecosystems Are Reshaped When Ranking Is the Only Target"
+  },
+  {
+    "id": "arxiv:2608.30676",
+    "decision": "EXCLUDE",
+    "reason": "Medical reasoning agent; no security task or OS target.",
+    "evidence": "Faithfulness-Aware Reinforcement Learning for Evidence-Grounded Medical Reasoning"
+  },
+  {
+    "id": "arxiv:2609.00097",
+    "decision": "EXCLUDE",
+    "reason": "Long-context attention kernel optimization; no security task or OS target.",
+    "evidence": "Exploiting Attention Sparsity for Efficient Long-Context Decoding"
+  },
+  {
+    "id": "arxiv:2609.00407",
+    "decision": "EXCLUDE",
+    "reason": "MoE expert scheduling for inference; no security task or OS target.",
+    "evidence": "Dynamic Near-Data Expert Scheduling for Batched MoE Inference"
+  },
+  {
+    "id": "arxiv:2609.00494",
+    "decision": "EXCLUDE",
+    "reason": "Factuality evaluation and annotation methodology; no security task or OS target.",
+    "evidence": "Human-Anchored Factuality Evaluation with Strategic Annotation"
+  },
+  {
+    "id": "arxiv:2609.00618",
+    "decision": "EXCLUDE",
+    "reason": "Conversational recommender context modeling; no security or OS target.",
+    "evidence": "Structured Context Modeling for Conversational Recommender Systems"
+  },
+  {
+    "id": "arxiv:2609.00749",
+    "decision": "EXCLUDE",
+    "reason": "Context assembly for long-horizon agents; no security task or OS target.",
+    "evidence": "Database-Inspired Context Assembly for Long-Horizon Agents"
+  },
+  {
+    "id": "arxiv:2609.02852",
+    "decision": "EXCLUDE",
+    "reason": "Focuses on security of LLM self-reporting and sandboxing, not LLM use for an OS security task.",
+    "evidence": "security mechanisms that rely on a model's linguistic self-reporting"
+  },
+  {
+    "id": "arxiv:2609.03079",
+    "decision": "EXCLUDE",
+    "reason": "On-device LLM inference framework; no security task or OS target.",
+    "evidence": "A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference"
+  },
+  {
+    "id": "arxiv:2609.03734",
+    "decision": "EXCLUDE",
+    "reason": "Sign-language translation benchmark critique; no security task or OS target.",
+    "evidence": "A Case for Redefining Sign Language Translation Benchmarks"
+  },
+  {
+    "id": "arxiv:2609.03874",
+    "decision": "EXCLUDE",
+    "reason": "Document retrieval system for RAG; no security task or OS target.",
+    "evidence": "A novel dataset and LLM based retriever for document structure augmentation"
+  }
+]

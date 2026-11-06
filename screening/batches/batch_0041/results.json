@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01641",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; general vulnerability detection with no stated OS-component target, so scope is uncertain.",
+    "evidence": "Large Language Model for Vulnerability Detection: Emerging Results and Future Directions"
+  },
+  {
+    "id": "R01642",
+    "decision": "EXCLUDE",
+    "reason": "SQL injection detection targets web/database applications, not OS components or privileged interfaces.",
+    "evidence": "SQL Injection Vulnerability Detection Based on Pissa-Tuned Llama 3"
+  },
+  {
+    "id": "R01643",
+    "decision": "EXCLUDE",
+    "reason": "General C/C++ source-code vulnerability detection benchmark, not OS-specific security analysis.",
+    "evidence": "C/C++ vulnerable and non-vulnerable functions extracted from real-world projects"
+  },
+  {
+    "id": "R01644",
+    "decision": "EXCLUDE",
+    "reason": "Web vulnerability attack-behavior identification is application-layer, not OS or privileged-interface work.",
+    "evidence": "A Web Vulnerability Attack Behavior Identification Method"
+  },
+  {
+    "id": "R01645",
+    "decision": "EXCLUDE",
+    "reason": "Genomic-embedding privacy protection concerns security of LLMs, not OS components.",
+    "evidence": "Nucleotide Inference for Genomic Embeddings in Large Language Models"
+  },
+  {
+    "id": "R01646",
+    "decision": "EXCLUDE",
+    "reason": "Driver behavior analysis concerns vehicle drivers and risk, with no security or OS-driver task.",
+    "evidence": "driver behavior analysis and risk assessment"
+  },
+  {
+    "id": "R01647",
+    "decision": "EXCLUDE",
+    "reason": "Crop production estimation has no security analysis, testing, or OS component dimension.",
+    "evidence": "regional crop production estimation"
+  },
+  {
+    "id": "R01648",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial robustness study of image classifiers concerns security of ML models, not OS components.",
+    "evidence": "uses a large model as an analysis assistant to generate hypotheses about fragile evidence"
+  },
+  {
+    "id": "R01649",
+    "decision": "EXCLUDE",
+    "reason": "Cross-language jailbreak study concerns LLM safety/security of LLMs, not OS targets.",
+    "evidence": "vulnerability of a health LLM for jailbreaking across three languages"
+  },
+  {
+    "id": "R01650",
+    "decision": "EXCLUDE",
+    "reason": "Power-monitoring/ICS context with packet summarization, not OS component or privileged-interface analysis.",
+    "evidence": "The LLM takes the processed packet data and the extracted context as input"
+  },
+  {
+    "id": "R01651",
+    "decision": "EXCLUDE",
+    "reason": "Police incident narratives concern social vulnerability indicators, not software or OS security.",
+    "evidence": "Identify Indicators of Vulnerability in Police Incident Narratives"
+  },
+  {
+    "id": "R01652",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; exploit-code classification is security-related but target components remain unspecified.",
+    "evidence": "Classification of security vulnerability exploit codes"
+  },
+  {
+    "id": "R01653",
+    "decision": "EXCLUDE",
+    "reason": "Audits Windows App SDK application software with static analysis, not OS kernel or privileged interfaces.",
+    "evidence": "structured security assessment of the Windows App SDK"
+  },
+  {
+    "id": "R01654",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; Android source-code vulnerability detection may involve OS code but scope is undetermined.",
+    "evidence": "Android Source Code Vulnerability Type Detection"
+  },
+  {
+    "id": "R01655",
+    "decision": "EXCLUDE",
+    "reason": "Smart contract vulnerability detection targets blockchain code, not OS components.",
+    "evidence": "Smart Contract Vulnerability Detection"
+  },
+  {
+    "id": "R01656",
+    "decision": "EXCLUDE",
+    "reason": "Review/overview of LLM approaches; surveys are excluded from the core empirical set.",
+    "evidence": "This article provides a review of the potential applications"
+  },
+  {
+    "id": "R01657",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; general cyber threat detection with no explicit OS-component target.",
+    "evidence": "Cyber Threat Detection and Vulnerability Assessment System"
+  },
+  {
+    "id": "R01658",
+    "decision": "EXCLUDE",
+    "reason": "DNA sequence modeling paper has no security analysis or OS component dimension.",
+    "evidence": "DNA sequence and Human Language mixed large language Model"
+  },
+  {
+    "id": "R01659",
+    "decision": "EXCLUDE",
+    "reason": "Output-prefix jailbreak study concerns LLM safety vulnerabilities, not OS components.",
+    "evidence": "Vulnerability of Large Language Models to Output Prefix Jailbreaks"
+  },
+  {
+    "id": "R01660",
+    "decision": "EXCLUDE",
+    "reason": "Order dispatching and driver repositioning is logistics optimization, not security.",
+    "evidence": "Joint Order Dispatching and Driver Repositioning"
+  },
+  {
+    "id": "R01661",
+    "decision": "EXCLUDE",
+    "reason": "General real-world software vulnerability patching, without an OS-component focus.",
+    "evidence": "real-world software vulnerability repair"
+  },
+  {
+    "id": "R01662",
+    "decision": "EXCLUDE",
+    "reason": "Title-only chatbot paper indicates no security task or OS-component scope.",
+    "evidence": "Large language model–based chatbots"
+  },
+  {
+    "id": "R01663",
+    "decision": "EXCLUDE",
+    "reason": "Vision-based driver state recognition is not a security task.",
+    "evidence": "Training-Free Vision-Based Driver State Recognition"
+  },
+  {
+    "id": "R01664",
+    "decision": "EXCLUDE",
+    "reason": "Ethereum smart contract vulnerability detection targets blockchain code, not OS components.",
+    "evidence": "Ethereum Smart Contract Vulnerability Detection"
+  },
+  {
+    "id": "R01665",
+    "decision": "EXCLUDE",
+    "reason": "Driver performance assessment supports road safety but has no OS security analysis.",
+    "evidence": "automated driver performance assessment"
+  },
+  {
+    "id": "R01666",
+    "decision": "EXCLUDE",
+    "reason": "LLM architecture proposal has no security task or OS component dimension.",
+    "evidence": "Infinite Parameter Large Language Model"
+  },
+  {
+    "id": "R01667",
+    "decision": "EXCLUDE",
+    "reason": "Title-only general LLM developments paper shows no security or OS relevance.",
+    "evidence": "Large Language Model Developments"
+  },
+  {
+    "id": "R01668",
+    "decision": "EXCLUDE",
+    "reason": "Validating LLM annotations is measurement methodology, not security or OS analysis.",
+    "evidence": "validation framework for LLM-generated measurements"
+  },
+  {
+    "id": "R01669",
+    "decision": "EXCLUDE",
+    "reason": "Automobile-domain LLM deployment has no security analysis task.",
+    "evidence": "Large Language Model for automobile"
+  },
+  {
+    "id": "R01670",
+    "decision": "EXCLUDE",
+    "reason": "Workout assistant chatbot has no security or OS component scope.",
+    "evidence": "WhatsApp Workout Assistant Chatbot"
+  },
+  {
+    "id": "R01671",
+    "decision": "EXCLUDE",
+    "reason": "LLM generation safety investigation concerns security of LLMs, not OS components.",
+    "evidence": "Large Language Model Generation Safety"
+  },
+  {
+    "id": "R01672",
+    "decision": "EXCLUDE",
+    "reason": "Medical-device vulnerability evaluation is product risk assessment, not OS-component analysis.",
+    "evidence": "historical assessments of medical device vulnerabilities"
+  },
+  {
+    "id": "R01673",
+    "decision": "EXCLUDE",
+    "reason": "Simulink model repair and debugging has no security outcome.",
+    "evidence": "repair faulty Simulink models"
+  },
+  {
+    "id": "R01674",
+    "decision": "EXCLUDE",
+    "reason": "General C/C++ vulnerability and malware detection, not OS-specific security analysis.",
+    "evidence": "source code vulnerability detection, malware detection"
+  },
+  {
+    "id": "R01675",
+    "decision": "EXCLUDE",
+    "reason": "Poetics/AI-alignment essay has no security testing or OS component task.",
+    "evidence": "The Poet as Biological Language Model"
+  },
+  {
+    "id": "R01676",
+    "decision": "EXCLUDE",
+    "reason": "Title-only jailbreak vulnerability study concerns security of LLMs, not OS components.",
+    "evidence": "jailbreak vulnerability in large language models"
+  },
+  {
+    "id": "R01677",
+    "decision": "EXCLUDE",
+    "reason": "Smart contract vulnerability detection targets blockchain code, not OS components.",
+    "evidence": "Smart Contract Vulnerability Detection with Thought-Augmented Large Language Model"
+  },
+  {
+    "id": "R01678",
+    "decision": "EXCLUDE",
+    "reason": "Web vulnerability scanner recommendation system is application-layer, not OS security.",
+    "evidence": "WEB AUTOMATION VULNERABILITY SCANNER"
+  },
+  {
+    "id": "R01679",
+    "decision": "EXCLUDE",
+    "reason": "Theory-of-mind transfer in LLMs has no security analysis or OS component dimension.",
+    "evidence": "Transferring Theory of Mind in Large Language Models"
+  },
+  {
+    "id": "R01680",
+    "decision": "EXCLUDE",
+    "reason": "Fuzz driver generation targets DL libraries (PyTorch/TensorFlow), not OS components.",
+    "evidence": "generate fuzz drivers for DL API testing"
+  }
+]

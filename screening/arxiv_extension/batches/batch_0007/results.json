@@ -1,0 +1,242 @@
+[
+  {
+    "id": "arxiv:2504.16449",
+    "decision": "EXCLUDE",
+    "reason": "Review/survey of malicious URL detection, not original OS-targeted security research.",
+    "evidence": "This paper presents a comprehensive review of malicious URL detection technologies"
+  },
+  {
+    "id": "arxiv:2504.16489",
+    "decision": "EXCLUDE",
+    "reason": "Studies jailbreak vulnerabilities of LLM multi-agent debate systems, not OS components.",
+    "evidence": "jailbreak vulnerabilities of four prominent MAD frameworks"
+  },
+  {
+    "id": "arxiv:2504.19956",
+    "decision": "EXCLUDE",
+    "reason": "Conceptual threat model for GenAI agents, not empirical OS-targeted security research.",
+    "evidence": "introduces a comprehensive threat model tailored specifically for GenAI agents"
+  },
+  {
+    "id": "arxiv:2504.20406",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted scripting automation for general software, with no security outcome.",
+    "evidence": "Scripting interfaces enable users to automate tasks and customize software workflows"
+  },
+  {
+    "id": "arxiv:2504.21680",
+    "decision": "EXCLUDE",
+    "reason": "Denial-of-service attack on RAG/LLM availability, not OS security.",
+    "evidence": "denial-of-service attack that reversely leverages the guardrails of LLMs"
+  },
+  {
+    "id": "arxiv:2505.00061",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial robustness of educational grading systems, not OS security.",
+    "evidence": "vulnerabilities in transformer-based automated short-answer grading systems used in medical education"
+  },
+  {
+    "id": "arxiv:2505.00626",
+    "decision": "EXCLUDE",
+    "reason": "LLM role-separation learning and prompt security, not OS security.",
+    "evidence": "teaching LLMs to robustly distinguish system and user tokens"
+  },
+  {
+    "id": "arxiv:2505.01518",
+    "decision": "EXCLUDE",
+    "reason": "Hardware fault-injection study; LLMs are the attack target, not the security tool for OS components.",
+    "evidence": "targeted attack against large language models by exploiting Rowhammer-induced corruptions in tokenizer dictionaries"
+  },
+  {
+    "id": "arxiv:2505.01900",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial testing of misinformation detectors, not OS components.",
+    "evidence": "LLM-driven approach that employs a two-agent system"
+  },
+  {
+    "id": "arxiv:2505.02144",
+    "decision": "EXCLUDE",
+    "reason": "Common-sense reasoning for embodied agents, with no security or OS focus.",
+    "evidence": "break down the high-level tasks of an autonomous agent into mid-level instructions"
+  },
+  {
+    "id": "arxiv:2505.03112",
+    "decision": "EXCLUDE",
+    "reason": "LLM for wireless modulation classification, not security or OS research.",
+    "evidence": "Automatic Modulation Classification (AMC) is critical for efficient spectrum management"
+  },
+  {
+    "id": "arxiv:2505.05029",
+    "decision": "EXCLUDE",
+    "reason": "Reputation mechanisms for cooperation in LLM multi-agent systems, not OS security.",
+    "evidence": "Cooperation has long been a fundamental topic"
+  },
+  {
+    "id": "arxiv:2505.05849",
+    "decision": "EXCLUDE",
+    "reason": "Red-teaming LLM agents for indirect prompt injection, not OS components.",
+    "evidence": "indirect prompt injection, a sophisticated attack vector"
+  },
+  {
+    "id": "arxiv:2505.06643",
+    "decision": "EXCLUDE",
+    "reason": "Attacks on reasoning LLM availability, not OS-targeted security.",
+    "evidence": "propose the first practical reasoning interruption attack"
+  },
+  {
+    "id": "arxiv:2505.07087",
+    "decision": "EXCLUDE",
+    "reason": "Conceptual analysis of cognitive design patterns for LLM agents, no security or OS outcome.",
+    "evidence": "outlines a few recurring cognitive design patterns"
+  },
+  {
+    "id": "arxiv:2505.07239",
+    "decision": "EXCLUDE",
+    "reason": "Privacy-preserving LLM inference system, not OS security research.",
+    "evidence": "efficient private inference system"
+  },
+  {
+    "id": "arxiv:2505.07846",
+    "decision": "EXCLUDE",
+    "reason": "LLM specification-gaming and alignment study, not OS-targeted security.",
+    "evidence": "textual simulation approach"
+  },
+  {
+    "id": "arxiv:2505.08148",
+    "decision": "EXCLUDE",
+    "reason": "Security analysis of custom GPTs, not operating-system security.",
+    "evidence": "analyze 14,904 custom GPTs to assess their susceptibility"
+  },
+  {
+    "id": "arxiv:2505.09141",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based wireless channel prediction, not security or OS research.",
+    "evidence": "sensing-assisted channel prediction for a multi-antenna orthogonal frequency division multiplexing (OFDM) system"
+  },
+  {
+    "id": "arxiv:2505.10940",
+    "decision": "EXCLUDE",
+    "reason": "LLM-enhanced recommendation and user-role modeling, not security or OS research.",
+    "evidence": "Recommender systems filter contents/items valuable to users"
+  },
+  {
+    "id": "arxiv:2505.12248",
+    "decision": "EXCLUDE",
+    "reason": "Persuasion safety and manipulation taxonomy, not OS security.",
+    "evidence": "evaluating LLMs' ability to distinguish between these methods"
+  },
+  {
+    "id": "arxiv:2505.12396",
+    "decision": "EXCLUDE",
+    "reason": "LLM-CoT graph recommendation, not security or OS research.",
+    "evidence": "Graph neural networks (GNNs) have advanced recommender systems"
+  },
+  {
+    "id": "arxiv:2505.13076",
+    "decision": "EXCLUDE",
+    "reason": "Security evaluation of LLM browsing agents, not OS components.",
+    "evidence": "security evaluation of such agents, focusing on systemic vulnerabilities across multiple architectural layers"
+  },
+  {
+    "id": "arxiv:2505.13103",
+    "decision": "EXCLUDE",
+    "reason": "General software vulnerability repair without an OS-specific target.",
+    "evidence": "open source software vulnerabilities benchmark"
+  },
+  {
+    "id": "arxiv:2505.13195",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial evaluation of LLM decision-making, not OS security.",
+    "evidence": "adversarial evaluation framework designed to systematically stress-test the decision-making processes of LLMs"
+  },
+  {
+    "id": "arxiv:2505.13527",
+    "decision": "EXCLUDE",
+    "reason": "LLM jailbreak method, not OS-targeted security research.",
+    "evidence": "universal black-box jailbreak method that leverages logical expression translation"
+  },
+  {
+    "id": "arxiv:2505.13808",
+    "decision": "EXCLUDE",
+    "reason": "Metaheuristic optimization framework, with no security or OS focus.",
+    "evidence": "Metaheuristic algorithms are widely used for solving complex optimization problems"
+  },
+  {
+    "id": "arxiv:2505.14607",
+    "decision": "EXCLUDE",
+    "reason": "LLM authorization and multi-role alignment, not OS access control.",
+    "evidence": "multi-role aligned LLMs, i.e., LLMs that account for, and behave in accordance with, user access rights"
+  },
+  {
+    "id": "arxiv:2505.14756",
+    "decision": "EXCLUDE",
+    "reason": "Trustworthy LLM-in-the-loop Bayesian optimization, not security or OS research.",
+    "evidence": "Bayesian optimization (BO) is a sequential decision-making tool"
+  },
+  {
+    "id": "arxiv:2505.15216",
+    "decision": "UNCLEAR",
+    "reason": "LLM/AI agents perform vulnerability detect, exploit, and patch tasks on real-world systems, but OS or privileged-interface scope is not specified.",
+    "evidence": "set up 25 systems with complex, real-world codebases"
+  },
+  {
+    "id": "arxiv:2505.15420",
+    "decision": "EXCLUDE",
+    "reason": "Knowledge extraction attack on RAG systems, not OS security.",
+    "evidence": "Knowledge Extraction on RAG systems through benign queries"
+  },
+  {
+    "id": "arxiv:2505.15738",
+    "decision": "EXCLUDE",
+    "reason": "Auditing prompt-injection defenses for LLMs, not OS components.",
+    "evidence": "stress-test their defenses before release"
+  },
+  {
+    "id": "arxiv:2505.16056",
+    "decision": "EXCLUDE",
+    "reason": "Mixture-of-experts inference efficiency, not security or OS research.",
+    "evidence": "expert offloading that caches a subset of experts"
+  },
+  {
+    "id": "arxiv:2505.16281",
+    "decision": "EXCLUDE",
+    "reason": "Machine translation evaluation framework, not security or OS research.",
+    "evidence": "Hierarchical Multi-Agent Framework for Machine Translation Evaluation"
+  },
+  {
+    "id": "arxiv:2505.16367",
+    "decision": "EXCLUDE",
+    "reason": "Poisoning attacks on RAG systems, not OS-targeted security.",
+    "evidence": "Chain-of-Thought Poisoning Attacks against R1-based Retrieval-Augmented Generation Systems"
+  },
+  {
+    "id": "arxiv:2505.16643",
+    "decision": "EXCLUDE",
+    "reason": "Safety benchmark and defense for video LLMs, not OS security.",
+    "evidence": "benchmark for Video LLM safety"
+  },
+  {
+    "id": "arxiv:2505.16810",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based recommendation system, not security or OS research.",
+    "evidence": "LLM-based RS that enables autonomous multi-turn interactions"
+  },
+  {
+    "id": "arxiv:2505.16954",
+    "decision": "EXCLUDE",
+    "reason": "Privacy-awareness serious game, not OS-targeted security research.",
+    "evidence": "dialogue-based serious game Cracking Aegis"
+  },
+  {
+    "id": "arxiv:2505.17107",
+    "decision": "UNCLEAR",
+    "reason": "LLM agent performs cybersecurity vulnerability detection and exploitation, but OS or privileged-interface scope is not specified.",
+    "evidence": "multi-stage vulnerability detection and exploitation"
+  },
+  {
+    "id": "arxiv:2505.17214",
+    "decision": "EXCLUDE",
+    "reason": "Medical multimodal knowledge graph construction, not security or OS research.",
+    "evidence": "Medical Multimodal Knowledge Graph"
+  }
+]

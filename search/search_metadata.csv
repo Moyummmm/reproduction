@@ -1,0 +1,101 @@
+﻿query_id,query,source,total_results,returned,status,timestamp,note
+1,"""large language model"" ""operating system"" security",Crossref,2954266,20,ok,2026-11-05 13:21:44,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+2,"LLM ""OS security""",Crossref,371243,20,ok,2026-11-05 13:21:47,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+3,"""large language model"" ""systems security"" code",Crossref,3226350,20,ok,2026-11-05 13:21:50,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+4,"""foundation model"" ""operating system"" vulnerability",Crossref,2158960,20,ok,2026-11-05 13:21:53,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+5,"""GPT-4"" ""operating system"" security",Crossref,1320040,20,ok,2026-11-05 13:21:56,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+6,"""Codex"" ""operating system"" vulnerability",Crossref,1095238,20,ok,2026-11-05 13:21:58,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+7,"""LLM-assisted"" ""system security""",Crossref,1498038,20,ok,2026-11-05 13:22:01,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+8,"""large language model"" ""kernel"" ""security""",Crossref,1998683,20,ok,2026-11-05 13:22:05,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+9,"LLM ""operating system"" ""vulnerability detection""",Crossref,1735725,20,ok,2026-11-05 13:22:07,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+10,"""generative AI"" ""operating system"" security",Crossref,1800973,20,ok,2026-11-05 13:22:10,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+11,"""large language model"" ""Linux kernel"" fuzzing",Crossref,1731548,20,ok,2026-11-05 13:22:13,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+12,"LLM ""kernel fuzzing"" syscall",Crossref,51825,20,ok,2026-11-05 13:22:16,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+13,"LLM ""kernel"" ""static analysis""",Crossref,2385170,20,ok,2026-11-05 13:22:18,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+14,"""large language model"" ""kernel bug"" detection",Crossref,2345751,20,ok,2026-11-05 13:22:21,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+15,"LLM ""Linux kernel"" ""vulnerability detection""",Crossref,748685,20,ok,2026-11-05 13:22:24,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+16,"""GPT-4"" ""Linux kernel"" exploit",Crossref,29103,20,ok,2026-11-05 13:22:27,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+17,"LLM ""kernel crash"" diagnosis",Crossref,294310,20,ok,2026-11-05 13:22:30,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+18,"LLM ""eBPF"" security",Crossref,313874,20,ok,2026-11-05 13:22:35,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+19,"LLM ""kernel module"" analysis",Crossref,2392442,20,ok,2026-11-05 13:22:38,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+20,"""language model"" ""kernel patch"" security",Crossref,1824135,20,ok,2026-11-05 13:22:41,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+21,"LLM ""device driver"" fuzzing",Crossref,153419,20,ok,2026-11-05 13:22:44,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+22,"""large language model"" ""driver"" vulnerability",Crossref,1780924,20,ok,2026-11-05 13:22:47,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+23,"LLM ""driver synthesis"" security",Crossref,680080,20,ok,2026-11-05 13:22:49,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+24,"LLM ""driver repair""",Crossref,145120,20,ok,2026-11-05 13:22:52,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+25,"LLM ""Linux driver"" security",Crossref,343442,20,ok,2026-11-05 13:22:56,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+26,"LLM ""filesystem"" fuzzing",Crossref,33294,20,ok,2026-11-05 13:22:59,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+27,"""large language model"" ""file system"" vulnerability",Crossref,2719907,20,ok,2026-11-05 13:23:02,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+28,"LLM ""filesystem"" verification",Crossref,72763,20,ok,2026-11-05 13:23:05,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+29,"LLM ""storage system"" security",Crossref,1474798,20,ok,2026-11-05 13:23:08,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+30,"LLM ""log-structured file system"" bug",Crossref,1112422,20,ok,2026-11-05 13:23:11,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+31,"LLM ""network protocol"" fuzzing",Crossref,694127,20,ok,2026-11-05 13:23:15,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+32,"""large language model"" ""network stack"" vulnerability",Crossref,2269825,20,ok,2026-11-05 13:23:18,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+33,"LLM ""TCP/IP"" security",Crossref,330662,20,ok,2026-11-05 13:23:22,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+34,"LLM ""protocol implementation"" security",Crossref,651866,20,ok,2026-11-05 13:23:26,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+35,"LLM ""network packet"" analysis",Crossref,2826028,20,ok,2026-11-05 13:23:29,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+36,"LLM ""memory safety"" bug detection",Crossref,1152898,20,ok,2026-11-05 13:23:32,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+37,"""large language model"" ""memory management"" kernel",Crossref,3328277,20,ok,2026-11-05 13:23:35,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+38,"LLM ""use-after-free"" detection",Crossref,1851374,20,ok,2026-11-05 13:23:38,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+39,"LLM ""buffer overflow"" operating system",Crossref,1090016,20,ok,2026-11-05 13:23:42,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+40,"LLM ""page table"" vulnerability",Crossref,286023,20,ok,2026-11-05 13:23:44,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+41,"LLM ""hypervisor"" security",Crossref,313656,20,ok,2026-11-05 13:23:47,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+42,"""large language model"" ""trusted execution environment""",Crossref,2104618,20,ok,2026-11-05 13:23:50,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+43,"LLM ""confidential computing"" vulnerability",Crossref,516951,20,ok,2026-11-05 13:23:53,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+44,"LLM ""enclave"" security",Crossref,314088,20,ok,2026-11-05 13:23:56,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+45,"LLM ""virtualization"" security",Crossref,315666,20,ok,2026-11-05 13:23:59,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+46,"LLM ""seL4"" verification",Crossref,72741,20,ok,2026-11-05 13:24:02,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+47,"LLM ""hypervisor"" fuzzing",Crossref,33465,20,ok,2026-11-05 13:24:06,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+48,"LLM ""confidential VM"" side channel",Crossref,166324,20,ok,2026-11-05 13:24:09,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+49,"""large language model"" ""Arm TrustZone""",Crossref,1739725,20,ok,2026-11-05 13:24:12,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+50,"LLM ""sandbox"" escape detection",Crossref,700567,20,ok,2026-11-05 13:24:15,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+51,"LLM ""system log"" anomaly detection security",Crossref,1931058,20,ok,2026-11-05 13:24:18,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+52,"""large language model"" ""system call"" security",Crossref,2955043,20,ok,2026-11-05 13:24:21,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+53,"LLM ""container security""",Crossref,322027,20,ok,2026-11-05 13:24:24,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+54,"LLM ""system service"" vulnerability",Crossref,1305694,20,ok,2026-11-05 13:24:27,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+55,"LLM ""audit log"" analysis",Crossref,2388926,20,ok,2026-11-05 13:24:31,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+56,"LLM ""root cause analysis"" operating system",Crossref,3393722,20,ok,2026-11-05 13:24:34,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+57,"LLM ""OS configuration"" hardening",Crossref,123667,20,ok,2026-11-05 13:24:37,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+58,"LLM ""access control"" policy",Crossref,1315594,20,ok,2026-11-05 13:24:40,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+59,"LLM ""Android"" security vulnerability",Crossref,372110,20,ok,2026-11-05 13:24:43,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+60,"LLM ""Windows"" kernel security",Crossref,340268,20,ok,2026-11-05 13:24:46,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+61,"LLM ""static analysis"" vulnerability detection",Crossref,3024273,20,ok,2026-11-05 13:24:49,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+62,"""large language model"" ""program analysis"" security",Crossref,4334723,20,ok,2026-11-05 13:24:52,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+63,"LLM ""taint analysis""",Crossref,2340794,20,ok,2026-11-05 13:24:55,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+64,"LLM ""dataflow analysis"" vulnerability",Crossref,2381958,20,ok,2026-11-05 13:24:58,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+65,"LLM ""code property graph"" vulnerability",Crossref,307951,20,ok,2026-11-05 13:25:01,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+66,"LLM ""repository-level"" vulnerability detection",Crossref,981485,20,ok,2026-11-05 13:25:06,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+67,"LLM ""binary"" vulnerability detection",Crossref,765065,20,ok,2026-11-05 13:25:09,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+68,"LLM ""decompilation"" security",Crossref,313524,20,ok,2026-11-05 13:25:12,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+69,"LLM ""reverse engineering"" binary",Crossref,1955580,20,ok,2026-11-05 13:25:15,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+70,"LLM ""CWE"" detection",Crossref,687530,20,ok,2026-11-05 13:25:18,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+71,"LLM ""fuzzing"" seed generation",Crossref,339413,20,ok,2026-11-05 13:25:27,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+72,"""large language model"" ""fuzz driver"" generation",Crossref,1975384,20,ok,2026-11-05 13:25:32,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+73,"LLM ""directed fuzzing""",Crossref,69217,20,ok,2026-11-05 13:25:35,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+74,"LLM ""grammar fuzzing""",Crossref,48201,20,ok,2026-11-05 13:25:38,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+75,"LLM ""differential testing"" operating system",Crossref,1328639,20,ok,2026-11-05 13:25:41,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+76,"LLM ""test oracle"" generation",Crossref,423912,20,ok,2026-11-05 13:25:44,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+77,"LLM ""coverage-guided fuzzing""",Crossref,178829,20,ok,2026-11-05 13:25:47,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+78,"LLM ""harness generation"" security",Crossref,565139,20,ok,2026-11-05 13:25:56,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+79,"LLM ""exploit generation""",Crossref,286080,20,ok,2026-11-05 13:25:59,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+80,"""large language model"" ""privilege escalation"" exploit",Crossref,1724877,20,ok,2026-11-05 13:26:03,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+81,"LLM ""vulnerability repair""",Crossref,161516,20,ok,2026-11-05 13:26:06,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+82,"""large language model"" ""patch backporting""",Crossref,1731600,20,ok,2026-11-05 13:26:09,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+83,"LLM ""security patch"" generation",Crossref,584470,20,ok,2026-11-05 13:26:12,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+84,"LLM ""program repair"" security",Crossref,597773,20,ok,2026-11-05 13:26:15,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+85,"LLM ""CVE"" patch classification",Crossref,288870,20,ok,2026-11-05 13:26:18,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+86,"LLM ""kernel patch"" migration",Crossref,173706,20,ok,2026-11-05 13:26:21,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+87,"LLM ""formal verification"" operating system",Crossref,1138456,20,ok,2026-11-05 13:26:24,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+88,"""large language model"" ""theorem proving"" kernel",Crossref,1742255,20,ok,2026-11-05 13:26:27,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+89,"LLM ""specification inference"" security",Crossref,358520,20,ok,2026-11-05 13:26:30,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+90,"LLM ""OS security"" benchmark",Crossref,388184,20,ok,2026-11-05 13:26:33,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+91,"LLM ""agent"" security operating system",Crossref,1421580,20,ok,2026-11-05 13:26:36,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+92,"""computer use agent"" security",Crossref,1470886,20,ok,2026-11-05 13:26:40,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+93,"LLM ""prompt injection"" system security",Crossref,1375013,20,ok,2026-11-05 13:26:43,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+94,"LLM ""jailbreak"" operating system",Crossref,1080169,20,ok,2026-11-05 13:26:46,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+95,"LLM ""model extraction"" security",Crossref,1486406,20,ok,2026-11-05 13:26:49,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+96,"LLM ""data poisoning"" code security",Crossref,1449523,20,ok,2026-11-05 13:26:53,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+97,"LLM ""backdoor"" code model",Crossref,1158059,20,ok,2026-11-05 13:26:56,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+98,"""large language model"" ""cybersecurity"" survey",Crossref,1923079,20,ok,2026-11-05 13:26:59,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+99,"""LLM"" ""software security"" survey",Crossref,623137,20,ok,2026-11-05 13:27:19,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01
+100,"LLM ""vulnerability detection"" benchmark",Crossref,745177,20,ok,2026-11-05 13:27:22,Google Scholar blocked (429/CAPTCHA); Crossref fallback with from-pub-date 2022-01-01

@@ -1,0 +1,118 @@
+﻿bibtex_key,title,doi,year,sections,candidate_matches,match_status
+Alves2004TrustZoneI,\smy{Trustzone: Integrated hardware and software security},,2004,background,,no candidate match found
+Cloosters2020TeeRexDA,\smy{TeeRex: Discovery and Exploitation of Memory Corruption Vulnerabilities in SGX Enclaves},,2020,background; llm_os_security,,no candidate match found
+amusuo2025unit,\smy{A Unit Proofing Framework for Code-level Verification: A Research Agenda},,2025,llm_os_security,,no candidate match found
+anderson1972computer,"\smy{Computer Security Technology Planning Study, Volume II}",,1972,background; introduction,,no candidate match found
+anthropic2026mythos,\smy{Assessing Claude Mythos Preview's Cybersecurity Capabilities},,2026,future; llm_os_security,,no candidate match found
+arnold2009ksplice,\smy{Ksplice: Automatic rebootless kernel updates},10.1145/1519065.1519085,2009,llm_os_security,,no candidate match found
+baezner2017stuxnet,\smy{Stuxnet},10.3929/ethz-b-000200661,2017,background,,no candidate match found
+ball2006thorough,\smy{Thorough static analysis of device drivers},10.1145/1217935.1217943,2006,llm_os_security,,no candidate match found
+barham2003xen,\smy{Xen and the art of virtualization},10.1145/1165389.945462,2003,llm_os_security,,no candidate match found
+bessey2010few,\smy{A few billion lines of code later: using static analysis to find bugs in the real world},10.1145/1646353.1646374,2010,llm_os_security,,no candidate match found
+boehme16,\smy{Coverage-based Greybox Fuzzing as Markov Chain},10.1145/2976749.2978428,2016,introduction,,no candidate match found
+brown20,\smy{Language Models are Few-Shot Learners},,2020,background; introduction,,no candidate match found
+bulekov2024hyperpill,\smy{HYPERPILL: Fuzzing for Hypervisor-bugs by Leveraging the Hardware Virtualization Interface},,2024,llm_os_security,,no candidate match found
+cadar2008klee,\smy{KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs},,2008,introduction,,no candidate match found
+cai2019understanding,\smy{Understanding Security Vulnerabilities in File Systems},10.1145/3343737.3343753,2019,llm_os_security,,no candidate match found
+chen2011linux,\smy{Linux kernel vulnerabilities: State-of-the-art defenses and open problems},10.1145/2103799.2103805,2011,background; introduction,,no candidate match found
+chen2020koobe,\smy{KOOBE: Towards facilitating exploit generation of kernel Out-Of-Bounds write vulnerabilities},,2020,background,,no candidate match found
+chen2021evaluating,\smy{Evaluating large language models trained on code},10.48550/arXiv.2107.03374,2021,background; introduction; llm_os_security,,no candidate match found
+chen2025gpass,\smy{Gpass: A Goal-Adaptive Neural Theorem Prover Based on Coq for Automated Formal Verification},10.1109/ICSE55347.2025.00116,2025,llm_os_security,,no candidate match found
+chipounov2011s2e,\smy{S2E: A platform for in-vivo multi-path analysis of software systems},10.1145/1950365.1950396,2011,introduction,,no candidate match found
+corbato1965introduction,\smy{Introduction and overview of the Multics system},10.1145/1463891.1463912,1965,background,,no candidate match found
+corina2017difuze,\smy{Difuze: Interface aware fuzzing for kernel drivers},10.1145/3133956.3134069,2017,llm_os_security,,no candidate match found
+costan2017secure,\smy{Secure processors part II: Intel SGX security analysis and MIT sanctum architecture},10.1561/1000000052,2017,background,,no candidate match found
+curaba24,\smy{CryptoFormalEval: Integrating Large Language Models and Formal Verification for Automated Cryptographic Protocol Vulnerability Detection},,2024,llm_os_security,"L092 (arXiv ID, exact normalized title)",candidate match; verify study role
+dang2025miggpt,\smy{MigGPT: Harnessing Large Language Models for Automated Migration of Out-of-Tree Linux Kernel Patches Across Versions},10.52202/085713-1296,2025,llm_os_security; representative_comparison,L038 (verified title variant: NeurIPS official paper https://proceedings.neurips.cc/paper_files/paper/2025/file/3760dbb5835bf0b771c3f83cb27ef2c0-Paper-Conference.pdf),candidate match; verify study role
+egersdoerfer2023early,\smy{Early exploration of using chatgpt for log-based anomaly detection on parallel file systems logs},10.1145/3588195.3595943,2023,llm_os_security,L013 (exact normalized title),candidate match; verify study role
+egersdoerfer2025stellar,\smy{STELLAR: Storage Tuning Engine Leveraging LLM Autonomous Reasoning for High Performance Parallel File Systems},10.1145/3712285.3759887,2025,llm_os_security,,no candidate match found
+feng2025fuzzing,\smy{Fuzzing: Randomness? Reasoning! Efficient Directed Fuzzing via Large Language Models},10.48550/arXiv.2507.22065,2025,llm_os_security; methodology,"L085 (arXiv ID, exact normalized title)",candidate match; verify study role
+gadey2026llmcal,\smy{Automated Code Annotation with LLMs for Establishing TEE Boundaries},10.14722/ndss.2026.230709,2026,llm_os_security; representative_comparison,,no candidate match found
+gao2025offloading,\smy{Offloading the Tedious Task of Writing eBPF Programs},10.1145/3748355.3748369,2025,llm_os_security,,no candidate match found
+guan2024logllm,\smy{LogLLM: Log-based Anomaly Detection Using Large Language Models},10.1109/TSE.2026.3740394,2026,llm_os_security,,no candidate match found
+guo2009linux,\smy{Linux Kernel Developer Responses to Static Analysis Bug Reports},,2009,introduction; llm_os_security,,no candidate match found
+hoffmann22,\smy{Training Compute-Optimal Large Language Models},10.52202/068431-2176,2022,background; introduction,,no candidate match found
+hou2024large,\smy{Large language models for software engineering: A systematic literature review},10.1145/3695988,2024,introduction,,no candidate match found
+huang2025template,\smy{Template-Guided Program Repair in the Era of Large Language Models},10.1109/ICSE55347.2025.00030,2025,llm_os_security,L148 (exact normalized title),candidate match; verify study role
+jaffal25,"\smy{Large Language Models in Cybersecurity: A Survey of Applications, Vulnerabilities, and Defense Techniques}",10.3390/ai6090216,2025,introduction,,no candidate match found
+kafl17,\smy{kAFL: Hardware-Assisted Feedback Fuzzing for OS Kernels},,2017,introduction,,no candidate match found
+kaplan2020scaling,\smy{Scaling laws for neural language models},10.48550/arXiv.2001.08361,2020,background,,no candidate match found
+kerrisk2010linux,The Linux programming interface: a Linux and UNIX system programming handbook,,2010,llm_os_security,,no candidate match found
+kim2025logs,"\smy{Logs In, Patches Out: Automated Vulnerability Repair via Tree-of-Thought LLM Analysis}",,2025,llm_os_security; methodology,L055 (exact normalized title),candidate match; verify study role
+lampson1974protection,\smy{Protection},10.1145/775265.775268,1974,background,,no candidate match found
+lee2024static,\smy{Static detection of filesystem vulnerabilities in android systems},,2024,llm_os_security; representative_comparison,"L012 (arXiv ID, exact normalized title)",candidate match; verify study role
+li2019research,\smy{Research on ARM TrustZone},10.1145/3308755.3308761,2018,background,,no candidate match found
+li2024enhancing,Enhancing static analysis for practical bug detection: An llm-integrated approach,10.1145/3649828,2024,introduction; llm_os_security,"L030 (DOI, exact normalized title)",candidate match; verify study role
+li2025portgpt,\smy{PortGPT: Towards Automated Backporting Using Large Language Models},10.1109/SP63933.2026.00034,2026,llm_os_security; methodology,L034 (exact normalized title),candidate match; verify study role
+li2025towards,\smy{Towards More Accurate Static Analysis for Taint-Style Bug Detection in Linux Kernel},10.1109/ASE63991.2025.00039,2025,llm_os_security; representative_comparison,L045 (exact normalized title),candidate match; verify study role
+li22alphacode,\smy{Competition-Level Code Generation with AlphaCode},10.1126/science.abq1158,2022,background; introduction,,no candidate match found
+lin2024fvel,\smy{FVEL: Interactive formal verification environment with large language models via theorem proving},10.52202/079017-1742,2024,llm_os_security; methodology,,no candidate match found
+liu2025patchscope,\smy{PatchScope: LLM-Enhanced Fine-Grained Stable Patch Classification for Linux Kernel},10.1145/3728944,2025,llm_os_security,"L037 (DOI, exact normalized title)",candidate match; verify study role
+liu2025sharpen,"Sharpen the Spec, Cut the Code: A Case for Generative File System with {SYSSPEC}",,2026,llm_os_security,L024 (exact normalized title),candidate match; verify study role
+looprepair25,\smy{Well Begun Is Half Done: Location-Aware and Trace-Guided Iterative Automated Vulnerability Repair},10.1145/3744916.3773218,2026,llm_os_security,"L128 (DOI, exact normalized title)",candidate match; verify study role
+loscocco01selinux,\smy{Integrating Flexible Support for Security Policies into the Linux Operating System},,2001,background; introduction,,no candidate match found
+lu2019detecting,\smy{Detecting Missing-Check bugs via semantic-and Context-Aware criticalness and constraints inferences},,2019,background,,no candidate match found
+luAAL14,\smy{A Study of Linux File System Evolution},10.1145/2560012,2014,introduction,,no candidate match found
+lyu2025ebpf,\smy{eBPF Misbehavior Detection: Fuzzing with a Specification-Based Oracle},10.1145/3731569.3764797,2025,llm_os_security,,no candidate match found
+ma24,\smy{From One Thousand Pages of Specification to Unveiling Hidden Bugs: Large Language Model Assisted Fuzzing of Matter IoT Devices},,2024,llm_os_security,L090 (exact normalized title),candidate match; verify study role
+machiry2017dr,\smy{DR. CHECKER: A Soundy Analysis for Linux Kernel Drivers},,2017,introduction,,no candidate match found
+mao2025llm,\smy{LLM-aided automatic modeling for security protocol verification},10.1109/ICSE55347.2025.00197,2025,background; introduction; llm_os_security,L088 (exact normalized title),candidate match; verify study role
+mathai2025crashfixer,\smy{kAgent: An Execution-Guided Crash Resolution Agent for the Linux Kernel},,2026,introduction; llm_os_security; methodology,L035 (exact normalized title),candidate match; verify study role
+meng24,\smy{Large Language Model Guided Protocol Fuzzing},10.14722/ndss.2024.24556,2024,llm_os_security,"L081 (DOI, exact normalized title)",candidate match; verify study role
+miranda2025veribench,\smy{VeriBench: End-to-End Formal Verification Benchmark for AI Code Generation in Lean 4},,2025,llm_os_security,,no candidate match found
+mondal2025llm,\smy{LLM-Based Config Synthesis requires Disambiguation},,2025,background; llm_os_security,,no candidate match found
+mu2025silent,\smy{The Silent Danger in HTTP: Identifying HTTP Desync Vulnerabilities with Gray-box Testing},,2025,llm_os_security,,no candidate match found
+nong2025appatch,\smy{APPATCH: Automated Adaptive Prompting for Real-World Software Vulnerability Patching},,2025,llm_os_security,,no candidate match found
+openai2026paths,\smy{A Thousand Fewer Paths to Root},,2026,future; llm_os_security; representative_comparison,,no candidate match found
+optee,\smy{OP-TEE: Open Portable Trusted Execution Environment},,,llm_os_security,,no candidate match found
+ouyang22,\smy{Training Language Models to Follow Instructions with Human Feedback},10.52202/068431-2011,2022,introduction,,no candidate match found
+page2021prisma,\smy{The PRISMA 2020 Statement: An Updated Guideline for Reporting Systematic Reviews},10.1136/bmj.n71,2021,methodology,,no candidate match found
+park2025principles,\smy{Principles and methodologies for serial performance optimization},,2025,llm_os_security,,no candidate match found
+popek1974formal,\smy{Formal requirements for virtualizable third generation architectures},10.1145/361011.361073,1974,background,,no candidate match found
+redini2017bootstomp,\smy{BootStomp: On the security of bootloaders in mobile devices},,2017,llm_os_security,,no candidate match found
+renzelmann2012symdrive,\smy{SymDrive: Testing Drivers without Devices},,2012,llm_os_security,,no candidate match found
+rethlefsen2021prismas,\smy{PRISMA-S: An Extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews},10.1186/s13643-020-01542-z,2021,methodology,,no candidate match found
+saltzer1975protection,\smy{The protection of information in computer systems},10.1109/PROC.1975.9939,1975,background,,no candidate match found
+salva2025dynamic,\smy{Dynamic Mitigation of RESTful Service Failures Using LLMs},10.5220/0013460700003964,2025,llm_os_security,L483 (exact normalized title),candidate match; verify study role
+schumilo2021nyx,\smy{Nyx: Greybox hypervisor fuzzing using fast snapshots and affine types},,2021,llm_os_security,,no candidate match found
+serebryany2012addresssanitizer,\smy{AddressSanitizer: A Fast Address Sanity Checker},,2012,llm_os_security,,no candidate match found
+sheng2025llms,\smy{LLMs in Software Security: A Survey of Vulnerability Detection Techniques and Insights},10.1145/3769082,2026,introduction,,no candidate match found
+shoshitaishvili2015firmalice,\smy{Firmalice: Automatic Detection of Authentication Bypass Vulnerabilities in Binary Firmware},10.14722/ndss.2015.23294,2015,llm_os_security,,no candidate match found
+spencer99flask,\smy{The Flask Security Architecture: System Support for Diverse Security Policies},,1999,background; introduction,,no candidate match found
+swift2003improving,\smy{Improving the reliability of commodity operating systems},10.1145/1165389.945466,2003,llm_os_security,,no candidate match found
+syzagent25,\smy{Towards Large Language Model Guided Kernel Direct Fuzzing},10.1007/978-3-031-90900-9_2,2025,methodology; representative_comparison,,no candidate match found
+szekeres13,\smy{SoK: Eternal War in Memory},10.1109/SP.2013.13,2013,background; introduction,,no candidate match found
+tao2026knowledge,Knowledge-Augmented Log Anomaly Detection with Large Language Models,10.1145/3744916.3773248,2026,llm_os_security,,no candidate match found
+tu2025agentic,\smy{Agentic Verification of Software Systems},10.1145/3808164,2026,introduction; llm_os_security; methodology,"L058 (arXiv ID, exact normalized title)",candidate match; verify study role
+vaswani17,\smy{Attention Is All You Need},,2017,background; introduction,,no candidate match found
+wang2024llmdfa,\smy{LLMDFA: Analyzing Dataflow in Code with Large Language Models},10.52202/079017-4181,2024,llm_os_security,L118 (exact normalized title),candidate match; verify study role
+wang2024sanitizing,\smy{Sanitizing Large Language Models in Bug Detection with Data-Flow},10.18653/v1/2024.findings-emnlp.217,2024,llm_os_security,L001 (exact normalized title),candidate match; verify study role
+wang2025absint,\smy{ABSINT-AI: Language Models for Abstract Interpretation},,2025,llm_os_security,,no candidate match found
+wang2025agentspec,\smy{AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents},10.1145/3744916.3764546,2026,llm_os_security,L231 (exact normalized title),candidate match; verify study role
+wang2025qlcoder,\smy{QLCoder: A Query Synthesizer For Static Analysis of Security Vulnerabilities},,2026,methodology,,no candidate match found
+wang2025tz,\smy{TZ-LLM: Protecting On-Device Large Language Models with Arm TrustZone},10.1145/3767295.3769334,2026,llm_os_security,"L218 (DOI, exact normalized title)",candidate match; verify study role
+wang25boofuzz,\smy{LLM-BOOFUZZ: generation-based black-box fuzzing for network protocols via LLMs},10.3390/electronics14234550,2025,llm_os_security,,no candidate match found
+wen2024automatically,\smy{Automatically inspecting thousands of static bug warnings with large language model: How far are we?},10.1145/3653718,2024,background; llm_os_security,,no candidate match found
+wen2025teedfuzzer,\smy{TeeDFuzzer: Fuzzing Trusted Execution Environment},10.3390/electronics14081674,2025,llm_os_security,,no candidate match found
+wu2022autoformalization,\smy{Autoformalization with large language models},10.52202/068431-2344,2022,llm_os_security,,no candidate match found
+wu2025flow,\smy{Flow Hijacking in eBPF: Exploitation and Mitigation Across Both Interpreter and JIT Execution},10.1007/s10207-025-01124-x,2025,background,,no candidate match found
+wu2025one,"\smy{One Bug, Hundreds Behind: LLMs for Large-Scale Bug Discovery}",,2026,llm_os_security,L032 (exact normalized title),candidate match; verify study role
+xia2024fuzz4all,\smy{Fuzz4all: Universal fuzzing with large language models},10.1145/3597503.3639121,2024,llm_os_security,L113 (exact normalized title),candidate match; verify study role
+xiong2023hext5,\smy{HexT5: Unified Pre-Training for Stripped Binary Code Information Inference},10.1109/ASE56229.2023.00099,2023,llm_os_security,L227 (exact normalized title),candidate match; verify study role
+xu2015collision,\smy{From Collision to Exploitation: Unleashing Use-After-Free Vulnerabilities in Linux Kernel},10.1145/2810103.2813637,2015,background,,no candidate match found
+xue2025pagent,\smy{PAGENT: Learning to Patch Software Engineering Agents},10.48550/arXiv.2506.17772,2025,llm_os_security,,no candidate match found
+yang2023leandojo,\smy{LeanDojo: Theorem Proving with Retrieval-Augmented Language Models},10.52202/075280-0944,2023,llm_os_security,,no candidate match found
+yang2024whitefox,\smy{WhiteFox: White-Box Compiler Fuzzing Empowered by Large Language Models},10.1145/3689736,2024,llm_os_security,,no candidate match found
+yang2025hybrid,\smy{Hybrid Language Processor Fuzzing via LLM-Based Constraint Solving},,2025,llm_os_security,,no candidate match found
+yang2025kernelgpt,\smy{KernelGPT: Enhanced Kernel Fuzzing via Large Language Models},10.1145/3676641.3716022,2025,llm_os_security; methodology; representative_comparison,"L027 (DOI, exact normalized title)",candidate match; verify study role
+yang2025knighter,\smy{KNighter: Transforming Static Analysis with LLM-Synthesized Checkers},10.1145/3731569.3764827,2025,llm_os_security; methodology; representative_comparison,L029 (exact normalized title),candidate match; verify study role
+yang2025rust,\smy{Rust-doctor: Enhanced Feature for Rust Ownership and Lifetime Repair with Balanced Training Data Generation},10.18653/v1/2025.findings-emnlp.179,2025,llm_os_security,,no candidate match found
+yang2025survey,"\smy{A Survey of LLM-Based Automated Program Repair: Taxonomies, Design Paradigms, and Applications}",10.48550/arXiv.2506.23749,2025,introduction,,no candidate match found
+yong2025gvi,\smy{GVI: Guided Vulnerability Imagination for Boosting Deep Vulnerability Detectors},10.1109/ICSE55347.2025.00214,2025,llm_os_security,L043 (exact normalized title),candidate match; verify study role
+zhang2019pex,\smy{PeX: A permission check analysis framework for linux kernel},,2019,background,,no candidate match found
+zhang2024selene,\smy{Selene: Pioneering Automated Proof in Software Verification},10.18653/v1/2024.acl-long.98,2024,introduction; llm_os_security; methodology,L040 (verified title variant: official ACL page https://aclanthology.org/2024.acl-long.98/),candidate match; verify study role
+zhao2019breaking,\smy{Breaking Turtles All the Way Down: An Exploitation Chain to Break out of VMware ESXi},,2019,background,,no candidate match found
+zheng2024kgent,\smy{Kgent: Kernel Extensions Large Language Model Agent},10.1145/3672197.3673434,2024,llm_os_security; methodology,"C0130 (DOI, exact normalized title); L041 (verified alternate title: published paper https://escholarship.org/uc/item/3jg1f0jr)",candidate match; verify study role
+zheng2025agentsight,\smy{AgentSight: System-Level Observability for AI Agents Using eBPF},10.1145/3766882.3767169,2025,llm_os_security,L042 (exact normalized title),candidate match; verify study role
+zheng25,\smy{Large Language Models for Validating Network Protocol Parsers},10.1109/SPW67851.2025.00009,2025,llm_os_security,,no candidate match found
+zhou2025lwdiff,\smy{LWDIFF: An LLM-Assisted Differential Testing Framework for WebAssembly Runtimes},10.1109/ICSE55347.2025.00233,2025,llm_os_security,L152 (exact normalized title),candidate match; verify study role

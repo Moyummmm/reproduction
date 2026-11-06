@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R04603",
+    "decision": "EXCLUDE",
+    "reason": "General unit-test generation evaluation; no security task or OS target.",
+    "evidence": "measures what LLMs and agentic workflows can and cannot do at the class level"
+  },
+  {
+    "id": "R04607",
+    "decision": "EXCLUDE",
+    "reason": "General unit-test generation evaluation; no security task or OS target.",
+    "evidence": "measures what LLMs and agentic workflows can and cannot do at the class level"
+  },
+  {
+    "id": "R04611",
+    "decision": "EXCLUDE",
+    "reason": "General REST API test generation; not security analysis or OS target.",
+    "evidence": "automatically generating executable REST API tests from natural language requirements using large language models"
+  },
+  {
+    "id": "R04616",
+    "decision": "EXCLUDE",
+    "reason": "General patch-correctness assessment; not security or OS target.",
+    "evidence": "oracle-free patch assessment and selection"
+  },
+  {
+    "id": "R04619",
+    "decision": "EXCLUDE",
+    "reason": "General software test-case generation; no security task or OS target.",
+    "evidence": "automated generation of structured software test cases from textual requirements"
+  },
+  {
+    "id": "R04620",
+    "decision": "EXCLUDE",
+    "reason": "General coverage-oriented test generation; no security or OS target.",
+    "evidence": "improve coverage-oriented automated test generation"
+  },
+  {
+    "id": "R04625",
+    "decision": "EXCLUDE",
+    "reason": "Educational test-question generation; no security or OS target.",
+    "evidence": "generating high-quality test questions with specified knowledge points"
+  },
+  {
+    "id": "R04635",
+    "decision": "EXCLUDE",
+    "reason": "General Python unit-test generation; no security or OS target.",
+    "evidence": "generate high-quality Python unit tests"
+  },
+  {
+    "id": "R04643",
+    "decision": "EXCLUDE",
+    "reason": "SQL tutoring design; no security or OS target.",
+    "evidence": "adaptive Oracle SQL tutoring"
+  },
+  {
+    "id": "R04656",
+    "decision": "EXCLUDE",
+    "reason": "General unit-test robustness; no security or OS target.",
+    "evidence": "adversarial framework for LLM-powered test case generation"
+  },
+  {
+    "id": "R04660",
+    "decision": "EXCLUDE",
+    "reason": "General regression test generation; no security or OS target.",
+    "evidence": "LLM-based regression test generation"
+  },
+  {
+    "id": "R04667",
+    "decision": "EXCLUDE",
+    "reason": "No LLM used; control-model testing outside scope.",
+    "evidence": "control logic models built by Simulink or Ptolemy"
+  },
+  {
+    "id": "R04672",
+    "decision": "EXCLUDE",
+    "reason": "No LLM used; control-model testing outside scope.",
+    "evidence": "Eectromechanical systems built by Simulink or Ptolemy"
+  },
+  {
+    "id": "R04673",
+    "decision": "EXCLUDE",
+    "reason": "No LLM used; Kubernetes API fuzzing outside LLM core.",
+    "evidence": "fuzzing framework for Kubernetes RESTful APIs"
+  },
+  {
+    "id": "R04691",
+    "decision": "EXCLUDE",
+    "reason": "No LLM; security of a malware classifier outside scope.",
+    "evidence": "test deep learning-based malware detection models"
+  },
+  {
+    "id": "R04703",
+    "decision": "EXCLUDE",
+    "reason": "LLM fuzzing for general language toolchains; no OS-component target.",
+    "evidence": "supports multiple large models and enables fuzz testing across different programming languages"
+  },
+  {
+    "id": "R04705",
+    "decision": "EXCLUDE",
+    "reason": "No LLM; hardware peripheral verification outside scope.",
+    "evidence": "verification methodology for Hardware (HW) peripherals"
+  },
+  {
+    "id": "R04710",
+    "decision": "EXCLUDE",
+    "reason": "No LLM; virtualized network device fuzzing outside LLM core.",
+    "evidence": "fuzzing framework NDFuzz for virtualized network devices"
+  },
+  {
+    "id": "R04711",
+    "decision": "EXCLUDE",
+    "reason": "No LLM; greybox fuzzing outside LLM core.",
+    "evidence": "greybox fuzzing technique that combines multiple coverage metrics"
+  },
+  {
+    "id": "R04719",
+    "decision": "EXCLUDE",
+    "reason": "No LLM; tensor compiler fuzzing outside LLM core.",
+    "evidence": "fuzzing technique for the widely used TVM tensor compiler"
+  },
+  {
+    "id": "R04720",
+    "decision": "EXCLUDE",
+    "reason": "LLM fuzzing of Java libraries; no OS-component target.",
+    "evidence": "automates fuzz harness generation for Java libraries through specialized LLM-powered agents"
+  },
+  {
+    "id": "R04733",
+    "decision": "EXCLUDE",
+    "reason": "LLM harness generation for C libraries; no OS-component target.",
+    "evidence": "automated fuzz harness generation and evolutionary mutation for C library APIs"
+  },
+  {
+    "id": "R04734",
+    "decision": "EXCLUDE",
+    "reason": "Survey, excluded from core empirical research set.",
+    "evidence": "A Survey of Harness Component Taxonomy"
+  },
+  {
+    "id": "R04737",
+    "decision": "EXCLUDE",
+    "reason": "Conceptual position on harness resilience; no OS security analysis.",
+    "evidence": "This paper argues that AI resilience must therefore be extended into harness resilience"
+  },
+  {
+    "id": "R04738",
+    "decision": "EXCLUDE",
+    "reason": "Survey, excluded from core empirical research set.",
+    "evidence": "This survey reviews the development of agent harnesses"
+  },
+  {
+    "id": "R04739",
+    "decision": "EXCLUDE",
+    "reason": "Emergency dispatch decision support; no security or OS target.",
+    "evidence": "decision-making agents in Emergency Operations and Management"
+  },
+  {
+    "id": "R04740",
+    "decision": "EXCLUDE",
+    "reason": "Biological hypothesis generation; no security or OS target.",
+    "evidence": "biology-focused multi-agent system"
+  },
+  {
+    "id": "R04741",
+    "decision": "EXCLUDE",
+    "reason": "Materials science case study; no security or OS target.",
+    "evidence": "Case Study on Perovskite Materials"
+  },
+  {
+    "id": "R04743",
+    "decision": "EXCLUDE",
+    "reason": "Position paper on harness evaluation; no OS security analysis.",
+    "evidence": "This position paper argues"
+  },
+  {
+    "id": "R04751",
+    "decision": "EXCLUDE",
+    "reason": "Materials science case study; no security or OS target.",
+    "evidence": "perovskite band-gap case study"
+  },
+  {
+    "id": "R04754",
+    "decision": "EXCLUDE",
+    "reason": "Business guidance on AI security; not empirical OS security research.",
+    "evidence": "How to harness AI securely in your business"
+  },
+  {
+    "id": "R04757",
+    "decision": "EXCLUDE",
+    "reason": "Secure code generation for general software; no OS target.",
+    "evidence": "transfers secure coding expertise into a compact model"
+  },
+  {
+    "id": "R04758",
+    "decision": "EXCLUDE",
+    "reason": "Agent reliability monitoring; no security analysis or OS target.",
+    "evidence": "self-learning reliability harness for LLM agent tool execution"
+  },
+  {
+    "id": "R04759",
+    "decision": "EXCLUDE",
+    "reason": "LLM/RAG generation security; not OS-targeted security analysis.",
+    "evidence": "Multi-Level Safety Filtering Method for LLM Generation Security"
+  },
+  {
+    "id": "R04776",
+    "decision": "EXCLUDE",
+    "reason": "PCB manufacturing paper; no LLM or security target.",
+    "evidence": "Cyber-Physical Integration of PCB, Harness, and System Assembly Lines"
+  },
+  {
+    "id": "R04784",
+    "decision": "EXCLUDE",
+    "reason": "LLM cybersecurity capability evaluation; not OS-targeted analysis.",
+    "evidence": "Existing Large Language Model cybersecurity evaluations rely on text-based plausibility scoring systems"
+  },
+  {
+    "id": "R04789",
+    "decision": "EXCLUDE",
+    "reason": "Climate modeling; no security or OS target.",
+    "evidence": "machine learning-based Earth system models"
+  },
+  {
+    "id": "R04790",
+    "decision": "EXCLUDE",
+    "reason": "No LLM; automated exploit generation outside LLM core.",
+    "evidence": "autonomously generates exploits and validates attack paths in networked systems"
+  },
+  {
+    "id": "R04791",
+    "decision": "EXCLUDE",
+    "reason": "Security of an LLM assistant; not OS-targeted LLM security analysis.",
+    "evidence": "zero-click prompt injection vulnerability in Microsoft 365 Copilot"
+  },
+  {
+    "id": "R04792",
+    "decision": "UNCLEAR",
+    "reason": "LLM exploit generation is relevant, but OS/privileged target scope is ambiguous.",
+    "evidence": "controlled CVE exploit reproduction for network-based targets"
+  }
+]

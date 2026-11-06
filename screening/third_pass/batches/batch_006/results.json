@@ -1,0 +1,182 @@
+[
+  {
+    "id": "R06072",
+    "os_target": "Linux kernel source and security patches",
+    "llm_role": "LLM agent automates end-to-end patch backporting with tools for code access, Git-history summarization, and autonomous patch revision",
+    "security_task": "Migrate mainline security patches to older kernel branches",
+    "evidence": "Patch backporting, the process of migrating mainline security patches to older branches, is an essential task in maintaining popular open-source projects (e.g., Linux kernel). ... In this paper, we introduce PORTGPT, an LLM-agent for end-to-end automation of patch backporting in real-world scenarios.",
+    "suggested": "possible_core",
+    "uncertainty": "Security relevance rests on backporting security patches; no exploit or privilege-boundary evaluation is described."
+  },
+  {
+    "id": "R06075",
+    "os_target": "Linux kernel source code",
+    "llm_role": "LLM is a component of BugStone, an LLVM- and LLM-powered program-analysis system; its precise inference role is not detailed",
+    "security_task": "Discover recurring-pattern bugs and potential security issues at scale",
+    "evidence": "This paper introduces BugStone, a program analysis system empowered by LLVM and a Large Language Model (LLM). ... BugStone identified more than 22K new potential issues in the Linux kernel.",
+    "suggested": "possible_core",
+    "uncertainty": "The abstract establishes LLM use but not the exact LLM function; security framing comes from attack-surface and security-bug discussion."
+  },
+  {
+    "id": "R06076",
+    "os_target": "Linux capabilities and Kubernetes workload manifests and syscalls",
+    "llm_role": "LLM-assisted rule specification derives syscall-parameter-capability relations from Linux kernel code",
+    "security_task": "Minimize Kubernetes capabilities and enforce least privilege",
+    "evidence": "KubeCap translates deployment specifications into deterministic manifests, locates container entrypoints, performs reachability-guided system call analysis, and leverages LLM-assisted rule specification to derive syscall--parameter--capability relations from Linux kernel code.",
+    "suggested": "possible_core",
+    "uncertainty": "The LLM supports rule inference rather than end-to-end analysis; the OS target spans Kubernetes and Linux kernel semantics."
+  },
+  {
+    "id": "R06084",
+    "os_target": "Edge AI accelerators interacting with the application-processor OS security boundary, including kernel versus application memory and process isolation",
+    "llm_role": "LLM-assisted framework extracts confused-deputy-relevant information using dynamic and static analysis",
+    "security_task": "Study and detect confused deputy attacks through AI accelerators",
+    "evidence": "We design DeputyHunt, a Large Language Model (LLM)-assisted framework to extract CDA-relevant information for a given AIA through a combination of dynamic and static analysis. ... Our analysis reveals that CDAs are feasible on six out of the seven AIAs",
+    "suggested": "possible_core",
+    "uncertainty": "AIAs are hardware, not an OS component; the LLM contribution and the precise OS interface are only broadly described."
+  },
+  {
+    "id": "R06088",
+    "os_target": "Android kernel drivers",
+    "llm_role": "LLM identifies relevant code and constructs a harness to enable targeted static analysis",
+    "security_task": "Filter static-analysis warnings without concealing real bugs or vulnerabilities",
+    "evidence": "We therefore assign LLMs a different role: rather than judging the validity of warnings, they identify relevant code and construct a harness that supplies the context needed for precise, targeted static analysis. ... On 200 real Android kernel-driver warnings, including 40 confirmed bugs, Evident filters out 48.8-63.8% of the 160 false alarms",
+    "suggested": "possible_core",
+    "uncertainty": "The primary framing is warning triage and soundness; kernel-security relevance is supported by driver bugs and one confirmed vulnerability."
+  },
+  {
+    "id": "R06090",
+    "os_target": "Linux kernel-level telemetry, specifically system calls collected via eBPF",
+    "llm_role": "LLM reasons over compact provenance-graph representations, using pure prompting and retrieval-augmented generation",
+    "security_task": "Map observed adversary behavior to MITRE ATT&CK for threat-informed defense",
+    "evidence": "We present a methodology that collects kernel-level events via eBPF, correlates attacker commands into a provenance graph, and derives compact graph representations suitable for LLM-based reasoning. These representations are mapped to the MITRE ATT&CK framework",
+    "suggested": "possible_core",
+    "uncertainty": "Mapping is ATT&CK technique attribution rather than direct exploit detection; the LLM is the reasoning and ranking component."
+  },
+  {
+    "id": "R06099",
+    "os_target": "Linux kernel eBPF programs and the in-kernel eBPF verifier",
+    "llm_role": "LLM translates legacy libbpf C to Aya Rust and iteratively repairs compilation and verifier failures",
+    "security_task": "Harden verifier-accepted buggy eBPF programs and prevent kernel memory leaks and KASLR breaks",
+    "evidence": "we present Heimdall, an automated pipeline that uses large language models to translate legacy libbpf C programs to Aya Rust. ... two of which leak randomized kernel addresses to userspace and break KASLR.",
+    "suggested": "possible_core",
+    "uncertainty": "The security task is framed as memory-safety and source-level hardening; formal equivalence is the main guarantee."
+  },
+  {
+    "id": "R06100",
+    "os_target": "Asterinas Rust OS kernel, memory-management module",
+    "llm_role": "LLM synthesizes and repairs Verus proofs using retrieval-augmented, dependency-aware analysis",
+    "security_task": "Formal verification of kernel code correctness and security",
+    "evidence": "on the Asterinas Rust OS kernel, KVerus produces upstream-accepted proofs that verify 23 previously unverified functions (21.0% of proof code) in the memory-management module.",
+    "suggested": "possible_core",
+    "uncertainty": "Security is stated at the level of correctness and verification; no specific kernel vulnerability class is evaluated."
+  },
+  {
+    "id": "R06105",
+    "os_target": "OS-layer process, file, and network activity correlated with kernel audit events",
+    "llm_role": "Supervisor LLM identifies data-flow violations, control-flow deviations, and intent inconsistencies",
+    "security_task": "Detect attacks in agentic systems through cross-layer semantic flows",
+    "evidence": "AScope connects fragmented operations into causal behavioral trajectories and uses a supervisor LLM to identify data flow violations, control flow deviations, and intent inconsistencies.",
+    "suggested": "possible_core",
+    "uncertainty": "Evaluation uses AgentDojo traces and multi-agent scenarios; the OS component is telemetry rather than a hardened kernel mechanism."
+  },
+  {
+    "id": "R06116",
+    "os_target": "Linux kernel out-of-tree patches",
+    "llm_role": "LLM performs automated migration of out-of-tree kernel patches across versions",
+    "security_task": "unknown",
+    "evidence": "Large language models (LLMs) have shown remarkable progress across various domains, suggesting their potential for automating out-of-tree kernel patch migration. ... we propose MigGPT, a framework that employs a novel code fingerprint structure to retain code snippet information",
+    "suggested": "adjacent",
+    "uncertainty": "No security purpose or vulnerability is established; the abstract frames the work as functional OS maintenance."
+  },
+  {
+    "id": "R06120",
+    "os_target": "Linux kernel memory-management subsystem patch review",
+    "llm_role": "LLM performs rule-informed patch validation and generates reference-backed reports without training",
+    "security_task": "unknown",
+    "evidence": "FLINT, a patch validation system framework that synthesizes insights from past discussions among developers and automatically analyzes patch proposals for compliance. FLINT employs a rule-based analysis informed by past discussions among developers and an LLM that does not require training or fine-tuning on new data",
+    "suggested": "adjacent",
+    "uncertainty": "Bug classes include deadlocks and data races, but the abstract does not frame them as security vulnerabilities."
+  },
+  {
+    "id": "R06146",
+    "os_target": "unknown",
+    "llm_role": "LLM generates realistic dynamic command outputs in real time",
+    "security_task": "Engage attackers and collect threat intelligence through deception",
+    "evidence": "LLMHoney, an SSH honeypot that leverages Large Language Models (LLMs) to generate realistic, dynamic command outputs in real time. ... evaluated it on a testbed with 138 representative Linux commands.",
+    "suggested": "unclear",
+    "uncertainty": "The security task and LLM role are clear, but the target is an application-level honeypot rather than an OS component or privileged interface."
+  },
+  {
+    "id": "R06155",
+    "os_target": "Windows operating-system password policy and audit controls",
+    "llm_role": "LLM agent autonomously executes field-audit tasks",
+    "security_task": "Audit password-policy compliance",
+    "evidence": "This paper looks at the possibility of developing a framework to leverage Large Language Models (LLMs) as an autonomous agent to execute part of the security audit, namely with the field audit. password policy compliance for Windows operating system.",
+    "suggested": "possible_core",
+    "uncertainty": "This is an exploratory single-setting study; the OS interface is the audit and policy surface, and technical detail is limited."
+  },
+  {
+    "id": "R06160",
+    "os_target": "TEEs such as Intel SGX and ArmTrustZone as a trusted boundary against a compromised OS",
+    "llm_role": "LLM assistants act as TEE security advisors and are the subject of red-teaming",
+    "security_task": "Assess and reduce unsafe or incorrect TEE security advice, including architecture review, attestation, and mitigation guidance",
+    "evidence": "Trusted Execution Environments (TEEs) (e.g., Intel SGX and ArmTrustZone) aim to protect sensitive computation from a compromised operating system... We present a red-teaming study of two prevalently deployed LLM assistants in the role of TEE security advisors",
+    "suggested": "possible_core",
+    "uncertainty": "Dual nature: TEE security advising versus LLM safety red-teaming; the TEE is not itself an OS component, and the LLM is evaluated rather than used as an analysis tool."
+  },
+  {
+    "id": "R06161",
+    "os_target": "Six open-source IoT operating systems, source code",
+    "llm_role": "CodeGen2-based LLM identifies vulnerabilities and generates fixed code with explanations, trained with reinforcement learning and semantic reward",
+    "security_task": "Vulnerability analysis and repair, including zero-day and N-day vulnerabilities",
+    "evidence": "we introduce a multipurpose code vulnerability analysis system SecRepair, powered by a large language model, CodeGen2 assisting the developer in identifying and generating fixed code along with a complete description of the vulnerability with a code comment. ... We further identify zero-day and N-day vulnerabilities in 6 Open Source IoT Operating Systems on GitHub.",
+    "suggested": "possible_core",
+    "uncertainty": "The OS targets are named only collectively; the LLM is central, but OS-specific interfaces and evaluation details are not described."
+  },
+  {
+    "id": "R06162",
+    "os_target": "Whole Windows OS image, including signed binaries and millions of functions",
+    "llm_role": "Low-cost language model assigns reachability tier, risk level, bug-class hypothesis, and rationale to functions",
+    "security_task": "Prioritize targets for Windows vulnerability research",
+    "evidence": "We present Symbolicate-Enrich-Sample, a low-cost batch pipeline that turns a corpus of production Windows binaries into a queryable, priority-ranked research queue. ... use a low-cost language model to assign a reachability tier, a risk level, a bug-class hypothesis, and a rationale",
+    "suggested": "possible_core",
+    "uncertainty": "The LLM supports target selection rather than vulnerability confirmation; the derived dataset is withheld, limiting reproducibility."
+  },
+  {
+    "id": "R06165",
+    "os_target": "Confidential virtual machine and its OS, including process isolation and outbound-network restrictions",
+    "llm_role": "LLM service is split across per-user and shared processes for confidential inference",
+    "security_task": "Protect user prompts and LLM parameters from an untrusted cloud provider",
+    "evidence": "Petridish runs the LLM service inside a confidential virtual machine (CVM), which protects the secrets, i.e., the LLM parameters and user prompts, from adversaries outside the CVM. ... Both the LLM provider and the users trust Petridish's CVM and its operating system, which guarantees isolation between processes and limits their outbound network capabilities to control information flow.",
+    "suggested": "adjacent",
+    "uncertainty": "Clearly LLM confidentiality and privacy work using OS isolation; it is not an OS-security mechanism per se."
+  },
+  {
+    "id": "R06175",
+    "os_target": "Process-action provenance traces from Android, Linux, BSD, and Windows",
+    "llm_role": "BERT-family LLMs encode provenance traces into semantic embeddings for autoencoder-based anomaly detection",
+    "security_task": "Detect advanced persistent threats under extreme class imbalance",
+    "evidence": "APT-LLM leverages LLMs to encode process-action provenance traces into semantically rich embeddings, capturing nuanced behavioral patterns. ... across multiple operating systems (Android, Linux, BSD, and Windows)",
+    "suggested": "possible_core",
+    "uncertainty": "The LLM is a feature encoder rather than a reasoning agent; the OS scope is the provenance data source."
+  },
+  {
+    "id": "R06177",
+    "os_target": "Compromised cloud hosts and host artifacts or CLIs across five operating systems",
+    "llm_role": "LLM agents investigate forensic disk snapshots and produce reports and remediation plans",
+    "security_task": "Post-compromise incident response, intrusion investigation, and remediation",
+    "evidence": "we introduce SecRespond, the first benchmark for evaluating LLM agents on the post-compromise incident-response workflow. ... agents are required to produce forensic reports on intrusions, baseline risks, and vulnerability risks, together with a remediation plan.",
+    "suggested": "possible_core",
+    "uncertainty": "The work benchmarks agent capability rather than proposing an OS defense; the five OSes are not individually detailed."
+  },
+  {
+    "id": "R06181",
+    "os_target": "System provenance and audit streams across three operating systems",
+    "llm_role": "Context-grounded LLM reasoning interprets process-centered evidence and reconstructs attack narratives",
+    "security_task": "Intrusion detection and attack-stage attribution from provenance",
+    "evidence": "We present ANCHOR, an investigation-oriented provenance system that combines evidence curation with context-grounded LLM reasoning. ... ANCHOR incrementally reconstructs attack narratives organized by kill-chain stages.",
+    "suggested": "possible_core",
+    "uncertainty": "The OS component is audit telemetry rather than a kernel mechanism; evaluation uses DARPA datasets and a fixed LLM backbone."
+  }
+]

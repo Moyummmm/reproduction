@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02161",
+    "decision": "EXCLUDE",
+    "reason": "LLM multi-agent protocol design and governance; no OS or privileged-interface security task.",
+    "evidence": "LDP: An Identity-Aware Protocol for Multi-Agent LLM Systems"
+  },
+  {
+    "id": "R02162",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; title indicates fuzzing/security analysis but LLM role and OS target are unestablished.",
+    "evidence": "A Comprehensive Framework for Automated Network Protocol Fuzzing and Security Analysis"
+  },
+  {
+    "id": "R02163",
+    "decision": "EXCLUDE",
+    "reason": "Fuzzing driven by Marine Predators Algorithm, with no LLM role.",
+    "evidence": "This paper proposes MPAuzz, a greybox fuzzer for binary protocols driven by the Marine Predators Algorithm (MPA)."
+  },
+  {
+    "id": "R02164",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; protocol-implementation fuzzing is potentially relevant, but LLM use and OS scope are unknown.",
+    "evidence": "FCFuzz: Format Constrained Fuzzing for Network Protocol Implementations"
+  },
+  {
+    "id": "R02165",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; high-speed protocol fuzzing may touch OS networking, but LLM role and target are unknown.",
+    "evidence": "A Framework of High-Speed Network Protocol Fuzzing Based on Shared Memory"
+  },
+  {
+    "id": "R02166",
+    "decision": "EXCLUDE",
+    "reason": "LLM versus Stack Overflow for compiler errors; general software engineering, not security.",
+    "evidence": "Addressing Compiler Errors: Stack Overflow or Large Language Models?"
+  },
+  {
+    "id": "R02167",
+    "decision": "EXCLUDE",
+    "reason": "LLM/GNN data discovery with no security or OS component.",
+    "evidence": "GNN: Graph Neural Network and Large Language Model Based for Data Discovery"
+  },
+  {
+    "id": "R02168",
+    "decision": "EXCLUDE",
+    "reason": "LLM for public-opinion shaping, not security analysis or OS targeting.",
+    "evidence": "Network Public Opinion Environment Shaping for Sustainable Cities by Large Language Model"
+  },
+  {
+    "id": "R02169",
+    "decision": "EXCLUDE",
+    "reason": "LLM semantic-network exploration of bias/social attitudes, not security.",
+    "evidence": "in order to identify the associations between different topics and demographics as well as expose potential biases"
+  },
+  {
+    "id": "R02170",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; title suggests LLM-based network vulnerability mitigation, but OS scope and method are unclear.",
+    "evidence": "Network Vulnerability Mitigation Through Large Language Models"
+  },
+  {
+    "id": "R02171",
+    "decision": "EXCLUDE",
+    "reason": "Emotional vulnerability factor, not a security or OS task.",
+    "evidence": "Construction of the emotional vulnerability factor based on network and large language models"
+  },
+  {
+    "id": "R02172",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM and Android permissions are potentially relevant, but the security analysis role is unclear.",
+    "evidence": "Large Language Model vs. Stack Overflow in Addressing Android Permission Related Challenges"
+  },
+  {
+    "id": "R02173",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; vulnerability detection is relevant, but LLM role and OS target are unestablished.",
+    "evidence": "A1BERT: A Language-Agnostic Graph Neural Network Model for Vulnerability Detection"
+  },
+  {
+    "id": "R02174",
+    "decision": "EXCLUDE",
+    "reason": "LLM/GNN commonsense question answering, not security.",
+    "evidence": "Graph Neural Network Enhanced Large Language Model for Commonsense Question Answering"
+  },
+  {
+    "id": "R02175",
+    "decision": "EXCLUDE",
+    "reason": "LLM collaboration simulation stack, with no security or OS task.",
+    "evidence": "Designing a Simulation Stack for Large Language Model Collaboration: The HiroSim Experience"
+  },
+  {
+    "id": "R02176",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; title indicates LLM-based vulnerability scanning on network hosts, but OS scope and methods are unclear.",
+    "evidence": "Integrating Large Language Models for Automated Vulnerability Scanning and Reporting in Network Hosts"
+  },
+  {
+    "id": "R02177",
+    "decision": "EXCLUDE",
+    "reason": "Congressional stock-trade analysis, not security or OS research.",
+    "evidence": "Decoding Congressional Stock Trades: An Industry and Committee-Focused Analysis with Graph Neural Network and Large Language Model"
+  },
+  {
+    "id": "R02178",
+    "decision": "EXCLUDE",
+    "reason": "Patent transfer-path prediction, not security or OS research.",
+    "evidence": "Ptsl: A Semantic Structure-Based Patent Transfer Path Prediction Model Using Large Language Models and Heterogeneous Network Analysis"
+  },
+  {
+    "id": "R02179",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; binary vulnerability detection is relevant, but LLM role and OS target are unclear.",
+    "evidence": "BinVuGAL: Binary vulnerability detection method based on graph neural network combined with assembly language model"
+  },
+  {
+    "id": "R02180",
+    "decision": "EXCLUDE",
+    "reason": "General understanding of LLMs, not security or OS research.",
+    "evidence": "Beyond algorithms – understanding large language models"
+  },
+  {
+    "id": "R02181",
+    "decision": "EXCLUDE",
+    "reason": "LLM-generated communication network topology, not a security or OS task.",
+    "evidence": "Large Language Model-Driven Communication Network Topology Generation Method"
+  },
+  {
+    "id": "R02182",
+    "decision": "EXCLUDE",
+    "reason": "Earthquake-flood vulnerability assessment of buildings, not security or OS research.",
+    "evidence": "Stack-AttenLSTM: A Surrogate Deep Learning Model for Sequential Earthquake-Flood Vulnerability Assessment of Steel Buildings"
+  },
+  {
+    "id": "R02183",
+    "decision": "EXCLUDE",
+    "reason": "Chest radiograph analysis and LLM report generation, not security.",
+    "evidence": "Claude Sonnet 4.5 for structured report generation"
+  },
+  {
+    "id": "R02184",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-network synthesis for contextual coherence, not security.",
+    "evidence": "Recursive Prompt Network Synthesis for Large Language Model Contextual Coherence"
+  },
+  {
+    "id": "R02185",
+    "decision": "EXCLUDE",
+    "reason": "LLM-driven low-altitude economy and over-the-air computation, not security.",
+    "evidence": "Large Language Model-Driven Low Altitude Economy Enabled by Over-the-Air Computation"
+  },
+  {
+    "id": "R02186",
+    "decision": "EXCLUDE",
+    "reason": "LLM code-generation robustness and API misuse, not security analysis of OS components.",
+    "evidence": "the misuse of APIs in the generated code could lead to severe problems, such as resource leaks, program crashes, etc."
+  },
+  {
+    "id": "R02187",
+    "decision": "EXCLUDE",
+    "reason": "LLM incident triage for reliability/root-cause analysis, not OS security analysis.",
+    "evidence": "automated incident triage framework that leverages Large Language Model (LLM) reasoning over structured logs, metrics, and distributed traces"
+  },
+  {
+    "id": "R02188",
+    "decision": "EXCLUDE",
+    "reason": "LLM/knowledge-graph visualization, not security or OS research.",
+    "evidence": "Visualization Over Large Language Model Using Knowledge Graph"
+  },
+  {
+    "id": "R02189",
+    "decision": "EXCLUDE",
+    "reason": "LLM interpretability for power-grid AGC dispatch, not security.",
+    "evidence": "Large Language Model Assisted Interpretability in Graph Convolution Network for AGC Dispatch"
+  },
+  {
+    "id": "R02190",
+    "decision": "EXCLUDE",
+    "reason": "LLM pipeline for construction cost estimates, not security.",
+    "evidence": "automation of local cost estimate (LCE) generation"
+  },
+  {
+    "id": "R02191",
+    "decision": "EXCLUDE",
+    "reason": "Systematic review of LLM-based 6G networks, outside core empirical research set.",
+    "evidence": "This paper conducts a systematic review"
+  },
+  {
+    "id": "R02192",
+    "decision": "EXCLUDE",
+    "reason": "BiLSTM-attention KAN vulnerability detector with no LLM role.",
+    "evidence": "Stack overflow vulnerability detection based on BiLSTM-attention KAN deep learning model"
+  },
+  {
+    "id": "R02193",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM-based format-transforming encryption is potentially security-relevant, but OS targeting and task are unclear.",
+    "evidence": "Format-Transforming Encryption Based on Large Language Model"
+  },
+  {
+    "id": "R02194",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based physical-layer multi-task network, not security.",
+    "evidence": "Unified Physical Layer Network for Multiple Tasks based on Large Language Model"
+  },
+  {
+    "id": "R02195",
+    "decision": "EXCLUDE",
+    "reason": "LLM/GAT for TCM prescription generation, not security.",
+    "evidence": "An Intelligent Generation Model for Traditional Chinese Medicine Prescriptions Based on Graph Attention Network and Large Language Model"
+  },
+  {
+    "id": "R02196",
+    "decision": "EXCLUDE",
+    "reason": "Security of LLM advice via prompt injection, not LLM use for OS security.",
+    "evidence": "evaluate the susceptibility of commercial LLMs to prompt-injection attacks"
+  },
+  {
+    "id": "R02197",
+    "decision": "EXCLUDE",
+    "reason": "Neuroscience study of language-network aging, not security or OS research.",
+    "evidence": "Frontal Vulnerability vs. Temporal Resilience within the core Language Network: Neuro-compensatory mechanisms underline differential language aging trajectories"
+  },
+  {
+    "id": "R02198",
+    "decision": "EXCLUDE",
+    "reason": "LLM forecasting of financial network indicators, not security or OS research.",
+    "evidence": "Large language model-driven time-series forecasting of financial network indicators"
+  },
+  {
+    "id": "R02199",
+    "decision": "EXCLUDE",
+    "reason": "Protein language model for phage virion protein classification, not security.",
+    "evidence": "ESM-PVP: Identification and classification of phage virion proteins with a large pretrained protein language model and an MLP neural network"
+  },
+  {
+    "id": "R02200",
+    "decision": "EXCLUDE",
+    "reason": "LLM/GNN data discovery, not security or OS research.",
+    "evidence": "GNN: Graph Neural Network and Large Language Model for Data Discovery"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "arxiv:2602.19831",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Original LLM-assisted memory forensics for Windows/Android malware; the LLM interprets analysis outputs and extracts IoCs within a kernel-assisted security workflow.",
+    "evidence": "leverages general-purpose large language models (LLMs) to interpret memory analysis outputs in a human-readable form and to automatically extract meaningful Indicators of Compromise (IoCs)"
+  },
+  {
+    "id": "arxiv:2602.20133",
+    "decision": "EXCLUDE",
+    "reason": "General LLM-driven program optimization with no security task or OS target.",
+    "evidence": "AdaEvolve: Adaptive LLM Driven Zeroth-Order Optimization"
+  },
+  {
+    "id": "arxiv:2602.20663",
+    "decision": "EXCLUDE",
+    "reason": "ICS penetration testing platform where the LLM only assists reporting; target is ICS protocols rather than operating-system components.",
+    "evidence": "Large Language Model (LLM)-assisted reporting"
+  },
+  {
+    "id": "arxiv:2602.22427",
+    "decision": "EXCLUDE",
+    "reason": "Security scanner for RAG/vector retrieval; protects LLM systems rather than analyzing operating-system components.",
+    "evidence": "an open-source security scanner that evaluates vector indices and embeddings to identify hubs in RAG systems"
+  },
+  {
+    "id": "arxiv:2602.22525",
+    "decision": "EXCLUDE",
+    "reason": "Analyzes security of LLM-agent IoT deployments; the LLM is the deployed subject, not a tool for OS security analysis.",
+    "evidence": "local MQTT messaging and an Android smartphone as an edge inference node"
+  },
+  {
+    "id": "arxiv:2602.22613",
+    "decision": "EXCLUDE",
+    "reason": "Satellite imagery vision-language work with no security task or OS target.",
+    "evidence": "Spectrally Distilled Representations Aligned with Instruction-Augmented LLMs for Satellite Imagery"
+  },
+  {
+    "id": "arxiv:2602.23330",
+    "decision": "EXCLUDE",
+    "reason": "Financial trading multi-agent LLM system with no security task or OS target.",
+    "evidence": "Toward Expert Investment Teams:A Multi-Agent LLM System with Fine-Grained Trading Tasks"
+  },
+  {
+    "id": "arxiv:2602.23413",
+    "decision": "EXCLUDE",
+    "reason": "General automated discovery and evolutionary optimization; no security task or OS target.",
+    "evidence": "EvoX: Meta-Evolution for Automated Discovery"
+  },
+  {
+    "id": "arxiv:2602.24044",
+    "decision": "EXCLUDE",
+    "reason": "GPU efficiency optimization for LLM serving; no security task or OS target.",
+    "evidence": "Data Driven Optimization of GPU efficiency for Distributed LLM-Adapter Serving"
+  },
+  {
+    "id": "arxiv:2603.00436",
+    "decision": "EXCLUDE",
+    "reason": "Robust machine unlearning against adversarial requests; security of LLM models rather than OS components.",
+    "evidence": "ROKA: Robust Knowledge Unlearning against Adversaries"
+  },
+  {
+    "id": "arxiv:2603.00902",
+    "decision": "EXCLUDE",
+    "reason": "Trojanized agent skill causes token exhaustion; security of LLM agents, not operating-system components.",
+    "evidence": "Trojanized OpenClaw skill that induces resource exhaustion"
+  },
+  {
+    "id": "arxiv:2603.02001",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based database engine synthesis with no security task or OS target.",
+    "evidence": "Bespoke OLAP: Synthesizing Workload-Specific One-size-fits-one Database Engines"
+  },
+  {
+    "id": "arxiv:2603.02630",
+    "decision": "EXCLUDE",
+    "reason": "Prompt optimization for multi-agent systems with no security task or OS target.",
+    "evidence": "MASPOB: Bandit-Based Prompt Optimization for Multi-Agent Systems with Graph Neural Networks"
+  },
+  {
+    "id": "arxiv:2603.03456",
+    "decision": "EXCLUDE",
+    "reason": "Studies coding-agent goal drift under value conflict; agent safety rather than LLM security analysis of OS components.",
+    "evidence": "Asymmetric Goal Drift in Coding Agents Under Value Conflict"
+  },
+  {
+    "id": "arxiv:2603.03919",
+    "decision": "EXCLUDE",
+    "reason": "RAG blocking attack and defense; security of LLMs rather than OS components.",
+    "evidence": "When Safety Becomes a Vulnerability: Exploiting LLM Alignment Homogeneity for Transferable Blocking in RAG"
+  },
+  {
+    "id": "arxiv:2603.05451",
+    "decision": "EXCLUDE",
+    "reason": "GPU attention kernel optimization with no security task or OS target.",
+    "evidence": "FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling"
+  },
+  {
+    "id": "arxiv:2603.05471",
+    "decision": "EXCLUDE",
+    "reason": "Fact-checking without retrieval; no security task or OS target.",
+    "evidence": "Leveraging LLM Parametric Knowledge for Fact Checking without Retrieval"
+  },
+  {
+    "id": "arxiv:2603.06330",
+    "decision": "EXCLUDE",
+    "reason": "Health behaviour intervention study with no security task or OS target.",
+    "evidence": "Structured Exploration vs. Generative Flexibility: A Field Study Comparing Bandit and LLM Architectures for Personalised Health Behaviour Interventions"
+  },
+  {
+    "id": "arxiv:2603.06403",
+    "decision": "EXCLUDE",
+    "reason": "Multi-modal inference scheduling with no security task or OS target.",
+    "evidence": "Adapter-Augmented Bandits for Online Multi-Constrained Multi-Modal Inference Scheduling"
+  },
+  {
+    "id": "arxiv:2603.06604",
+    "decision": "EXCLUDE",
+    "reason": "LLM confidence and error detection with no security task or OS target.",
+    "evidence": "Know When You're Wrong: Aligning Confidence with Correctness for LLM Error Detection"
+  },
+  {
+    "id": "arxiv:2603.06858",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based vulnerability repair is potentially core, but the abstract gives no OS/kernel target and the validation focus leaves the LLM role and target scope ambiguous.",
+    "evidence": "Automated Vulnerability Repair (AVR) systems, especially those leveraging large language models (LLMs), have demonstrated promising results in patching vulnerabilities"
+  },
+  {
+    "id": "arxiv:2603.06918",
+    "decision": "EXCLUDE",
+    "reason": "Zero-shot visual navigation with no security task or OS target.",
+    "evidence": "T2Nav Algebraic Topology Aware Temporal Graph Memory and Loop Detection for ZeroShot Visual Navigation"
+  },
+  {
+    "id": "arxiv:2603.07460",
+    "decision": "EXCLUDE",
+    "reason": "Risk framework for LLM-powered systems; analyzes LLM system threats rather than OS components, with the LLM as subject.",
+    "evidence": "goal-driven risk assessment framework for LLM-powered systems"
+  },
+  {
+    "id": "arxiv:2603.07848",
+    "decision": "EXCLUDE",
+    "reason": "Studies deception capability in LLM agents; security of agents rather than OS components.",
+    "evidence": "Intentional Deception as Controllable Capability in LLM Agents"
+  },
+  {
+    "id": "arxiv:2603.08397",
+    "decision": "EXCLUDE",
+    "reason": "Speech recognition work with no security task or OS target.",
+    "evidence": "NLE: Non-autoregressive LLM-based ASR by Transcript Editing"
+  },
+  {
+    "id": "arxiv:2603.09134",
+    "decision": "EXCLUDE",
+    "reason": "Secures enterprise multi-agent LLM integration and SOC workflows; not OS security, with LLMs as the protected system.",
+    "evidence": "AgenticCyOps: Securing Multi-Agentic AI Integration in Enterprise Cyber Operations"
+  },
+  {
+    "id": "arxiv:2603.09246",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreak attack on vision-language models; security of LLMs rather than OS components.",
+    "evidence": "Reasoning-Oriented Programming: Chaining Semantic Gadgets to Jailbreak Large Vision Language Models"
+  },
+  {
+    "id": "arxiv:2603.10042",
+    "decision": "EXCLUDE",
+    "reason": "Bit-flip attacks on LLM agents; security of LLM agents rather than OS components.",
+    "evidence": "the first targeted BFA framework for LLM-based agents"
+  },
+  {
+    "id": "arxiv:2603.10726",
+    "decision": "EXCLUDE",
+    "reason": "Defends LLM serving against prefix-cache side channels; LLM serving security rather than OS component analysis.",
+    "evidence": "CacheSolidarity: Preventing Prefix Caching Side Channels in Multi-Tenant LLM Serving Systems"
+  },
+  {
+    "id": "arxiv:2603.12023",
+    "decision": "EXCLUDE",
+    "reason": "Composes software/hardware vulnerabilities to attack compound AI pipelines; not LLM use for OS security analysis.",
+    "evidence": "traditional software and hardware vulnerabilities can complement LLM-specific algorithmic attacks to compromise the integrity of a compound AI pipeline"
+  },
+  {
+    "id": "arxiv:2603.12453",
+    "decision": "EXCLUDE",
+    "reason": "Political evasion classification system with no security task or OS target.",
+    "evidence": "CSE-UOI at SemEval-2026 Task 6: A Two-Stage Heterogeneous Ensemble with Deliberative Complexity Gating for Political Evasion Detection"
+  },
+  {
+    "id": "arxiv:2603.12614",
+    "decision": "EXCLUDE",
+    "reason": "Fuzzes multi-tool LLM agents for agent workflow vulnerabilities; target is LLM agent apps rather than OS components.",
+    "evidence": "greybox framework for discovering and reproducing multi-tool vulnerabilities"
+  },
+  {
+    "id": "arxiv:2603.13620",
+    "decision": "EXCLUDE",
+    "reason": "Characterizes risks in AI companion apps; not OS security and not LLM use as a security-analysis tool.",
+    "evidence": "potential harms enabled by malicious users exploiting app features"
+  },
+  {
+    "id": "arxiv:2603.13950",
+    "decision": "EXCLUDE",
+    "reason": "Retrieval-layer attack on tool-augmented LLM agents; security of LLM agents rather than OS components.",
+    "evidence": "ToolFlood: Beyond Selection -- Hiding Valid Tools from LLM Agents via Semantic Covering"
+  },
+  {
+    "id": "arxiv:2603.14027",
+    "decision": "EXCLUDE",
+    "reason": "Political question evasion benchmark with no security task or OS target.",
+    "evidence": "SemEval-2026 Task 6: CLARITY -- Unmasking Political Question Evasions"
+  },
+  {
+    "id": "arxiv:2603.14769",
+    "decision": "EXCLUDE",
+    "reason": "General stochastic generative optimization; no security task or OS target.",
+    "evidence": "POLCA: Stochastic Generative Optimization with LLM"
+  },
+  {
+    "id": "arxiv:2603.14937",
+    "decision": "EXCLUDE",
+    "reason": "Graph learning with LLMs as message-passing kernels; no security task or OS target.",
+    "evidence": "LLM as Graph Kernel: Rethinking Message Passing on Text-Rich Graphs"
+  },
+  {
+    "id": "arxiv:2603.15589",
+    "decision": "EXCLUDE",
+    "reason": "Hardware communication compression for LLM inference; no security task or OS target.",
+    "evidence": "LEXI: Lossless Exponent Coding for Efficient Inter-Chiplet Communication in Hybrid LLMs"
+  },
+  {
+    "id": "arxiv:2603.15809",
+    "decision": "EXCLUDE",
+    "reason": "Security framework for LLM multi-agent networks; agentic network security rather than OS components.",
+    "evidence": "Don't Trust Stubborn Neighbors: A Security Framework for Agentic Networks"
+  },
+  {
+    "id": "arxiv:2603.16236",
+    "decision": "EXCLUDE",
+    "reason": "Restaurant recommendation system with no security task or OS target.",
+    "evidence": "ReFORM: Review-aggregated Profile Generation via LLM with Multi-Factor Attention for Restaurant Recommendation"
+  }
+]

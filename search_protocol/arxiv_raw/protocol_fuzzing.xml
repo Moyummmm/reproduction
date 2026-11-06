@@ -1,0 +1,757 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9w5sgyxaMvuUTAiLNeeXyd0k6jY</id>
+  <title>arXiv Query: search_query=(all:"large language model" OR all:LLM OR all:GPT) AND (all:protocol AND (all:fuzzing OR all:fuzzer) )&amp;id_list=&amp;start=0&amp;max_results=100</title>
+  <updated>2026-11-05T05:39:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(all:%22large+language+model%22+OR+(all:LLM+OR+all:GPT))+AND+(all:protocol+AND+(all:fuzzing+OR+all:fuzzer))&amp;start=0&amp;max_results=100&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>100</opensearch:itemsPerPage>
+  <opensearch:totalResults>28</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.14300v1</id>
+    <title>MultiFuzz: A Dense Retrieval-based Multi-Agent System for Network Protocol Fuzzing</title>
+    <updated>2025-08-19T22:42:04Z</updated>
+    <link href="https://arxiv.org/abs/2508.14300v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.14300v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Traditional protocol fuzzing techniques, such as those employed by AFL-based systems, often lack effectiveness due to a limited semantic understanding of complex protocol grammars and rigid seed mutation strategies. Recent works, such as ChatAFL, have integrated Large Language Models (LLMs) to guide protocol fuzzing and address these limitations, pushing protocol fuzzers to wider exploration of the protocol state space. But ChatAFL still faces issues like unreliable output, LLM hallucinations, and assumptions of LLM knowledge about protocol specifications. This paper introduces MultiFuzz, a novel dense retrieval-based multi-agent system designed to overcome these limitations by integrating semantic-aware context retrieval, specialized agents, and structured tool-assisted reasoning. MultiFuzz utilizes agentic chunks of protocol documentation (RFC Documents) to build embeddings in a vector database for a retrieval-augmented generation (RAG) pipeline, enabling agents to generate more reliable and structured outputs, enhancing the fuzzer in mutating protocol messages with enhanced state coverage and adherence to syntactic constraints. The framework decomposes the fuzzing process into modular groups of agents that collaborate through chain-of-thought reasoning to dynamically adapt fuzzing strategies based on the retrieved contextual knowledge. Experimental evaluations on the Real-Time Streaming Protocol (RTSP) demonstrate that MultiFuzz significantly improves branch coverage and explores deeper protocol states and transitions over state-of-the-art (SOTA) fuzzers such as NSFuzz, AFLNet, and ChatAFL. By combining dense retrieval, agentic coordination, and language model reasoning, MultiFuzz establishes a new paradigm in autonomous protocol fuzzing, offering a scalable and extensible foundation for future research in intelligent agentic-based fuzzing systems.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-19T22:42:04Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Youssef Maklad</name>
+    </author>
+    <author>
+      <name>Fares Wael</name>
+    </author>
+    <author>
+      <name>Ali Hamdi</name>
+    </author>
+    <author>
+      <name>Wael Elsersy</name>
+    </author>
+    <author>
+      <name>Khaled Shaban</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.21892v1</id>
+    <title>APFuzz: Towards Automatic Greybox Protocol Fuzzing</title>
+    <updated>2026-02-25T13:21:06Z</updated>
+    <link href="https://arxiv.org/abs/2602.21892v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.21892v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Greybox protocol fuzzing is a random testing approach for stateful protocol implementations, where the input is protocol messages generated from mutations of seeds, and the search in the input space is driven by the feedback on coverage of both code and state. State model and message model are the core components of communication protocols, which also have significant impacts on protocol fuzzing. In this work, we propose APFuzz (Automatic greybox Protocol Fuzzer) with novel designs to increase the smartness of greybox protocol fuzzers from the perspectives of both the state model and the message model. On the one hand, APFuzz employs a two-stage process of static and dynamic analysis to automatically identify state variables, which are then used to infer an accurate state model during fuzzing. On the other hand, APFuzz introduces field-level mutation operations for binary protocols, leveraging message structure awareness enabled by Large Language Models. We conduct extensive experiments on a public protocol fuzzing benchmark, comparing APFuzz with the baseline fuzzer AFLNET as well as several state-of-the-art greybox protocol fuzzers.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-25T13:21:06Z</published>
+    <arxiv:comment>12 pages, 4 figures, 9 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Yang Xiang</name>
+    </author>
+    <author>
+      <name>Chandra Thapa</name>
+    </author>
+    <author>
+      <name>Hajime Suzuki</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.01750v1</id>
+    <title>LLM-Assisted Model-Based Fuzzing of Protocol Implementations</title>
+    <updated>2025-08-03T13:16:18Z</updated>
+    <link href="https://arxiv.org/abs/2508.01750v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.01750v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Testing network protocol implementations is critical for ensuring the reliability, security, and interoperability of distributed systems. Faults in protocol behavior can lead to vulnerabilities and system failures, especially in real-time and mission-critical applications. A common approach to protocol testing involves constructing Markovian models that capture the state transitions and expected behaviors of the protocol. However, building such models typically requires significant domain expertise and manual effort, making the process time-consuming and difficult to scale across diverse protocols and implementations.
+  We propose a novel method that leverages large language models (LLMs) to automatically generate sequences for testing network protocol implementations. Our approach begins by defining the full set of possible protocol states, from which the LLM selects a subset to model the target implementation. Using this state-based model, we prompt the LLM to generate code that produces sequences of states. This program serves as a protocol-specific sequences generator. The sequences generator then generates test inputs to call the protocol implementation under various conditions. We evaluated our approach on three widely used network protocol implementations and successfully identified 12 previously unknown vulnerabilities. We have reported them to the respective developers for confirmation. This demonstrates the practical effectiveness of our LLM-assisted fuzzing framework in uncovering real-world security issues.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-03T13:16:18Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Changze Huang</name>
+    </author>
+    <author>
+      <name>Di Wang</name>
+    </author>
+    <author>
+      <name>Zhi Quan Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.02694v1</id>
+    <title>MALF: A Multi-Agent LLM Framework for Intelligent Fuzzing of Industrial Control Protocols</title>
+    <updated>2025-10-03T03:19:49Z</updated>
+    <link href="https://arxiv.org/abs/2510.02694v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.02694v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Industrial control systems (ICS) are vital to modern infrastructure but increasingly vulnerable to cybersecurity threats, particularly through weaknesses in their communication protocols. This paper presents MALF (Multi-Agent LLM Fuzzing Framework), an advanced fuzzing solution that integrates large language models (LLMs) with multi-agent coordination to identify vulnerabilities in industrial control protocols (ICPs). By leveraging Retrieval-Augmented Generation (RAG) for domain-specific knowledge and QLoRA fine-tuning for protocol-aware input generation, MALF enhances fuzz testing precision and adaptability. The multi-agent framework optimizes seed generation, mutation strategies, and feedback-driven refinement, leading to improved vulnerability discovery. Experiments on protocols like Modbus/TCP, S7Comm, and Ethernet/IP demonstrate that MALF surpasses traditional methods, achieving a test case pass rate (TCPR) of 88-92% and generating more exception triggers (ETN). MALF also maintains over 90% seed coverage and Shannon entropy values between 4.2 and 4.6 bits, ensuring diverse, protocol-compliant mutations. Deployed in a real-world Industrial Attack-Defense Range for power plants, MALF identified critical vulnerabilities, including three zero-day flaws, one confirmed and registered by CNVD. These results validate MALF's effectiveness in real-world fuzzing applications. This research highlights the transformative potential of multi-agent LLMs in ICS cybersecurity, offering a scalable, automated framework that sets a new standard for vulnerability discovery and strengthens critical infrastructure security against emerging threats.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-03T03:19:49Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Bowei Ning</name>
+    </author>
+    <author>
+      <name>Xuejun Zong</name>
+    </author>
+    <author>
+      <name>Kan He</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.11929v1</id>
+    <title>ChatHTTPFuzz: Large Language Model-Assisted IoT HTTP Fuzzing</title>
+    <updated>2024-11-18T10:48:53Z</updated>
+    <link href="https://arxiv.org/abs/2411.11929v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.11929v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Internet of Things (IoT) devices offer convenience through web interfaces, web VPNs, and other web-based services, all relying on the HTTP protocol. However, these externally exposed HTTP services resent significant security risks. Although fuzzing has shown some effectiveness in identifying vulnerabilities in IoT HTTP services, most state-of-the-art tools still rely on random mutation trategies, leading to difficulties in accurately understanding the HTTP protocol's structure and generating many invalid test cases. Furthermore, These fuzzers rely on a limited set of initial seeds for testing. While this approach initiates testing, the limited number and diversity of seeds hinder comprehensive coverage of complex scenarios in IoT HTTP services. In this paper, we investigate and find that large language models (LLMs) excel in parsing HTTP protocol data and analyzing code logic. Based on these findings, we propose a novel LLM-guided IoT HTTP fuzzing method, ChatHTTPFuzz, which automatically parses protocol fields and analyzes service code logic to generate protocol-compliant test cases. Specifically, we use LLMs to label fields in HTTP protocol data, creating seed templates. Second, The LLM analyzes service code to guide the generation of additional packets aligned with the code logic, enriching the seed templates and their field values. Finally, we design an enhanced Thompson sampling algorithm based on the exploration balance factor and mutation potential factor to schedule seed templates. We evaluate ChatHTTPFuzz on 14 different real-world IoT devices. It finds more vulnerabilities than SNIPUZZ, BOOFUZZ, and MUTINY. ChatHTTPFuzz has discovered 103 vulnerabilities, of which 68 are unique, and 23 have been assigned CVEs.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-18T10:48:53Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zhe Yang</name>
+    </author>
+    <author>
+      <name>Hao Peng</name>
+    </author>
+    <author>
+      <name>Yanling Jiang</name>
+    </author>
+    <author>
+      <name>Xingwei Li</name>
+    </author>
+    <author>
+      <name>Haohua Du</name>
+    </author>
+    <author>
+      <name>Shuhai Wang</name>
+    </author>
+    <author>
+      <name>Jianwei Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.04760v1</id>
+    <title>AFL-ICP: Enhancing Industrial Control Protocol Reliability via Specification-Guided Fuzzing</title>
+    <updated>2026-05-06T11:07:24Z</updated>
+    <link href="https://arxiv.org/abs/2605.04760v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.04760v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Industrial Control Protocols (ICPs) are critical to the reliability and stability of industrial infrastructure, yet their security is fundamentally compromised by a specification-blindness bottleneck. Modern fuzzers, constrained by observation-driven inference, struggle to penetrate deep protocol states or detect subtle semantic deviations. In this paper, we present AFL-ICP, an autonomous fuzzing framework that pioneers a specification-driven paradigm. AFL-ICP features a context-aware specification formalization pipeline to transform complex specifications into rigorous machine-executable grammars. Building on this formalized specification, AFL-ICP leverages LLMs to enable automated protocol adaptation and seed generation, allowing for rapid extension to new protocols with minimal manual effort. Additionally, it includes an LLM-powered differential checker that cross-references implementation outputs with specification requirements to detect subtle semantic and logic bugs that existing fuzzers cannot detect. We implement AFL-ICP and evaluate it on four widely used ICPs, including both open-source and closed-source variants. Results show that AFL-ICP significantly outperforms state-of-the-art fuzzers in coverage and uncovers 24 previously unknown vulnerabilities, for which we have received acknowledgments from affected vendors (e.g., FreyrSCADA). Specifically, the identified vulnerabilities include 16 semantic and logic bugs that can silently disrupt industrial operations and degrade service availability.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-06T11:07:24Z</published>
+    <arxiv:comment>11 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jiaying Meng</name>
+    </author>
+    <author>
+      <name>Xuewei Feng</name>
+    </author>
+    <author>
+      <name>Qi Li</name>
+    </author>
+    <author>
+      <name>Min Liu</name>
+    </author>
+    <author>
+      <name>Ke Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.13515v1</id>
+    <title>Large Language Models for Validating Network Protocol Parsers</title>
+    <updated>2025-04-18T07:09:56Z</updated>
+    <link href="https://arxiv.org/abs/2504.13515v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.13515v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Network protocol parsers are essential for enabling correct and secure communication between devices. Bugs in these parsers can introduce critical vulnerabilities, including memory corruption, information leakage, and denial-of-service attacks. An intuitive way to assess parser correctness is to compare the implementation with its official protocol standard. However, this comparison is challenging because protocol standards are typically written in natural language, whereas implementations are in source code. Existing methods like model checking, fuzzing, and differential testing have been used to find parsing bugs, but they either require significant manual effort or ignore the protocol standards, limiting their ability to detect semantic violations. To enable more automated validation of parser implementations against protocol standards, we propose PARVAL, a multi-agent framework built on large language models (LLMs). PARVAL leverages the capabilities of LLMs to understand both natural language and code. It transforms both protocol standards and their implementations into a unified intermediate representation, referred to as format specifications, and performs a differential comparison to uncover inconsistencies. We evaluate PARVAL on the Bidirectional Forwarding Detection (BFD) protocol. Our experiments demonstrate that PARVAL successfully identifies inconsistencies between the implementation and its RFC standard, achieving a low false positive rate of 5.6%. PARVAL uncovers seven unique bugs, including five previously unknown issues.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-18T07:09:56Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Mingwei Zheng</name>
+    </author>
+    <author>
+      <name>Danning Xie</name>
+    </author>
+    <author>
+      <name>Xiangyu Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.24498v1</id>
+    <title>SeriCrypt: An LLM-Driven Context-Aware Serialization Framework for Cryptographic Protocols</title>
+    <updated>2026-08-25T12:46:34Z</updated>
+    <link href="https://arxiv.org/abs/2608.24498v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.24498v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Constructing syntactically correct and cryptographically valid message sequences is essential for protocol state machine learning, conformance testing, and fuzzing. Unlike plaintext protocols, cryptographic protocols involve complex cross-message state dependencies and cryptographic computation constraints. Existing automated approaches predominantly target text-based or plaintext protocols, leaving cryptographic message construction largely manual. We present SeriCrypt, an LLM-driven, context-aware serialization framework for cryptographic protocols. It employs a large language model to extract field constraints, state dependencies, and cryptographic computation rules from unstructured protocol specifications into a unified structured intermediate representation, formally characterized by a domain-specific language for cryptographic protocols (CDSL). A protocol-agnostic execution engine parses CDSL declarations, automating field value resolution, cryptographic primitive invocation, and byte-stream serialization. As case studies in protocol security testing, we use the framework to construct violation messages targeting specification-defined security constraints and to support protocol fuzzing, evaluating it on mainstream implementations of TLS 1.2/1.3, IKEv1/v2, SSH, and TLCP. SeriCrypt generated message sequences accepted by all evaluated implementations and completed handshakes in every scenario. Security constraint testing revealed five specification violations, and fuzzing reached deeper protocol states with higher code coverage than mainstream fuzzers under the same time budget, demonstrating the framework's practical value for cryptographic protocol security testing.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-25T12:46:34Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Maosong Chen</name>
+    </author>
+    <author>
+      <name>Xi Chen</name>
+    </author>
+    <author>
+      <name>Mengcheng Ju</name>
+    </author>
+    <author>
+      <name>Dongliang Zhao</name>
+    </author>
+    <author>
+      <name>Chunxiang Gu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.19533v1</id>
+    <title>Semantic-Aware Fuzzing: An Empirical Framework for LLM-Guided, Reasoning-Driven Input Mutation</title>
+    <updated>2025-09-23T19:57:29Z</updated>
+    <link href="https://arxiv.org/abs/2509.19533v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.19533v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Security vulnerabilities in Internet-of-Things devices, mobile platforms, and autonomous systems remain critical. Traditional mutation-based fuzzers -- while effectively explore code paths -- primarily perform byte- or bit-level edits without semantic reasoning. Coverage-guided tools such as AFL++ use dictionaries, grammars, and splicing heuristics to impose shallow structural constraints, leaving deeper protocol logic, inter-field dependencies, and domain-specific semantics unaddressed. Conversely, reasoning-capable large language models (LLMs) can leverage pretraining knowledge to understand input formats, respect complex constraints, and propose targeted mutations, much like an experienced reverse engineer or testing expert. However, lacking ground truth for "correct" mutation reasoning makes supervised fine-tuning impractical, motivating explorations of off-the-shelf LLMs via prompt-based few-shot learning. To bridge this gap, we present an open-source microservices framework that integrates reasoning LLMs with AFL++ on Google's FuzzBench, tackling asynchronous execution and divergent hardware demands (GPU- vs. CPU-intensive) of LLMs and fuzzers. We evaluate four research questions: (R1) How can reasoning LLMs be integrated into the fuzzing mutation loop? (R2) Do few-shot prompts yield higher-quality mutations than zero-shot? (R3) Can prompt engineering with off-the-shelf models improve fuzzing directly? and (R4) Which open-source reasoning LLMs perform best under prompt-only conditions? Experiments with Llama3.3, Deepseek-r1-Distill-Llama-70B, QwQ-32B, and Gemma3 highlight Deepseek as the most promising. Mutation effectiveness depends more on prompt complexity and model choice than shot count. Response latency and throughput bottlenecks remain key obstacles, offering directions for future work.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-23T19:57:29Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Mengdi Lu</name>
+    </author>
+    <author>
+      <name>Steven Ding</name>
+    </author>
+    <author>
+      <name>Furkan Alaca</name>
+    </author>
+    <author>
+      <name>Philippe Charland</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.05989v1</id>
+    <title>SemFuzz: A Semantics-Aware Fuzzing Framework for Network Protocol Implementations</title>
+    <updated>2026-03-06T07:42:33Z</updated>
+    <link href="https://arxiv.org/abs/2603.05989v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.05989v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Network protocols are the foundation of modern communication, yet their implementations often contain semantic vulnerabilities stemming from inadequate understanding of specification semantics. Existing gray-box and black-box testing approaches lack semantic modeling of protocols, making it difficult to precisely express testing intent and cover boundary conditions. Moreover, they typically rely on coarse-grained oracles such as crashes, which are inadequate for identifying deep semantic vulnerabilities. To address these limitations, we present a semantics-aware fuzzing framework, SemFuzz. The framework leverages large language models to extract structured semantic rules from RFC documents and generates test cases that intentionally violate these rules to encode specific testing intents. It then detects deep semantic vulnerabilities by comparing the observed responses with the expected ones. Evaluation on seven widely deployed protocol implementations shows that SemFuzz identified sixteen potential vulnerabilities, ten of which have been confirmed. Among the confirmed vulnerabilities, five were previously unknown and four have been assigned CVEs. These results demonstrate the effectiveness of SemFuzz in detecting semantic vulnerabilities.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-06T07:42:33Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yanbang Sun</name>
+    </author>
+    <author>
+      <name>Quan Luo</name>
+    </author>
+    <author>
+      <name>Yuelin Wang</name>
+    </author>
+    <author>
+      <name>Qian Chen</name>
+    </author>
+    <author>
+      <name>Benjin Liu</name>
+    </author>
+    <author>
+      <name>Ruiqi Chen</name>
+    </author>
+    <author>
+      <name>Qing Huang</name>
+    </author>
+    <author>
+      <name>Xiaohong Li</name>
+    </author>
+    <author>
+      <name>Junjie Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.13004v1</id>
+    <title>IntentFuzz: A Protocol-Aware Fuzzer for Automated Invariant Violation Detection in Intent-Based Cross-Chain Bridges</title>
+    <updated>2026-09-11T16:03:54Z</updated>
+    <link href="https://arxiv.org/abs/2609.13004v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.13004v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cross-chain bridges move value between blockchains. Intent-based bridges are a variant where a solver fulfills a user's declared outcome and an off-chain settlement layer later reconciles the fill against the deposit. Existing smart-contract fuzzers and static analyzers only flag known-bad code patterns or require protocol-specific hand-written assertions. This work formalizes a taxonomy separating invariant violations, safety properties a contract must enforce locally, from settlement exposures legitimately delegated to the off-chain settlement layer, and proposes IntentFuzz: a protocol-aware fuzzer that recovers a bridge's intent structure and deposit/fill function roles directly from unannotated Solidity source, then synthesizes multi-step fuzz sequences using an LLM-based fallback to help build call arguments. IntentFuzz recovers the correct intent structure in 9/9 benchmark protocols and classifies deposit and fill functions with 100% recall and 82% combined precision; across a corpus of 77 manually labeled contracts, it reaches 79.5% bridge-classification precision and 97.2% recall, and among confirmed bridges, struct selection reaches 88.6% precision and recall while deposit and fill classification each reach 100% recall. On 23 planted-bug mutants, IntentFuzz attains 100% recall and 100% precision, executing 273 templates (507 transactions in a median of 14ms per template). Across 24 real-world deployments, it confirms 17 genuine invariant violations under heuristic-only input generation, rising to 22 with its LLM-assisted tier enabled, spanning eight vulnerable GitHub repositories, each finding reproducible against public, deployed bytecode.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-11T16:03:54Z</published>
+    <arxiv:comment>15 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>André Augusto</name>
+    </author>
+    <author>
+      <name>Christof Ferreira Torres</name>
+    </author>
+    <author>
+      <name>André Vasconcelos</name>
+    </author>
+    <author>
+      <name>Miguel Correia</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.03854v1</id>
+    <title>Towards Effective Fuzzing of EDK2 Components</title>
+    <updated>2026-11-02T19:23:21Z</updated>
+    <link href="https://arxiv.org/abs/2611.03854v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.03854v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Securing bootloaders is critical to establishing the trusted computing base of modern systems. TianoCore's edk2, the de facto UEFI-based bootloader, is widely deployed but has recently been shown to contain numerous high-severity vulnerabilities. Existing approaches either focus on post-boot interfaces or rely on heavyweight simulation, limiting their scalability, throughput, and coverage of boot-time components.
+  We present Metis, an automated technique for fuzzing edk2 protocols (i.e., boot-time interfaces) by rehosting them as user-space applications. Our key insight is that effective fuzzing must exercise not only protocol interfaces but also their dependency interactions, which serve as additional input channels. Metis employs a Direct-dependency Component Rehosting (DCR)-based strategy to construct semantically meaningful mocks for dependencies, enabling controlled input injection across all channels. It further leverages a hybrid approach combining static analysis and Large Language Model (LLM)-guided synthesis to generate and refine fuzzing harnesses. We implement Metis on the Host Based Firmware Analyzer (HBFA) framework and evaluate it on 60 drivers covering 162 protocols. Metis achieves 73.1% coverage, approximately 1.7 times higher than FuzzUEr, the state-of-the-art edk2 fuzzing technique, and discovers 137 previously unknown bugs. We have already reported 26 of them, including 12 that are remotely triggerable, and all reported vulnerabilities have been acknowledged by the vendors.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-02T19:23:21Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Datta Manikanta Sri Hari Danduri</name>
+    </author>
+    <author>
+      <name>Connor Everett Glosner</name>
+    </author>
+    <author>
+      <name>Aravind Machiry</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.15727v2</id>
+    <title>Retrieval Augmented Generation Based LLM Evaluation For Protocol State Machine Inference With Chain-of-Thought Reasoning</title>
+    <updated>2025-06-27T18:24:21Z</updated>
+    <link href="https://arxiv.org/abs/2502.15727v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.15727v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a novel approach to evaluate the efficiency of a RAG-based agentic Large Language Model (LLM) architecture for network packet seed generation and enrichment. Enhanced by chain-of-thought (COT) prompting techniques, the proposed approach focuses on the improvement of the seeds' structural quality in order to guide protocol fuzzing frameworks through a wide exploration of the protocol state space. Our method leverages RAG and text embeddings to dynamically reference to the Request For Comments (RFC) documents knowledge base for answering queries regarding the protocol's Finite State Machine (FSM), then iteratively reasons through the retrieved knowledge, for output refinement and proper seed placement. We then evaluate the response structure quality of the agent's output, based on metrics as BLEU, ROUGE, and Word Error Rate (WER) by comparing the generated packets against the ground-truth packets. Our experiments demonstrate significant improvements of up to 18.19%, 14.81%, and 23.45% in BLEU, ROUGE, and WER, respectively, over baseline models. These results confirm the potential of such approach, improving LLM-based protocol fuzzing frameworks for the identification of hidden vulnerabilities.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-30T01:03:49Z</published>
+    <arxiv:comment>Minor modifications in sections: abstract, introduction, background problem formulation, and conclusion. (Typos and Clarifications)</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Youssef Maklad</name>
+    </author>
+    <author>
+      <name>Fares Wael</name>
+    </author>
+    <author>
+      <name>Wael Elsersy</name>
+    </author>
+    <author>
+      <name>Ali Hamdi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.08616v1</id>
+    <title>Coverage-Guided Multi-Agent Harness Generation for Java Library Fuzzing</title>
+    <updated>2026-03-09T16:59:30Z</updated>
+    <link href="https://arxiv.org/abs/2603.08616v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.08616v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Coverage-guided fuzzing has proven effective for software testing, but targeting library code requires specialized fuzz harnesses that translate fuzzer-generated inputs into valid API invocations. Manual harness creation is time-consuming and requires deep understanding of API semantics, initialization sequences, and exception handling contracts. We present a multi-agent architecture that automates fuzz harness generation for Java libraries through specialized LLM-powered agents. Five ReAct agents decompose the workflow into research, synthesis, compilation repair, coverage analysis, and refinement. Rather than preprocessing entire codebases, agents query documentation, source code, and callgraph information on demand through the Model Context Protocol, maintaining focused context while exploring complex dependencies. To enable effective refinement, we introduce method-targeted coverage that tracks coverage only during target method execution to isolate target behavior, and agent-guided termination that examines uncovered source code to distinguish productive refinement opportunities from diminishing returns. We evaluated our approach on seven target methods from six widely-deployed Java libraries totaling 115,000+ Maven dependents. Our generated harnesses achieve a median 26\% improvement over OSS-Fuzz baselines and outperform Jazzer AutoFuzz by 5\% in package-scope coverage. Generation costs average \$3.20 and 10 minutes per harness, making the approach practical for continuous fuzzing workflows. During a 12-hour fuzzing campaign, our generated harnesses discovered 3 bugs in projects that are already integrated into OSS-Fuzz, demonstrating the effectiveness of the generated harnesses.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-09T16:59:30Z</published>
+    <arxiv:comment>Accepted at The 19th International Workshop on Search-Based and Fuzz Testing (SBFT 2026, ICSE Workshop)</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Nils Loose</name>
+    </author>
+    <author>
+      <name>Nico Winkel</name>
+    </author>
+    <author>
+      <name>Kristoffer Hempel</name>
+    </author>
+    <author>
+      <name>Felix Mächtle</name>
+    </author>
+    <author>
+      <name>Julian Hans</name>
+    </author>
+    <author>
+      <name>Thomas Eisenbarth</name>
+    </author>
+    <arxiv:doi>10.1145/3786155.3788582</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3786155.3788582" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.00393v4</id>
+    <title>Unleashing the Power of LLM to Infer State Machine from the Protocol Implementation</title>
+    <updated>2025-03-27T02:51:49Z</updated>
+    <link href="https://arxiv.org/abs/2405.00393v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.00393v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>State machines are essential for enhancing protocol analysis to identify vulnerabilities. However, inferring state machines from network protocol implementations is challenging due to complex code syntax and semantics. Traditional dynamic analysis methods often miss critical state transitions due to limited coverage, while static analysis faces path explosion issues. To overcome these challenges, we introduce a novel state machine inference approach utilizing Large Language Models (LLMs), named ProtocolGPT. This method employs retrieval augmented generation technology to enhance a pre-trained model with specific knowledge from protocol implementations. Through effective prompt engineering, we accurately identify and infer state machines. To the best of our knowledge, our approach represents the first state machine inference that leverages the source code of protocol implementations. Our evaluation of six protocol implementations shows that our method achieves a precision of over 90%, outperforming the baselines by more than 30%. Furthermore, integrating our approach with protocol fuzzing improves coverage by more than 20% and uncovers two 0-day vulnerabilities compared to baseline methods.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-01T08:46:36Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Haiyang Wei</name>
+    </author>
+    <author>
+      <name>Ligeng Chen</name>
+    </author>
+    <author>
+      <name>Zhengjie Du</name>
+    </author>
+    <author>
+      <name>Yuhan Wu</name>
+    </author>
+    <author>
+      <name>Haohui Huang</name>
+    </author>
+    <author>
+      <name>Yue Liu</name>
+    </author>
+    <author>
+      <name>Guang Cheng</name>
+    </author>
+    <author>
+      <name>Fengyuan Xu</name>
+    </author>
+    <author>
+      <name>Linzhang Wang</name>
+    </author>
+    <author>
+      <name>Bing Mao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.29155v2</id>
+    <title>5uGUE: Agentic Hardware-in-the-Loop Fuzzing for 5G Devices and beyond</title>
+    <updated>2026-10-27T07:00:11Z</updated>
+    <link href="https://arxiv.org/abs/2610.29155v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.29155v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we present 5uGUE, a large language model (LLM)-driven hardware-in-the-loop agent, which enables the wireless fuzzing of 5G-enabled devices (such as mobile phones). 5uGUE combines multi-step reasoning with tool-assisted interaction and integrates into the fuzzing pipeline by leveraging specialized tools for internet search, 5G protocol analysis, memory management, and test-case execution. The agent iteratively generates test cases, executes them on targets, collects runtime feedback, and adaptively refines the fuzzing strategy. We evaluate 5uGUE on five commercial off-the-shelf (COTS) 5G devices across six LLMs. The best performing runs for 5uGUE trigger 167 crashes in total (141 novel and 31 unique) within 60 interaction turns (49 to 133 minutes total runtime). In contrast, the best runs for the state-of-the-art baseline (5GHOUL) discovers only 13 crashes in total (10 novel and 6 unique) within 150 minutes. Overall, by integrating LLM-driven agents, 5uGUE demonstrates significantly better crash discovery performance (12.8x total, 5.2x unique improvement). Notably, our experiments identified 46 unique crashes, 44 of which were confirmed by the vendors but had been previously reported. More importantly, MediaTek confirmed two previously unknown, high-severity vulnerabilities, one of which was assigned CVE-2026-20525. Finally, to demonstrate that 5uGUE is agnostic to wireless protocols, we also extend it to Bluetooth Classic with only minimal code changes. In our evaluations, 5uGUE finds an average of 6.4 novel crashes and 1.6 unique crashes. In a nutshell, 5uGUE highlights that LLM agents are capable to operate effectively beyond software-in-the-loop settings, extending autonomous vulnerability discovery to the proprietary, hardware-bound systems that affect billions of end-user devices across multiple wireless protocols.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-21T03:45:25Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Guoqiang Hua</name>
+    </author>
+    <author>
+      <name>Sakshi Udeshi</name>
+    </author>
+    <author>
+      <name>Matheus Eduardo Garbelini</name>
+    </author>
+    <author>
+      <name>Daisuke Mashima</name>
+    </author>
+    <author>
+      <name>Sudipta Chattopadhyay</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.15727v1</id>
+    <title>Structured Abductive-Deductive-Inductive Reasoning for LLMs via Algebraic Invariants</title>
+    <updated>2026-04-17T05:59:16Z</updated>
+    <link href="https://arxiv.org/abs/2604.15727v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.15727v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models exhibit systematic limitations in structured logical reasoning: they conflate hypothesis generation with verification, cannot distinguish conjecture from validated knowledge, and allow weak reasoning steps to propagate unchecked through inference chains. We present a symbolic reasoning scaffold that operationalizes Peirce's tripartite inference -- abduction, deduction, and induction -- as an explicit protocol for LLM-assisted reasoning. The framework enforces logical consistency through five algebraic invariants (the Gamma Quintet), the strongest of which -- the Weakest Link bound -- ensures that no conclusion in a reasoning chain can exceed the reliability of its least-supported premise. This principle, independently grounded as weakest link resolution in possibilistic logic and empirically validated for chain-of-thought reasoning, prevents logical inconsistencies from accumulating across multi-step inference. We verify all invariants through a property-based testing suite of 100 properties and 16 fuzz tests over 10^5+ generated cases, providing a verified reference implementation of the invariants suitable as a foundation for future reasoning benchmarks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-17T05:59:16Z</published>
+    <arxiv:comment>10 pages + 3 pages references. Accepted as a poster at the ICLR 2026 Workshop for LLM Reasoning</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sankalp Gilda</name>
+    </author>
+    <author>
+      <name>Shlok Gilda</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.21824v1</id>
+    <title>Quality-Assured Fuzz Harness Generation via the Four Principles Framework</title>
+    <updated>2026-05-20T23:48:26Z</updated>
+    <link href="https://arxiv.org/abs/2605.21824v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.21824v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fuzz testing is the dominant technique for finding memory-safety vulnerabilities in C/C++ software, yet its effectiveness hinges on the quality of fuzz harnesses -- the programs that bridge fuzzers and library APIs. A growing body of tools now automate harness generation, but none systematically ensures the correctness of produced harnesses: logic errors, API misuse, and lifecycle violations go undetected at the source level. As LLM-driven generation scales harness creation, uncontrolled quality turns scale into a liability.
+  We present QuartetFuzz, an autonomous harness-generation system that systematically improves correctness throughout the generation process. At its core is the Four Principles framework -- Logic Correctness (P1), API Protocol Compliance (P2), Security Boundary Respect (P3), and Entry Point Adequacy (P4) -- the first source-level definition of harness correctness with mathematical specifications and implementable checks. We operationalize these principles in an autonomous LLM agent that produces harnesses satisfying P1-P4 through a generate-check-fix loop before any fuzzing begins.
+  Deployed on 23 open-source projects spanning C/C++, Java, and JavaScript, the system submits 42 bug reports, of which 29 are fixed or confirmed upstream (including 3 CVEs) and only 2 are rejected (4.8% FP rate). During generation, the built-in P1/P2 checks automatically intercepted 58 harness-induced crashes that would otherwise have been false positives. Applied as a quality auditor to 586 existing production harnesses across 70 projects, the system identifies 53 violations (45 confirmed, 35 fixed). We release a dataset of 100 labeled harnesses for reproducible evaluation. Code and dataset are available at https://github.com/OwenSanzas/QuartetFuzz</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-20T23:48:26Z</published>
+    <arxiv:comment>22 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ze Sheng</name>
+    </author>
+    <author>
+      <name>Dmitrijs Trizna</name>
+    </author>
+    <author>
+      <name>Luigino Camastra</name>
+    </author>
+    <author>
+      <name>Zhicheng Chen</name>
+    </author>
+    <author>
+      <name>Qingxiao Xu</name>
+    </author>
+    <author>
+      <name>Jeff Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.29124v2</id>
+    <title>CornerCase: Automated Extremal Testing of Protocol Implementations using LLMs</title>
+    <updated>2026-08-04T19:30:25Z</updated>
+    <link href="https://arxiv.org/abs/2606.29124v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.29124v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many software bugs in network protocol implementations arise near specification boundaries, such as inputs just within or outside allowed ranges, or messages that are valid in isolation but invalid in a given state. From the SSL Heartbleed exploit to TCP Christmas Tree packets, boundary inputs have repeatedly exposed critical weaknesses, yet remain under-tested by existing techniques such as fuzzing and model-based testing. We present CornerCase, an automated extremal testing approach that systematically targets such boundary behaviors. Our key idea is to decompose test generation into two stages: first, large language models (LLMs) extract explicit validity constraints from protocol specifications (e.g., RFCs) in a structured, section-by-section manner; second, extremal test cases are generated at or near the boundary of each constraint. These tests are executed across multiple implementations, and differential testing identifies inconsistencies. We evaluate CornerCase on widely used implementations of HTTP, DNS, BGP, SMTP, and QUIC, uncovering many previously unknown bugs. For example, the HTTP server h2o enters a redirect loop when processing URLs containing encoded null bytes. Overall, we used CornerCase to identify and file 42 anomalies; to date 26 have been acknowledged as bugs and 18 fixed, with others under active investigation</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-28T00:25:50Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Rathin Singha</name>
+    </author>
+    <author>
+      <name>Kuan Qian</name>
+    </author>
+    <author>
+      <name>Srinath Saikrishnan</name>
+    </author>
+    <author>
+      <name>Tracy Zhao</name>
+    </author>
+    <author>
+      <name>Soheil Abbasloo</name>
+    </author>
+    <author>
+      <name>Ryan Beckett</name>
+    </author>
+    <author>
+      <name>Siva Kesava Reddy Kakarla</name>
+    </author>
+    <author>
+      <name>Todd Millstein</name>
+    </author>
+    <author>
+      <name>George Varghese</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.06195v1</id>
+    <title>LogicHunter: Testing LLM Agent Frameworks with an Agentic Oracle</title>
+    <updated>2026-07-07T12:21:42Z</updated>
+    <link href="https://arxiv.org/abs/2607.06195v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.06195v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) agent frameworks such as LangChain, LlamaIndex, and CrewAI have become critical infrastructure powering production AI systems, yet they remain severely under-tested due to fundamental challenges in automated testing. Unlike traditional software, where crashes serve as reliable oracles, defects in these pure Python frameworks manifest as ordinary exceptions or silent semantic failures, creating profound oracle ambiguity. This problem is exacerbated by strict type governance through Pydantic schemas and complex protocol requirements that cause existing fuzzers to generate overwhelming invalid inputs, while traditional test generators produce only trivial cases with weak regression assertions.
+  We present LogicHunter, a fuzzing framework that addresses both the generation and oracle challenges through active specification-aware testing. LogicHunter employs specification-driven generation that systematically fuses formal type constraints with authentic usage patterns from real-world repositories, synthesizing inputs that are valid by construction yet semantically extreme, equipped with behavioral probes to expose silent failures. To resolve oracle ambiguity, we introduce the Agentic Oracle, which transcends passive classification by actively retrieving documentation, navigating source code, and inspecting runtime states through a ReAct-based architecture with Dual-Layer State Management and Dual-Stream Memory. Evaluated on three widely deployed frameworks, LogicHunter discovered 40 previously unknown bugs with 30 confirmed and 26 fixed by developers, while state-of-the-art baselines reported no bugs as final findings. The Agentic Oracle achieves 91.17% precision, surpassing the best passive approach at 29.27% by 61 percentage points.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-07T12:21:42Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Minghui Long</name>
+    </author>
+    <author>
+      <name>Yanjie Zhao</name>
+    </author>
+    <author>
+      <name>Haoyu Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.17977v1</id>
+    <title>Synthesizing Precise Protocol Specs from Natural Language for Effective Test Generation</title>
+    <updated>2025-11-22T08:39:52Z</updated>
+    <link href="https://arxiv.org/abs/2511.17977v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.17977v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Safety- and security-critical systems have to be thoroughly tested against their specifications. The state of practice is to have _natural language_ specifications, from which test cases are derived manually - a process that is slow, error-prone, and difficult to scale. _Formal_ specifications, on the other hand, are well-suited for automated test generation, but are tedious to write and maintain. In this work, we propose a two-stage pipeline that uses large language models (LLMs) to bridge the gap: First, we extract _protocol elements_ from natural-language specifications; second, leveraging a protocol implementation, we synthesize and refine a formal _protocol specification_ from these elements, which we can then use to massively test further implementations.
+  We see this two-stage approach to be superior to end-to-end LLM-based test generation, as 1. it produces an _inspectable specification_ that preserves traceability to the original text; 2. the generation of actual test cases _no longer requires an LLM_; 3. the resulting formal specs are _human-readable_, and can be reviewed, version-controlled, and incrementally refined; and 4. over time, we can build a _corpus_ of natural-language-to-formal-specification mappings that can be used to further train and refine LLMs for more automatic translations.
+  Our prototype, AUTOSPEC, successfully demonstrated the feasibility of our approach on five widely used _internet protocols_ (SMTP, POP3, IMAP, FTP, and ManageSieve) by applying its methods on their _RFC specifications_ written in natural-language, and the recent _I/O grammar_ formalism for protocol specification and fuzzing. In its evaluation, AUTOSPEC recovers on average 92.8% of client and 80.2% of server message types, and achieves 81.5% message acceptance across diverse, real-world systems.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-22T08:39:52Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Kuangxiangzi Liu</name>
+    </author>
+    <author>
+      <name>Dhiman Chakraborty</name>
+    </author>
+    <author>
+      <name>Alexander Liggesmeyer</name>
+    </author>
+    <author>
+      <name>Andreas Zeller</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.20128v2</id>
+    <title>The Correctness Illusion in LLM-Generated GPU Kernels</title>
+    <updated>2026-07-21T16:04:35Z</updated>
+    <link href="https://arxiv.org/abs/2606.20128v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.20128v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Benchmarks for LLM-generated GPU kernels (KernelBench, TritonBench, GEAK) score correctness through fixed-shape, small-sample allclose-style checks. The number of inputs varies between benchmarks. The shape, dtype, and tolerance are fixed for each kernel. We test that oracle empirically. We construct a controlled corpus of 24 Triton and CPU stand-in kernels (15 correct controls and 9 LLM-style buggy variants seeded with documented transcription errors) and re-evaluate it under op-schema-aware seeded fuzzing with a high-precision (fp64) CPU reference and per-(op, dtype) absolute tolerances. The seeded oracle flags 9 of 9 buggy kernels and passes 15 of 15 correct controls, at zero precision cost on controls. We extend the corpus to 26 ops (adding a flash-attention pair) and re-run the same protocol on five GPU classes (RTX 3060, A10, L40S, A100 SXM4, H100 NVL). The verdicts are identical across all five GPUs: 10 of 10 illusions caught and 16 of 16 controls clean. The corpus result is about LLM-style transcription bugs that the allclose-on-one-shape oracle certifies as correct, not about the bug rate of any specific deployed LLM. Every flagged failure replays byte-for-byte from a stored seed.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-18T11:52:46Z</published>
+    <arxiv:comment>10 pages, 2 figures, LNCS format. Companion papers to follow on arXiv next week; IDs will be added in a v2 replace</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Dipankar Sarkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.25555v1</id>
+    <title>From CRUD to Autonomous Agents: Formal Validation and Zero-Trust Security for Semantic Gateways in AI-Native Enterprise Systems</title>
+    <updated>2026-04-28T12:25:06Z</updated>
+    <link href="https://arxiv.org/abs/2604.25555v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.25555v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Enterprise software engineering is shifting away from deterministic CRUD/REST architectures toward AI-native systems where large language models act as cognitive orchestrators. This transition introduces a critical security tension: probabilistic LLMs weaken classical mechanisms for validation, access control, and formal testing.
+  This paper proposes the design, formal validation, and empirical evaluation of a Semantic Gateway governed by the Model Context Protocol (MCP). The gateway reframes the enterprise API as a semantic surface where tools are dynamically discovered, authorized, and executed based on intent and policy enforcement. The central contribution rests on a paradigm shift: autonomous agents must not be validated as traditional software nor as simple API consumers, but as stochastic state-transition systems whose behavior must be abstracted, fuzzed, and audited through enabled-tool graphs.
+  The architecture introduces a three-layer Zero-Trust security model comprising a pre-inference Semantic Firewall, deterministic Tool-Level RBAC, and out-of-band Cryptographic Human-in-the-Loop approval. Enabledness-Preserving Abstractions (EPAs) and greybox semantic fuzzing--originally developed for blockchain smart contract verification--are adapted to audit agent behavior in enterprise environments. Results demonstrate an 84.2% reduction in incidental code. Across 500,000 multi-turn fuzzing sequences, the methodology achieved a 100% discovery rate of hidden unauthorized state transitions, proving that dynamic formal verification is strictly necessary for secure agentic deployment.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-28T12:25:06Z</published>
+    <arxiv:comment>25 pages, 4 figures, 4 tables. Open-source proof-of-concept (47 automated tests, deterministic semantic fuzzer) available at https://github.com/PeyranoDev/semantic-gateway-poc</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ignacio Peyrano</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.21641v1</id>
+    <title>Auditing MCP Servers for Over-Privileged Tool Capabilities</title>
+    <updated>2026-03-23T07:20:00Z</updated>
+    <link href="https://arxiv.org/abs/2603.21641v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.21641v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Model Context Protocol (MCP) has emerged as a standard for connecting Large Language Models (LLMs) to external tools and data. However, MCP servers often expose privileged capabilities, such as file system access, network requests, and command execution that can be exploited if not properly secured. We present mcp-sec-audit, an extensible security assessment toolkit designed specifically for MCP servers. It implements static pattern matching for Python-based MCP servers and dynamic sandboxed fuzzing and monitoring via Docker and eBPF. The tool detects risky capabilities through configurable rule-based analysis and provides mitigation recommendations.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-23T07:20:00Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Charoes Huang</name>
+    </author>
+    <author>
+      <name>Xin Huang</name>
+    </author>
+    <author>
+      <name>Amin Milani Fard</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.22220v1</id>
+    <title>Measuring the Checker: Mutation Analysis for GPU-Kernel Benchmark Oracles</title>
+    <updated>2026-09-02T10:30:05Z</updated>
+    <link href="https://arxiv.org/abs/2609.22220v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.22220v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Benchmarks for LLM-generated GPU kernels decide correctness with a few random inputs and a loose floating-point tolerance, and their verdicts now feed leaderboards and reinforcement-learning rewards. Recent work agrees these checkers are weak and patches them by hand---extra input distributions, fuzzing recipes, tighter tolerances---with no way to \emph{measure} whether any patch suffices. We introduce mutation analysis as an adequacy metric for kernel-benchmark oracles: deterministic rules inject 10{,}303 compilable faults into verified CUDA implementations of 188 KernelBench problems, 7{,}384 of them with an independent kill witness; any test protocol is scored by the fraction it detects. The official check misses \textbf{one in six} witnessed faults (16.9%), deterministically, and the misses are skewed by family: 8.7% of arithmetic faults escape, but 78.6% of precision faults do. The metric explains why (a tolerance blind band growing with reduction size; a measured ceiling on input aggressiveness set by legitimate floating-point variance), audits the strongest existing patch (KernelBench-Verified's gain splits into $+4.0$ points from hidden inputs and $+4.5$ from tighter tolerance, a split its authors could not compute), and exposes a published fuzzing recipe that rejects \emph{correct} kernels 107 times. Optimizing suites over the kill matrix reaches 98.0% detection with two inputs per problem (94.8% held-out), and the measurement's fault taxonomy teaches a test generator more than the raw faults themselves. Across 48 whole architectures, the blindness grows with scale, concentrating in deep homogeneous pipelines, and two problems prove unrefereeable: their official references violate the benchmark's own tolerance against fp64. We release everything as \href{https://huggingface.co/datasets/Elfsong/KernelBench-M}{KernelBench-M}.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-02T10:30:05Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mingzhe Du</name>
+    </author>
+    <author>
+      <name>Anh Tuan Luu</name>
+    </author>
+    <author>
+      <name>Dong Huang</name>
+    </author>
+    <author>
+      <name>See-Kiong Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.14903v1</id>
+    <title>FirmPilot: Evidence-Guided Multi-Agent Environment Recovery for IoT Firmware Rehosting</title>
+    <updated>2026-07-16T12:23:58Z</updated>
+    <link href="https://arxiv.org/abs/2607.14903v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.14903v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Firmware rehosting executes firmware images in emulated environments such as QEMU to enable scalable dynamic analysis of Internet of Things (IoT) devices. In practice, rehosting pipelines remain fragile across diverse real-world firmware images, as reaching an externally observable execution state depends on tightly coupled artifacts spanning boot scripts, persistent configuration (e.g., NVRAM-like key-value state), and network setup. Template-driven frameworks often fail to accommodate long-tail vendor conventions, while unconstrained use of large language models (LLMs) risks unsupported modifications and irreproducible executions. We introduce FirmPilot, an evidence-guided multi-agent framework for environment recovery in firmware rehosting. FirmPilot reformulates rehosting as iterative environment reconstruction in which a search agent grounds decisions through similarity-based retrieval, a planner coordinates execution-accepted transitions, and specialized agents recover filesystem/init artifacts, persistent state, and network exposure. Through repeated execution and evidence-grounded artifact deltas, the system resolves cross-layer dependencies across boot, state, and networking that otherwise prevent firmware executions from reaching a stable, externally reachable state in emulation. Evaluated on the large-scale, real-world LFwC firmware corpus, FirmPilot improves web-service reachability over FirmAE from 25.49% to 52.39% and network reachability from 39.30% to 71.93%. The resulting rehosts raise the average number of detected services per firmware from 0.86 to 1.62 and support downstream analysis workflows, including RouterSploit interaction and protocol-aware fuzzing over recovered service surfaces. The evaluation shows that evidence- and feedback-grounded agent coordination improves rehosting success, service recovery, and downstream utility in automated firmware rehosting.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-16T12:23:58Z</published>
+    <arxiv:comment>11 pages, 10 figures, 7 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Yanbing Shen</name>
+    </author>
+    <author>
+      <name>Fan Zhang</name>
+    </author>
+    <author>
+      <name>Haitao Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.20801v1</id>
+    <title>Synthesizing Multi-Agent Harnesses for Vulnerability Discovery</title>
+    <updated>2026-04-22T17:27:40Z</updated>
+    <link href="https://arxiv.org/abs/2604.20801v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.20801v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents have begun to find real security vulnerabilities that human auditors and automated fuzzers missed for decades, in source-available targets where the analyst can build and instrument the code. In practice the work is split among several agents, wired together by a harness: the program that fixes which roles exist, how they pass information, which tools each may call, and how retries are coordinated. When the language model is held fixed, changing only the harness can still change success rates by several-fold on public agent benchmarks, yet most harnesses are written by hand; recent harness optimizers each search only a narrow slice of the design space and rely on coarse pass/fail feedback that gives no diagnostic signal about why a trial failed. AgentFlow addresses both limitations with a typed graph DSL whose search space jointly covers agent roles, prompts, tools, communication topology, and coordination protocol, paired with a feedback-driven outer loop that reads runtime signals from the target program itself to diagnose which part of the harness caused the failure and rewrite it accordingly. We evaluate AgentFlow on TerminalBench-2 with Claude Opus 4.6 and on Google Chrome with Kimi K2.5. AgentFlow reaches 84.3% on TerminalBench-2, the highest score in the public leaderboard snapshot we evaluate against, and discovers ten previously unknown zero-day vulnerabilities in Google Chrome, including two Critical sandbox-escape vulnerabilities (CVE-2026-5280 and CVE-2026-6297).</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-22T17:27:40Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Hanzhi Liu</name>
+    </author>
+    <author>
+      <name>Chaofan Shou</name>
+    </author>
+    <author>
+      <name>Xiaonan Liu</name>
+    </author>
+    <author>
+      <name>Hongbo Wen</name>
+    </author>
+    <author>
+      <name>Yanju Chen</name>
+    </author>
+    <author>
+      <name>Ryan Jingyang Fang</name>
+    </author>
+    <author>
+      <name>Yu Feng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.02868v1</id>
+    <title>EvoPoC: Automated Exploit Synthesis for DeFi Smart Contracts via Hierarchical Knowledge Graphs</title>
+    <updated>2026-05-04T17:43:52Z</updated>
+    <link href="https://arxiv.org/abs/2605.02868v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.02868v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Smart contract vulnerabilities in Decentralized Finance caused over billions of dollars losses every year, yet the security community faces a critical bottleneck: identifying a vulnerability is not the same as proving it is exploitable. Manual PoC construction is prohibitively labor-intensive, leaving most disclosed vulnerabilities unverified and protocols exposed long before mitigation is applied. In this paper, we propose \sys, a knowledge-driven agentic system for end-to-end contract vulnerability detection and exploit synthesis. Our core insight is that exploit synthesis is not a code generation task but a \emph{structured reasoning problem} that requires grounded knowledge of protocol semantics, failure root cause, and exploit primitives. \sys organizes this knowledge into a \emph{Hierarchical Knowledge Graph} (HKG) that serves as structured memory for LLM-guided multi-hop reasoning. To validate exploit feasibility beyond code synthesis, \sys employs a two-stage validation framework that checks exploit-path reachability via SMT solving and profit realizability via asset-level state simulation, ensuring generated PoCs satisfy both logical and economic viability constraints. Evaluated on 88 real-world DeFi attacks and 72 audited projects (2,573 contracts), \sys achieves 98\% recall and 0.9 F1-score in detection, and a 96.6\% exploit success rate (ESR), reproducing 85 historical exploits and recovering over \$116.2M revenue. \sys outperforms SOTA fuzzers (\textsc{Verite}, \textsc{ItyFuzz}) by up to $5\times$ in ESR and $300\times$ in recoverable value, and the LLM-based exploit generator \textsc{A1} by $2\times$ and $8.5\times$ respectively. In bug bounty evaluation, \sys identified 16 confirmed 0-day vulnerabilities, helping secure over \$70.6M and earning \$2,900 in bounties.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-04T17:43:52Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ruichao Liang</name>
+    </author>
+    <author>
+      <name>Jing Chen</name>
+    </author>
+    <author>
+      <name>Xianglong Li</name>
+    </author>
+    <author>
+      <name>Huangpeng Gu</name>
+    </author>
+    <author>
+      <name>Yebo Feng</name>
+    </author>
+    <author>
+      <name>Yue Xue</name>
+    </author>
+    <author>
+      <name>Cong Wu</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+  </entry>
+</feed>

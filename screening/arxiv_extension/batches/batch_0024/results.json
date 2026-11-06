@@ -1,0 +1,242 @@
+[
+  {
+    "id": "arxiv:2607.20437",
+    "decision": "EXCLUDE",
+    "reason": "Defends RAG against LLM input attacks; target is the RAG/LLM pipeline, not OS components.",
+    "evidence": "split-knowledge attacks"
+  },
+  {
+    "id": "arxiv:2607.21756",
+    "decision": "EXCLUDE",
+    "reason": "Presents a database prompt-management system with no security analysis or OS target.",
+    "evidence": "treats prompts as tuple-level database values"
+  },
+  {
+    "id": "arxiv:2607.22389",
+    "decision": "EXCLUDE",
+    "reason": "KV-cache compression and hardware acceleration; no security task or OS target.",
+    "evidence": "critical memory bottleneck"
+  },
+  {
+    "id": "arxiv:2607.23147",
+    "decision": "EXCLUDE",
+    "reason": "Analyzes world-model vulnerabilities in LLM agents; the security target is the agentic system, not OS components.",
+    "evidence": "terminal-based agents to execute malicious code"
+  },
+  {
+    "id": "arxiv:2607.23290",
+    "decision": "EXCLUDE",
+    "reason": "Clinical decision support for rare disease; no security task or OS target.",
+    "evidence": "Rare Disease Care"
+  },
+  {
+    "id": "arxiv:2607.23308",
+    "decision": "EXCLUDE",
+    "reason": "LLM property generation for smart-contract testing; target is blockchain contracts, not OS components.",
+    "evidence": "smart contracts"
+  },
+  {
+    "id": "arxiv:2607.24331",
+    "decision": "EXCLUDE",
+    "reason": "KV-cache compression research; no security task or OS target.",
+    "evidence": "Key-Value Cache Compression"
+  },
+  {
+    "id": "arxiv:2607.24551",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted ontology and legal knowledge graph; no security task or OS target.",
+    "evidence": "French Legal Knowledge Graph"
+  },
+  {
+    "id": "arxiv:2607.24897",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreak against image-generation models; security of LLMs rather than OS-targeted security.",
+    "evidence": "Visual Jailbreaks"
+  },
+  {
+    "id": "arxiv:2607.26642",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based financial alpha mining; no security task or OS target.",
+    "evidence": "Alpha Mining"
+  },
+  {
+    "id": "arxiv:2607.28147",
+    "decision": "EXCLUDE",
+    "reason": "Studies IP leakage in multi-agent systems; security of LLM agents, not OS components.",
+    "evidence": "inference-time harness extraction"
+  },
+  {
+    "id": "arxiv:2607.28848",
+    "decision": "EXCLUDE",
+    "reason": "LLM serving and fine-tuning co-design; no security task or OS target.",
+    "evidence": "Co-Serving"
+  },
+  {
+    "id": "arxiv:2607.29073",
+    "decision": "EXCLUDE",
+    "reason": "Quantum/GPT physics study; no LLM security analysis or OS target.",
+    "evidence": "Parity-Permutation Problem"
+  },
+  {
+    "id": "arxiv:2608.00202",
+    "decision": "EXCLUDE",
+    "reason": "Analyzes web-agent attack surfaces; target is multi-agent web systems, not OS components.",
+    "evidence": "Multi-Agent Web Systems"
+  },
+  {
+    "id": "arxiv:2608.00255",
+    "decision": "EXCLUDE",
+    "reason": "Survey of AI for reconfigurable antennas; review with no OS security target.",
+    "evidence": "In this survey"
+  },
+  {
+    "id": "arxiv:2608.00549",
+    "decision": "EXCLUDE",
+    "reason": "LLM cultural-heritage guide; no security analysis or OS target.",
+    "evidence": "Cultural Heritage webapp"
+  },
+  {
+    "id": "arxiv:2608.02296",
+    "decision": "EXCLUDE",
+    "reason": "Cybersecurity training with LLM-generated content; not security analysis targeting OS components.",
+    "evidence": "contextual cybersecurity training"
+  },
+  {
+    "id": "arxiv:2608.02560",
+    "decision": "EXCLUDE",
+    "reason": "Edge LLM memory and retrieval system; no security task or OS target.",
+    "evidence": "Structured Memory"
+  },
+  {
+    "id": "arxiv:2608.03614",
+    "decision": "EXCLUDE",
+    "reason": "Resource allocation for AI-RAN; no security analysis or OS target.",
+    "evidence": "cell-free MIMO"
+  },
+  {
+    "id": "arxiv:2608.04053",
+    "decision": "EXCLUDE",
+    "reason": "Defends LLM agents against prompt injection; security of LLM agents, not OS components.",
+    "evidence": "prompt injection"
+  },
+  {
+    "id": "arxiv:2608.04366",
+    "decision": "EXCLUDE",
+    "reason": "Byzantine-tolerant RAG defense; target is RAG knowledge corruption, not OS components.",
+    "evidence": "knowledge corruption attacks"
+  },
+  {
+    "id": "arxiv:2608.04607",
+    "decision": "EXCLUDE",
+    "reason": "Optimization theory for the MUON optimizer; no security task or OS target.",
+    "evidence": "MUON optimizer"
+  },
+  {
+    "id": "arxiv:2608.05063",
+    "decision": "EXCLUDE",
+    "reason": "Review of chiplet and LLM-EDA hardware security; review with no OS target.",
+    "evidence": "we review a powerful defense approach"
+  },
+  {
+    "id": "arxiv:2608.05223",
+    "decision": "EXCLUDE",
+    "reason": "Security assessment of the coding-agent skill interface; target is the agent, not OS components.",
+    "evidence": "malicious shell commands"
+  },
+  {
+    "id": "arxiv:2608.05447",
+    "decision": "EXCLUDE",
+    "reason": "Document simplification with LLMs; no security task or OS target.",
+    "evidence": "Document-Level Text Simplification"
+  },
+  {
+    "id": "arxiv:2608.06557",
+    "decision": "EXCLUDE",
+    "reason": "LLM serving scheduler; no security task or OS target.",
+    "evidence": "SLO-Aware latency budget"
+  },
+  {
+    "id": "arxiv:2608.08097",
+    "decision": "EXCLUDE",
+    "reason": "KV-cache offloading for LLM inference; no security task or OS target.",
+    "evidence": "KV-cache to alternative memory tiers"
+  },
+  {
+    "id": "arxiv:2608.09075",
+    "decision": "EXCLUDE",
+    "reason": "CPU-to-GPU cache side-channel attack; LLM is a victim, not a security-analysis tool, and target is hardware cache.",
+    "evidence": "CPU-to-GPU Side-channel Attacks"
+  },
+  {
+    "id": "arxiv:2608.09281",
+    "decision": "EXCLUDE",
+    "reason": "Multimodal architecture benchmark; no security task or OS target.",
+    "evidence": "Multimodal Reasoning"
+  },
+  {
+    "id": "arxiv:2608.09867",
+    "decision": "EXCLUDE",
+    "reason": "Attacks proprietary LLM APIs; security of LLMs, not OS components.",
+    "evidence": "encrypted reasoning trace"
+  },
+  {
+    "id": "arxiv:2608.09949",
+    "decision": "EXCLUDE",
+    "reason": "LLM co-pilot for digital agriculture; no security task or OS target.",
+    "evidence": "Closed-Loop LLM Co-Pilots"
+  },
+  {
+    "id": "arxiv:2608.10281",
+    "decision": "EXCLUDE",
+    "reason": "LLM-mediated web attacks on application sinks; target is web applications, not OS components.",
+    "evidence": "LLM-mediated web attacks"
+  },
+  {
+    "id": "arxiv:2608.10333",
+    "decision": "EXCLUDE",
+    "reason": "Model routing and adaptation for agents; no security task or OS target.",
+    "evidence": "Model Evolution and Routing"
+  },
+  {
+    "id": "arxiv:2608.10405",
+    "decision": "EXCLUDE",
+    "reason": "DoS attack on speech LLMs; security of LLMs, not OS components.",
+    "evidence": "Denial-of-Service Attack"
+  },
+  {
+    "id": "arxiv:2608.10669",
+    "decision": "EXCLUDE",
+    "reason": "Red-teams LLM agents in service sandboxes; target is agent systems, not OS components.",
+    "evidence": "Executable Red Teaming"
+  },
+  {
+    "id": "arxiv:2608.12004",
+    "decision": "EXCLUDE",
+    "reason": "Benchmark for Triton kernel generation; no security analysis or OS target.",
+    "evidence": "Triton-Kernel Generation"
+  },
+  {
+    "id": "arxiv:2608.12184",
+    "decision": "EXCLUDE",
+    "reason": "LLM recommendation framework; no security task or OS target.",
+    "evidence": "Sequential Recommendation"
+  },
+  {
+    "id": "arxiv:2608.12574",
+    "decision": "EXCLUDE",
+    "reason": "Constrained decoding for LLMs; no security task or OS target.",
+    "evidence": "Constrained Decoding"
+  },
+  {
+    "id": "arxiv:2608.14109",
+    "decision": "EXCLUDE",
+    "reason": "Runtime drift diagnosis and recovery for LLM agents; operational safety rather than OS security analysis.",
+    "evidence": "behavioral drift"
+  },
+  {
+    "id": "arxiv:2608.14352",
+    "decision": "UNCLEAR",
+    "reason": "Pentesting-agent analysis could involve OS targets, but the abstract does not specify OS components; target detail is insufficient.",
+    "evidence": "LLM-based penetration-testing agent"
+  }
+]

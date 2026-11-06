@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R05361",
+    "decision": "EXCLUDE",
+    "reason": "Benchmarks prompt-injection robustness of general tool-using LLM agents, not OS components or privileged interfaces.",
+    "evidence": "Indirect prompt injection is the leading security problem for tool-using LLM agents"
+  },
+  {
+    "id": "R05362",
+    "decision": "EXCLUDE",
+    "reason": "Hindi/Indic benchmark consistency study; no security task or OS target.",
+    "evidence": "do different benchmarks agree on the relative quality of the same language models?"
+  },
+  {
+    "id": "R05363",
+    "decision": "UNCLEAR",
+    "reason": "Title indicates an LLM coding benchmark for automated security unit tests, but the missing abstract leaves OS-component scope and evaluation unclear.",
+    "evidence": "AutoSUIT Bench - Automated Security UnIt Test Benchmark for LLM Coding"
+  },
+  {
+    "id": "R05364",
+    "decision": "EXCLUDE",
+    "reason": "Neutron shielding/OpenMC input benchmark; no security or OS task.",
+    "evidence": "write a complete OpenMC input script for a neutron shielding problem"
+  },
+  {
+    "id": "R05365",
+    "decision": "EXCLUDE",
+    "reason": "Petroleum and subsurface reasoning benchmark; no security or OS task.",
+    "evidence": "expert-style multiple-choice benchmark for evaluating LLMs on upstream petroleum engineering"
+  },
+  {
+    "id": "R05366",
+    "decision": "EXCLUDE",
+    "reason": "Offensive-security CTF agent benchmark; targets general CTF categories, not OS components or privileged interfaces.",
+    "evidence": "CTF challenges across binary exploitation, web, reverse engineering, forensics, and cryptography"
+  },
+  {
+    "id": "R05367",
+    "decision": "EXCLUDE",
+    "reason": "API naming/design benchmark; no security outcome or OS target.",
+    "evidence": "API method naming is a measurable engineering variable"
+  },
+  {
+    "id": "R05368",
+    "decision": "EXCLUDE",
+    "reason": "Research-protocol scoring and evaluation benchmark; not security or OS.",
+    "evidence": "Evaluation of AI-generated experimental protocols still relies on LLM-as-judge scoring"
+  },
+  {
+    "id": "R05369",
+    "decision": "EXCLUDE",
+    "reason": "Optical-materials benchmark and domain LLM; no security or OS task.",
+    "evidence": "designed specifically for the optical materials domain"
+  },
+  {
+    "id": "R05370",
+    "decision": "EXCLUDE",
+    "reason": "Causality extraction benchmark; no security or OS task.",
+    "evidence": "unified benchmark for comparative evaluation of rule-based, deep learning, and LLM approaches to causality extraction"
+  },
+  {
+    "id": "R05371",
+    "decision": "EXCLUDE",
+    "reason": "Chemical reaction Bayesian optimization benchmark; no security or OS task.",
+    "evidence": "multi-objective reaction optimization"
+  },
+  {
+    "id": "R05372",
+    "decision": "EXCLUDE",
+    "reason": "SoC design benchmark; title shows no security outcome or OS target.",
+    "evidence": "SLDB: An End-To-End Heterogeneous System-on-Chip Benchmark Suite for LLM-Aided Design"
+  },
+  {
+    "id": "R05373",
+    "decision": "EXCLUDE",
+    "reason": "Fake-news provenance tracing benchmark; no security or OS task.",
+    "evidence": "multimodal fake news provenance tracing"
+  },
+  {
+    "id": "R05374",
+    "decision": "EXCLUDE",
+    "reason": "AHP synthetic-expert benchmark; no security or OS task.",
+    "evidence": "synthetic experts in structured decision support"
+  },
+  {
+    "id": "R05375",
+    "decision": "EXCLUDE",
+    "reason": "Document key-value extraction benchmark; no security or OS task.",
+    "evidence": "document key–value pair(KVP) extraction"
+  },
+  {
+    "id": "R05376",
+    "decision": "EXCLUDE",
+    "reason": "Clinical FHIR serialization benchmark; no security or OS task.",
+    "evidence": "The choice of FHIR-to-text serialisation format significantly impacts clinical LLM quality"
+  },
+  {
+    "id": "R05377",
+    "decision": "EXCLUDE",
+    "reason": "Hallucination-reduction distillation study; no security or OS task.",
+    "evidence": "Reducing LLM Hallucination Using Knowledge Distillation"
+  },
+  {
+    "id": "R05378",
+    "decision": "EXCLUDE",
+    "reason": "Title/abstract screening pipeline benchmark; no security or OS task.",
+    "evidence": "Title and abstract screening is a major bottleneck"
+  },
+  {
+    "id": "R05379",
+    "decision": "EXCLUDE",
+    "reason": "Health-insurance plan recommendation benchmark; no security or OS task.",
+    "evidence": "Consumers increasingly ask AI chatbots to recommend health insurance plans"
+  },
+  {
+    "id": "R05380",
+    "decision": "EXCLUDE",
+    "reason": "Multi-agent orchestration deployability and governance benchmark; agent-platform security, not OS components.",
+    "evidence": "no standard measures whether the orchestration platform that runs them is deployable"
+  },
+  {
+    "id": "R05381",
+    "decision": "EXCLUDE",
+    "reason": "Reproducibility study of LLM bugfixing on HumanEvalFix; general software repair, not OS security.",
+    "evidence": "automatic bugfixing using LLMs, on the HumanEvalFix benchmark"
+  },
+  {
+    "id": "R05382",
+    "decision": "EXCLUDE",
+    "reason": "CPU-to-GPU code acceleration benchmark; no security or OS task.",
+    "evidence": "whole-program CPU-to-CUDA acceleration"
+  },
+  {
+    "id": "R05383",
+    "decision": "EXCLUDE",
+    "reason": "Benchmark score calibration pipeline; no security or OS task.",
+    "evidence": "estimates the missing scores without running any evaluations"
+  },
+  {
+    "id": "R05384",
+    "decision": "EXCLUDE",
+    "reason": "Base-rate/test-taking benchmark study; title shows no security or OS target.",
+    "evidence": "The Base-Rate Effect on LLM Benchmark Performance: Disambiguating Test-Taking Strategies from Benchmark Performance"
+  },
+  {
+    "id": "R05385",
+    "decision": "EXCLUDE",
+    "reason": "Enterprise CRM operations benchmark; title shows no security or OS target.",
+    "evidence": "RevOpsBench: A Large-Scale Benchmark for Evaluating LLM Agents on Enterprise CRM Operations"
+  },
+  {
+    "id": "R05386",
+    "decision": "EXCLUDE",
+    "reason": "FOMC finance reading benchmark; no security or OS task.",
+    "evidence": "outcome-guided reading of Federal Open Market Committee (FOMC) minutes"
+  },
+  {
+    "id": "R05387",
+    "decision": "EXCLUDE",
+    "reason": "Bioinformatics agent benchmark; no security or OS task.",
+    "evidence": "A general-purpose frontier model now matches or exceeds purpose-built bioinformatics agents"
+  },
+  {
+    "id": "R05388",
+    "decision": "EXCLUDE",
+    "reason": "Hallucination/contradiction detection benchmark; no security or OS task.",
+    "evidence": "A conservative benchmark of contradiction detection and its limits in LLM hallucination evaluation"
+  },
+  {
+    "id": "R05389",
+    "decision": "EXCLUDE",
+    "reason": "Linguistic variation benchmark; no security or OS task.",
+    "evidence": "register variation in texts written by humans and comparable texts produced by large language models"
+  },
+  {
+    "id": "R05390",
+    "decision": "EXCLUDE",
+    "reason": "Customizable LLM evaluation platform; no security or OS task.",
+    "evidence": "customizable, real-time evaluation framework"
+  },
+  {
+    "id": "R05391",
+    "decision": "EXCLUDE",
+    "reason": "Runtime-verification study of tool-using LLM agents; targets agent behavior/security, not OS components.",
+    "evidence": "Formal Runtime Verification for Tool-Using LLM Agents: An Offline Same-Benchmark Study on AgentDojo and STAC"
+  },
+  {
+    "id": "R05392",
+    "decision": "EXCLUDE",
+    "reason": "Multilingual token-understanding benchmark; title shows no security or OS target.",
+    "evidence": "EXECUTE: A Multilingual Benchmark for LLM Token Understanding"
+  },
+  {
+    "id": "R05393",
+    "decision": "EXCLUDE",
+    "reason": "Reproducibility study of LLM bugfixing on HumanEvalFix; general software repair, not OS security.",
+    "evidence": "automatic bugfixing using LLMs, on the HumanEvalFix benchmark"
+  },
+  {
+    "id": "R05394",
+    "decision": "EXCLUDE",
+    "reason": "Clinical ontology and query-generation benchmark; title shows no security or OS target.",
+    "evidence": "A Clinical SKOS Ontology and Evaluation Benchmark for LLM Query Generation over ICU Knowledge Graphs"
+  },
+  {
+    "id": "R05395",
+    "decision": "EXCLUDE",
+    "reason": "Agent evidence-gathering stopping benchmark; title shows no security or OS target.",
+    "evidence": "EnoughBench: A Benchmark for Evaluating When LLM Agents Should Stop Gathering Evidence"
+  },
+  {
+    "id": "R05396",
+    "decision": "EXCLUDE",
+    "reason": "RTL design-project benchmark; title shows no security or OS target.",
+    "evidence": "RTL-Repo: A Benchmark for Evaluating LLMs on Large-Scale RTL Design Projects"
+  },
+  {
+    "id": "R05397",
+    "decision": "EXCLUDE",
+    "reason": "Edge-cloud routing benchmark for smart-home inference; title shows no security or OS target.",
+    "evidence": "LLMSwitchBench: A New Edge-Cloud Routing Benchmark for Smart Home LLM Inference"
+  },
+  {
+    "id": "R05398",
+    "decision": "EXCLUDE",
+    "reason": "Medical EHR agent benchmark; no security or OS task.",
+    "evidence": "MedAgentBench, a broad evaluation suite designed to assess the agent capabilities of large language models within medical records contexts"
+  },
+  {
+    "id": "R05399",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial security assessment of LLM agents in smart environments; security of LLM agents, not OS components.",
+    "evidence": "Evil-AI Benchmark: An Evaluation Framework for Adversarial Security Assessment of LLM Agents in Smart Environments"
+  },
+  {
+    "id": "R05400",
+    "decision": "EXCLUDE",
+    "reason": "Verilog generation framework and benchmark; no security or OS task.",
+    "evidence": "improve Verilog generation"
+  }
+]

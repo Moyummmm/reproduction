@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R04921",
+    "decision": "EXCLUDE",
+    "reason": "Review record on patent knowledge assessment; no security or OS component is indicated.",
+    "evidence": "Assessing Scientific Knowledge in Patents"
+  },
+  {
+    "id": "R04922",
+    "decision": "EXCLUDE",
+    "reason": "Review record on patent knowledge assessment; no security or OS component is indicated.",
+    "evidence": "Assessing Scientific Knowledge in Patents"
+  },
+  {
+    "id": "R04923",
+    "decision": "EXCLUDE",
+    "reason": "Presents a taxonomy and evaluation of vulnerabilities in LLM systems, not an LLM used for OS or privileged-interface security.",
+    "evidence": "mechanism-centered taxonomy of 41 recurring risk patterns"
+  },
+  {
+    "id": "R04924",
+    "decision": "EXCLUDE",
+    "reason": "Tool for accessing LLM predictions; no security task or OS target is indicated.",
+    "evidence": "Access to Large Language Model Predictions"
+  },
+  {
+    "id": "R04925",
+    "decision": "EXCLUDE",
+    "reason": "Review of migration research using LLMs; no security or OS component is indicated.",
+    "evidence": "Exploring Migration Research with Large Language Model"
+  },
+  {
+    "id": "R04926",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates LLM raters for biomedical plain-language summaries; not security or OS work.",
+    "evidence": "plain-language summaries of biomedical research"
+  },
+  {
+    "id": "R04927",
+    "decision": "EXCLUDE",
+    "reason": "Visualization topic using NLP and LLMs; no security task or OS target is indicated.",
+    "evidence": "Visualization by Natural Language Processing and Large Language Model"
+  },
+  {
+    "id": "R04928",
+    "decision": "EXCLUDE",
+    "reason": "Legal and regulatory consultation system; no security task or OS target is indicated.",
+    "evidence": "local regulatory consultation"
+  },
+  {
+    "id": "R04929",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM agents in game theory; reviews are excluded and no OS security is indicated.",
+    "evidence": "Game Theory: A Comprehensive Survey"
+  },
+  {
+    "id": "R04930",
+    "decision": "EXCLUDE",
+    "reason": "General automatic patch correctness assessment; no security task or OS target is explicit.",
+    "evidence": "Automatic Patch Correctness Assessment"
+  },
+  {
+    "id": "R04931",
+    "decision": "EXCLUDE",
+    "reason": "LLM use in college English writing teaching; no security or OS component is indicated.",
+    "evidence": "College English Writing Teaching"
+  },
+  {
+    "id": "R04932",
+    "decision": "EXCLUDE",
+    "reason": "Turfgrass disease comparison; unrelated to LLMs, security, or OS components.",
+    "evidence": "turfgrass diseases"
+  },
+  {
+    "id": "R04933",
+    "decision": "EXCLUDE",
+    "reason": "LLM agents for requirements backlog refinement; no security task or OS target is indicated.",
+    "evidence": "Continuous Backlog Refinement"
+  },
+  {
+    "id": "R04934",
+    "decision": "EXCLUDE",
+    "reason": "Medical diagnostic system for febrile diseases; no security task or OS target is indicated.",
+    "evidence": "diagnosing six febrile diseases"
+  },
+  {
+    "id": "R04935",
+    "decision": "EXCLUDE",
+    "reason": "Primer on controlling LLM outputs; not original empirical OS security research.",
+    "evidence": "A Primer"
+  },
+  {
+    "id": "R04936",
+    "decision": "EXCLUDE",
+    "reason": "Clinical treatment study for craniocerebral injury; unrelated to LLMs, security, or OS.",
+    "evidence": "Meningeal Patch"
+  },
+  {
+    "id": "R04937",
+    "decision": "EXCLUDE",
+    "reason": "Movie preference prediction with LLMs; no security task or OS target is indicated.",
+    "evidence": "MovieLens 1M"
+  },
+  {
+    "id": "R04938",
+    "decision": "EXCLUDE",
+    "reason": "Explainable evaluation of LLM autoraters; not security analysis of OS components.",
+    "evidence": "explainable automatic evaluation"
+  },
+  {
+    "id": "R04939",
+    "decision": "EXCLUDE",
+    "reason": "Collection of LLM assistants; no security task or OS target is indicated.",
+    "evidence": "A Collection of Large Language Model Assistants"
+  },
+  {
+    "id": "R04940",
+    "decision": "EXCLUDE",
+    "reason": "Title concerns vulnerabilities in LLM architectures, i.e. security of LLMs, not LLM security work on OS components.",
+    "evidence": "Cross-Stage Vulnerabilities in Large Language Model Architectures"
+  },
+  {
+    "id": "R04941",
+    "decision": "EXCLUDE",
+    "reason": "Search-based patch generation for general LLM-based program repair; no security or OS target is explicit.",
+    "evidence": "LLM-Based Automated Program Repair"
+  },
+  {
+    "id": "R04942",
+    "decision": "UNCLEAR",
+    "reason": "Patch presence testing is potentially a security verification task, but the missing abstract leaves the LLM role and OS or privileged target unconfirmed.",
+    "evidence": "Patch Presence Test"
+  },
+  {
+    "id": "R04943",
+    "decision": "UNCLEAR",
+    "reason": "LLM agents for binary security patch detection are potentially core, but the missing abstract leaves the OS or privileged target unconfirmed.",
+    "evidence": "LLM Agents for Context-Aware Binary Security Patch Detection"
+  },
+  {
+    "id": "R04944",
+    "decision": "EXCLUDE",
+    "reason": "Security patch porting for NPM third-party packages, not OS components or privileged interfaces.",
+    "evidence": "NPM ecosystem"
+  },
+  {
+    "id": "R04945",
+    "decision": "EXCLUDE",
+    "reason": "PHP object-injection mitigation via patch generation; target is a web-language application, not OS, and the LLM role is not explicit.",
+    "evidence": "PHP Object Injection"
+  },
+  {
+    "id": "R04946",
+    "decision": "EXCLUDE",
+    "reason": "Few-shot font generation; unrelated to LLMs, security, or OS components.",
+    "evidence": "few-shot font generation"
+  },
+  {
+    "id": "R04947",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial image patch generation with diffusion models; not LLM-based OS security work.",
+    "evidence": "adversarial patch generation"
+  },
+  {
+    "id": "R04948",
+    "decision": "EXCLUDE",
+    "reason": "General LLM-based automatic program repair; no security task or OS target is explicit.",
+    "evidence": "LLM-based automatic program repair"
+  },
+  {
+    "id": "R04949",
+    "decision": "EXCLUDE",
+    "reason": "Systematic literature review of general LLM program repair; reviews are excluded from the core empirical set.",
+    "evidence": "systematic literature review"
+  },
+  {
+    "id": "R04950",
+    "decision": "EXCLUDE",
+    "reason": "General LLM-based program repair; no security task or OS target is explicit.",
+    "evidence": "LLM-based program repair"
+  },
+  {
+    "id": "R04951",
+    "decision": "EXCLUDE",
+    "reason": "General Java bug repair evaluated on Defects4J; no OS security target is indicated.",
+    "evidence": "repair real-world bugs from datasets Defects4J"
+  },
+  {
+    "id": "R04952",
+    "decision": "EXCLUDE",
+    "reason": "Repair for reliable tool-using LLM agents; addresses agent reliability, not OS security.",
+    "evidence": "Tool-Using LLM Agents"
+  },
+  {
+    "id": "R04953",
+    "decision": "EXCLUDE",
+    "reason": "LLM-driven repair of introductory programming assignments; educational, not OS security.",
+    "evidence": "introductory programming assignments"
+  },
+  {
+    "id": "R04954",
+    "decision": "EXCLUDE",
+    "reason": "Studies memorization in general LLM-based program repair; no security task or OS target is explicit.",
+    "evidence": "memorization issue within LLM-based program repair"
+  },
+  {
+    "id": "R04955",
+    "decision": "EXCLUDE",
+    "reason": "Fact selection for general LLM-based program repair; no security task or OS target is explicit.",
+    "evidence": "The Fact Selection Problem in LLM-Based Program Repair"
+  },
+  {
+    "id": "R04956",
+    "decision": "UNCLEAR",
+    "reason": "LLM agent for memory-safe C repair is potentially core, but the missing abstract leaves the OS or privileged target and evaluation unconfirmed.",
+    "evidence": "Memory-Safe C Program Repair"
+  },
+  {
+    "id": "R04957",
+    "decision": "EXCLUDE",
+    "reason": "Taxonomy and trends review of general LLM-based program repair; reviews are excluded and no OS security is indicated.",
+    "evidence": "taxonomy of prompting strategies and key trends, insights, and challenges"
+  },
+  {
+    "id": "R04958",
+    "decision": "EXCLUDE",
+    "reason": "General LLM-based automated program repair with bug-related fact reasoning; no OS target is explicit.",
+    "evidence": "LLM-based Automated Program Repair"
+  },
+  {
+    "id": "R04959",
+    "decision": "EXCLUDE",
+    "reason": "General LLM-based program repair via trace-guided debate; no security task or OS target is explicit.",
+    "evidence": "LLM-Based Program Repair"
+  },
+  {
+    "id": "R04960",
+    "decision": "EXCLUDE",
+    "reason": "Quantization trade-offs for general automated program repair; no security task or OS target is explicit.",
+    "evidence": "LLM Quantization for Automated Program Repair"
+  }
+]

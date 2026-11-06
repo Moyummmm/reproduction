@@ -1,0 +1,880 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/q9f2RkPg3H3yIsDpkbrqhfQHzfw</id>
+  <title>arXiv Query: search_query=(all:"large language model" OR all:LLM OR all:GPT) AND (all:"system log" AND (all:security OR all:anomaly) )&amp;id_list=&amp;start=0&amp;max_results=100</title>
+  <updated>2026-11-05T05:40:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(all:%22large+language+model%22+OR+(all:LLM+OR+all:GPT))+AND+(all:%22system+log%22+AND+(all:security+OR+all:anomaly))&amp;start=0&amp;max_results=100&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>100</opensearch:itemsPerPage>
+  <opensearch:totalResults>35</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2604.12218v1</id>
+    <title>LLM-Enhanced Log Anomaly Detection: A Comprehensive Benchmark of Large Language Models for Automated System Diagnostics</title>
+    <updated>2026-04-14T02:51:48Z</updated>
+    <link href="https://arxiv.org/abs/2604.12218v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.12218v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>System log anomaly detection is critical for maintaining the reliability of large-scale software systems, yet traditional methods struggle with the heterogeneous and evolving nature of modern log data. Recent advances in Large Language Models (LLMs) offer promising new approaches to log understanding, but a systematic comparison of LLM-based methods against established techniques remains lacking. In this paper, we present a comprehensive benchmark study evaluating both LLM-based and traditional approaches for log anomaly detection across four widely-used public datasets: HDFS, BGL, Thunderbird, and Spirit. We evaluate three categories of methods: (1) classical log parsers (Drain, Spell, AEL) combined with machine learning classifiers, (2) fine-tuned transformer models (BERT, RoBERTa), and (3) prompt-based LLM approaches (GPT-3.5, GPT-4, LLaMA-3) in zero-shot and few-shot settings. Our experiments reveal that while fine-tuned transformers achieve the highest F1-scores (0.96-0.99), prompt-based LLMs demonstrate remarkablezero-shot capabilities (F1: 0.82-0.91) without requiring any labeled training data -- a significant advantage for real-world deployment where labeled anomalies are scarce. We further analyze the cost-accuracy trade-offs, latency characteristics, and failure modes of each approach. Our findings provide actionable guidelines for practitioners choosing log anomaly detection methods based on their specific constraints regarding accuracy, latency, cost, and label availability. All code and experimental configurations are publicly available to facilitate reproducibility.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-14T02:51:48Z</published>
+    <arxiv:comment>5 pages, 4 tables, code available at https://github.com/disha8611/llm-log-anomaly-benchmark</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Disha Patel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.16044v2</id>
+    <title>A Novel GPT-Based Framework for Anomaly Detection in System Logs</title>
+    <updated>2026-10-11T13:52:14Z</updated>
+    <link href="https://arxiv.org/abs/2510.16044v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.16044v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Identification of anomalous events within system logs constitutes a pivotal element within the frame- work of cybersecurity defense strategies. However, this process faces numerous challenges, including the management of substantial data volumes, the distribution of anomalies, and the precision of con- ventional methods. To address this issue, the present paper puts forward a proposal for an intelligent detection method for system logs based on Genera- tive Pre-trained Transformers (GPT). The efficacy of this approach is attributable to a combination of structured input design and a Focal Loss op- timization strategy, which collectively result in a substantial enhancement of the performance of log anomaly detection. The initial approach involves the conversion of raw logs into event ID sequences through the use of the Drain parser. Subsequently, the Focal Loss loss function is employed to address the issue of class imbalance. The experimental re- sults demonstrate that the optimized GPT-2 model significantly outperforms the unoptimized model in a range of key metrics, including precision, recall, and F1 score. In specific tasks, comparable or superior performance has been demonstrated to that of the GPT-3.5 API.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-16T15:17:39Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zeng Zhang</name>
+    </author>
+    <author>
+      <name>Wenjie Yin</name>
+    </author>
+    <author>
+      <name>Xiaoqi Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05279v1</id>
+    <title>Hallucination-Resistant Security Planning with a Large Language Model</title>
+    <updated>2026-02-05T04:06:23Z</updated>
+    <link href="https://arxiv.org/abs/2602.05279v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05279v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are promising tools for supporting security management tasks, such as incident response planning. However, their unreliability and tendency to hallucinate remain significant challenges. In this paper, we address these challenges by introducing a principled framework for using an LLM as decision support in security management. Our framework integrates the LLM in an iterative loop where it generates candidate actions that are checked for consistency with system constraints and lookahead predictions. When consistency is low, we abstain from the generated actions and instead collect external feedback, e.g., by evaluating actions in a digital twin. This feedback is then used to refine the candidate actions through in-context learning (ICL). We prove that this design allows to control the hallucination risk by tuning the consistency threshold. Moreover, we establish a bound on the regret of ICL under certain assumptions. To evaluate our framework, we apply it to an incident response use case where the goal is to generate a response and recovery plan based on system logs. Experiments on four public datasets show that our framework reduces recovery times by up to 30% compared to frontier LLMs.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T04:06:23Z</published>
+    <arxiv:comment>Accepted to IEEE/IFIP Network Operations and Management Symposium 2026. To appear in the conference proceedings</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Kim Hammar</name>
+    </author>
+    <author>
+      <name>Tansu Alpcan</name>
+    </author>
+    <author>
+      <name>Emil Lupu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.14519v1</id>
+    <title>Benchmarking Large Language Models for Log Analysis, Security, and Interpretation</title>
+    <updated>2023-11-24T14:46:14Z</updated>
+    <link href="https://arxiv.org/abs/2311.14519v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.14519v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLM) continue to demonstrate their utility in a variety of emergent capabilities in different fields. An area that could benefit from effective language understanding in cybersecurity is the analysis of log files. This work explores LLMs with different architectures (BERT, RoBERTa, DistilRoBERTa, GPT-2, and GPT-Neo) that are benchmarked for their capacity to better analyze application and system log files for security. Specifically, 60 fine-tuned language models for log analysis are deployed and benchmarked. The resulting models demonstrate that they can be used to perform log analysis effectively with fine-tuning being particularly important for appropriate domain adaptation to specific log types. The best-performing fine-tuned sequence classification model (DistilRoBERTa) outperforms the current state-of-the-art; with an average F1-Score of 0.998 across six datasets from both web application and system log sources. To achieve this, we propose and implement a new experimentation pipeline (LLM4Sec) which leverages LLMs for log analysis experimentation, evaluation, and analysis.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-24T14:46:14Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Egil Karlsen</name>
+    </author>
+    <author>
+      <name>Xiao Luo</name>
+    </author>
+    <author>
+      <name>Nur Zincir-Heywood</name>
+    </author>
+    <author>
+      <name>Malcolm Heywood</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.01672v1</id>
+    <title>ICAD-LLM: One-for-All Anomaly Detection via In-Context Learning with Large Language Models</title>
+    <updated>2025-12-01T13:41:30Z</updated>
+    <link href="https://arxiv.org/abs/2512.01672v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.01672v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Anomaly detection (AD) is a fundamental task of critical importance across numerous domains. Current systems increasingly operate in rapidly evolving environments that generate diverse yet interconnected data modalities -- such as time series, system logs, and tabular records -- as exemplified by modern IT systems. Effective AD methods in such environments must therefore possess two critical capabilities: (1) the ability to handle heterogeneous data formats within a unified framework, allowing the model to process and detect multiple modalities in a consistent manner during anomalous events; (2) a strong generalization ability to quickly adapt to new scenarios without extensive retraining. However, most existing methods fall short of these requirements, as they typically focus on single modalities and lack the flexibility to generalize across domains. To address this gap, we introduce a novel paradigm: In-Context Anomaly Detection (ICAD), where anomalies are defined by their dissimilarity to a relevant reference set of normal samples. Under this paradigm, we propose ICAD-LLM, a unified AD framework leveraging Large Language Models' in-context learning abilities to process heterogeneous data within a single model. Extensive experiments demonstrate that ICAD-LLM achieves competitive performance with task-specific AD methods and exhibits strong generalization to previously unseen tasks, which substantially reduces deployment costs and enables rapid adaptation to new environments. To the best of our knowledge, ICAD-LLM is the first model capable of handling anomaly detection tasks across diverse domains and modalities.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-01T13:41:30Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhongyuan Wu</name>
+    </author>
+    <author>
+      <name>Jingyuan Wang</name>
+    </author>
+    <author>
+      <name>Zexuan Cheng</name>
+    </author>
+    <author>
+      <name>Yilong Zhou</name>
+    </author>
+    <author>
+      <name>Weizhi Wang</name>
+    </author>
+    <author>
+      <name>Juhua Pu</name>
+    </author>
+    <author>
+      <name>Chao Li</name>
+    </author>
+    <author>
+      <name>Changqing Ma</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.05867v3</id>
+    <title>Can LLM Infer Risk Information From MCP Server System Logs?</title>
+    <updated>2026-01-22T00:04:40Z</updated>
+    <link href="https://arxiv.org/abs/2511.05867v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.05867v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) demonstrate strong capabilities in solving complex tasks when integrated with external tools. The Model Context Protocol (MCP) has become a standard interface for enabling such tool-based interactions. However, these interactions introduce substantial security concerns, particularly when the MCP server is compromised or untrustworthy. While prior benchmarks primarily focus on prompt injection attacks or analyze the vulnerabilities of LLM-MCP interaction trajectories, limited attention has been given to the underlying system logs associated with malicious MCP servers. To address this gap, we present the first synthetic benchmark for evaluating LLMs' ability to identify security risks from system logs. We define nine categories of MCP server risks and generate 1,800 synthetic system logs using ten state-of-the-art LLMs. These logs are embedded in the return values of 243 curated MCP servers, yielding a dataset of 2,421 chat histories for training and 471 queries for evaluation. Our pilot experiments reveal that smaller models often fail to detect risky system logs, leading to high false negatives. While models trained with supervised fine-tuning (SFT) tend to over-flag benign logs, resulting in elevated false positives, Reinforcement Learning with Verifiable Reward (RLVR) offers a better precision-recall balance. In particular, after training with Group Relative Policy Optimization (GRPO), Llama3.1-8B-Instruct achieves 83 percent accuracy, surpassing the best-performing large remote model by 9 percentage points. Fine-grained, per-category analysis further underscores the effectiveness of reinforcement learning in enhancing LLM safety within the MCP framework. Code and data are available at https://github.com/PorUna-byte/MCP-RiskCue.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-08T05:52:53Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jiayi Fu</name>
+    </author>
+    <author>
+      <name>Yuansen Zhang</name>
+    </author>
+    <author>
+      <name>Yinggui Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.24174v1</id>
+    <title>Just Testing, Move Along: Evasion of LLM-based System Log Interpretation by Prompt Injection</title>
+    <updated>2026-07-27T08:59:00Z</updated>
+    <link href="https://arxiv.org/abs/2607.24174v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.24174v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are increasingly integrated into Security Operations Center (SOC) workflows, where they support analysts in tasks such as the interpretation of system logs. However, the ability of LLMs to directly process untrusted textual input also introduces new attack surfaces. In particular, attackers can inject contextual information or explicit instructions into log entries in order to influence how malicious activity is interpreted by the model. Despite the growing adoption of LLMs for log analytics, the robustness of such systems against adversarial log injection remains largely unexplored. To address this gap, this paper presents a framework for evaluating prompt injection attacks against LLM-based log interpretation. Using log traces generated during real cyber attacks, our approach creates adversarial examples through generic injection generation, refinement, and attack-specific optimization. Our evaluation across multiple state-of-the-art LLMs shows that these injections can cause malicious log traces to be classified as benign despite containing clear indicators of compromise. As a potential remedy, we show that the explanations generated by the LLMs alongside their classifications frequently contain indicators of adversarial manipulation that can be leveraged to detect such attacks.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-27T08:59:00Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Max Landauer</name>
+    </author>
+    <author>
+      <name>Florian Skopik</name>
+    </author>
+    <author>
+      <name>Markus Wurzenberger</name>
+    </author>
+    <author>
+      <name>Franciszek Górski</name>
+    </author>
+    <author>
+      <name>Mateusz Krzysztoń</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.17763v1</id>
+    <title>Design and implementation of a distributed security threat detection system integrating federated learning and multimodal LLM</title>
+    <updated>2025-02-25T01:44:08Z</updated>
+    <link href="https://arxiv.org/abs/2502.17763v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.17763v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Traditional security protection methods struggle to address sophisticated attack vectors in large-scale distributed systems, particularly when balancing detection accuracy with data privacy concerns. This paper presents a novel distributed security threat detection system that integrates federated learning with multimodal large language models (LLMs). Our system leverages federated learning to ensure data privacy while employing multimodal LLMs to process heterogeneous data sources including network traffic, system logs, images, and sensor data. Experimental evaluation on a 10TB distributed dataset demonstrates that our approach achieves 96.4% detection accuracy, outperforming traditional baseline models by 4.1 percentage points. The system reduces both false positive and false negative rates by 1.8 and 2.4 percentage points respectively. Performance analysis shows that our system maintains efficient processing capabilities in distributed environments, requiring 180 seconds for model training and 3.8 seconds for threat detection across the distributed network. These results demonstrate significant improvements in detection accuracy and computational efficiency while preserving data privacy, suggesting strong potential for real-world deployment in large-scale security systems.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PF" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-25T01:44:08Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yuqing Wang</name>
+    </author>
+    <author>
+      <name>Xiao Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.05878v3</id>
+    <title>FusionLog: Cross-System Log-based Anomaly Detection via Fusion of General and Proprietary Knowledge</title>
+    <updated>2026-03-26T11:47:39Z</updated>
+    <link href="https://arxiv.org/abs/2511.05878v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.05878v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Log-based anomaly detection is critical for ensuring the stability and reliability of web systems. One of the key problems in this task is the lack of sufficient labeled logs, which limits the rapid deployment in new systems. Existing works usually leverage large-scale labeled logs from a mature web system and a small amount of labeled logs from a new system, using transfer learning to extract and generalize general knowledge across both domains. However, these methods focus solely on the transfer of general knowledge and neglect the disparity and potential mismatch between such knowledge and the proprietary knowledge of target system, thus constraining performance. To address this limitation, we propose FusionLog, a novel zero-label cross-system log-based anomaly detection method that effectively achieves the fusion of general and proprietary knowledge, enabling cross-system generalization without any labeled target logs. Specifically, we first design a training-free router based on semantic similarity that dynamically partitions unlabeled target logs into 'general logs' and 'proprietary logs.' For general logs, FusionLog employs a small model based on system-agnostic representation meta-learning for direct training and inference, inheriting the general anomaly patterns shared between the source and target systems. For proprietary logs, we iteratively generate pseudo-labels and fine-tune the small model using multi-round collaborative knowledge distillation and fusion based on large language model (LLM) and small model (SM) to enhance its capability to recognize anomaly patterns specific to the target system. Experimental results on three public log datasets from different systems show that FusionLog achieves over 90% F1-score under a fully zero-label setting, significantly outperforming state-of-the-art cross-system log-based anomaly detection methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-08T06:30:50Z</published>
+    <arxiv:comment>12 pages, 5 figures, and 2 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xinlong Zhao</name>
+    </author>
+    <author>
+      <name>Tong Jia</name>
+    </author>
+    <author>
+      <name>Minghua He</name>
+    </author>
+    <author>
+      <name>Xixuan Yang</name>
+    </author>
+    <author>
+      <name>Ying Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.04186v1</id>
+    <title>CAM-LDS: Cyber Attack Manifestations for Automatic Interpretation of System Logs and Security Alerts</title>
+    <updated>2026-03-04T15:38:21Z</updated>
+    <link href="https://arxiv.org/abs/2603.04186v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.04186v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Log data are essential for intrusion detection and forensic investigations. However, manual log analysis is tedious due to high data volumes, heterogeneous event formats, and unstructured messages. Even though many automated methods for log analysis exist, they usually still rely on domain-specific configurations such as expert-defined detection rules, handcrafted log parsers, or manual feature-engineering. Crucially, the level of automation of conventional methods is limited due to their inability to semantically understand logs and explain their underlying causes. In contrast, Large Language Models enable domain- and format-agnostic interpretation of system logs and security alerts. Unfortunately, research on this topic remains challenging, because publicly available and labeled data sets covering a broad range of attack techniques are scarce. To address this gap, we introduce the Cyber Attack Manifestation Log Data Set (CAM-LDS), comprising seven attack scenarios that cover 81 distinct techniques across 13 tactics and collected from 18 distinct sources within a fully open-source and reproducible test environment. We extract log events that directly result from attack executions to facilitate analysis of manifestations concerning command observability, event frequencies, performance metrics, and intrusion detection alerts. We further present an illustrative case study utilizing an LLM to process the CAM-LDS. The results indicate that correct attack techniques are predicted perfectly for approximately one third of attack steps and adequately for another third, highlighting the potential of LLM-based log interpretation and utility of our data set.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-04T15:38:21Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Max Landauer</name>
+    </author>
+    <author>
+      <name>Wolfgang Hotwagner</name>
+    </author>
+    <author>
+      <name>Thorina Boenke</name>
+    </author>
+    <author>
+      <name>Florian Skopik</name>
+    </author>
+    <author>
+      <name>Markus Wurzenberger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.22027v1</id>
+    <title>Parser-Free Querying of Security Logs</title>
+    <updated>2026-05-21T05:58:04Z</updated>
+    <link href="https://arxiv.org/abs/2605.22027v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.22027v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Security analysts routinely query system logs to detect threats and investigate incidents, but each log source uses its own semi-structured format: logs are cheap to produce, but expensive to use. The standard approach, building per-source parsers to normalize logs into structured schemas, is powerful but requires continuous engineering effort for each new format. Querying raw logs directly with tools like grep avoids this cost, but requires analysts to know each source's message variants and cannot express the multi-line temporal queries that security investigations demand. We present Sieve, a system that generates executable query code from natural-language security questions by grounding a large language model with lightweight, automatically extracted log-format context, requiring only one LLM call per query followed by deterministic execution. Evaluating 133 security queries across 5 log types, we find that Sieve achieves over a 3x reduction in error rate on complex temporal and cross-event queries compared to manual analyst scripting, with the largest gains on the multi-line correlation tasks most critical to active investigations. Our results and benchmark provide evidence that LLM-generated code can bridge the gap between the expressiveness of structured log querying and the immediacy of working directly with raw files.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-21T05:58:04Z</published>
+    <arxiv:comment>21 pages, 5 figures, 15 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Evan Luo</name>
+    </author>
+    <author>
+      <name>Julien Piet</name>
+    </author>
+    <author>
+      <name>David Wagner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.05882v1</id>
+    <title>Generality Is Not Enough: Zero-Label Cross-System Log-Based Anomaly Detection via Knowledge-Level Collaboration</title>
+    <updated>2025-11-08T06:47:28Z</updated>
+    <link href="https://arxiv.org/abs/2511.05882v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.05882v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Log-based anomaly detection is crucial for ensuring software system stability. However, the scarcity of labeled logs limits rapid deployment to new systems. Cross-system transfer has become an important research direction. State-of-the-art approaches perform well with a few labeled target logs, but limitations remain: small-model methods transfer general knowledge but overlook mismatches with the target system's proprietary knowledge; LLM-based methods can capture proprietary patterns but rely on a few positive examples and incur high inference cost. Existing LLM-small model collaborations route 'simple logs' to the small model and 'complex logs' to the LLM based on output uncertainty. In zero-label cross-system settings, supervised sample complexity is unavailable, and such routing does not consider knowledge separation. To address this, we propose GeneralLog, a novel LLM-small model collaborative method for zero-label cross-system log anomaly detection. GeneralLog dynamically routes unlabeled logs, letting the LLM handle 'proprietary logs' and the small model 'general logs,' enabling cross-system generalization without labeled target logs. Experiments on three public log datasets show that GeneralLog achieves over 90% F1-score under a fully zero-label setting, significantly outperforming existing methods.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-08T06:47:28Z</published>
+    <arxiv:comment>5 pages, 2 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Xinlong Zhao</name>
+    </author>
+    <author>
+      <name>Tong Jia</name>
+    </author>
+    <author>
+      <name>Minghua He</name>
+    </author>
+    <author>
+      <name>Ying Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.08755v2</id>
+    <title>Distributed Threat Intelligence at the Edge Devices: A Large Language Model-Driven Approach</title>
+    <updated>2024-05-26T06:06:08Z</updated>
+    <link href="https://arxiv.org/abs/2405.08755v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.08755v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the proliferation of edge devices, there is a significant increase in attack surface on these devices. The decentralized deployment of threat intelligence on edge devices, coupled with adaptive machine learning techniques such as the in-context learning feature of Large Language Models (LLMs), represents a promising paradigm for enhancing cybersecurity on resource-constrained edge devices. This approach involves the deployment of lightweight machine learning models directly onto edge devices to analyze local data streams, such as network traffic and system logs, in real-time. Additionally, distributing computational tasks to an edge server reduces latency and improves responsiveness while also enhancing privacy by processing sensitive data locally. LLM servers can enable these edge servers to autonomously adapt to evolving threats and attack patterns, continuously updating their models to improve detection accuracy and reduce false positives. Furthermore, collaborative learning mechanisms facilitate peer-to-peer secure and trustworthy knowledge sharing among edge devices, enhancing the collective intelligence of the network and enabling dynamic threat mitigation measures such as device quarantine in response to detected anomalies. The scalability and flexibility of this approach make it well-suited for diverse and evolving network environments, as edge devices only send suspicious information such as network traffic and system log changes, offering a resilient and efficient solution to combat emerging cyber threats at the network edge. Thus, our proposed framework can improve edge computing security by providing better security in cyber threat detection and mitigation by isolating the edge devices from the network.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-14T16:40:37Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <arxiv:journal_ref>2024 IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC)</arxiv:journal_ref>
+    <author>
+      <name>Syed Mhamudul Hasan</name>
+    </author>
+    <author>
+      <name>Alaa M. Alotaibi</name>
+    </author>
+    <author>
+      <name>Sajedul Talukder</name>
+    </author>
+    <author>
+      <name>Abdur R. Shahid</name>
+    </author>
+    <arxiv:doi>10.1109/COMPSAC61105.2024.00206</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/COMPSAC61105.2024.00206" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.08153v1</id>
+    <title>LogNEO: A GPT-Neo Reinforcement Learning Framework for Accurate Real-Time Log Anomaly Detection</title>
+    <updated>2026-06-06T13:08:14Z</updated>
+    <link href="https://arxiv.org/abs/2606.08153v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.08153v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Detecting anomalies in large-scale system logs is critical for the reliability and security of modern computing infrastructure. We present LogNEO, a log anomaly detector built on EleutherAI's GPT-Neo (1.3B parameters) and fine-tuned with a novel partial-credit, exponentially decaying position-aware reward scheme combined with cross-entropy regularisation via Proximal Policy Optimisation (PPO). The position-aware reward explicitly models prediction difficulty: early positions receive higher rewards for correct predictions, while later positions incur stronger penalties for errors. LogNEO attains F1-scores of 0.927, 0.913, and 0.984 on the HDFS, BGL, and Thunderbird benchmarks, improving recall by up to 6 percentage points over the prior state-of-the-art LogGPT while maintaining comparable precision. A production microservice deployment over Apache Kafka, Redis, and TensorRT-accelerated inference demonstrates 45 ms end-to-end latency at 15,000 events per second.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-06T13:08:14Z</published>
+    <arxiv:comment>8 pages, 5 figures, 6 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>David Eje</name>
+    </author>
+    <author>
+      <name>Tanmay Sharma</name>
+    </author>
+    <author>
+      <name>Khush Patel</name>
+    </author>
+    <author>
+      <name>Manuel Mazzara</name>
+    </author>
+    <author>
+      <name>Leonard Johard</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.04877v2</id>
+    <title>System Log Parsing with Large Language Models: A Review</title>
+    <updated>2025-05-15T13:27:26Z</updated>
+    <link href="https://arxiv.org/abs/2504.04877v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.04877v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Log data provides crucial insights for tasks like monitoring, root cause analysis, and anomaly detection. Due to the vast volume of logs, automated log parsing is essential to transform semi-structured log messages into structured representations. Recent advances in large language models (LLMs) have introduced the new research field of LLM-based log parsing. Despite promising results, there is no structured overview of the approaches in this relatively new research field with the earliest advances published in late 2023. This work systematically reviews 29 LLM-based log parsing methods. We benchmark seven of them on public datasets and critically assess their comparability and the reproducibility of their reported results. Our findings summarize the advances of this new research field, with insights on how to report results, which data sets, metrics and which terminology to use, and which inconsistencies to avoid, with code and results made publicly available for transparency.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-07T09:41:04Z</published>
+    <arxiv:comment>36 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Viktor Beck</name>
+    </author>
+    <author>
+      <name>Max Landauer</name>
+    </author>
+    <author>
+      <name>Markus Wurzenberger</name>
+    </author>
+    <author>
+      <name>Florian Skopik</name>
+    </author>
+    <author>
+      <name>Andreas Rauber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.13156v2</id>
+    <title>In-Context Autonomous Network Incident Response: An End-to-End Large Language Model Agent Approach</title>
+    <updated>2026-04-15T02:45:06Z</updated>
+    <link href="https://arxiv.org/abs/2602.13156v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.13156v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Rapidly evolving cyberattacks demand incident response systems that can autonomously learn and adapt to changing threats. Prior work has extensively explored the reinforcement learning approach, which involves learning response strategies through extensive simulation of the incident. While this approach can be effective, it requires handcrafted modeling of the simulator and suppresses useful semantics from raw system logs and alerts. To address these limitations, we propose to leverage large language models' (LLM) pre-trained security knowledge and in-context learning to create an end-to-end agentic solution for incident response planning. Specifically, our agent integrates four functionalities, perception, reasoning, planning, and action, into one lightweight LLM (14b model). Through fine-tuning and chain-of-thought reasoning, our LLM agent is capable of processing system logs and inferring the underlying network state (perception), updating its conjecture of attack models (reasoning), simulating consequences under different response strategies (planning), and generating an effective response (action). By comparing LLM-simulated outcomes with actual observations, the LLM agent repeatedly refines its attack conjecture and corresponding response, thereby demonstrating in-context adaptation. Our agentic approach is free of modeling and can run on commodity hardware. When evaluated on incident logs reported in the literature, our agent achieves recovery up to 23% faster than those of frontier LLMs.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-13T18:09:30Z</published>
+    <arxiv:comment>2026 AAAI Summer Symposium on Human-Aware AI Agents for the Cyber Battlefield</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yiran Gao</name>
+    </author>
+    <author>
+      <name>Kim Hammar</name>
+    </author>
+    <author>
+      <name>Tao Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00204v1</id>
+    <title>Semantic-Aware Advanced Persistent Threat Detection Using Autoencoders on LLM-Encoded System Logs</title>
+    <updated>2026-01-30T12:38:12Z</updated>
+    <link href="https://arxiv.org/abs/2602.00204v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00204v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Advanced Persistent Threats (APTs) are among the most challenging cyberattacks to detect. They are carried out by highly skilled attackers who carefully study their targets and operate in a stealthy, long-term manner. Because APTs exhibit "low-and-slow" behavior, traditional statistical methods and shallow machine learning techniques often fail to detect them. Previous research on APT detection has explored machine learning approaches and provenance graph analysis. However, provenance-based methods often fail to capture the semantic intent behind system activities. This paper proposes a novel anomaly detection approach that leverages semantic embeddings generated by Large Language Models (LLMs). The method enhances APT detection by extracting meaningful semantic representations from unstructured system log data. First, raw system logs are transformed into high-dimensional semantic embeddings using a pre-trained transformer model. These embeddings are then analyzed using an Autoencoder (AE) to identify anomalous and potentially malicious patterns. The proposed method is evaluated using the DARPA Transparent Computing (TC) dataset, which contains realistic APT attack scenarios generated by red teams in live environments. Experimental results show that the AE trained on LLM-derived embeddings outperforms widely used unsupervised baseline methods, including Isolation Forest (IForest), One-Class Support Vector Machine (OC-SVM), and Principal Component Analysis (PCA). Performance is measured using the Area Under the Receiver Operating Characteristic Curve (AUC-ROC), where the proposed approach consistently achieves superior results, even in complex threat scenarios. These findings highlight the importance of semantic understanding in detecting non-linear and stealthy attack behaviors that are often missed by conventional detection techniques.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T12:38:12Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Waleed Khan Mohammed</name>
+    </author>
+    <author>
+      <name>Zahirul Arief Irfan Bin Shahrul Anuar</name>
+    </author>
+    <author>
+      <name>Mousa Sufian Mousa Mitani</name>
+    </author>
+    <author>
+      <name>Hezerul Abdul Karim</name>
+    </author>
+    <author>
+      <name>Nouar AlDahoul</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.10707v1</id>
+    <title>Architecting the Secure AI-SOC: A Neurosymbolic Framework for Pipeline Integrity and Threat Mitigation</title>
+    <updated>2026-09-09T18:03:41Z</updated>
+    <link href="https://arxiv.org/abs/2609.10707v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.10707v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The integration of Large Language Models (LLMs) into Security Operations Centers (SOCs) streamlines threat intelligence but introduces critical vulnerabilities, notably indirect prompt injection via log poisoning. Adversaries exploit this vector to execute multistep ``promptware'' kill chains by embedding malicious payloads within system logs to hijack the LLM's operational logic. Securing this pipeline presents a dichotomy: deterministic defenses are computationally efficient yet semantically blind, while purely neural evaluations introduce prohibitive latency and probabilistic flaws. To address this, we propose a novel neurosymbolic defense-in-depth architecture that ensures end-to-end pipeline integrity. The primary layer employs customized SIEM decoders as a deterministic pre-filter, performing immediate structural sanitization to neutralize volumetric padding and signature-based injections at the ingestion edge. The secondary layer leverages NeMo Guardrails to enforce strict semantic boundaries through self-checking validation on the structured SIEM alerts prior to LLM processing. Furthermore, the framework integrates a closed-loop telemetry system, providing critical Human-in-the-Loop (HITL) visibility into thwarted attacks directly within the SOC dashboard. We present a comprehensive experimental evaluation mapped to the MITRE ATLAS taxonomy, assessing the framework against diverse prompt injections. Our results demonstrate that this synergistic approach effectively dismantles the promptware kill chain - bounding LLM stochasticity with verifiable constraints, and delivering a resilient, highly observable defense mechanism for next-generation AI-SOCs.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-09T18:03:41Z</published>
+    <arxiv:comment>21 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Anna Gazani</name>
+    </author>
+    <author>
+      <name>Spyridon Kounoupidis</name>
+    </author>
+    <author>
+      <name>Panagiotis Katsaros</name>
+    </author>
+    <author>
+      <name>Nikolaos Kekatos</name>
+    </author>
+    <author>
+      <name>Grigorios Tsoumakas</name>
+    </author>
+    <author>
+      <name>Georgios Koutidis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.11997v1</id>
+    <title>Log Anomaly Detection with Large Language Models via Knowledge-Enriched Fusion</title>
+    <updated>2025-12-12T19:24:54Z</updated>
+    <link href="https://arxiv.org/abs/2512.11997v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.11997v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>System logs are a critical resource for monitoring and managing distributed systems, providing insights into failures and anomalous behavior. Traditional log analysis techniques, including template-based and sequence-driven approaches, often lose important semantic information or struggle with ambiguous log patterns. To address this, we present EnrichLog, a training-free, entry-based anomaly detection framework that enriches raw log entries with both corpus-specific and sample-specific knowledge. EnrichLog incorporates contextual information, including historical examples and reasoning derived from the corpus, to enable more accurate and interpretable anomaly detection. The framework leverages retrieval-augmented generation to integrate relevant contextual knowledge without requiring retraining. We evaluate EnrichLog on four large-scale system log benchmark datasets and compare it against five baseline methods. Our results show that EnrichLog consistently improves anomaly detection performance, effectively handles ambiguous log entries, and maintains efficient inference. Furthermore, incorporating both corpus- and sample-specific knowledge enhances model confidence and detection accuracy, making EnrichLog well-suited for practical deployments.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-12T19:24:54Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Anfeng Peng</name>
+    </author>
+    <author>
+      <name>Ajesh Koyatan Chathoth</name>
+    </author>
+    <author>
+      <name>Stephen Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.14062v1</id>
+    <title>LogPurge: Log Data Purification for Anomaly Detection via Rule-Enhanced Filtering</title>
+    <updated>2025-11-18T02:41:18Z</updated>
+    <link href="https://arxiv.org/abs/2511.14062v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.14062v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Log anomaly detection, which is critical for identifying system failures and preempting security breaches, detects irregular patterns within large volumes of log data, and impacts domains such as service reliability, performance optimization, and database log analysis. Modern log anomaly detection methods rely on training deep learning models on clean, anomaly-free log sequences. However, obtaining such clean log data requires costly and tedious human labeling, and existing automatic cleaning methods fail to fully integrate the specific characteristics and actual semantics of logs in their purification process. In this paper, we propose a cost-aware, rule-enhanced purification framework, LogPurge, that automatically selects a sufficient subset of normal log sequences from contamination log sequences to train a anomaly detection model. Our approach involves a two-stage filtering algorithm: In the first stage, we use a large language model (LLM) to remove clustered anomalous patterns and enhance system rules to improve LLM's understanding of system logs; in the second stage, we utilize a divide-and-conquer strategy that decomposes the remaining contaminated regions into smaller subproblems, allowing each to be effectively purified through the first stage procedure. Our experiments, conducted on two public datasets and one industrial dataset, show that our method significantly removes an average of 98.74% of anomalies while retaining 82.39% of normal samples. Compared to the latest unsupervised log sample selection algorithms, our method achieves F-1 score improvements of 35.7% and 84.11% on the public datasets, and an impressive 149.72% F-1 improvement on the private dataset, demonstrating the effectiveness of our approach.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-18T02:41:18Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Shenglin Zhang</name>
+    </author>
+    <author>
+      <name>Ziang Chen</name>
+    </author>
+    <author>
+      <name>Zijing Que</name>
+    </author>
+    <author>
+      <name>Yilun Liu</name>
+    </author>
+    <author>
+      <name>Yongqian Sun</name>
+    </author>
+    <author>
+      <name>Sicheng Wei</name>
+    </author>
+    <author>
+      <name>Dan Pei</name>
+    </author>
+    <author>
+      <name>Hailin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.24765v1</id>
+    <title>CyberMaskQA: A Privacy-Aware Benchmark for Evaluating Large Language Models in Cybersecurity Question Answering</title>
+    <updated>2026-05-23T22:57:13Z</updated>
+    <link href="https://arxiv.org/abs/2605.24765v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.24765v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are increasingly applied to cybersecurity question answering (QA) for critical tasks such as incident response and vulnerability analysis. However, real-world operational contexts, including system logs and network configurations, inherently contain sensitive identifiers, e.g., IP addresses, host names, and user accounts. Processing this data with cloud-based models is often unsafe or infeasible in regulated environments. Furthermore, progress in privacy-preserving QA is hindered by the lack of annotated, context-rich datasets capable of jointly evaluating operational reasoning and privacy preservation. To address this gap, we introduce CYBERMASKQA, a privacy-aware QA benchmark covering key security domains. Unlike existing benchmarks that primarily test factual knowledge, CYBERMASKQA grounds questions in realistic organizational contexts with explicit causal dependencies among assets and privileges. Generated through a systematic pipeline, the dataset combines human-curated base scenarios with LLM-driven semantic expansion, annotating each instance with precise private entity labels to enable controlled information disclosure. Evaluations of QA accuracy and masking performance demonstrate the benchmark's utility for developing deployable, context-aware cybersecurity models and facilitating nuanced studies of privacy-utility trade-offs. Upon acceptance, we will release the dataset and the generation framework.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-23T22:57:13Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Matilda Gaddi</name>
+    </author>
+    <author>
+      <name>Jin Noh</name>
+    </author>
+    <author>
+      <name>Onat Gungor</name>
+    </author>
+    <author>
+      <name>Tajana Rosing</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.21773v1</id>
+    <title>HIDBench: Benchmarking Large Language Models for Host-Based Intrusion Detection</title>
+    <updated>2026-05-20T22:07:12Z</updated>
+    <link href="https://arxiv.org/abs/2605.21773v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.21773v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent benchmark efforts have advanced the evaluation of large language models (LLMs) in cybersecurity, including tasks such as penetration testing and vulnerability identification. However, a critical cybersecurity task, namely intrusion detection from system logs, remains unexplored. In this work, we present a new benchmark to assess LLMs' capabilities in supporting host-based intrusion detection systems (HIDS). This task requires fine-grained reasoning over large-scale, noisy, and highly imbalanced system logs, where complex interactions between benign and malicious activities make reliable detection challenging. Our benchmark unifies three public system log datasets, DARPA-E3, DARPA-E5, and NodLink, and introduces a data construction pipeline that transforms raw host telemetry into LLM-compatible inputs, enabling systematic evaluation under realistic intrusion detection settings. Our evaluation of frontier LLMs reveals substantial performance gaps across datasets. While many models achieve high precision (often above 0.8) on simpler datasets, their performance degrades significantly as system logs become noisier and more complex, with MCC frequently dropping below 0.5 and false positive rates increasing sharply. We further analyze model behavior and identify distinct regimes, including conservative detectors with low false positive rates and over-sensitive models that generate excessive alerts. Overall, our results highlight that while LLMs show strong potential for HIDS, their effectiveness is highly sensitive to data complexity, and robust system design is essential for reliable deployment.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-20T22:07:12Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Danyu Sun</name>
+    </author>
+    <author>
+      <name>Jinghuai Zhang</name>
+    </author>
+    <author>
+      <name>Yuan Tian</name>
+    </author>
+    <author>
+      <name>Zhou Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.16981v2</id>
+    <title>SmartGuard: Leveraging Large Language Models for Network Attack Detection through Audit Log Analysis and Summarization</title>
+    <updated>2026-02-13T06:59:46Z</updated>
+    <link href="https://arxiv.org/abs/2506.16981v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.16981v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>End-point monitoring solutions are widely deployed in today's enterprise environments to support advanced attack detection and investigation. These monitors continuously record system-level activities as audit logs and provide deep visibility into security events. Unfortunately, existing methods of semantic analysis based on audit logs have low granularity, only reaching the system call level, making it difficult to effectively classify highly covert behaviors. Additionally, existing works mainly match audit log streams with rule knowledge bases describing behaviors, which heavily rely on expertise and lack the ability to detect unknown attacks and provide interpretive descriptions. In this paper, we propose SmartGuard, an automated method that combines abstracted behaviors from audit event semantics with large language models. SmartGuard extracts specific behaviors (function level) from incoming system logs and constructs a knowledge graph, divides events by threads, and combines event summaries with graph embeddings to achieve information diagnosis and provide explanatory narratives through large language models. Our evaluation shows that SmartGuard achieves an average F1 score of 96\% in assessing malicious behaviors and demonstrates good scalability across multiple models and unknown attacks. It also possesses excellent fine-tuning capabilities, allowing experts to assist in timely system updates.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-20T13:19:17Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Hao Zhang</name>
+    </author>
+    <author>
+      <name>Shuo Shao</name>
+    </author>
+    <author>
+      <name>Song Li</name>
+    </author>
+    <author>
+      <name>Zhenyu Zhong</name>
+    </author>
+    <author>
+      <name>Yan Liu</name>
+    </author>
+    <author>
+      <name>Zhan Qin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.24031v1</id>
+    <title>LLMLogAnalyzer: A Clustering-Based Log Analysis Chatbot using Large Language Models</title>
+    <updated>2025-10-28T03:29:55Z</updated>
+    <link href="https://arxiv.org/abs/2510.24031v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.24031v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>System logs are a cornerstone of cybersecurity, supporting proactive breach prevention and post-incident investigations. However, analyzing vast amounts of diverse log data remains significantly challenging, as high costs, lack of in-house expertise, and time constraints make even basic analysis difficult for many organizations. This study introduces LLMLogAnalyzer, a clustering-based log analysis chatbot that leverages Large Language Models (LLMs) and Machine Learning (ML) algorithms to simplify and streamline log analysis processes. This innovative approach addresses key LLM limitations, including context window constraints and poor structured text handling capabilities, enabling more effective summarization, pattern extraction, and anomaly detection tasks. LLMLogAnalyzer is evaluated across four distinct domain logs and various tasks. Results demonstrate significant performance improvements over state-of-the-art LLM-based chatbots, including ChatGPT, ChatPDF, and NotebookLM, with consistent gains ranging from 39% to 68% across different tasks. The system also exhibits strong robustness, achieving a 93% reduction in interquartile range (IQR) when using ROUGE-1 scores, indicating significantly lower result variability. The framework's effectiveness stems from its modular architecture comprising a router, log recognizer, log parser, and search tools. This design enhances LLM capabilities for structured text analysis while improving accuracy and robustness, making it a valuable resource for both cybersecurity experts and non-technical users.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-28T03:29:55Z</published>
+    <arxiv:comment>33 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Peng Cai</name>
+    </author>
+    <author>
+      <name>Reza Ryan</name>
+    </author>
+    <author>
+      <name>Nickson M. Karie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.05261v1</id>
+    <title>RAGLog: Log Anomaly Detection using Retrieval Augmented Generation</title>
+    <updated>2023-11-09T10:40:04Z</updated>
+    <link href="https://arxiv.org/abs/2311.05261v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.05261v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ability to detect log anomalies from system logs is a vital activity needed to ensure cyber resiliency of systems. It is applied for fault identification or facilitate cyber investigation and digital forensics. However, as logs belonging to different systems and components differ significantly, the challenge to perform such analysis is humanly challenging from the volume, variety and velocity of logs. This is further complicated by the lack or unavailability of anomalous log entries to develop trained machine learning or artificial intelligence models for such purposes. In this research work, we explore the use of a Retrieval Augmented Large Language Model that leverages a vector database to detect anomalies from logs. We used a Question and Answer configuration pipeline. To the best of our knowledge, our experiment which we called RAGLog is a novel one and the experimental results show much promise.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-09T10:40:04Z</published>
+    <arxiv:comment>arXiv admin note: substantial text overlap with arXiv:2203.10960</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jonathan Pan</name>
+    </author>
+    <author>
+      <name>Swee Liang Wong</name>
+    </author>
+    <author>
+      <name>Yidi Yuan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.05032v2</id>
+    <title>Log-based Anomaly Detection based on EVT Theory with feedback</title>
+    <updated>2023-09-30T04:09:55Z</updated>
+    <link href="https://arxiv.org/abs/2306.05032v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.05032v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>System logs play a critical role in maintaining the reliability of software systems. Fruitful studies have explored automatic log-based anomaly detection and achieved notable accuracy on benchmark datasets. However, when applied to large-scale cloud systems, these solutions face limitations due to high resource consumption and lack of adaptability to evolving logs. In this paper, we present an accurate, lightweight, and adaptive log-based anomaly detection framework, referred to as SeaLog. Our method introduces a Trie-based Detection Agent (TDA) that employs a lightweight, dynamically-growing trie structure for real-time anomaly detection. To enhance TDA's accuracy in response to evolving log data, we enable it to receive feedback from experts. Interestingly, our findings suggest that contemporary large language models, such as ChatGPT, can provide feedback with a level of consistency comparable to human experts, which can potentially reduce manual verification efforts. We extensively evaluate SeaLog on two public datasets and an industrial dataset. The results show that SeaLog outperforms all baseline methods in terms of effectiveness, runs 2X to 10X faster and only consumes 5% to 41% of the memory resource.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-08T08:34:58Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Jinyang Liu</name>
+    </author>
+    <author>
+      <name>Junjie Huang</name>
+    </author>
+    <author>
+      <name>Yintong Huo</name>
+    </author>
+    <author>
+      <name>Zhihan Jiang</name>
+    </author>
+    <author>
+      <name>Jiazhen Gu</name>
+    </author>
+    <author>
+      <name>Zhuangbin Chen</name>
+    </author>
+    <author>
+      <name>Cong Feng</name>
+    </author>
+    <author>
+      <name>Minzhi Yan</name>
+    </author>
+    <author>
+      <name>Michael R. Lyu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22676v2</id>
+    <title>VarParser: Unleashing the Neglected Power of Variables for LLM-based Log Parsing</title>
+    <updated>2026-03-12T06:20:02Z</updated>
+    <link href="https://arxiv.org/abs/2601.22676v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22676v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Logs serve as a primary source of information for engineers to diagnose failures in large-scale online service systems. Log parsing, which extracts structured events from massive unstructured log data, is a critical first step for downstream tasks like anomaly detection and failure diagnosis. With advances in large language models (LLMs), leveraging their strong text understanding capabilities has proven effective for accurate log parsing. However, existing LLM-based log parsers all focus on the constant part of logs, ignoring the potential contribution of the variable part to log parsing. This constant-centric strategy brings four key problems. First, inefficient log grouping and sampling with only constant information. Second, a relatively large number of LLM invocations due to constant-based cache, leading to low log parsing accuracy and efficiency. Third, a relatively large number of consumed constant tokens in prompts leads to high LLM invocation costs. At last, these methods only retain placeholders in the results, losing the system visibility brought by variable information in logs.
+  Facing these problems, we propose a variable-centric log parsing strategy named VarParser. Through variable contribution sampling, variable-centric parsing cache, and adaptive variable-aware in-context learning, our approach can efficiently capture the variable parts of logs and leverage their contributions to parsing. By introducing variable units, we preserve rich variable information, enhancing the integrity of log parsing results. Extensive evaluations on large-scale datasets demonstrate that VarParser achieves higher accuracy compared to existing methods, significantly improving parsing efficiency while reducing the LLM invocation costs.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T07:49:54Z</published>
+    <arxiv:comment>Published as a conference paper in WWW 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Jinrui Sun</name>
+    </author>
+    <author>
+      <name>Tong Jia</name>
+    </author>
+    <author>
+      <name>Minghua He</name>
+    </author>
+    <author>
+      <name>Ying Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.05168v1</id>
+    <title>Instruction-Tuned LLMs for Parsing and Mining Unstructured Logs on Leadership HPC Systems</title>
+    <updated>2026-04-06T20:59:48Z</updated>
+    <link href="https://arxiv.org/abs/2604.05168v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.05168v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Leadership-class HPC systems generate massive volumes of heterogeneous, largely unstructured system logs. Because these logs originate from diverse software, hardware, and runtime layers, they exhibit inconsistent formats, making structure extraction and pattern discovery extremely challenging. Therefore, robust log parsing and mining is critical to transform this raw telemetry into actionable insights that reveal operational patterns, diagnose anomalies, and enable reliable, efficient, and scalable system analysis. Recent advances in large language models (LLMs) offer a promising new direction for automated log understanding in leadership-class HPC environments.
+  To capitalize on this opportunity, we present a domain-adapted, instruction-following, LLM-driven framework that leverages chain-of-thought (CoT) reasoning to parse and structure HPC logs with high fidelity. Our approach combines domain-specific log-template data with instruction-tuned examples to fine-tune an 8B-parameter LLaMA model tailored for HPC log analysis. We develop a hybrid fine-tuning methodology that adapts a general-purpose LLM to domain-specific log data, enabling privacy-preserving, locally deployable, fast, and energy-efficient log-mining approach. We conduct experiments on a diverse set of log datasets from the LogHub repository. The evaluation confirms that our approach achieves parsing accuracy on par with significantly larger models, such as LLaMA 70B and Anthropic's Claude. We further validate the practical utility of our fine-tuned LLM model by parsing over 600 million production logs from the Frontier supercomputer over a four-week window, uncovering critical patterns in temporal dynamics, node-level anomalies, and workload-error log correlations.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-06T20:59:48Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ahmad Maroof Karimi</name>
+    </author>
+    <author>
+      <name>Jong Youl Choi</name>
+    </author>
+    <author>
+      <name>Charles Qing Cao</name>
+    </author>
+    <author>
+      <name>Awais Khan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.00081v2</id>
+    <title>Enabling Transparent Cyber Threat Intelligence Combining Large Language Models and Domain Ontologies</title>
+    <updated>2026-04-24T20:40:48Z</updated>
+    <link href="https://arxiv.org/abs/2509.00081v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.00081v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Effective Cyber Threat Intelligence (CTI) relies upon accurately structured and semantically enriched information extracted from cybersecurity system logs. However, current methodologies often struggle to identify and interpret malicious events reliably and transparently, particularly in cases involving unstructured or ambiguous log entries. In this work, we propose a novel methodology that combines ontology-driven structured outputs with Large Language Models (LLMs), to build an Artificial Intelligence (AI) agent that improves the accuracy and explainability of information extraction from cybersecurity logs. Central to our approach is the integration of domain ontologies and SHACL-based constraints to guide the language model's output structure and enforce semantic validity over the resulting graph. Extracted information is organized into an ontology-enriched graph database, enabling future semantic analysis and querying. The design of our methodology is motivated by the analytical requirements associated with honeypot log data, which typically comprises predominantly malicious activity. While our case study illustrates the relevance of this scenario, the experimental evaluation is conducted using publicly available datasets. Results demonstrate that our method achieves higher accuracy in information extraction compared to traditional prompt-only approaches, with a deliberate focus on extraction quality rather than processing speed.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-26T23:17:33Z</published>
+    <arxiv:comment>14 pages, 3 figures, 6 tables, presented at the 1st workshops on eXplainable AI, Knowledge Representation and Knowledge Graphs (XAI-KRKG) and User-Centered Explanations in XAI Workshop (UCEX-XAI), October 25-30, 2025, Bologna, Italy</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <arxiv:journal_ref>Joint Proceedings of the 1st workshops on eXplainable AI, Knowledge Representation and Knowledge Graphs (XAI-KRKG) and User-Centered Explanations in XAI Workshop (UCEX-XAI), 2025, CEUR Workshop proceedings, volume 4172, pages 95-108</arxiv:journal_ref>
+    <author>
+      <name>Luca Cotti</name>
+    </author>
+    <author>
+      <name>Anisa Rula</name>
+    </author>
+    <author>
+      <name>Devis Bianchini</name>
+    </author>
+    <author>
+      <name>Federico Cerutti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.20148v1</id>
+    <title>LogSieve: Task-Aware CI Log Reduction for Sustainable LLM-Based Analysis</title>
+    <updated>2026-01-28T00:49:50Z</updated>
+    <link href="https://arxiv.org/abs/2601.20148v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.20148v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Logs are essential for understanding Continuous Integration (CI) behavior, particularly for diagnosing build failures and performance regressions. Yet their growing volume and verbosity make both manual inspection and automated analysis increasingly costly, time-consuming, and environmentally costly. While prior work has explored log compression, anomaly detection, and LLM-based log analysis, most efforts target structured system logs rather than the unstructured, noisy, and verbose logs typical of CI workflows.
+  We present LogSieve, a lightweight, RCA-aware and semantics-preserving log reduction technique that filters low-information lines while retaining content relevant to downstream reasoning. Evaluated on CI logs from 20 open-source Android projects using GitHub Actions, LogSieve achieves an average 42% reduction in lines and 40% reduction in tokens with minimal semantic loss. This pre-inference reduction lowers computational cost and can proportionally reduce energy use (and associated emissions) by decreasing the volume of data processed during LLM inference.
+  Compared with structure-first baselines (LogZip and random-line removal), LogSieve preserves much higher semantic and categorical fidelity (Cosine = 0.93, GPTScore = 0.93, 80% exact-match accuracy). Embedding-based classifiers automate relevance detection with near-human accuracy (97%), enabling scalable and sustainable integration of semantics-aware filtering into CI workflows. LogSieve thus bridges log management and LLM reasoning, offering a practical path toward greener and more interpretable CI automation.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-28T00:49:50Z</published>
+    <arxiv:comment>Preprint. Accepted for presentation at Mining Software Repositories (MSR'26), co-located ICSE 2026. The final version will appear in the ACM Digital Library as part of the MSR'26 conference proceedings</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Marcus Emmanuel Barnes</name>
+    </author>
+    <author>
+      <name>Taher A. Ghaleb</name>
+    </author>
+    <author>
+      <name>Safwat Hassan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.07745v4</id>
+    <title>Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation</title>
+    <updated>2026-01-03T17:12:14Z</updated>
+    <link href="https://arxiv.org/abs/2508.07745v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.07745v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Insider threats pose a persistent and critical security risk, yet are notoriously difficult to detect in complex enterprise environments, where malicious actions are often hidden within seemingly benign user behaviors. Although machine-learning-based insider threat detection (ITD) methods have shown promise, their effectiveness is fundamentally limited by the scarcity of high-quality and realistic training data. Enterprise internal data is highly sensitive and rarely accessible, while existing public and synthetic datasets are either small-scale or lack sufficient realism, semantic richness, and behavioral diversity.
+  To address this challenge, we propose Chimera, an LLM-based multi-agent framework that automatically simulates both benign and malicious insider activities and generates comprehensive system logs across diverse enterprise environments. Chimera models each agent as an individual employee with fine-grained roles and supports group meetings, pairwise interactions, and self-organized scheduling to capture realistic organizational dynamics. Based on 15 insider attacks abstracted from real-world incidents, we deploy Chimera in three representative data-sensitive organizational scenarios and construct ChimeraLog, a new dataset for developing and evaluating ITD methods.
+  We evaluate ChimeraLog through human studies and quantitative analyses, demonstrating its diversity and realism. Experiments with existing ITD methods show substantially lower detection performance on ChimeraLog compared to prior datasets, indicating a more challenging and realistic benchmark. Moreover, despite distribution shifts, models trained on ChimeraLog exhibit strong generalization, highlighting the practical value of LLM-based multi-agent simulation for advancing insider threat detection.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-11T08:24:48Z</published>
+    <arxiv:comment>Accepted by NDSS 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jiongchi Yu</name>
+    </author>
+    <author>
+      <name>Xiaofei Xie</name>
+    </author>
+    <author>
+      <name>Qiang Hu</name>
+    </author>
+    <author>
+      <name>Yuhan Ma</name>
+    </author>
+    <author>
+      <name>Ziming Zhao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.09981v1</id>
+    <title>Sensitive-Topic Leakage Through LLM Routing Metadata: Measurement and Mitigation</title>
+    <updated>2026-10-07T12:47:37Z</updated>
+    <link href="https://arxiv.org/abs/2610.09981v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.09981v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM routers pick a cheap or expensive model per request by its content, and many gateways and some cloud platforms can log that choice with content logging off. We measure this privacy channel beyond token counts, accounting for noisy labels and repeated prompts. We run pre-registered studies on 1.7 million real requests (WildChat-1M, LMSYS-Chat-1M) with two cost/quality routers and a domain router, survey eleven systems' logging, and test post-processing defenses. At matched length, the shift's direction depends on category and router. For RouteLLM at the 50% operating point, harassment and self-harm requests reach the strong model 19 points less often than comparable ones on prompts unseen in exploration, medical requests (exploratory: LLM labels failed their gate) 31 points less often on distinct prompts (both post hoc), and sexual requests 10 points more often (secondary); the other router's four are negative. Twenty RouteLLM decisions separate frequent medical askers with AUC 0.71, exploratory and below the pre-registered primary endpoint's 0.75 (domain router: 0.92, an upper estimate). Per-category length-matched parity with accurate labels removes the gap on real traffic, costing at most 0.2 accuracy points on RouterBench (post hoc), where routers' gaps on sensitive subjects (13-42 points, pre-registered) exceed those of an oracle routing by realized accuracy gain (1-11, post hoc). Per-conversation stickiness, per-user budget bands, and pooled parity fail, the last as categories' shifts differ in size or sign. A post hoc exact per-user rate hides only even-prefix strong counts and forfeits most self-assessed routing value; it preserves odd-position decisions, from which a post hoc log attack reaches AUC 0.73 after 20 RouteLLM requests (exploratory).</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T12:47:37Z</published>
+    <arxiv:comment>20 pages, 5 figures, 9 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Teng-Ruei Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.11743v1</id>
+    <title>Cloud-Based AI Systems: Leveraging Large Language Models for Intelligent Fault Detection and Autonomous Self-Healing</title>
+    <updated>2025-05-16T23:02:57Z</updated>
+    <link href="https://arxiv.org/abs/2505.11743v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.11743v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rapid development of cloud computing systems and the increasing complexity of their infrastructure, intelligent mechanisms to detect and mitigate failures in real time are becoming increasingly important. Traditional methods of failure detection are often difficult to cope with the scale and dynamics of modern cloud environments. In this study, we propose a novel AI framework based on Massive Language Model (LLM) for intelligent fault detection and self-healing mechanisms in cloud systems. The model combines existing machine learning fault detection algorithms with LLM's natural language understanding capabilities to process and parse system logs, error reports, and real-time data streams through semantic context. The method adopts a multi-level architecture, combined with supervised learning for fault classification and unsupervised learning for anomaly detection, so that the system can predict potential failures before they occur and automatically trigger the self-healing mechanism. Experimental results show that the proposed model is significantly better than the traditional fault detection system in terms of fault detection accuracy, system downtime reduction and recovery speed.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-16T23:02:57Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Cheng Ji</name>
+    </author>
+    <author>
+      <name>Huaiying Luo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.05533v2</id>
+    <title>Analyzing Logs of Large-Scale Software Systems using Time Curves Visualization</title>
+    <updated>2025-02-19T08:36:35Z</updated>
+    <link href="https://arxiv.org/abs/2411.05533v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.05533v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Logs are crucial for analyzing large-scale software systems, offering insights into system health, performance, security threats, potential bugs, etc. However, their chaotic nature$\unicode{x2013}$characterized by sheer volume, lack of standards, and variability$\unicode{x2013}$makes manual analysis complex. The use of clustering algorithms can assist by grouping logs into a smaller set of templates, but lose the temporal and relational context in doing so. On the contrary, Large Language Models (LLMs) can provide meaningful explanations but struggle with processing large collections efficiently. Moreover, representation techniques for both approaches are typically limited to either plain text or traditional charting, especially when dealing with large-scale systems. In this paper, we combine clustering and LLM summarization with event detection and Multidimensional Scaling through the use of Time Curves to produce a holistic pipeline that enables efficient and automatic summarization of vast collections of software system logs. The core of our approach is the proposal of a semimetric distance that effectively measures similarity between events, thus enabling a meaningful representation. We show that our method can explain the main events of logs collected from different applications without prior knowledge. We also show how the approach can be used to detect general trends as well as outliers in parallel and distributed systems by overlapping multiple projections. As a result, we expect a significant reduction of the time required to analyze and resolve system-wide issues, identify performance bottlenecks and security risks, debug applications, etc.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-08T12:42:45Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Dmytro Borysenkov</name>
+    </author>
+    <author>
+      <name>Adriano Vogel</name>
+    </author>
+    <author>
+      <name>Sören Henning</name>
+    </author>
+    <author>
+      <name>Esteban Perez-Wohlfeil</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.25261v2</id>
+    <title>TRAIL: Towards Effective Log Parsing for Rare Logs through Template-Preserving Augmentation</title>
+    <updated>2026-10-30T21:25:43Z</updated>
+    <link href="https://arxiv.org/abs/2609.25261v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.25261v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Log parsing is essential for system log analysis because it supports tasks such as debugging, monitoring, and anomaly detection by transforming unstructured log messages into structured log templates. However, real-world log datasets exhibit highly imbalanced, long-tailed distributions, where a small number of frequent templates dominate while many rare templates appear only a few times. This imbalance causes evaluation results to be overly optimistic by allowing frequent templates to dominate benchmark metrics, while poor performance on rare yet operationally important events remains largely hidden. In this paper, we investigate the prevalence and impact of rare log groups, defined as log groups with fewer than five instances. Our empirical study on the widely used Loghub-2.0 benchmark shows that rare log groups account for nearly 20% of all templates but less than 0.01% of log messages. Because they contain only a handful of instances, all evaluated parsers experience substantial performance degradation on these groups. To address this challenge, we propose TAILOR, a log parsing framework that improves template inference for rare log groups through template-preserving augmentation. TAILOR enriches rare log groups with template- consistent log messages before template inference. The additional structural evidence helps distinguish static tokens from dynamic variables. Our experimental results show that TAILOR improves parsing accuracy on rare log groups by 19% over the strongest baseline while maintaining competitive performance on complete datasets. We further show that the proposed augmentation strategy generalizes across different LLM backbones and consistently improves existing LLM-based parsers without modifying their core architectures.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-21T18:12:11Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Sepideh Hodaeian</name>
+    </author>
+    <author>
+      <name>Zhenhao Li</name>
+    </author>
+    <author>
+      <name>An Ran Chen</name>
+    </author>
+  </entry>
+</feed>

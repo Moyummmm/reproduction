@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01713",
+    "decision": "EXCLUDE",
+    "reason": "LLM vulnerability repair is evaluated on a general code benchmark, not an OS component or privileged interface.",
+    "evidence": "LLM-based pipelines can generate, analyze, and repair code"
+  },
+  {
+    "id": "R01716",
+    "decision": "EXCLUDE",
+    "reason": "Studies conversational repair in human-LLM interaction, not a security or OS task.",
+    "evidence": "taxonomy of repair work of both users and conversational agents"
+  },
+  {
+    "id": "R01717",
+    "decision": "EXCLUDE",
+    "reason": "Factual repair of RAG answers, not a security analysis or OS-targeted task.",
+    "evidence": "repair pipeline that separates semantic localization from factual realization"
+  },
+  {
+    "id": "R01723",
+    "decision": "EXCLUDE",
+    "reason": "Cost-aware Python code repair, not a security analysis or OS-targeted task.",
+    "evidence": "30 QuixBugs-derived Python tasks"
+  },
+  {
+    "id": "R01725",
+    "decision": "EXCLUDE",
+    "reason": "Repairs interactive fiction graphs, not security or OS components.",
+    "evidence": "generate and automatically repair interactive fiction (IF) stories"
+  },
+  {
+    "id": "R01727",
+    "decision": "EXCLUDE",
+    "reason": "LLM produces driving coaching text; no security analysis or OS target.",
+    "evidence": "translates into natural-language coaching narratives"
+  },
+  {
+    "id": "R01738",
+    "decision": "EXCLUDE",
+    "reason": "LLM driving-interface study; no security analysis or OS target.",
+    "evidence": "conversational interface powered by a large language model"
+  },
+  {
+    "id": "R01743",
+    "decision": "EXCLUDE",
+    "reason": "Fungal DNA repair review; no LLM, security task, or OS component.",
+    "evidence": "In the present review, we provide an overview of DDR pathways"
+  },
+  {
+    "id": "R01744",
+    "decision": "EXCLUDE",
+    "reason": "LLM agents repair data pipelines, not OS security tasks.",
+    "evidence": "first responder to pipeline failures"
+  },
+  {
+    "id": "R01754",
+    "decision": "EXCLUDE",
+    "reason": "CI failure diagnosis and patch recommendation, not security or OS work.",
+    "evidence": "Diagnosing a failing GitHub Actions run"
+  },
+  {
+    "id": "R01757",
+    "decision": "EXCLUDE",
+    "reason": "Code translation and repair benchmark; no security analysis or OS target.",
+    "evidence": "code translation and translation error repair"
+  },
+  {
+    "id": "R01758",
+    "decision": "EXCLUDE",
+    "reason": "Community repair and social program; no LLM or security/OS task.",
+    "evidence": "Repair as a driver of community-led behavioural change"
+  },
+  {
+    "id": "R01761",
+    "decision": "EXCLUDE",
+    "reason": "Environmental damage repair law; no LLM or security/OS task.",
+    "evidence": "environmental repair procedure"
+  },
+  {
+    "id": "R01765",
+    "decision": "EXCLUDE",
+    "reason": "LLM test generation and repair for legacy Perl; general software testing, not security or OS.",
+    "evidence": "test-repair automation for legacy Perl systems"
+  },
+  {
+    "id": "R01772",
+    "decision": "EXCLUDE",
+    "reason": "Driver emotion recognition in IoV; no security analysis or OS target.",
+    "evidence": "driver emotion recognition tasks"
+  },
+  {
+    "id": "R01780",
+    "decision": "EXCLUDE",
+    "reason": "General automated program repair; no security or OS-specific target.",
+    "evidence": "automated program repair (APR)"
+  },
+  {
+    "id": "R01787",
+    "decision": "EXCLUDE",
+    "reason": "Survey of driver-generation representations; surveys are excluded and no security outcome is evaluated.",
+    "evidence": "thematic survey of hardware-driver intermediate representations"
+  },
+  {
+    "id": "R01793",
+    "decision": "EXCLUDE",
+    "reason": "Linux hardening overview using ML analytics, without an LLM role or original security experiment.",
+    "evidence": "machine learning (ML)-based analytics"
+  },
+  {
+    "id": "R01798",
+    "decision": "EXCLUDE",
+    "reason": "Implements an I2C Linux driver but has no LLM or security task.",
+    "evidence": "implementation of an I2C device driver in Linux"
+  },
+  {
+    "id": "R01813",
+    "decision": "EXCLUDE",
+    "reason": "Linux shared-hosting security analytics without LLM use.",
+    "evidence": "predictive security analytics framework"
+  },
+  {
+    "id": "R01814",
+    "decision": "EXCLUDE",
+    "reason": "Wireless penetration testing with Linux tools; no LLM role.",
+    "evidence": "wireless penetration testing and security auditing using Linux-based tools"
+  },
+  {
+    "id": "R01816",
+    "decision": "EXCLUDE",
+    "reason": "Overview of Linux security mechanisms; no LLM and not original empirical research.",
+    "evidence": "The article provides an overview of the key security aspects of the Linux operating system."
+  },
+  {
+    "id": "R01823",
+    "decision": "EXCLUDE",
+    "reason": "Linux runtime risk framework without LLM use.",
+    "evidence": "Provenance-based host security"
+  },
+  {
+    "id": "R01827",
+    "decision": "EXCLUDE",
+    "reason": "General Linux security overview; no LLM or original research.",
+    "evidence": "common or recent vulnerabilities that Linux faces"
+  },
+  {
+    "id": "R01842",
+    "decision": "EXCLUDE",
+    "reason": "Iptables configuration for Linux networks; no LLM role.",
+    "evidence": "iptables utility, used to configure the Linux kernel firewall"
+  },
+  {
+    "id": "R01847",
+    "decision": "EXCLUDE",
+    "reason": "Embedded filesystem uses TinyML for allocation, not an LLM, and has no security outcome.",
+    "evidence": "lightweight TinyML decision tree"
+  },
+  {
+    "id": "R01848",
+    "decision": "EXCLUDE",
+    "reason": "LLM fuzzing targets FPGA synthesis and simulation tools, not OS components or privileged interfaces.",
+    "evidence": "FPGA synthesis and simulation tools"
+  },
+  {
+    "id": "R01851",
+    "decision": "EXCLUDE",
+    "reason": "LLM fuzzing of SPICE simulators; no OS target or security task.",
+    "evidence": "test SPICE simulators"
+  },
+  {
+    "id": "R01857",
+    "decision": "EXCLUDE",
+    "reason": "Filesystem performance comparison without LLM or security analysis.",
+    "evidence": "compare the two most popular and competing file systems"
+  },
+  {
+    "id": "R01866",
+    "decision": "EXCLUDE",
+    "reason": "LLM bug fuzzing targets deep-learning libraries, not OS components or privileged interfaces.",
+    "evidence": "three mainstream DL libraries: PyTorch, TensorFlow, and MindSpore"
+  },
+  {
+    "id": "R01871",
+    "decision": "EXCLUDE",
+    "reason": "LLM vulnerability localization is evaluated on general software vulnerabilities, not OS components.",
+    "evidence": "XSS, SQL injection, and path traversal"
+  },
+  {
+    "id": "R01875",
+    "decision": "EXCLUDE",
+    "reason": "LLM business-logic vulnerability discovery targets microservice APIs, not OS components.",
+    "evidence": "business logic vulnerability discovery in power system microservice APIs"
+  },
+  {
+    "id": "R01876",
+    "decision": "EXCLUDE",
+    "reason": "LLM generates MODFLOW input files; no security or OS task.",
+    "evidence": "MODFLOW 6 input file generation"
+  },
+  {
+    "id": "R01877",
+    "decision": "EXCLUDE",
+    "reason": "Survey of KV-cache optimization; no security or OS target.",
+    "evidence": "A Survey on System-Aware KV Cache Optimization"
+  },
+  {
+    "id": "R01878",
+    "decision": "EXCLUDE",
+    "reason": "Survey of KV-cache optimization; no security or OS target.",
+    "evidence": "A Survey on System-Aware KV Cache Optimization"
+  },
+  {
+    "id": "R01881",
+    "decision": "EXCLUDE",
+    "reason": "Survey of KV-cache optimization; no security or OS target.",
+    "evidence": "A Survey on System-Aware KV Cache Optimization"
+  },
+  {
+    "id": "R01882",
+    "decision": "EXCLUDE",
+    "reason": "Forest biomass estimation and question answering; no security or OS task.",
+    "evidence": "Forest Biomass Estimation and Knowledge Question Answering"
+  },
+  {
+    "id": "R01886",
+    "decision": "EXCLUDE",
+    "reason": "LLM agent for project scheduling; no security or OS task.",
+    "evidence": "interactive large-scale project scheduling"
+  },
+  {
+    "id": "R01889",
+    "decision": "EXCLUDE",
+    "reason": "Digital human system; no security or OS task.",
+    "evidence": "3D Hyper-Realistic Interactive Intelligent Digital Human System"
+  },
+  {
+    "id": "R01891",
+    "decision": "EXCLUDE",
+    "reason": "Distributed filesystem performance work without LLM or security analysis.",
+    "evidence": "Distributed File System to Leverage Data Locality for Large-File Processing"
+  }
+]

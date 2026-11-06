@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R05841",
+    "decision": "EXCLUDE",
+    "reason": "Code summarization study; no security task or OS component target.",
+    "evidence": "Code vs Serialized AST Inputs for LLM-Based Code Summarization"
+  },
+  {
+    "id": "R05842",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor security of LoRA-adapted code-generation models; not an OS-targeted security task.",
+    "evidence": "backdoor learning in code generation models"
+  },
+  {
+    "id": "R05843",
+    "decision": "EXCLUDE",
+    "reason": "Control code generation from images; no security analysis or OS target stated.",
+    "evidence": "LLM-based Control Code Generation using Image Recognition"
+  },
+  {
+    "id": "R05844",
+    "decision": "EXCLUDE",
+    "reason": "Hybrid frontend code-generation reliability study; no security outcome or OS target.",
+    "evidence": "reliability of program code generation by large language models"
+  },
+  {
+    "id": "R05845",
+    "decision": "EXCLUDE",
+    "reason": "Emotion classification in code-switched text; unrelated to security or OS.",
+    "evidence": "Emotion Classification in LLM-Based Code-Switched Text"
+  },
+  {
+    "id": "R05846",
+    "decision": "EXCLUDE",
+    "reason": "Multi-agent LLM code generation and integration; no security task or OS target.",
+    "evidence": "LLM Based Code Generation and Code Integration with Multi-Agent Systems"
+  },
+  {
+    "id": "R05847",
+    "decision": "EXCLUDE",
+    "reason": "Regression-test prioritization for LLM code generation; no security analysis of OS components.",
+    "evidence": "Baseline Output Length for Prioritizing Visible-Test Regressions"
+  },
+  {
+    "id": "R05848",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-variability study of LLM code generation; no security or OS focus.",
+    "evidence": "Code Roulette: How Prompt Variability Affects LLM Code Generation"
+  },
+  {
+    "id": "R05849",
+    "decision": "EXCLUDE",
+    "reason": "Attacking LLM fingerprinting; security of LLMs rather than an OS-targeted task.",
+    "evidence": "RIPPLE: Attacking Backdoor-based LLM Fingerprinting via Latent Representation Perturbation"
+  },
+  {
+    "id": "R05850",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor defense for LLMs; security of LLMs, not OS components or privileged interfaces.",
+    "evidence": "BadLLM-TG: A Backdoor Defender Powered by LLM Trigger Generator"
+  },
+  {
+    "id": "R05851",
+    "decision": "EXCLUDE",
+    "reason": "Cross-model code generation collaboration; no security outcome or OS target.",
+    "evidence": "Cross-Model Collaboration for Enhancing LLM-Based Code Generation"
+  },
+  {
+    "id": "R05852",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor attacks on LLM agents; security of LLMs/agents, not OS components.",
+    "evidence": "BadAgent: Inserting and Activating Backdoor Attacks in LLM Agents"
+  },
+  {
+    "id": "R05853",
+    "decision": "EXCLUDE",
+    "reason": "Efficiency benchmarking of generated dynamic-programming code; no security task.",
+    "evidence": "Efficiency Analysis of LLM-generated Dynamic Programming Code"
+  },
+  {
+    "id": "R05854",
+    "decision": "EXCLUDE",
+    "reason": "AST-aware code summarization dataset/model; no security analysis or OS target.",
+    "evidence": "Cloud-assisted LLM-enhanced datasets for AST hierarchy-aware code summarization model"
+  },
+  {
+    "id": "R05855",
+    "decision": "EXCLUDE",
+    "reason": "Failure-aware LLM code-generation decision framework; no security or OS focus.",
+    "evidence": "Failure-Aware Enhancements for Large Language Model (LLM) Code Generation"
+  },
+  {
+    "id": "R05856",
+    "decision": "EXCLUDE",
+    "reason": "Building-design code compliance; not operating-system security.",
+    "evidence": "Automated Code Compliance via LLM-assisted Building Design Alterations"
+  },
+  {
+    "id": "R05857",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; vulnerable-code focus is security-relevant, but OS target and evaluation are unclear.",
+    "evidence": "LLM-based Vulnerable Code Augmentation: Generate or Refactor?"
+  },
+  {
+    "id": "R05858",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor detection for code models; security of LLMs/code models, not OS components.",
+    "evidence": "Optimizing Spectral Signature in Code Backdoor Detection"
+  },
+  {
+    "id": "R05859",
+    "decision": "EXCLUDE",
+    "reason": "No-code LLM-guided evolutionary algorithm; no security task or OS target.",
+    "evidence": "Towards Variation via Foundation Model: An Empirical Study of a Problem-Agnostic No-Code LLM-Guided Evolutionary Algorithm"
+  },
+  {
+    "id": "R05860",
+    "decision": "EXCLUDE",
+    "reason": "Low-code engineering vision; no security analysis or OS component focus.",
+    "evidence": "White-box LLM-supported Low-code Engineering: A Vision and First Insights"
+  },
+  {
+    "id": "R05861",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM-based honeypots; reviews are excluded from the core empirical set.",
+    "evidence": "Generative AI-Driven Cybersecurity Deception: A Brief Survey of Large Language Model Based Honeypots"
+  },
+  {
+    "id": "R05862",
+    "decision": "EXCLUDE",
+    "reason": "Systematic review of LLM/multimodal cybersecurity; reviews are excluded from the core empirical set.",
+    "evidence": "This systematic review provides a detailed analysis of 55 research papers"
+  },
+  {
+    "id": "R05863",
+    "decision": "EXCLUDE",
+    "reason": "Systematic survey of agentic AI/LLM IoT cybersecurity; surveys are excluded.",
+    "evidence": "this survey is, to the best of our knowledge, among the first systematic reviews"
+  },
+  {
+    "id": "R05864",
+    "decision": "EXCLUDE",
+    "reason": "Web-application cybersecurity generation and educational evaluation; not OS-targeted security research.",
+    "evidence": "Large Language Model Based Web Application Cybersecurity Challenges: Automated Generation and Educational Evaluation"
+  },
+  {
+    "id": "R05865",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates cybersecurity advice quality in GRC settings; not an OS security analysis task.",
+    "evidence": "Evaluating the Quality of Large Language Model-Generated Cybersecurity Advice in GRC Settings"
+  },
+  {
+    "id": "R05866",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM/GenAI cybersecurity risks and defenses; surveys are excluded.",
+    "evidence": "This paper presents a comprehensive survey"
+  },
+  {
+    "id": "R05867",
+    "decision": "EXCLUDE",
+    "reason": "Classifies LLM survey papers with machine learning; unrelated to security or OS.",
+    "evidence": "Exploring Large Language Model survey papers via Machine and Ensemble Learning"
+  },
+  {
+    "id": "R05868",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM applications and vulnerabilities in cybersecurity; surveys are excluded.",
+    "evidence": "This survey provides a comprehensive overview of LLM applications in cybersecurity"
+  },
+  {
+    "id": "R05869",
+    "decision": "EXCLUDE",
+    "reason": "Cybersecurity education pedagogy; no OS security analysis or empirical core evidence.",
+    "evidence": "Exploring Large Language Model-Powered Pedagogical Approaches to Cybersecurity Education"
+  },
+  {
+    "id": "R05870",
+    "decision": "EXCLUDE",
+    "reason": "Systematic survey of agentic AI/LLM IoT cybersecurity; surveys are excluded.",
+    "evidence": "this survey is, to the best of our knowledge, among the first systematic reviews"
+  },
+  {
+    "id": "R05871",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates LLM survey-paper categories; unrelated to security or OS.",
+    "evidence": "Exploring and Evaluating Large Language Model Survey Paper Categories"
+  },
+  {
+    "id": "R05872",
+    "decision": "EXCLUDE",
+    "reason": "Cybersecurity policy development against spear phishing; not OS component security analysis.",
+    "evidence": "developing and implementing cybersecurity policies targeted at mitigating spear phishing attacks"
+  },
+  {
+    "id": "R05873",
+    "decision": "EXCLUDE",
+    "reason": "Automated SOC incident analysis and response advice; not an OS-targeted security task.",
+    "evidence": "automated cybersecurity incident analysis"
+  },
+  {
+    "id": "R05874",
+    "decision": "EXCLUDE",
+    "reason": "Localized networking/cybersecurity domain model; no OS-targeted security analysis.",
+    "evidence": "Localized large language model TCNNet 9B for Taiwanese networking and cybersecurity"
+  },
+  {
+    "id": "R05875",
+    "decision": "EXCLUDE",
+    "reason": "Cybersecurity knowledge-graph construction; not an OS security analysis task.",
+    "evidence": "Cybersecurity Knowledge Graph Construction Method"
+  },
+  {
+    "id": "R05876",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; broad cybersecurity title does not establish original research, OS target, or LLM security task.",
+    "evidence": "Large Language Models (LLMs) for Cybersecurity"
+  },
+  {
+    "id": "R05877",
+    "decision": "UNCLEAR",
+    "reason": "System vulnerability assessment is suggested, but OS/privileged-interface target and empirical scope remain ambiguous.",
+    "evidence": "Open Interpreter in system vulnerability assessments"
+  },
+  {
+    "id": "R05878",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; broad cybersecurity title lacks explicit security task or OS/privileged-interface target.",
+    "evidence": "Large Language Models in Cybersecurity: Digital Defense and Ethical Challenge"
+  },
+  {
+    "id": "R05879",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM-empowered recommender systems; not security or OS research.",
+    "evidence": "Large Language Model Empowered Recommender Systems: A Survey on Functional Paradigms and Architectural Transformation"
+  },
+  {
+    "id": "R05880",
+    "decision": "UNCLEAR",
+    "reason": "IoT vulnerability simulation and best-practice advice; OS/privileged-interface target and security evaluation are unclear.",
+    "evidence": "simulate a vulnerable IoT system"
+  }
+]

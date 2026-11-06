@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R05041",
+    "decision": "EXCLUDE",
+    "reason": "Cloud services assessment and SOW generation; no security or OS task.",
+    "evidence": "LLM-Driven SOW Generation"
+  },
+  {
+    "id": "R05042",
+    "decision": "EXCLUDE",
+    "reason": "Point cloud classification; no LLM security or OS target.",
+    "evidence": "Point Patch Transformer (PPT)"
+  },
+  {
+    "id": "R05043",
+    "decision": "EXCLUDE",
+    "reason": "Point cloud classification; no LLM security or OS target.",
+    "evidence": "Point Patch Transformer (PPT)"
+  },
+  {
+    "id": "R05044",
+    "decision": "EXCLUDE",
+    "reason": "Point cloud classification; no LLM security or OS target.",
+    "evidence": "Point Patch Transformer (PPT)"
+  },
+  {
+    "id": "R05045",
+    "decision": "EXCLUDE",
+    "reason": "LLM uncertainty quantification for social-science annotation; not security or OS.",
+    "evidence": "five different UQ strategies across three distinct LLMs and CSS data annotation tasks"
+  },
+  {
+    "id": "R05046",
+    "decision": "EXCLUDE",
+    "reason": "Medical image classification and report generation; no security or OS.",
+    "evidence": "generates concise, non-diagnostic clinical narrative summaries"
+  },
+  {
+    "id": "R05047",
+    "decision": "EXCLUDE",
+    "reason": "Missing abstract; generic LLM classification with no security or OS dimension.",
+    "evidence": "Performance Measurement of LLM Classification for Imbalanced Class sizes"
+  },
+  {
+    "id": "R05048",
+    "decision": "EXCLUDE",
+    "reason": "Missing abstract; image bitstream classification with no security or OS target.",
+    "evidence": "IBFC-LLM: Image Bitstream Fragment Classification by Large Language Models"
+  },
+  {
+    "id": "R05049",
+    "decision": "UNCLEAR",
+    "reason": "LLM patch filtering for vulnerability data, but OS target is unstated and the abstract is missing.",
+    "evidence": "Towards higher quality software vulnerability data using LLM-based patch filtering"
+  },
+  {
+    "id": "R05050",
+    "decision": "EXCLUDE",
+    "reason": "Multimodal LLM image explanation; no security or OS task.",
+    "evidence": "Textual explanations for image classification using multimodal LLM"
+  },
+  {
+    "id": "R05051",
+    "decision": "EXCLUDE",
+    "reason": "Remote-sensing scene classification; no LLM security or OS dimension.",
+    "evidence": "patch-based discriminative learning (PBDL) for remote-sensing scene classification"
+  },
+  {
+    "id": "R05052",
+    "decision": "EXCLUDE",
+    "reason": "ECG classification and report generation; no security or OS task.",
+    "evidence": "BiECG-LLM: An Approach to ECG Classification and Report Generation Using a Fine-Tuned LLM with Bi-Modal ECG"
+  },
+  {
+    "id": "R05053",
+    "decision": "EXCLUDE",
+    "reason": "Remote-sensing scene classification; no LLM security or OS dimension.",
+    "evidence": "remote-sensing scene classification"
+  },
+  {
+    "id": "R05054",
+    "decision": "EXCLUDE",
+    "reason": "CVE-to-threat-technique mapping; no OS-component security task and abstract missing.",
+    "evidence": "CyberLLM: Enable Mapping CVE to Tactics and Techniques of Cyber Threats via LLM"
+  },
+  {
+    "id": "R05055",
+    "decision": "EXCLUDE",
+    "reason": "Risk classification over unstructured data; no security or OS dimension; abstract missing.",
+    "evidence": "Comparing NLP and LLM Approaches for Risk Classification Using Unstructured Data"
+  },
+  {
+    "id": "R05056",
+    "decision": "EXCLUDE",
+    "reason": "Dermoscopic image classification and report generation; no security or OS.",
+    "evidence": "classifying dermoscopic images based on acquisition types"
+  },
+  {
+    "id": "R05057",
+    "decision": "EXCLUDE",
+    "reason": "Solidity migration and verification; smart-contract software work, not OS.",
+    "evidence": "LLM-Guided Solidity Migration with Semantic Guarantees"
+  },
+  {
+    "id": "R05058",
+    "decision": "EXCLUDE",
+    "reason": "Enterprise AI architecture synthesis; no security or OS task.",
+    "evidence": "Knowledge-Model Separation"
+  },
+  {
+    "id": "R05059",
+    "decision": "EXCLUDE",
+    "reason": "General C++ standard migration; no security outcome or OS target.",
+    "evidence": "LLM-generated candidate changes within a controlled C++ modernization pipeline"
+  },
+  {
+    "id": "R05060",
+    "decision": "EXCLUDE",
+    "reason": "Enterprise payment-system migration; no security or OS focus; abstract missing.",
+    "evidence": "Modernization of Enterprise Payment Infrastructure: A Case Study on LLM-Assisted Migration of Legacy Distributed Systems"
+  },
+  {
+    "id": "R05061",
+    "decision": "EXCLUDE",
+    "reason": "Web framework migration; no security or OS task.",
+    "evidence": "LLM-Assisted Incremental Migration from React to Next.js"
+  },
+  {
+    "id": "R05062",
+    "decision": "EXCLUDE",
+    "reason": "Ecological predator-prey model; no LLM, security, or OS relevance.",
+    "evidence": "A three-patch predator-prey model: migration expands the survival region"
+  },
+  {
+    "id": "R05063",
+    "decision": "EXCLUDE",
+    "reason": "Test-suite migration with optional LLM fallback; not security or OS.",
+    "evidence": "migrates legacy Selenium WebDriver test suites into compiling Playwright TypeScript"
+  },
+  {
+    "id": "R05064",
+    "decision": "EXCLUDE",
+    "reason": "Ethics of financial code migration; no OS-targeted security analysis.",
+    "evidence": "AI-assisted code migration within enterprise financial systems"
+  },
+  {
+    "id": "R05065",
+    "decision": "EXCLUDE",
+    "reason": "Ecological sterile-insect model; no LLM, security, or OS relevance.",
+    "evidence": "Sterile insect technique in a patch system: influence of migration rates on optimal single-patch releases strategies"
+  },
+  {
+    "id": "R05066",
+    "decision": "EXCLUDE",
+    "reason": "Image-captioning patch-size study; no security or OS task.",
+    "evidence": "On the Impact of Patch Size in LLM-Based Image Captioning of Sentinel-2 Imagery"
+  },
+  {
+    "id": "R05067",
+    "decision": "EXCLUDE",
+    "reason": "Student performance prediction; no security or OS dimension.",
+    "evidence": "Academic Performance Prediction"
+  },
+  {
+    "id": "R05068",
+    "decision": "EXCLUDE",
+    "reason": "LLM patch validation on general software benchmarks; no OS or privileged-interface target.",
+    "evidence": "automated vulnerability repair"
+  },
+  {
+    "id": "R05069",
+    "decision": "EXCLUDE",
+    "reason": "Database migration for enterprise platforms; no security or OS focus; abstract missing.",
+    "evidence": "LLM-Assisted Database Migration Intelligence for Enterprise Platforms"
+  },
+  {
+    "id": "R05070",
+    "decision": "EXCLUDE",
+    "reason": "Legacy payment-system migration; no security or OS focus; abstract missing.",
+    "evidence": "Modernization of enterprise payment infrastructure: A case study on LLM-assisted migration of legacy distributed systems"
+  },
+  {
+    "id": "R05071",
+    "decision": "EXCLUDE",
+    "reason": "Financial LLM version-migration risk; not OS security.",
+    "evidence": "Vendor version migration can therefore create material, directionally unpredictable decision discontinuities"
+  },
+  {
+    "id": "R05072",
+    "decision": "EXCLUDE",
+    "reason": "CUDA optimization for visual odometry; no security or OS task.",
+    "evidence": "DPVO-QAT++: Heterogeneous QAT and CUDA Kernel Fusion for High-Performance Deep Patch Visual Odometry"
+  },
+  {
+    "id": "R05073",
+    "decision": "EXCLUDE",
+    "reason": "Human migration behavior simulation; no security or OS task.",
+    "evidence": "Multimodal LLM-Based Agent for Human Behavior Simulation: Modeling Return Migration Dynamics"
+  },
+  {
+    "id": "R05074",
+    "decision": "EXCLUDE",
+    "reason": "Stock trend prediction; no security or OS dimension.",
+    "evidence": "Integrative stock price trend prediction via hierarchical LLM text processing and patch-based transformer with co-attention"
+  },
+  {
+    "id": "R05075",
+    "decision": "EXCLUDE",
+    "reason": "Industrial surface anomaly detection; no LLM security or OS task.",
+    "evidence": "Anomaly Detection for Surface of Industrial Products Based on Patch Kernel Density Estimation"
+  },
+  {
+    "id": "R05076",
+    "decision": "EXCLUDE",
+    "reason": "Database migration via knowledge graphs; no security or OS focus; abstract missing.",
+    "evidence": "LLM-powered database migration: A framework for knowledge graph system evolution"
+  },
+  {
+    "id": "R05077",
+    "decision": "EXCLUDE",
+    "reason": "Linux kernel patch-porting study with no LLM role indicated; abstract missing.",
+    "evidence": "An Investigation of Patch Porting Practices of the Linux Kernel Ecosystem"
+  },
+  {
+    "id": "R05078",
+    "decision": "EXCLUDE",
+    "reason": "Hazardous-liquid detection with patch antennas and SVM; no LLM security or OS task.",
+    "evidence": "Hazardous Liquid Detection Using a Patch Antenna and Support Vector Machines"
+  },
+  {
+    "id": "R05079",
+    "decision": "EXCLUDE",
+    "reason": "API migration study; no LLM, security, or OS evidence; abstract missing.",
+    "evidence": "Two-Stage Patch Synthesis for API Migration from Single API Usage Example"
+  },
+  {
+    "id": "R05080",
+    "decision": "EXCLUDE",
+    "reason": "Firearms trafficking and migration commentary; no LLM security or OS task.",
+    "evidence": "Guns bought in the US and trafficked to Mexican drug cartels fuel violence in Mexico and the migration crisis"
+  }
+]

@@ -1,0 +1,452 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kFYsNG0ruvmCsTvQ291QF0L+PJI</id>
+  <title>arXiv Query: search_query=(all:"large language model" OR all:LLM OR all:GPT) AND (all:eBPF AND (all:security OR all:fuzzing OR all:verification) )&amp;id_list=&amp;start=0&amp;max_results=100</title>
+  <updated>2026-11-05T05:39:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(all:%22large+language+model%22+OR+(all:LLM+OR+all:GPT))+AND+(all:eBPF+AND+(all:security+OR+(all:fuzzing+OR+all:verification)))&amp;start=0&amp;max_results=100&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>100</opensearch:itemsPerPage>
+  <opensearch:totalResults>15</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.18338v1</id>
+    <title>Autonomy in Check: Governor-Mediated Adaptive Security at the Edge</title>
+    <updated>2026-09-16T09:00:34Z</updated>
+    <link href="https://arxiv.org/abs/2609.18338v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.18338v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Adaptive security at the network edge increasingly relies on automated planners, including rule-based controllers, learned policies, and LLM-assisted agents, that translate observations into enforcement actions. Once such a planner can influence live policy state, syntactic validity is not enough. A semantically wrong action, produced from incomplete or manipulated observations, can be faithfully executed by an enforcement substrate that cannot judge mission context. We address this problem by treating the boundary between planner output and kernel enforcement input as the primary security object. We propose a split-control architecture in which an untrusted planner emits typed security intents, a deterministic governor checks each intent against safety, resource, temporal-stability, and proportionality invariants, and only admitted actions are bound to signed receipts and compiled into pre-installed eBPF map updates. The paper formalizes this trust-boundary problem, defines three threat classes, develops the governor admission predicate, and reports an end-to-end prototype. Across rule-based and LLM-assisted planners on a Raspberry Pi 5 testbed connected to the university 5G Test Network, the governor admits, rejects, and bounds intents at microsecond cost without disrupting protected-flow regularity. The contribution is conceptual as much as empirical: adaptive security does not need to trust the author of an action. It needs a mediation boundary that decides whether the action is admissible.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-16T09:00:34Z</published>
+    <arxiv:comment>9 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <arxiv:journal_ref>2026 IEEE Conference on Communications and Network Security (CNS)</arxiv:journal_ref>
+    <author>
+      <name>Ijaz Ahmad</name>
+    </author>
+    <author>
+      <name>Ijaz Ahmad</name>
+    </author>
+    <author>
+      <name>Flavio Esposito</name>
+    </author>
+    <author>
+      <name>Erkki Harjula</name>
+    </author>
+    <arxiv:doi>10.1109/CNS69863.2026.11720905</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/CNS69863.2026.11720905" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.25411v2</id>
+    <title>Heimdall: Formally Verified Automated Migration of Legacy eBPF Programs to Rust</title>
+    <updated>2026-08-26T16:46:42Z</updated>
+    <link href="https://arxiv.org/abs/2605.25411v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.25411v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Extended Berkeley Packet Filter (eBPF) programs are kernel extensions used for networking, observability, and security enforcement in the Linux kernel. The in-kernel eBPF verifier checks low-level memory safety and termination on eBPF programs, but it does not enforce many higher-level source-level properties, such as initialization discipline, schema consistency, or error handling. We document nine classes of source-level bugs that compile, pass the kernel verifier, and can silently corrupt data, leak kernel memory to userspace, or yield incorrect enforcement outcomes. To harden such verifier-accepted buggy programs and support safe migration, we present Heimdall, an automated pipeline that uses large language models to translate legacy libbpf C programs to Aya Rust. Heimdall iteratively repairs compilation and kernel-verifier failures, rejects unsafe escape hatches in Rust-Aya with a static analysis safety engine, and proves per-program equivalence to the original via symbolic execution and Z3-based equivalence checking. Across 115 eBPF programs, Heimdall generates 109 formally proven-equivalent translations (94.8%). In the process, Heimdall identifies nine bugs in real-world eBPF programs and fixes all of them, two of which leak randomized kernel addresses to userspace and break KASLR. Eight of the nine have also been acknowledged and fixed upstream by the developers. Heimdall is the first system to automate memory-safe-language migration of production eBPF programs with per-program formal guarantees that the migration preserves observable behavior.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-25T04:23:29Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Vishnu Asutosh Dasu</name>
+    </author>
+    <author>
+      <name>Monika Santra</name>
+    </author>
+    <author>
+      <name>Md Rafi Ur Rashid</name>
+    </author>
+    <author>
+      <name>Ashish Kumar</name>
+    </author>
+    <author>
+      <name>Saeid Tizpaz-Niari</name>
+    </author>
+    <author>
+      <name>Gang Tan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.02748v1</id>
+    <title>Characterizing and Bridging the Diagnostic Gap in eBPF Verifier Rejections</title>
+    <updated>2026-07-02T20:33:32Z</updated>
+    <link href="https://arxiv.org/abs/2607.02748v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.02748v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>eBPF lets developers run custom programs inside the Linux kernel, where a verifier proves each program safe. However, when the verifier rejects a program, the unclear error makes repair challenging: the error reports where verification stopped, not where the program lost the proof the verifier required. To quantify this gap, we conduct an empirical study of 235 reproduced rejections, showing that 47% of rejections return only EINVAL, one error string maps to as many as nine distinct root causes, and 10 of the 12 root causes are eBPF-specific. Repair thus requires both domain knowledge and locating where the proof was lost, yet existing tools only help developers read the error. We present bpfix, which reconstructs where the required proof was established and where it was lost from the verifier log, and prints a Rust-like diagnostic. To evaluate bpfix and the ability of LLMs to help repair, we construct a benchmark of 75 LLM repair tasks. Current models achieve 0-37% one-shot success with the raw log, and replacing the log with the bpfix localization improves repair by 11-21pp, suggesting that locating where the proof was lost is key to guiding repair. bpfix is available at https://github.com/eunomia-bpf/bpfix</summary>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-02T20:33:32Z</published>
+    <arxiv:comment>Yusheng Zheng, Zhengjie Ji, Weichen Tao have equal contribution to the paper</arxiv:comment>
+    <arxiv:primary_category term="cs.OS"/>
+    <author>
+      <name>Yusheng Zheng</name>
+    </author>
+    <author>
+      <name>Zhengjie Ji</name>
+    </author>
+    <author>
+      <name>Weichen Tao</name>
+    </author>
+    <author>
+      <name>Xiangyu Gao</name>
+    </author>
+    <author>
+      <name>Jianchang Su</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Andi Quinn</name>
+    </author>
+    <author>
+      <name>Dan Williams</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.02861v1</id>
+    <title>Containing the Autonomous Operator: A Defense-in-Depth Framework and Reference Architecture for Securing AI Agents on Kubernetes</title>
+    <updated>2026-10-02T05:54:52Z</updated>
+    <link href="https://arxiv.org/abs/2610.02861v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.02861v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents are moving from chat interfaces into infrastructure operations, where they read telemetry, call tools, generate and execute code, and change the state of production Kubernetes clusters. This collapses a boundary that conventional cloud-native security assumes: the boundary between data and control. Content that an agent merely reads (a log line, a ticket, a tool description) can redirect what it does. This paper argues that the model must not be treated as a security boundary and that agent safety on Kubernetes is therefore an infrastructure problem: every guarantee must continue to hold under the assumption that the agent is fully compromised by prompt injection. We contribute (i) a threat model and ten-class threat taxonomy for agents operating on and within Kubernetes, aligned with emerging OWASP guidance for agentic applications; (ii) nine design principles, centered on complete mediation at the tool boundary and on breaking the combination of untrusted input, sensitive access, and external egress; (iii) a seven-layer defense-in-depth framework that maps each principle to native or widely adopted Kubernetes mechanisms: workload identity, RBAC and ValidatingAdmissionPolicy, gVisor/Kata sandboxing via the SIG Apps Agent Sandbox project, FQDN-aware egress policy, an agent/MCP gateway with policy-as-code over tool arguments, and eBPF runtime enforcement; (iv) a reference architecture with concrete policy artifacts and per-layer bindings for Amazon EKS, Azure Kubernetes Service, and Google Kubernetes Engine; and (v) a qualitative evaluation comprising a threat-control coverage matrix and four attack walkthroughs, with a proposed empirical methodology. We report no measured attack-success or overhead figures; instead we identify residual risks and the measurements needed to validate the framework.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-02T05:54:52Z</published>
+    <arxiv:comment>22 pages, 2 figures, 4 tables, 6 listings</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Simhadri Podala Narasimha</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.38245v1</id>
+    <title>Agent-Warden: eBPF-Based Kernel-Native Process-File Provenance Tracking for LLM Agents</title>
+    <updated>2026-09-29T06:48:01Z</updated>
+    <link href="https://arxiv.org/abs/2609.38245v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.38245v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents execute dynamically generated process and file operations that are often invisible to application-layer tracing. We present Agent-Warden, an extended Berkeley Packet Filter (eBPF)-based provenance monitor for tracking task and regular-file states across process creation, file access, and process termination. Agent-Warden provides two interchangeable state backends: a PID-keyed hash-map backend for compatible kernels lacking BPF local-storage support and a task/inode-local-storage backend that couples state reclamation to kernel-object lifetimes. The system emits incremental causal edges to user space for asynchronous graph reconstruction and applies conservative exit-triggered causal aggregation to preserve causal context for short-lived proxy tasks. In a controlled file-mediated propagation scenario, Agent-Warden reconstructed a cross-process causal chain that was absent from the application-layer trace. On x86-64 and ARM64 bare-metal hosts, the evaluated workloads showed 0.2-3.5% end-to-end overhead and 0.6-3.7% additional system CPU time. These results indicate that the prototype provides kernel-level visibility with the measured overheads in the evaluated settings.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-29T06:48:01Z</published>
+    <arxiv:comment>Accepted for publication in IEEE TPS 2026. 9 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Dongxu Cui</name>
+    </author>
+    <author>
+      <name>Zhichao Gu</name>
+    </author>
+    <author>
+      <name>Ping Zheng</name>
+    </author>
+    <author>
+      <name>Simeng Han</name>
+    </author>
+    <author>
+      <name>Yong Liao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.21641v1</id>
+    <title>Auditing MCP Servers for Over-Privileged Tool Capabilities</title>
+    <updated>2026-03-23T07:20:00Z</updated>
+    <link href="https://arxiv.org/abs/2603.21641v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.21641v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Model Context Protocol (MCP) has emerged as a standard for connecting Large Language Models (LLMs) to external tools and data. However, MCP servers often expose privileged capabilities, such as file system access, network requests, and command execution that can be exploited if not properly secured. We present mcp-sec-audit, an extensible security assessment toolkit designed specifically for MCP servers. It implements static pattern matching for Python-based MCP servers and dynamic sandboxed fuzzing and monitoring via Docker and eBPF. The tool detects risky capabilities through configurable rule-based analysis and provides mitigation recommendations.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-23T07:20:00Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Charoes Huang</name>
+    </author>
+    <author>
+      <name>Xin Huang</name>
+    </author>
+    <author>
+      <name>Amin Milani Fard</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.01837v1</id>
+    <title>Code-Survey: An LLM-Driven Methodology for Analyzing Large-Scale Codebases</title>
+    <updated>2024-09-24T17:08:29Z</updated>
+    <link href="https://arxiv.org/abs/2410.01837v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.01837v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern software systems like the Linux kernel are among the world's largest and most intricate codebases, continually evolving with new features and increasing complexity. Understanding these systems poses significant challenges due to their scale and the unstructured nature of development artifacts such as commits and mailing list discussions. We introduce Code-Survey, the first LLM-driven methodology designed to systematically explore and analyze large-scale codebases. The central principle behind Code-Survey is to treat LLMs as human participants, acknowledging that software development is also a social activity and thereby enabling the application of established social science techniques. By carefully designing surveys, Code-Survey transforms unstructured data, such as commits, emails, into organized, structured, and analyzable datasets. This enables quantitative analysis of complex software evolution and uncovers valuable insights related to design, implementation, maintenance, reliability, and security.
+  To demonstrate the effectiveness of Code-Survey, we apply it to the Linux kernel's eBPF subsystem. We construct the Linux-bpf dataset, comprising over 670 features and 16,000 commits from the Linux community. Our quantitative analysis uncovers important insights into the evolution of eBPF, such as development patterns, feature interdependencies, and areas requiring attention for reliability and security. The insights have been initially validated by eBPF experts. Furthermore, Code-Survey can be directly applied to other subsystems within Linux and to other large-scale software projects. By providing a versatile tool for systematic analysis, Code-Survey facilitates a deeper understanding of complex software systems, enabling improvements across a variety of domains and supporting a wide range of empirical studies. The code and dataset is open-sourced.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-24T17:08:29Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Yusheng Zheng</name>
+    </author>
+    <author>
+      <name>Yiwei Yang</name>
+    </author>
+    <author>
+      <name>Haoqin Tu</name>
+    </author>
+    <author>
+      <name>Yuxi Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.23233v2</id>
+    <title>AgentLoupe: Kernel-Resident Semantic Causal Labels for AI Agent Observability</title>
+    <updated>2026-10-19T01:49:36Z</updated>
+    <link href="https://arxiv.org/abs/2610.23233v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.23233v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI agents translate user intents into system actions via tool invocations. Accurately attributing these actions to their originating LLM interactions is essential for security auditing, yet existing methods, such as AgentSight, fail for delayed execution and cross-process-lineage behaviors. We present AgentLoupe, an application-transparent eBPF-based observability tool. The core insight of AgentLoupe is to embed causal identity into kernel resources. AgentLoupe employs eBPF to capture TLS plaintext to interpret LLM interactions, and assigns each a kernel-resident semantic label. It maintains labels in eBPF maps, then propagates this label across processes and threads, associates it with kernel resources such as files and sockets. When a persistent resource carries context to an independent process outside the original lineage, this design preserves the delayed causal association. Experiments show that the average observation overhead of AgentLoupe is below 8%, and case studies confirm AgentLoupe traces cross-lineage persistent attacks back to their originating LLM interactions.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-16T10:01:50Z</published>
+    <arxiv:comment>Accepted to the 5th Workshop on Practical Adoption Challenges of ML for Systems (PACMI 2026), co-located with ACM SOSP 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yifei Bao</name>
+    </author>
+    <author>
+      <name>Ting Liu</name>
+    </author>
+    <author>
+      <name>Yuxin Ren</name>
+    </author>
+    <author>
+      <name>Ruizhe Huang</name>
+    </author>
+    <author>
+      <name>Likang Luo</name>
+    </author>
+    <author>
+      <name>Ziteng Xu</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Peng Jiang</name>
+    </author>
+    <arxiv:doi>10.1145/3843967.3844687</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3843967.3844687" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.05531v1</id>
+    <title>KEN: Kernel Extensions using Natural Language</title>
+    <updated>2023-12-09T10:45:54Z</updated>
+    <link href="https://arxiv.org/abs/2312.05531v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.05531v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ability to modify and extend an operating system is an important feature for improving a system's security, reliability, and performance. The extended Berkeley Packet Filters (eBPF) ecosystem has emerged as the standard mechanism for extending the Linux kernel and has recently been ported to Windows. eBPF programs inject new logic into the kernel that the system will execute before or after existing logic. While the eBPF ecosystem provides a flexible mechanism for kernel extension, it is difficult for developers to write eBPF programs today. An eBPF developer must have deep knowledge of the internals of the operating system to determine where to place logic and cope with programming limitations on the control flow and data accesses of their eBPF program enforced by the eBPF verifier. This paper presents KEN, an alternative framework that alleviates the difficulty of writing an eBPF program by allowing Kernel Extensions to be written in Natural language. KEN uses recent advances in large language models (LLMs) to synthesize an eBPF program given a user's English language prompt. To ensure that LLM's output is semantically equivalent to the user's prompt, KEN employs a combination of LLM-empowered program comprehension, symbolic execution, and a series of feedback loops. KEN's key novelty is the combination of these techniques. In particular, the system uses symbolic execution in a novel structure that allows it to combine the results of program synthesis and program comprehension and build on the recent success that LLMs have shown for each of these tasks individually. To evaluate KEN, we developed a new corpus of natural language prompts for eBPF programs. We show that KEN produces correct eBPF programs on 80% which is an improvement of a factor of 2.67 compared to an LLM-empowered program synthesis baseline.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-09T10:45:54Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yusheng Zheng</name>
+    </author>
+    <author>
+      <name>Yiwei Yang</name>
+    </author>
+    <author>
+      <name>Maolin Chen</name>
+    </author>
+    <author>
+      <name>Andrew Quinn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.38248v1</id>
+    <title>ContractWarden: Kernel-Enforced Damage Boundaries for AI Agents via Human-Authorized Contracts</title>
+    <updated>2026-09-29T07:13:14Z</updated>
+    <link href="https://arxiv.org/abs/2609.38248v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.38248v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model agents can execute commands, create subprocesses, and directly access files and networks, allowing prompt injection or planning errors to become operating-system side effects. We present ContractWarden, a Linux reference monitor that enforces a human-authorized damage boundary without trusting the agent or its policy suggestions. A model may propose a tri-state asset contract - allow, deny, or no_egress - but a human makes the final choice. An execution gate binds the contract to a concrete task before untrusted code runs. An extended Berkeley Packet Filter (eBPF) Linux Security Modules (LSM) data plane then enforces file and network decisions and monotonically propagates no_egress through processes, regular files, pipes, FIFOs, and supported Unix-domain sockets. All 570 runs across 19 security tests satisfy predefined return-value and side-effect criteria. On three co-located file-I/O workloads, median overhead is 11.96-12.89% in a Linux 6.15 virtual machine and 35.79-61.54% on a Linux 6.15 physical platform, lower than the evaluated frozen ActPlane baseline. The results demonstrate deterministic kernel enforcement for declared assets, supported paths, and controlled object lifecycles.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-29T07:13:14Z</published>
+    <arxiv:comment>Supersedes the preprint DOI 10.21203/rs.3.rs-10865359/v1, which has a different title. Submitted to ICOIN 2027. 6 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Dongxu Cui</name>
+    </author>
+    <author>
+      <name>Zhichao Gu</name>
+    </author>
+    <author>
+      <name>Ping Zheng</name>
+    </author>
+    <author>
+      <name>Wenshuai Xi</name>
+    </author>
+    <author>
+      <name>Simeng Han</name>
+    </author>
+    <author>
+      <name>Yong Liao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.12276v2</id>
+    <title>AKTS: Sub-Microsecond Kernel Policy Switching for Language-Model Agents</title>
+    <updated>2026-10-07T11:31:07Z</updated>
+    <link href="https://arxiv.org/abs/2609.12276v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.12276v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>GPU-backed LLM servers multiplex interactive requests with background batch work on the same CPUs; a fixed kernel policy serves one objective and loses the other, so agentic OS control needs to switch scheduler behavior as the workload changes. The hard part is applying the switch safely and fast enough for the kernel: scheduler events occur every 1-10 $μ$s, and any code running there must satisfy the eBPF verifier. Scalar knobs are fast but limited, while generating eBPF policy code puts compilation, verification and possible rejection on the runtime path. We present AKTS, which verifies a policy library once, at load time, and reduces the agent's runtime action to writing an integer index into an in-kernel array of preverified policies, resolved by a tail call. Because the agent emits an index rather than code, verifier failure is not a runtime outcome. On Linux 6.14, AKTS applies a policy switch in 920 ns (p50); makes an invalid index inert across 60,217 invocations on an attached scheduler; and switches policies in a vLLM workload to capture 97% of a throughput policy's batch work while matching a latency policy's burst response.</summary>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T23:10:25Z</published>
+    <arxiv:comment>6 pages, 1 figure. Accepted at the 10th Machine Learning for Systems Workshop at NeurIPS 2026. Code and raw measurement data: https://github.com/mali-kh/akts</arxiv:comment>
+    <arxiv:primary_category term="cs.OS"/>
+    <author>
+      <name>Mohammadali Khodabandehlou</name>
+    </author>
+    <author>
+      <name>Mahdi Alizadeh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.00002v1</id>
+    <title>An Agentic OS Kernel for Flexible and Enhanced Semantics</title>
+    <updated>2026-08-02T05:49:54Z</updated>
+    <link href="https://arxiv.org/abs/2611.00002v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.00002v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern OS kernels expose general-purpose but rigid interfaces (e.g., syscalls) that are slow to evolve due to compatibility, performance, and security constraints, leaving apps to pay for mismatched semantics and legacy APIs. Existing kernel mechanism customization approaches (e.g., eBPF) improve flexibility but still face strict safety and performance restrictions and thus require substantial expertise. What's more, they targets customized kernel mechanisms rather than kernel abstractions.
+  This paper presents agentic kernel, a new architecture that decomposes monolithic syscall functions into fine-grained, composable kernel-native micro-syscalls, and then enables Large Language Models (LLMs) to orchestrate them dynamically. Agentic kernel introduces a new entry, isyscall (intent syscall), which lets apps submit high-level intents describing their requirements. Then the kernel leverages LLMs to resolve each intent into composition plan of micro-syscalls to satisfy the user's goal. LLMs can further optimize the plan continuously at kernel runtime. To eliminate LLM inference costs on the critical path, agentic kernel caches and reuses verified plans to bypass LLM entirely. Crucially, agentic kernel's safety guarantees are independent of LLM correctness: micro-syscalls follows syscall-level security mechanisms, ensuring OS safety under arbitrary combinations and orchestration.
+  We implement agentic kernel in Linux, called IntentOS, and evaluate it across four kernel versions and three application domains (about ten intents each). IntentOS outperforms baseline Linux in real-world applications, achieving up to 17.55% latency reduction for backend processes creation, 6.97% performance gain for multiple files operations, and 75.52% lower performance impact for frontend Nginx server during memory operations triggered by backend tasks.</summary>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-02T05:49:54Z</published>
+    <arxiv:primary_category term="cs.OS"/>
+    <author>
+      <name>Haocheng Wang</name>
+    </author>
+    <author>
+      <name>Xinyue Sun</name>
+    </author>
+    <author>
+      <name>Hao Yi</name>
+    </author>
+    <author>
+      <name>Dong Du</name>
+    </author>
+    <author>
+      <name>Yubin Xia</name>
+    </author>
+    <author>
+      <name>Haibo Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.01892v1</id>
+    <title>CyberAId: AI-Driven Cybersecurity for Financial Service Providers</title>
+    <updated>2026-05-03T14:15:11Z</updated>
+    <link href="https://arxiv.org/abs/2605.01892v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.01892v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>European financial institutions face mounting regulatory pressure while their security operations centres remain constrained not by data or staffing but by reasoning capacity: enterprise SIEMs cover only a fraction of MITRE ATT&amp;CK techniques, two thirds of SOC teams cannot keep pace with alert volumes, and the majority of breaches are preceded by alerts that are generated but never investigated. Frontier large language models now achieve state-of-the-art results on isolated cybersecurity tasks (one-day vulnerability exploitation, code-level patching, intrusion detection) yet no narrow win constitutes a platform that can compose across functions, persist multi-tenant state, map findings to regulatory regimes and survive an audit. This position paper argues that the right unit of construction is a hybrid multi-agent system in which specialised LLM subagents reason over classical SIEM/XDR telemetry rather than replacing it, share accumulated agent state across institutions through privacy-preserving federation, and can connect to complementary capability packs such as quantum-based authentication, digital twins for adversarial validation, and eBPF-based kernel telemetry. We present CyberAId, a model-agnostic, on-premise-deployable platform in which a Main Agent coordination layer, a Reporting capability, and specialist subagents operate within a shared runtime under bounded human-in-the-loop autonomy, organised around four falsifiable design principles, and aligned with relevant regulations. CyberAId will be validated at four representative financial use cases (client impersonation, anti-money-laundering for payment service providers, retail-banking incident response, and high-frequency-trading resilience) and propose skill-based agent adaptation as the most promising research direction for turning each deployment into a contribution to a continuously refined collective defence.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-03T14:15:11Z</published>
+    <arxiv:comment>8 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>George Fatouros</name>
+    </author>
+    <author>
+      <name>Georgios Makridis</name>
+    </author>
+    <author>
+      <name>John Soldatos</name>
+    </author>
+    <author>
+      <name>Dimosthenis Kyriazis</name>
+    </author>
+    <author>
+      <name>Pedro Malo</name>
+    </author>
+    <author>
+      <name>George Kousiouris</name>
+    </author>
+    <author>
+      <name>Giannis Ledakis</name>
+    </author>
+    <author>
+      <name>Louiza Kachrimani</name>
+    </author>
+    <author>
+      <name>Panagiotis Rizomiliotis</name>
+    </author>
+    <author>
+      <name>Bruno Almeida</name>
+    </author>
+    <author>
+      <name>Despina Tomkou</name>
+    </author>
+    <author>
+      <name>Kostas Metaxas</name>
+    </author>
+    <author>
+      <name>Konstantinos Ilias</name>
+    </author>
+    <author>
+      <name>Christos Gkizelis</name>
+    </author>
+    <author>
+      <name>Ernstjan de Gooyert</name>
+    </author>
+    <author>
+      <name>Amin Babazadeh</name>
+    </author>
+    <author>
+      <name>Kostis Mavrogiorgos</name>
+    </author>
+    <author>
+      <name>Pepi Paraskevoulakou</name>
+    </author>
+    <author>
+      <name>Christos Xenakis</name>
+    </author>
+    <author>
+      <name>Giannis Chouchoulis</name>
+    </author>
+    <author>
+      <name>Konstantina Tripodi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.13731v1</id>
+    <title>Trustworthy Agentic AI: A Comprehensive Cybersecurity and Systems Survey on Threat Landscapes, Defense Architectures, and Open Challenges</title>
+    <updated>2026-09-12T05:51:27Z</updated>
+    <link href="https://arxiv.org/abs/2609.13731v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.13731v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The transition from passive foundation models to autonomous, goal-directed agentic AI systems has introduced unprecedented capabilities by coupling recursive cognitive reasoning loops, persistent memory architectures, live tool execution planes, and multi-agent collaboration topologies. However, granting probabilistic neural cores execution authority across filesystems, networks, and cloud infrastructure dissolves classical security perimeters: natural language simultaneously serves as input data, internal control code, and communication protocols, exposing a Turing-complete blast radius where untrusted data represents executable instructions. This survey delivers a comprehensive systems-security reference framework for trustworthy agentic AI, synthesizing 206 foundational studies and regulatory standards. We formalize the general agent architecture as a stateful 5-tuple and establish a 6-dimensional trustworthiness taxonomy covering security, safety, privacy, explainability, fairness, and accountability. We systematically analyze threat surfaces across intra-execution loops and interaction planes, formulate a multi-layered zero-trust defense-in-depth architecture integrating Dual-LLM isolation, Capability-Based Access Control, kernel eBPF probes, and sandboxed runtimes, review standardized evaluation benchmarks, and map technical controls to international AI governance frameworks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-12T05:51:27Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Seyedakbar Mostafavi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.12841v1</id>
+    <title>A Graph-Based Approach for Mapping Kernel-Level Telemetry to MITRE ATT&amp;CK</title>
+    <updated>2026-09-11T13:35:27Z</updated>
+    <link href="https://arxiv.org/abs/2609.12841v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.12841v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mapping observed system behavior to standardized frameworks like MITRE ATT&amp;CK is essential for threat-informed defense, but remains largely manual. Existing automated methods depend on Cyber Threat Intelligence reports, which offer only retrospective accounts of attacks. Low-level telemetry, i.e. kernel-level system calls, instead provides evidence of adversary behavior, yet its volume and complexity have limited its use for automated mapping. We present a methodology that collects kernel-level events via eBPF, correlates attacker commands into a provenance graph, and derives compact graph representations suitable for LLM-based reasoning. These representations are mapped to the MITRE ATT&amp;CK framework using both pure LLM prompting and retrieval-augmented generation (RAG) grounded in the ATT&amp;CK knowledge base, producing ranked technique candidates along with supporting rationales. We implement this methodology as an end-to-end pipeline, named Trace2ATT&amp;CK and evaluate it on 347 Linux Atomic Red Team tests using locally deployed open-weights LLMs. RAG consistently improves ATT&amp;CK mapping performance over pure prompting, while provenance graph substantially outperforms raw telemetry. These results show that local inference over graph-based behavioral descriptions can make automated ATT&amp;CK mapping from kernel-level telemetry operationally viable, without compromising data confidentiality.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-11T13:35:27Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Matteo Lupinacci</name>
+    </author>
+    <author>
+      <name>Luigi Arena</name>
+    </author>
+    <author>
+      <name>Francesco Blefari</name>
+    </author>
+    <author>
+      <name>Angelo Furfaro</name>
+    </author>
+  </entry>
+</feed>

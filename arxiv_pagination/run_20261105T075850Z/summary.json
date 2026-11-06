@@ -1,0 +1,20 @@
+[
+  {
+    "query_id": "kernel_vulnerability",
+    "original_total": "112",
+    "original_returned": 100,
+    "refresh_total_last_page": 112,
+    "refresh_page_coverage_reached_last_reported_total": true,
+    "refresh_unique_versioned_ids": 112,
+    "limitation": "Relevance ranking and results may shift between pages and between snapshots; reaching the last total does not prove a stable exhaustive set."
+  },
+  {
+    "query_id": "exploit",
+    "original_total": "1284",
+    "original_returned": 100,
+    "refresh_total_last_page": 1284,
+    "refresh_page_coverage_reached_last_reported_total": false,
+    "refresh_unique_versioned_ids": 1000,
+    "limitation": "Relevance ranking and results may shift between pages and between snapshots; reaching the last total does not prove a stable exhaustive set."
+  }
+]

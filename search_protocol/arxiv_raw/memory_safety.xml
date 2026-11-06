@@ -1,0 +1,874 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+HxSHOYLgSzrgqTeoU7dGXxReIA</id>
+  <title>arXiv Query: search_query=(all:"large language model" OR all:LLM OR all:GPT) AND (all:"memory safety" AND (all:vulnerability OR all:detection) )&amp;id_list=&amp;start=0&amp;max_results=100</title>
+  <updated>2026-11-05T05:39:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(all:%22large+language+model%22+OR+(all:LLM+OR+all:GPT))+AND+(all:%22memory+safety%22+AND+(all:vulnerability+OR+all:detection))&amp;start=0&amp;max_results=100&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>100</opensearch:itemsPerPage>
+  <opensearch:totalResults>31</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2506.15648v2</id>
+    <title>deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses</title>
+    <updated>2025-10-24T21:52:10Z</updated>
+    <link href="https://arxiv.org/abs/2506.15648v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.15648v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although Rust ensures memory safety by default, it also permits the use of unsafe code, which can introduce memory safety vulnerabilities if misused. Unfortunately, existing tools for detecting memory bugs in Rust typically exhibit limited detection capabilities, inadequately handle Rust-specific types, or rely heavily on manual intervention.
+  To address these limitations, we present deepSURF, a tool that integrates static analysis with Large Language Model (LLM)-guided fuzzing harness generation to effectively identify memory safety vulnerabilities in Rust libraries, specifically targeting unsafe code. deepSURF introduces a novel approach for handling generics by substituting them with custom types and generating tailored implementations for the required traits, enabling the fuzzer to simulate user-defined behaviors within the fuzzed library. Additionally, deepSURF employs LLMs to augment fuzzing harnesses dynamically, facilitating exploration of complex API interactions and significantly increasing the likelihood of exposing memory safety vulnerabilities. We evaluated deepSURF on 63 real-world Rust crates, successfully rediscovering 30 known memory safety bugs and uncovering 12 previously-unknown vulnerabilities (out of which 11 have been assigned RustSec IDs and 3 have been patched), demonstrating clear improvements over state-of-the-art tools.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-18T17:18:23Z</published>
+    <arxiv:comment>At IEEE S&amp;P 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Georgios Androutsopoulos</name>
+    </author>
+    <author>
+      <name>Antonio Bianchi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.22263v1</id>
+    <title>Revelio: Cost-Efficient Agentic Memory Safety Vulnerability Detection For Repository-Scale Codebases</title>
+    <updated>2026-06-20T23:17:23Z</updated>
+    <link href="https://arxiv.org/abs/2606.22263v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.22263v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory safety vulnerabilities remain a significant threat even for projects with extensive fuzzing and manual auditing. Recent results suggest that large language models hold great promise for detecting such vulnerabilities, but they are unreliable, at risk of hallucination, and challenging to scale to repository-size codebases. This paper presents Revelio, a cost-efficient end-to-end agentic framework for memory-safety vulnerability discovery. Revelio addresses the problem of hallucination by generating an executable Proof-of-Vulnerability, which is checked with a deterministic sanitizer. It reduces cost using inexpensive LLMs and lightweight static analysis to help generate and rank vulnerability hypotheses, reporting vulnerabilities only when they can be reproduced and confirmed by a sanitizer. We evaluated Revelio on seven production-quality projects that had been continuously fuzzed for five to eight years, as well as on 100 randomly selected Arvo projects from the CyberGym benchmark. With around one hour per project and a total cost of $300, Revelio discovered 19 previously unknown memory-safety vulnerabilities. On benchmarks, Revelio outperformed frontier coding agents across diverse backbone models at comparable token costs. Our results suggest that Revelio enables scalable and trustworthy end-to-end LLM-based memory-safety vulnerability detection.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-20T23:17:23Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yiwei Hou</name>
+    </author>
+    <author>
+      <name>Hao Wang</name>
+    </author>
+    <author>
+      <name>Muxi Lyu</name>
+    </author>
+    <author>
+      <name>Marius Momeu</name>
+    </author>
+    <author>
+      <name>Eric Nguyen</name>
+    </author>
+    <author>
+      <name>Taige Yang</name>
+    </author>
+    <author>
+      <name>Koushik Sen</name>
+    </author>
+    <author>
+      <name>Dawn Song</name>
+    </author>
+    <author>
+      <name>David Wagner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.01096v1</id>
+    <title>Enabling Memory Safety of C Programs using LLMs</title>
+    <updated>2024-04-01T13:05:54Z</updated>
+    <link href="https://arxiv.org/abs/2404.01096v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.01096v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory safety violations in low-level code, written in languages like C, continues to remain one of the major sources of software vulnerabilities. One method of removing such violations by construction is to port C code to a safe C dialect. Such dialects rely on programmer-supplied annotations to guarantee safety with minimal runtime overhead. This porting, however, is a manual process that imposes significant burden on the programmer and, hence, there has been limited adoption of this technique.
+  The task of porting not only requires inferring annotations, but may also need refactoring/rewriting of the code to make it amenable to such annotations. In this paper, we use Large Language Models (LLMs) towards addressing both these concerns. We show how to harness LLM capabilities to do complex code reasoning as well as rewriting of large codebases. We also present a novel framework for whole-program transformations that leverages lightweight static analysis to break the transformation into smaller steps that can be carried out effectively by an LLM. We implement our ideas in a tool called MSA that targets the CheckedC dialect. We evaluate MSA on several micro-benchmarks, as well as real-world code ranging up to 20K lines of code. We showcase superior performance compared to a vanilla LLM baseline, as well as demonstrate improvement over a state-of-the-art symbolic (non-LLM) technique.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-01T13:05:54Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Nausheen Mohammed</name>
+    </author>
+    <author>
+      <name>Akash Lal</name>
+    </author>
+    <author>
+      <name>Aseem Rastogi</name>
+    </author>
+    <author>
+      <name>Subhajit Roy</name>
+    </author>
+    <author>
+      <name>Rahul Sharma</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.06506v1</id>
+    <title>Guiding Symbolic Execution with Static Analysis and LLMs for Vulnerability Discovery</title>
+    <updated>2026-04-07T22:35:52Z</updated>
+    <link href="https://arxiv.org/abs/2604.06506v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.06506v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Symbolic execution detects vulnerabilities with precision, but applying it to large codebases requires harnesses that set up symbolic state, model dependencies, and specify assertions. Writing these harnesses has traditionally been a manual process requiring expert knowledge, which significantly limits the scalability of the technique. We present Static Analysis Informed and LLM-Orchestrated Symbolic Execution (SAILOR), which automates symbolic execution harness construction by combining static analysis with LLM-based synthesis. SAILOR operates in three phases: (1) static analysis identifies candidate vulnerable locations and generates vulnerability specifications; (2) an LLM uses vulnerability specifications and orchestrates harness synthesis by iteratively refining drivers, stubs, and assertions against compiler and symbolic execution feedback; symbolic execution then detects vulnerabilities using the generated harness, and (3) concrete replay validates the symbolic execution results against the unmodified project source. This design combines the scalability of static analysis, the code reasoning of LLMs, the path precision of symbolic execution, and the ground truth produced by concrete execution. We evaluate SAILOR on 10 open-source C/C++ projects totaling 6.8 M lines of code. SAILOR discovers 379 distinct, previously unknown memory-safety vulnerabilities (421 confirmed crashes). The strongest of five baselines we compare SAILOR to (agentic vulnerability detection using Claude Code with full codebase access and unlimited interaction), finds only 12 vulnerabilities. Each phase of SAILOR is critical: Without static analysis targeting confirmed vulnerabilities drop 12.2X; without iterative LLM synthesis zero vulnerabilities are confirmed; and without symbolic execution no approach can detect more than 12 vulnerabilities.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-07T22:35:52Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Md Shafiuzzaman</name>
+    </author>
+    <author>
+      <name>Achintya Desai</name>
+    </author>
+    <author>
+      <name>Wenbo Guo</name>
+    </author>
+    <author>
+      <name>Tevfik Bultan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.03963v1</id>
+    <title>Neuro-Symbolic Reasoning for Vulnerability Detection</title>
+    <updated>2026-07-04T17:44:53Z</updated>
+    <link href="https://arxiv.org/abs/2607.03963v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.03963v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ask a large language model (LLM) whether a pointer dereference is safe, and it can often produce a plausible justification for ``yes''. The difficulty is that a fluent justification is not a proof. This gap is precisely where automated vulnerability detection lives: deciding, for a given operation in source code, whether a memory safety defect such as a null dereference, use-after-free, or double free can actually occur. We trace the unreliability of LLM-based vulnerability detection to a mechanism, the premature discharge of safety obligations, and argue that the remedy is not better prompting but a separation of roles: the component that interprets the code must not also be the one that decides a safety obligation is met.
+  In this paper, we present LeanGuard, a neuro-symbolic framework that assigns each act to the side equipped for it. On the neural side, an LLM serves strictly as a semantic filter over candidate facts extracted from the abstract syntax tree (AST): it prunes spurious facts and keeps the real ones, but never discharges an obligation or decides the verdict on its own. On the symbolic side, the surviving facts are compiled into a verification model in Lean 4 (a formal proof assistant whose kernel accepts a conclusion only when it is formally proved), where every dangerous operation must be matched by a guard that provably covers it in scope; absent such a guard, the obligation stays open rather than being argued away. Because a function rarely arrives with full context, this symbolic model is necessarily partial: an unproved obligation is not yet a defect. An evidence-aware adjudicator therefore weighs the symbolic and neural verdicts by the quality of each. We instantiate the framework on five CWE classes to ask how far this division of labor can be pushed.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-04T17:44:53Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Yanjie Zhao</name>
+    </author>
+    <author>
+      <name>Hongjie Chen</name>
+    </author>
+    <author>
+      <name>Li Lu</name>
+    </author>
+    <author>
+      <name>Zhou Yang</name>
+    </author>
+    <author>
+      <name>Xiao Cheng</name>
+    </author>
+    <author>
+      <name>Haoyu Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.08848v1</id>
+    <title>Automated Repair of AI Code with Large Language Models and Formal Verification</title>
+    <updated>2024-05-14T11:52:56Z</updated>
+    <link href="https://arxiv.org/abs/2405.08848v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.08848v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The next generation of AI systems requires strong safety guarantees. This report looks at the software implementation of neural networks and related memory safety properties, including NULL pointer deference, out-of-bound access, double-free, and memory leaks. Our goal is to detect these vulnerabilities, and automatically repair them with the help of large language models. To this end, we first expand the size of NeuroCodeBench, an existing dataset of neural network code, to about 81k programs via an automated process of program mutation. Then, we verify the memory safety of the mutated neural network implementations with ESBMC, a state-of-the-art software verifier. Whenever ESBMC spots a vulnerability, we invoke a large language model to repair the source code. For the latest task, we compare the performance of various state-of-the-art prompt engineering techniques, and an iterative approach that repeatedly calls the large language model.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-14T11:52:56Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Yiannis Charalambous</name>
+    </author>
+    <author>
+      <name>Edoardo Manino</name>
+    </author>
+    <author>
+      <name>Lucas C. Cordeiro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.01138v2</id>
+    <title>Antaeus: Hunting Repository-Level Logic Vulnerabilities via Context-Grounded LLM Reasoning</title>
+    <updated>2026-09-01T10:23:41Z</updated>
+    <link href="https://arxiv.org/abs/2607.01138v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.01138v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM-based vulnerability detectors have shown promising results in identifying memory-safety bugs and vulnerability classes whose violations can often be expressed through established security properties. Logic vulnerabilities, however, pose a different challenge, as their identification requires inferring application-specific security invariants and implicit assumptions about intended behavior. Even frontier agentic models struggle because these invariants are often implicit and buried among unrelated code. Motivated by this gap, we present Antaeus, a framework for detecting logic vulnerabilities that grounds LLM reasoning in repository-level code context. Antaeus follows a repository-scale pipeline combining function prioritization, context-grounded reasoning, comparative validation, and structured reporting. It ranks functions using lightweight repo-wide security signals, directing costly LLM analysis toward relevant code and reducing calls, cost, and triage effort. For each prioritized function, Antaeus combines local code context with a repository-level view of the application's functionality, security resources, and trust boundaries. This enables reasoning about how the function is executed within the broader application rather than as an isolated snippet. Antaeus identifies security-sensitive sinks, derives safety conditions for safe execution, and checks whether they are locally satisfied. Candidate findings undergo comparative validation, pruning concerns that reflect project-wide norms rather than distinctive violations. Finally, Antaeus reports sinks, violated safety conditions, and evidence, making findings actionable and traceable. We evaluate Antaeus on 35 repositories with confirmed logic vulnerabilities and compare it against function-level and agentic models. Antaeus detects and explains 20 vulnerabilities, outperforming baselines with comparable token usage and cost.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-01T16:22:05Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Michele Armillotta</name>
+    </author>
+    <author>
+      <name>Nicolò Romandini</name>
+    </author>
+    <author>
+      <name>Rebecca Montanari</name>
+    </author>
+    <author>
+      <name>Lorenzo Cavallaro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.24837v1</id>
+    <title>Bridging Code Property Graphs and Language Models for Program Analysis</title>
+    <updated>2026-03-25T22:08:04Z</updated>
+    <link href="https://arxiv.org/abs/2603.24837v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.24837v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) face critical challenges when analyzing security vulnerabilities in real world codebases: token limits prevent loading entire repositories, code embeddings fail to capture inter procedural data flows, and LLMs struggle to generate complex static analysis queries. These limitations force existing approaches to operate on isolated code snippets, missing vulnerabilities that span multiple functions and files. We introduce codebadger, an open source Model Context Protocol (MCP) server that integrates Joern's Code Property Graph (CPG) engine with LLMs. Rather than requiring LLMs to generate complex CPG queries, codebadger provides high level tools for program slicing, taint tracking, data flow analysis, and semantic code navigation, enabling targeted exploration of large codebases without exhaustive file reading. We demonstrate its effectiveness through three use cases: (1) navigating an 8,000 method codebase to audit memory safety patterns, (2) discovering and exploiting a previously unreported buffer overflow in libtiff, and (3) generating a correct patch for an integer overflow vulnerability (CVE-2025-6021) in libxml2 on the first attempt. codebadger enables LLMs to reason about code semantically across entire repositories, supporting vulnerability discovery, patching, and program comprehension at scale.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-25T22:08:04Z</published>
+    <arxiv:comment>Accepted at Software Vulnerability Management Workshop @ ICSE 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ahmed Lekssays</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.04000v2</id>
+    <title>Mitigating False Positives in Static Memory Safety Analysis of Rust Programs via Reinforcement Learning</title>
+    <updated>2026-05-06T04:54:08Z</updated>
+    <link href="https://arxiv.org/abs/2605.04000v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.04000v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Static analysis tools are essential for ensuring memory safety in Rust programs, particularly as Rust gains adoption in safety-critical domains. However, existing tools such as Rudra and MirChecker suffer from high false positive rates, which diminish developer trust, increase manual review effort, and may obscure genuine vulnerabilities. This paper presents a novel reinforcement learning (RL)-based approach for automatically classifying and suppressing spurious warnings in static memory safety analysis for Rust. To achieve this, we design an RL agent that learns a warning suppression policy by extracting contextual features from Rust's Mid-level Intermediate Representation (MIR) and optimizing its decisions through interaction with static analysis outputs. To improve decision quality, we integrate dynamic validation via cargo-fuzz as an auxiliary feedback mechanism, allowing the agent to selectively validate suspicious warnings through targeted fuzz testing. Our evaluation shows that the proposed approach significantly outperforms state-of-the-art LLM-based baselines, achieving 65.2% accuracy and an F1 score of 0.659, an improvement of 17.1% over the best LLM baseline. With a recall of 74.6%, our method successfully identifies nearly three-quarters of true bugs while substantially reducing false positives, improving precision from 25.6% in raw Rudra output to 59.0%. Incorporating dynamic fuzzing further boosts performance, yielding additional improvements of 10.7 percentage points in accuracy and 8.6 percentage points in F1 score over the RL-only variant. Overall, our work demonstrates that combining reinforcement learning with hybrid static-dynamic analysis can substantially reduce false positives and improve the practical usability of memory safety verification tools for Rust.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-05T17:21:40Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Akilesh P</name>
+    </author>
+    <author>
+      <name>Leuson Da Silva</name>
+    </author>
+    <author>
+      <name>Foutse Khomh</name>
+    </author>
+    <author>
+      <name>Sridhar Chimalakonda</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.10712v1</id>
+    <title>AutoSOUP: Safety-Oriented Unit Proof Generation for Component-level Memory-Safety Verification</title>
+    <updated>2026-05-11T15:23:26Z</updated>
+    <link href="https://arxiv.org/abs/2605.10712v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.10712v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory-safety errors remain a persistent source of zero-day vulnerabilities in low-level software. The problem is especially acute in embedded systems, where hardware protections are often limited and dynamic analysis is difficult to apply effectively. Memory-safety verification can provide stronger assurance by proving the absence of such errors or exposing violations when they exist. However, current verification workflows remain largely manual and require substantial specialized expertise, limiting their adoption in practice.
+  We present AutoSOUP, a system for automating component-level memory-safety verification through Safety-Oriented Unit Proofs. We formalize these unit proofs as artifacts that encode verification choices (scope, loop bounds, and environment models) for verifying safety properties, and introduce three techniques for deriving them automatically. To overcome the limitations of existing automation approaches, we further introduce LLM-As-Function-Call, a hybrid architecture that combines deterministic program synthesis with LLMs to automate these techniques and produce justifiable unit proofs. We evaluate AutoSOUP by assessing its ability to automate memory-safety verification and expose vulnerabilities in verified components, and we characterize the assumptions and guarantees of the resulting proofs.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-11T15:23:26Z</published>
+    <arxiv:comment>13 main pages, 7 appendix pages, 2 figures, 5 listings</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Paschal C. Amusuo</name>
+    </author>
+    <author>
+      <name>Ricardo Calvo</name>
+    </author>
+    <author>
+      <name>Dharun Anandayuvaraj</name>
+    </author>
+    <author>
+      <name>Taylor Le Lievre</name>
+    </author>
+    <author>
+      <name>Kevin Kolyakov</name>
+    </author>
+    <author>
+      <name>Elijah Jorgensen</name>
+    </author>
+    <author>
+      <name>Aravind Machiry</name>
+    </author>
+    <author>
+      <name>James C. Davis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.00669v2</id>
+    <title>NeuroLog: Reasoning You Can Audit -- Neuro-Symbolic Vulnerability Discovery via LLM Facts, Datalog, and SMT</title>
+    <updated>2026-10-12T06:09:37Z</updated>
+    <link href="https://arxiv.org/abs/2606.00669v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.00669v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vulnerability discovery on C/C++ source asks the analyst to choose between heavyweight static analysers, which need a working build before a single query runs, and free-form LLMs, which read source readily but invent details and lose track of cross-function dataflow on real codebases. We present NeuroLog, an end-to-end build-free pipeline that assigns each layer the role it is uniquely good at: an LLM extracts typed dataflow facts one function at a time; a Souffle rule mesh composes those facts into cross-function findings; a Z3 post-pass filters infeasible findings and emits a SAT model for each survivor. To go beyond pure static reasoning we also fold in runtime evidence: likely range invariants from a handful of corpus seeds tighten the SMT problem at near-zero cost. A second LLM agent reads each SAT model and writes a Python program that produces a candidate crashing input, validated by an AddressSanitizer harness. Combining static-narrowing-SMT (Saturn, Pinpoint) and Datalog-with-SMT (Formulog) is prior art; new here are an LLM-derived fact base, a no-build pipeline, and the SAT model as an artifact (input to crash synthesis) rather than a yes/no verdict. Across stb, cJSON, libxml2, an FFmpeg demuxer slice, and curl 8.3.0, NeuroLog re-discovers eight CVE-class issues end-to-end, including the CVSS-9.8 SOCKS5 heap overflow CVE-2023-38545, each ASan-confirmed. On libarchive HEAD we surface five memory-safety bugs (four previously unreported) across the cpio reader and the XAR/WARC/7zip writers; all filed upstream, several fixes merged, with the cpio use-after-free acknowledged in seven hours. Extraction takes ~37 s and $0.005 on stb; crash synthesis turned a static finding into a 102-byte stb_vorbis crash in two LLM iterations (no fuzzer); a likely-invariant filter from three Matroska seeds eliminates 13.2% of the FFmpeg-demuxer feasible set.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-30T10:50:06Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Sanjay Rawat</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.22161v1</id>
+    <title>HarnessLLM: Rust Verification Harness Generation with Large Language Models</title>
+    <updated>2026-07-24T10:06:52Z</updated>
+    <link href="https://arxiv.org/abs/2607.22161v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.22161v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Rust's ownership model and type system offer strong memory safety guarantees, but unsafe code and runtime panics still present significant risks. Formal verification is essential to ensure memory safety, but developing verification harnesses remains a challenging and manual task. Although large language models (LLMs) have shown strong performance in various code analysis tasks, directly applying them to harness generation often results in inaccurate API invocations, inefficient nondeterministic data generation, and fabricated fixes.
+  In this paper, we present HarnessLLM, an automated workflow that leverages LLMs to generate verification harnesses for Rust code directly from existing test suites. HarnessLLM automatically extracts calling scenarios from test cases, generates nondeterministic arguments based on dependency analysis, and incrementally synthesizes harnesses. It then iteratively refines the harnesses, preserving critical code regions and reporting fabricated types or functions to LLMs for correction. In our evaluation on 9 real-world Rust codebases, HarnessLLM extracted 294 calling scenarios from 494 test cases with 94.66% precision and generated harnesses for all scenarios in an average of 145 seconds each. It outperformed the existing approach, Autoharness, which succeeded on only 41% of those scenarios. Finally, 6 real-world memory safety bugs were detected using the generated harnesses, demonstrating the practical utility of our approach in verification. To our knowledge, this is the first work to use LLMs for generating harnesses aimed at memory safety verification in real-world Rust projects.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-24T10:06:52Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Minghua Wang</name>
+    </author>
+    <author>
+      <name>Yuwei Liu</name>
+    </author>
+    <author>
+      <name>Lin Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.12994v2</id>
+    <title>LogicEval: A Systematic Framework for Evaluating Automated Repair Techniques for Logical Vulnerabilities in Real-World Software</title>
+    <updated>2026-04-23T02:38:34Z</updated>
+    <link href="https://arxiv.org/abs/2604.12994v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.12994v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Logical vulnerabilities in software stem from flaws in program logic rather than memory safety, which can lead to critical security failures. Although existing automated program repair techniques primarily focus on repairing memory corruption vulnerabilities, they struggle with logical vulnerabilities because of their limited semantic understanding of the vulnerable code and its expected behavior. On the other hand, recent successes of large language models (LLMs) in understanding and repairing code are promising. However, no framework currently exists to analyze the capabilities and limitations of such techniques for logical vulnerabilities. We aim to systematically evaluate both traditional and LLM based repair approaches for addressing real world logical vulnerabilities. To facilitate our assessment, we created the first ever dataset, LogicDS, comprising 122 logical vulnerabilities that reflect tangible security impact. We also developed a systematic framework, LogicEval, to evaluate patches for logical vulnerabilities. Evaluations suggest that compilation and testing failures are primarily driven by prompt sensitivity, loss of code context, and difficulty in patch localization.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-14T17:26:07Z</published>
+    <arxiv:comment>To appear in ACL 2026 Main Conference</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Syed Md Mukit Rashid</name>
+    </author>
+    <author>
+      <name>Abdullah Al Ishtiaq</name>
+    </author>
+    <author>
+      <name>Kai Tu</name>
+    </author>
+    <author>
+      <name>Yilu Dong</name>
+    </author>
+    <author>
+      <name>Tianwei Wu</name>
+    </author>
+    <author>
+      <name>Ali Ranjbar</name>
+    </author>
+    <author>
+      <name>Tianchang Yang</name>
+    </author>
+    <author>
+      <name>Najrin Sultana</name>
+    </author>
+    <author>
+      <name>Shagufta Mehnaz</name>
+    </author>
+    <author>
+      <name>Syed Rafiul Hussain</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.10506v3</id>
+    <title>SmartC2Rust: Iterative, Feedback-Driven C-to-Rust Translation via Large Language Models for Safety and Equivalence</title>
+    <updated>2025-12-01T17:53:45Z</updated>
+    <link href="https://arxiv.org/abs/2409.10506v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.10506v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory safety vulnerabilities remain prevalent in today's software systems and one promising solution to mitigate them is to adopt memory-safe languages such as Rust. Due to legacy code written in memory unsafe C, there is strong motivation to translate legacy C code into Rust. Prior works have already shown promise in using Large Language Models (LLMs) for such translations. However, significant challenges persist for LLM-based translation: the translated code often fails to compile, let alone reduce unsafe statements and maintain the semantic functionalities due to inherent limitations of LLMs such as limited token size and inconsistent outputs. In this paper, we design an automated C-to-Rust translation system, called SmartC2Rust, to segment and convert the C code to Rust with memory safety and semantic equivalence. The key insight is to iteratively refine the output Rust code with additional feedback, e.g., compilation errors, segmentation contexts, semantic discrepancies, and memory unsafe statements. Such feedback will gradually improve the quality of generated Rust code, thus mitigating unsafety, inconsistency, and semantic issues. Our evaluation shows that SmartC2Rust significantly decreases the unsafe statements and outperforms prior works in security and semantic equivalence.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-16T17:52:36Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <arxiv:journal_ref>ICSE '26: Proceedings of the 48th International Conference on Software Engineering, April 12-18, 2026, Rio de Janeiro, Brazil</arxiv:journal_ref>
+    <author>
+      <name>Momoko Shiraishi</name>
+    </author>
+    <author>
+      <name>Yinzhi Cao</name>
+    </author>
+    <author>
+      <name>Takahiro Shinagawa</name>
+    </author>
+    <arxiv:doi>10.1145/3744916.3773259</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3744916.3773259" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.34290v1</id>
+    <title>Repairing Broken Access Control in Web Applications with LLMs: An Empirical Benchmark Study</title>
+    <updated>2026-10-25T13:45:32Z</updated>
+    <link href="https://arxiv.org/abs/2610.34290v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.34290v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Broken access control (BAC) ranks among the most severe web-application vulnerability classes, yet its automated repair remains largely unexplored. Unlike memory-safety vulnerabilities, BAC is a logic vulnerability whose repair demands a deep understanding of an application's access-control model and business semantics, which traditional automated vulnerability repair techniques handle poorly. Large language models (LLMs) open a promising avenue for this problem, but no standard benchmark exists for studying how well they repair BAC vulnerabilities. We construct BAC-Bench, the first benchmark for BAC repair, consisting of 46 real-world BAC vulnerabilities drawn from six widely used web applications spanning four programming languages. Each vulnerability is equipped with a sandboxed runtime environment, a PoC validation program and a functional test program. We further propose a BAC repair-strategy framework that characterizes any BAC patch along four dimensions, Position, Coverage, Mechanism, and Content. Evaluating eight base LLMs and two commercial LLM agents on BAC-Bench, we find that single-turn base LLMs repair 37.68% of the vulnerabilities on average, while two minimal scaffolds, Apply-Feedback and Navigate-and-Locate, raise this average to 66.03%, with the best base LLM reaching 75.36%, close to the 78.99% of the best agent. Notably, some LLM-generated patches surpass the official patches, and one incidentally closed a zero-day vulnerability that had lain dormant for three years. Our findings delineate the current capability boundary of LLM-based BAC repair and offer guidance toward its practical adoption.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-25T13:45:32Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Mingrui Liu</name>
+    </author>
+    <author>
+      <name>Liang He</name>
+    </author>
+    <author>
+      <name>Xinchu Wang</name>
+    </author>
+    <author>
+      <name>Yeting Li</name>
+    </author>
+    <author>
+      <name>Dongxu Han</name>
+    </author>
+    <author>
+      <name>Yunpeng Li</name>
+    </author>
+    <author>
+      <name>Yuling Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.06138v1</id>
+    <title>KVGuard: A KV Cache Safety Checker for LLM Serving Systems</title>
+    <updated>2026-11-04T08:22:37Z</updated>
+    <link href="https://arxiv.org/abs/2611.06138v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.06138v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern LLM serving systems manage the KV cache through PagedAttention, a custom GPU allocator that partitions a single CUDA-allocated region into fixed-size physical blocks and maps each request to those blocks through a CPU-built block table. This block-based design exposes a previously unstudied class of memory safety bugs in the KV cache, including double-free, use-after-free, out-of-bounds access, uninitialized read, and permission violation, which silently corrupt outputs or break request isolation without ever crashing the system. Existing memory sanitizers cannot detect them, because they reason about CUDA-level addresses rather than KV cache blocks, requests, and block tables, and their redzone- and quarantine-based designs do not fit the scarce GPU memory budget of LLM serving. This paper presents KVGuard, the first systematic memory-safety abstraction for KV cache management in LLM serving systems. KVGuard maintains a compact shadow block for each physical KV block, recording per-request permission and per-entry initialization, and uses this metadata to perform five safety checks across the PagedAttention workflow, spanning CPU allocation, block table construction and translation, and GPU-side block table lookup and KV entry access. Each check fires at the boundary that introduced the violation, enabling early detection during development rather than reporting downstream output corruption many requests later. A prototype of KVGuard on vLLM and SGLang covers all 29 historical real-world KV cache safety bugs collected from the two systems' patch histories. KVGuard further found 8 previously unknown safety violations while reporting no false positives. It adds 3.0% and 7.4% geomean TPOT overhead on Qwen 2.5 14B on vLLM and SGLang and at most 0.11% of the KV cache in memory overhead, two orders of magnitude below NVIDIA Compute Sanitizer on the same workloads.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-04T08:22:37Z</published>
+    <arxiv:comment>15 pages, 9 figures, 5 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jonguk Cheong</name>
+    </author>
+    <author>
+      <name>Myungbin Hwang</name>
+    </author>
+    <author>
+      <name>Eulgyu Kim</name>
+    </author>
+    <author>
+      <name>Byoungyoung Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.12089v1</id>
+    <title>Cross-Cutting Security Analysis of LLM-Generated Code via Metamorphic Testing and Association Rule Mining</title>
+    <updated>2026-07-13T19:10:10Z</updated>
+    <link href="https://arxiv.org/abs/2607.12089v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.12089v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) frequently generate code with security vulnerabilities, yet these weaknesses are rarely isolated: they often span multiple concern areas simultaneously, reflecting the cross-cutting nature of security in software. We present a framework that combines security-oriented Metamorphic Relations (MRs) with Association Rule (AR) mining to detect vulnerabilities in LLM-generated code, uncover their co-violation structure, and trace that structure back to prompt-level risk factors. We define nine MRs covering major CWE categories, including SQL injection, XSS, command injection, path traversal, hard-coded credentials, weak cryptography, and memory-safety errors, and apply them using an LLM-based judge to 3,700 code snippets generated by five open models from the LLMSecEval benchmark. The results show that 68.8% of snippets violate at least one MR, with hard-coded credentials (79.1%) and command injection (74.4%) among the most prevalent applicable failures. AR mining reveals strong cross-cutting co-violation patterns, notably that XSS and weak cryptography co-violations predict hard-coded credentials with 82.5% confidence (lift = 3.23), along with tightly coupled clusters linking authentication, credential handling, and cryptographic weakness, as well as input-handling and memory-safety failures. We then perform prompt-level risk analysis and find that database- and authentication-related prompts are strong predictors of broad cross-cutting insecurity, while 65.5% of prompts yield consistent violation outcomes across all five models. These findings show that insecure code generation is not merely a collection of independent defects, but a structured and prompt-conditioned phenomenon, motivating cluster-aware verification and prompt-level intervention for safer LLM-assisted programming.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-13T19:10:10Z</published>
+    <arxiv:comment>This work has already been accepted by IEEE 27th International Conference on Information Reuse and Integration for Data Science</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zedong Peng</name>
+    </author>
+    <author>
+      <name>Chenggang Wang</name>
+    </author>
+    <author>
+      <name>Shangyue Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.14234v2</id>
+    <title>Syzygy: Dual Code-Test C to (safe) Rust Translation using LLMs and Dynamic Analysis</title>
+    <updated>2024-12-21T18:49:38Z</updated>
+    <link href="https://arxiv.org/abs/2412.14234v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.14234v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite extensive usage in high-performance, low-level systems programming applications, C is susceptible to vulnerabilities due to manual memory management and unsafe pointer operations. Rust, a modern systems programming language, offers a compelling alternative. Its unique ownership model and type system ensure memory safety without sacrificing performance.
+  In this paper, we present Syzygy, an automated approach to translate C to safe Rust. Our technique uses a synergistic combination of LLM-driven code and test translation guided by dynamic-analysis-generated execution information. This paired translation runs incrementally in a loop over the program in dependency order of the code elements while maintaining per-step correctness. Our approach exposes novel insights on combining the strengths of LLMs and dynamic analysis in the context of scaling and combining code generation with testing. We apply our approach to successfully translate Zopfli, a high-performance compression library with ~3000 lines of code and 98 functions. We validate the translation by testing equivalence with the source C program on a set of inputs. To our knowledge, this is the largest automated and test-validated C to safe Rust code translation achieved so far.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-18T18:55:46Z</published>
+    <arxiv:comment>Project webpage at https://syzygy-project.github.io/. Preliminary version accepted at LLM4Code 2025, 34 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Manish Shetty</name>
+    </author>
+    <author>
+      <name>Naman Jain</name>
+    </author>
+    <author>
+      <name>Adwait Godbole</name>
+    </author>
+    <author>
+      <name>Sanjit A. Seshia</name>
+    </author>
+    <author>
+      <name>Koushik Sen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.03610v1</id>
+    <title>DebugHarness: Emulating Human Dynamic Debugging for Autonomous Program Repair</title>
+    <updated>2026-04-04T06:49:30Z</updated>
+    <link href="https://arxiv.org/abs/2604.03610v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.03610v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Patching severe security flaws in complex software remains a major challenge. While automated tools like fuzzers efficiently discover bugs, fixing deep-rooted low-level faults (e.g., use-after-free and memory corruption) still requires labor-intensive manual analysis by experts. Emerging Large Language Model (LLM) agents attempt to automate this pipeline, but they typically treat bug fixing as a purely static code-generation task. Relying solely on static artifacts, these methods miss the dynamic execution context strictly necessary for diagnosing intricate memory safety violations. To overcome these limitations, we introduce DebugHarness, an autonomous LLM-powered debugging agent harness that resolves complex vulnerabilities by emulating the interactive debugging practices of human systems engineers. Instead of merely examining static code, DebugHarness actively queries the live runtime environment. Driven by a reproducible crash, it utilizes a pattern-guided investigation strategy to formulate hypotheses, interactively probes program memory states and execution paths, and synthesizes patches via a closed-loop validation cycle. We evaluate DebugHarness on SEC-bench, a rigorous dataset of real-world C/C++ security vulnerabilities. DebugHarness successfully patches approximately 90% of the evaluated bugs. This yields a relative improvement of over 30% compared to state-of-the-art baselines, demonstrating that dynamic debugging significantly enhances LLM diagnostic capabilities. Overall, DebugHarness establishes a novel paradigm for automated program repair, bridging the gap between static LLM reasoning and the dynamic intricacies of low-level systems programming.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-04T06:49:30Z</published>
+    <arxiv:comment>15 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Maolin Sun</name>
+    </author>
+    <author>
+      <name>Yibiao Yang</name>
+    </author>
+    <author>
+      <name>Xuanlin Liu</name>
+    </author>
+    <author>
+      <name>Yuming Zhou</name>
+    </author>
+    <author>
+      <name>Baowen Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.17830v1</id>
+    <title>Remembering More, Risking More: Longitudinal Safety Risks in Memory-Equipped LLM Agents</title>
+    <updated>2026-05-18T04:06:34Z</updated>
+    <link href="https://arxiv.org/abs/2605.17830v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.17830v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Safety evaluations of memory-equipped LLM agents typically measure within-task safety: whether an agent completes a single scenario safely, often under adversarial conditions such as prompt injection or memory poisoning. In deployment, however, a single agent serves many independent tasks over a long horizon, and memory accumulated during earlier tasks can affect behavior on later, unrelated ones. Studying this regime requires evaluation along the temporal dimension across tasks: not whether an agent is safe at any single memory state, but how its safety profile changes as memory accumulates across many independent interactions. We call this failure mode temporal memory contamination. To isolate memory exposure from stream non-stationarity, we introduce a trigger-probe protocol that evaluates a fixed probe set against read-only memory snapshots at varying prefix lengths, together with a NullMemory counterfactual baseline for identifying memory-induced violations. We apply this protocol across three deployment scenarios spanning records, memos, forms, and email correspondence and eight memory architectures, and additionally on Claw-like AI agents, such as OpenClaw, using the platform's native memory mechanism. Memory-enabled agents consistently exceed the NullMemory baseline, and memory-induced violation rates show a robust upward trend with exposure length on both agent classes. Order-randomization experiments indicate that the effect is driven primarily by accumulated content rather than encounter order. Finally, a structural consequence of the event decomposition is that memory-induced risk is detectable from retrieval state before generation, which we confirm with a high-recall diagnostic monitor. Our results argue for treating memory safety as a longitudinal property that requires temporal evaluation, not a single-state property that can be captured by a snapshot.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-18T04:06:34Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ahmad Al-Tawaha</name>
+    </author>
+    <author>
+      <name>Shangding Gu</name>
+    </author>
+    <author>
+      <name>Peizhi Niu</name>
+    </author>
+    <author>
+      <name>Ruoxi Jia</name>
+    </author>
+    <author>
+      <name>Ming Jin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.00107v3</id>
+    <title>The Illusion of Safety: Multi-Tier Verification of AI vs. Human C++ Code</title>
+    <updated>2026-08-02T05:30:57Z</updated>
+    <link href="https://arxiv.org/abs/2607.00107v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.00107v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As large language models (LLMs) are increasingly deployed for systems programming, their ability to generate secure C++ code, where a single memory-safety failure creates an exploitable vulnerability, remains a critical concern. Yet most security evaluations of AI-generated code rely on static analysis alone, which flags warnings without confirming run- time violations or reasoning about untested paths. This study investigates whether AI-generated C++ is measurably less safe than human-written code, and whether common verification tools agree on the risk. We introduce VULBENCH-CPP, a benchmark of 8,918 C++ programs from three open-weight LLMs (Gemma 3 27B IT, LLaMA 3.3 70B Instruct, Qwen 2.5 Coder 32B Instruct) and human authors across 851 competitive-programming tasks. Each program is annotated by four verification tiers: functional testing, static analysis (cppcheck, clang-tidy), dynamic analysis (ASan/UBSan), and bounded model checking (ESBMC). Account- ing for the correlation among solutions to a shared task, we find that AI-generated code is roughly twice as likely as human code to trigger a confirmed runtime violation, even after controlling for code length and test pass-rate. Under static analysis the two look equally safe, but this is misleading: the apparent similarity reflects code length rather than real safety, and the tiers detect largely different classes of violation, demonstrating that no single tier is sufficient. These vulnerability patterns remain consistent across independent generations. We release the benchmark, harness, and annotated results.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-30T19:48:35Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Saif Mahmud</name>
+    </author>
+    <author>
+      <name>Fadul Sikder</name>
+    </author>
+    <author>
+      <name>Yuede Ji</name>
+    </author>
+    <author>
+      <name>Haotian Zhang</name>
+    </author>
+    <author>
+      <name>Yu Lei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.26548v2</id>
+    <title>SEC-bench Pro: Can Language Models Solve Long-Horizon Software Security Tasks?</title>
+    <updated>2026-07-20T16:24:12Z</updated>
+    <link href="https://arxiv.org/abs/2605.26548v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.26548v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Finding a real vulnerability in complicated systems is a challenging, long-horizon task that demands reasoning across an entire codebase to produce a working proof-of-concept (PoC). However, such critical security problems remain understudied. We present SEC-bench Pro, a benchmark that measures how well frontier models hunt real vulnerabilities by reproducing working PoC inputs from disclosed reports, where each task pairs a concrete bug with the instructions for triggering it. We also demonstrate the limitations of existing rule-based judges for grading generated PoCs, and propose a novel LLM-based judge for more precise grading. We instantiate SEC-bench Pro with 344 validated vulnerabilities across three targets, the V8 and SpiderMonkey browser engines and the Linux kernel, covering critical vulnerability families including memory-safety, sandbox, JIT, race-condition, and kernel-subsystem bugs. Across six frontier commercial and open-weight models and three coding agents, the strongest, Codex with GPT-5.5, solves 58% of instances overall. We also observe that Claude Code with Opus 4.6 tends to time out but solves most instances it completes. In contrast, open-weight models struggle; for example, GLM-5 solves only 13 of the 344 instances. During construction and evaluation, SEC-bench Pro also surfaced three vulnerabilities in V8 and SpiderMonkey, including a sandbox escape that was fixed and earned a $20,000 Google Vulnerability Reward Program bounty. More recently, SEC-bench Pro has been adopted by OpenAI to evaluate the long-horizon security capabilities of its newest models. Overall, SEC-bench Pro exposes where long-horizon vulnerability discovery succeeds, where it fails, and how different grading choices change the evaluation landscape, offering insights for security-centric model evaluation and training. Our artifact is available at https://github.com/SEC-bench/SEC-bench-Pro.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-26T04:59:49Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Hwiwon Lee</name>
+    </author>
+    <author>
+      <name>Jiawei Liu</name>
+    </author>
+    <author>
+      <name>Dongjun Kim</name>
+    </author>
+    <author>
+      <name>Wubing Xia</name>
+    </author>
+    <author>
+      <name>Ziqi Zhang</name>
+    </author>
+    <author>
+      <name>Chunqiu Steven Xia</name>
+    </author>
+    <author>
+      <name>Lingming Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.06855v1</id>
+    <title>A Queryable Graph-Based Security Analysis Framework for O-RAN</title>
+    <updated>2026-09-06T22:01:04Z</updated>
+    <link href="https://arxiv.org/abs/2609.06855v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.06855v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Open Radio Access Network (O-RAN) replaces vendor-locked RANs with a modular and interoperable architecture that fosters competition and accelerates innovation. With this openness comes increased complexity and a larger attack surface, making security a critical concern. Today, assessing O-RAN security requires manually cross-referencing dozens of specifications, vendor whitepapers, and academic studies, which is error-prone and static. In this paper, we present a graph-based framework that transforms this static corpus into a single, queryable database. Our graph representation contains over 350 nodes and more than 1,250 relationships, distilled from specifications, academic papers, open-source projects, and vulnerability databases. To keep this resource current, we integrate a hybrid data extraction pipeline that couples deterministic parsing of structured specifications with Large Language Model (LLM)-assisted extraction for evolving specifications and unstructured literature. Querying the graph reveals three actionable findings within our curated corpus: critical infrastructure such as the O-DU, SMO, and O-Cloud carries dozens of specification-level threats yet has little or no empirical coverage; memory-safety weaknesses account for 11 of the 21 CWE occurrences associated with the analyzed CVEs; and fuzzing uncovered 18 of the 20 CVEs attributed to research papers. We provide the database, pipeline, and queries as open-source artifacts.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-06T22:01:04Z</published>
+    <arxiv:comment>17 pages, 12 figures, 5 tables, and 11 code listings</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Corban Villa</name>
+    </author>
+    <author>
+      <name>Michele Guerra</name>
+    </author>
+    <author>
+      <name>Syed Khandker</name>
+    </author>
+    <author>
+      <name>Evangelos Bitsikas</name>
+    </author>
+    <author>
+      <name>Aanjhan Ranganathan</name>
+    </author>
+    <author>
+      <name>Christina Pöpper</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.12708v2</id>
+    <title>What is the Difference Between Me and You? Benchmarking the Quality Gap Between Human-Written and AI-Generated Code</title>
+    <updated>2026-09-21T10:51:38Z</updated>
+    <link href="https://arxiv.org/abs/2609.12708v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.12708v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI coding assistants are becoming co-authors of production software, yet their evaluation centers on functional correctness, leaving open whether their code differs from human code in the quality dimensions dominating lifecycle cost. We compare human-written and AI-generated code at scale: 787,562 function pairs across Python, Java, and C, each human function mined from open-source repositories paired with implementations generated from its docstring by three AI assistants (OpenAI GPT models, DeepSeek-Coder, Qwen2.5-Coder). We characterize structural complexity and statistical naturalness, and map static-analysis findings onto Orthogonal Defect Classification for defects and the Common Weakness Enumeration for vulnerabilities, making authors and languages directly comparable. AI-generated code is structurally compressed and stylistically templated: roughly half the size and branching of human code, clustering apart at the style level. Defect profiles differ in kind: human code concentrates issues of mature codebases, AI code repetitive boilerplate; security is language-dependent, with LLMs producing more, and more severe, findings in Python and Java but fewer high-severity memory-safety findings than humans in C. Once size is controlled for, complexity metrics carry little signal, while naturalness separates authors. Finally, we release CQBench, a benchmark of 27,346 issue-prone tasks with baselines and an evaluation pipeline for quality assurance and security testing.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-11T11:02:42Z</published>
+    <arxiv:comment>Preprint. This manuscript is currently under peer review</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Cristina Improta</name>
+    </author>
+    <author>
+      <name>Pietro Liguori</name>
+    </author>
+    <author>
+      <name>Domenico Cotroneo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.03879v3</id>
+    <title>Adversarial Agent Collaboration for Correctness Improvements of C to Safe Rust Translation</title>
+    <updated>2026-05-17T11:10:18Z</updated>
+    <link href="https://arxiv.org/abs/2510.03879v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.03879v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Translating C to memory-safe languages, like Rust, prevents critical memory safety vulnerabilities that are prevalent in legacy C software. Even with recent LLM-based and tool-augmented translators, the resulting Rust code frequently diverges from the C source on inputs absent from the test suite used during translation; this correctness gap on unseen inputs remains a dominant obstacle to reliable, automatic C-to-Rust translation. In this work, we present ACToR (Adversarial C To Rust), a simple LLM-agent loop that closes this gap by adversarially searching for inputs on which the translation diverges from the C source, and using them to drive subsequent refinements. Inspired by GANs, ACToR pits a translator agent against a discriminator agent that collaborate to iteratively refine the Rust translation. On each iteration, the translator agent synthesizes and refines a Rust translation to pass an existing suite of tests, and then the discriminator agent finds new failing tests by constructing and refining a differential fuzzer over the C and Rust binaries. Across 63 real-world command-line C utilities, with an average size of 473 lines of code and the longest reaching thousands of lines in size, ACToR achieves over 90% test pass rate with zero human intervention. The improvement holds across seven agent-LLM configurations on our micro-benchmark, indicating that the loop is largely independent of the choice of underlying translator and LLM. Compared to a non-adversarial, coverage-driven test-generation baseline, ACToR improves correctness by up to 36.7%. When applied on top of one recent translator, C2SaferRust, ACToR further improves the validation pass rate by 16.6%.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-04T17:08:36Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Tianyu Li</name>
+    </author>
+    <author>
+      <name>Ruishi Li</name>
+    </author>
+    <author>
+      <name>Bo Wang</name>
+    </author>
+    <author>
+      <name>Brandon Paulsen</name>
+    </author>
+    <author>
+      <name>Umang Mathur</name>
+    </author>
+    <author>
+      <name>Prateek Saxena</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.13681v1</id>
+    <title>Fine-Tuning Qwen3-27B for C-to-Rust Code Translation: A Three-Stage Curriculum of Pretraining, Debugging-Aware SFT, and Task-Specific SFT</title>
+    <updated>2026-08-13T18:24:02Z</updated>
+    <link href="https://arxiv.org/abs/2608.13681v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.13681v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Translating C code into safe, idiomatic Rust is a longstanding software-engineering goal because it can eliminate entire classes of memory-safety vulnerabilities while preserving the functional behavior of legacy systems. Large language models (LLMs) have shown promise for this task but typically underperform when applied off-the-shelf, since general-purpose pretraining rarely emphasizes idiomatic Rust generation, cross-language semantic equivalence, or the ability to reason about and repair compiler/runtime feedback. In this report we describe a three-stage fine-tuning curriculum applied to Qwen3-27B that is designed to progressively specialize the model for the C-to-Rust (C2Rust) translation task: (1) continued pretraining on Rust-centric corpora to strengthen the model's prior over idiomatic Rust syntax and standard-library usage; (2) supervised fine-tuning (SFT) on the microsoft/Verus_Training_Data dataset to instill debugging and self-repair behavior over Rust code; and (3) task-specific SFT on paired C/Rust solutions derived from LeetCode problems to teach direct semantic translation. We evaluate the resulting model using the agentic, static-analysis-guided verification framework of SACTOR, which performs structure-aware, two-phase (unidiomatic to idiomatic) translation with foreign-function-interface (FFI)-based end-to-end (E2E) testing. We report success rate, idiomaticity (Clippy lint counts, unsafe-code fraction), and failure-mode analyses, and compare our fine-tuned model against baseline Qwen3-27B and other LLMs evaluated under the same framework.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-13T18:24:02Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Pu Zhao</name>
+    </author>
+    <author>
+      <name>Changdi Yang</name>
+    </author>
+    <author>
+      <name>Yixiao Chen</name>
+    </author>
+    <author>
+      <name>Yi Gao</name>
+    </author>
+    <author>
+      <name>Yifan Cao</name>
+    </author>
+    <author>
+      <name>Haochen Zeng</name>
+    </author>
+    <author>
+      <name>Yanzhi Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.03587v1</id>
+    <title>SecPI: Secure Code Generation with Reasoning Models via Security Reasoning Internalization</title>
+    <updated>2026-04-04T04:29:11Z</updated>
+    <link href="https://arxiv.org/abs/2604.03587v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.03587v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reasoning language models (RLMs) are increasingly used in programming. Yet, even state-of-the-art RLMs frequently introduce critical security vulnerabilities in generated code. Prior training-based approaches for secure code generation face a critical limitation that prevents their direct application to RLMs: they rely on costly, manually curated security datasets covering only a limited set of vulnerabilities. At the inference level, generic security reminders consistently degrade functional correctness while triggering only shallow ad-hoc vulnerability analysis. To address these problems, we present SecPI, a fine-tuning pipeline that teaches RLMs to internalize structured security reasoning, producing secure code by default without any security instructions at inference time. SecPI filters existing general-purpose coding datasets for security-relevant tasks using an LLM-based classifier, generates high-quality security reasoning traces with a teacher model guided by a structured prompt that systematically enumerates relevant CWEs and mitigations, and fine-tunes the target model on pairs of inputs with no security prompt and teacher reasoning traces -- as a result, the model learns to reason about security autonomously rather than in response to explicit instructions. An extensive evaluation on security benchmarks with state-of-the-art open-weight reasoning models validates the effectiveness of our approach. For instance, SecPI improves the percentage of functionally correct and secure generations for QwQ 32B from 48.2% to 62.2% (+14.0 points) on CWEval and from 18.2% to 22.0% on BaxBench. Further investigation also reveals strong cross-CWE and cross-language generalization beyond training vulnerabilities. Even when trained only on injection-related CWEs, QwQ 32B generates correct and secure code 9.9% more frequently on held-out memory-safety CWEs.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-04T04:29:11Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Hao Wang</name>
+    </author>
+    <author>
+      <name>Niels Mündler</name>
+    </author>
+    <author>
+      <name>Mark Vero</name>
+    </author>
+    <author>
+      <name>Jingxuan He</name>
+    </author>
+    <author>
+      <name>Dawn Song</name>
+    </author>
+    <author>
+      <name>Martin Vechev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.22275v1</id>
+    <title>CodeMechanic: Bug-Property-Guided Program Mitigation</title>
+    <updated>2026-08-23T08:06:47Z</updated>
+    <link href="https://arxiv.org/abs/2608.22275v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.22275v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automated testing discovers vulnerabilities faster than developers can investigate and repair them, leaving an interval in which known memory corruptions remain exploitable. End- to-end LLM repair agents can shorten this interval, but they synthesize open-ended code changes and commonly validate them only by replaying a proof of concept (PoC). This weak oracle accepts patches that silence the observed crash by changing unrelated behavior, making unintended deployment risky.
+  We present CodeMechanic, a bug-property-guided system for generating constrained mit- igations for spatial memory corruption. Instead of asking an LLM to generate a permanent repair, CodeMechanic reconstructs the violated memory-safety property from the crash, validates the dereferenced pointer and its buffer range, and inserts a local fail-stop guard before the dangerous access. The guard terminates execution when the boundary check fails. The resulting mitigation deliberately trades availability for security: it can convert potential remote code execution into controlled termination while developers investigate the root cause and prepare a permanent repair. CodeMechanic combines a two-dimensional static and dynamic context extractor with in-prompt debugging knowledge and stepwise val- idation to limit the effect of LLM errors. On 101 real-world ARVO bugs, the first attempt of CodeMechanic produces 47.6% more plausible patches (i.e., patches that pass PoC- replay validation) than the best baseline while using 91% fewer tokens. Manual audit further shows that CodeMechanic produces 3.4x - 4.3x more patches semantically equivalent to developer-written repairs.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-23T08:06:47Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Han Zheng</name>
+    </author>
+    <author>
+      <name>Rafaila Galanopoulou</name>
+    </author>
+    <author>
+      <name>Ilia Shumailov</name>
+    </author>
+    <author>
+      <name>Tianqi Fan</name>
+    </author>
+    <author>
+      <name>Aiden Hall</name>
+    </author>
+    <author>
+      <name>Dominik Maier</name>
+    </author>
+    <author>
+      <name>Mathias Payer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.06184v1</id>
+    <title>Teaching LLMs Program Semantics via Symbolic Execution Traces</title>
+    <updated>2026-05-07T13:01:06Z</updated>
+    <link href="https://arxiv.org/abs/2605.06184v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.06184v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce an evaluation framework of 500 C verification tasks across five property types (memory safety, overflow, termination, reachability, data races) built on SV-COMP 2025, and evaluate 14 models across six families. We find that high overall accuracy masks a critical weakness: while most models reliably confirm properties hold, violation detection varies widely and degrades sharply with program length. To close this gap, we train on formal verification artifacts: running the Soteria symbolic execution engine on generic open-source C code and using the resulting traces for continued pretraining of Qwen3-8B. Just ${\sim}$3,000 bug traces combined with chain-of-thought reasoning at inference time improve violation detection by over 17 percentage points, producing one of the most balanced accuracy profiles among evaluated models. On violation detection, the trained 8B model outperforms the 4$\times$ larger Qwen3-32B without thinking and approaches it in overall accuracy. The interaction between trace training and chain-of-thought is superadditive: neither alone provides meaningful gains, but their combination does. Improvements transfer across all five property types, including ones the training traces do not target. Our 28 configurations confirm the gains stem from trace semantics, not code volume, and that trace curation and format matter.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-07T13:01:06Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Jonas Bayer</name>
+    </author>
+    <author>
+      <name>Stefan Zetzsche</name>
+    </author>
+    <author>
+      <name>Olivier Bouissou</name>
+    </author>
+    <author>
+      <name>Remi Delmas</name>
+    </author>
+    <author>
+      <name>Michael Tautschnig</name>
+    </author>
+    <author>
+      <name>Soonho Kong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.04527v1</id>
+    <title>ENCRUST: Encapsulated Substitution and Agentic Refinement on a Live Scaffold for Safe C-to-Rust Translation</title>
+    <updated>2026-04-06T08:46:14Z</updated>
+    <link href="https://arxiv.org/abs/2604.04527v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.04527v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present Encapsulated Substitution and Agentic Refinement on a Live Scaffold for Safe C-to-Rust Translation, a two-phase pipeline for translating real-world C projects to safe Rust. Existing approaches either produce unsafe output without memory-safety guarantees or translate functions in isolation, failing to detect cross-unit type mismatches or handle unsafe constructs requiring whole-program reasoning. Furthermore, function-level LLM pipelines require coordinated caller updates when type signatures change, while project-scale systems often fail to produce compilable output under real-world dependency complexity. Encrust addresses these limitations by decoupling boundary adaptation from function logic via an Application Binary Interface (ABI)-preserving wrapper pattern and validating each intermediate state against the integrated codebase. Phase 1 (Encapsulated Substitution) translates each function using an ABI-preserving wrapper that splits it into two components: a caller-transparent shim retaining the original raw-pointer signature, and a safe inner function targeted by the LLM with a clean, scope-limited prompt. This enables independent per-function type changes with automatic rollback on failure, without coordinated caller updates. A deterministic, type-directed wrapper elimination pass then removes wrappers after successful translation. Phase 2 (Agentic Refinement) resolves unsafe constructs beyond per-function scope, including static mut globals, skipped wrapper pairs, and failed translations, using an LLM agent operating on the whole codebase under a baseline-aware verification gate. We evaluate Encrust on 7 GNU Coreutils programs and 8 libraries from the Laertes benchmark, showing substantial unsafe-construct reduction across all 15 programs while maintaining full test-vector correctness.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-06T08:46:14Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Hohyun Sim</name>
+    </author>
+    <author>
+      <name>Hyeonjoong Cho</name>
+    </author>
+    <author>
+      <name>Ali Shokri</name>
+    </author>
+    <author>
+      <name>Zhoulai Fu</name>
+    </author>
+    <author>
+      <name>Binoy Ravindran</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.21824v1</id>
+    <title>Quality-Assured Fuzz Harness Generation via the Four Principles Framework</title>
+    <updated>2026-05-20T23:48:26Z</updated>
+    <link href="https://arxiv.org/abs/2605.21824v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.21824v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fuzz testing is the dominant technique for finding memory-safety vulnerabilities in C/C++ software, yet its effectiveness hinges on the quality of fuzz harnesses -- the programs that bridge fuzzers and library APIs. A growing body of tools now automate harness generation, but none systematically ensures the correctness of produced harnesses: logic errors, API misuse, and lifecycle violations go undetected at the source level. As LLM-driven generation scales harness creation, uncontrolled quality turns scale into a liability.
+  We present QuartetFuzz, an autonomous harness-generation system that systematically improves correctness throughout the generation process. At its core is the Four Principles framework -- Logic Correctness (P1), API Protocol Compliance (P2), Security Boundary Respect (P3), and Entry Point Adequacy (P4) -- the first source-level definition of harness correctness with mathematical specifications and implementable checks. We operationalize these principles in an autonomous LLM agent that produces harnesses satisfying P1-P4 through a generate-check-fix loop before any fuzzing begins.
+  Deployed on 23 open-source projects spanning C/C++, Java, and JavaScript, the system submits 42 bug reports, of which 29 are fixed or confirmed upstream (including 3 CVEs) and only 2 are rejected (4.8% FP rate). During generation, the built-in P1/P2 checks automatically intercepted 58 harness-induced crashes that would otherwise have been false positives. Applied as a quality auditor to 586 existing production harnesses across 70 projects, the system identifies 53 violations (45 confirmed, 35 fixed). We release a dataset of 100 labeled harnesses for reproducible evaluation. Code and dataset are available at https://github.com/OwenSanzas/QuartetFuzz</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-20T23:48:26Z</published>
+    <arxiv:comment>22 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ze Sheng</name>
+    </author>
+    <author>
+      <name>Dmitrijs Trizna</name>
+    </author>
+    <author>
+      <name>Luigino Camastra</name>
+    </author>
+    <author>
+      <name>Zhicheng Chen</name>
+    </author>
+    <author>
+      <name>Qingxiao Xu</name>
+    </author>
+    <author>
+      <name>Jeff Huang</name>
+    </author>
+  </entry>
+</feed>

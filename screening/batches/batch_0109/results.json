@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R04361",
+    "decision": "UNCLEAR",
+    "reason": "Fuzzing suggests security testing, but the missing abstract leaves LLM use, OS target, and evaluation unverified.",
+    "evidence": "Learning Seed-Adaptive Mutation Strategies for Greybox Fuzzing"
+  },
+  {
+    "id": "R04362",
+    "decision": "UNCLEAR",
+    "reason": "Fuzzing seed selection is potentially relevant, but the missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "LSFuzz: Learning Adaptive Seed Selection Strategies for Fuzzing"
+  },
+  {
+    "id": "R04363",
+    "decision": "EXCLUDE",
+    "reason": "General unit-test generation via fuzzing; no LLM role or OS-security outcome is evident.",
+    "evidence": "Automated Unit Test Generation For Java Programs Using Fuzzing"
+  },
+  {
+    "id": "R04364",
+    "decision": "EXCLUDE",
+    "reason": "Fuzzing JavaScript engines; no LLM role or OS component is evident.",
+    "evidence": "Evaluating seed selection for fuzzing JavaScript engines"
+  },
+  {
+    "id": "R04365",
+    "decision": "EXCLUDE",
+    "reason": "Review item, not original empirical research; topic is bibliography generation, not OS security.",
+    "evidence": "Review of"
+  },
+  {
+    "id": "R04366",
+    "decision": "EXCLUDE",
+    "reason": "Review item, not original empirical research; topic is bibliography generation, not OS security.",
+    "evidence": "Review of"
+  },
+  {
+    "id": "R04367",
+    "decision": "EXCLUDE",
+    "reason": "DNN-focused fuzzing with learning-based mutation; no LLM role or OS target is evident.",
+    "evidence": "ADPFUZZ: A coverage-guided fuzzing framework for DNN based on adaptive learning of seed mutation strategies"
+  },
+  {
+    "id": "R04368",
+    "decision": "EXCLUDE",
+    "reason": "Review item, not original empirical research; topic is bibliography generation, not OS security.",
+    "evidence": "Review of"
+  },
+  {
+    "id": "R04369",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted class-diagram and test-case generation is general software engineering, not security or OS work.",
+    "evidence": "LLM-Supported Generation of Class Diagrams with Test Cases"
+  },
+  {
+    "id": "R04370",
+    "decision": "EXCLUDE",
+    "reason": "Explicitly a linear-regression fuzzing method; no LLM role or OS-security outcome is evident.",
+    "evidence": "RegFuzz: A Linear Regression-Based Approach for Seed Scheduling in Directed Fuzzing"
+  },
+  {
+    "id": "R04371",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based fuzzing seed optimization, but OS target and evaluation are unclear from the title only.",
+    "evidence": "Path Sensitive Seed Optimization for Fuzzing via LLMs"
+  },
+  {
+    "id": "R04372",
+    "decision": "UNCLEAR",
+    "reason": "Fuzzing seed work could be relevant, but no abstract confirms LLM use or an OS target.",
+    "evidence": "Improving seed quality with historical fuzzing results"
+  },
+  {
+    "id": "R04373",
+    "decision": "UNCLEAR",
+    "reason": "Fuzzing seed scheduling is potentially relevant, but LLM use and OS target are unconfirmed without an abstract.",
+    "evidence": "SeedOrNot: A Classification-Based Framework for Efficient Seed Scheduling in Hybrid Fuzzing"
+  },
+  {
+    "id": "R04374",
+    "decision": "EXCLUDE",
+    "reason": "VAE-GAN fuzzing testcase generation; no LLM role or OS target is evident.",
+    "evidence": "Effective Fuzzing Testcase Generation Based on Variational Auto-Encoder Generative Adversarial Network"
+  },
+  {
+    "id": "R04375",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates creativity of LLM hardware-code generation, not security analysis or OS targeting.",
+    "evidence": "CreativEval: Evaluating Creativity of LLM-Based Hardware Code Generation"
+  },
+  {
+    "id": "R04376",
+    "decision": "EXCLUDE",
+    "reason": "Color-scheme generation is outside security and OS scope.",
+    "evidence": "Validating Color Scheme Generation with LLM"
+  },
+  {
+    "id": "R04377",
+    "decision": "UNCLEAR",
+    "reason": "Fuzzing seed scheduling is potentially relevant, but LLM use and OS target are unconfirmed without an abstract.",
+    "evidence": "FitFuzz: Depth-Oriented Coverage-Guided Fuzzing via Fitness-Based Seed Scheduling"
+  },
+  {
+    "id": "R04378",
+    "decision": "EXCLUDE",
+    "reason": "LLM feedback for novice programmers is education-focused, not security or OS work.",
+    "evidence": "Generation of Elaborated, Targeted and Effective Feedback for Novice Programmers Using LLM"
+  },
+  {
+    "id": "R04379",
+    "decision": "EXCLUDE",
+    "reason": "LinUCB-based fuzzing scheduler; no LLM use or OS-security focus is evident.",
+    "evidence": "LinFuzz: Program-Sensitive Seed Scheduling Greybox Fuzzing Based on LinUCB Algorithm"
+  },
+  {
+    "id": "R04380",
+    "decision": "EXCLUDE",
+    "reason": "LLM-orchestrated distributed execution system, not a security analysis or testing task against OS components.",
+    "evidence": "a distributed execution mesh designed to be orchestrated natively by large language models"
+  },
+  {
+    "id": "R04381",
+    "decision": "EXCLUDE",
+    "reason": "LLM-orchestrated tabular anomaly detection, not OS security analysis or testing.",
+    "evidence": "TabGuard: Agentic LLM Orchestration for Adaptive Tabular Anomaly Detection via Dynamic Validator Selection and Generation"
+  },
+  {
+    "id": "R04382",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based fuzz-driver generation suggests security testing, but target OS scope and evaluation are unverified.",
+    "evidence": "Automated Generation and Compilation of Fuzz Driver Based on Large Language Models"
+  },
+  {
+    "id": "R04383",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based fuzz-driver generation suggests security testing, but target OS scope and evaluation are unverified.",
+    "evidence": "How Effective Are They? Exploring Large Language Model Based Fuzz Driver Generation"
+  },
+  {
+    "id": "R04384",
+    "decision": "EXCLUDE",
+    "reason": "Review item, not original empirical research; OptoChat optics topic is outside OS security.",
+    "evidence": "Review for"
+  },
+  {
+    "id": "R04385",
+    "decision": "EXCLUDE",
+    "reason": "LLM scene-graph generation is unrelated to security or OS components.",
+    "evidence": "LLM4SGG: Large Language Model for Scene Graph Generation"
+  },
+  {
+    "id": "R04386",
+    "decision": "EXCLUDE",
+    "reason": "Review item, not original empirical research; OptoChat optics topic is outside OS security.",
+    "evidence": "Review for"
+  },
+  {
+    "id": "R04387",
+    "decision": "EXCLUDE",
+    "reason": "Review item, not original empirical research; OptoChat optics topic is outside OS security.",
+    "evidence": "Review for"
+  },
+  {
+    "id": "R04388",
+    "decision": "EXCLUDE",
+    "reason": "Review item, not original empirical research; OptoChat optics topic is outside OS security.",
+    "evidence": "Review for"
+  },
+  {
+    "id": "R04389",
+    "decision": "EXCLUDE",
+    "reason": "Review item, not original empirical research; OptoChat optics topic is outside OS security.",
+    "evidence": "Review for"
+  },
+  {
+    "id": "R04390",
+    "decision": "EXCLUDE",
+    "reason": "LLM generation-efficiency framework; no security task or OS target.",
+    "evidence": "PACF: Pattern-Aware Complexity Framework for Efficient Large Language Model Generation"
+  },
+  {
+    "id": "R04391",
+    "decision": "EXCLUDE",
+    "reason": "LLM generation-style customization; no security task or OS target.",
+    "evidence": "Customizing Large Language Model Generation Style using Parameter-Efficient Finetuning"
+  },
+  {
+    "id": "R04392",
+    "decision": "EXCLUDE",
+    "reason": "Survey-style chapter on multi-agent LLMs; reviews are excluded and no OS security research is evident.",
+    "evidence": "This chapter explores the fundamentals of MAS and LLMs"
+  },
+  {
+    "id": "R04393",
+    "decision": "EXCLUDE",
+    "reason": "Federated RAG for knowledge retrieval; no security task or OS target.",
+    "evidence": "Large Language Model with Federated Retrieval-Augmented Generation for Improved Knowledge Retrieval"
+  },
+  {
+    "id": "R04394",
+    "decision": "EXCLUDE",
+    "reason": "Editorial decision letter, not original research; OptoChat is outside OS security.",
+    "evidence": "Decision letter for"
+  },
+  {
+    "id": "R04395",
+    "decision": "EXCLUDE",
+    "reason": "Editorial decision letter, not original research; OptoChat is outside OS security.",
+    "evidence": "Decision letter for"
+  },
+  {
+    "id": "R04396",
+    "decision": "EXCLUDE",
+    "reason": "Editorial decision letter, not original research; OptoChat is outside OS security.",
+    "evidence": "Decision letter for"
+  },
+  {
+    "id": "R04397",
+    "decision": "UNCLEAR",
+    "reason": "LLM fuzz-driver generation is potentially relevant, but OS target and evaluation are unverified.",
+    "evidence": "Performance Comparison of Prompt Engineering and Fine-Tuning Approaches for Fuzz Driver Generation Using Large Language Models"
+  },
+  {
+    "id": "R04398",
+    "decision": "EXCLUDE",
+    "reason": "Clinical role-model generation; no security task or OS target.",
+    "evidence": "Constraint-Aware Self-Improving Large Language Model for Clinical Role Model Generation"
+  },
+  {
+    "id": "R04399",
+    "decision": "UNCLEAR",
+    "reason": "Fuzz-driver generation is security testing, but the title does not confirm LLM use or an OS target.",
+    "evidence": "Target-Guided Multi-Agent System for Collaborative Fuzz Driver Generation"
+  },
+  {
+    "id": "R04400",
+    "decision": "EXCLUDE",
+    "reason": "Reliable LLM decoding for factual accuracy; no security task or OS target.",
+    "evidence": "APCD: Adaptive Path-Contrastive Decoding for Reliable Large Language Model Generation"
+  }
+]

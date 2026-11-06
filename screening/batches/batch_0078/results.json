@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03121",
+    "decision": "UNCLEAR",
+    "reason": "Title-only side-channel protection paper; missing abstract leaves LLM role and OS target uncertain.",
+    "evidence": "Energy Efficient Obfuscation of Side-Channel Leakage for Preventing Side-Channel Attacks"
+  },
+  {
+    "id": "R03122",
+    "decision": "EXCLUDE",
+    "reason": "LLM used for downlink channel prediction, not a security task.",
+    "evidence": "Downlink Channel Prediction Method Aligned with LLM Pre-Training"
+  },
+  {
+    "id": "R03123",
+    "decision": "EXCLUDE",
+    "reason": "Concerns confidential and attack-resilient LLM serving, i.e. security of LLMs rather than LLM-based OS security.",
+    "evidence": "Confidential and Attack-Resilient Edge LLM Serving for Multilingual Chatbots"
+  },
+  {
+    "id": "R03124",
+    "decision": "EXCLUDE",
+    "reason": "Review of an LLM-driven robot perception paper, not original security research.",
+    "evidence": "Review of: \"Time Is on My Side"
+  },
+  {
+    "id": "R03125",
+    "decision": "EXCLUDE",
+    "reason": "LLM expert system for software documentation and regulatory adherence, with no security analysis.",
+    "evidence": "Offline LLM-Based Expert Systems for Confidential Software Documentation"
+  },
+  {
+    "id": "R03126",
+    "decision": "EXCLUDE",
+    "reason": "Tokenization offloading and LLM efficiency, with no security task or OS target.",
+    "evidence": "shifts tokenization to the client side"
+  },
+  {
+    "id": "R03127",
+    "decision": "EXCLUDE",
+    "reason": "Wireless communications confidentiality study, not LLM-based OS security research.",
+    "evidence": "Short Packet Communication over 2-user Non-orthogonal Multiple Access Channel with Confidential Message"
+  },
+  {
+    "id": "R03128",
+    "decision": "UNCLEAR",
+    "reason": "Title-only side-channel disassembly and integrity monitoring; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "Time-Series Side-Channel Disassembler (TSD) and Integrity Monitor (TSD-IM)"
+  },
+  {
+    "id": "R03129",
+    "decision": "EXCLUDE",
+    "reason": "Duplicate review of an LLM-driven robot paper, not original security research.",
+    "evidence": "Review of: \"Time Is on My Side"
+  },
+  {
+    "id": "R03130",
+    "decision": "UNCLEAR",
+    "reason": "No title or abstract, so relevance and methods cannot be assessed.",
+    "evidence": "No title or abstract provided"
+  },
+  {
+    "id": "R03131",
+    "decision": "EXCLUDE",
+    "reason": "LLM inference VM selection and KV-cache offloading, with no security task.",
+    "evidence": "Cost-Efficient VM Selection for Cloud-Based LLM Inference with KV Cache Offloading"
+  },
+  {
+    "id": "R03132",
+    "decision": "EXCLUDE",
+    "reason": "Structural biology study of a connexin channel, unrelated to LLM or OS security.",
+    "evidence": "structure of human connexin 40.1 side-by-side decamer channel by cryoEM"
+  },
+  {
+    "id": "R03133",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based drug side-effect prediction, not a security task against OS components.",
+    "evidence": "PolyLLM: polypharmacy side effect prediction via LLM-based SMILES encodings"
+  },
+  {
+    "id": "R03134",
+    "decision": "UNCLEAR",
+    "reason": "Title-only analog side-channel item; missing abstract leaves study type, LLM role, and OS target uncertain.",
+    "evidence": "What Is an Analog Side Channel?"
+  },
+  {
+    "id": "R03135",
+    "decision": "EXCLUDE",
+    "reason": "Side-channel pump fluid dynamics, unrelated to LLM or computer security.",
+    "evidence": "Influence of side channel inlet angle on energy conversion of a side channel pump"
+  },
+  {
+    "id": "R03136",
+    "decision": "EXCLUDE",
+    "reason": "Review of Android side-channel attacks, not original LLM-based OS security research.",
+    "evidence": "Side-Channel Attacks in Android: A Review"
+  },
+  {
+    "id": "R03137",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based denoising for recommendation, with no security analysis.",
+    "evidence": "LLM-based side information denoising for recommendation enhancement"
+  },
+  {
+    "id": "R03138",
+    "decision": "EXCLUDE",
+    "reason": "Title indicates confidential execution of LLM agents, i.e. protecting the LLM, not using an LLM for security analysis.",
+    "evidence": "Confidential LLM Agent Execution on Edge Devices"
+  },
+  {
+    "id": "R03139",
+    "decision": "EXCLUDE",
+    "reason": "Cryptographic side-channel attack on an LFSR, not an OS component and no LLM role.",
+    "evidence": "Blind Side Channel on the Elephant LFSR"
+  },
+  {
+    "id": "R03140",
+    "decision": "UNCLEAR",
+    "reason": "Title-only Spectre/Meltdown cache defense; missing abstract leaves LLM role and OS-level scope uncertain.",
+    "evidence": "Transient State Signaling for Spectre/Meltdown Transient Cache Side-channel Prevention"
+  },
+  {
+    "id": "R03141",
+    "decision": "UNCLEAR",
+    "reason": "Title-only hardware-counter side-channel exploration; missing abstract leaves LLM role and OS target uncertain.",
+    "evidence": "Event-Driven Side Channel Exploration Using Hardware Performance Counters"
+  },
+  {
+    "id": "R03142",
+    "decision": "UNCLEAR",
+    "reason": "Title-only cache side-channel defense for virtualized environments; missing abstract leaves LLM role unclear.",
+    "evidence": "Protecting Shared Virtualized Environments against Cache Side-channel Attacks"
+  },
+  {
+    "id": "R03143",
+    "decision": "EXCLUDE",
+    "reason": "Cache side-channel attack on image-processing software, not an OS component and no LLM role.",
+    "evidence": "Cache Side-Channel Attacks Against Black-Box Image Processing Software"
+  },
+  {
+    "id": "R03144",
+    "decision": "UNCLEAR",
+    "reason": "Generic title-only side-channel item with no abstract; scope, LLM role, and OS target are unknown.",
+    "evidence": "Side-channel attacks"
+  },
+  {
+    "id": "R03145",
+    "decision": "UNCLEAR",
+    "reason": "Title-only cross-VM cache side-channel bounds; missing abstract leaves LLM role and OS target uncertain.",
+    "evidence": "The Limits of Cloud Noise: Information-Theoretic Bounds on Cross-VM Cache Side Channels"
+  },
+  {
+    "id": "R03146",
+    "decision": "EXCLUDE",
+    "reason": "DRAM electromagnetic cache side-channel study, not an OS component and no LLM role.",
+    "evidence": "Cache Side-Channel Attacks Through Electromagnetic Emanations of DRAM Accesses"
+  },
+  {
+    "id": "R03147",
+    "decision": "EXCLUDE",
+    "reason": "Attacks LLM services via cache timing; LLM is the target, not used for OS security analysis.",
+    "evidence": "Stealing Input in LLM Services via Cache-Sharing Timing Side-Channel Attacks"
+  },
+  {
+    "id": "R03148",
+    "decision": "EXCLUDE",
+    "reason": "LLM-enhanced recommender fairness, with no security task.",
+    "evidence": "Mitigating Item-Side Unfairness in LLM-Enhanced Recommender Systems"
+  },
+  {
+    "id": "R03149",
+    "decision": "EXCLUDE",
+    "reason": "LLM-driven robot perception and planning abstract, with no security analysis or OS target.",
+    "evidence": "Scene Graph Filtering for Dynamic Environment Perception in an LLM-Driven Robot"
+  },
+  {
+    "id": "R03150",
+    "decision": "EXCLUDE",
+    "reason": "Hardware Trojan detection using Deep SVDD, not an LLM-based OS security task.",
+    "evidence": "EM Side-Channel Based Trojan Detection Using Deep SVDD For Unsupervised Anomaly Identification"
+  },
+  {
+    "id": "R03151",
+    "decision": "UNCLEAR",
+    "reason": "Generic title-only side-channel leakage item; missing abstract leaves study scope, LLM role, and OS target unknown.",
+    "evidence": "Side-Channel Leakage"
+  },
+  {
+    "id": "R03152",
+    "decision": "EXCLUDE",
+    "reason": "Dual-channel retail pricing study, unrelated to LLM or OS security.",
+    "evidence": "Optimal Channel Strategy for Dual-Channel Retailers: The Bright Side of Introducing Agency Channels"
+  },
+  {
+    "id": "R03153",
+    "decision": "EXCLUDE",
+    "reason": "Cryptographic side-channel key recovery using a neural network, not an LLM or OS security task.",
+    "evidence": "Breaking Masked Implementations of the Clyde-Cipher by Means of Side-Channel Analysis"
+  },
+  {
+    "id": "R03154",
+    "decision": "EXCLUDE",
+    "reason": "MIMO communications confidentiality scheme, not LLM-based OS security.",
+    "evidence": "Secure Nested Lattices for MIMO Broadcast Channel With Confidential Messages"
+  },
+  {
+    "id": "R03155",
+    "decision": "EXCLUDE",
+    "reason": "LLM-driven VM scheduling for energy optimization, with no security task.",
+    "evidence": "EcoVMS: LLM-Driven Reinforcement Learning for End-to-End Energy-Optimized VM Scheduling"
+  },
+  {
+    "id": "R03156",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based drug side-effect prediction, not a security task against OS components.",
+    "evidence": "PromptSE: drug side effect prediction with LLM-derived pharmacological representations"
+  },
+  {
+    "id": "R03157",
+    "decision": "EXCLUDE",
+    "reason": "Survey of hardware security, not original LLM-based OS security research.",
+    "evidence": "Survey on Hardware Security: PUFs, Trojans, and Side-Channel Attacks"
+  },
+  {
+    "id": "R03158",
+    "decision": "EXCLUDE",
+    "reason": "Cross-VM network attacks and defenses described without any LLM role.",
+    "evidence": "Cross-VM Network Channel Attacks and their Countermeasures in Cloud Computing Environments"
+  },
+  {
+    "id": "R03159",
+    "decision": "EXCLUDE",
+    "reason": "Hardware-enforced side-channel containment using an FPGA governor, with no LLM role.",
+    "evidence": "Physical-Layer Containment via Isochronous Governors: An Information-Theoretic Side-Channel Countermeasure"
+  },
+  {
+    "id": "R03160",
+    "decision": "EXCLUDE",
+    "reason": "Duplicate hardware side-channel containment paper, with no LLM role.",
+    "evidence": "Physical-Layer Containment via Isochronous Governors: An Information-Theoretic Side-Channel Countermeasure"
+  }
+]

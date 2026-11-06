@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R00006",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Original framework uses an LLM to detect Windows malware from system-call behavior, suggesting a security protection task on OS interfaces.",
+    "evidence": "detecting malware at the application layer of the Windows operating system"
+  },
+  {
+    "id": "R00007",
+    "decision": "EXCLUDE",
+    "reason": "Focuses on human-AI interaction and cognitive manipulation, i.e., security of LLM systems, not OS-level security.",
+    "evidence": "do not arise from infrastructure compromise, but from the human-AI interaction layer"
+  },
+  {
+    "id": "R00008",
+    "decision": "EXCLUDE",
+    "reason": "Focuses on human-AI interaction and cognitive manipulation, i.e., security of LLM systems, not OS-level security.",
+    "evidence": "do not arise from infrastructure compromise, but from the human-AI interaction layer"
+  },
+  {
+    "id": "R00013",
+    "decision": "EXCLUDE",
+    "reason": "Earth-science LLM system; no security analysis or OS target.",
+    "evidence": "a large earth science language model system for geoscientists"
+  },
+  {
+    "id": "R00019",
+    "decision": "EXCLUDE",
+    "reason": "LLM generates Common Criteria documentation; not an OS security analysis or testing task.",
+    "evidence": "simplifies the creation of Security Target documents"
+  },
+  {
+    "id": "R00020",
+    "decision": "EXCLUDE",
+    "reason": "Banking chatbot security risk assessment and defenses concern LLM application security, not OS components.",
+    "evidence": "a learnable multi-layer defense framework for LLM-based banking assistants"
+  },
+  {
+    "id": "R00022",
+    "decision": "EXCLUDE",
+    "reason": "Clinical classification study; no security or OS component.",
+    "evidence": "Large language models (LLMs) are increasingly considered in clinical decision support"
+  },
+  {
+    "id": "R00024",
+    "decision": "EXCLUDE",
+    "reason": "LLM inference cost optimization; infrastructure engineering without a security outcome.",
+    "evidence": "a novel selfoptimizing infrastructure framework that dynamically adapts LLM deployment strategies"
+  },
+  {
+    "id": "R00026",
+    "decision": "EXCLUDE",
+    "reason": "LLM OS for process-engineering automation; no security task.",
+    "evidence": "an AI-driven framework designed to solve complex problems in the chemical and process industries"
+  },
+  {
+    "id": "R00029",
+    "decision": "EXCLUDE",
+    "reason": "OS forensic artifact comparison without any LLM use.",
+    "evidence": "This research investigates forensic artifacts within two widely used operating systems, Windows and Linux"
+  },
+  {
+    "id": "R00030",
+    "decision": "EXCLUDE",
+    "reason": "LLM survey-simulation platform; no security or OS target.",
+    "evidence": "an open-source platform for LLM-based survey simulation with virtual personas"
+  },
+  {
+    "id": "R00033",
+    "decision": "EXCLUDE",
+    "reason": "LLM test-script generation for general software testing, not security analysis.",
+    "evidence": "automate the generation of test scripts directly from natural language software requirements or user stories"
+  },
+  {
+    "id": "R00035",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial attacks and defenses on ChatGPT, i.e., LLM security rather than OS security.",
+    "evidence": "we first analyze the effectiveness of inducing attacks on ChatGPT"
+  },
+  {
+    "id": "R00038",
+    "decision": "EXCLUDE",
+    "reason": "System-level threat model for LLM-based architectures, not OS components or privileged interfaces.",
+    "evidence": "a system-level security analysis of integrated LLM architectures"
+  },
+  {
+    "id": "R00041",
+    "decision": "EXCLUDE",
+    "reason": "Dataset for LLM code generation from system requirements; no security outcome.",
+    "evidence": "a novel dataset designed to simulate real-world subsystems of large-scale information systems"
+  },
+  {
+    "id": "R00042",
+    "decision": "EXCLUDE",
+    "reason": "Systematic review of LLM agent security; reviews are excluded from the core empirical set.",
+    "evidence": "This review systematically examines key studies from 2023 to 2026"
+  },
+  {
+    "id": "R00043",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM security, defense, and governance; excluded review.",
+    "evidence": "This survey organizes the LLM security and governance landscape"
+  },
+  {
+    "id": "R00045",
+    "decision": "EXCLUDE",
+    "reason": "Technical review of LLM serving efficiency; no security or OS security outcome.",
+    "evidence": "This technical review explores innovative caching strategies"
+  },
+  {
+    "id": "R00046",
+    "decision": "EXCLUDE",
+    "reason": "SOC alert triage using SIEM; security operations but not targeting OS components or privileged interfaces.",
+    "evidence": "integration of Large Language Models (LLMs) with Security Information and Event Management (SIEM) systems"
+  },
+  {
+    "id": "R00047",
+    "decision": "EXCLUDE",
+    "reason": "Phishing and spam email detection; not an OS component or privileged-interface security task.",
+    "evidence": "able to better classify emails in both unbalanced and balanced datasets"
+  },
+  {
+    "id": "R00052",
+    "decision": "EXCLUDE",
+    "reason": "ChatGPT-based question-answering system; no security analysis or OS target.",
+    "evidence": "our system will ask users questions several times until they get what they really want"
+  },
+  {
+    "id": "R00056",
+    "decision": "EXCLUDE",
+    "reason": "Literature survey of LLM-driven OS designs; survey and no security evaluation.",
+    "evidence": "A Comprehensive Literature Survey on Large Language Model-Driven Operating Systems"
+  },
+  {
+    "id": "R00061",
+    "decision": "EXCLUDE",
+    "reason": "Meal recommender system; no security or OS target.",
+    "evidence": "introduces a hybrid large-language-model (LLM)-driven recommender system to personalize meal recommendations"
+  },
+  {
+    "id": "R00063",
+    "decision": "EXCLUDE",
+    "reason": "LLM-driven software development and architecture discussion; no security outcome.",
+    "evidence": "System Architecture as the primary unit of engineering value"
+  },
+  {
+    "id": "R00065",
+    "decision": "EXCLUDE",
+    "reason": "Workflow validation for LLM pipelines; no security analysis of OS components.",
+    "evidence": "an automated system for checking language model workflows"
+  },
+  {
+    "id": "R00066",
+    "decision": "EXCLUDE",
+    "reason": "Focuses on privacy leakage and defenses in LLMs, i.e., security of LLMs.",
+    "evidence": "strengthens the LLM model against extraction attacks"
+  },
+  {
+    "id": "R00068",
+    "decision": "EXCLUDE",
+    "reason": "Security and privacy framework for multi-agent LLM ecosystems, not OS components.",
+    "evidence": "a novel decentralized privacy-preserving framework"
+  },
+  {
+    "id": "R00073",
+    "decision": "EXCLUDE",
+    "reason": "Financial audit risk assessment; no security or OS component.",
+    "evidence": "intelligent audit risk assessment framework that integrates a retrieval-augmented large language model"
+  },
+  {
+    "id": "R00079",
+    "decision": "EXCLUDE",
+    "reason": "Safety boundary and evaluation for LLM outputs; security of LLMs, not OS.",
+    "evidence": "constructs a safety boundary around LLM outputs"
+  },
+  {
+    "id": "R00080",
+    "decision": "EXCLUDE",
+    "reason": "Incident triage and root-cause analysis for distributed systems; no OS security target.",
+    "evidence": "incident triage and accurate root cause identification"
+  },
+  {
+    "id": "R00081",
+    "decision": "EXCLUDE",
+    "reason": "Security assessment of LLM-generated web-app authentication modules; general software, not OS.",
+    "evidence": "authentication and authorization modules of web applications generated by large language models"
+  },
+  {
+    "id": "R00089",
+    "decision": "EXCLUDE",
+    "reason": "LLM-friendly API design with a POSIX utility case study; no security outcome.",
+    "evidence": "Our case studies using the POSIX 'find' utility"
+  },
+  {
+    "id": "R00094",
+    "decision": "EXCLUDE",
+    "reason": "LLM orchestration framework; no security analysis or OS target.",
+    "evidence": "a layered orchestration framework that coordinates heterogeneous LLM providers"
+  },
+  {
+    "id": "R00099",
+    "decision": "EXCLUDE",
+    "reason": "Security assessment of LLM code writing; general software, not OS.",
+    "evidence": "code generated by LLMs can sometimes have a lot of security risks as well"
+  },
+  {
+    "id": "R00109",
+    "decision": "EXCLUDE",
+    "reason": "Kernel tracing is used to audit LLM safety mechanisms, i.e., security of LLMs rather than OS security.",
+    "evidence": "externally auditing their safety mechanism activation without internal access"
+  },
+  {
+    "id": "R00111",
+    "decision": "EXCLUDE",
+    "reason": "National-security strategy discussion; no technical LLM security or OS analysis.",
+    "evidence": "This paper focuses on unique AI applications in the military"
+  },
+  {
+    "id": "R00112",
+    "decision": "EXCLUDE",
+    "reason": "National-security strategy discussion; no technical LLM security or OS analysis.",
+    "evidence": "the necessity of protecting AI systems from adversaries"
+  },
+  {
+    "id": "R00113",
+    "decision": "EXCLUDE",
+    "reason": "LLM guardrail defense in web applications; security of LLMs, not OS components.",
+    "evidence": "Adversarial attacks pose an important threat to the security and trustworthiness of large language models (LLMs)"
+  },
+  {
+    "id": "R00114",
+    "decision": "EXCLUDE",
+    "reason": "National-security strategy discussion; no technical LLM security or OS analysis.",
+    "evidence": "the necessity of protecting AI systems from adversaries"
+  },
+  {
+    "id": "R00115",
+    "decision": "EXCLUDE",
+    "reason": "Security and privacy testing of LLM-enhanced mobile apps, not OS components or privileged interfaces.",
+    "evidence": "an automated framework for systematically testing LLM-enabled mobile apps"
+  }
+]

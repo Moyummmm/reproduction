@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R04721",
+    "decision": "UNCLEAR",
+    "reason": "Title-only fuzzing record; no explicit LLM role or OS target, so core dimensions cannot be confirmed.",
+    "evidence": "Thompson sampling for coverage-guided greybox fuzzing"
+  },
+  {
+    "id": "R04722",
+    "decision": "EXCLUDE",
+    "reason": "Fuzzing targets JavaScript engines, which are not OS components or privileged interfaces; no LLM role is stated.",
+    "evidence": "Data-Centric Fuzzing for JavaScript Engines"
+  },
+  {
+    "id": "R04723",
+    "decision": "UNCLEAR",
+    "reason": "Title-only fuzzing method; LLM use and target OS scope are not established.",
+    "evidence": "Grammar-Aware with Particle Swarm Optimization"
+  },
+  {
+    "id": "R04724",
+    "decision": "EXCLUDE",
+    "reason": "Fuzzing targets JavaScript engines, which are not OS components or privileged interfaces; no LLM role is stated.",
+    "evidence": "Data-Centric Fuzzing for JavaScript Engines"
+  },
+  {
+    "id": "R04725",
+    "decision": "EXCLUDE",
+    "reason": "Targets ROS programs and concurrency bugs; no LLM or OS-component security focus is evident.",
+    "evidence": "Concurrency Bugs in ROS Programs"
+  },
+  {
+    "id": "R04726",
+    "decision": "UNCLEAR",
+    "reason": "Title-only fuzzing record; neural-network seed scheduling does not establish substantive LLM use or an OS target.",
+    "evidence": "Neural Network Loss Evaluation in Coverage-Guided Greybox Fuzzing"
+  },
+  {
+    "id": "R04727",
+    "decision": "EXCLUDE",
+    "reason": "Targets command-line interfaces, not OS components or privileged interfaces; no LLM role is stated.",
+    "evidence": "Fuzzing Command-line Interface"
+  },
+  {
+    "id": "R04728",
+    "decision": "EXCLUDE",
+    "reason": "GAN-based fuzzing of industrial IoT protocols; not LLM-based and not targeting OS components.",
+    "evidence": "Coverage-Guided Generative Adversarial Networks for Industrial IoT Protocols"
+  },
+  {
+    "id": "R04729",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial fuzzing of image-based deep learning systems; target is ML software, not OS, and no LLM role is stated.",
+    "evidence": "Fuzzing Testing for Image-Based Deep Learning Systems"
+  },
+  {
+    "id": "R04730",
+    "decision": "UNCLEAR",
+    "reason": "Title-only concurrency fuzzing record; LLM role and whether targets are OS components are unclear.",
+    "evidence": "Detecting Concurrency Bugs with Feedback-Guided Fuzzing"
+  },
+  {
+    "id": "R04731",
+    "decision": "EXCLUDE",
+    "reason": "Compiler fuzzing target is a user-space toolchain, not an OS component or privileged interface; no LLM role is stated.",
+    "evidence": "Optimization-Log-Guided Compiler Fuzzing"
+  },
+  {
+    "id": "R04732",
+    "decision": "UNCLEAR",
+    "reason": "Title-only generic fuzzing record; no explicit LLM role or OS target, so relevance cannot be determined.",
+    "evidence": "Enhancing Coverage-Guided Fuzzing via Phantom Program"
+  },
+  {
+    "id": "R04733",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted fuzzing targets C library APIs, which are general software rather than OS components or privileged interfaces.",
+    "evidence": "LLM-Assisted Fuzz Harness Generation for C Library APIs"
+  },
+  {
+    "id": "R04734",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM agent harness engineering; reviews/surveys are excluded and it does not address OS security testing.",
+    "evidence": "A Survey of Harness Component Taxonomy, Evaluation, and Model–Harness Coevolution"
+  },
+  {
+    "id": "R04735",
+    "decision": "EXCLUDE",
+    "reason": "Concerns governed LLM-based code generation, not security analysis/testing of OS components; no abstract available.",
+    "evidence": "Execution Control Harness for Governed LLM-Based Code Generation"
+  },
+  {
+    "id": "R04736",
+    "decision": "EXCLUDE",
+    "reason": "Title indicates LLM-assisted fuzz harness generation for C library APIs, a general software target outside OS components.",
+    "evidence": "LLM-assisted fuzz harness generation for C library APIs"
+  },
+  {
+    "id": "R04737",
+    "decision": "EXCLUDE",
+    "reason": "Conceptual resilience agenda for LLM agent toolchains, not empirical security analysis targeting OS components.",
+    "evidence": "AI resilience must therefore be extended into harness resilience"
+  },
+  {
+    "id": "R04738",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM agent harness evaluation; reviews/surveys are excluded and no OS security task is studied.",
+    "evidence": "This survey reviews the development of agent harnesses"
+  },
+  {
+    "id": "R04739",
+    "decision": "EXCLUDE",
+    "reason": "LLM decision-support for emergency dispatch, not a security analysis or testing task on OS components.",
+    "evidence": "Emergency Operations and Management"
+  },
+  {
+    "id": "R04740",
+    "decision": "EXCLUDE",
+    "reason": "Multi-agent LLM system for scientific hypothesis generation in biology, not OS security research.",
+    "evidence": "generate cross-domain hypotheses beyond single-investigator reach"
+  },
+  {
+    "id": "R04741",
+    "decision": "EXCLUDE",
+    "reason": "LLM harness for materials science, not security analysis/testing of OS components.",
+    "evidence": "Harness Engineered LLM Agents for Material Science"
+  },
+  {
+    "id": "R04742",
+    "decision": "EXCLUDE",
+    "reason": "LLM-generated specifications for ICS runtime security monitoring; ICS is outside OS components/privileged interfaces.",
+    "evidence": "Run-time Security Monitoring of ICS"
+  },
+  {
+    "id": "R04743",
+    "decision": "EXCLUDE",
+    "reason": "Position paper on harness disclosure in agent evaluation, not empirical OS security research.",
+    "evidence": "This position paper argues"
+  },
+  {
+    "id": "R04744",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based attack graph generation for software supply chain security, a general software target outside OS components.",
+    "evidence": "LLM-based attack graph generation in software supply chain security"
+  },
+  {
+    "id": "R04745",
+    "decision": "EXCLUDE",
+    "reason": "LLM-guided security claims for autonomous vehicles/smart urban systems, not OS components or privileged interfaces.",
+    "evidence": "Security Claim Generation for Autonomous Vehicle in Smart Urban Systems"
+  },
+  {
+    "id": "R04746",
+    "decision": "UNCLEAR",
+    "reason": "Title-only SoC security record; LLM role and whether TEE/privileged interfaces are targeted are unclear.",
+    "evidence": "Threat Modeling and Property Generation in SoC Security"
+  },
+  {
+    "id": "R04747",
+    "decision": "UNCLEAR",
+    "reason": "Title-only, broad LLM security-agent record; OS scope and empirical status are unclear.",
+    "evidence": "LLM-Powered Autonomous Security Agents for Next-Generation Cyber Defence"
+  },
+  {
+    "id": "R04748",
+    "decision": "EXCLUDE",
+    "reason": "Security-by-design for LLM code generation; addresses LLM safety, not OS security analysis/testing.",
+    "evidence": "Security-by-Design for LLM-Based Code Generation"
+  },
+  {
+    "id": "R04749",
+    "decision": "EXCLUDE",
+    "reason": "Multi-agent LLM narrative generation for security operations, not OS-targeted security analysis or testing.",
+    "evidence": "Evidence-Backed Narrative Generation for Security Operations"
+  },
+  {
+    "id": "R04750",
+    "decision": "EXCLUDE",
+    "reason": "Securing LLM-driven O-RAN control; target is telecom RAN infrastructure, not OS components or privileged interfaces.",
+    "evidence": "Zero Trust Prompting for Securing LLM-Driven O-RAN Control"
+  },
+  {
+    "id": "R04751",
+    "decision": "EXCLUDE",
+    "reason": "LLM harness for materials science/perovskite modeling, not OS security research.",
+    "evidence": "Harness Engineered LLM Agents for Material Science"
+  },
+  {
+    "id": "R04752",
+    "decision": "UNCLEAR",
+    "reason": "Title-only study of LLM code generation for offensive security; target OS scope and empirical security task are unclear.",
+    "evidence": "LLM-based code generation in offensive security tasks"
+  },
+  {
+    "id": "R04753",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based software model generation for change impact analysis, not a security task on OS components.",
+    "evidence": "Software Model Generation and Simulation for Change Impact Analysis with LLM"
+  },
+  {
+    "id": "R04754",
+    "decision": "EXCLUDE",
+    "reason": "Business guidance on secure AI adoption, not original empirical OS security research.",
+    "evidence": "How to harness AI securely in your business"
+  },
+  {
+    "id": "R04755",
+    "decision": "EXCLUDE",
+    "reason": "Learnable controller for LLM agent harness; no security analysis/testing or OS target is indicated.",
+    "evidence": "Learnable Bidirectional Controller for LLM Agent Harness"
+  },
+  {
+    "id": "R04756",
+    "decision": "EXCLUDE",
+    "reason": "LLM for 5G O-RAN radio resource management, not a security task on OS components.",
+    "evidence": "Radio Resource Management xApp for 5G O-RAN"
+  },
+  {
+    "id": "R04757",
+    "decision": "EXCLUDE",
+    "reason": "Distillation to improve LLM secure code generation; addresses LLM safety, not OS-targeted security analysis.",
+    "evidence": "Security Knowledge Distillation for Enhancing LLM Safety in Code Generation"
+  },
+  {
+    "id": "R04758",
+    "decision": "EXCLUDE",
+    "reason": "Reliability harness for LLM tool execution, not a security analysis/testing task despite OS-level liveness checks.",
+    "evidence": "A Self-Learning Reliability Harness for LLM Agent Tool Execution"
+  },
+  {
+    "id": "R04759",
+    "decision": "EXCLUDE",
+    "reason": "Safety filtering for LLM/RAG generation security, not security analysis/testing of OS components.",
+    "evidence": "Multi-Level Safety Filtering Method for LLM Generation Security"
+  },
+  {
+    "id": "R04760",
+    "decision": "UNCLEAR",
+    "reason": "Title-only Windows harness-generation work; OS relevance is plausible, but LLM role and security task are not explicit.",
+    "evidence": "Semi-automatic Harness Generation based on Windows Time Travel Debugging"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R05801",
+    "decision": "EXCLUDE",
+    "reason": "Title concerns code-mixed translation data augmentation; no security task or OS target.",
+    "evidence": "Contextual Code-Mixed Translations with LLM-Based Data Augmentation"
+  },
+  {
+    "id": "R05802",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based digital population simulation; no security analysis or OS component.",
+    "evidence": "CrowdLLM: Building LLM-Based Digital Populations"
+  },
+  {
+    "id": "R05803",
+    "decision": "EXCLUDE",
+    "reason": "Benchmark data-quality study for code models; no security task or OS target.",
+    "evidence": "On the Importance of Data Quality for LLM-Based Code Models"
+  },
+  {
+    "id": "R05804",
+    "decision": "EXCLUDE",
+    "reason": "Code watermarking for provenance detection, not security of OS components.",
+    "evidence": "Code Watermarking for Detecting LLM-Generated Code"
+  },
+  {
+    "id": "R05805",
+    "decision": "EXCLUDE",
+    "reason": "Poisoning attack on code-suggestion models; targets the LLM supply chain, not OS components.",
+    "evidence": "Covertly Poisoning Code-Suggestion Models"
+  },
+  {
+    "id": "R05806",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor against PLC code generation, an ICS target, not OS components or privileged interfaces.",
+    "evidence": "Backdoor Attack Against LLM-Based PLC Code Generation"
+  },
+  {
+    "id": "R05807",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor attack on recommendation agents; no OS component or privileged interface.",
+    "evidence": "LLM agents fine-tuned for recommendation tasks are particularly vulnerable to the embedding of imperceptible backdoors"
+  },
+  {
+    "id": "R05808",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor attack on code-generation LLMs; no OS target.",
+    "evidence": "Improving Backdoor Attack Success in Code Generation LLMs"
+  },
+  {
+    "id": "R05809",
+    "decision": "EXCLUDE",
+    "reason": "Traceability during code generation; no security outcome or OS target.",
+    "evidence": "Preserving Model-to-Code Traceability During LLM-Based Code Generation"
+  },
+  {
+    "id": "R05810",
+    "decision": "EXCLUDE",
+    "reason": "Generic dialogue and code-completion development; no security or OS focus.",
+    "evidence": "Dialogue Generation, Code Completion, and Customized Model Development"
+  },
+  {
+    "id": "R05811",
+    "decision": "EXCLUDE",
+    "reason": "Code-clone abstraction pipeline; general software engineering, not security.",
+    "evidence": "An LLM-Driven Pipeline for Lifting Code Clones into Reusable Abstractions"
+  },
+  {
+    "id": "R05812",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor explanation study for LLMs; security of the model, not OS components.",
+    "evidence": "Understanding LLM Backdoor Attacks Through Model-Generated Explanations"
+  },
+  {
+    "id": "R05813",
+    "decision": "EXCLUDE",
+    "reason": "Recommendation-backdoor topic; no OS component or privileged interface.",
+    "evidence": "Backdoor attack on LLM-based interpretable recommendation"
+  },
+  {
+    "id": "R05814",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor used for debiasing; no security analysis of OS components.",
+    "evidence": "Mitigating Model Bias with Backdoor Attack-Based Artificial Bias"
+  },
+  {
+    "id": "R05815",
+    "decision": "EXCLUDE",
+    "reason": "Quantization backdoor on LLM agents; not an OS-target security task.",
+    "evidence": "Quantization-Conditioned Backdoor Attacks on LLM Agents"
+  },
+  {
+    "id": "R05816",
+    "decision": "EXCLUDE",
+    "reason": "AST reliability evaluation of generated code; correctness not security, no OS target.",
+    "evidence": "Evaluating Structural Reliability in LLM Code Generation"
+  },
+  {
+    "id": "R05817",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor attacks on deep code models; security of LLMs, not OS components.",
+    "evidence": "Deep code models face security vulnerabilities through backdoor attacks."
+  },
+  {
+    "id": "R05818",
+    "decision": "EXCLUDE",
+    "reason": "Requirement-code alignment assessment; no security task or OS target.",
+    "evidence": "Requirement-Code Semantic Alignment based Software Completeness Assessment Model using LLM"
+  },
+  {
+    "id": "R05819",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor defense for LLMs; security of the model rather than OS components.",
+    "evidence": "Ensembled Poisoning Identification and Classification for LLM Backdoor Defense"
+  },
+  {
+    "id": "R05820",
+    "decision": "EXCLUDE",
+    "reason": "Low-code platform generation; general software engineering without security outcome.",
+    "evidence": "LLM-Based Generation of Low-Code Development Platforms"
+  },
+  {
+    "id": "R05821",
+    "decision": "EXCLUDE",
+    "reason": "Instance model generation via code synthesis; no security or OS focus.",
+    "evidence": "LLM-Based Instance Model Generation via Code Synthesis"
+  },
+  {
+    "id": "R05822",
+    "decision": "EXCLUDE",
+    "reason": "Low-code model consistency; no security outcome or OS target.",
+    "evidence": "Towards LLM-Powered Consistency in Model-Based Low-Code Platforms"
+  },
+  {
+    "id": "R05823",
+    "decision": "EXCLUDE",
+    "reason": "Systematic review of governance sources; reviews excluded and no OS target.",
+    "evidence": "Drawing on a systematic review of 20 peer-reviewed and industry-authoritative sources"
+  },
+  {
+    "id": "R05824",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor prompt attack on code summarization; not OS-component security.",
+    "evidence": "Backdoor Prompt Attack Against Black-Box Code Summarization Engines"
+  },
+  {
+    "id": "R05825",
+    "decision": "EXCLUDE",
+    "reason": "Copilot impact on complexity and velocity; no security analysis or OS target.",
+    "evidence": "QUANTIFYING THE IMPACT OF LARGE LANGUAGE MODEL (LLM) COPILOTS ON CODE CYCLOMATIC COMPLEXITY AND DEVELOPER VELOCITY"
+  },
+  {
+    "id": "R05826",
+    "decision": "EXCLUDE",
+    "reason": "Code watermarking for provenance; not security analysis of OS components.",
+    "evidence": "post-generation syntactic watermarking can reliably identify watermarked LLM-generated code"
+  },
+  {
+    "id": "R05827",
+    "decision": "EXCLUDE",
+    "reason": "LLM agent building world models by coding; no security task or OS target.",
+    "evidence": "Building World Models by Writing Code and Interacting with the Environment"
+  },
+  {
+    "id": "R05828",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor attack on code models; security of LLMs, no OS component.",
+    "evidence": "propose a backdoor attack approach using Abstract Syntax Tree-based Triggers (ASTT)"
+  },
+  {
+    "id": "R05829",
+    "decision": "EXCLUDE",
+    "reason": "Code similarity analysis; no security outcome or OS target.",
+    "evidence": "Investigating Code Similarity Patterns in LLM-Generated and Human-Written Programming Solutions"
+  },
+  {
+    "id": "R05830",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor remediation in LLMs; security of the model, not OS components.",
+    "evidence": "Activation Decomposition and Steering for LLM Backdoor Remediation"
+  },
+  {
+    "id": "R05831",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor threats to LLM agents; no OS-component security task.",
+    "evidence": "Investigating Backdoor Threats to LLM-Based Agents"
+  },
+  {
+    "id": "R05832",
+    "decision": "EXCLUDE",
+    "reason": "Traceability of generated code; no security analysis or OS target.",
+    "evidence": "Towards Automated Traceability of LLM-Generated Code"
+  },
+  {
+    "id": "R05833",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor persistency in agent post-training; security of LLMs, not OS components.",
+    "evidence": "Understanding and Enhancing Backdoor Persistency in LLM Agent Post-Training"
+  },
+  {
+    "id": "R05834",
+    "decision": "EXCLUDE",
+    "reason": "ASR hotword biasing; speech task unrelated to security or OS.",
+    "evidence": "Language-Aware LLM-Guided Hotword Biasing for Code-Switching ASR"
+  },
+  {
+    "id": "R05835",
+    "decision": "EXCLUDE",
+    "reason": "Automated backdoor attacks via LLM agents; not targeting OS components.",
+    "evidence": "Automating Backdoor Attacks via LLM Agents"
+  },
+  {
+    "id": "R05836",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor defense for code LLMs; security of LLMs, not OS components.",
+    "evidence": "An Input-Denoising-Based Defense Against Stealthy Backdoor Attacks in Large Language Models for Code"
+  },
+  {
+    "id": "R05837",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor implantation on LLM agents; no OS component or privileged interface target.",
+    "evidence": "Dynamically Encrypted Multi-Backdoor Implantation Attack on LLM-based Agent"
+  },
+  {
+    "id": "R05838",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial code/test LLM evolution; no security outcome or OS target.",
+    "evidence": "Adversarial Evolving of Code LLM and Test LLM via Reinforcement Learning"
+  },
+  {
+    "id": "R05839",
+    "decision": "EXCLUDE",
+    "reason": "DSL code generation; general software work without security outcome.",
+    "evidence": "LLM-driven Generic DSL Code Generation"
+  },
+  {
+    "id": "R05840",
+    "decision": "EXCLUDE",
+    "reason": "CNN backdoor on traffic-sign images; not LLM security or OS components.",
+    "evidence": "backdoor attacks against a ResNet-34 model trained on the GTSRB traffic sign dataset"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03081",
+    "decision": "EXCLUDE",
+    "reason": "VM AES timing side-channel defense; abstract shows no LLM use.",
+    "evidence": "we propose a new method to prevent VM side-channel timing attacks in AES-128."
+  },
+  {
+    "id": "R03082",
+    "decision": "UNCLEAR",
+    "reason": "Title-only VM side-channel candidate; LLM role not explicit.",
+    "evidence": "Exploiting TLBs in Virtualized GPUs for Cross-VM Side-Channel Attacks"
+  },
+  {
+    "id": "R03083",
+    "decision": "EXCLUDE",
+    "reason": "VM cache side-channel detection/mitigation; abstract shows no LLM use.",
+    "evidence": "A rule-based mechanism to detect a side-channel attack by monitoring cache data access."
+  },
+  {
+    "id": "R03084",
+    "decision": "UNCLEAR",
+    "reason": "Title-only confidential-computing side-channel study; LLM role not explicit.",
+    "evidence": "Making Your Program Oblivious: A Comparative Study for Side-channel-Safe Confidential Computing"
+  },
+  {
+    "id": "R03085",
+    "decision": "UNCLEAR",
+    "reason": "Title-only confidential-VM side-channel analysis; LLM role not explicit.",
+    "evidence": "SNPeek: Side-Channel Analysis for Privacy Applications on Confidential VMs"
+  },
+  {
+    "id": "R03086",
+    "decision": "UNCLEAR",
+    "reason": "Title-only cloud-VM side-channel defense; LLM role not explicit.",
+    "evidence": "SideSec: Detecting and Mitigating Microarchitectural Side-Channel Attacks in Cloud VMs via Entropy Monitoring and Dynamic VM Reallocation"
+  },
+  {
+    "id": "R03087",
+    "decision": "UNCLEAR",
+    "reason": "Title-only cross-VM side-channel attack; LLM role not explicit.",
+    "evidence": "DSAssassin: Cross-VM Side-Channel Attacks by Exploiting Intel Data Streaming Accelerator"
+  },
+  {
+    "id": "R03088",
+    "decision": "EXCLUDE",
+    "reason": "Title indicates a broad VM-security overview, not LLM-based original research.",
+    "evidence": "Next-Gen VM Security: Confidential Computing, Trusted Launch, and Zero Trust at Scale"
+  },
+  {
+    "id": "R03089",
+    "decision": "EXCLUDE",
+    "reason": "Confidential-computing VM isolation overview; abstract shows no LLM use.",
+    "evidence": "SEV-SNP was the first commercially available x86 technology to offer VM isolation for the cloud"
+  },
+  {
+    "id": "R03090",
+    "decision": "EXCLUDE",
+    "reason": "FPGA cross-VM side-channel research; abstract shows no LLM use.",
+    "evidence": "this work presents a new, fast PCIe-contention-based channel"
+  },
+  {
+    "id": "R03091",
+    "decision": "EXCLUDE",
+    "reason": "Secure-workload deployment on a confidential VM; no LLM security analysis indicated.",
+    "evidence": "A Container-Based Approach to Zero-Trust Computing: Deploying a Secure Workload on an Azure Confidential VM"
+  },
+  {
+    "id": "R03092",
+    "decision": "EXCLUDE",
+    "reason": "Security of LLM serving via cache partitioning; LLM is not shown as the security tool.",
+    "evidence": "Cache Partitioning for Mitigating Timing Side-Channel Attacks in LLM Serving Systems"
+  },
+  {
+    "id": "R03093",
+    "decision": "EXCLUDE",
+    "reason": "VM AES timing side-channel defense; abstract shows no LLM use.",
+    "evidence": "a software-based solution to the problem of VM timing side-channel assaults (SCAs) in CC (Cloud Computing) is proposed."
+  },
+  {
+    "id": "R03094",
+    "decision": "EXCLUDE",
+    "reason": "TEE performance analysis for federated learning; no LLM security task indicated.",
+    "evidence": "A performance analysis of VM-based Trusted Execution Environments for Confidential Federated Learning"
+  },
+  {
+    "id": "R03095",
+    "decision": "EXCLUDE",
+    "reason": "LLM-driven hardware synthesis of PQC cores; target is hardware, not OS.",
+    "evidence": "LLM4SecurePQC: LLM-Driven and Side-Channel Resilient Hardware Synthesis of PQC Cores"
+  },
+  {
+    "id": "R03096",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted AES power-trace analysis; target is hardware, not OS.",
+    "evidence": "LLM-Assisted Side-Channel Leakage Analysis of AES Power Traces"
+  },
+  {
+    "id": "R03097",
+    "decision": "UNCLEAR",
+    "reason": "Title-only formal verification of a confidential-VM monitor; LLM role not explicit.",
+    "evidence": "Towards a Formally Verified Security Monitor for VM-based Confidential Computing"
+  },
+  {
+    "id": "R03098",
+    "decision": "EXCLUDE",
+    "reason": "LLM for wireless channel prediction; no security task.",
+    "evidence": "we introduce Csi-LLM, a novel LLM-powered downlink channel prediction technique"
+  },
+  {
+    "id": "R03099",
+    "decision": "EXCLUDE",
+    "reason": "Security of LLM architecture via side channel; LLM is the target, not the analysis tool.",
+    "evidence": "ArchSnoop: LLM Architecture Snooping via Electromagnetic Side-Channel on Edge Devices"
+  },
+  {
+    "id": "R03100",
+    "decision": "EXCLUDE",
+    "reason": "LLM serving performance on cloud VMs; no security task.",
+    "evidence": "LLM-Pilot: SLO-Aware and Cost-Efficient LLM Serving on Public Cloud VM Clusters via Offloading"
+  },
+  {
+    "id": "R03101",
+    "decision": "EXCLUDE",
+    "reason": "Physics/cosmology title; outside LLM and OS security scope.",
+    "evidence": "Side Channel H: Baryogenesis"
+  },
+  {
+    "id": "R03102",
+    "decision": "EXCLUDE",
+    "reason": "Legal compliance article; outside LLM and OS security scope.",
+    "evidence": "side-channel compliance works by raising the general salience of a possibly unrelated prosocial value"
+  },
+  {
+    "id": "R03103",
+    "decision": "EXCLUDE",
+    "reason": "Confidential federated-learning privacy; no LLM or OS security task indicated.",
+    "evidence": "Confidential Federated Learning for Heterogeneous Platforms against Client-Side Privacy Leakages"
+  },
+  {
+    "id": "R03104",
+    "decision": "EXCLUDE",
+    "reason": "Blockchain confidential data exchange; no LLM or OS security task indicated.",
+    "evidence": "CC2C: Confidential Channel-to-Channel Data Exchange in a Permissioned Blockchain"
+  },
+  {
+    "id": "R03105",
+    "decision": "EXCLUDE",
+    "reason": "Physics/cosmology title; outside LLM and OS security scope.",
+    "evidence": "Side Channel A: Spectral Infrastructure"
+  },
+  {
+    "id": "R03106",
+    "decision": "EXCLUDE",
+    "reason": "Physics/cosmology title; outside LLM and OS security scope.",
+    "evidence": "Side Channel K: Formal Axiomatisation"
+  },
+  {
+    "id": "R03107",
+    "decision": "EXCLUDE",
+    "reason": "Physics/cosmology title; outside LLM and OS security scope.",
+    "evidence": "Side Channel N: Topological Classification"
+  },
+  {
+    "id": "R03108",
+    "decision": "EXCLUDE",
+    "reason": "Physics/cosmology title; outside LLM and OS security scope.",
+    "evidence": "Side Channel G: Dark Energy"
+  },
+  {
+    "id": "R03109",
+    "decision": "EXCLUDE",
+    "reason": "Physics/cosmology title; outside LLM and OS security scope.",
+    "evidence": "Side Channel F: Dark Matter"
+  },
+  {
+    "id": "R03110",
+    "decision": "EXCLUDE",
+    "reason": "Physics/cosmology title; outside LLM and OS security scope.",
+    "evidence": "Side Channel M: Structural Proofs"
+  },
+  {
+    "id": "R03111",
+    "decision": "EXCLUDE",
+    "reason": "Physics/cosmology title; outside LLM and OS security scope.",
+    "evidence": "Side Channel O: Precision Phenomenology"
+  },
+  {
+    "id": "R03112",
+    "decision": "EXCLUDE",
+    "reason": "Physics/cosmology title; outside LLM and OS security scope.",
+    "evidence": "Side Channel J: Quantum Gravity"
+  },
+  {
+    "id": "R03113",
+    "decision": "EXCLUDE",
+    "reason": "LLM-agent virtual-memory systems work without a security outcome.",
+    "evidence": "Harness-Managed Virtual Memory for Stateful Tool-Using LLM Agents"
+  },
+  {
+    "id": "R03114",
+    "decision": "EXCLUDE",
+    "reason": "Physics/cosmology title; outside LLM and OS security scope.",
+    "evidence": "Side Channel L: Pre-Compactification Dynamics"
+  },
+  {
+    "id": "R03115",
+    "decision": "EXCLUDE",
+    "reason": "Physics/cosmology title; outside LLM and OS security scope.",
+    "evidence": "Side Channel E: The Higgs Potential"
+  },
+  {
+    "id": "R03116",
+    "decision": "EXCLUDE",
+    "reason": "Physics/cosmology title; outside LLM and OS security scope.",
+    "evidence": "Side Channel C: The Interaction Strengths"
+  },
+  {
+    "id": "R03117",
+    "decision": "EXCLUDE",
+    "reason": "Physics/cosmology title; outside LLM and OS security scope.",
+    "evidence": "Side Channel D: The Action Principle"
+  },
+  {
+    "id": "R03118",
+    "decision": "EXCLUDE",
+    "reason": "Physics/cosmology title; outside LLM and OS security scope.",
+    "evidence": "Side Channel B: The Mass Spectrum"
+  },
+  {
+    "id": "R03119",
+    "decision": "EXCLUDE",
+    "reason": "Physics/cosmology title; outside LLM and OS security scope.",
+    "evidence": "Side Channel I: The Cosmic Budget"
+  },
+  {
+    "id": "R03120",
+    "decision": "EXCLUDE",
+    "reason": "Biometrics side-channel attack model; no LLM or OS target indicated.",
+    "evidence": "‘Unified Side-Channel Attack - Model’ (USCA-M): An Extension with Biometrics Side-Channel Type"
+  }
+]

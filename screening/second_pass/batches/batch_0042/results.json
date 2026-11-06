@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R05381",
+    "decision": "EXCLUDE",
+    "reason": "Benchmark reproducibility study of LLM code repair; no security or OS component.",
+    "evidence": "automatic bugfixing using LLMs, on the HumanEvalFix benchmark"
+  },
+  {
+    "id": "R05382",
+    "decision": "EXCLUDE",
+    "reason": "GPU code-generation benchmark; no security analysis or OS target.",
+    "evidence": "benchmark for whole-program CPU-to-CUDA acceleration"
+  },
+  {
+    "id": "R05383",
+    "decision": "EXCLUDE",
+    "reason": "LLM benchmark score estimation; no security task or OS component.",
+    "evidence": "estimates the missing scores without running any evaluations"
+  },
+  {
+    "id": "R05386",
+    "decision": "EXCLUDE",
+    "reason": "Finance outcome-guided reading benchmark; no security or OS focus.",
+    "evidence": "outcome-guided reading of Federal Open Market Committee (FOMC) minutes"
+  },
+  {
+    "id": "R05387",
+    "decision": "EXCLUDE",
+    "reason": "Bioinformatics agent benchmark; no security analysis or OS target.",
+    "evidence": "general-purpose frontier model now matches or exceeds purpose-built bioinformatics agents"
+  },
+  {
+    "id": "R05388",
+    "decision": "EXCLUDE",
+    "reason": "Hallucination detection benchmark; not a security or OS task.",
+    "evidence": "evaluates the scope and limits of HalluDetector"
+  },
+  {
+    "id": "R05389",
+    "decision": "EXCLUDE",
+    "reason": "Linguistic variation benchmark for LLM text; no security or OS component.",
+    "evidence": "register variation in texts written by humans and comparable texts produced by large language models"
+  },
+  {
+    "id": "R05390",
+    "decision": "EXCLUDE",
+    "reason": "General LLM evaluation platform; no security analysis or OS target.",
+    "evidence": "customizable, real-time evaluation framework"
+  },
+  {
+    "id": "R05393",
+    "decision": "EXCLUDE",
+    "reason": "Benchmark reproducibility study of LLM code repair; no security or OS component.",
+    "evidence": "automatic bugfixing using LLMs"
+  },
+  {
+    "id": "R05398",
+    "decision": "EXCLUDE",
+    "reason": "Medical agent benchmark; no security task or OS component.",
+    "evidence": "benchmark the agent capabilities of LLMs in medical applications"
+  },
+  {
+    "id": "R05400",
+    "decision": "EXCLUDE",
+    "reason": "Verilog generation framework; hardware design, not OS security.",
+    "evidence": "improve Verilog generation"
+  },
+  {
+    "id": "R05403",
+    "decision": "EXCLUDE",
+    "reason": "Romanian tax and accounting benchmark; no security or OS focus.",
+    "evidence": "test how well LLMs handle Romania-specific regulatory question answering"
+  },
+  {
+    "id": "R05406",
+    "decision": "EXCLUDE",
+    "reason": "Numerical reasoning benchmark; no security analysis or OS target.",
+    "evidence": "assess numerical reasoning skills in Large Language Models"
+  },
+  {
+    "id": "R05409",
+    "decision": "EXCLUDE",
+    "reason": "Tutoring system for goal-oriented learning; no security or OS component.",
+    "evidence": "LLM-powered multi-agent framework designed to deliver goal-oriented, personalized learning"
+  },
+  {
+    "id": "R05410",
+    "decision": "EXCLUDE",
+    "reason": "Cryo-EM model-building agent; scientific workflow, not security or OS.",
+    "evidence": "cryo-EM model building and refinement"
+  },
+  {
+    "id": "R05411",
+    "decision": "EXCLUDE",
+    "reason": "Market narrative analysis system; no security task or OS component.",
+    "evidence": "market narrative monitoring systems"
+  },
+  {
+    "id": "R05412",
+    "decision": "EXCLUDE",
+    "reason": "Open data assessment automation; no security or OS analysis.",
+    "evidence": "Open Data Maturity Index"
+  },
+  {
+    "id": "R05414",
+    "decision": "EXCLUDE",
+    "reason": "Clinical dialogue simulation; no security task or OS component.",
+    "evidence": "generate realistic emergency department conversations"
+  },
+  {
+    "id": "R05415",
+    "decision": "EXCLUDE",
+    "reason": "Socio-political modeling framework; no security analysis or OS target.",
+    "evidence": "socio-political dynamics"
+  },
+  {
+    "id": "R05416",
+    "decision": "EXCLUDE",
+    "reason": "LLM adaptation framework; no security task or OS component.",
+    "evidence": "an escalation framework that guides practitioners"
+  },
+  {
+    "id": "R05420",
+    "decision": "EXCLUDE",
+    "reason": "Educational project management system; no security or OS focus.",
+    "evidence": "LLM-agent-based project management system"
+  },
+  {
+    "id": "R05423",
+    "decision": "EXCLUDE",
+    "reason": "Trading agent behavior study; no security analysis or OS target.",
+    "evidence": "language-model trading agent"
+  },
+  {
+    "id": "R05426",
+    "decision": "EXCLUDE",
+    "reason": "Defense analysis for LLM agent pipeline injection; security of LLM agents, not OS components.",
+    "evidence": "the pipeline has laundered a data value into a control action"
+  },
+  {
+    "id": "R05431",
+    "decision": "EXCLUDE",
+    "reason": "Retail multi-agent operating system; no security outcome or OS security target.",
+    "evidence": "multi-agent operating system engineered specifically for phygital retail governance"
+  },
+  {
+    "id": "R05433",
+    "decision": "EXCLUDE",
+    "reason": "Asset allocation system; no security task or OS component.",
+    "evidence": "strategic asset allocation"
+  },
+  {
+    "id": "R05434",
+    "decision": "EXCLUDE",
+    "reason": "Investment advisory system; no security analysis or OS target.",
+    "evidence": "personalized investment advisory"
+  },
+  {
+    "id": "R05436",
+    "decision": "EXCLUDE",
+    "reason": "Grant application generation system; no security or OS focus.",
+    "evidence": "automates grant application generation"
+  },
+  {
+    "id": "R05440",
+    "decision": "EXCLUDE",
+    "reason": "Industrial multi-agent system case study; no LLM security analysis of OS components.",
+    "evidence": "massively-scaled multi-agent system implemented in a manufacturing setting"
+  },
+  {
+    "id": "R05442",
+    "decision": "EXCLUDE",
+    "reason": "Football simulation with LLM agents; no security task or OS component.",
+    "evidence": "twenty-two large-language-model (LLM) agents play a full ninety-minute football match"
+  },
+  {
+    "id": "R05448",
+    "decision": "EXCLUDE",
+    "reason": "Polarization simulation; no security analysis or OS target.",
+    "evidence": "asymmetric polarization"
+  },
+  {
+    "id": "R05449",
+    "decision": "EXCLUDE",
+    "reason": "Urban aesthetic evaluation system; no security task or OS component.",
+    "evidence": "aesthetic evaluation of urban landmarks"
+  },
+  {
+    "id": "R05451",
+    "decision": "UNCLEAR",
+    "reason": "Security-aware LLM code generation and vulnerability repair for IoT/CPS edge software, but whether it targets OS components or privileged interfaces is not explicit.",
+    "evidence": "LLM-generated edge services, telemetry APIs, configuration handlers, and data-aggregation routines can introduce SQL injection, path traversal, command injection"
+  },
+  {
+    "id": "R05453",
+    "decision": "EXCLUDE",
+    "reason": "BIM model understanding system; no security analysis or OS target.",
+    "evidence": "understanding of BIM models"
+  },
+  {
+    "id": "R05454",
+    "decision": "EXCLUDE",
+    "reason": "Downhole maintenance system; industrial operations, not security or OS.",
+    "evidence": "downhole maintenance"
+  },
+  {
+    "id": "R05462",
+    "decision": "EXCLUDE",
+    "reason": "Multi-agent differentiation framework; no security task or OS component.",
+    "evidence": "differentiates agents through six continuous drives"
+  },
+  {
+    "id": "R05463",
+    "decision": "EXCLUDE",
+    "reason": "Reflective multi-agent reasoning system; no security analysis or OS target.",
+    "evidence": "reflective multi-agent system designed to enhance the effectiveness of LLM agents"
+  },
+  {
+    "id": "R05465",
+    "decision": "EXCLUDE",
+    "reason": "Neural network tuning framework; no security task or OS component.",
+    "evidence": "automatic tuning of these components"
+  },
+  {
+    "id": "R05466",
+    "decision": "EXCLUDE",
+    "reason": "Steel and alloy design system; no security analysis or OS target.",
+    "evidence": "design of steel and alloy materials"
+  },
+  {
+    "id": "R05468",
+    "decision": "EXCLUDE",
+    "reason": "Security and privacy of multi-agent LLM networks; security of LLMs, not OS components.",
+    "evidence": "vulnerability mitigation in multi-agent LLM networks"
+  },
+  {
+    "id": "R05469",
+    "decision": "EXCLUDE",
+    "reason": "Construction safety training content system; not a security analysis of OS components.",
+    "evidence": "construction safety training"
+  }
+]

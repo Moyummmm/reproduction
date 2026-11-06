@@ -1,0 +1,242 @@
+[
+  {
+    "id": "arxiv:2506.23260",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM-agent threats, not original empirical research; no OS-component security task.",
+    "evidence": "This survey introduces a unified end-to-end threat model for LLM-agent ecosystems"
+  },
+  {
+    "id": "arxiv:2506.23906",
+    "decision": "EXCLUDE",
+    "reason": "Algorithm and hardware performance work with no security analysis or OS target.",
+    "evidence": "we propose MMV-RAM, a computational model"
+  },
+  {
+    "id": "arxiv:2507.01694",
+    "decision": "EXCLUDE",
+    "reason": "Studies poisoning of federated LLMs; security of LLMs rather than an LLM tool for OS security.",
+    "evidence": "FedLLMs remain vulnerable to model poisoning attacks"
+  },
+  {
+    "id": "arxiv:2507.02057",
+    "decision": "EXCLUDE",
+    "reason": "LLM misuse to generate malware, not a security analysis or testing task targeting OS components.",
+    "evidence": "reliably generates functional malware"
+  },
+  {
+    "id": "arxiv:2507.02533",
+    "decision": "EXCLUDE",
+    "reason": "Fairness testing of LLMs; no security task or OS component target.",
+    "evidence": "testing fairness in LLMs"
+  },
+  {
+    "id": "arxiv:2507.05093",
+    "decision": "EXCLUDE",
+    "reason": "Attacks RAG data ingestion; security of LLM pipelines, not OS components.",
+    "evidence": "malicious actors can stealthily corrupt RAG pipelines"
+  },
+  {
+    "id": "arxiv:2507.05558",
+    "decision": "EXCLUDE",
+    "reason": "Vulnerability discovery targets blockchain smart contracts, not OS components.",
+    "evidence": "autonomous vulnerability discovery"
+  },
+  {
+    "id": "arxiv:2507.05619",
+    "decision": "EXCLUDE",
+    "reason": "Evaluator and reward-hacking detection; not an OS security task.",
+    "evidence": "detects proxy gaming"
+  },
+  {
+    "id": "arxiv:2507.05727",
+    "decision": "EXCLUDE",
+    "reason": "Speech-recognition benchmark with no security or OS focus.",
+    "evidence": "A Massive Contextual Speech Recognition Benchmark"
+  },
+  {
+    "id": "arxiv:2507.05863",
+    "decision": "EXCLUDE",
+    "reason": "Recommendation-system work; no security task or OS target.",
+    "evidence": "Knowledge-Enhanced Retrieval-Augmented Generation for Recommendation"
+  },
+  {
+    "id": "arxiv:2507.06185",
+    "decision": "EXCLUDE",
+    "reason": "Peer-review prompt-injection analysis; no OS-component security task.",
+    "evidence": "hidden instructions that manipulated AI-assisted peer review"
+  },
+  {
+    "id": "arxiv:2507.06323",
+    "decision": "EXCLUDE",
+    "reason": "Security assessment of LLM agent architectures; not OS components or privileged interfaces.",
+    "evidence": "comparative evaluation of Function Calling architecture and Model Context Protocol (MCP) deployment paradigms"
+  },
+  {
+    "id": "arxiv:2507.06803",
+    "decision": "EXCLUDE",
+    "reason": "Automated SysML and model generation; no security analysis or OS target.",
+    "evidence": "automated generation of a dynamical system computational model"
+  },
+  {
+    "id": "arxiv:2507.06850",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates LLM-agent vulnerabilities and prompt attacks; security of LLMs, not LLM-assisted OS security.",
+    "evidence": "comprehensive evaluation of the LLMs security used as reasoning engines within autonomous agents"
+  },
+  {
+    "id": "arxiv:2507.09201",
+    "decision": "EXCLUDE",
+    "reason": "Edge LLM accelerator design; no security outcome.",
+    "evidence": "A Heterogeneous Accelerator for Edge Inference of Sparse Large Language Model"
+  },
+  {
+    "id": "arxiv:2507.09854",
+    "decision": "EXCLUDE",
+    "reason": "Neurosymbolic learning and reasoning; no security or OS target.",
+    "evidence": "Model-Grounded Symbolic Artificial Intelligence Systems"
+  },
+  {
+    "id": "arxiv:2507.11371",
+    "decision": "EXCLUDE",
+    "reason": "Reinforcement learning for tool diversity; no security task.",
+    "evidence": "Offline RL that Drives Diverse Tool Use in LLMs"
+  },
+  {
+    "id": "arxiv:2507.12205",
+    "decision": "EXCLUDE",
+    "reason": "Sparse matrix-vector acceleration; no security analysis or OS target.",
+    "evidence": "Toward Efficient SpMV in Sparse LLMs"
+  },
+  {
+    "id": "arxiv:2507.12951",
+    "decision": "EXCLUDE",
+    "reason": "Spoken language understanding; no security or OS focus.",
+    "evidence": "Unified Spoken Language Understanding from Heterogeneous Cross-Task Datasets"
+  },
+  {
+    "id": "arxiv:2507.13038",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection attack on multi-agent debate; security of LLMs, no OS target.",
+    "evidence": "A Conformity-Driven Prompt Injection Attack on Multi-Agent Debate Systems"
+  },
+  {
+    "id": "arxiv:2507.13169",
+    "decision": "EXCLUDE",
+    "reason": "Analysis of prompt-injection and web threats; security of LLM systems, no OS-component target.",
+    "evidence": "Prompt Injection 2.0: Hybrid AI Threats"
+  },
+  {
+    "id": "arxiv:2507.15337",
+    "decision": "EXCLUDE",
+    "reason": "Multiple-choice evaluation research; no security task or OS target.",
+    "evidence": "Reasoning Models are Test Exploiters"
+  },
+  {
+    "id": "arxiv:2507.15521",
+    "decision": "EXCLUDE",
+    "reason": "Cognitive evaluation of LLM world models; no security analysis.",
+    "evidence": "LLM world models are mental"
+  },
+  {
+    "id": "arxiv:2507.15551",
+    "decision": "EXCLUDE",
+    "reason": "Industrial ranking-model scaling; no security task.",
+    "evidence": "Scaling Up Ranking Models in Industrial Recommenders"
+  },
+  {
+    "id": "arxiv:2507.15613",
+    "decision": "EXCLUDE",
+    "reason": "Privacy attacks and defenses for enterprise LLMs; security of LLMs, not OS components.",
+    "evidence": "Multi-Stage Prompt Inference Attacks on Enterprise LLM Systems"
+  },
+  {
+    "id": "arxiv:2507.17518",
+    "decision": "EXCLUDE",
+    "reason": "Cybersecurity education via digital twins; LLM gives feedback, not substantive OS security analysis.",
+    "evidence": "providing intelligent, real-time feedback"
+  },
+  {
+    "id": "arxiv:2507.19156",
+    "decision": "EXCLUDE",
+    "reason": "Gender-bias analysis in LLM outputs; no security or OS target.",
+    "evidence": "Gender Stereotype Representation in Large Language Models"
+  },
+  {
+    "id": "arxiv:2507.19185",
+    "decision": "EXCLUDE",
+    "reason": "Community-driven vulnerability assessment of LLMs; security of LLMs, not OS security.",
+    "evidence": "Continuous Community-Driven Vulnerability Discovery and Assessment for Large Language Models"
+  },
+  {
+    "id": "arxiv:2507.19399",
+    "decision": "EXCLUDE",
+    "reason": "Benchmarks LLM code-interpreter safety; LLM is the object under test, not an OS security analyst.",
+    "evidence": "benchmark comprising 1,260 prompts targeting CPU, memory, and disk resource exhaustion"
+  },
+  {
+    "id": "arxiv:2507.20870",
+    "decision": "EXCLUDE",
+    "reason": "Robot action replanning with LLM common-sense reasoning; no security task.",
+    "evidence": "A Human-in-the-loop Approach to Robot Action Replanning"
+  },
+  {
+    "id": "arxiv:2507.21454",
+    "decision": "EXCLUDE",
+    "reason": "Task-oriented agent communication; no security analysis or OS target.",
+    "evidence": "Transmission With Machine Language Tokens"
+  },
+  {
+    "id": "arxiv:2507.21884",
+    "decision": "EXCLUDE",
+    "reason": "Recommendation diversity and exploration; no security or OS focus.",
+    "evidence": "Exploration on Demand"
+  },
+  {
+    "id": "arxiv:2507.22133",
+    "decision": "EXCLUDE",
+    "reason": "Automated red teaming of LLM applications; security of LLMs, no OS target.",
+    "evidence": "LLM Automated Red Teaming"
+  },
+  {
+    "id": "arxiv:2507.23229",
+    "decision": "EXCLUDE",
+    "reason": "Privacy extraction from RAG systems; security and privacy of LLMs, not OS components.",
+    "evidence": "Fine-Grained Privacy Extraction from Retrieval-Augmented Generation Systems"
+  },
+  {
+    "id": "arxiv:2507.23261",
+    "decision": "EXCLUDE",
+    "reason": "Multi-agent graph optimization; no security task.",
+    "evidence": "Dynamically Graph Structure Selection for LLM-based Multi-agent System"
+  },
+  {
+    "id": "arxiv:2507.23611",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted malware screenshot analysis for IoCs; not analysis of OS components or privileged interfaces.",
+    "evidence": "analyze infection screenshots to extract potential Indicators of Compromise (IoCs)"
+  },
+  {
+    "id": "arxiv:2508.00838",
+    "decision": "EXCLUDE",
+    "reason": "Citation-attribution analysis of LLM search; no security task or OS target.",
+    "evidence": "The Attribution Crisis in LLM Search Results"
+  },
+  {
+    "id": "arxiv:2508.01558",
+    "decision": "EXCLUDE",
+    "reason": "Vision-language model adaptation; no security analysis.",
+    "evidence": "Evolutionary Vision-Language Model Adaptation"
+  },
+  {
+    "id": "arxiv:2508.02110",
+    "decision": "EXCLUDE",
+    "reason": "Attacks LLM tool selection via metadata; security of LLM agents, not OS components.",
+    "evidence": "Inducing LLM Agents to Invoke Malicious Tools"
+  },
+  {
+    "id": "arxiv:2508.02343",
+    "decision": "EXCLUDE",
+    "reason": "Mixed-precision quantization for LLM inference; no security task or OS target.",
+    "evidence": "Efficient Mixed-Precision Quantization with Microscaling Formats"
+  }
+]

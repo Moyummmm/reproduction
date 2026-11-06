@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R04801",
+    "decision": "EXCLUDE",
+    "reason": "Conversational search and retrieval work; no security or OS task.",
+    "evidence": "Learned Sparse Retrieval with Multi-aspect LLM Query Generation for Conversational Search"
+  },
+  {
+    "id": "R04802",
+    "decision": "EXCLUDE",
+    "reason": "LLM code-generation workflow study; no security analysis or OS target.",
+    "evidence": "How Persistent Design Context Improves LLM Code Generation"
+  },
+  {
+    "id": "R04803",
+    "decision": "EXCLUDE",
+    "reason": "Industrial training through 3D environment generation; no security or OS focus.",
+    "evidence": "Transforming Industrial Training through LLM-Driven 3D Environment Generation"
+  },
+  {
+    "id": "R04804",
+    "decision": "EXCLUDE",
+    "reason": "Ethics and governance of quantum code generation; not an OS security analysis.",
+    "evidence": "This paper investigates the implications of using LLMs to generate quantum code"
+  },
+  {
+    "id": "R04805",
+    "decision": "EXCLUDE",
+    "reason": "Explicit review, excluded from the core empirical research set.",
+    "evidence": "Review of: \"DRC-Coder: Automated DRC Checker Code Generation Using LLM Autonomous Agent\""
+  },
+  {
+    "id": "R04806",
+    "decision": "EXCLUDE",
+    "reason": "Explicit review, excluded from the core empirical research set.",
+    "evidence": "Review of: \"DRC-Coder: Automated DRC Checker Code Generation Using LLM Autonomous Agent\""
+  },
+  {
+    "id": "R04807",
+    "decision": "EXCLUDE",
+    "reason": "In-vehicle data for road maintenance; no security or OS task.",
+    "evidence": "A big data exploration approach to exploit in-vehicle data for smart road maintenance"
+  },
+  {
+    "id": "R04808",
+    "decision": "EXCLUDE",
+    "reason": "Embodied-agent planning framework; no security analysis or OS target.",
+    "evidence": "A Hierarchical Error-Corrective Graph Framework for Autonomous Agents with LLM-Based Action Generation"
+  },
+  {
+    "id": "R04809",
+    "decision": "EXCLUDE",
+    "reason": "Explicit review, excluded from the core empirical research set.",
+    "evidence": "Review of: \"DRC-Coder: Automated DRC Checker Code Generation Using LLM Autonomous Agent\""
+  },
+  {
+    "id": "R04810",
+    "decision": "EXCLUDE",
+    "reason": "Explicit review, excluded from the core empirical research set.",
+    "evidence": "Review of: \"DRC-Coder: Automated DRC Checker Code Generation Using LLM Autonomous Agent\""
+  },
+  {
+    "id": "R04811",
+    "decision": "EXCLUDE",
+    "reason": "Synthetic tabular data generation; no security or OS task.",
+    "evidence": "Explainability-Guided Synthetic Tabular Data Generation Using Large Language Models"
+  },
+  {
+    "id": "R04812",
+    "decision": "EXCLUDE",
+    "reason": "Explicit review, excluded from the core empirical research set.",
+    "evidence": "Review of: \"DRC-Coder: Automated DRC Checker Code Generation Using LLM Autonomous Agent\""
+  },
+  {
+    "id": "R04813",
+    "decision": "EXCLUDE",
+    "reason": "Explicit review, excluded from the core empirical research set.",
+    "evidence": "Review of: \"Towards More Economical Context-Augmented LLM Generation by Reusing Stored KV Cache\""
+  },
+  {
+    "id": "R04814",
+    "decision": "EXCLUDE",
+    "reason": "Human-LLM design and heuristic generation; no security or OS task.",
+    "evidence": "Scaffold Selection in Human-LLM Collaborative Design: Evidence from Heuristic Generation"
+  },
+  {
+    "id": "R04815",
+    "decision": "EXCLUDE",
+    "reason": "Backend API code generation study; no OS security analysis.",
+    "evidence": "Systematic Prompt Optimization for LLM-Based Backend API Generation: An Empirical Study in NestJS"
+  },
+  {
+    "id": "R04816",
+    "decision": "EXCLUDE",
+    "reason": "Explicit review of automated exploit-generation frameworks; reviews are excluded.",
+    "evidence": "The Evolution of Autonomous Cyber Operations: A Review of Intelligent Frameworks for Automated Exploit Generation (AEG)"
+  },
+  {
+    "id": "R04817",
+    "decision": "EXCLUDE",
+    "reason": "Music generation study; no security or OS task.",
+    "evidence": "Enhancing Multi-Dimensional Music Generation by an LLM-based Data Augmentation Technique"
+  },
+  {
+    "id": "R04818",
+    "decision": "EXCLUDE",
+    "reason": "Smart-contract code-generation benchmark; not OS or privileged-interface security.",
+    "evidence": "ChainBench: An LLM Benchmark for Cross-Chain Code Generation"
+  },
+  {
+    "id": "R04819",
+    "decision": "EXCLUDE",
+    "reason": "RStudio code generation and chat; no security or OS task.",
+    "evidence": "llmcoder: LLM-Powered Code Generation, Error Fixing, and Chat for 'RStudio'"
+  },
+  {
+    "id": "R04820",
+    "decision": "EXCLUDE",
+    "reason": "Text-to-image generation; no security or OS task.",
+    "evidence": "Pointt2i: Llm-Based Text-to-Image Generation Via Keypoints"
+  },
+  {
+    "id": "R04821",
+    "decision": "EXCLUDE",
+    "reason": "Verilog generation dataset; not OS security analysis.",
+    "evidence": "MG-Verilog: Multi-grained Dataset Towards Enhanced LLM-assisted Verilog Generation"
+  },
+  {
+    "id": "R04822",
+    "decision": "UNCLEAR",
+    "reason": "Security-adjacent ABAC policy generation, but OS/privileged-interface scope is not established and the abstract is missing.",
+    "evidence": "LLM-ABAC: LLM–Empowered Automatic Generation of ABAC Policies"
+  },
+  {
+    "id": "R04823",
+    "decision": "EXCLUDE",
+    "reason": "Enterprise code-generation governance; no OS security analysis or target.",
+    "evidence": "Trustworthy and Secure LLM-Assisted Code Generation for Enterprise Software Development"
+  },
+  {
+    "id": "R04824",
+    "decision": "EXCLUDE",
+    "reason": "E-commerce listing generation; no security or OS task.",
+    "evidence": "Optimizing ECommerce Listing: LLM Based Description and Keyword Generation from Multimodal Data"
+  },
+  {
+    "id": "R04825",
+    "decision": "EXCLUDE",
+    "reason": "Explicit review, excluded from the core empirical research set.",
+    "evidence": "Review of: \"DRC-Coder: Automated DRC Checker Code Generation Using LLM Autonomous Agent\""
+  },
+  {
+    "id": "R04826",
+    "decision": "EXCLUDE",
+    "reason": "Mental-health chatbot system; safety evaluation is not OS security analysis.",
+    "evidence": "SISTEM CHATBOT KESEHATAN MENTAL BERBASIS LLM DENGAN DETEKSI EMOSI DAN RETRIEVAL AUGMENTED GENERATION"
+  },
+  {
+    "id": "R04827",
+    "decision": "EXCLUDE",
+    "reason": "Survey-data retrieval and response generation; no security or OS task.",
+    "evidence": "LLM-Based Semantic Retrieval and Synthetic Response Generation for Longitudinal Survey Data"
+  },
+  {
+    "id": "R04828",
+    "decision": "EXCLUDE",
+    "reason": "LLM serving architecture; systems performance rather than security or OS protection.",
+    "evidence": "Adaptive Mixture-of-Execution Service Architecture for efficient LLM serving"
+  },
+  {
+    "id": "R04829",
+    "decision": "EXCLUDE",
+    "reason": "CAD generation language and benchmark; no security or OS task.",
+    "evidence": "LLM4CAD-DSL: An LLM-Friendly Domain-Specific Language for Computer-Aided Design Generation"
+  },
+  {
+    "id": "R04830",
+    "decision": "EXCLUDE",
+    "reason": "Financial SQL generation; correctness constraints rather than OS security.",
+    "evidence": "Neuro-Symbolic SQL Generation for Finance: Constraining LLM Outputs via Software Logic"
+  },
+  {
+    "id": "R04831",
+    "decision": "EXCLUDE",
+    "reason": "Temporal knowledge-graph reasoning; no security or OS task.",
+    "evidence": "TESA-LLM: A Temporal Knowledge Graph Reasoning Method Integrating Symbolic Alignment and LLM Generation"
+  },
+  {
+    "id": "R04832",
+    "decision": "EXCLUDE",
+    "reason": "Explicit review, excluded from the core empirical research set.",
+    "evidence": "Review for \"SegORG: Report Generation of Oral Potentially Malignant Disorders Image Based on Lesion Segmentation-Enhanced LLM\""
+  },
+  {
+    "id": "R04833",
+    "decision": "EXCLUDE",
+    "reason": "RAG hallucination mitigation; no security analysis or OS target.",
+    "evidence": "A Self-Reflective Retrieval Augmented Generation System to Eliminate Hallucination in LLM Generation"
+  },
+  {
+    "id": "R04834",
+    "decision": "EXCLUDE",
+    "reason": "Explicit review, excluded from the core empirical research set.",
+    "evidence": "Review for \"SegORG: Report Generation of Oral Potentially Malignant Disorders Image Based on Lesion Segmentation-Enhanced LLM\""
+  },
+  {
+    "id": "R04835",
+    "decision": "EXCLUDE",
+    "reason": "User-story generation; no security or OS task.",
+    "evidence": "Variability-Driven User-Story Generation Using LLM and Triadic Concept Analysis"
+  },
+  {
+    "id": "R04836",
+    "decision": "EXCLUDE",
+    "reason": "Explicit review, excluded from the core empirical research set.",
+    "evidence": "Review for \"SegORG: Report Generation of Oral Potentially Malignant Disorders Image Based on Lesion Segmentation-Enhanced LLM\""
+  },
+  {
+    "id": "R04837",
+    "decision": "EXCLUDE",
+    "reason": "Emotion analysis through graph retrieval; no security or OS task.",
+    "evidence": "EmotionGraphRAG: Enhancing LLM-Based Emotion Analysis through Graph Retrieval-Augmented Generation"
+  },
+  {
+    "id": "R04838",
+    "decision": "EXCLUDE",
+    "reason": "Automated dashboard generation; no security or OS task.",
+    "evidence": "LLM4Dash: Interactive Dashboard for Automated Analysis Generation Using LLM"
+  },
+  {
+    "id": "R04839",
+    "decision": "UNCLEAR",
+    "reason": "LLM agents exploiting zero-day vulnerabilities is security-relevant, but OS/privileged-interface scope is not explicit and the abstract is missing.",
+    "evidence": "Teams of LLM Agents can Exploit Zero-Day Vulnerabilities"
+  },
+  {
+    "id": "R04840",
+    "decision": "UNCLEAR",
+    "reason": "LLM exploit generation is security-relevant, but the target scope is not explicit and the abstract is missing.",
+    "evidence": "Good News for Script Kiddies? Evaluating Large Language Models for Automated Exploit Generation"
+  }
+]

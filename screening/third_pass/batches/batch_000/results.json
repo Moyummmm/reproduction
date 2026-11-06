@@ -1,0 +1,182 @@
+[
+  {
+    "id": "R00006",
+    "os_target": "Windows operating system application layer and execution-time system call interface",
+    "llm_role": "learns behavioral patterns from system calls and captures semantic relationships between normal and malicious behavior",
+    "security_task": "malware detection",
+    "evidence": "we propose a large language model (LLM) based framework for detecting malware at the application layer of the Windows operating system. By learning behavioral patterns from system calls triggered during program execution, the proposed framework allows the LLM to capture the semantic relationships between normal and malicious behaviors.",
+    "suggested": "possible_core",
+    "uncertainty": "Abstract does not specify which Windows interfaces or system calls are used or how the prototype was evaluated; the OS dimension rests on the stated application layer and system-call behavior."
+  },
+  {
+    "id": "R00019",
+    "os_target": "unknown",
+    "llm_role": "fine-tuned Llama2 (LoRA/PEFT) generates and justifies security objectives in Common Criteria documentation",
+    "security_task": "security compliance document generation for Common Criteria certification",
+    "evidence": "elevates it through the integration of Llama2, a cutting-edge Large Language Model (LLM), aimed at enhancing justifications for security objectives within CC documentation.",
+    "suggested": "unclear",
+    "uncertainty": "No OS component or privileged interface is described; security relevance is compliance documentation rather than an OS security task."
+  },
+  {
+    "id": "R00148",
+    "os_target": "unknown",
+    "llm_role": "selects compatible parameter-generation routines, generates scraping modules, and supports iterative repair from execution feedback",
+    "security_task": "automating interaction with security-sensitive web services, including handling security-critical parameters and session tokens",
+    "evidence": "We propose ASG-LLM, an execution grounded pipeline that generates scraping modules from a single successful browser session trace. When security-critical parameters cannot be reconstructed from the trace alone, the FUNC Retriever identifies a small set of reusable internal function descriptions using HyDE-guided selective retrieval",
+    "suggested": "unclear",
+    "uncertainty": "The work targets web-service automation; no OS component or privileged interface is established, and the security task concerns authentication/parameter handling rather than OS security analysis."
+  },
+  {
+    "id": "R00178",
+    "os_target": "Android Inter-Component Communication (ICC) components and interfaces",
+    "llm_role": "three-agent (Context, Security, Decision) LLM reasoning pipeline debates component purpose, exposure, and threat models before classifying findings",
+    "security_task": "context-aware triage of Android ICC security findings and false-positive reduction",
+    "evidence": "This paper presents a novel LLM-assisted multi-agent framework designed for the context-aware triage of Android ICC security findings. We introduce a collaborative three-agent reasoning pipeline (Context, Security, and Decision agents) that debates component purpose, exposure characteristics, and threat models before finalizing classifications.",
+    "suggested": "possible_core",
+    "uncertainty": "ICC is described as an Android analysis target rather than an explicitly privileged interface, and the abstract does not state whether the LLM inspects OS-level enforcement mechanisms."
+  },
+  {
+    "id": "R00211",
+    "os_target": "unknown",
+    "llm_role": "Llama-2-Chat generates Python code and a brief explanation from OCR-extracted flowchart text",
+    "security_task": "unknown",
+    "evidence": "The extracted text is then provided to an open source large language model with 70 billion parameters called Llama-2-Chat for the generation of the python code.",
+    "suggested": "unclear",
+    "uncertainty": "Education and code-generation tool; no OS component and no security task are established."
+  },
+  {
+    "id": "R00237",
+    "os_target": "unknown",
+    "llm_role": "Gemini Pro interprets reverse-engineered malware code, explains functional components, and recommends indicators of compromise",
+    "security_task": "malware reverse engineering and threat detection/mitigation support",
+    "evidence": "The application of Gemini Pro for interpreting reverse-engineered malware code introduces a novel and significant approach to enhancing the understanding of complex malware behaviors. By leveraging advanced natural language processing capabilities, the model provides detailed and accurate explanations of malware's functional components",
+    "suggested": "adjacent",
+    "uncertainty": "Malware analysis is a general security task, but no OS component or privileged interface is identified; the host OS of the analyzed samples is not stated."
+  },
+  {
+    "id": "R00346",
+    "os_target": "unknown",
+    "llm_role": "maps natural-language requirements to decision criteria and supports transparent weighted ranking of foundation models",
+    "security_task": "unknown",
+    "evidence": "Natural-language requirements are mapped to decision criteria, after which a transparent weighted additive model ranks candidates and exposes criterion-level score contributions.",
+    "suggested": "unclear",
+    "uncertainty": "Foundation-model selection decision support; no OS component and no security task are established."
+  },
+  {
+    "id": "R00397",
+    "os_target": "unknown",
+    "llm_role": "fine-tuned GPT‐3 performs binary and multi-class classification of smart contracts and opcodes",
+    "security_task": "detection of malicious smart contracts and their vulnerabilities",
+    "evidence": "This paper introduces a comprehensive framework for the detection and identification of malicious smart contracts, emphasizing their vulnerabilities. The framework leverages the capabilities of GPT‐3, which have been adapted and fine‐tuned for binary and multi‐class classification tasks.",
+    "suggested": "adjacent",
+    "uncertainty": "Security detection is clear, but the target is blockchain smart contracts; no OS component or privileged interface is described."
+  },
+  {
+    "id": "R00405",
+    "os_target": "unknown",
+    "llm_role": "GPT-3 few-shot prompting with a prompt scoring and selection system for dialogue summarization",
+    "security_task": "unknown",
+    "evidence": "we propose a scoring system to improve the few-shot training performances by building tuned prompts composed by the highest scored dialogue samples.",
+    "suggested": "unclear",
+    "uncertainty": "Dialogue summarization study; no OS component and no security task are established."
+  },
+  {
+    "id": "R00537",
+    "os_target": "unknown",
+    "llm_role": "unknown",
+    "security_task": "unknown",
+    "evidence": "Neste artigo, analisa-se a ironia como uma ferramenta retórica para a construção do ethos do adversário.",
+    "suggested": "unclear",
+    "uncertainty": "Classics/rhetoric paper on Cicero's Philippics; no LLM, OS, or security element is established."
+  },
+  {
+    "id": "R00610",
+    "os_target": "unknown",
+    "llm_role": "LLM plus RAG generates and enriches software documentation from project directories, metadata, security advisories, and bug reports",
+    "security_task": "supporting security auditing and vulnerability detection through documentation generation",
+    "evidence": "This paper introduces an LLM-RAG-augmented automated documentation system utilizing Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and Information Retrieval (IR) methods. The system reads project directories, extracts metadata, and creates preliminary documentation using LLMs.",
+    "suggested": "unclear",
+    "uncertainty": "No OS component is described, and the security task is documentation support for auditing rather than an OS-level security analysis."
+  },
+  {
+    "id": "R00614",
+    "os_target": "unknown",
+    "llm_role": "the LLM is the protected component; the architecture validates inputs and constrains the model's semantic processing and parameter space before and during inference",
+    "security_task": "defense against prompt injection and jailbreaking (LLM security)",
+    "evidence": "This paper proposes Countermind, a multi-layered security architecture intended to shift defenses from a reactive, post hoc posture to a proactive, pre-inference, and intra-inference enforcement model.",
+    "suggested": "adjacent",
+    "uncertainty": "Clearly LLM protection, but no OS component or privileged interface is established; the architecture is conceptual with an evaluation plan."
+  },
+  {
+    "id": "R00671",
+    "os_target": "unknown",
+    "llm_role": "LLM recovers missing call and content-transfer relations and verifies path safety, with proposals gated by independent static verifiers",
+    "security_task": "PHP web application vulnerability detection via static taint analysis",
+    "evidence": "we present TaintRecover, a large language model (LLM)-assisted static taint analysis framework for PHP Web applications. Guided by source-sink queries, TaintRecover first recovers missing call and content-transfer relations to mitigate false negatives, and subsequently performs contextual path-safety verification to eliminate false positives.",
+    "suggested": "adjacent",
+    "uncertainty": "Security task is clear, but the target is PHP web applications; no OS component or privileged interface is described."
+  },
+  {
+    "id": "R00847",
+    "os_target": "Linux kernel system call interface",
+    "llm_role": "automatic generation of system call specifications used by a fuzzer",
+    "security_task": "kernel fuzzing to detect crashes and vulnerabilities",
+    "evidence": "A methodology to organize Linux kernel fuzzing testing is proposed, that includes a stage of automatic generation of system call specifications based on large language models (Large Language Model – LLM).",
+    "suggested": "possible_core",
+    "uncertainty": "Abstract does not detail which LLM, prompts, or vulnerability outcomes; the security task is inferred from the stated kernel-fuzzing goal of detecting unique kernel crashes."
+  },
+  {
+    "id": "R00854",
+    "os_target": "Linux kernel system call interface (syscalls)",
+    "llm_role": "iteratively synthesizes, debugs, and repairs syscall specifications from validation feedback",
+    "security_task": "kernel fuzzing for bug and vulnerability detection",
+    "evidence": "we propose KernelGPT, the first approach to automatically synthesizing syscall specifications via Large Language Models (LLMs) for enhanced kernel fuzzing. ... KernelGPT has already detected 24 new unique bugs in Linux kernel, with 12 fixed and 11 assigned with CVE numbers.",
+    "suggested": "possible_core",
+    "uncertainty": "The abstract frames results as kernel bugs with CVEs rather than explicitly as security vulnerabilities; no further OS interface detail is given."
+  },
+  {
+    "id": "R00877",
+    "os_target": "unknown",
+    "llm_role": "analyzes RFC-defined state knowledge and refines or completes state annotations in program code",
+    "security_task": "stateful network protocol fuzzing for vulnerability discovery",
+    "evidence": "we propose StatePre, a novel state-handling method for stateful network protocol programs, which leverages large language model (LLM) code- and text-understanding capabilities to analyze request for comments (RFC)-defined state knowledge and optimize the state handling of programs for fuzzing.",
+    "suggested": "adjacent",
+    "uncertainty": "Security testing is clear, but the target is network protocol programs; no OS component or privileged interface is established."
+  },
+  {
+    "id": "R00890",
+    "os_target": "the kernel, targeted via the Syzkaller kernel fuzzer",
+    "llm_role": "guides real-time mutation and generation of kernel test cases",
+    "security_task": "direct kernel fuzzing to find bugs and vulnerabilities",
+    "evidence": "This paper introduces SyzAgent, a framework integrating LLMs with the state-of-the-art kernel fuzzer Syzkaller, where the LLMs are used to guide the mutation and generation of test cases in real-time.",
+    "suggested": "possible_core",
+    "uncertainty": "The specific kernel/OS is not named and only preliminary results are reported; security relevance rests on kernel fuzzing as bug and vulnerability discovery."
+  },
+  {
+    "id": "R00988",
+    "os_target": "unknown",
+    "llm_role": "parses real traffic, generates executable fuzzing scripts with repair, and drives iterative multi-script fuzzing as an agent",
+    "security_task": "network protocol vulnerability discovery",
+    "evidence": "we propose LLM-Boofuzz, a generation-based black-box protocol fuzzing framework via Large Language Models (LLMs). It leverages LLMs to parse real traffic to extract protocol information, guides LLMs to generate executable scripts with a repair mechanism, and enables multi-script iterative fuzzing via an LLM-based agent.",
+    "suggested": "adjacent",
+    "uncertainty": "Clear security-testing task, but the target is network protocol implementations; no OS component or privileged interface is established."
+  },
+  {
+    "id": "R01006",
+    "os_target": "operating system kernel syscall interface",
+    "llm_role": "extracts syscall dependencies and generates and repairs seeds via dependency-based RAG",
+    "security_task": "kernel fuzzing to cover low-frequency syscalls and detect vulnerabilities",
+    "evidence": "we propose SyzGPT, the first kernel fuzzing framework to automatically generate effective seeds for LFS via Large Language Model (LLM). We leverage a dependency-based retrieval-augmented generation (DRAG) method to unlock the potential of LLM",
+    "suggested": "possible_core",
+    "uncertainty": "Abstract does not name the specific kernel/OS; the vulnerability-detection benefit is reported quantitatively, but the security framing is implicit in fuzzing."
+  },
+  {
+    "id": "R01044",
+    "os_target": "Linux kernel",
+    "llm_role": "synthesizes static analyzers and checkers from historical patch knowledge, with validation and automated refinement",
+    "security_task": "bug and vulnerability detection in kernel code",
+    "evidence": "We present KNighter, the first approach that unlocks scalable LLM-based static analysis by automatically synthesizing static analyzers from historical bug patterns. ... KNighter-synthesized checkers have discovered 92 new, critical, long-latent bugs (average 4.3 years) in the Linux kernel; 77 are confirmed, 57 fixed, and 30 have been assigned CVE numbers.",
+    "suggested": "possible_core",
+    "uncertainty": "The abstract describes bug finding with CVEs rather than explicitly a security-vulnerability task; no privileged interface beyond kernel source is named."
+  }
+]

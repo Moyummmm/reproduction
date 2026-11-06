@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02801",
+    "decision": "EXCLUDE",
+    "reason": "Front matter; not original research.",
+    "evidence": "Table of Contents"
+  },
+  {
+    "id": "R02802",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based vulnerability patch localization for general OSS, with no OS-component or privileged-interface targeting.",
+    "evidence": "matching vulnerabilities with commit patches based on large language model (LLM)"
+  },
+  {
+    "id": "R02803",
+    "decision": "EXCLUDE",
+    "reason": "Front matter; not original research.",
+    "evidence": "Copyright Page"
+  },
+  {
+    "id": "R02804",
+    "decision": "EXCLUDE",
+    "reason": "Front matter; not original research.",
+    "evidence": "Table of Contents"
+  },
+  {
+    "id": "R02805",
+    "decision": "UNCLEAR",
+    "reason": "Title suggests LLM-based vulnerability sourcing, but the target domain and security scope are unspecified and the abstract is missing.",
+    "evidence": "LLM-based Vulnerability Sourcing from Unstructured Data"
+  },
+  {
+    "id": "R02806",
+    "decision": "EXCLUDE",
+    "reason": "Front matter; not original research.",
+    "evidence": "Table of Contents"
+  },
+  {
+    "id": "R02807",
+    "decision": "EXCLUDE",
+    "reason": "Page-table architecture work with no security outcome or LLM role in the title; abstract missing.",
+    "evidence": "Distributed Page Table: Harnessing Physical Memory as an Unbounded Hashed Page Table"
+  },
+  {
+    "id": "R02808",
+    "decision": "EXCLUDE",
+    "reason": "Concerns security of LLM outputs, not use of an LLM for OS security analysis.",
+    "evidence": "Vulnerability of LLM Outputs to Heuristics-Inducing Prompt Structures"
+  },
+  {
+    "id": "R02809",
+    "decision": "EXCLUDE",
+    "reason": "Environmental science review unrelated to LLM and OS security.",
+    "evidence": "Review for \"A deepened water table increases the vulnerability of peat mosses to periodic drought\""
+  },
+  {
+    "id": "R02810",
+    "decision": "EXCLUDE",
+    "reason": "Front matter; not original research.",
+    "evidence": "Table of Contents"
+  },
+  {
+    "id": "R02811",
+    "decision": "EXCLUDE",
+    "reason": "Front matter; not original research.",
+    "evidence": "Table of Legislation"
+  },
+  {
+    "id": "R02812",
+    "decision": "EXCLUDE",
+    "reason": "Environmental science review unrelated to LLM and OS security.",
+    "evidence": "Review for \"A deepened water table increases the vulnerability of peat mosses to periodic drought\""
+  },
+  {
+    "id": "R02813",
+    "decision": "UNCLEAR",
+    "reason": "Hypervisor security topic, but the abstract is missing and no LLM role is stated.",
+    "evidence": "Hypervisor Dissociative Execution: Programming Guests for Monitoring, Management, and Security"
+  },
+  {
+    "id": "R02814",
+    "decision": "UNCLEAR",
+    "reason": "Hypervisor-based wallet security is in scope topically, but LLM involvement and evaluation are unclear from the title alone.",
+    "evidence": "HyperWallet: cryptocurrency wallet as a secure hypervisor-based application"
+  },
+  {
+    "id": "R02815",
+    "decision": "UNCLEAR",
+    "reason": "Hypervisor integrity attestation is in scope topically, but the LLM role is not stated and the abstract is missing.",
+    "evidence": "Morpheus: An efficient timing-based attestation framework for safeguarding hypervisor integrity with dynamic trust"
+  },
+  {
+    "id": "R02816",
+    "decision": "UNCLEAR",
+    "reason": "Hypervisor runtime security is in scope topically, but LLM use cannot be assessed without the abstract.",
+    "evidence": "HClave: An isolated execution environment design for hypervisor runtime security"
+  },
+  {
+    "id": "R02817",
+    "decision": "UNCLEAR",
+    "reason": "Formalizing the RISC-V hypervisor extension could support verification, but the security outcome and LLM role are unclear from the title alone.",
+    "evidence": "Formalizing the RISC-V Hypervisor Extension in Sail"
+  },
+  {
+    "id": "R02818",
+    "decision": "EXCLUDE",
+    "reason": "Hypervisor-level malware framework is described without any LLM component.",
+    "evidence": "The proposed malware prevention and detection (MP&D) framework aims to address these challenges"
+  },
+  {
+    "id": "R02819",
+    "decision": "UNCLEAR",
+    "reason": "Hypervisor-based ransomware detection is in scope topically, but the LLM role is not stated and the abstract is missing.",
+    "evidence": "Hypervisor-based Double Extortion Ransomware Detection Method Using Kitsune Network Features"
+  },
+  {
+    "id": "R02820",
+    "decision": "UNCLEAR",
+    "reason": "KVM hypervisor DoS detection is in scope topically, but LLM involvement is not stated and the abstract is missing.",
+    "evidence": "Security Solution on KVM Hypervisor for Detecting DoS Attacks on Cloud Servers"
+  },
+  {
+    "id": "R02821",
+    "decision": "UNCLEAR",
+    "reason": "OT/IACS security with a hypervisor is in scope topically, but the LLM role is unspecified and the abstract is missing.",
+    "evidence": "Zero-Touch Automation for IACS Security in OT Environments: A Unified Hypervisor Approach"
+  },
+  {
+    "id": "R02822",
+    "decision": "UNCLEAR",
+    "reason": "Hypervisor defenses are in scope topically, but LLM use is not stated and the abstract is missing.",
+    "evidence": "Hypervisor Defences Against Modern Evasion Techniques"
+  },
+  {
+    "id": "R02823",
+    "decision": "UNCLEAR",
+    "reason": "Hypervisor-based introspection for cloud security is in scope topically, but whether an LLM is used is unclear.",
+    "evidence": "The next generation of cloud security through hypervisor-based virtual machine introspection"
+  },
+  {
+    "id": "R02824",
+    "decision": "UNCLEAR",
+    "reason": "Title mentions machine learning for hypervisor-assisted ransomware detection, but LLM use is not established and the abstract is missing.",
+    "evidence": "Machine Learning-based Ransomware Detection Using Low-level Memory Access Patterns Obtained From Live-forensic Hypervisor"
+  },
+  {
+    "id": "R02825",
+    "decision": "UNCLEAR",
+    "reason": "Hypervisor isolation and speculative vulnerabilities are in scope topically, but LLM involvement is not stated.",
+    "evidence": "A Secret-Free Hypervisor: Rethinking Isolation in the Age of Speculative Vulnerabilities"
+  },
+  {
+    "id": "R02826",
+    "decision": "EXCLUDE",
+    "reason": "Proposes a hypervisor-based security architecture with no LLM component described.",
+    "evidence": "this article suggests novel security architecture in a virtualization technology based on hypervisors."
+  },
+  {
+    "id": "R02827",
+    "decision": "UNCLEAR",
+    "reason": "Hypervisor exploitation and cross-domain attacks are in scope topically, but the LLM role is not stated and the abstract is missing.",
+    "evidence": "Breaking Isolation: A New Perspective on Hypervisor Exploitation via Cross-Domain Attacks"
+  },
+  {
+    "id": "R02828",
+    "decision": "EXCLUDE",
+    "reason": "Hypervisor-level malware prevention framework is described without an LLM component.",
+    "evidence": "The proposed malware prevention and detection (MP&D) framework"
+  },
+  {
+    "id": "R02829",
+    "decision": "UNCLEAR",
+    "reason": "Hypervisor and CI/CD security are in scope topically, but LLM use and evaluation are unclear from the title alone.",
+    "evidence": "Secure and Efficient CI/CD Deployment in Cloud Platforms: Bridging Hypervisor Performance and Pipeline Security"
+  },
+  {
+    "id": "R02830",
+    "decision": "UNCLEAR",
+    "reason": "Game-theoretic hypervisor intrusion detection is in scope topically, but the LLM role is not stated and the abstract is missing.",
+    "evidence": "Cloud security in the age of adaptive adversaries: A game theoretic approach to hypervisor-based intrusion detection"
+  },
+  {
+    "id": "R02831",
+    "decision": "EXCLUDE",
+    "reason": "Performance and security analysis of hypervisors without any LLM method.",
+    "evidence": "This paper presents a performance and security analysis of leading hypervisor technologies"
+  },
+  {
+    "id": "R02832",
+    "decision": "UNCLEAR",
+    "reason": "Hypervisor-enforced control-flow integrity is in scope topically, but LLM involvement is not established from the title.",
+    "evidence": "Using a Hypervisor for Enforcing Control Flow Integrity in Native Compiled Programs"
+  },
+  {
+    "id": "R02833",
+    "decision": "EXCLUDE",
+    "reason": "Performance comparison of hypervisor versions with no security outcome or LLM role.",
+    "evidence": "Performance comparison of different hypervisor versions of the type-2 hypervisor VirtualBox"
+  },
+  {
+    "id": "R02834",
+    "decision": "UNCLEAR",
+    "reason": "Hypervisor-based ransomware detection via system calls is in scope topically, but the LLM role is not stated.",
+    "evidence": "HyperDtct: Hypervisor-based Ransomware Detection using System Calls"
+  },
+  {
+    "id": "R02835",
+    "decision": "EXCLUDE",
+    "reason": "Embedded hypervisor reliability and migration work with no security outcome or LLM role in the title.",
+    "evidence": "Rust-Shyper: A reliable embedded hypervisor supporting VM migration and hypervisor live-update"
+  },
+  {
+    "id": "R02836",
+    "decision": "EXCLUDE",
+    "reason": "Concerns securing LLM agents and intent-execution binding, i.e. security of LLM systems, not LLM-based OS security analysis.",
+    "evidence": "A Trusted Provenance and Trusted Execution Environment-Based Reference Architecture for Intent-Execution Binding in Large Language Model Agents"
+  },
+  {
+    "id": "R02837",
+    "decision": "EXCLUDE",
+    "reason": "Uses a TEE to protect large-model reasoning; the LLM is the protected object, not a tool for OS security analysis.",
+    "evidence": "proposes a Trusted Execution Environment (TEE)-based secure reasoning framework"
+  },
+  {
+    "id": "R02838",
+    "decision": "EXCLUDE",
+    "reason": "TEE applied to distributed energy trading, with no LLM-based security analysis of OS components.",
+    "evidence": "distributed energy trading based on a trusted execution environment"
+  },
+  {
+    "id": "R02839",
+    "decision": "UNCLEAR",
+    "reason": "TEE lifecycle topic is topically adjacent, but the abstract is missing and neither the security task nor LLM role is explicit.",
+    "evidence": "Trusted execution environment (TEE) lifecycle"
+  },
+  {
+    "id": "R02840",
+    "decision": "EXCLUDE",
+    "reason": "Formal specification and model checking of TEE APIs without any LLM component described.",
+    "evidence": "we present a formal specification for TEE APIs using Maude."
+  }
+]

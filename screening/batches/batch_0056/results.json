@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02241",
+    "decision": "UNCLEAR",
+    "reason": "Title suggests TCP/IP malware detection, but the missing abstract leaves LLM use, research design, and OS-level target unverified.",
+    "evidence": "A Development Framework for TCP/IP Network Steganography Malware Detection"
+  },
+  {
+    "id": "R02242",
+    "decision": "EXCLUDE",
+    "reason": "Title indicates general TCP/IP protocol and routing material with no explicit security task or LLM use.",
+    "evidence": "TCP/IP Protocols and IP Routing"
+  },
+  {
+    "id": "R02243",
+    "decision": "EXCLUDE",
+    "reason": "Review-style discussion of transport-layer vulnerabilities and defenses, with no LLM use or original core study.",
+    "evidence": "The findings indicated that the major TCP/ IP stack transport layer threats include Finger printing, SYN Flood"
+  },
+  {
+    "id": "R02244",
+    "decision": "UNCLEAR",
+    "reason": "Security topic is potentially relevant, but the missing abstract leaves LLM role, research design, and OS target unclear.",
+    "evidence": "Security Flaw in TCP/IP and Proposed Measures"
+  },
+  {
+    "id": "R02245",
+    "decision": "EXCLUDE",
+    "reason": "Conceptual forensic-ready architecture discussion; no LLM use or empirical security testing is reported.",
+    "evidence": "this paper suggests a conceptual method for forensic-ready network architecture design"
+  },
+  {
+    "id": "R02246",
+    "decision": "EXCLUDE",
+    "reason": "Original OT protocol security testing, but no LLM involvement is reported.",
+    "evidence": "This study investigates the security and reliability implications of migrating serial protocols to TCP/IP stacks"
+  },
+  {
+    "id": "R02247",
+    "decision": "EXCLUDE",
+    "reason": "Title indicates a general TCP/IP and VoIP protocols work, with no evident security research or LLM role.",
+    "evidence": "TCP/IP- und VoIP-Protokolle"
+  },
+  {
+    "id": "R02248",
+    "decision": "EXCLUDE",
+    "reason": "Survey of networking technologies for distributed databases; no security task or LLM use.",
+    "evidence": "This survey organizes the supporting technologies into five layers"
+  },
+  {
+    "id": "R02249",
+    "decision": "UNCLEAR",
+    "reason": "Title reports ML-based IIoT intrusion detection, but the missing abstract leaves LLM use and OS-component targeting uncertain.",
+    "evidence": "RESEARCH ON IIOT SECURITY: NOVEL MACHINE LEARNING-BASED INTRUSION DETECTION USING TCP/IP PACKETS"
+  },
+  {
+    "id": "R02250",
+    "decision": "EXCLUDE",
+    "reason": "Survey of network-interface-layer performance, security, and privacy; no LLM use is reported.",
+    "evidence": "This comprehensive survey delves into these three crucial aspects"
+  },
+  {
+    "id": "R02251",
+    "decision": "EXCLUDE",
+    "reason": "PoW-based DDoS mitigation research; no LLM use is reported.",
+    "evidence": "The study justifies the implementation of the Proof-of-Work (PoW) mechanism as an effective tool for rate-limiting requests"
+  },
+  {
+    "id": "R02252",
+    "decision": "EXCLUDE",
+    "reason": "Wireless sensor network security discussion without any reported LLM use.",
+    "evidence": "The advent of wireless sensor network has given birth to new kinds of routing algorithms and new security threats."
+  },
+  {
+    "id": "R02253",
+    "decision": "UNCLEAR",
+    "reason": "Title indicates TCP/IP fragmentation attack research, but the missing abstract leaves LLM use and target scope unverified.",
+    "evidence": "PMTUD is not Panacea: Revisiting IP Fragmentation Attacks against TCP"
+  },
+  {
+    "id": "R02254",
+    "decision": "EXCLUDE",
+    "reason": "Generic TCP/IP title with no explicit security research or LLM use.",
+    "evidence": "TCP/IP"
+  },
+  {
+    "id": "R02255",
+    "decision": "EXCLUDE",
+    "reason": "Random Forest intrusion detection study; no LLM use is reported.",
+    "evidence": "using the Random Forest (RF) algorithm to identify malicious traffic in Operational Technology (OT) networks"
+  },
+  {
+    "id": "R02256",
+    "decision": "EXCLUDE",
+    "reason": "Remote control system using TCP/IP, with no security task or LLM use evident.",
+    "evidence": "Remote Force Feedback System Control Using TCP/IP Communication"
+  },
+  {
+    "id": "R02257",
+    "decision": "EXCLUDE",
+    "reason": "Generic TCP/IP title with no explicit security research or LLM use.",
+    "evidence": "TCP/IP"
+  },
+  {
+    "id": "R02258",
+    "decision": "EXCLUDE",
+    "reason": "Front matter is not original research and shows no security task or LLM use.",
+    "evidence": "Front Matter"
+  },
+  {
+    "id": "R02259",
+    "decision": "EXCLUDE",
+    "reason": "Review-style account of TCP/IP architecture and functions, with no LLM use or security testing.",
+    "evidence": "This article delves into the architecture and functionalities of the TCP/IP protocol suite"
+  },
+  {
+    "id": "R02260",
+    "decision": "EXCLUDE",
+    "reason": "Simulation of railway cyber-attacks; no LLM use is reported.",
+    "evidence": "We present a simulation framework for analysing cyber-attacks on intelligent railway control systems"
+  },
+  {
+    "id": "R02261",
+    "decision": "EXCLUDE",
+    "reason": "Index material is not original research and shows no security task or LLM use.",
+    "evidence": "Index"
+  },
+  {
+    "id": "R02262",
+    "decision": "EXCLUDE",
+    "reason": "Historical TCP/IP topic with no explicit security research or LLM use.",
+    "evidence": "Before TCP/IP"
+  },
+  {
+    "id": "R02263",
+    "decision": "EXCLUDE",
+    "reason": "Generic protocol title with no explicit security task or LLM use.",
+    "evidence": "Transmission Control Protocol (TCP) and Internet Protocol (IP)"
+  },
+  {
+    "id": "R02264",
+    "decision": "EXCLUDE",
+    "reason": "TCP/IP stack offloading engineering with no security outcome or LLM use reported.",
+    "evidence": "Implementation of TCP/IP protocol stack offloading based on FPGA"
+  },
+  {
+    "id": "R02265",
+    "decision": "EXCLUDE",
+    "reason": "Reference-model material with no explicit security task or LLM use.",
+    "evidence": "OSI and TCP/IP Reference Models"
+  },
+  {
+    "id": "R02266",
+    "decision": "EXCLUDE",
+    "reason": "UTM-based threat mitigation and traffic policy study using SNORT and Splunk; no LLM use is reported.",
+    "evidence": "Threat Mitigation method uses SNORT as Intrusion Prevention System (IPS)"
+  },
+  {
+    "id": "R02267",
+    "decision": "EXCLUDE",
+    "reason": "General wireless Ethernet topic with no explicit security research or LLM use.",
+    "evidence": "Wireless Ethernet"
+  },
+  {
+    "id": "R02268",
+    "decision": "EXCLUDE",
+    "reason": "Ethernet hardware basics with no explicit security task or LLM use.",
+    "evidence": "Ethernet Hardware Basics"
+  },
+  {
+    "id": "R02269",
+    "decision": "EXCLUDE",
+    "reason": "General advanced hardware topic with no explicit security research or LLM use.",
+    "evidence": "Advanced Hardware Topics"
+  },
+  {
+    "id": "R02270",
+    "decision": "EXCLUDE",
+    "reason": "General TCP/IP architecture and protocol explanation, with no LLM use or security study.",
+    "evidence": "TCP/IP tarmoq arxitekturasi va uning asosiy protokollari"
+  },
+  {
+    "id": "R02271",
+    "decision": "EXCLUDE",
+    "reason": "Generic TCP/IP protocol-suite title with no explicit security task or LLM use.",
+    "evidence": "TCP/IP PROTOCOL SUITE FOR NETWORK COMMUNICATION"
+  },
+  {
+    "id": "R02272",
+    "decision": "UNCLEAR",
+    "reason": "Title suggests packet-header intrusion detection, but the missing abstract leaves method, LLM role, and OS-level target unclear.",
+    "evidence": "Intrusion Detection Using Tcp/Ip Single Packet Header Binary Image"
+  },
+  {
+    "id": "R02273",
+    "decision": "EXCLUDE",
+    "reason": "Protocol specification topic with no evident original security study or LLM use.",
+    "evidence": "Aggregation and Fragmentation Mode for Encapsulating Security Payload (ESP) and Its Use for IP Traffic Flow Security (IP-TFS)"
+  },
+  {
+    "id": "R02274",
+    "decision": "EXCLUDE",
+    "reason": "General Internet of Things topic with no explicit security research or LLM use.",
+    "evidence": "The Internet of Things"
+  },
+  {
+    "id": "R02275",
+    "decision": "EXCLUDE",
+    "reason": "General industrial Ethernet topic with no explicit security task or LLM use.",
+    "evidence": "Industrial Ethernet"
+  },
+  {
+    "id": "R02276",
+    "decision": "EXCLUDE",
+    "reason": "Modbus TCP/IP communication implementation for production visualization, with no security task or LLM use.",
+    "evidence": "This study aims to analyze the implementation of Modbus TCP/IP communication"
+  },
+  {
+    "id": "R02277",
+    "decision": "EXCLUDE",
+    "reason": "Basic Ethernet building-block material with no explicit security research or LLM use.",
+    "evidence": "Basic Ethernet Building Blocks"
+  },
+  {
+    "id": "R02278",
+    "decision": "EXCLUDE",
+    "reason": "Ethernet protocol and addressing material with no explicit security task or LLM use.",
+    "evidence": "Ethernet Protocol and Addressing"
+  },
+  {
+    "id": "R02279",
+    "decision": "EXCLUDE",
+    "reason": "General factory-floor communications topic with no explicit security research or LLM use.",
+    "evidence": "Factory Floor/Enterprise Communications"
+  },
+  {
+    "id": "R02280",
+    "decision": "EXCLUDE",
+    "reason": "Power over Ethernet topic with no explicit security research or LLM use.",
+    "evidence": "Power over Ethernet (PoE)"
+  }
+]

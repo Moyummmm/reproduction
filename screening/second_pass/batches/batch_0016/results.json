@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02012",
+    "decision": "EXCLUDE",
+    "reason": "Physical facility security using AI/ML, not an LLM analysis of OS components.",
+    "evidence": "SECURITY SYSTEM FOR STORAGE FACILITIES FOR HAZARDOUS MATERIALS AND NUCLEAR WASTE"
+  },
+  {
+    "id": "R02022",
+    "decision": "EXCLUDE",
+    "reason": "Filesystem performance and power work with no LLM or security outcome.",
+    "evidence": "A Hardware-Assisted Log-Structured File System with Temporal Locality Optimization Under Resource Constraints"
+  },
+  {
+    "id": "R02023",
+    "decision": "EXCLUDE",
+    "reason": "Filesystem performance and power work with no LLM or security outcome.",
+    "evidence": "A Hardware-Assisted Log-Structured File System with Temporal Locality Optimization under Resource Constraints"
+  },
+  {
+    "id": "R02026",
+    "decision": "EXCLUDE",
+    "reason": "Userspace filesystem scalability work; no LLM or security task.",
+    "evidence": "a scalable userspace log-structured file system for modern SSDs"
+  },
+  {
+    "id": "R02027",
+    "decision": "EXCLUDE",
+    "reason": "Buffer cache I/O performance work; no LLM or security analysis.",
+    "evidence": "a novel buffer cache management strategy at SSD controllers to improve the data caching performance"
+  },
+  {
+    "id": "R02031",
+    "decision": "EXCLUDE",
+    "reason": "Ransomware detection uses classical ML, not an LLM, despite filesystem log focus.",
+    "evidence": "machine learning techniques, such as isolation forests and support vector machines"
+  },
+  {
+    "id": "R02033",
+    "decision": "EXCLUDE",
+    "reason": "Psychological assessment log-file study; no LLM or security task.",
+    "evidence": "analyzing log files from a computer-based assessment"
+  },
+  {
+    "id": "R02038",
+    "decision": "EXCLUDE",
+    "reason": "ETCD storage implementation work; no LLM or security analysis.",
+    "evidence": "implementation of ETCD using Log Structured Merge (LSM) and Log Structured Hash Table (LHST) Tree"
+  },
+  {
+    "id": "R02040",
+    "decision": "EXCLUDE",
+    "reason": "LLM code repair is general software development, not OS-targeted security.",
+    "evidence": "improve accuracy, efficiency, and scalability in software development"
+  },
+  {
+    "id": "R02042",
+    "decision": "EXCLUDE",
+    "reason": "Blockchain/cloud log protection with PoS and Blowfish; no LLM.",
+    "evidence": "Proof of Stake (PoS) algorithm with Blowfish encryption"
+  },
+  {
+    "id": "R02045",
+    "decision": "EXCLUDE",
+    "reason": "LLM optimization-agent reasoning study; no security task or OS target.",
+    "evidence": "LLM-based optimization agents increasingly produce structured reasoning artifacts"
+  },
+  {
+    "id": "R02046",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted neural architecture search; no security task or OS target.",
+    "evidence": "LLM-Driven Neural Architecture Search"
+  },
+  {
+    "id": "R02047",
+    "decision": "EXCLUDE",
+    "reason": "LLM tool-output compression with invariants; no security analysis of OS components.",
+    "evidence": "invariant-preserving compression gate for structured tool outputs"
+  },
+  {
+    "id": "R02049",
+    "decision": "EXCLUDE",
+    "reason": "LLM confidence calibration for question answering; no security task.",
+    "evidence": "confidence estimation in LLM-Based Multiple-Choice Question Answering"
+  },
+  {
+    "id": "R02052",
+    "decision": "EXCLUDE",
+    "reason": "LLM wellness sales agent; no security task or OS target.",
+    "evidence": "personalized wellness sales"
+  },
+  {
+    "id": "R02059",
+    "decision": "EXCLUDE",
+    "reason": "LLM extraction of corporate R&D disclosures; no security task.",
+    "evidence": "turn the R&D activity sections of Japanese annual securities reports into structured company-year data"
+  },
+  {
+    "id": "R02061",
+    "decision": "EXCLUDE",
+    "reason": "LLM semantic schema mapping; no security task or OS target.",
+    "evidence": "Deterministic-First Semantic Mapping through Structured LLM Planning and Validation"
+  },
+  {
+    "id": "R02065",
+    "decision": "EXCLUDE",
+    "reason": "LLM pipeline compilation; no security task or OS target.",
+    "evidence": "a deterministic compilation architecture for structured LLM pipelines"
+  },
+  {
+    "id": "R02066",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted pharmacology model calibration; no security task.",
+    "evidence": "Structured Schemas for Provenance-Rich, LLM-Assisted QSP Model Calibration"
+  },
+  {
+    "id": "R02069",
+    "decision": "EXCLUDE",
+    "reason": "LLM system-log error analysis for reliability, not security, and no OS target.",
+    "evidence": "System logs are classified as either passed or failed based on extracted error patterns"
+  },
+  {
+    "id": "R02070",
+    "decision": "EXCLUDE",
+    "reason": "ETCD AVL/LSM implementation work; no LLM or security analysis.",
+    "evidence": "implementation of ETCD using Adelson-Velsky and Landis (AVL) and Log Structured Merge (LSM) Tree"
+  },
+  {
+    "id": "R02071",
+    "decision": "EXCLUDE",
+    "reason": "Blog-style repo-to-text utility; not original security research or LLM security analysis.",
+    "evidence": "Turn a GitHub repo into a single text file for LLM-friendly input"
+  },
+  {
+    "id": "R02075",
+    "decision": "EXCLUDE",
+    "reason": "Blog-style repo-to-text utility; not original security research or LLM security analysis.",
+    "evidence": "Turn a GitHub repo into a single text file for LLM-friendly input"
+  },
+  {
+    "id": "R02076",
+    "decision": "EXCLUDE",
+    "reason": "LLM wellness sales agent; no security task or OS target.",
+    "evidence": "personalized wellness sales"
+  },
+  {
+    "id": "R02077",
+    "decision": "EXCLUDE",
+    "reason": "Log-file compression study; no LLM or security task.",
+    "evidence": "lossy compression approach (LCA) for log files"
+  },
+  {
+    "id": "R02078",
+    "decision": "EXCLUDE",
+    "reason": "Cross-domain review of LLM-augmented systems; surveys are excluded and security/OS absent.",
+    "evidence": "This review surveys cross-domain academic research"
+  },
+  {
+    "id": "R02083",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted embedded code study; bugs and hardware feedback, no security task.",
+    "evidence": "document observed bug patterns in AI-generated embedded code"
+  },
+  {
+    "id": "R02084",
+    "decision": "EXCLUDE",
+    "reason": "IoT filesystem-log forensics with a Python tool; no LLM.",
+    "evidence": "Hikvision Log Analyzer"
+  },
+  {
+    "id": "R02085",
+    "decision": "EXCLUDE",
+    "reason": "Perspective on multi-agent LLM systems; not empirical security/OS research.",
+    "evidence": "In this Perspective, we argue that the next scaling frontier for LLMs"
+  },
+  {
+    "id": "R02086",
+    "decision": "EXCLUDE",
+    "reason": "Comparative evaluation of LLM systems on epistemic prompts; no security task.",
+    "evidence": "controlled comparative assessment of seven AI response systems"
+  },
+  {
+    "id": "R02087",
+    "decision": "EXCLUDE",
+    "reason": "LLM hallucination detection; reliability/security of LLMs, not OS security analysis.",
+    "evidence": "Detecting Hallucinations In LLM Responses Using Token-level Log-probability Signals"
+  },
+  {
+    "id": "R02089",
+    "decision": "EXCLUDE",
+    "reason": "LLM financial decision-making; no security task or OS target.",
+    "evidence": "Bridging Language and Optimization for Financial Decision-Making via Structured LLM Representations"
+  },
+  {
+    "id": "R02090",
+    "decision": "EXCLUDE",
+    "reason": "Web-log intrusion detection uses classical ML, not an LLM.",
+    "evidence": "four machine learning algorithms: gradient-boosted trees, decision tree, random forest, and support vector machine"
+  },
+  {
+    "id": "R02091",
+    "decision": "EXCLUDE",
+    "reason": "LLM bug-report generation for software maintenance; no security task or OS target.",
+    "evidence": "multi-agent LLM pipelines can generate higher-quality bug reports for software maintenance"
+  },
+  {
+    "id": "R02092",
+    "decision": "EXCLUDE",
+    "reason": "Reposted blog-style repo-to-text utility; not original security/OS LLM research.",
+    "evidence": "Turn a GitHub repo into a single text file for LLM-friendly input (repost)"
+  },
+  {
+    "id": "R02094",
+    "decision": "EXCLUDE",
+    "reason": "Reposted blog-style repo-to-text utility; not original security/OS LLM research.",
+    "evidence": "Turn a GitHub repo into a single text file for LLM-friendly input (repost)"
+  },
+  {
+    "id": "R02097",
+    "decision": "EXCLUDE",
+    "reason": "LLM persona extraction for digital twins; no security task or OS target.",
+    "evidence": "Structured Persona Extraction for LLM-Based Digital Twins"
+  },
+  {
+    "id": "R02102",
+    "decision": "EXCLUDE",
+    "reason": "LLM encoding of building regulations; no security task or OS target.",
+    "evidence": "LLM-Based Structured Intermediate Representation for Building Regulation Encoding"
+  },
+  {
+    "id": "R02108",
+    "decision": "EXCLUDE",
+    "reason": "LLM query planning over structured data; no security task or OS target.",
+    "evidence": "LLM-Driven Query Planning for Intelligent Access to Structured and Semi-Structured Data"
+  },
+  {
+    "id": "R02112",
+    "decision": "EXCLUDE",
+    "reason": "LLM agent engineering lifecycle; safety governance, not OS-targeted security analysis.",
+    "evidence": "a specialized nine-phase engineering framework designed specifically for these unpredictable autonomous systems"
+  }
+]

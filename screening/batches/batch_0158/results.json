@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R06321",
+    "decision": "EXCLUDE",
+    "reason": "Taxonomy inference for tabular data; no security analysis or OS target.",
+    "evidence": "Taxonomy inference for tabular data is a critical task of schema inference"
+  },
+  {
+    "id": "R06322",
+    "decision": "EXCLUDE",
+    "reason": "LLM threat modeling for transportation CPS, not OS components or privileged interfaces.",
+    "evidence": "LLM-based threat modeling framework for transportation CPS"
+  },
+  {
+    "id": "R06323",
+    "decision": "EXCLUDE",
+    "reason": "RAG agent framework; no security analysis or OS target.",
+    "evidence": "unified retrieval-augmented generation (RAG) systems"
+  },
+  {
+    "id": "R06324",
+    "decision": "EXCLUDE",
+    "reason": "Attacks on MCP and agent compute trust, not OS components.",
+    "evidence": "an adversarial MCP tool covertly expropriates the agent's computational resources"
+  },
+  {
+    "id": "R06325",
+    "decision": "EXCLUDE",
+    "reason": "Survey of adversarial vulnerabilities in LLMs; reviews and surveys are excluded.",
+    "evidence": "This paper surveys research in the emerging interdisciplinary field of adversarial attacks on LLMs"
+  },
+  {
+    "id": "R06326",
+    "decision": "EXCLUDE",
+    "reason": "Recommender bias mitigation; no security analysis or OS target.",
+    "evidence": "Mitigating Propensity Bias of Large Language Models for Recommender Systems"
+  },
+  {
+    "id": "R06327",
+    "decision": "EXCLUDE",
+    "reason": "LLM assessment of general software vulnerabilities, not OS components.",
+    "evidence": "generate accessible, context-rich summaries of software vulnerabilities"
+  },
+  {
+    "id": "R06328",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreak and system-prompt leakage in an MLLM, i.e. LLM security, not OS.",
+    "evidence": "we discover a system prompt leakage vulnerability in GPT-4V"
+  },
+  {
+    "id": "R06329",
+    "decision": "EXCLUDE",
+    "reason": "Multipath generation for 6G; no security analysis or OS task.",
+    "evidence": "a large language model (LLM) is adapted for multipath generation"
+  },
+  {
+    "id": "R06330",
+    "decision": "EXCLUDE",
+    "reason": "Machine translation post-editing; no security analysis or OS task.",
+    "evidence": "Guiding Large Language Models to Post-Edit Machine Translation"
+  },
+  {
+    "id": "R06331",
+    "decision": "EXCLUDE",
+    "reason": "LLM inference kernels for CPUs; no security outcome.",
+    "evidence": "multiplication-free execution on commodity CPUs"
+  },
+  {
+    "id": "R06332",
+    "decision": "EXCLUDE",
+    "reason": "LLM GPU acceleration; no security analysis or OS target.",
+    "evidence": "comprehensive acceleration scheme for arbitrary precision LLMs"
+  },
+  {
+    "id": "R06333",
+    "decision": "EXCLUDE",
+    "reason": "LLM vulnerability validation for general software, not OS-specific.",
+    "evidence": "automates the creation of containerized environments and exploit code for each vulnerability"
+  },
+  {
+    "id": "R06334",
+    "decision": "EXCLUDE",
+    "reason": "LLM serving throughput optimization; no security analysis.",
+    "evidence": "a novel serving framework that exploits intra-device parallelism"
+  },
+  {
+    "id": "R06335",
+    "decision": "EXCLUDE",
+    "reason": "Recommender order-sensitivity attack; security of an LLM reranker, not OS.",
+    "evidence": "input candidate order in listwise LLM reranking is a security-relevant attack vector"
+  },
+  {
+    "id": "R06336",
+    "decision": "EXCLUDE",
+    "reason": "LLM interpretability via linear mappings; no security analysis.",
+    "evidence": "mapping LLM inference for a given input sequence to an equivalent and interpretable linear system"
+  },
+  {
+    "id": "R06337",
+    "decision": "EXCLUDE",
+    "reason": "LLM serving scheduler; no security analysis or OS target.",
+    "evidence": "a new efficient LLM inference serving framework, named ALISE"
+  },
+  {
+    "id": "R06338",
+    "decision": "EXCLUDE",
+    "reason": "User privacy in LLM services, not OS-targeted security.",
+    "evidence": "ensures user anonymity by preventing service providers from linking requests to the individuals who submit them"
+  },
+  {
+    "id": "R06339",
+    "decision": "EXCLUDE",
+    "reason": "Universal LLM jailbreaks and data extraction; security of LLMs, not OS.",
+    "evidence": "crafting universal jailbreaks and data extraction attacks"
+  },
+  {
+    "id": "R06340",
+    "decision": "EXCLUDE",
+    "reason": "GPT-4V capability exploration; no security analysis or OS task.",
+    "evidence": "Preliminary Explorations with GPT-4V(ision)"
+  },
+  {
+    "id": "R06341",
+    "decision": "EXCLUDE",
+    "reason": "System prompt poisoning to hijack LLMs; LLM supply-chain security, not OS.",
+    "evidence": "conditional system prompt poisoning"
+  },
+  {
+    "id": "R06342",
+    "decision": "EXCLUDE",
+    "reason": "LLM training and serving scheduling; no security analysis.",
+    "evidence": "co-locating and managing concurrent LLM serving and training workloads"
+  },
+  {
+    "id": "R06343",
+    "decision": "EXCLUDE",
+    "reason": "Protecting LLM system prompts; LLM security, not OS components.",
+    "evidence": "safeguard system prompts by tackling two core challenges"
+  },
+  {
+    "id": "R06344",
+    "decision": "EXCLUDE",
+    "reason": "MCP tool-calling trust attacks; not OS components or privileged interfaces.",
+    "evidence": "cross-channel fragmentation attacks that distribute seemingly benign payloads"
+  },
+  {
+    "id": "R06345",
+    "decision": "EXCLUDE",
+    "reason": "Security evaluation of LLM-generated code; general software, not OS-specific.",
+    "evidence": "evaluated these coding LLMs across three programming languages and identified security vulnerabilities and code smells"
+  },
+  {
+    "id": "R06346",
+    "decision": "EXCLUDE",
+    "reason": "LLM inference performance modeling; no security analysis.",
+    "evidence": "Statistical Modeling and Uncertainty Estimation of LLM Inference Systems"
+  },
+  {
+    "id": "R06347",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreak defense for LLMs; security of LLMs, not OS.",
+    "evidence": "a novel deceptive LLM defense framework leveraging collaborative defenders to counter jailbreak attacks"
+  },
+  {
+    "id": "R06348",
+    "decision": "EXCLUDE",
+    "reason": "Red-teaming text-to-image generators; security of generative models, not OS.",
+    "evidence": "fine-tunes a red-team large language model (LLM) to systematically explore underlying vulnerabilities in T2I generators"
+  },
+  {
+    "id": "R06349",
+    "decision": "EXCLUDE",
+    "reason": "LLM-enhanced collaborative filtering; no security analysis or OS target.",
+    "evidence": "Large Language Models Enhanced Collaborative Filtering"
+  },
+  {
+    "id": "R06350",
+    "decision": "EXCLUDE",
+    "reason": "Self-evolving LLM stopping criterion; no security analysis or OS target.",
+    "evidence": "when should a self-evolving system stop"
+  },
+  {
+    "id": "R06351",
+    "decision": "EXCLUDE",
+    "reason": "Trojaning LLM adapters and plugins; LLM supply-chain security, not OS.",
+    "evidence": "an infected adapter can induce, on specific triggers"
+  },
+  {
+    "id": "R06352",
+    "decision": "EXCLUDE",
+    "reason": "Privacy inversion attack on LLM recommenders; not OS-targeted security.",
+    "evidence": "inversion attacks targeting LLM empowered recommender systems"
+  },
+  {
+    "id": "R06353",
+    "decision": "EXCLUDE",
+    "reason": "LLM channel estimation for MIMO; no security analysis or OS task.",
+    "evidence": "semantic-aware channel estimation framework for multiple-input multiple-output (MIMO) systems"
+  },
+  {
+    "id": "R06354",
+    "decision": "EXCLUDE",
+    "reason": "Microservice root-cause analysis; no security outcome or OS target.",
+    "evidence": "an innovative solution for microservice root cause analysis based on large language model agents"
+  },
+  {
+    "id": "R06355",
+    "decision": "EXCLUDE",
+    "reason": "Legal procedural exploit simulation; not OS components or privileged interfaces.",
+    "evidence": "multi-agent simulation of adversarial legal proceedings"
+  },
+  {
+    "id": "R06356",
+    "decision": "EXCLUDE",
+    "reason": "LLM headline generation for recommendation; no security analysis.",
+    "evidence": "Generate to Explore, Select to Exploit: Aligning LLM-based Headline Generation with Personalized Recommendation"
+  },
+  {
+    "id": "R06357",
+    "decision": "EXCLUDE",
+    "reason": "Log anomaly benchmark for system diagnostics and reliability, not security or OS target.",
+    "evidence": "System log anomaly detection is critical for maintaining the reliability of large-scale software systems"
+  },
+  {
+    "id": "R06358",
+    "decision": "UNCLEAR",
+    "reason": "LLM for cybersecurity log anomaly detection; system-log target may be OS-level but OS scope is not explicit.",
+    "evidence": "an intelligent detection method for system logs based on Genera- tive Pre-trained Transformers (GPT)"
+  },
+  {
+    "id": "R06359",
+    "decision": "UNCLEAR",
+    "reason": "LLM security incident-response planning with system logs; OS target is not explicit.",
+    "evidence": "generate a response and recovery plan based on system logs"
+  },
+  {
+    "id": "R06360",
+    "decision": "UNCLEAR",
+    "reason": "LLM log analysis for security; application and system logs may be OS-related but OS scope is not explicit.",
+    "evidence": "analyze application and system log files for security"
+  }
+]

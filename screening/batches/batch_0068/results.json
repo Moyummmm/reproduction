@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02721",
+    "decision": "EXCLUDE",
+    "reason": "Security method targets OS memory, but the proposed defense uses RISC-V instruction extensions, not an LLM.",
+    "evidence": "BOP, A new system memory security design method based on RISC-V extended instructions"
+  },
+  {
+    "id": "R02722",
+    "decision": "EXCLUDE",
+    "reason": "LLM serving and embodied AI system design, with no security analysis or protection task.",
+    "evidence": "Beyond LLM Serving: Characterizing Vision-Language-Action Workloads for Embodied AI System Design"
+  },
+  {
+    "id": "R02723",
+    "decision": "EXCLUDE",
+    "reason": "Buffer overflow analysis in IoT devices; no LLM use is indicated.",
+    "evidence": "A comparative analysis of Buffer Overflow vulnerabilities in High-End IoT devices"
+  },
+  {
+    "id": "R02724",
+    "decision": "UNCLEAR",
+    "reason": "System-software buffer overflow detection uses a graph and transformer model, but the LLM role and OS scope are unclear and the abstract is missing.",
+    "evidence": "DETECTION OF BUFFER OVERFLOW VULNERABILITIES IN SYSTEM SOFTWARE BASED ON GRAPH AND TRANSFORMER MODEL"
+  },
+  {
+    "id": "R02725",
+    "decision": "EXCLUDE",
+    "reason": "Rule-based static analysis for PHP buffer overflows, with no LLM involvement.",
+    "evidence": "a customized rule set aimed at automatically detecting buffer overflows has been developed on the SonarQube platform"
+  },
+  {
+    "id": "R02726",
+    "decision": "EXCLUDE",
+    "reason": "LLM execution buffer management, with no security outcome.",
+    "evidence": "Buffer Management for Out-of-GPU LLM Execution"
+  },
+  {
+    "id": "R02727",
+    "decision": "EXCLUDE",
+    "reason": "LLM accelerator hardware design, with no security task.",
+    "evidence": "High-speed Bufferless NoC-based LLM Accelerator with Distributed Ring-Shaped Buffer"
+  },
+  {
+    "id": "R02728",
+    "decision": "EXCLUDE",
+    "reason": "SVM-based buffer overflow detection, not LLM-based.",
+    "evidence": "Detection of buffer overflow vulnerability in embedded development programs based on SVM algorithm"
+  },
+  {
+    "id": "R02729",
+    "decision": "EXCLUDE",
+    "reason": "Survey of buffer overflow mitigation bypasses, with no original LLM-based security research.",
+    "evidence": "The current work aims to describe the stack-based buffer overflow vulnerability and review in detail the mitigation techniques reported in the literature"
+  },
+  {
+    "id": "R02730",
+    "decision": "EXCLUDE",
+    "reason": "Machine-learning detection of web and software attacks, with no LLM or OS-component focus.",
+    "evidence": "SQL Injection, Cross-site scripting and Buffer Overflow attacks detection using Machine Learning"
+  },
+  {
+    "id": "R02731",
+    "decision": "UNCLEAR",
+    "reason": "Buffer overflow vulnerability mining with deep learning; missing abstract leaves LLM use and OS target unresolved.",
+    "evidence": "Research on Buffer Overflow Vulnerability Mining Method Based on Deep Learning"
+  },
+  {
+    "id": "R02732",
+    "decision": "EXCLUDE",
+    "reason": "TEE command-call buffer overflow prevention, but no LLM use is indicated.",
+    "evidence": "Prevention Method for Stack Buffer Overflow Attack in TA Command Calls in OP-TEE"
+  },
+  {
+    "id": "R02733",
+    "decision": "EXCLUDE",
+    "reason": "LLM-generated examination support in education, with no security task.",
+    "evidence": "TOWARDS A SUSTAINABLE OPERATING CONCEPT OF LLM GENERATED EXAMINATION SUPPORT IN HIGHER TECHNICAL EDUCATION"
+  },
+  {
+    "id": "R02734",
+    "decision": "EXCLUDE",
+    "reason": "FPGA hardware-assisted buffer overflow countermeasure, with no LLM.",
+    "evidence": "A simple countermeasure to mitigate buffer overflow attack using minimalistic hardware-integrated software simulation for FPGA"
+  },
+  {
+    "id": "R02735",
+    "decision": "EXCLUDE",
+    "reason": "Buffer overflow modeling in IoT healthcare networks, with no LLM use indicated.",
+    "evidence": "Modelling Buffer-Overflow in 6LoWPAN-Based Resource-Constraint IoT-Healthcare Network"
+  },
+  {
+    "id": "R02736",
+    "decision": "EXCLUDE",
+    "reason": "Stack buffer overflow risk analysis for UAVs, with no LLM use indicated.",
+    "evidence": "Stack Buffer Overflow Risk Analysis for PX4-Controlled Commercial UAVs"
+  },
+  {
+    "id": "R02737",
+    "decision": "EXCLUDE",
+    "reason": "Software diversity defense against buffer overflows, with no LLM.",
+    "evidence": "FFRR: a software diversity technique for defending against buffer overflow attacks"
+  },
+  {
+    "id": "R02738",
+    "decision": "EXCLUDE",
+    "reason": "UAV data-collection buffer constraints, not a security analysis and with no LLM.",
+    "evidence": "Characterizing Buffer Overflow Constraints in UAV Data Collection with Energy-Harvesting Sensors"
+  },
+  {
+    "id": "R02739",
+    "decision": "EXCLUDE",
+    "reason": "Studies LLM hallucinations and formal-system imitation, not an OS security task.",
+    "evidence": "Language-model hallucinations are usually judged one statement at a time."
+  },
+  {
+    "id": "R02740",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based stack buffer overflow detection is explicit, but the abstract is missing and OS-component scope is unclear.",
+    "evidence": "Towards stack buffer overflow detection in stripped binaries with context-augmented LLMs"
+  },
+  {
+    "id": "R02741",
+    "decision": "EXCLUDE",
+    "reason": "Empirical study of LLM-generated library imports, a general software correctness issue without a security task.",
+    "evidence": "How Robust are LLM-Generated Library Imports? An Empirical Study using Stack Overflow"
+  },
+  {
+    "id": "R02742",
+    "decision": "EXCLUDE",
+    "reason": "Review-style analysis of buffer overflows and potential AI mitigation, not original LLM security research.",
+    "evidence": "My paper provides a comprehensive analysis of buffer overflows, detailing their mechanisms, historical context, and the challenges they present to modern systems."
+  },
+  {
+    "id": "R02743",
+    "decision": "EXCLUDE",
+    "reason": "LLM recommendation for reviewer assignment, with no security task.",
+    "evidence": "Conference Management System Utilizing an LLM-Based Recommendation System for the Reviewer Assignment Problem"
+  },
+  {
+    "id": "R02744",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based examination evaluation, with no security task.",
+    "evidence": "QEvalAI- LLM Based Question Paper Quality Checker and Answer Evaluation System"
+  },
+  {
+    "id": "R02745",
+    "decision": "EXCLUDE",
+    "reason": "LLM system for the legal sector, with no security analysis or protection outcome.",
+    "evidence": "a system designed to support legal experts in the process of generating maxims from judgments"
+  },
+  {
+    "id": "R02746",
+    "decision": "EXCLUDE",
+    "reason": "Static analysis and symbolic execution for buffer overflow detection, with no LLM.",
+    "evidence": "Buffer Overflow Vulnerability Detection Based on Static Analysis-assisted Symbolic Execution"
+  },
+  {
+    "id": "R02747",
+    "decision": "EXCLUDE",
+    "reason": "LLM system for the legal sector, with no security analysis or protection outcome.",
+    "evidence": "a system designed to support legal experts in the process of generating maxims from judgments"
+  },
+  {
+    "id": "R02748",
+    "decision": "EXCLUDE",
+    "reason": "Hardware-supported malware detection for stack buffer overflows, with no LLM.",
+    "evidence": "Zero-Day Hardware-Supported Malware Detection of Stack Buffer Overflow Attacks: An Application Exploiting the CV32e40p RISC-V Core"
+  },
+  {
+    "id": "R02749",
+    "decision": "EXCLUDE",
+    "reason": "LLM systems in the legal sector, with no security task.",
+    "evidence": "Design, Validation, and Risk Assessment of LLM-Based Generative AI Systems Operating in the Legal Sector"
+  },
+  {
+    "id": "R02750",
+    "decision": "EXCLUDE",
+    "reason": "LLM system for the legal sector, with no security analysis or protection outcome.",
+    "evidence": "a system designed to support legal experts in the process of generating maxims from judgments"
+  },
+  {
+    "id": "R02751",
+    "decision": "EXCLUDE",
+    "reason": "Bi-GRU and attention model for buffer overflow detection, not an LLM.",
+    "evidence": "Research on buffer overflow vulnerability detection model based on Bi-GRU and attention mechanism"
+  },
+  {
+    "id": "R02752",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based buffer tree generation for hardware design, with no security task.",
+    "evidence": "BUFFALO: PPA-Configurable, LLM-based Buffer Tree Generation via Group Relative Policy Optimization"
+  },
+  {
+    "id": "R02753",
+    "decision": "EXCLUDE",
+    "reason": "Copyright page, not research.",
+    "evidence": "Copyright Page"
+  },
+  {
+    "id": "R02754",
+    "decision": "EXCLUDE",
+    "reason": "Copyright page, not research.",
+    "evidence": "Copyright Page"
+  },
+  {
+    "id": "R02755",
+    "decision": "EXCLUDE",
+    "reason": "Cover page, not research.",
+    "evidence": "LAD 2024 Cover Page"
+  },
+  {
+    "id": "R02756",
+    "decision": "EXCLUDE",
+    "reason": "Copyright page, not research.",
+    "evidence": "Copyright Page"
+  },
+  {
+    "id": "R02757",
+    "decision": "EXCLUDE",
+    "reason": "Title page, not research.",
+    "evidence": "Title Page i"
+  },
+  {
+    "id": "R02758",
+    "decision": "EXCLUDE",
+    "reason": "Title page, not research.",
+    "evidence": "Title Page iii"
+  },
+  {
+    "id": "R02759",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based table reconstruction, with no security task.",
+    "evidence": "Beyond the Page Break: An LLM-Based Solution for Cross-Page Table Reconstruction"
+  },
+  {
+    "id": "R02760",
+    "decision": "EXCLUDE",
+    "reason": "LLM maps CVEs to ATT&CK; general cybersecurity analysis, not targeting OS components or privileged interfaces.",
+    "evidence": "our paper proposes a cost-effective approach using a general-purpose chatbot like GPT-3 to perform CVE to ATT&CK mapping"
+  }
+]

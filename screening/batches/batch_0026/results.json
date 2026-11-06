@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01041",
+    "decision": "UNCLEAR",
+    "reason": "Title suggests LLM-assisted taint/source-sink analysis, but the abstract is missing and the target system and security role are unclear.",
+    "evidence": "LLM-Driven Adaptive Source–CSink Identification and False Positive Mitigation for Static Analysis"
+  },
+  {
+    "id": "R01042",
+    "decision": "UNCLEAR",
+    "reason": "Title-only record concerns how LLM involvement affects static-analysis accuracy; no security task or OS target can be confirmed.",
+    "evidence": "Measuring How LLM Involvement Affects Chatbot Accuracy in Static Analysis"
+  },
+  {
+    "id": "R01043",
+    "decision": "EXCLUDE",
+    "reason": "Title-only record targets Scratch code analysis, not a security task on OS components or privileged interfaces.",
+    "evidence": "LLM-enhanced Scratch Static Code Analysis"
+  },
+  {
+    "id": "R01044",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-synthesized static checkers found real kernel bugs, explicitly a security-relevant OS target.",
+    "evidence": "discovered 92 new, critical, long-latent bugs (average 4.3 years) in the Linux kernel"
+  },
+  {
+    "id": "R01045",
+    "decision": "EXCLUDE",
+    "reason": "Title targets web vulnerability analysis, not OS components or privileged interfaces; abstract is missing.",
+    "evidence": "Web Vulnerability Analysis using LLM and Static Analysis"
+  },
+  {
+    "id": "R01046",
+    "decision": "EXCLUDE",
+    "reason": "Abstract addresses Rust code-comment consistency and code quality, with no security or OS-component task.",
+    "evidence": "detect and diagnose code-comment inconsistencies in Rust"
+  },
+  {
+    "id": "R01047",
+    "decision": "UNCLEAR",
+    "reason": "Title-only static-analysis work on control-flow analysis; the security task and OS target are not stated.",
+    "evidence": "A Case of Higher-Order Control-Flow Analysis"
+  },
+  {
+    "id": "R01048",
+    "decision": "UNCLEAR",
+    "reason": "Title names Windows kernel drivers, but the LLM role and security task are not stated and the abstract is missing.",
+    "evidence": "Static Analysis for Windows Kernel Drivers"
+  },
+  {
+    "id": "R01049",
+    "decision": "EXCLUDE",
+    "reason": "Theoretical LLM/cryptographic handshake paper with no security analysis of OS components; it is presentation slides.",
+    "evidence": "LLM Weights as Static Potential and the 0x88 SEC 1 Handshake (Presentation Slides)"
+  },
+  {
+    "id": "R01050",
+    "decision": "EXCLUDE",
+    "reason": "Concerns dynamic evaluation of LLMs, not security analysis or testing of OS components.",
+    "evidence": "Beyond Static Testing Through Dynamic LLM Evaluation"
+  },
+  {
+    "id": "R01051",
+    "decision": "UNCLEAR",
+    "reason": "Title-only work on LLM assistance for static analysis; no explicit security task or OS target is given.",
+    "evidence": "Toward Principled LLM Assistance for Static Analysis"
+  },
+  {
+    "id": "R01052",
+    "decision": "EXCLUDE",
+    "reason": "Abstract evaluates Terraform/IaC misconfiguration review, not OS components or privileged interfaces.",
+    "evidence": "Terraform enable declarative provisioning of cloud infrastructure"
+  },
+  {
+    "id": "R01053",
+    "decision": "EXCLUDE",
+    "reason": "Abstract addresses reliability and repair suggestions for LLM inference engines, not a security analysis of OS components.",
+    "evidence": "Reliability of LLM Inference Engines from a Static Perspective"
+  },
+  {
+    "id": "R01054",
+    "decision": "UNCLEAR",
+    "reason": "Title concerns defending LLM-assisted alert triage, but the missing abstract leaves the security role and target ambiguous.",
+    "evidence": "Zero-Trust Code Ingestion Defense for LLM-Assisted Static Analysis Alert Triage"
+  },
+  {
+    "id": "R01055",
+    "decision": "EXCLUDE",
+    "reason": "Abstract is about HITL governance for trustworthy LLM agents, not OS security analysis or testing.",
+    "evidence": "context-aware Human-in-the-Loop (HITL) mechanism"
+  },
+  {
+    "id": "R01056",
+    "decision": "EXCLUDE",
+    "reason": "Abstract applies LLM-assisted static modeling to power distribution systems, not OS components.",
+    "evidence": "Trustworthy LLM-Assisted Static Modeling of Hybrid AC/DC Distribution Systems"
+  },
+  {
+    "id": "R01057",
+    "decision": "EXCLUDE",
+    "reason": "Title targets smart-contract security, not OS components or privileged interfaces; abstract is missing.",
+    "evidence": "LLM-Based Static Analysis for Secure Smart Contract Development"
+  },
+  {
+    "id": "R01058",
+    "decision": "EXCLUDE",
+    "reason": "Abstract automates Java code-quality improvements via SonarQube and LLMs, with no security or OS target.",
+    "evidence": "automate source code improvement"
+  },
+  {
+    "id": "R01059",
+    "decision": "EXCLUDE",
+    "reason": "Title targets second-order vulnerabilities in PHP applications, outside OS scope; abstract is missing.",
+    "evidence": "Detecting Second-Order Vulnerabilities in PHP Applications"
+  },
+  {
+    "id": "R01060",
+    "decision": "EXCLUDE",
+    "reason": "Title targets SSRF vulnerabilities in PHP applications, not OS components; abstract is missing.",
+    "evidence": "Detecting SSRF Vulnerabilities in PHP Applications"
+  },
+  {
+    "id": "R01061",
+    "decision": "EXCLUDE",
+    "reason": "Title-only code-evolution analysis pipeline with no security task or OS target indicated.",
+    "evidence": "Hybrid Static, Evolutionary ML, and LLM-Based Pipeline for Code Evolution Analysis"
+  },
+  {
+    "id": "R01062",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Title explicitly combines LLM-assisted static analysis with TrustZone hardening, a TEE/privileged target.",
+    "evidence": "LLM-Assisted Static Analysis for TrustZone-Oriented IoT Application Hardening"
+  },
+  {
+    "id": "R01063",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLift combines static analysis and LLMs to find use-before-initialization bugs in the Linux kernel.",
+    "evidence": "identifying use-before-initialization (UBI) bugs within the Linux kernel"
+  },
+  {
+    "id": "R01064",
+    "decision": "EXCLUDE",
+    "reason": "Abstract describes malware detection using LLMs/ML rather than analysis of OS components; the title also labels it a review.",
+    "evidence": "behavior-based malware detection"
+  },
+  {
+    "id": "R01065",
+    "decision": "EXCLUDE",
+    "reason": "Transport-simulation study of LLM-derived traveler responses, with no security or OS dimension.",
+    "evidence": "LLM-Derived Traveler Responses for Transport Simulation"
+  },
+  {
+    "id": "R01066",
+    "decision": "EXCLUDE",
+    "reason": "Title targets smart-contract state-manipulation vulnerabilities, outside OS scope; abstract is missing.",
+    "evidence": "Detecting State Manipulation Vulnerabilities in Smart Contracts"
+  },
+  {
+    "id": "R01067",
+    "decision": "UNCLEAR",
+    "reason": "Title targets Linux kernel taint-style bug detection, but LLM involvement is not stated and the abstract is missing.",
+    "evidence": "Static Analysis for Taint-Style Bug Detection in Linux Kernel"
+  },
+  {
+    "id": "R01068",
+    "decision": "EXCLUDE",
+    "reason": "Healthcare-agent taxonomy/survey with no security analysis of OS components.",
+    "evidence": "Survey of Self-Evolving LLM Agents for Healthcare"
+  },
+  {
+    "id": "R01069",
+    "decision": "UNCLEAR",
+    "reason": "Title-only work on false-positive detection in static code analysis; the security role and OS target are unspecified.",
+    "evidence": "False Positives Detection in Static Code Analysis with Deep Learning and LLM"
+  },
+  {
+    "id": "R01070",
+    "decision": "UNCLEAR",
+    "reason": "Title-only program-analysis work; no explicit security task or OS target is stated.",
+    "evidence": "Lattice-Structured Evidence for LLM-Based Program Analysis"
+  },
+  {
+    "id": "R01071",
+    "decision": "EXCLUDE",
+    "reason": "Abstract studies static-analysis integration for repository-level code completion, not security or OS analysis.",
+    "evidence": "LLM-based repository-level code completion"
+  },
+  {
+    "id": "R01072",
+    "decision": "UNCLEAR",
+    "reason": "Title mentions LLM decompilation for taint analysis, but the target system is unspecified and the abstract is missing.",
+    "evidence": "LLM-Based Decompilation for Static Taint Analysis"
+  },
+  {
+    "id": "R01073",
+    "decision": "UNCLEAR",
+    "reason": "Title states LLM-enhanced static analysis for vulnerability detection, but the target OS scope is unstated.",
+    "evidence": "Enhancing Static Analysis with LLMs to Detect Software Vulnerabilities"
+  },
+  {
+    "id": "R01074",
+    "decision": "UNCLEAR",
+    "reason": "LLM assists Linux kernel configuration auditing, but the abstract emphasizes performance rather than a security analysis outcome.",
+    "evidence": "Auditing LLM-Assisted Linux Kernel Configuration with Workload Evidence"
+  },
+  {
+    "id": "R01075",
+    "decision": "EXCLUDE",
+    "reason": "Concerns output control and guardrails for agentic LLM workflows, not OS security analysis.",
+    "evidence": "Auditable Surgical Output Control for Agentic LLM Workflows"
+  },
+  {
+    "id": "R01076",
+    "decision": "UNCLEAR",
+    "reason": "Title-only secure-SDLC static analysis work; target software and OS relevance are unspecified.",
+    "evidence": "Grounding LLM-Driven Static Analysis in Differentiable Program Invariants for Secure SDLC"
+  },
+  {
+    "id": "R01077",
+    "decision": "UNCLEAR",
+    "reason": "Title-only data-flow summarization for static analysis; no explicit security task or OS target.",
+    "evidence": "Selective LLM-Driven Data-flow Summarization"
+  },
+  {
+    "id": "R01078",
+    "decision": "UNCLEAR",
+    "reason": "Protocol non-compliance detection could be security-relevant, but target and LLM role details are unavailable.",
+    "evidence": "Detecting Protocol Non-compliance Bugs via LLM-guided Static Analysis and Dynamic Verification"
+  },
+  {
+    "id": "R01079",
+    "decision": "EXCLUDE",
+    "reason": "PV manufacturing control using LLMs is not security analysis of OS components; Semantic Kernel is a software framework, not an OS kernel.",
+    "evidence": "Near-Closed-Loop-Control in PV Manufacturing"
+  },
+  {
+    "id": "R01080",
+    "decision": "EXCLUDE",
+    "reason": "Stock-trading reinforcement-learning study with LLM signals, no security or OS dimension.",
+    "evidence": "LLM-Augmented Reinforcement Learning for Stock Trading"
+  }
+]

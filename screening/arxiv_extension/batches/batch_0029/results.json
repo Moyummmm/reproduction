@@ -1,0 +1,50 @@
+[
+  {
+    "id": "arxiv:2610.41181",
+    "decision": "EXCLUDE",
+    "reason": "Targets web applications and agentic browsers, not OS components or privileged interfaces.",
+    "evidence": "Fortifying Web Applications Against AI Agents and Agentic Browsers"
+  },
+  {
+    "id": "arxiv:2610.41617",
+    "decision": "EXCLUDE",
+    "reason": "Uses LLMs for Python type annotation, with no security task or OS target.",
+    "evidence": "Static Analysis-Guided LLM Type Annotation for Python"
+  },
+  {
+    "id": "arxiv:2611.01377",
+    "decision": "EXCLUDE",
+    "reason": "Concerns edge AI application development, not security analysis or an OS target.",
+    "evidence": "adaptive edge AI development"
+  },
+  {
+    "id": "arxiv:2611.01976",
+    "decision": "EXCLUDE",
+    "reason": "Analyzes attacks on LLM agent tooling and frameworks, not OS components or privileged interfaces.",
+    "evidence": "supply-chain vulnerability in agentic systems"
+  },
+  {
+    "id": "arxiv:2611.02457",
+    "decision": "EXCLUDE",
+    "reason": "Recommender-system distillation with no security task or OS target.",
+    "evidence": "LLM Recommendation with Self-Exploration"
+  },
+  {
+    "id": "arxiv:2611.03641",
+    "decision": "EXCLUDE",
+    "reason": "Solves Zebra puzzles via neuro-symbolic reasoning, not security or OS work.",
+    "evidence": "Zebra-style logic puzzle"
+  },
+  {
+    "id": "arxiv:2611.04671",
+    "decision": "EXCLUDE",
+    "reason": "Optimizes LLM serving memory and throughput, with no security outcome or OS target.",
+    "evidence": "Memory-Efficient Serving for Native Sparse-Attention LLMs"
+  },
+  {
+    "id": "arxiv:2611.05173",
+    "decision": "EXCLUDE",
+    "reason": "Addresses correctness of synthesized database components, not security or OS privileged interfaces.",
+    "evidence": "Correctness Firewalls for Synthesized Database Components"
+  }
+]

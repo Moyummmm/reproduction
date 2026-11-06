@@ -1,0 +1,242 @@
+[
+  {
+    "id": "arxiv:2410.13224",
+    "decision": "EXCLUDE",
+    "reason": "Formal reasoning and theorem-proving study; no security analysis or OS target.",
+    "evidence": "specifically in the Neural Theorem Proving (NTP) setting"
+  },
+  {
+    "id": "arxiv:2410.13897",
+    "decision": "EXCLUDE",
+    "reason": "Theoretical framework for security risks of generative AI, not an OS security task.",
+    "evidence": "a novel formal framework for categorizing and mitigating these emergent security risks"
+  },
+  {
+    "id": "arxiv:2410.14720",
+    "decision": "EXCLUDE",
+    "reason": "Model compression and pruning study without a security outcome.",
+    "evidence": "a novel pruning framework that exploits representation similarity"
+  },
+  {
+    "id": "arxiv:2410.15236",
+    "decision": "EXCLUDE",
+    "reason": "Review of LLM jailbreaks and defenses, not core empirical OS security research.",
+    "evidence": "This review analyzes the state of research on these vulnerabilities"
+  },
+  {
+    "id": "arxiv:2410.17141",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM benchmark for automated penetration testing including privilege escalation, a security testing task on privileged system interfaces.",
+    "evidence": "enumeration, exploitation, and privilege escalation"
+  },
+  {
+    "id": "arxiv:2410.17406",
+    "decision": "EXCLUDE",
+    "reason": "General CVE vulnerability analysis with LLMs; no OS-specific target.",
+    "evidence": "analyzing vulnerabilities with automated retrieval augmentation of web data"
+  },
+  {
+    "id": "arxiv:2410.19845",
+    "decision": "EXCLUDE",
+    "reason": "Scam detection for digital payments, outside OS or privileged-interface security.",
+    "evidence": "scam detection, focusing on the Unified Payments Interface (UPI)"
+  },
+  {
+    "id": "arxiv:2410.20911",
+    "decision": "EXCLUDE",
+    "reason": "Defense against LLM-driven cyberattacks; target is the attacking LLM, not OS components.",
+    "evidence": "a defensive framework that exploits LLMs' susceptibility to adversarial inputs"
+  },
+  {
+    "id": "arxiv:2410.21492",
+    "decision": "EXCLUDE",
+    "reason": "Defense against prompt injection in LLM applications, a security-of-LLMs topic.",
+    "evidence": "defense against indirect prompt injection attacks"
+  },
+  {
+    "id": "arxiv:2410.21939",
+    "decision": "EXCLUDE",
+    "reason": "Automated exploitation benchmark on Nginx web-server software, not OS components or privileged interfaces.",
+    "evidence": "ability to detect and exploit vulnerabilities in real-world software systems"
+  },
+  {
+    "id": "arxiv:2410.22293",
+    "decision": "EXCLUDE",
+    "reason": "LLM code mutation for malware evasion; no security analysis or protection of OS components.",
+    "evidence": "application of LLMs in the context of code mutation"
+  },
+  {
+    "id": "arxiv:2410.23000",
+    "decision": "EXCLUDE",
+    "reason": "RAG benchmark; no security task or OS target.",
+    "evidence": "we introduce the Long$^2$RAG benchmark"
+  },
+  {
+    "id": "arxiv:2411.00852",
+    "decision": "EXCLUDE",
+    "reason": "Energy forecasting framework; no security task or OS target.",
+    "evidence": "Energy Forecasting Large Language Model (EF-LLM)"
+  },
+  {
+    "id": "arxiv:2411.01705",
+    "decision": "EXCLUDE",
+    "reason": "Data extraction attacks on RAG; security of LLM systems, not OS.",
+    "evidence": "we investigate data extraction attacks targeting RAG's knowledge databases"
+  },
+  {
+    "id": "arxiv:2411.03346",
+    "decision": "EXCLUDE",
+    "reason": "LLM agents fix general open-source vulnerabilities; no OS-specific target.",
+    "evidence": "Fixing Security Vulnerabilities with AI in OSS-Fuzz"
+  },
+  {
+    "id": "arxiv:2411.03906",
+    "decision": "EXCLUDE",
+    "reason": "Question answering over linked data; no security or OS task.",
+    "evidence": "Question Answering over Linked Data (QALD)"
+  },
+  {
+    "id": "arxiv:2411.04539",
+    "decision": "EXCLUDE",
+    "reason": "LLM distillation for web search ranking; no security outcome.",
+    "evidence": "transfer the ranking expertise of LLMs to a more compact model"
+  },
+  {
+    "id": "arxiv:2411.05185",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based penetration testing may touch privileged interfaces, but the abstract does not establish OS-level targets.",
+    "evidence": "automate intelligence gathering, vulnerability analysis, and exploitation stages"
+  },
+  {
+    "id": "arxiv:2411.08446",
+    "decision": "EXCLUDE",
+    "reason": "MoE training efficiency; no security task.",
+    "evidence": "a communication-efficient MoE training framework"
+  },
+  {
+    "id": "arxiv:2411.08561",
+    "decision": "EXCLUDE",
+    "reason": "Log anomaly detection for reliability, not a security task on OS components.",
+    "evidence": "ultimately enhancing the reliability of software systems"
+  },
+  {
+    "id": "arxiv:2411.12671",
+    "decision": "EXCLUDE",
+    "reason": "Neurosymbolic knowledge representation; no security or OS task.",
+    "evidence": "a multimodal, knowledge-augmented formal representation of meaning"
+  },
+  {
+    "id": "arxiv:2411.13874",
+    "decision": "EXCLUDE",
+    "reason": "Phishing detection and generation; not OS or privileged-interface security.",
+    "evidence": "evaluation of traditional phishing detectors"
+  },
+  {
+    "id": "arxiv:2411.15766",
+    "decision": "EXCLUDE",
+    "reason": "Dense retrieval scaling; no security task.",
+    "evidence": "scaling up dense retrieval"
+  },
+  {
+    "id": "arxiv:2411.15982",
+    "decision": "EXCLUDE",
+    "reason": "LLM inference data-format and hardware optimization; no security outcome.",
+    "evidence": "a Variable-Length Grouped Activation Data Format"
+  },
+  {
+    "id": "arxiv:2411.16769",
+    "decision": "EXCLUDE",
+    "reason": "Red-teaming text-to-image models; security of generative models, not OS.",
+    "evidence": "Red-Teaming Text-to-Image Models"
+  },
+  {
+    "id": "arxiv:2412.01269",
+    "decision": "EXCLUDE",
+    "reason": "Relevance modeling for commercial search; no security task.",
+    "evidence": "A LLM-based Continual Pre-training Framework for Relevance Modeling in Commercial Search"
+  },
+  {
+    "id": "arxiv:2412.01655",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Original LLM-based classifier for dangerous CLI commands used in command interception, a security protection task on a privileged OS interface.",
+    "evidence": "intercept, assess, and block dangerous Command-line Interface (CLI) commands"
+  },
+  {
+    "id": "arxiv:2412.03556",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreaking frontier AI systems; security of LLMs, not OS components.",
+    "evidence": "jailbreaks frontier AI systems across modalities"
+  },
+  {
+    "id": "arxiv:2412.05734",
+    "decision": "EXCLUDE",
+    "reason": "LLM privacy leakage red-teaming; security of LLMs, not OS.",
+    "evidence": "RL-based Red-teaming Agent for LLM Privacy Leakage"
+  },
+  {
+    "id": "arxiv:2412.06090",
+    "decision": "EXCLUDE",
+    "reason": "Compilation of prompt-injection exploits against LLM systems; not OS security research.",
+    "evidence": "prompt injection undermines the CIA triad"
+  },
+  {
+    "id": "arxiv:2412.06308",
+    "decision": "EXCLUDE",
+    "reason": "Sequential recommendation pre-training; no security task.",
+    "evidence": "Pre-training Sequential Recommenders with Collaborative and Semantic Information"
+  },
+  {
+    "id": "arxiv:2412.08847",
+    "decision": "EXCLUDE",
+    "reason": "Food recommendation system; no security task or OS target.",
+    "evidence": "Health-aware Food Recommendation System"
+  },
+  {
+    "id": "arxiv:2412.10198",
+    "decision": "EXCLUDE",
+    "reason": "Attacks on LLM tool-calling; security of LLM applications, not OS.",
+    "evidence": "exploit vulnerabilities in LLM tool-calling systems"
+  },
+  {
+    "id": "arxiv:2412.10425",
+    "decision": "EXCLUDE",
+    "reason": "Adaptive LLM agents using active inference; no security task.",
+    "evidence": "integrating active inference with large language models"
+  },
+  {
+    "id": "arxiv:2412.10953",
+    "decision": "EXCLUDE",
+    "reason": "AI-assisted code generation quality and security generally; not OS-specific security research.",
+    "evidence": "Optimizing AI-Assisted Code Generation"
+  },
+  {
+    "id": "arxiv:2412.11761",
+    "decision": "EXCLUDE",
+    "reason": "LLM multi-agent control benchmark; no security task or OS target.",
+    "evidence": "LLM-Driven Multi-Agent Control"
+  },
+  {
+    "id": "arxiv:2412.12961",
+    "decision": "EXCLUDE",
+    "reason": "Natural-language database querying; no security task.",
+    "evidence": "querying the LandMatrix database in natural language"
+  },
+  {
+    "id": "arxiv:2412.13528",
+    "decision": "EXCLUDE",
+    "reason": "Messaging-scam simulation; not OS or privileged-interface security.",
+    "evidence": "Combating Messaging Scams"
+  },
+  {
+    "id": "arxiv:2412.14468",
+    "decision": "EXCLUDE",
+    "reason": "Attention efficiency method; no security task.",
+    "evidence": "Semantic Sparsity for Faster Inference"
+  },
+  {
+    "id": "arxiv:2412.15275",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial prompting of LLM graders; security of LLMs, not OS.",
+    "evidence": "Fooling LLM graders into giving better grades"
+  }
+]

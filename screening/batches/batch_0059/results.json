@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02361",
+    "decision": "EXCLUDE",
+    "reason": "Packet-analysis data for cyber attacks is described, but no LLM role or OS-targeted security task is indicated.",
+    "evidence": "Packet Analysis Data for Cyber Attacks in Network Systems"
+  },
+  {
+    "id": "R02362",
+    "decision": "EXCLUDE",
+    "reason": "Advanced packet analysis with no LLM use, security task, or OS target indicated.",
+    "evidence": "Deep packet analysis with advanced functionalities"
+  },
+  {
+    "id": "R02363",
+    "decision": "EXCLUDE",
+    "reason": "MANET packet-drop detection uses a divide-and-conquer method, not an LLM, and does not target OS components.",
+    "evidence": "finding the packet dropper attacker and collecting the missing packet from the previous node"
+  },
+  {
+    "id": "R02364",
+    "decision": "EXCLUDE",
+    "reason": "MANET packet-drop detection uses a divide-and-conquer method, not an LLM, and does not target OS components.",
+    "evidence": "to identify the attacker who dropped the packets"
+  },
+  {
+    "id": "R02365",
+    "decision": "EXCLUDE",
+    "reason": "Payload-entropy baseline analysis for anomaly detection; no LLM use or OS-targeted security analysis is indicated.",
+    "evidence": "Characterising Payload Entropy in Packet Flows - Baseline Entropy Analysis for Network Anomaly Detection"
+  },
+  {
+    "id": "R02366",
+    "decision": "EXCLUDE",
+    "reason": "Packet-sniffing network monitoring and analysis; no LLM or security outcome is indicated.",
+    "evidence": "Network Monitoring and Analysis Using Packet Sniffing"
+  },
+  {
+    "id": "R02367",
+    "decision": "EXCLUDE",
+    "reason": "Predictive packet-behavior modeling without an LLM, security task, or OS target indicated.",
+    "evidence": "Predictive Modeling of Packet Behavior in Network Flows Using Initial Packet Sampling"
+  },
+  {
+    "id": "R02368",
+    "decision": "EXCLUDE",
+    "reason": "5G xHaul network-slicing performance analysis; no LLM use or security outcome is indicated.",
+    "evidence": "Performance Analysis of Network Slicing in Packet-Switched 5G xHaul Access Network"
+  },
+  {
+    "id": "R02369",
+    "decision": "EXCLUDE",
+    "reason": "Network packet-analysis program development; no LLM role, security task, or OS target is indicated.",
+    "evidence": "Network Packet Analysis Program Design and Development"
+  },
+  {
+    "id": "R02370",
+    "decision": "EXCLUDE",
+    "reason": "LLM training infrastructure and network-state simulation, not LLM-driven security analysis of OS components.",
+    "evidence": "HyGra: Accelerating Network-State Simulation for LLM Training in DCNs via Adaptive Packet-Flow Granularity"
+  },
+  {
+    "id": "R02371",
+    "decision": "EXCLUDE",
+    "reason": "5G xHaul slicing performance study; no LLM use or security outcome is indicated.",
+    "evidence": "we investigate two traffic prioritization policies"
+  },
+  {
+    "id": "R02372",
+    "decision": "UNCLEAR",
+    "reason": "LLM use is explicit, but the missing abstract leaves whether the network analysis is security-focused and OS-targeted uncertain.",
+    "evidence": "Mobile-LLaMA: Instruction Fine-Tuning Open-Source LLM for Network Analysis in 5G Networks"
+  },
+  {
+    "id": "R02373",
+    "decision": "EXCLUDE",
+    "reason": "LLM used for 5G network-slicing architecture and management, not a security or OS-targeted task.",
+    "evidence": "DESIGN AND ANALYSIS OF NETWORK SLICING ARCHITECTURE AND MANAGEMENT IN 5G NETWORKS USING LLM"
+  },
+  {
+    "id": "R02374",
+    "decision": "UNCLEAR",
+    "reason": "LLM embeddings for vulnerability management are plausible, but the missing abstract leaves the OS target and substantive security use uncertain.",
+    "evidence": "On LLM Embeddings for Vulnerability Management"
+  },
+  {
+    "id": "R02375",
+    "decision": "EXCLUDE",
+    "reason": "LLM analyzes pipeline accident reports for safety, not security of OS components.",
+    "evidence": "integrates a Large Language Model (LLM) with the Human Factors Analysis and Classification System"
+  },
+  {
+    "id": "R02376",
+    "decision": "EXCLUDE",
+    "reason": "LLM analysis of literary translation style; not a security or OS-targeted task.",
+    "evidence": "large language models (LLMs) in literary translation"
+  },
+  {
+    "id": "R02377",
+    "decision": "UNCLEAR",
+    "reason": "LLM and attack-graph security analysis are explicit, but the missing abstract leaves OS targeting and evaluation uncertain.",
+    "evidence": "Multimedia CTI-Driven Cross-Network Attack Graph Analysis Framework Based on LLM"
+  },
+  {
+    "id": "R02378",
+    "decision": "EXCLUDE",
+    "reason": "LLM for network reliability and outage analysis, not security or an OS-targeted task.",
+    "evidence": "LLM-Empowered Network Management Reliability: AF Relay Outage Analysis under Mixed Fading Conditions"
+  },
+  {
+    "id": "R02379",
+    "decision": "EXCLUDE",
+    "reason": "LLM-BERT analysis of construction accident causation, not security of OS components.",
+    "evidence": "analyzing construction accident causation"
+  },
+  {
+    "id": "R02380",
+    "decision": "EXCLUDE",
+    "reason": "Packet-capture forensics combined with social network analysis; no LLM use is indicated.",
+    "evidence": "A Novel Approach to Network Forensic Analysis: Combining Packet Capture Data and Social Network Analysis"
+  },
+  {
+    "id": "R02381",
+    "decision": "EXCLUDE",
+    "reason": "Fake-packet generation and detection without an LLM role or OS-targeted security analysis indicated.",
+    "evidence": "Fake Packet Generation, Detection and its analysis using Network Security"
+  },
+  {
+    "id": "R02382",
+    "decision": "EXCLUDE",
+    "reason": "Generic packet capture and analysis; no LLM, security task, or OS target is indicated.",
+    "evidence": "Packet Capture and Analysis"
+  },
+  {
+    "id": "R02383",
+    "decision": "EXCLUDE",
+    "reason": "LLM-Bayesian investor-behavior analysis, not a security or OS-targeted task.",
+    "evidence": "We develop a sequential Large Language Model (LLM)"
+  },
+  {
+    "id": "R02384",
+    "decision": "EXCLUDE",
+    "reason": "Network security against packet interception; no LLM role or OS-targeted analysis is indicated.",
+    "evidence": "Analysis Of Computer Network Security Against Packet Interception"
+  },
+  {
+    "id": "R02385",
+    "decision": "EXCLUDE",
+    "reason": "Packet classification without an LLM, security outcome, or OS target indicated.",
+    "evidence": "Packet classification"
+  },
+  {
+    "id": "R02386",
+    "decision": "EXCLUDE",
+    "reason": "Transport-level routing analysis tool; no LLM use or security outcome is indicated.",
+    "evidence": "HiPerConTracer 3.0: Transport-level Packet Routing Analysis Tool"
+  },
+  {
+    "id": "R02387",
+    "decision": "EXCLUDE",
+    "reason": "Multimedia packet capture and analysis; no LLM, security task, or OS target is indicated.",
+    "evidence": "Multimedia Packet Capture and Analysis"
+  },
+  {
+    "id": "R02388",
+    "decision": "EXCLUDE",
+    "reason": "Bluetooth packet capture and analysis; no LLM, security task, or OS target is indicated.",
+    "evidence": "Bluetooth Packet Capture and Analysis"
+  },
+  {
+    "id": "R02389",
+    "decision": "EXCLUDE",
+    "reason": "Malware-identification packet analysis; no LLM role is indicated.",
+    "evidence": "Network Packet Analysis as a Unit of Assessment: Identifying Emotet"
+  },
+  {
+    "id": "R02390",
+    "decision": "UNCLEAR",
+    "reason": "LLM agent and traffic analysis are explicit, but the missing abstract leaves whether the task is security-focused and OS-targeted uncertain.",
+    "evidence": "A Skill-Guided Programmatic LLM Agent for Training-Free Network Traffic Analysis"
+  },
+  {
+    "id": "R02391",
+    "decision": "EXCLUDE",
+    "reason": "LLM tunes signal-processing parameters for equipment fault prediction, not security of OS components.",
+    "evidence": "integrating Large Language Models (LLMs) with optimized Wavelet Packet Transform (WPT)"
+  },
+  {
+    "id": "R02392",
+    "decision": "EXCLUDE",
+    "reason": "LLM discussion-group study; not a security or OS-targeted task.",
+    "evidence": "Using a corpus of 51 mock-jury discussion groups"
+  },
+  {
+    "id": "R02393",
+    "decision": "EXCLUDE",
+    "reason": "LLM discussion-group study; not a security or OS-targeted task.",
+    "evidence": "Using a corpus of 51 mock-jury discussion groups"
+  },
+  {
+    "id": "R02394",
+    "decision": "EXCLUDE",
+    "reason": "Machine-learning application identification from packet data; no LLM or security outcome is indicated.",
+    "evidence": "Real-Time Machine Learning Based Application Identification Through Network Packet Analysis: An Experimental Approach Utilizing Hardware"
+  },
+  {
+    "id": "R02395",
+    "decision": "EXCLUDE",
+    "reason": "Distributed LLM systems architecture; no security analysis or OS target is indicated.",
+    "evidence": "Network-Centric Distributed LLM Architecture with Epistemic Sovereignty"
+  },
+  {
+    "id": "R02396",
+    "decision": "EXCLUDE",
+    "reason": "Wireless network bandwidth management using Packet Tracer, not an LLM-driven security task.",
+    "evidence": "This research aims to analyze the wireless network at MAN 3 Jakarta with a focus on bandwidth management using Cisco Packet Tracer software."
+  },
+  {
+    "id": "R02397",
+    "decision": "UNCLEAR",
+    "reason": "LLM and system-level data are explicit, but the missing abstract leaves the security task and OS targeting uncertain.",
+    "evidence": "Fine-tuning Llama3 for Integrated Analysis of Network Packet and System Log Data"
+  },
+  {
+    "id": "R02398",
+    "decision": "EXCLUDE",
+    "reason": "Entropy-based network anomaly detection without LLM use or OS-targeted analysis.",
+    "evidence": "One of the ways in which such anomalies can be detected is to analyse the information entropy of the payload"
+  },
+  {
+    "id": "R02399",
+    "decision": "EXCLUDE",
+    "reason": "LLM agents for wireless network management, not a security or OS-targeted task.",
+    "evidence": "LLM-Driven Collaborative Agents for Wireless Network Management"
+  },
+  {
+    "id": "R02400",
+    "decision": "EXCLUDE",
+    "reason": "Cisco Packet Tracer LAN simulation; no LLM use, security outcome, or OS target is indicated.",
+    "evidence": "Simulating a Local Area Network with Cisco Packet Tracer: A Comprehensive IP Packet Switching Network Demonstration"
+  }
+]

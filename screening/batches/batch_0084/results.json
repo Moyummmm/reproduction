@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03361",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; system-log anomaly detection is potentially relevant, but LLM role and OS security target are unverified.",
+    "evidence": "Large-Scale System Log Anomaly Detection Based on xLSTM"
+  },
+  {
+    "id": "R03362",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; log-based anomaly detection is potentially relevant, but LLM use and OS target are unverified.",
+    "evidence": "Supervised Learning for Log-Based Anomaly Detection"
+  },
+  {
+    "id": "R03363",
+    "decision": "EXCLUDE",
+    "reason": "Connected-vehicle anomaly detection is outside the OS-component security focus and no LLM is indicated.",
+    "evidence": "A Real-time Explainable Anomaly Detection System for Connected Vehicles"
+  },
+  {
+    "id": "R03364",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Original log anomaly detection using a pretrained language model for system security and stability suggests the core dimensions.",
+    "evidence": "a pretrained BERT-based language model"
+  },
+  {
+    "id": "R03365",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; GNN log anomaly detection is potentially relevant, but LLM role and OS target are unverified.",
+    "evidence": "Graph Neural Networks Based Log Anomaly Detection and Explanation"
+  },
+  {
+    "id": "R03366",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; the learning method and LLM role are unspecified, leaving OS security scope unverified.",
+    "evidence": "Learning-Based Anomaly Detection Using Log Files with Sequential Relationships"
+  },
+  {
+    "id": "R03367",
+    "decision": "UNCLEAR",
+    "reason": "A pre-trained language model for system logs is potentially relevant, but missing abstract leaves security task and OS target unverified.",
+    "evidence": "BERT-Log: Anomaly Detection for System Logs Based on Pre-trained Language Model"
+  },
+  {
+    "id": "R03368",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Original log anomaly detection using a pretrained language model for system security and stability suggests the core dimensions.",
+    "evidence": "a pretrained BERT-based language model"
+  },
+  {
+    "id": "R03369",
+    "decision": "UNCLEAR",
+    "reason": "LLM-powered log anomaly detection is potentially relevant, but missing abstract leaves OS target and evaluation unclear.",
+    "evidence": "LLM-Powered Transfer Learning for Log Anomaly Detection in New Software Systems"
+  },
+  {
+    "id": "R03370",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; system-log cybersecurity analysis is potentially relevant, but LLM role and OS target are unverified.",
+    "evidence": "Intelligent System Log Analysis for Cybersecurity: Implementing Advanced Anomaly Detection"
+  },
+  {
+    "id": "R03371",
+    "decision": "EXCLUDE",
+    "reason": "Power-system operation logs are outside the OS-component security focus and no LLM is indicated.",
+    "evidence": "A Log Anomaly Detection Method for Power System Operation and Maintenance Scenarios"
+  },
+  {
+    "id": "R03372",
+    "decision": "EXCLUDE",
+    "reason": "IoT flow-based intrusion detection uses no LLM and targets network traffic rather than OS components.",
+    "evidence": "the IoT-FIDS focuses on identifying unusual behaviors by examining flow-based representations"
+  },
+  {
+    "id": "R03373",
+    "decision": "EXCLUDE",
+    "reason": "The method is a temporal convolutional network, not an LLM, so the LLM dimension is outside scope.",
+    "evidence": "system log anomaly detection method based on efficient channel attention and temporal convolutional network"
+  },
+  {
+    "id": "R03374",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; log anomaly detection is potentially relevant, but LLM role and OS target are unverified.",
+    "evidence": "Cross-system log anomaly detection based on domain adversarial adaptation and batch contrastive learning"
+  },
+  {
+    "id": "R03375",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; log-file security is potentially relevant, but LLM use and OS scope are unverified.",
+    "evidence": "A Complete Log Files Security Solution Using Anomaly Detection and Blockchain Technology"
+  },
+  {
+    "id": "R03376",
+    "decision": "EXCLUDE",
+    "reason": "Deep-learning log anomaly detection uses BiLSTM and Transformer components, not an LLM, so the LLM dimension is outside scope.",
+    "evidence": "a deep learning model with global spatiotemporal features"
+  },
+  {
+    "id": "R03377",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; log-parameter anomaly detection may be relevant, but LLM role, security task, and OS scope are unverified.",
+    "evidence": "Log Parameter Anomaly Detection System: Evaluating Accuracy with Noisy Training Data"
+  },
+  {
+    "id": "R03378",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; networked-system log anomaly detection could be relevant, but LLM role and OS target are unverified.",
+    "evidence": "Adaptive Log Anomaly Detection for Networked System in Cold-Start Extreme Verification Latency"
+  },
+  {
+    "id": "R03379",
+    "decision": "EXCLUDE",
+    "reason": "Call-center performance evaluation is not a security or OS-component task despite LLM use.",
+    "evidence": "BellTeus: Call Center Performance Evaluation System Using the Large Language Model"
+  },
+  {
+    "id": "R03380",
+    "decision": "EXCLUDE",
+    "reason": "EFL writing study uses LLMs for education, not security or OS components.",
+    "evidence": "large language model assistance"
+  },
+  {
+    "id": "R03381",
+    "decision": "EXCLUDE",
+    "reason": "Emotion modeling with LLMs is not a security or OS-component task.",
+    "evidence": "This study investigates the dimensional representation of human emotions using large language models (LLMs)"
+  },
+  {
+    "id": "R03382",
+    "decision": "EXCLUDE",
+    "reason": "Emotion modeling with LLMs is not a security or OS-component task.",
+    "evidence": "This study investigates the dimensional representation of human emotions using large language models (LLMs)"
+  },
+  {
+    "id": "R03383",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based API code generation is general software work, not an OS security task.",
+    "evidence": "APICoder: A Multi-Role Large Language Model Framework for API Service Call Code Generation"
+  },
+  {
+    "id": "R03384",
+    "decision": "EXCLUDE",
+    "reason": "LLM investment-signal extraction is finance, not security or OS components.",
+    "evidence": "whether large language model (LLM) representations of corporate earnings call transcripts can generate economically meaningful investment signals"
+  },
+  {
+    "id": "R03385",
+    "decision": "EXCLUDE",
+    "reason": "Methodological audit protocol for LLM behavioral experiments is not an OS security study.",
+    "evidence": "A Preregisterable Audit Protocol for Repeated-Call Behavioral Experiments With Large Language Models"
+  },
+  {
+    "id": "R03386",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted academic writing is education, not security or OS work.",
+    "evidence": "Using large language models to enhance data-driven learning in academic writing"
+  },
+  {
+    "id": "R03387",
+    "decision": "EXCLUDE",
+    "reason": "A physical security robot system with a large model is outside OS-component security and not explicitly LLM-based cybersecurity.",
+    "evidence": "Design of an End-Cloud Collaborative Urban Security Robot System Based on Large Model"
+  },
+  {
+    "id": "R03388",
+    "decision": "EXCLUDE",
+    "reason": "Docker hardening and vulnerability scanning use no LLM, so the LLM dimension is outside scope.",
+    "evidence": "proposing a unique Docker-sec mechanism"
+  },
+  {
+    "id": "R03389",
+    "decision": "EXCLUDE",
+    "reason": "Container escape and blast-radius analysis does not indicate LLM use or an LLM security task.",
+    "evidence": "Containers may seem to offer greater security through segregation."
+  },
+  {
+    "id": "R03390",
+    "decision": "EXCLUDE",
+    "reason": "Container vulnerability scanning and remediation framework uses no LLM.",
+    "evidence": "we present a novel reproducibility-aware DevSecOps framework"
+  },
+  {
+    "id": "R03391",
+    "decision": "EXCLUDE",
+    "reason": "Cloud container security discussion does not indicate LLM use or original LLM-based analysis.",
+    "evidence": "Containerization Security: Addressing Risks in Cloud Container Deployments"
+  },
+  {
+    "id": "R03392",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted Kubernetes migration is general software engineering, not a security outcome.",
+    "evidence": "Migrating Existing Container Workload to Kubernetes - LLM Based Approach and Evaluation"
+  },
+  {
+    "id": "R03393",
+    "decision": "UNCLEAR",
+    "reason": "LLM-assisted container supply-chain provenance is potentially relevant, but missing abstract leaves the OS security target unclear.",
+    "evidence": "LLM-Assisted Provenance Enforcement for ECR-Based Container Artifact Promotion Pipelines"
+  },
+  {
+    "id": "R03394",
+    "decision": "EXCLUDE",
+    "reason": "Docker security framework covers seccomp and hardening but uses no LLM.",
+    "evidence": "system call filtering via seccomp profiles"
+  },
+  {
+    "id": "R03395",
+    "decision": "EXCLUDE",
+    "reason": "Survey of container security with no LLM use; reviews and surveys are excluded.",
+    "evidence": "This paper surveys existing literature on container security"
+  },
+  {
+    "id": "R03396",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; container-image security assessment is potentially relevant, but LLM use and OS target are unverified.",
+    "evidence": "Longitudinal risk-based security assessment of docker software container images"
+  },
+  {
+    "id": "R03397",
+    "decision": "UNCLEAR",
+    "reason": "Title provides no evidence of LLM use, security task, or OS target; missing abstract leaves it ambiguous.",
+    "evidence": "Engram"
+  },
+  {
+    "id": "R03398",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted shipping-container yard stacking is logistics, not security or OS components.",
+    "evidence": "Heuristic, Hybrid, and LLM-Assisted Heuristics for Container Yard Strategies Under Incomplete Information: A Simulation-Based Comparison"
+  },
+  {
+    "id": "R03399",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; container-image security assessment is potentially relevant, but LLM use and OS target are unverified.",
+    "evidence": "Security Assessment for Container Images"
+  },
+  {
+    "id": "R03400",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based Docker threat detection is potentially relevant, but missing abstract leaves the OS target and evaluation unclear.",
+    "evidence": "LLM-Based Semantic Threat Detection in Docker Container Environments"
+  }
+]

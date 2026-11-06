@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01015",
+    "decision": "EXCLUDE",
+    "reason": "Target is a Lua interpreter/scripting runtime, not an OS component or privileged interface.",
+    "evidence": "fuzzing Lua scripts"
+  },
+  {
+    "id": "R01016",
+    "decision": "EXCLUDE",
+    "reason": "Smart-contract vulnerability detection, not OS components or privileged interfaces.",
+    "evidence": "Smart contract transactions"
+  },
+  {
+    "id": "R01020",
+    "decision": "EXCLUDE",
+    "reason": "LLM routing/congestion framework; no security analysis or OS target.",
+    "evidence": "route heterogeneous jobs across these models"
+  },
+  {
+    "id": "R01021",
+    "decision": "EXCLUDE",
+    "reason": "General insecure-code repair; target is code snippets, not OS components.",
+    "evidence": "3,200 vulnerable code snippets across five vulnerability categories"
+  },
+  {
+    "id": "R01022",
+    "decision": "EXCLUDE",
+    "reason": "General static taint analysis and false-positive reduction, not OS-specific security.",
+    "evidence": "LLM-driven taint analysis framework"
+  },
+  {
+    "id": "R01023",
+    "decision": "EXCLUDE",
+    "reason": "General insecure-code repair; target is code snippets, not OS components.",
+    "evidence": "3,200 vulnerable code snippets across five vulnerability categories"
+  },
+  {
+    "id": "R01024",
+    "decision": "EXCLUDE",
+    "reason": "Linux kernel race detection, but the described method is static analysis without an LLM.",
+    "evidence": "Outlier-Based, Context-Sensitive Static Analysis"
+  },
+  {
+    "id": "R01025",
+    "decision": "EXCLUDE",
+    "reason": "Systematic literature review/survey, excluded from the core empirical research set.",
+    "evidence": "A Systematic Literature Review"
+  },
+  {
+    "id": "R01026",
+    "decision": "EXCLUDE",
+    "reason": "MISRA C++ compliance/code-quality study, not a security task on OS components.",
+    "evidence": "complete MISRA C++:2023 ruleset"
+  },
+  {
+    "id": "R01030",
+    "decision": "EXCLUDE",
+    "reason": "Android app crash reproduction for quality/stability, not security analysis.",
+    "evidence": "Android application crash reproduction"
+  },
+  {
+    "id": "R01033",
+    "decision": "EXCLUDE",
+    "reason": "General static analysis for mixed human/AI codebases; no OS-specific security task.",
+    "evidence": "mixed human/AI codebases"
+  },
+  {
+    "id": "R01039",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based code-repair quality study; no OS target or core security outcome.",
+    "evidence": "quality deterioration in the form of new errors or warnings"
+  },
+  {
+    "id": "R01040",
+    "decision": "UNCLEAR",
+    "reason": "Security patching with LLM and static analysis is explicit, but OS-component targeting is ambiguous and the benchmark is general.",
+    "evidence": "including databases, websites, and operating systems"
+  },
+  {
+    "id": "R01044",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM synthesizes static checkers that discover vulnerabilities in the Linux kernel.",
+    "evidence": "discovered 92 new, critical, long-latent bugs"
+  },
+  {
+    "id": "R01046",
+    "decision": "EXCLUDE",
+    "reason": "Code-comment inconsistency detection for Rust; no security task or OS target.",
+    "evidence": "code-comment inconsistencies in Rust"
+  },
+  {
+    "id": "R01049",
+    "decision": "EXCLUDE",
+    "reason": "Speculative LLM theory/presentation; no security analysis or OS component.",
+    "evidence": "LLM Weights as Static Potential"
+  },
+  {
+    "id": "R01052",
+    "decision": "EXCLUDE",
+    "reason": "Terraform/IaC security and cost review, not OS components or privileged interfaces.",
+    "evidence": "security misconfigurations and cost-inefficient settings"
+  },
+  {
+    "id": "R01053",
+    "decision": "EXCLUDE",
+    "reason": "Reliability/root-cause analysis of LLM inference engines, not security analysis of OS components.",
+    "evidence": "root cause analysis and repair suggestion generation"
+  },
+  {
+    "id": "R01055",
+    "decision": "EXCLUDE",
+    "reason": "Trustworthy LLM-agent architecture/HITL; not OS security analysis.",
+    "evidence": "context-aware Human-in-the-Loop"
+  },
+  {
+    "id": "R01056",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted power-system modeling, not security analysis of OS components.",
+    "evidence": "hybrid AC/DC distribution systems"
+  },
+  {
+    "id": "R01058",
+    "decision": "EXCLUDE",
+    "reason": "LLM code-improvement pipeline for static-analysis issues; no OS security task.",
+    "evidence": "automate source code improvement"
+  },
+  {
+    "id": "R01063",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-integrated static analysis discovers use-before-initialization bugs in the Linux kernel.",
+    "evidence": "use-before-initialization (UBI) bugs within the Linux kernel"
+  },
+  {
+    "id": "R01064",
+    "decision": "EXCLUDE",
+    "reason": "Titled as a comprehensive review; reviews are excluded from the core empirical set.",
+    "evidence": "A Comprehensive Review and Future Directions"
+  },
+  {
+    "id": "R01065",
+    "decision": "EXCLUDE",
+    "reason": "Transport-simulation modeling, not security analysis or OS components.",
+    "evidence": "Traveler Responses for Transport Simulation"
+  },
+  {
+    "id": "R01068",
+    "decision": "EXCLUDE",
+    "reason": "Survey/taxonomy of healthcare LLM agents; no security task or OS target.",
+    "evidence": "Six-Dimensional Taxonomy and Survey"
+  },
+  {
+    "id": "R01071",
+    "decision": "EXCLUDE",
+    "reason": "Repository-level code completion, not a security task on OS components.",
+    "evidence": "Repository-level Code Completion"
+  },
+  {
+    "id": "R01074",
+    "decision": "UNCLEAR",
+    "reason": "LLM-assisted Linux kernel configuration auditing is relevant, but the security task/outcome is secondary and ambiguous.",
+    "evidence": "configuration changes may also alter functionality, compatibility, and security"
+  },
+  {
+    "id": "R01080",
+    "decision": "EXCLUDE",
+    "reason": "LLM-augmented stock-trading RL; no security analysis or OS target.",
+    "evidence": "LLM-Augmented Reinforcement Learning for Stock Trading"
+  },
+  {
+    "id": "R01081",
+    "decision": "EXCLUDE",
+    "reason": "LLM-augmented stock-trading RL; no security analysis or OS target.",
+    "evidence": "LLM-augmented reinforcement learning for stock trading"
+  },
+  {
+    "id": "R01082",
+    "decision": "EXCLUDE",
+    "reason": "Query expansion for dense retrieval; no security analysis or OS target.",
+    "evidence": "LLM-Based Query Expansion"
+  },
+  {
+    "id": "R01084",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM reasoning combined with static analysis detects missing-check kernel bugs.",
+    "evidence": "168 missing-check bugs in Linux kernel v4.20-rc5"
+  },
+  {
+    "id": "R01085",
+    "decision": "EXCLUDE",
+    "reason": "Error-specification inference for systems code; no explicit security task or OS-component target.",
+    "evidence": "error specification inference"
+  },
+  {
+    "id": "R01087",
+    "decision": "EXCLUDE",
+    "reason": "General secure-software DevSecOps framework; not OS-component-specific.",
+    "evidence": "LLM-driven DevSecOps framework"
+  },
+  {
+    "id": "R01088",
+    "decision": "EXCLUDE",
+    "reason": "Survey-metadata classification; no security analysis or OS target.",
+    "evidence": "LLM Survey Analysis Using Random Forest"
+  },
+  {
+    "id": "R01094",
+    "decision": "EXCLUDE",
+    "reason": "Verification of data-pipeline transformations, not OS security.",
+    "evidence": "data-pipeline and feature engineering transformations"
+  },
+  {
+    "id": "R01095",
+    "decision": "EXCLUDE",
+    "reason": "LLM inference pruning/compression; no security analysis or OS target.",
+    "evidence": "Efficient LLM Inference"
+  },
+  {
+    "id": "R01098",
+    "decision": "EXCLUDE",
+    "reason": "PHP web-application vulnerability detection, not OS components or privileged interfaces.",
+    "evidence": "PHP web applications"
+  },
+  {
+    "id": "R01100",
+    "decision": "EXCLUDE",
+    "reason": "Static analysis of LLM-assisted student PHP/Laravel apps, not OS components.",
+    "evidence": "PHP code for Laravel web applications"
+  },
+  {
+    "id": "R01102",
+    "decision": "EXCLUDE",
+    "reason": "General open-source vulnerability detection prototype, not OS-component-specific.",
+    "evidence": "Vulnerability Detection and Mitigation Guidance in Open-Source Software"
+  },
+  {
+    "id": "R01107",
+    "decision": "EXCLUDE",
+    "reason": "LLM quantization/compression, no security analysis or OS target.",
+    "evidence": "Near-Lossless LLM Compression"
+  }
+]

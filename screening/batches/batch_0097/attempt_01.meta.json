@@ -1,0 +1,8 @@
+{
+  "start_utc": "2026-11-05T08:00:20.578624+00:00",
+  "end_utc": "2026-11-05T08:01:14.782782+00:00",
+  "returncode": 0,
+  "model": "deepseek/deepseek-flash",
+  "parameters": "not exposed by OpenCode CLI",
+  "valid": true
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02441",
+    "decision": "EXCLUDE",
+    "reason": "DNS packet malware detection is network-level security, not an OS component; no LLM use is indicated.",
+    "evidence": "Malware Detection Based on DNS Packet Analysis"
+  },
+  {
+    "id": "R02442",
+    "decision": "EXCLUDE",
+    "reason": "DDoS detection via packet marking and ML is network-level, not OS-component security; LLM role absent.",
+    "evidence": "Proactive DDoS detection"
+  },
+  {
+    "id": "R02443",
+    "decision": "EXCLUDE",
+    "reason": "IoT traffic classification with random forest has no LLM, no security outcome, and no OS target.",
+    "evidence": "IoT Network Traffic Using Random Forest"
+  },
+  {
+    "id": "R02444",
+    "decision": "EXCLUDE",
+    "reason": "LLM literary translation analysis has no security or OS component.",
+    "evidence": "LLM translations of classical Chinese fantasy"
+  },
+  {
+    "id": "R02445",
+    "decision": "EXCLUDE",
+    "reason": "Network-centric packet malware detection is network-level security, not OS-component security; LLM role unverified.",
+    "evidence": "Network-Centric Malware Detection"
+  },
+  {
+    "id": "R02446",
+    "decision": "EXCLUDE",
+    "reason": "LLM patent-network analysis is not a security or OS task.",
+    "evidence": "LLM-driven patent network analysis"
+  },
+  {
+    "id": "R02447",
+    "decision": "EXCLUDE",
+    "reason": "LLM fake-news augmentation is not OS security.",
+    "evidence": "LLM-based dataset augmentation approach"
+  },
+  {
+    "id": "R02448",
+    "decision": "EXCLUDE",
+    "reason": "LLM power-project risk analysis is not security or OS work.",
+    "evidence": "LLM-assisted Bayesian Network Analysis"
+  },
+  {
+    "id": "R02449",
+    "decision": "EXCLUDE",
+    "reason": "Video delivery with packet wash has no LLM or security outcome.",
+    "evidence": "In-Network Packet Wash"
+  },
+  {
+    "id": "R02450",
+    "decision": "EXCLUDE",
+    "reason": "LLM inference platform evaluation lacks a security outcome and OS component target.",
+    "evidence": "LLM Inference Platforms"
+  },
+  {
+    "id": "R02451",
+    "decision": "EXCLUDE",
+    "reason": "LLM financial time-series memory work has no security or OS component.",
+    "evidence": "LLM-Based Time Series Analysis"
+  },
+  {
+    "id": "R02452",
+    "decision": "EXCLUDE",
+    "reason": "Python bug detection is general software work, not OS-component security.",
+    "evidence": "Python Bug Detection"
+  },
+  {
+    "id": "R02453",
+    "decision": "EXCLUDE",
+    "reason": "DL framework bug detection is general software/ML-framework work, not OS security.",
+    "evidence": "Bug Detection for Deep Learning Frameworks"
+  },
+  {
+    "id": "R02454",
+    "decision": "EXCLUDE",
+    "reason": "Tangled code-change detection for general bug datasets is not OS security.",
+    "evidence": "Method-Level Bug Datasets"
+  },
+  {
+    "id": "R02455",
+    "decision": "EXCLUDE",
+    "reason": "Software fault detection and repair is general software work, not OS security.",
+    "evidence": "LLM-Assisted Software Fault Detection"
+  },
+  {
+    "id": "R02456",
+    "decision": "EXCLUDE",
+    "reason": "Text-game bug detection is not security or OS work.",
+    "evidence": "Text-Based Games Using LLMs"
+  },
+  {
+    "id": "R02457",
+    "decision": "UNCLEAR",
+    "reason": "Memory-safety annotation is security-relevant, but missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "LLM-Guided Memory Safety Annotation Synthesis"
+  },
+  {
+    "id": "R02458",
+    "decision": "EXCLUDE",
+    "reason": "Elderly health memory architecture has no security or OS target.",
+    "evidence": "Elderly Health Management Agents"
+  },
+  {
+    "id": "R02459",
+    "decision": "EXCLUDE",
+    "reason": "Analog/mixed-signal circuit Trojan detection targets hardware, not OS components.",
+    "evidence": "A/MS Circuits"
+  },
+  {
+    "id": "R02460",
+    "decision": "UNCLEAR",
+    "reason": "Memory-safety fuzzing is security-relevant, but title does not establish LLM use and abstract is missing.",
+    "evidence": "Memory Safety Bug Discovery with Slicer"
+  },
+  {
+    "id": "R02461",
+    "decision": "EXCLUDE",
+    "reason": "LLM misinformation detection for smart cities is not OS security.",
+    "evidence": "LLM-Based Misinformation Detection"
+  },
+  {
+    "id": "R02462",
+    "decision": "UNCLEAR",
+    "reason": "Memory safety could be relevant, but missing abstract leaves LLM role and OS target unverified.",
+    "evidence": "LLM Assistance for Memory Safety"
+  },
+  {
+    "id": "R02463",
+    "decision": "UNCLEAR",
+    "reason": "Persistent-memory bug detection may be OS-adjacent, but missing abstract leaves LLM role and security scope unclear.",
+    "evidence": "Bug Detection for Persistent Memory"
+  },
+  {
+    "id": "R02464",
+    "decision": "EXCLUDE",
+    "reason": "LLM-agent memory-credit audit is not a security or OS task.",
+    "evidence": "LLM-Agent Memory"
+  },
+  {
+    "id": "R02465",
+    "decision": "UNCLEAR",
+    "reason": "Memory-safety work on CHERI is potentially relevant, but missing abstract leaves OS scope and evaluation unclear.",
+    "evidence": "Memory Safety in LLM-Generated Code on CHERI"
+  },
+  {
+    "id": "R02466",
+    "decision": "EXCLUDE",
+    "reason": "Graph database bug detection is general software work, not OS security.",
+    "evidence": "Graph Database Engines: An LLM-Based Approach"
+  },
+  {
+    "id": "R02467",
+    "decision": "EXCLUDE",
+    "reason": "LLM jailbreak detection is LLM security, not OS-component security.",
+    "evidence": "LLM Jailbreak Detection"
+  },
+  {
+    "id": "R02468",
+    "decision": "EXCLUDE",
+    "reason": "Tunnel-infrastructure defect detection is not OS security.",
+    "evidence": "tunnel infrastructure"
+  },
+  {
+    "id": "R02469",
+    "decision": "EXCLUDE",
+    "reason": "Circuit Trojan detection targets hardware, not OS components.",
+    "evidence": "Trojans in A/MS Circuits"
+  },
+  {
+    "id": "R02470",
+    "decision": "EXCLUDE",
+    "reason": "LLM evaluator hardening is LLM-security work, not OS security.",
+    "evidence": "Hardening LLM Evaluators"
+  },
+  {
+    "id": "R02471",
+    "decision": "EXCLUDE",
+    "reason": "Code autocompletion and bug detection is general developer tooling, not OS security.",
+    "evidence": "Code Autocompletion and Bug Detection"
+  },
+  {
+    "id": "R02472",
+    "decision": "EXCLUDE",
+    "reason": "LLM memory poisoning is security of LLMs, not OS-component security.",
+    "evidence": "LONG-TERM MEMORY POISONING IN LLM-BASED SYSTEMS"
+  },
+  {
+    "id": "R02473",
+    "decision": "UNCLEAR",
+    "reason": "Title-only Bug Detection gives insufficient evidence on LLM, security task, and OS target.",
+    "evidence": "Bug Detection"
+  },
+  {
+    "id": "R02474",
+    "decision": "EXCLUDE",
+    "reason": "ATC-pilot communication error detection is not OS security.",
+    "evidence": "ATC-pilot communication error detection"
+  },
+  {
+    "id": "R02475",
+    "decision": "EXCLUDE",
+    "reason": "LLM-advised NIDS targets network traffic, not OS components or privileged interfaces.",
+    "evidence": "Network Intrusion Detection Systems (NIDS)"
+  },
+  {
+    "id": "R02476",
+    "decision": "EXCLUDE",
+    "reason": "Database test generation is general software work, not OS security.",
+    "evidence": "LLM-Powered Test Case Generation for Database"
+  },
+  {
+    "id": "R02477",
+    "decision": "EXCLUDE",
+    "reason": "RLHF and technology-market adoption work is not security or OS research.",
+    "evidence": "Bug Report-Enhanced Human-Value Alignment in RLHF"
+  },
+  {
+    "id": "R02478",
+    "decision": "EXCLUDE",
+    "reason": "LLM-agent memory compaction is not security or OS work.",
+    "evidence": "Adaptive Memory Compaction in LLM-Based Agent Systems"
+  },
+  {
+    "id": "R02479",
+    "decision": "EXCLUDE",
+    "reason": "LLM memory/retrieval efficiency work has no security or OS target.",
+    "evidence": "Memory and Retrieval Approach for LLM Efficiency"
+  },
+  {
+    "id": "R02480",
+    "decision": "EXCLUDE",
+    "reason": "LLM bug-fix verification is general software work, not OS-component security.",
+    "evidence": "Automated Bug Fix Verification using LLM Agents"
+  }
+]

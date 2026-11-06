@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01481",
+    "decision": "EXCLUDE",
+    "reason": "Mathematical Christoffel-Darboux analysis; no LLM, security task, or OS component.",
+    "evidence": "Multivariate Christoffel–Darboux Analysis"
+  },
+  {
+    "id": "R01482",
+    "decision": "EXCLUDE",
+    "reason": "Mathematical Christoffel-Darboux analysis; no LLM, security task, or OS component.",
+    "evidence": "Univariate Christoffel–Darboux Analysis"
+  },
+  {
+    "id": "R01483",
+    "decision": "EXCLUDE",
+    "reason": "Mathematical Christoffel-Darboux analysis; no LLM, security task, or OS component.",
+    "evidence": "Empirical Christoffel–Darboux Analysis"
+  },
+  {
+    "id": "R01484",
+    "decision": "EXCLUDE",
+    "reason": "LLM used for construction inspection packaging; no security or OS scope.",
+    "evidence": "KG-LLM-Enabled Inspection Work Packaging"
+  },
+  {
+    "id": "R01485",
+    "decision": "EXCLUDE",
+    "reason": "LLM workflow for functional-form sensitivity analysis; no security or OS scope.",
+    "evidence": "An LLM Workflow for Functional Form Sensitivity Analysis"
+  },
+  {
+    "id": "R01486",
+    "decision": "EXCLUDE",
+    "reason": "LLM agents for discourse analysis; no security task or OS component.",
+    "evidence": "LLM Agents for Multi-Dimensional Discourse Analysis"
+  },
+  {
+    "id": "R01487",
+    "decision": "EXCLUDE",
+    "reason": "Federated edge learning with LLM module exchange; no security or OS scope.",
+    "evidence": "Selective LLM Module Exchange"
+  },
+  {
+    "id": "R01488",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted network intrusion reporting over packet flows; no OS component or privileged-interface target.",
+    "evidence": "local transformer-based packet classification with confidence-aware LLM reporting"
+  },
+  {
+    "id": "R01489",
+    "decision": "EXCLUDE",
+    "reason": "Clinical-trial NLI system using LLM labels; no security task or OS scope.",
+    "evidence": "Three-module System for NLI4CT Enhanced by LLM-generated Intermediate Labels"
+  },
+  {
+    "id": "R01490",
+    "decision": "EXCLUDE",
+    "reason": "LLM for brand-perception measurement; no security task or OS scope.",
+    "evidence": "A Contamination-Free LLM for Brand Perception Analysis"
+  },
+  {
+    "id": "R01491",
+    "decision": "EXCLUDE",
+    "reason": "Linguistic and theological analysis of an LLM; no security task or OS scope.",
+    "evidence": "Naming the Knowledge"
+  },
+  {
+    "id": "R01492",
+    "decision": "EXCLUDE",
+    "reason": "LLM circuit analysis/interpretability; no security task against OS components.",
+    "evidence": "Disentangling Competence and Compliance in LLM Circuit Analysis"
+  },
+  {
+    "id": "R01493",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted qualitative data analysis; no security task or OS scope.",
+    "evidence": "Revisiting Trust and Interpretive Authority in LLM-Assisted Qualitative Data Analysis"
+  },
+  {
+    "id": "R01494",
+    "decision": "EXCLUDE",
+    "reason": "LLM agent intent grounding; no security task or OS component explicit.",
+    "evidence": "Grounding LLM Agent Intent in Multi-Module Environments with Executable Action Programs"
+  },
+  {
+    "id": "R01495",
+    "decision": "EXCLUDE",
+    "reason": "Complex-analysis kernel topic; no LLM, security task, or OS component.",
+    "evidence": "Bergman Kernel, Szegö Kernel and Dirichlet Integral"
+  },
+  {
+    "id": "R01496",
+    "decision": "EXCLUDE",
+    "reason": "Neural-representation comparison methods; no LLM security or OS target.",
+    "evidence": "Centered kernel alignment (CKA) and representational similarity analysis (RSA)"
+  },
+  {
+    "id": "R01497",
+    "decision": "EXCLUDE",
+    "reason": "LLM sentiment analysis for hotel segmentation; no security or OS scope.",
+    "evidence": "Hotel Segmentation and Strategic Implications Using LLM-Based Aspect Sentimental Analysis"
+  },
+  {
+    "id": "R01498",
+    "decision": "EXCLUDE",
+    "reason": "Kernel discriminant analysis; no LLM, security task, or OS component.",
+    "evidence": "kernda: Kernel Discriminant Analysis"
+  },
+  {
+    "id": "R01499",
+    "decision": "EXCLUDE",
+    "reason": "LLM-guided evolutionary optimization analysis; no security or OS scope.",
+    "evidence": "Trajectory Analysis of LLM-Guided Evolutionary Search"
+  },
+  {
+    "id": "R01500",
+    "decision": "EXCLUDE",
+    "reason": "LLM market economics and launch strategy; no security task or OS scope.",
+    "evidence": "Distillation and Strategic Launches on the LLM Frontier"
+  },
+  {
+    "id": "R01501",
+    "decision": "EXCLUDE",
+    "reason": "Video-captioning model; no security task or OS scope.",
+    "evidence": "Transformer and LLM-Based Captioning Module for Dense Video Captioning"
+  },
+  {
+    "id": "R01502",
+    "decision": "EXCLUDE",
+    "reason": "LLM RAG for nuclear safety causal analysis; no OS target or cybersecurity task.",
+    "evidence": "LLM-assisted causal analysis in nuclear safety"
+  },
+  {
+    "id": "R01503",
+    "decision": "EXCLUDE",
+    "reason": "LLM-RAG financial data analysis; no security task or OS scope.",
+    "evidence": "Intelligent Financial Data Analysis System Based on LLM-RAG"
+  },
+  {
+    "id": "R01504",
+    "decision": "EXCLUDE",
+    "reason": "Random-feature and kernel generalization theory; no LLM security or OS target.",
+    "evidence": "Generalization error of random feature and kernel methods"
+  },
+  {
+    "id": "R01505",
+    "decision": "EXCLUDE",
+    "reason": "LLM for dialogue emotion analysis; no security task or OS scope.",
+    "evidence": "Causality-Driven Dialogue Emotion Analysis Via Llm"
+  },
+  {
+    "id": "R01506",
+    "decision": "EXCLUDE",
+    "reason": "Linux kernel module implementation without LLM; OS engineering, not LLM security.",
+    "evidence": "Implementation of Parallel Redundancy Protocol as a Linux Kernel Module"
+  },
+  {
+    "id": "R01507",
+    "decision": "EXCLUDE",
+    "reason": "Mathematical language-competition patch model; no LLM security or OS target.",
+    "evidence": "A Patch-Model of Language Competition"
+  },
+  {
+    "id": "R01508",
+    "decision": "UNCLEAR",
+    "reason": "Patch-correctness assessment may be verification, but security relevance and OS target are not stated; abstract missing.",
+    "evidence": "Multiline Complex Patch Correctness Assessment"
+  },
+  {
+    "id": "R01509",
+    "decision": "UNCLEAR",
+    "reason": "LLM security-patch summarization is security-adjacent, but OS target and task scope are not established; abstract missing.",
+    "evidence": "Security Patch Summarization with Large Language Models"
+  },
+  {
+    "id": "R01510",
+    "decision": "EXCLUDE",
+    "reason": "Mathematical language-competition patch model; no LLM security or OS target.",
+    "evidence": "Two-patch Model of Language Competition"
+  },
+  {
+    "id": "R01511",
+    "decision": "EXCLUDE",
+    "reason": "Epidemiological SEIRS patch model; no LLM, security task, or OS component.",
+    "evidence": "heterogeneous SEIRS patch model with asymmetric mobility kernel"
+  },
+  {
+    "id": "R01512",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based security patch detection/CWE classification is security analysis, but OS component target is not stated; abstract missing.",
+    "evidence": "Security Patch Detection and CWE Classification"
+  },
+  {
+    "id": "R01513",
+    "decision": "UNCLEAR",
+    "reason": "Title \"Poster\" and missing abstract provide no evidence on LLM, security task, or OS target.",
+    "evidence": "Poster"
+  },
+  {
+    "id": "R01514",
+    "decision": "EXCLUDE",
+    "reason": "DNN and multi-kernel intrusion detection without LLM; LLM dimension absent.",
+    "evidence": "deep neural network (DNN) and multi-kernel approximate SVM"
+  },
+  {
+    "id": "R01515",
+    "decision": "EXCLUDE",
+    "reason": "SVM-based IDPS without LLM; LLM dimension absent.",
+    "evidence": "SVM Model with New Kernel Function"
+  },
+  {
+    "id": "R01516",
+    "decision": "EXCLUDE",
+    "reason": "Protein-interaction prediction; no security task or OS target, and protein language model is not the target LLM role.",
+    "evidence": "Protein-Protein Interaction Prediction Using Multi-kernel Deep Convolutional Neural Networks"
+  },
+  {
+    "id": "R01517",
+    "decision": "EXCLUDE",
+    "reason": "IoT intrusion detection using fuzzy kernel clustering without LLM; LLM dimension absent.",
+    "evidence": "quantum artificial fish population and fuzzy kernel clustering algorithm"
+  },
+  {
+    "id": "R01518",
+    "decision": "EXCLUDE",
+    "reason": "Hypervisor-based kernel protection but no LLM component; LLM dimension absent.",
+    "evidence": "hypervisor-based protection for kernel code and data structures"
+  },
+  {
+    "id": "R01519",
+    "decision": "EXCLUDE",
+    "reason": "LLM software-repair measurement; no security task or OS component target.",
+    "evidence": "lightweight language-model software repair"
+  },
+  {
+    "id": "R01520",
+    "decision": "EXCLUDE",
+    "reason": "Vision-language model token pruning; no security task or OS target.",
+    "evidence": "patch-level pruning framework for vision–language models"
+  }
+]

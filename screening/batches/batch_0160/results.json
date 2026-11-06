@@ -1,0 +1,50 @@
+[
+  {
+    "id": "R06401",
+    "decision": "EXCLUDE",
+    "reason": "LLM inference is the protected workload; the security mechanism targets a gateway, not an LLM used for an OS-level security task.",
+    "evidence": "Third-party LLM gateways select providers, models, endpoints, and fallback paths"
+  },
+  {
+    "id": "R06402",
+    "decision": "EXCLUDE",
+    "reason": "LLM agents are the workload being isolated and migrated; no LLM performs security analysis on OS components.",
+    "evidence": "WebAssembly-based secure container framework that enables transparent live migration of LLM agent workspaces"
+  },
+  {
+    "id": "R06403",
+    "decision": "EXCLUDE",
+    "reason": "LLM-in-the-loop is used for benchmark tuning and synthetic interface verification, not an OS or privileged-interface security task.",
+    "evidence": "Benchmark Tuning with an LLM-in-the-loop"
+  },
+  {
+    "id": "R06404",
+    "decision": "EXCLUDE",
+    "reason": "This is explicitly a survey, and reviews or surveys are excluded from the core empirical research set.",
+    "evidence": "This survey synthesizes the design space"
+  },
+  {
+    "id": "R06405",
+    "decision": "EXCLUDE",
+    "reason": "LLM appears only as a confidential inference workload; the security monitor composes cloud isolation, not LLM-driven OS security analysis.",
+    "evidence": "confidential LLM inference scenario"
+  },
+  {
+    "id": "R06406",
+    "decision": "EXCLUDE",
+    "reason": "LLM-backed agents are the entities being protected and revoked; the protocol is not an LLM used for OS security analysis.",
+    "evidence": "real LLM-backed agent swarms (GPT-4o-mini)"
+  },
+  {
+    "id": "R06407",
+    "decision": "EXCLUDE",
+    "reason": "The work targets Web3 intent execution in a TEE; no LLM is used for an OS-level security task.",
+    "evidence": "TEE-based compiler that compiles intents into signed, state-bound transactions inside an enclave"
+  },
+  {
+    "id": "R06408",
+    "decision": "EXCLUDE",
+    "reason": "A rogue agent is the threat being contained; the proposed protection is kernel-level preemption, not an LLM used substantively for the security task.",
+    "evidence": "Kernel-Level Preemption and Containment for Rogue Agentic Execution"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R04201",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; vulnerability prediction on binaries is security-relevant, but LLM role and OS target are not explicit.",
+    "evidence": "Can Neural Decompilation Assist Vulnerability Prediction on Binary Code?"
+  },
+  {
+    "id": "R04202",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; forensic Python decompilation lacks an explicit LLM role and OS security target.",
+    "evidence": "Pyfet: Forensically Equivalent Transformation for Python Binary Decompilation"
+  },
+  {
+    "id": "R04203",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; neural decompilation tool with no explicit LLM role, security task, or OS target.",
+    "evidence": "Idioms: A Simple and Effective Framework for Turbo-Charging Local Neural Decompilation with Well-Defined Types"
+  },
+  {
+    "id": "R04204",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; LLM/RAG decompilation correction with no explicit security task or OS target.",
+    "evidence": "FidelityGPT: Correcting Decompilation Distortions with Retrieval Augmented Generation"
+  },
+  {
+    "id": "R04205",
+    "decision": "EXCLUDE",
+    "reason": "Ethereum smart contracts are not OS components; no LLM security task is shown.",
+    "evidence": "Poster: Code HarvETHter: Corpus-Driven Decompilation of Ethereum Smart Contracts"
+  },
+  {
+    "id": "R04206",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; LLM-based decompilation, but no explicit security task or OS target.",
+    "evidence": "RlDecompiler: Enhancing LLM-based Decompilation via Reinforcement Learning with a Multi-Faceted Reward Function"
+  },
+  {
+    "id": "R04207",
+    "decision": "EXCLUDE",
+    "reason": "Title indicates a review/survey of LLM decompilation, not empirical core research.",
+    "evidence": "Large Language Models for Binary Decompilation: Paradigms, Evaluation, and Challenges"
+  },
+  {
+    "id": "R04208",
+    "decision": "UNCLEAR",
+    "reason": "Title-only and generic; no explicit LLM role, security task, or OS target.",
+    "evidence": "Decompilation and Architecture"
+  },
+  {
+    "id": "R04209",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; high-level language decompilation with no explicit LLM, security, or OS scope.",
+    "evidence": "PyLingual: Toward Perfect Decompilation of Evolving High-Level Languages"
+  },
+  {
+    "id": "R04210",
+    "decision": "UNCLEAR",
+    "reason": "LLM repairs decompiled code and enables vulnerability analysis, but OS-component targeting is not established.",
+    "evidence": "CodeQL-based vulnerability analysis"
+  },
+  {
+    "id": "R04211",
+    "decision": "UNCLEAR",
+    "reason": "Single-word title with no abstract; scope and LLM/security role are insufficient.",
+    "evidence": "Decompilation"
+  },
+  {
+    "id": "R04212",
+    "decision": "EXCLUDE",
+    "reason": "Robotics controller auditing and decompilation with no LLM role or OS-security target.",
+    "evidence": "post-training audit and selective intervention of retained robot controllers"
+  },
+  {
+    "id": "R04213",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; Rust decompilation with no explicit LLM, security, or OS scope.",
+    "evidence": "Oxidizer: Toward Concise and High-fidelity Rust Decompilation"
+  },
+  {
+    "id": "R04214",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; LLM agents in CTF reverse engineering, but OS targeting and evaluation are unclear.",
+    "evidence": "Towards LLM-Resistant Software Protection: Agent Failure Patterns in CTF Reverse Engineering"
+  },
+  {
+    "id": "R04215",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted reverse engineering of IoV applications, not OS components or a clear security task.",
+    "evidence": "An LLM-Assisted Automated Reverse Engineering Framework for IoV Applications"
+  },
+  {
+    "id": "R04216",
+    "decision": "UNCLEAR",
+    "reason": "Generic title with no abstract; no evidence of LLM use, security task, or OS target.",
+    "evidence": "Reverse Engineering"
+  },
+  {
+    "id": "R04217",
+    "decision": "EXCLUDE",
+    "reason": "LLM reverse engineering into SysML models, not an OS security task.",
+    "evidence": "Language-Agnostic Reverse Engineering of Software into SysML v2 via LLM Reasoner"
+  },
+  {
+    "id": "R04218",
+    "decision": "EXCLUDE",
+    "reason": "Introductory/tutorial title, not original empirical research.",
+    "evidence": "Introduction to Reverse Engineering"
+  },
+  {
+    "id": "R04219",
+    "decision": "EXCLUDE",
+    "reason": "Hardware gate-level reverse engineering, not OS components; no security task shown.",
+    "evidence": "ReBERT: LLM for Gate-Level to Word-Level Reverse Engineering"
+  },
+  {
+    "id": "R04220",
+    "decision": "EXCLUDE",
+    "reason": "LLM reverse engineering of legacy databases, not OS components or security analysis.",
+    "evidence": "LLM-Assisted Reverse Engineering of Legacy Databases for Microservices Architectures"
+  },
+  {
+    "id": "R04221",
+    "decision": "EXCLUDE",
+    "reason": "LLM framework for product management and requirements, not OS security.",
+    "evidence": "LLM-based reverse engineering framework designed to assist product management workflows"
+  },
+  {
+    "id": "R04222",
+    "decision": "EXCLUDE",
+    "reason": "LLM tooling for general software reverse engineering, not OS security.",
+    "evidence": "MDRE-LLM: A Tool for Analyzing and Applying LLMs in Software Reverse Engineering"
+  },
+  {
+    "id": "R04223",
+    "decision": "EXCLUDE",
+    "reason": "Black-box reverse engineering of LLM plugins/prompts is security of LLMs, not OS components.",
+    "evidence": "Exposing the Achilles' Heel: Black-box Reverse Engineering of Commercial LLM Plugins' Hidden Prompts"
+  },
+  {
+    "id": "R04224",
+    "decision": "EXCLUDE",
+    "reason": "General/educational binary reverse engineering, with no explicit LLM or OS security task.",
+    "evidence": "Binary Reverse Engineering for All"
+  },
+  {
+    "id": "R04225",
+    "decision": "EXCLUDE",
+    "reason": "LLM-agent memory via reverse prompting, not a security or OS task.",
+    "evidence": "agents store compact, human-readable recipes"
+  },
+  {
+    "id": "R04226",
+    "decision": "EXCLUDE",
+    "reason": "Hardware netlist-to-RTL reverse engineering, not OS components or security analysis.",
+    "evidence": "Gate-Breaker: An LLM-Powered Netlist-to-RTL Reverse Engineering Tool"
+  },
+  {
+    "id": "R04227",
+    "decision": "EXCLUDE",
+    "reason": "LLM visualization for binary reverse engineering, not an OS security task.",
+    "evidence": "Large Language Models as Visualization Agents for Immersive Binary Reverse Engineering"
+  },
+  {
+    "id": "R04228",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted ICS protocol reverse engineering, not an OS-component security task.",
+    "evidence": "Reverse engineering for industrial control proprietary protocols based on multi-source knowledge fusion and LLM inference"
+  },
+  {
+    "id": "R04229",
+    "decision": "EXCLUDE",
+    "reason": "Explicit survey and synthesis, excluded from core empirical research.",
+    "evidence": "We survey and synthesize interdisciplinary research"
+  },
+  {
+    "id": "R04230",
+    "decision": "EXCLUDE",
+    "reason": "Source-code size prediction for reverse engineering, with no LLM/security/OS task.",
+    "evidence": "PREDICTING THE SIZE OF THE SOURCE CODE OF A BINARY PROGRAM IN THE INTERESTS OF ITS INTELLECTUAL REVERSE ENGINEERING"
+  },
+  {
+    "id": "R04231",
+    "decision": "EXCLUDE",
+    "reason": "Binary reverse-engineering acceleration, with no explicit LLM/security/OS task.",
+    "evidence": "Binary Sight-Seeing: Accelerating Reverse Engineering via Point-of-Interest-Beacons"
+  },
+  {
+    "id": "R04232",
+    "decision": "EXCLUDE",
+    "reason": "Benchmarking decompiler type inference, not an OS security task or LLM use.",
+    "evidence": "Benchmarking Binary Type Inference Techniques in Decompilers"
+  },
+  {
+    "id": "R04233",
+    "decision": "EXCLUDE",
+    "reason": "GNN binary semantics inference, not an OS security task or LLM use.",
+    "evidence": "Toward Inferring Structural Semantics from Binary Code Using Graph Neural Networks"
+  },
+  {
+    "id": "R04234",
+    "decision": "EXCLUDE",
+    "reason": "Protocol state-machine inference, not an OS security task or LLM use.",
+    "evidence": "Automatic State Machine Inference for Binary Protocol Reverse Engineering"
+  },
+  {
+    "id": "R04235",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection/PII guardrail for LLM applications, not OS-component security.",
+    "evidence": "sits between an application and its LLM provider"
+  },
+  {
+    "id": "R04236",
+    "decision": "EXCLUDE",
+    "reason": "VR/cognitive support for binary reverse engineering, not an OS security task.",
+    "evidence": "A Cognitive Approach to Improving Binary Reverse Engineering with Immersive Virtual Reality"
+  },
+  {
+    "id": "R04237",
+    "decision": "EXCLUDE",
+    "reason": "Assembly-language training/education, not LLM-based OS security research.",
+    "evidence": "training programme for software developers"
+  },
+  {
+    "id": "R04238",
+    "decision": "UNCLEAR",
+    "reason": "Firmware sensor attack paper is security-relevant, but LLM role and OS target are not stated.",
+    "evidence": "Leveraging Firmware Reverse Engineering for Stealthy Sensor Attacks via Binary Modification"
+  },
+  {
+    "id": "R04239",
+    "decision": "EXCLUDE",
+    "reason": "LLM codebase reverse engineering into causal diagrams, not OS security.",
+    "evidence": "leverages LLMs to Reverse Engineering Codebase to Causal Relational Diagram"
+  },
+  {
+    "id": "R04240",
+    "decision": "EXCLUDE",
+    "reason": "Defensive reverse engineering of LLM applications, not OS-component security.",
+    "evidence": "defensive reverse-engineering framework for black-box security assessment of deployed LLM applications"
+  }
+]

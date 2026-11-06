@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01892",
+    "decision": "EXCLUDE",
+    "reason": "Chess accessibility system; no security task or OS target.",
+    "evidence": "can make chess accessible to visually impaired people"
+  },
+  {
+    "id": "R01893",
+    "decision": "EXCLUDE",
+    "reason": "Human-robot assembly collaboration; no security analysis or OS target.",
+    "evidence": "AR–LLM–VLM–Cobot system for assembly-oriented part delivery"
+  },
+  {
+    "id": "R01895",
+    "decision": "EXCLUDE",
+    "reason": "Physical therapy licensing exam evaluation; no security task or OS target.",
+    "evidence": "Korean Physical Therapist Licensing Examinations"
+  },
+  {
+    "id": "R01897",
+    "decision": "EXCLUDE",
+    "reason": "General LLM-agent verification and reward reliability; no OS security target.",
+    "evidence": "verification as a sequential, resource-constrained decision problem"
+  },
+  {
+    "id": "R01900",
+    "decision": "EXCLUDE",
+    "reason": "Legacy code migration workflow; general software verification, not OS security.",
+    "evidence": "verify equivalence by differential testing of old and new implementations"
+  },
+  {
+    "id": "R01901",
+    "decision": "EXCLUDE",
+    "reason": "Hallucination detection in LLM outputs; no security task or OS target.",
+    "evidence": "hallucination detection framework based on a Labeled Logic Program"
+  },
+  {
+    "id": "R01902",
+    "decision": "EXCLUDE",
+    "reason": "Multi-LLM triangulation procedure; no security analysis or OS target.",
+    "evidence": "Observer-Mediated Multi-LLM Triangulation (OMT)"
+  },
+  {
+    "id": "R01903",
+    "decision": "EXCLUDE",
+    "reason": "Hardware UVM testbench verification; not OS security.",
+    "evidence": "detect missing checkers that coverage metrics cannot reveal"
+  },
+  {
+    "id": "R01904",
+    "decision": "EXCLUDE",
+    "reason": "LLM serving cache optimization; no security task or OS target.",
+    "evidence": "backend-agnostic step-level reuse layer"
+  },
+  {
+    "id": "R01906",
+    "decision": "EXCLUDE",
+    "reason": "AI-generated text detection; no OS security task.",
+    "evidence": "distinguishing human-authored from AI-generated text"
+  },
+  {
+    "id": "R01907",
+    "decision": "EXCLUDE",
+    "reason": "Public-sector hallucination risk V&V; no OS security target.",
+    "evidence": "Hallucination Detection in Public-Sector LLM Systems"
+  },
+  {
+    "id": "R01909",
+    "decision": "EXCLUDE",
+    "reason": "Incident-response containment system; LLM only narrates, and target is network-edge enforcement rather than OS components.",
+    "evidence": "which narrates and is structurally incapable of deciding"
+  },
+  {
+    "id": "R01910",
+    "decision": "EXCLUDE",
+    "reason": "Clinical summary confidence prediction; no security task or OS target.",
+    "evidence": "verification-based confidence prediction improves upon token-level estimates"
+  },
+  {
+    "id": "R01911",
+    "decision": "EXCLUDE",
+    "reason": "Legal-pipeline dual-agent verification; no OS security task.",
+    "evidence": "Ratification is the act of confirming a claim through independent re-execution"
+  },
+  {
+    "id": "R01917",
+    "decision": "EXCLUDE",
+    "reason": "Financial forensics benchmark; no OS security task.",
+    "evidence": "financial impact modelling on a synthetic dataset of 50,000 transaction records"
+  },
+  {
+    "id": "R01918",
+    "decision": "EXCLUDE",
+    "reason": "Process-control hallucination detection; no OS security task.",
+    "evidence": "process-control hallucinations"
+  },
+  {
+    "id": "R01919",
+    "decision": "EXCLUDE",
+    "reason": "Reasoning-governance protocol; no security task or OS target.",
+    "evidence": "auditable verification layer for LLM reasoning systems"
+  },
+  {
+    "id": "R01920",
+    "decision": "EXCLUDE",
+    "reason": "Systematic mapping study (review) of LLM-generated RTL verification; not core empirical OS security.",
+    "evidence": "Systematic Mapping Study"
+  },
+  {
+    "id": "R01922",
+    "decision": "EXCLUDE",
+    "reason": "Multi-agent LLM verification allocation; no OS security target.",
+    "evidence": "verification as a resource-allocation problem under correlated errors"
+  },
+  {
+    "id": "R01924",
+    "decision": "EXCLUDE",
+    "reason": "Care-robot privacy framework; no security of OS components.",
+    "evidence": "privacy-aware and context-adaptive care robot framework"
+  },
+  {
+    "id": "R01927",
+    "decision": "EXCLUDE",
+    "reason": "Robot planning with symbolic verification; no security task or OS target.",
+    "evidence": "Robot Planning via LLM Proposals and Symbolic Verification"
+  },
+  {
+    "id": "R01928",
+    "decision": "EXCLUDE",
+    "reason": "Clinical calculator applicability study; no security task or OS target.",
+    "evidence": "One frozen local Llama 3.1 8B model"
+  },
+  {
+    "id": "R01929",
+    "decision": "EXCLUDE",
+    "reason": "Citation verification prompt study; no OS security task.",
+    "evidence": "testing three AI citation verification prompts"
+  },
+  {
+    "id": "R01932",
+    "decision": "EXCLUDE",
+    "reason": "Peer verification of LLM tool-use self-reports; no OS security target.",
+    "evidence": "peer-based trust and reputation mechanisms"
+  },
+  {
+    "id": "R01934",
+    "decision": "EXCLUDE",
+    "reason": "Duplicate hallucination-detection paper; no security task or OS target.",
+    "evidence": "LLP consistently outperforms classical symbolic validators"
+  },
+  {
+    "id": "R01935",
+    "decision": "EXCLUDE",
+    "reason": "Power-system simulation workflow verification; no security or OS target.",
+    "evidence": "state-verification mechanism checks workflow admissibility"
+  },
+  {
+    "id": "R01936",
+    "decision": "EXCLUDE",
+    "reason": "Structured knowledge verification uncertainty; no OS security task.",
+    "evidence": "structured knowledge verification"
+  },
+  {
+    "id": "R01938",
+    "decision": "EXCLUDE",
+    "reason": "Turkish LLM output validation; no OS security task.",
+    "evidence": "validating LLM outputs in terms of ethical compliance, meaningfulness, and hallucination detection"
+  },
+  {
+    "id": "R01941",
+    "decision": "EXCLUDE",
+    "reason": "LLM reasoning verification via DAGs; no security task or OS target.",
+    "evidence": "Structured Verification of LLM Reasoning with Directed Acyclic Graphs"
+  },
+  {
+    "id": "R01947",
+    "decision": "EXCLUDE",
+    "reason": "Survey of Socratic metacognition for LLM truth verification; review and no OS security.",
+    "evidence": "This paper surveys the core challenges of LLM untruthfulness"
+  },
+  {
+    "id": "R01949",
+    "decision": "EXCLUDE",
+    "reason": "Summarization faithfulness detection in Chinese history; no OS security task.",
+    "evidence": "hallucination safety detection in LLM-generated summaries"
+  },
+  {
+    "id": "R01950",
+    "decision": "EXCLUDE",
+    "reason": "Drug repurposing RAG framework; no security task or OS target.",
+    "evidence": "Explainable Drug Repurposing"
+  },
+  {
+    "id": "R01951",
+    "decision": "EXCLUDE",
+    "reason": "Optimization-model autoformulation; no security task or OS target.",
+    "evidence": "Co-Evolving Generation and Verification for LLM-Based Optimization Autoformulation"
+  },
+  {
+    "id": "R01964",
+    "decision": "EXCLUDE",
+    "reason": "Industrial fault diagnosis; no security analysis of OS components.",
+    "evidence": "Industrial Fault Diagnosis"
+  },
+  {
+    "id": "R01969",
+    "decision": "EXCLUDE",
+    "reason": "LLM annotation verification for datasets; no OS security task.",
+    "evidence": "rule-based verification for verifiable and review-efficient LLM annotation"
+  },
+  {
+    "id": "R01975",
+    "decision": "EXCLUDE",
+    "reason": "Financial transaction constraint verification; no OS security target.",
+    "evidence": "internet finance transaction execution"
+  },
+  {
+    "id": "R01977",
+    "decision": "EXCLUDE",
+    "reason": "Review of LLM-assisted hardware design verification; survey and not OS security.",
+    "evidence": "This review synthesizes"
+  },
+  {
+    "id": "R01978",
+    "decision": "EXCLUDE",
+    "reason": "Audit of LLM agent self-reports; no OS security task.",
+    "evidence": "Self-Reports Are Not Verification"
+  },
+  {
+    "id": "R01989",
+    "decision": "EXCLUDE",
+    "reason": "Cloud-storage sensitive-data classification and partitioning; not OS components or privileged interfaces.",
+    "evidence": "secure and fine-grained storage isolation within hybrid cloud environments"
+  },
+  {
+    "id": "R01997",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM inference I/O bottlenecks; review and no security task.",
+    "evidence": "This survey decomposes inference I/O"
+  }
+]

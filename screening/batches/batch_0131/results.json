@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R05241",
+    "decision": "EXCLUDE",
+    "reason": "Legal/tax reasoning and theorem-proving comparison, not security or OS work.",
+    "evidence": "applied to legal reasoning for tax law"
+  },
+  {
+    "id": "R05242",
+    "decision": "EXCLUDE",
+    "reason": "LLM uncertainty estimation; no security task or OS component.",
+    "evidence": "LLM semantic uncertainty estimation"
+  },
+  {
+    "id": "R05243",
+    "decision": "EXCLUDE",
+    "reason": "Autoencoder theorem proving; no LLM, security, or OS scope in title.",
+    "evidence": "Applying Autoencoder to Automated Theorem Proving"
+  },
+  {
+    "id": "R05244",
+    "decision": "EXCLUDE",
+    "reason": "Philosophy of artificial mathematical intelligence, not security or OS research.",
+    "evidence": "recognize artificial systems as intelligent"
+  },
+  {
+    "id": "R05245",
+    "decision": "EXCLUDE",
+    "reason": "Automated theorem proving for numeral representations, not security or OS.",
+    "evidence": "Walnut Theorem-Prover"
+  },
+  {
+    "id": "R05246",
+    "decision": "EXCLUDE",
+    "reason": "QBF theorem proving; no LLM, security, or OS target.",
+    "evidence": "Subsumption-Linear Q-Resolution for QBF Theorem Proving"
+  },
+  {
+    "id": "R05247",
+    "decision": "EXCLUDE",
+    "reason": "Distribution-network load forecasting with an LLM, not security or OS.",
+    "evidence": "distribution network load forecasting method based on large language model"
+  },
+  {
+    "id": "R05248",
+    "decision": "EXCLUDE",
+    "reason": "Legal/tax reasoning and theorem-proving comparison, not security or OS work.",
+    "evidence": "applied to legal reasoning for tax law"
+  },
+  {
+    "id": "R05249",
+    "decision": "EXCLUDE",
+    "reason": "Random-matrix/Bessel asymptotics; no LLM, security, or OS target.",
+    "evidence": "Bessel process models the local eigenvalue statistics"
+  },
+  {
+    "id": "R05250",
+    "decision": "EXCLUDE",
+    "reason": "LLM quantization and energy study; no security outcome or OS target.",
+    "evidence": "Time and Energy Consumption of a Large Language Model"
+  },
+  {
+    "id": "R05251",
+    "decision": "EXCLUDE",
+    "reason": "LLM quantization method; no security task or OS target.",
+    "evidence": "HIGGS: Pushing the Limits of Large Language Model Quantization via the Linearity Theorem"
+  },
+  {
+    "id": "R05252",
+    "decision": "EXCLUDE",
+    "reason": "Legal/tax reasoning and theorem-proving comparison, not security or OS work.",
+    "evidence": "applied to legal reasoning for tax law"
+  },
+  {
+    "id": "R05253",
+    "decision": "EXCLUDE",
+    "reason": "Fluid-flow modeling with theorem proving and GNNs, not security or OS.",
+    "evidence": "modeling of fluid flows"
+  },
+  {
+    "id": "R05254",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted formal verification targets blockchain consensus, not OS components or privileged interfaces.",
+    "evidence": "verification of Bitcoin's Proof of Work consensus"
+  },
+  {
+    "id": "R05255",
+    "decision": "EXCLUDE",
+    "reason": "Group-theory theorem exposition, not LLM security or OS work.",
+    "evidence": "prove a famous theorem in group theory"
+  },
+  {
+    "id": "R05256",
+    "decision": "EXCLUDE",
+    "reason": "Neural theorem-proving evaluation; no explicit security or OS target.",
+    "evidence": "Evaluating Research-Level Neural Theorem Proving"
+  },
+  {
+    "id": "R05257",
+    "decision": "EXCLUDE",
+    "reason": "General software code-security specification detection, not OS-specific analysis.",
+    "evidence": "code security specification detection in the software development process"
+  },
+  {
+    "id": "R05258",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; title suggests LLM-generated counterexamples for specification inference, but security and OS scope are unstated.",
+    "evidence": "Improving Dynamic Specification Inference with LLM-Generated Counterexamples"
+  },
+  {
+    "id": "R05259",
+    "decision": "EXCLUDE",
+    "reason": "LLM security analysis targets O-RAN, not OS components or privileged interfaces.",
+    "evidence": "Automated Security Analysis of O-RAN"
+  },
+  {
+    "id": "R05260",
+    "decision": "EXCLUDE",
+    "reason": "LLM inference delay prediction; no security task or OS target.",
+    "evidence": "LLM inference delay prediction based on machine learning algorithms"
+  },
+  {
+    "id": "R05261",
+    "decision": "EXCLUDE",
+    "reason": "Privacy for LLM training/inference, i.e., security of LLMs, not OS security.",
+    "evidence": "Lightweight Privacy for LLM Training and Inference"
+  },
+  {
+    "id": "R05262",
+    "decision": "EXCLUDE",
+    "reason": "Forensic/reproducibility framework for local LLM inference, not OS security.",
+    "evidence": "Practical Forensic Framework for Verifiable and Reproducible Local LLM Inference"
+  },
+  {
+    "id": "R05263",
+    "decision": "EXCLUDE",
+    "reason": "LLM speculative inference infrastructure; no security task or OS target.",
+    "evidence": "LLM speculative inference in training-inference integrated computing infrastructure scenarios"
+  },
+  {
+    "id": "R05264",
+    "decision": "EXCLUDE",
+    "reason": "Resource scheduling for LLM serving, not security or OS work.",
+    "evidence": "Anomaly-Aware Resource Scheduling in LLM Inference"
+  },
+  {
+    "id": "R05265",
+    "decision": "EXCLUDE",
+    "reason": "Title indicates general software code-security specification detection, not OS-specific work.",
+    "evidence": "Enhancing Code Security Specification Detection in Software Development with LLM"
+  },
+  {
+    "id": "R05266",
+    "decision": "EXCLUDE",
+    "reason": "Defenses against inference-time risks to LLM systems, not OS security.",
+    "evidence": "Towards Safe and Secure LLM Systems"
+  },
+  {
+    "id": "R05267",
+    "decision": "EXCLUDE",
+    "reason": "Resilient LLM inference framework; no OS security target.",
+    "evidence": "Dynamic Heterogeneous Redundancy Framework for Resilient Large Language Model Inference"
+  },
+  {
+    "id": "R05268",
+    "decision": "EXCLUDE",
+    "reason": "Efficient LLM inference on CPUs; no security task or OS target.",
+    "evidence": "Efficient LLM Inference on CPUs"
+  },
+  {
+    "id": "R05269",
+    "decision": "EXCLUDE",
+    "reason": "Quantization/performance study for LLM inference; no security or OS task.",
+    "evidence": "De-quantization Penalties for Interactive LLM Inference on Prosumer GPUs"
+  },
+  {
+    "id": "R05270",
+    "decision": "EXCLUDE",
+    "reason": "Security analysis of LLM-powered applications and local inference frameworks, not OS components.",
+    "evidence": "An Empirical Analysis of LLM-Powered Applications and Local Inference Frameworks"
+  },
+  {
+    "id": "R05271",
+    "decision": "EXCLUDE",
+    "reason": "Prefetching for long-context LLM inference; no security task or OS target.",
+    "evidence": "Accelerating Long-Context LLM Inference via Explicit Prefetching"
+  },
+  {
+    "id": "R05272",
+    "decision": "EXCLUDE",
+    "reason": "Nondeterminism in LLM inference; no security task or OS target.",
+    "evidence": "Defeating Nondeterminism in LLM Inference"
+  },
+  {
+    "id": "R05273",
+    "decision": "EXCLUDE",
+    "reason": "Scaling-law theory for LLM training and inference; no security or OS work.",
+    "evidence": "universal theory on the joint computational scaling of LLM training and inference"
+  },
+  {
+    "id": "R05274",
+    "decision": "EXCLUDE",
+    "reason": "Privacy preservation for LLM inference, not OS security.",
+    "evidence": "Risk-Aware Privacy Preservation for LLM Inference"
+  },
+  {
+    "id": "R05275",
+    "decision": "UNCLEAR",
+    "reason": "Linux-interface security specification inference may be in scope, but the missing abstract leaves the LLM role and task unclear.",
+    "evidence": "Specification Inference for Linux Interfaces from Security Patches"
+  },
+  {
+    "id": "R05276",
+    "decision": "EXCLUDE",
+    "reason": "LLM-as-a-judge calibration/evaluation; no security task or OS target.",
+    "evidence": "Domain-Specific Inference-Time Scaling for LLM-as-a-Judge Calibration"
+  },
+  {
+    "id": "R05277",
+    "decision": "EXCLUDE",
+    "reason": "Cost-optimized LLM inference orchestration; no security or OS work.",
+    "evidence": "Progressive Context Distillation Across Heterogeneous LLM Fleets for Token-Optimal Inference"
+  },
+  {
+    "id": "R05278",
+    "decision": "EXCLUDE",
+    "reason": "Privacy for LLM training/inference, not OS security.",
+    "evidence": "HybridCrypt-LLM: Lightweight privacy for LLM training and inference"
+  },
+  {
+    "id": "R05279",
+    "decision": "EXCLUDE",
+    "reason": "LLM inference accuracy via dynamic weights; no security or OS task.",
+    "evidence": "Enhancing Inference Accuracy of Llama LLM using Reversely Computed Dynamic Temporary Weights"
+  },
+  {
+    "id": "R05280",
+    "decision": "EXCLUDE",
+    "reason": "KV-cache compression for LLM inference; no security task or OS target.",
+    "evidence": "Reversible Hierarchical KV-Cache Compression for LLM Inference"
+  }
+]

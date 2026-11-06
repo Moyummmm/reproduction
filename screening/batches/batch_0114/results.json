@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R04561",
+    "decision": "UNCLEAR",
+    "reason": "Linux package-incompatibility testing with an LLM is OS-adjacent, but the security outcome is not explicit and the abstract is missing.",
+    "evidence": "LLM-assisted Industrial-Scale Differential Testing of Package Incompatibilities in Linux Distributions"
+  },
+  {
+    "id": "R04562",
+    "decision": "EXCLUDE",
+    "reason": "Tests LLM-integrated applications for quality and trust/safety, not an LLM used for OS security analysis.",
+    "evidence": "proposes a Human-in-the-Loop (HITL) testing framework tailored for LLM-integrated software"
+  },
+  {
+    "id": "R04563",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted penetration testing targets websites and web endpoints, not OS components or privileged interfaces.",
+    "evidence": "LLM-augmented web assessment framework"
+  },
+  {
+    "id": "R04564",
+    "decision": "EXCLUDE",
+    "reason": "Medical sleep-apnea care platform, not LLM security research or an OS component.",
+    "evidence": "A single cloud-based operating system for all stakeholders created visibility into the sleep apnea pathway"
+  },
+  {
+    "id": "R04565",
+    "decision": "EXCLUDE",
+    "reason": "Vehicle OS construction and testing title shows no LLM use or security task; abstract missing.",
+    "evidence": "Real-Time Vehicle Operating System Analysis, Construction and Testing"
+  },
+  {
+    "id": "R04566",
+    "decision": "EXCLUDE",
+    "reason": "Testing an LLM intervention tool with no security analysis or OS target indicated.",
+    "evidence": "Testing an LLM-Based Intervention Tool in Uganda"
+  },
+  {
+    "id": "R04567",
+    "decision": "EXCLUDE",
+    "reason": "Testing an LLM intervention tool with no security analysis or OS target indicated.",
+    "evidence": "Testing an LLM-Based Intervention Tool in Uganda"
+  },
+  {
+    "id": "R04568",
+    "decision": "EXCLUDE",
+    "reason": "Withdrawn prompt-stability study, not OS security analysis or testing.",
+    "evidence": "Fifteen large language models from five provider families were tested on a 10-item narrative interpretation instrument"
+  },
+  {
+    "id": "R04569",
+    "decision": "EXCLUDE",
+    "reason": "Power-transformer differential protection testing with no LLM or OS security component.",
+    "evidence": "Differential protection is a key technique used to safeguard power transformers from internal faults"
+  },
+  {
+    "id": "R04570",
+    "decision": "EXCLUDE",
+    "reason": "Withdrawn preprint notice, not empirical research; no OS security task.",
+    "evidence": "Research Square has withdrawn this preprint"
+  },
+  {
+    "id": "R04571",
+    "decision": "EXCLUDE",
+    "reason": "Critical review of LLM penetration-testing agents, excluded as a review; no OS-specific target established.",
+    "evidence": "This work presents a critical narrative review"
+  },
+  {
+    "id": "R04572",
+    "decision": "EXCLUDE",
+    "reason": "Docker stress and volume testing on Windows without an LLM or security outcome.",
+    "evidence": "Stress testing of Docker containers running on a Windows operating system"
+  },
+  {
+    "id": "R04573",
+    "decision": "EXCLUDE",
+    "reason": "Medical chatbot efficacy testing, not LLM security research or OS security.",
+    "evidence": "different artificial intelligence (AI) chatbots in answering common osteosarcoma clinical questions"
+  },
+  {
+    "id": "R04574",
+    "decision": "EXCLUDE",
+    "reason": "Electromechanical inverter-harmonics study with no LLM or security/OS task.",
+    "evidence": "Electromechanical Coupling Dynamic Characteristics of Differential Speed Regulation System"
+  },
+  {
+    "id": "R04575",
+    "decision": "UNCLEAR",
+    "reason": "LLM multi-agent penetration testing is potentially relevant, but target scope is absent and abstract is missing.",
+    "evidence": "PenExpert: A multi-agent hybrid LLM–expert system framework for autonomous penetration testing"
+  },
+  {
+    "id": "R04576",
+    "decision": "EXCLUDE",
+    "reason": "LLM-migration regression testing tool, not security testing of OS components.",
+    "evidence": "RETAIN: Interactive Tool for Regression Testing Guided LLM Migration"
+  },
+  {
+    "id": "R04577",
+    "decision": "EXCLUDE",
+    "reason": "Microbiology testing SOP for pancreatic islets; no LLM, security, or OS component.",
+    "evidence": "Standard Operating Procedure for Microbiology Testing for Islets for Distribution"
+  },
+  {
+    "id": "R04578",
+    "decision": "EXCLUDE",
+    "reason": "Language-testing psychometric validation of LLM-generated tasks, not security or OS work.",
+    "evidence": "PSYCHOMETRIC MODEL FOR VALIDATING LLM-GENERATED TASKS FOR MICRO-ASSESSMENT IN LANGUAGE TESTING"
+  },
+  {
+    "id": "R04579",
+    "decision": "EXCLUDE",
+    "reason": "Minitrack introduction on LLM software resilience and testing, not original empirical security research.",
+    "evidence": "Introduction to the Minitrack on Advancing Software Resilience in the Age of LLM"
+  },
+  {
+    "id": "R04580",
+    "decision": "EXCLUDE",
+    "reason": "Robot Operating System data-distribution engineering with no LLM or security outcome.",
+    "evidence": "Sistem Distribusi Data Kontrol Pada Differential Drive Mobile Robot Menggunakan Robot Operating System"
+  },
+  {
+    "id": "R04581",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based mutation testing for Python assesses test-suite quality, not OS security.",
+    "evidence": "LLM-Pyro: LLM-Based Mutation Testing with Equivalence Triage for Python"
+  },
+  {
+    "id": "R04582",
+    "decision": "EXCLUDE",
+    "reason": "LLM-driven test-oracle generation is general software testing, not OS security; abstract missing.",
+    "evidence": "Understanding LLM-Driven Test Oracle Generation"
+  },
+  {
+    "id": "R04583",
+    "decision": "EXCLUDE",
+    "reason": "LLM test-oracle generation with tools, not a security task targeting OS components; abstract missing.",
+    "evidence": "ChatAssert: LLM-Based Test Oracle Generation With External Tools Assistance"
+  },
+  {
+    "id": "R04584",
+    "decision": "EXCLUDE",
+    "reason": "Documentation effects on LLM test-oracle generation; general software testing, not OS security.",
+    "evidence": "Investigating the Impact of Documentation on LLM-Based Test Oracle Generation"
+  },
+  {
+    "id": "R04585",
+    "decision": "EXCLUDE",
+    "reason": "LLM-proposed end-to-end test scenarios with deterministic verification, not OS security.",
+    "evidence": "Using LLM-Proposed Scenarios Without Letting the LLM Be the Oracle"
+  },
+  {
+    "id": "R04586",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based test-oracle enhancement is general software testing, not OS security; abstract missing.",
+    "evidence": "LLM-based Specification-Driven Test Oracle Enhancement"
+  },
+  {
+    "id": "R04587",
+    "decision": "EXCLUDE",
+    "reason": "LLM-aided hardware test generation, not OS-component or privileged-interface security; abstract missing.",
+    "evidence": "VerilogReader: LLM-Aided Hardware Test Generation"
+  },
+  {
+    "id": "R04588",
+    "decision": "EXCLUDE",
+    "reason": "Exception-oracle generation from documentation/code, general software testing, not OS security; abstract missing.",
+    "evidence": "Documentation vs. Code Patterns: What Drives LLM-Based Exception Oracle Generation?"
+  },
+  {
+    "id": "R04589",
+    "decision": "EXCLUDE",
+    "reason": "Comparative survey of the oracle problem and test generation; surveys are excluded from the core empirical set.",
+    "evidence": "This paper presents a comparative survey"
+  },
+  {
+    "id": "R04590",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based unit-test generation is general software testing, not OS security; abstract missing.",
+    "evidence": "Test Intention Guided LLM-Based Unit Test Generation"
+  },
+  {
+    "id": "R04591",
+    "decision": "EXCLUDE",
+    "reason": "LLM test-case generation for general open-source projects, not OS security analysis.",
+    "evidence": "LLM-Driven Automated Test Case Generation"
+  },
+  {
+    "id": "R04592",
+    "decision": "EXCLUDE",
+    "reason": "Multi-agent LLM test automation for general software quality, not OS security.",
+    "evidence": "Intelligent Test Automation: A Multi-Agent LLM Framework"
+  },
+  {
+    "id": "R04593",
+    "decision": "EXCLUDE",
+    "reason": "Testing LLM-integrated mobile applications for quality, not OS security.",
+    "evidence": "AI-Augmented Testing solution of LLM-Integrated Mobile Applications"
+  },
+  {
+    "id": "R04594",
+    "decision": "EXCLUDE",
+    "reason": "LLM test-oracle generation for general code, not OS security; abstract missing.",
+    "evidence": "TOGLL: Correct and Strong Test Oracle Generation with LLMS"
+  },
+  {
+    "id": "R04595",
+    "decision": "EXCLUDE",
+    "reason": "Testing LLM-integrated mobile applications for quality, not OS security.",
+    "evidence": "AI-Augmented Testing solution of LLM-Integrated Mobile Applications"
+  },
+  {
+    "id": "R04596",
+    "decision": "EXCLUDE",
+    "reason": "Oracle-less error estimation for LLM code generation, not a security task or OS target.",
+    "evidence": "Incoherence as Oracle-less Measure of Error in LLM-Based Code Generation"
+  },
+  {
+    "id": "R04597",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based test generation for safety-critical validation, with no security task or OS target indicated; abstract missing.",
+    "evidence": "Virtual Continuous Testbeds with LLM-Based Test Case Generation: Toward Closed-Loop Validation of Safety-Critical Systems"
+  },
+  {
+    "id": "R04598",
+    "decision": "EXCLUDE",
+    "reason": "Video-analytics test scenario generation for smart cities, not OS security; abstract missing.",
+    "evidence": "LLM-Based Video Analytics Test Scenario Generation in Smart Cities"
+  },
+  {
+    "id": "R04599",
+    "decision": "EXCLUDE",
+    "reason": "LLM test-case generation from requirements across general domains, not OS security.",
+    "evidence": "LLM-Based Test Case Generation from Natural-Language Requirements"
+  },
+  {
+    "id": "R04600",
+    "decision": "UNCLEAR",
+    "reason": "Title is only an acronym with no abstract, so relevance and scope cannot be determined.",
+    "evidence": "TOGA"
+  }
+]

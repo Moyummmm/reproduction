@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01001",
+    "decision": "EXCLUDE",
+    "reason": "LLM-guided fuzzing targets JavaScript engines, not OS components or privileged interfaces.",
+    "evidence": "State-Aware Fuzzing of JavaScript Engines with LLM-Guided Instrumentation"
+  },
+  {
+    "id": "R01002",
+    "decision": "UNCLEAR",
+    "reason": "LLM seed generation for IoT device fuzzing; target firmware/OS scope and security outcome are not explicit and abstract is missing.",
+    "evidence": "Initial Seeds Generation Using LLM for IoT Device Fuzzing"
+  },
+  {
+    "id": "R01003",
+    "decision": "EXCLUDE",
+    "reason": "Kernel fuzzing is described, but no LLM use is indicated.",
+    "evidence": "Leveraging Binary Coverage for Effective Generation Guidance in Kernel Fuzzing"
+  },
+  {
+    "id": "R01004",
+    "decision": "EXCLUDE",
+    "reason": "LLM-guided vulnerability-aware fuzzing targets JavaScript engines, not OS components.",
+    "evidence": "LLM-Guided Mutation Location Selection for Vulnerability-Aware JavaScript Engine Fuzzing"
+  },
+  {
+    "id": "R01005",
+    "decision": "EXCLUDE",
+    "reason": "Rust OS kernel fuzzing is described, but no LLM use is indicated.",
+    "evidence": "RusyFuzz: Unhandled Exception Guided Fuzzing for Rust OS Kernel"
+  },
+  {
+    "id": "R01006",
+    "decision": "POSSIBLE_CORE",
+    "reason": "SyzGPT uses an LLM with dependency-based RAG to generate and repair kernel fuzzing seeds and reports new kernel bugs.",
+    "evidence": "the first kernel fuzzing framework to automatically generate effective seeds for LFS via Large Language Model (LLM)"
+  },
+  {
+    "id": "R01007",
+    "decision": "UNCLEAR",
+    "reason": "LLM-assisted stateful protocol fuzzing; whether the target is the OS network stack or an application protocol is not stated, and abstract is missing.",
+    "evidence": "HieFuzz: A Hierarchical LLM-Assisted Framework for Stateful Protocol Fuzzing"
+  },
+  {
+    "id": "R01008",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based IoT fuzzing; target firmware/OS scope is not explicit and abstract is missing.",
+    "evidence": "LLM-Based IoT Fuzzing with Format Consistency and Vulnerability-Aware Test Case Generation"
+  },
+  {
+    "id": "R01009",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based network protocol fuzzing; OS-level target and security outcome are not explicit, and abstract is missing.",
+    "evidence": "DerandomPre: An LLM-based Stability Enhancement Method for Network Protocol Fuzzing"
+  },
+  {
+    "id": "R01010",
+    "decision": "EXCLUDE",
+    "reason": "Web API fuzzing for OWASP API Top 10, not OS components or privileged interfaces.",
+    "evidence": "Graph-Driven LLM-Augmented Stateful API Fuzzing for OWASP API Top 10"
+  },
+  {
+    "id": "R01011",
+    "decision": "EXCLUDE",
+    "reason": "Targets proprietary industrial communication protocols, not OS components or privileged interfaces.",
+    "evidence": "An LLM-Guided Fuzzing of Proprietary Industrial Communication Protocols with Context Knowledge"
+  },
+  {
+    "id": "R01012",
+    "decision": "EXCLUDE",
+    "reason": "DBMS fuzzing, a general software target rather than an OS component.",
+    "evidence": "VIREO: Human-in-the-Loop DBMS Fuzzing with Visualization and LLM Support"
+  },
+  {
+    "id": "R01013",
+    "decision": "EXCLUDE",
+    "reason": "Tests LLM over-refusal/safety, not OS security.",
+    "evidence": "Testing Over-Refusal"
+  },
+  {
+    "id": "R01014",
+    "decision": "EXCLUDE",
+    "reason": "Compiler option fuzzing, not OS components or privileged interfaces.",
+    "evidence": "Enhancing Black-box Compiler Option Fuzzing with LLM through Command Feedback"
+  },
+  {
+    "id": "R01015",
+    "decision": "EXCLUDE",
+    "reason": "Lua interpreter fuzzing, general software rather than an OS component.",
+    "evidence": "LLM-Guided Semantic Mutation for Lua Interpreter Fuzzing: A Coverage-Driven Approach"
+  },
+  {
+    "id": "R01016",
+    "decision": "EXCLUDE",
+    "reason": "LLM-guided fuzzing targets smart contracts, not OS components.",
+    "evidence": "smart fuzzing that learns from large language models (LLMs)"
+  },
+  {
+    "id": "R01017",
+    "decision": "EXCLUDE",
+    "reason": "Network service fuzzing is described, but no LLM use is indicated.",
+    "evidence": "NSFuzz: Towards Efficient and State-Aware Network Service Fuzzing"
+  },
+  {
+    "id": "R01018",
+    "decision": "EXCLUDE",
+    "reason": "LLM-guided seed generation for smart contracts, not OS components.",
+    "evidence": "LLAMA: Multi-Feedback Smart Contract Fuzzing Framework With LLM-Guided Seed Generation"
+  },
+  {
+    "id": "R01019",
+    "decision": "EXCLUDE",
+    "reason": "Secures LLM-generated code generally; no OS-component or privileged-interface target is stated.",
+    "evidence": "Securing LLM-Generated Code with Iterative Static Analysis and LLM Review"
+  },
+  {
+    "id": "R01020",
+    "decision": "EXCLUDE",
+    "reason": "LLM routing and congestion analysis; no security task is stated.",
+    "evidence": "Congestion-Aware Static LLM Cascades: Analysis of a Steady-State Framework"
+  },
+  {
+    "id": "R01021",
+    "decision": "EXCLUDE",
+    "reason": "Repairs insecure LLM-generated code generally, not OS components.",
+    "evidence": "transforms insecure LLM output into correct and safe code"
+  },
+  {
+    "id": "R01022",
+    "decision": "EXCLUDE",
+    "reason": "General LLM-driven taint analysis, not an OS-component target.",
+    "evidence": "LLM-driven taint analysis framework"
+  },
+  {
+    "id": "R01023",
+    "decision": "EXCLUDE",
+    "reason": "Repairs insecure LLM-generated code generally, not OS components.",
+    "evidence": "transforms insecure LLM output into correct and safe code"
+  },
+  {
+    "id": "R01024",
+    "decision": "EXCLUDE",
+    "reason": "Kernel race-condition analysis is described, but no LLM use is indicated.",
+    "evidence": "Finding Kernel Race Conditions through Outlier-Based, Context-Sensitive Static Analysis"
+  },
+  {
+    "id": "R01025",
+    "decision": "EXCLUDE",
+    "reason": "Systematic literature review; reviews are excluded from the core empirical set.",
+    "evidence": "Systematic Literature Review"
+  },
+  {
+    "id": "R01026",
+    "decision": "EXCLUDE",
+    "reason": "MISRA compliance for LLM-generated C++ code, not OS security.",
+    "evidence": "MISRA C++:2023"
+  },
+  {
+    "id": "R01027",
+    "decision": "EXCLUDE",
+    "reason": "Static binary code analysis is a general software task; no security task or OS target is stated, and abstract is missing.",
+    "evidence": "Orchestrated Multi-Agent and LLM-Based Reasoning for Static Binary Code Analysis"
+  },
+  {
+    "id": "R01028",
+    "decision": "EXCLUDE",
+    "reason": "Java unit test generation is not a security task targeting OS components.",
+    "evidence": "Static Analysis and LLM for Comprehensive Java Unit Test Generation"
+  },
+  {
+    "id": "R01029",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-assisted static taint analysis explicitly targets UEFI management-module trust boundaries, a privileged firmware interface.",
+    "evidence": "LLM-Assisted Static Taint Analysis for UEFI Management-Module Trust Boundaries"
+  },
+  {
+    "id": "R01030",
+    "decision": "EXCLUDE",
+    "reason": "Android app crash reproduction, not security analysis of OS components.",
+    "evidence": "Android application crash reproduction"
+  },
+  {
+    "id": "R01031",
+    "decision": "EXCLUDE",
+    "reason": "General static-analysis semantic validation; no security task or OS target is stated, and abstract is missing.",
+    "evidence": "Enhancing Static Analysis through LLM-Based Semantic Validation"
+  },
+  {
+    "id": "R01032",
+    "decision": "EXCLUDE",
+    "reason": "ICC resolution is a program-analysis task; no security task or OS target is stated.",
+    "evidence": "Enhancing Static Analysis for ICC Resolution: An LLM-Integrated Approach"
+  },
+  {
+    "id": "R01033",
+    "decision": "EXCLUDE",
+    "reason": "Addresses program analysis for mixed human/AI codebases, a general software target not OS security.",
+    "evidence": "mixed human/AI codebases"
+  },
+  {
+    "id": "R01034",
+    "decision": "EXCLUDE",
+    "reason": "Enhances LLM-generated code quality, not OS security analysis.",
+    "evidence": "Static Analysis as a Feedback Loop: Enhancing LLM-Generated Code Beyond Correctness"
+  },
+  {
+    "id": "R01035",
+    "decision": "EXCLUDE",
+    "reason": "General interleaving of static analysis and LLM prompting; no security task or OS target is stated.",
+    "evidence": "Interleaving Static Analysis and LLM Prompting"
+  },
+  {
+    "id": "R01036",
+    "decision": "EXCLUDE",
+    "reason": "Static malware analysis targets Windows PE files, not OS components or privileged interfaces.",
+    "evidence": "LLM Based Static Malware Analysis for Windows Portable Executables"
+  },
+  {
+    "id": "R01037",
+    "decision": "EXCLUDE",
+    "reason": "Code translation to Triton kernels; no security analysis or OS-component target is stated.",
+    "evidence": "Augmenting LLM Code Translation with Compiler Analysis for C to Triton Kernel Generation"
+  },
+  {
+    "id": "R01038",
+    "decision": "EXCLUDE",
+    "reason": "Detects inference bottlenecks in distributed systems; no security task is stated.",
+    "evidence": "LLM-Powered Automated Detection and Optimization of Inference Bottlenecks in Distributed Systems: A Static Analysis Approach"
+  },
+  {
+    "id": "R01039",
+    "decision": "EXCLUDE",
+    "reason": "Studies quality deterioration in LLM-based automated program repair; no OS security target.",
+    "evidence": "automated program repair"
+  },
+  {
+    "id": "R01040",
+    "decision": "EXCLUDE",
+    "reason": "General security patching of LLM-generated code; OS is only an application domain, not a privileged-interface target.",
+    "evidence": "including databases, websites, and operating systems"
+  }
+]

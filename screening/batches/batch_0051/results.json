@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02041",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; log anomaly detection may be security-relevant, but LLM role and target scope are not stated.",
+    "evidence": "Lightweight Optimization based Log-file Anomaly Detection"
+  },
+  {
+    "id": "R02042",
+    "decision": "EXCLUDE",
+    "reason": "Blockchain log storage using PoS and Blowfish; no LLM involvement indicated.",
+    "evidence": "integrating the more secure and energy-efficient Proof of Stake (PoS) algorithm with Blowfish encryption"
+  },
+  {
+    "id": "R02043",
+    "decision": "EXCLUDE",
+    "reason": "Studies LLM reviewer dynamics in peer review, not a security task.",
+    "evidence": "Modeling LLM Agent Reviewer Dynamics in Elo-Ranked Review System"
+  },
+  {
+    "id": "R02044",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted malicious bug detection targets hardware designs, not OS components or privileged interfaces.",
+    "evidence": "LLM-Assisted Malicious Bug Detection and Analysis in Hardware Designs"
+  },
+  {
+    "id": "R02045",
+    "decision": "EXCLUDE",
+    "reason": "Tests reasoning protocols in LLM optimization agents; no security task or OS target.",
+    "evidence": "We test this assumption using SynthOracle"
+  },
+  {
+    "id": "R02046",
+    "decision": "EXCLUDE",
+    "reason": "LLM-driven neural architecture search; no security analysis or OS target.",
+    "evidence": "Structured Progressive Knowledge Activation (SPARK)"
+  },
+  {
+    "id": "R02047",
+    "decision": "EXCLUDE",
+    "reason": "Context compression for LLM tool outputs; no security task or OS component target.",
+    "evidence": "an invariant-preserving compression gate for structured tool outputs"
+  },
+  {
+    "id": "R02048",
+    "decision": "UNCLEAR",
+    "reason": "Title-only graph-database network log analysis; LLM role and security outcome unclear.",
+    "evidence": "A Graph Database-Based Method for Network Log File Analysis"
+  },
+  {
+    "id": "R02049",
+    "decision": "EXCLUDE",
+    "reason": "Confidence calibration for LLM multiple-choice QA; no security or OS task.",
+    "evidence": "can serve as effective confidence signals in multiple-choice question answering"
+  },
+  {
+    "id": "R02050",
+    "decision": "EXCLUDE",
+    "reason": "LLM bug-report generation study; no security analysis or OS target.",
+    "evidence": "An Empirical Study of LLM-Based Bug Report Generation"
+  },
+  {
+    "id": "R02051",
+    "decision": "EXCLUDE",
+    "reason": "Cloud file format conversion; no LLM or security task indicated.",
+    "evidence": "Conversion of Unstructured File to Structured File in Cloud Computing"
+  },
+  {
+    "id": "R02052",
+    "decision": "EXCLUDE",
+    "reason": "LLM knowledge grounding for wellness sales; no security task.",
+    "evidence": "personalized wellness sales"
+  },
+  {
+    "id": "R02053",
+    "decision": "EXCLUDE",
+    "reason": "LLM plus system-log chatbot for network troubleshooting; operational rather than security analysis.",
+    "evidence": "Enhancement of Chatbot Conversation for Network Troubleshooting by Combining LLM and System Log Analysis"
+  },
+  {
+    "id": "R02054",
+    "decision": "EXCLUDE",
+    "reason": "Log-based patient-specific quality assurance; no LLM or security task.",
+    "evidence": "log file based PSQA"
+  },
+  {
+    "id": "R02055",
+    "decision": "EXCLUDE",
+    "reason": "Intrusion detection for ATMS networks, not OS components or privileged interfaces.",
+    "evidence": "Intrusion Detection Framework with Semantic Log Enrichment for ATMS Networks"
+  },
+  {
+    "id": "R02056",
+    "decision": "UNCLEAR",
+    "reason": "Title-only LLM-driven bug detection with audit specifications; security relevance and OS scope unstated.",
+    "evidence": "SpecAuditor: Generating Audit Specifications for LLM-Driven Bug Detection"
+  },
+  {
+    "id": "R02057",
+    "decision": "EXCLUDE",
+    "reason": "LLM classifier predicts bug-fixing time; no security task.",
+    "evidence": "A Novel Llm-Based Classifier for Predicting Bug-Fixing Time in Bts"
+  },
+  {
+    "id": "R02058",
+    "decision": "EXCLUDE",
+    "reason": "Regression bug detection is not a security analysis, and no OS target is stated.",
+    "evidence": "Improving LLM‑Based Regression Bug Detection"
+  },
+  {
+    "id": "R02059",
+    "decision": "EXCLUDE",
+    "reason": "LLM extraction of R&D disclosures; no security or OS task.",
+    "evidence": "turn the R&D activity sections of Japanese annual securities reports into structured company-year data"
+  },
+  {
+    "id": "R02060",
+    "decision": "EXCLUDE",
+    "reason": "Multimodal data adaptation to LLMs; no security task.",
+    "evidence": "Multimodal Structured Data to LLM Adaptation System"
+  },
+  {
+    "id": "R02061",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted schema mapping; no security or OS task.",
+    "evidence": "trustworthy LLM-assisted semantic mapping"
+  },
+  {
+    "id": "R02062",
+    "decision": "UNCLEAR",
+    "reason": "Title-only AI log analysis; LLM role and security outcome not stated.",
+    "evidence": "An Artificial Intelligence Powered Framework for Intelligent Log File Analysis"
+  },
+  {
+    "id": "R02063",
+    "decision": "EXCLUDE",
+    "reason": "LLM classifier for bug-fixing time; no security task.",
+    "evidence": "A novel LLM-based classifier for predicting bug-fixing time in Bug Tracking Systems"
+  },
+  {
+    "id": "R02064",
+    "decision": "EXCLUDE",
+    "reason": "Gaussian .log processing software; chemistry domain, no LLM or security task.",
+    "evidence": "SCFMonitor: Clear Monitor and Graphing Software Processing Gaussian .log File"
+  },
+  {
+    "id": "R02065",
+    "decision": "EXCLUDE",
+    "reason": "Deterministic compilation for LLM pipelines; no security or OS task.",
+    "evidence": "a deterministic compilation architecture for structured LLM pipelines"
+  },
+  {
+    "id": "R02066",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted QSP model calibration; no security or OS task.",
+    "evidence": "Structured Schemas for Provenance-Rich, LLM-Assisted QSP Model Calibration"
+  },
+  {
+    "id": "R02067",
+    "decision": "EXCLUDE",
+    "reason": "LLM file summarization system; no security or OS task.",
+    "evidence": "Intelligent File Summarization System using LLM"
+  },
+  {
+    "id": "R02068",
+    "decision": "UNCLEAR",
+    "reason": "Title-only generic log file analysis; LLM and security dimensions absent.",
+    "evidence": "Log File Analysis"
+  },
+  {
+    "id": "R02069",
+    "decision": "EXCLUDE",
+    "reason": "LLM log analysis for reliability and error classification, not security analysis.",
+    "evidence": "System logs are classified as either passed or failed based on extracted error patterns"
+  },
+  {
+    "id": "R02070",
+    "decision": "EXCLUDE",
+    "reason": "Compares ETCD storage structures; no LLM or security task.",
+    "evidence": "implementation of ETCD using Adelson-Velsky and Landis (AVL) and Log Structured Merge (LSM) Tree"
+  },
+  {
+    "id": "R02071",
+    "decision": "EXCLUDE",
+    "reason": "Tool for bundling repositories for LLM input; no security task.",
+    "evidence": "Turn a GitHub repo into a single text file for LLM-friendly input"
+  },
+  {
+    "id": "R02072",
+    "decision": "EXCLUDE",
+    "reason": "Multi-versioned log-structured index; no LLM or security task.",
+    "evidence": "Multi-versioned log-structured index"
+  },
+  {
+    "id": "R02073",
+    "decision": "EXCLUDE",
+    "reason": "SQL server transaction log forensics; no LLM involvement stated.",
+    "evidence": "Forensic analysis of SQL server transaction log in unallocated area of file system"
+  },
+  {
+    "id": "R02074",
+    "decision": "UNCLEAR",
+    "reason": "OS-level audit-log integrity is security-relevant, but title-only and no LLM role stated.",
+    "evidence": "Print-Time Audit-Log Integrity Below the Operating System"
+  },
+  {
+    "id": "R02075",
+    "decision": "EXCLUDE",
+    "reason": "Repo-to-text tool for LLM input; no security task.",
+    "evidence": "Turn a GitHub repo into a single text file for LLM-friendly input"
+  },
+  {
+    "id": "R02076",
+    "decision": "EXCLUDE",
+    "reason": "LLM knowledge grounding for wellness sales; no security task.",
+    "evidence": "Structured Enterprise Knowledge Grounding in LLM Agents for Personalized Wellness Sales"
+  },
+  {
+    "id": "R02077",
+    "decision": "EXCLUDE",
+    "reason": "Lossy log compression; no LLM or security task.",
+    "evidence": "A Slicing Approach for Log File Compression"
+  },
+  {
+    "id": "R02078",
+    "decision": "EXCLUDE",
+    "reason": "Review/survey with no security task, excluded from core empirical research set.",
+    "evidence": "This review surveys cross-domain academic research"
+  },
+  {
+    "id": "R02079",
+    "decision": "EXCLUDE",
+    "reason": "Unsupervised LLM log parsing; no security analysis or OS target stated.",
+    "evidence": "SCULP: An Unsupervised LLM-Based Log Parser with Self-Correcting Capabilities"
+  },
+  {
+    "id": "R02080",
+    "decision": "EXCLUDE",
+    "reason": "Log-based patient-specific quality assurance; no LLM or security task.",
+    "evidence": "Impact of log file source and data frequency on accuracy of log file-based patient specific quality assurance"
+  }
+]

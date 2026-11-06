@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03961",
+    "decision": "EXCLUDE",
+    "reason": "Mental-health anxiety assessment; no security or OS task.",
+    "evidence": "Psychological Anxiety Risk Analysis Model Based on Large Language Model Interaction"
+  },
+  {
+    "id": "R03962",
+    "decision": "EXCLUDE",
+    "reason": "Review/tutorial for behavioral scientists; not original security/OS research.",
+    "evidence": "A Tutorial on Large-Language-Model-Based Text Analysis for Behavioral Scientists"
+  },
+  {
+    "id": "R03963",
+    "decision": "EXCLUDE",
+    "reason": "LLM protocol verification targets formal security protocols, not OS components or privileged interfaces.",
+    "evidence": "Security protocols verification relies on formal tools such as ProVerif and OFMC."
+  },
+  {
+    "id": "R03964",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM security analysis is indicated but the OS target is unknown.",
+    "evidence": "Towards Effective Complementary Security Analysis Using Large Language Models"
+  },
+  {
+    "id": "R03965",
+    "decision": "EXCLUDE",
+    "reason": "Financial forecasting; no security or OS task.",
+    "evidence": "Large-Scale Financial Forecasting Using Advanced GAI-Based Large Language Models and Time Series Analysis"
+  },
+  {
+    "id": "R03966",
+    "decision": "EXCLUDE",
+    "reason": "Document-scoring queue architecture; no security or OS task.",
+    "evidence": "Tiered Asynchronous Queue Architecture for Decoupled Document Scoring and Large Language Model Analysis Pipelines"
+  },
+  {
+    "id": "R03967",
+    "decision": "EXCLUDE",
+    "reason": "Sentiment analysis of educational feedback; no security or OS task.",
+    "evidence": "Sentiment analysis of Large Language Models feedback: A multi-model comparative study in programming assessment"
+  },
+  {
+    "id": "R03968",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Title suggests LLM-driven taint analysis for a security issue in Trusted Applications, a privileged-interface context.",
+    "evidence": "LLM-Driven Taint Analysis for Detecting Bad Partitioning Issues in Trusted Applications"
+  },
+  {
+    "id": "R03969",
+    "decision": "EXCLUDE",
+    "reason": "Data-leak detection in multi-user LLM apps; security of LLM applications, not OS components.",
+    "evidence": "Detecting Data Leaks in Multi-user LLM Apps via Automated User-Scoped Taint Analysis"
+  },
+  {
+    "id": "R03970",
+    "decision": "UNCLEAR",
+    "reason": "LLM binary/firmware vulnerability detection, but an OS-component target is not established.",
+    "evidence": "The successful detection of 131 vulnerabilities in real firmware shows that the method can greatly help analysts identify and fix vulnerabilities."
+  },
+  {
+    "id": "R03971",
+    "decision": "EXCLUDE",
+    "reason": "SSRF detection in PHP web applications; target is not an OS component.",
+    "evidence": "a static taint analysis tool for detecting SSRF vulnerabilities in PHP web applications."
+  },
+  {
+    "id": "R03972",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; Android GUI-field auditing does not clearly establish an OS-component security task.",
+    "evidence": "ViTAL: LLM-Powered Taint Analysis for GUI Field Visualization Auditing in Android"
+  },
+  {
+    "id": "R03973",
+    "decision": "UNCLEAR",
+    "reason": "LLM binary/firmware vulnerability detection, but an OS-component target is not established.",
+    "evidence": "LATTE has found 37 new bugs in real-world firmware"
+  },
+  {
+    "id": "R03974",
+    "decision": "EXCLUDE",
+    "reason": "Backward taint analysis for source-code structure; no LLM or security/OS outcome shown.",
+    "evidence": "Source Code Implied Language Structure Abstraction through Backward Taint Analysis"
+  },
+  {
+    "id": "R03975",
+    "decision": "EXCLUDE",
+    "reason": "Android taint analysis based on labeled graphs; no LLM role shown.",
+    "evidence": "A fine-grained approach for Android taint analysis based on labeled taint value graphs"
+  },
+  {
+    "id": "R03976",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection detection in LLM-integrated apps; security of LLM apps, not OS.",
+    "evidence": "TaintP2X: Detecting Taint-Style Prompt-to-Anything Injection Vulnerabilities in LLM-Integrated Applications"
+  },
+  {
+    "id": "R03977",
+    "decision": "EXCLUDE",
+    "reason": "Static taint analysis for embedded systems; no LLM role shown.",
+    "evidence": "SFtaint: Leveraging Precise Taint Source Recognition to Enhance Efficiency of Static Taint Analysis in Embedded Systems"
+  },
+  {
+    "id": "R03978",
+    "decision": "EXCLUDE",
+    "reason": "Dictionary entry; not original security/OS research.",
+    "evidence": "taint, n.¹"
+  },
+  {
+    "id": "R03979",
+    "decision": "EXCLUDE",
+    "reason": "Dynamic taint-analysis acceleration; no LLM or OS security outcome shown.",
+    "evidence": "podft: On Accelerating Dynamic Taint Analysis with Precise Path Optimization"
+  },
+  {
+    "id": "R03980",
+    "decision": "EXCLUDE",
+    "reason": "Dictionary entry; not original security/OS research.",
+    "evidence": "taint, adj."
+  },
+  {
+    "id": "R03981",
+    "decision": "EXCLUDE",
+    "reason": "Dictionary entry; not original security/OS research.",
+    "evidence": "taint, n.²"
+  },
+  {
+    "id": "R03982",
+    "decision": "EXCLUDE",
+    "reason": "Dictionary entry; not original security/OS research.",
+    "evidence": "taint, v."
+  },
+  {
+    "id": "R03983",
+    "decision": "EXCLUDE",
+    "reason": "Legal article on discriminatory taint; no LLM or security/OS task.",
+    "evidence": "Discriminatory Taint"
+  },
+  {
+    "id": "R03984",
+    "decision": "EXCLUDE",
+    "reason": "Cryptocurrency Android-app security via static taint analysis; no LLM role shown.",
+    "evidence": "This approach uses static taint analysis to detect vulnerabilities inside a given Android application"
+  },
+  {
+    "id": "R03985",
+    "decision": "EXCLUDE",
+    "reason": "Dictionary entry; not original security/OS research.",
+    "evidence": "taint-worm, n."
+  },
+  {
+    "id": "R03986",
+    "decision": "EXCLUDE",
+    "reason": "Blockchain phishing detection via taint analysis; no LLM role and not OS-targeted.",
+    "evidence": "Detecting phishing gangs via taint analysis on the Ethereum blockchain"
+  },
+  {
+    "id": "R03987",
+    "decision": "EXCLUDE",
+    "reason": "In-browser taint-analysis framework; no LLM role or OS-component target shown.",
+    "evidence": "PanoptiChrome: A Modern In-browser Taint Analysis Framework"
+  },
+  {
+    "id": "R03988",
+    "decision": "EXCLUDE",
+    "reason": "General source-code taint-analysis scalability; no LLM role or OS target shown.",
+    "evidence": "Improving Scalability of Inter-module Source Code Static Taint Analysis"
+  },
+  {
+    "id": "R03989",
+    "decision": "EXCLUDE",
+    "reason": "General bimodal taint analysis; no LLM role or OS target shown.",
+    "evidence": "Beware of the Unexpected: Bimodal Taint Analysis"
+  },
+  {
+    "id": "R03990",
+    "decision": "EXCLUDE",
+    "reason": "Bypassing dynamic taint analysis; no LLM role or OS target shown.",
+    "evidence": "ConfuseTaint: Exploiting Vulnerabilities to Bypass Dynamic Taint Analysis"
+  },
+  {
+    "id": "R03991",
+    "decision": "EXCLUDE",
+    "reason": "IoT framework security via static taint analysis; no LLM role shown.",
+    "evidence": "Security Analysis of IoT Frameworks using Static Taint Analysis"
+  },
+  {
+    "id": "R03992",
+    "decision": "EXCLUDE",
+    "reason": "Android native-code fuzzing/taint framework; no LLM role shown.",
+    "evidence": "JNFuzz-Droid: A Lightweight Fuzzing and Taint Analysis Framework for Android Native Code"
+  },
+  {
+    "id": "R03993",
+    "decision": "EXCLUDE",
+    "reason": "Component-library vulnerability analysis via taint analysis; no LLM role shown.",
+    "evidence": "Exploitability Analysis of Public Component Library Vulnerabilities Based on Taint Analysis"
+  },
+  {
+    "id": "R03994",
+    "decision": "EXCLUDE",
+    "reason": "Benchmark fuzzing for Android taint analyzers; no LLM role shown.",
+    "evidence": "Benchmark Fuzzing for Android Taint Analyses"
+  },
+  {
+    "id": "R03995",
+    "decision": "EXCLUDE",
+    "reason": "Neuroscience circular-analysis commentary; no LLM or security/OS task.",
+    "evidence": "Mistaking a duck for a skvader: How a conceptual form of circular analysis may taint many neuroscience studies"
+  },
+  {
+    "id": "R03996",
+    "decision": "EXCLUDE",
+    "reason": "Review of boar-taint vaccines; no LLM or security/OS task.",
+    "evidence": "This review integrates current knowledge on the biochemical basis of boar taint"
+  },
+  {
+    "id": "R03997",
+    "decision": "EXCLUDE",
+    "reason": "Web behavioural-biometrics script detection via taint analysis; no LLM role shown.",
+    "evidence": "Finding Behavioural Biometrics Scripts on the Web Using Dynamic Taint Analysis"
+  },
+  {
+    "id": "R03998",
+    "decision": "EXCLUDE",
+    "reason": "Static taint-analysis framework for C# applications; no LLM role shown.",
+    "evidence": "Xades: Static Taint Analysis Framework for C#-Based Multilingual Applications"
+  },
+  {
+    "id": "R03999",
+    "decision": "EXCLUDE",
+    "reason": "Improved dynamic taint analysis; no LLM role or OS target shown.",
+    "evidence": "An Improved Method for Dynamic Taint Analysis"
+  },
+  {
+    "id": "R04000",
+    "decision": "EXCLUDE",
+    "reason": "Testing static taint analyzers; no LLM role shown.",
+    "evidence": "a testing oracle for static taint analysis"
+  }
+]

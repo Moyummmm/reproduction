@@ -1,0 +1,7 @@
+{
+  "initial": "run_20261105T075850Z",
+  "tail": "tail_20261105T080327Z",
+  "initial_rows": 1112,
+  "tail_rows": 284,
+  "limitation": "These pages were fetched at different times and relevance ordering can shift; reaching the last reported page does not prove a stable exhaustive snapshot."
+}

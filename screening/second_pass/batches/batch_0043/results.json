@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R05470",
+    "decision": "EXCLUDE",
+    "reason": "LLM supports ride-hailing dispatch optimization; no security task or OS target.",
+    "evidence": "a human-centric ride-hailing dispatching system that integrates a large language model (LLM)"
+  },
+  {
+    "id": "R05474",
+    "decision": "EXCLUDE",
+    "reason": "Financial identity governance for AI agents, not an LLM security analysis of OS components.",
+    "evidence": "a governance framework that extends financial identity infrastructure beyond humans to autonomous systems"
+  },
+  {
+    "id": "R05476",
+    "decision": "EXCLUDE",
+    "reason": "Virtual-agent facial-expression generation using LSTM; no LLM, security task, or OS target.",
+    "evidence": "Generating non-verbal responses in virtual agent with use of LSTM network"
+  },
+  {
+    "id": "R05484",
+    "decision": "EXCLUDE",
+    "reason": "Secures LLM-powered agent deployments; targets agent trust and privilege, not OS components.",
+    "evidence": "a security architecture implementing formal trust context separation for autonomous AI agents"
+  },
+  {
+    "id": "R05485",
+    "decision": "UNCLEAR",
+    "reason": "Insider-detection security work mentions LLM agents, but target scope and substantive LLM role are not specified enough for OS relevance.",
+    "evidence": "the problem of detecting insider attacks using intelligent agents"
+  },
+  {
+    "id": "R05488",
+    "decision": "EXCLUDE",
+    "reason": "Mobile-device security concept; no LLM use or original LLM-based security analysis.",
+    "evidence": "integrates features such as camouflage, ink release, limb sacrifice and flexibility into cyber security strategies"
+  },
+  {
+    "id": "R05492",
+    "decision": "EXCLUDE",
+    "reason": "Bus-holding MARL for transit operations; no security outcome or OS target.",
+    "evidence": "dynamic bus holding control strategy leveraging multi-agent reinforcement learning"
+  },
+  {
+    "id": "R05494",
+    "decision": "EXCLUDE",
+    "reason": "Agent-based public-health simulation; no LLM, security task, or OS target.",
+    "evidence": "an agent-based simulation grounded in social impact theory was implemented and documented"
+  },
+  {
+    "id": "R05496",
+    "decision": "EXCLUDE",
+    "reason": "Proactive network operations; LLM aids root-cause analysis, not a security analysis targeting OS.",
+    "evidence": "large language models for root cause analysis from unstructured log data"
+  },
+  {
+    "id": "R05497",
+    "decision": "EXCLUDE",
+    "reason": "Agent-based public-health simulation; no LLM, security task, or OS target.",
+    "evidence": "nonmedical prescription opioid use among adolescents in Ontario"
+  },
+  {
+    "id": "R05500",
+    "decision": "EXCLUDE",
+    "reason": "Intent-based network operations and remediation; no security analysis or OS-component target.",
+    "evidence": "specialized artificial intelligence agents collaborate to transform human intent into coordinated network actions"
+  },
+  {
+    "id": "R05501",
+    "decision": "EXCLUDE",
+    "reason": "Conceptual Zero Trust framework for agentic AI in SASE/cloud, not OS-level security analysis.",
+    "evidence": "a security framework designed to govern autonomous, probabilistic agents operating within enterprise SASE and cloud environments"
+  },
+  {
+    "id": "R05506",
+    "decision": "EXCLUDE",
+    "reason": "LLM/agent proposes API security tests, but evaluated target is API authorization, not OS components.",
+    "evidence": "transforming API-security hypotheses into controlled executions, deterministic security-oracle decisions"
+  },
+  {
+    "id": "R05513",
+    "decision": "EXCLUDE",
+    "reason": "Synthetic API access-control experiment; no substantive LLM security analysis of OS components.",
+    "evidence": "a reproducible synthetic experiment using an agent-access receipt"
+  },
+  {
+    "id": "R05520",
+    "decision": "EXCLUDE",
+    "reason": "Timed security-protocol verification with agent-based formalism; no LLM use.",
+    "evidence": "Timed Interpreted Systems as a New Agent-Based Formalism for Verification of Timed Security Protocols"
+  },
+  {
+    "id": "R05523",
+    "decision": "EXCLUDE",
+    "reason": "Post-quantum access control for multi-agent systems; no LLM use or OS target.",
+    "evidence": "a method of access differentiation based on Goppa codes is justified and proposed"
+  },
+  {
+    "id": "R05530",
+    "decision": "EXCLUDE",
+    "reason": "Enterprise agentic-AI portfolio and governance analysis; not LLM security research on OS components.",
+    "evidence": "Oracle's portfolio of agentic AI"
+  },
+  {
+    "id": "R05538",
+    "decision": "EXCLUDE",
+    "reason": "LLM-judge and embedding prefilter study for social-network content; target is messages, not OS.",
+    "evidence": "Analyzing Millions of LLM Agent Social Network Messages for Security and Safety Harms"
+  },
+  {
+    "id": "R05539",
+    "decision": "EXCLUDE",
+    "reason": "Blockchain data-security study for e-government; no LLM use or OS-component target.",
+    "evidence": "use of blockchain to safeguard data in e-government platforms"
+  },
+  {
+    "id": "R05540",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM evaluation harnesses; reviews are excluded from the core empirical set.",
+    "evidence": "We provide a layered taxonomy, a literature stem map"
+  },
+  {
+    "id": "R05546",
+    "decision": "EXCLUDE",
+    "reason": "Opinion-style discussion of breach inevitability; no LLM or original OS security research.",
+    "evidence": "So are we at the point where a breach is inevitable?"
+  },
+  {
+    "id": "R05547",
+    "decision": "EXCLUDE",
+    "reason": "Commentary on software-vendor accountability; no LLM use or OS-component security analysis.",
+    "evidence": "software vendors to ensure that the code they ship is intrinsically secure"
+  },
+  {
+    "id": "R05550",
+    "decision": "EXCLUDE",
+    "reason": "Industry report on eCommerce web attacks; no LLM or OS-component research.",
+    "evidence": "Web application attacks have increased by more than 250% in the past year"
+  },
+  {
+    "id": "R05551",
+    "decision": "EXCLUDE",
+    "reason": "MDR/security-transformation commentary; no LLM or original OS security analysis.",
+    "evidence": "Embracing security transformation with MDR"
+  },
+  {
+    "id": "R05552",
+    "decision": "EXCLUDE",
+    "reason": "Software-security initiative commentary; no LLM use or OS-component target.",
+    "evidence": "Building successful software security initiatives"
+  },
+  {
+    "id": "R05553",
+    "decision": "EXCLUDE",
+    "reason": "Security-budget commentary; no LLM or original security analysis targeting OS.",
+    "evidence": "Squeezing the security budget"
+  },
+  {
+    "id": "R05555",
+    "decision": "EXCLUDE",
+    "reason": "Cloud shared-responsibility commentary; no LLM or OS-component security research.",
+    "evidence": "the development of the shared responsibility model (SRM)"
+  },
+  {
+    "id": "R05557",
+    "decision": "EXCLUDE",
+    "reason": "Bioreactor control architecture; no LLM, security task, or OS target.",
+    "evidence": "Advanced Control Architectures for Single-Use Bioreactors"
+  },
+  {
+    "id": "R05558",
+    "decision": "EXCLUDE",
+    "reason": "Gateway for AI-agent communications using regex/CharCNN-BiLSTM; not LLM security analysis of OS components.",
+    "evidence": "a self-hosted, zero-dependency security gateway that intercepts AI communications"
+  },
+  {
+    "id": "R05560",
+    "decision": "EXCLUDE",
+    "reason": "Survey of generalist-agent security; reviews are excluded from the core empirical set.",
+    "evidence": "we present a lifecycle survey"
+  },
+  {
+    "id": "R05563",
+    "decision": "EXCLUDE",
+    "reason": "Workforce/recruitment commentary; no LLM or OS security research.",
+    "evidence": "The recruitment wall in cyber security"
+  },
+  {
+    "id": "R05564",
+    "decision": "EXCLUDE",
+    "reason": "Commentary on transparency after incidents; no LLM or OS-component analysis.",
+    "evidence": "Normalising radical transparency in cyber security"
+  },
+  {
+    "id": "R05565",
+    "decision": "EXCLUDE",
+    "reason": "Identity-observability commentary; no LLM or OS-component security analysis.",
+    "evidence": "Redefining identity-first security with observability"
+  },
+  {
+    "id": "R05566",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates prompt-injection defenses in LLM agents; security of LLMs, not OS components.",
+    "evidence": "Evaluating Indirect Prompt Injection Defenses in Tool-Using LLM Agents"
+  },
+  {
+    "id": "R05567",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection/data-leakage defense framework for LLM systems; not OS-targeted security.",
+    "evidence": "a four-layer, application-level defensive architecture"
+  },
+  {
+    "id": "R05569",
+    "decision": "EXCLUDE",
+    "reason": "Moving-target defense for LLM prompt injection; security of the model, not OS components.",
+    "evidence": "Dynamic Moving Target Defense for Mitigating Targeted LLM Prompt Injection"
+  },
+  {
+    "id": "R05571",
+    "decision": "EXCLUDE",
+    "reason": "Layered defense against indirect prompt injection in LLM agents; not OS-component security.",
+    "evidence": "a layered defense, Spotlight-Guard"
+  },
+  {
+    "id": "R05576",
+    "decision": "EXCLUDE",
+    "reason": "Defense framework for LLM recommender systems; target is recommendation robustness, not OS.",
+    "evidence": "a robust LLM-based recommender system for defending against shilling and prompt injection attacks"
+  },
+  {
+    "id": "R05577",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection risks in LLM SOC assistants; security of LLM-assisted triage, not OS components.",
+    "evidence": "embedding malicious instructions within security alerts"
+  },
+  {
+    "id": "R05579",
+    "decision": "EXCLUDE",
+    "reason": "Privacy leakage/output scrubbing study in tool-using LLM agents; not OS-component security analysis.",
+    "evidence": "Residual Privacy Leakage after Output Scrubbing in Tool-Using LLM Agents"
+  }
+]

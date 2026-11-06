@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R04169",
+    "decision": "EXCLUDE",
+    "reason": "General Python software vulnerability detection without an OS-component or privileged-interface target.",
+    "evidence": "complex Python datasets"
+  },
+  {
+    "id": "R04171",
+    "decision": "EXCLUDE",
+    "reason": "Studies object-detection robustness under image resolution reduction; no LLM security analysis or OS target.",
+    "evidence": "12 heterogeneous detectors over 36 resolution levels using 4,952 COCO images"
+  },
+  {
+    "id": "R04172",
+    "decision": "EXCLUDE",
+    "reason": "Multi-LLM AGI architecture proposal with no security analysis or OS-component target.",
+    "evidence": "composes multiple bounded models through persistent memory"
+  },
+  {
+    "id": "R04183",
+    "decision": "EXCLUDE",
+    "reason": "Binary vulnerability similarity detection using deep graph matching and LSTM, without an OS-specific target.",
+    "evidence": "deep graph matching model for vulnerability similarity detection"
+  },
+  {
+    "id": "R04186",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based binary decompilation for general software-supply-chain vulnerability detection, not an OS-specific target.",
+    "evidence": "binary vulnerabilities in the software supply chain"
+  },
+  {
+    "id": "R04189",
+    "decision": "EXCLUDE",
+    "reason": "LLM preference-alignment method, not a security analysis or OS-targeted task.",
+    "evidence": "preference-based alignment that scales effectively to large language models"
+  },
+  {
+    "id": "R04200",
+    "decision": "EXCLUDE",
+    "reason": "Energy-efficient LLM decompilation without a security task or OS-component target.",
+    "evidence": "lightweight two-stage decompilation pipeline designed to operate on constrained hardware"
+  },
+  {
+    "id": "R04210",
+    "decision": "EXCLUDE",
+    "reason": "LLM repair of decompiled code for general binary vulnerability analysis, with no OS-specific target stated.",
+    "evidence": "popular C benchmarks and real-world binaries"
+  },
+  {
+    "id": "R04212",
+    "decision": "EXCLUDE",
+    "reason": "Audits retained robot controllers; no LLM security analysis of OS components or privileged interfaces.",
+    "evidence": "post-training audit and selective intervention of retained robot controllers"
+  },
+  {
+    "id": "R04221",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted product-management and requirements analysis, not a security analysis or OS-targeted task.",
+    "evidence": "analyzing source code and generating enriched development tickets"
+  },
+  {
+    "id": "R04225",
+    "decision": "EXCLUDE",
+    "reason": "LLM agent memory mechanism with no security analysis or OS-component target.",
+    "evidence": "agents store compact, human-readable recipes instead of raw outputs"
+  },
+  {
+    "id": "R04229",
+    "decision": "EXCLUDE",
+    "reason": "Survey and synthesis of immersive binary reverse engineering; reviews and surveys are excluded.",
+    "evidence": "survey and synthesize interdisciplinary research"
+  },
+  {
+    "id": "R04235",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection and PII protection for LLM applications, not OS components or privileged interfaces.",
+    "evidence": "sits between an application and its LLM provider"
+  },
+  {
+    "id": "R04237",
+    "decision": "EXCLUDE",
+    "reason": "Training observation on assembly-language skills for reverse engineering, with no LLM security analysis of OS targets.",
+    "evidence": "training programme for software developers"
+  },
+  {
+    "id": "R04239",
+    "decision": "EXCLUDE",
+    "reason": "Multi-agent LLM code reverse engineering into relational diagrams, not a security analysis or OS-targeted task.",
+    "evidence": "Reverse Engineering Codebase to Causal Relational Diagram"
+  },
+  {
+    "id": "R04240",
+    "decision": "EXCLUDE",
+    "reason": "Black-box security assessment of LLM applications, not operating-system components or privileged interfaces.",
+    "evidence": "black-box security assessment of deployed LLM applications"
+  },
+  {
+    "id": "R04242",
+    "decision": "EXCLUDE",
+    "reason": "Study of LLM strategic interaction framing, not a security analysis or OS-targeted task.",
+    "evidence": "iterated Prisoner's Dilemma"
+  },
+  {
+    "id": "R04244",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-engineering ergonomics case study with no security analysis or OS-component target.",
+    "evidence": "prompt engineering technique usefulness regards to Human-Chat GPT interaction"
+  },
+  {
+    "id": "R04249",
+    "decision": "EXCLUDE",
+    "reason": "Gender-bias audit of LLM insurance-claim evaluation, not a security analysis or OS-targeted task.",
+    "evidence": "whether and under what conditions six LLMs produce differential outcomes for claimants based on gender"
+  },
+  {
+    "id": "R04259",
+    "decision": "EXCLUDE",
+    "reason": "Mathematical encoding framework with no LLM, security analysis, or OS-component target.",
+    "evidence": "consolidated mathematical and computational formulation"
+  },
+  {
+    "id": "R04264",
+    "decision": "EXCLUDE",
+    "reason": "Legal analysis of copyright reverse-engineering provisions, with no LLM security analysis or OS target.",
+    "evidence": "Copyright (Amendment) Act 2004"
+  },
+  {
+    "id": "R04265",
+    "decision": "EXCLUDE",
+    "reason": "Reverse modification of binary code/data in distributed software and games, without LLM or OS-security focus.",
+    "evidence": "two network games are used for the demonstrations"
+  },
+  {
+    "id": "R04271",
+    "decision": "EXCLUDE",
+    "reason": "Neural decompilation of mathematical equations, not a security task or OS-component analysis.",
+    "evidence": "reverse engineer math equations from binaries"
+  },
+  {
+    "id": "R04272",
+    "decision": "EXCLUDE",
+    "reason": "LLM alignment method, not a security analysis or OS-targeted task.",
+    "evidence": "Belief Propagation for Large Language Model Alignment"
+  },
+  {
+    "id": "R04275",
+    "decision": "EXCLUDE",
+    "reason": "LLM agent stability and alignment architecture, not security analysis of OS components.",
+    "evidence": "self-modifying agents can maintain stable behaviour"
+  },
+  {
+    "id": "R04279",
+    "decision": "EXCLUDE",
+    "reason": "LLM robot task planning for construction painting, not a security analysis or OS-targeted task.",
+    "evidence": "LLM as the cognitive core for autonomous construction robots"
+  },
+  {
+    "id": "R04282",
+    "decision": "UNCLEAR",
+    "reason": "LLM-enhanced binary summarization identifies security-critical functions, but the abstract does not establish an OS or privileged-interface target.",
+    "evidence": "security-critical functions (SCFs) in stripped binaries"
+  },
+  {
+    "id": "R04291",
+    "decision": "EXCLUDE",
+    "reason": "Legal thesis on reverse engineering and trade secrets, with no LLM security analysis or OS target.",
+    "evidence": "explicitly legalizes reverse engineering for the first time in the history of German trade secrets law"
+  },
+  {
+    "id": "R04294",
+    "decision": "EXCLUDE",
+    "reason": "Defense against LLM-powered social engineering, not OS components or privileged interfaces.",
+    "evidence": "LLM-Powered Social Engineering"
+  },
+  {
+    "id": "R04298",
+    "decision": "EXCLUDE",
+    "reason": "Quantum-annealing optimization study with no LLM, security analysis, or OS-component target.",
+    "evidence": "reverse annealing on nonnegative/binary matrix factorization"
+  },
+  {
+    "id": "R04305",
+    "decision": "EXCLUDE",
+    "reason": "LLM vulnerability detection on general Python code, without an OS-component or privileged-interface target.",
+    "evidence": "100 Python 3.12 snippets"
+  },
+  {
+    "id": "R04307",
+    "decision": "EXCLUDE",
+    "reason": "Secure Verilog generation for hardware design, not operating-system components or privileged interfaces.",
+    "evidence": "generate secure Verilog by clue-guided exploration"
+  },
+  {
+    "id": "R04308",
+    "decision": "EXCLUDE",
+    "reason": "Cross-CWE vulnerability detection on general C/C++ functions, not an OS-specific target.",
+    "evidence": "C/C++ functions from PrimeVul, DiverseVul, and BigVul"
+  },
+  {
+    "id": "R04330",
+    "decision": "EXCLUDE",
+    "reason": "Ontology for modeling software weaknesses, with no LLM security analysis of OS components.",
+    "evidence": "modeling software weaknesses based on CWE architectural concepts"
+  },
+  {
+    "id": "R04333",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection detection for LLM-integrated web applications, not OS components or privileged interfaces.",
+    "evidence": "intercepts user inputs before they are dispatched to an LLM API"
+  },
+  {
+    "id": "R04334",
+    "decision": "EXCLUDE",
+    "reason": "Instagram fake-account detection dataset, not a security analysis targeting OS components.",
+    "evidence": "Instagram Multi-Class Fake Account Detection Dataset"
+  },
+  {
+    "id": "R04336",
+    "decision": "EXCLUDE",
+    "reason": "Phishing URL detection using LLM-driven augmentation, not an OS-component or privileged-interface target.",
+    "evidence": "phishing URL detection"
+  },
+  {
+    "id": "R04337",
+    "decision": "EXCLUDE",
+    "reason": "Detection of hallucinations in LLM-generated code, not a security analysis of OS components.",
+    "evidence": "code hallucinations"
+  },
+  {
+    "id": "R04338",
+    "decision": "EXCLUDE",
+    "reason": "LLM agent for scam-website detection, not a security analysis targeting OS components or privileged interfaces.",
+    "evidence": "classifies URLs as scam or legitimate"
+  },
+  {
+    "id": "R04339",
+    "decision": "EXCLUDE",
+    "reason": "General software vulnerability detection and CWE classification, without an OS-specific target.",
+    "evidence": "NIST Juliet Test Suite as the principal benchmark"
+  }
+]

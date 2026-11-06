@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6Kjl4L8ZBgRWQ78cAZDJUEq/z+0</id>
+  <title>arXiv Query: search_query=(all:"large language model" OR all:LLM OR all:GPT) AND (all:"file system" AND (all:security OR all:fuzzing OR all:vulnerability) )&amp;id_list=&amp;start=0&amp;max_results=100</title>
+  <updated>2026-11-05T05:39:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(all:%22large+language+model%22+OR+(all:LLM+OR+all:GPT))+AND+(all:%22file+system%22+AND+(all:security+OR+(all:fuzzing+OR+all:vulnerability)))&amp;start=0&amp;max_results=100&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>100</opensearch:itemsPerPage>
+  <opensearch:totalResults>14</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2603.17419v1</id>
+    <title>Caging the Agents: A Zero Trust Security Architecture for Autonomous AI in Healthcare</title>
+    <updated>2026-03-18T06:54:47Z</updated>
+    <link href="https://arxiv.org/abs/2603.17419v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.17419v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous AI agents powered by large language models are being deployed in production with capabilities including shell execution, file system access, database queries, and multi-party communication. Recent red teaming research demonstrates that these agents exhibit critical vulnerabilities in realistic settings: unauthorized compliance with non-owner instructions, sensitive information disclosure, identity spoofing, cross-agent propagation of unsafe practices, and indirect prompt injection through external resources [7]. In healthcare environments processing Protected Health Information, every such vulnerability becomes a potential HIPAA violation. This paper presents a security architecture deployed for nine autonomous AI agents in production at a healthcare technology company. We develop a six-domain threat model for agentic AI in healthcare covering credential exposure, execution capability abuse, network egress exfiltration, prompt integrity failures, database access risks, and fleet configuration drift. We implement four-layer defense in depth: (1) kernel level workload isolation using gVisor on Kubernetes, (2) credential proxy sidecars preventing agent containers from accessing raw secrets, (3) network egress policies restricting each agent to allowlisted destinations, and (4) a prompt integrity framework with structured metadata envelopes and untrusted content labeling. We report results from 90 days of deployment including four HIGH severity findings discovered and remediated by an automated security audit agent, progressive fleet hardening across three VM image generations, and defense coverage mapped to all eleven attack patterns from recent literature. All configurations, audit tooling, and the prompt integrity framework are released as open source.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-18T06:54:47Z</published>
+    <arxiv:comment>Keywords: agentic AI security, autonomous agents, healthcare cybersecurity, zero trust, prompt injection, HIPAA, Kubernetes security, OpenClaw</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Saikat Maiti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.14754v1</id>
+    <title>FlowGuard: From Signals to Evidence for MCP Security Detection</title>
+    <updated>2026-07-16T09:41:17Z</updated>
+    <link href="https://arxiv.org/abs/2607.14754v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.14754v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Model Context Protocol (MCP) enables LLM agents to interact with external tools through metadata exchange, tool invocation, and response consumption. Existing MCP security scanners primarily reason about suspicious semantic signals rather than real execution behaviors, which can lead to unreliable risk assessment. For example, credential-like strings may simply be placeholders rather than actual leakage. This gap requires runtime evidence for execution-related risks and careful semantic analysis for risks carried in metadata or returned content. We present FlowGuard, an evidence-grounded MCP security detection system. FlowGuard combines semantic risk triage, recon-guided payload narrowing, schema-valid probe generation, evidence adjudication, and history-guided refinement. It verifies execution-related risks through runtime evidence and detects semantic risks in tool metadata and returned content. We evaluate FlowGuard on an executable benchmark containing 1,880 MCP cases across five vulnerability categories. FlowGuard achieves F1 scores of 0.879 and 0.942 on the execution-related Command Injection and File System Access categories, respectively. Compared with existing dynamic scanners, FlowGuard reduces end-to-end latency by up to 2.23x. In the real-world evaluation, FlowGuard reports 523 findings across 326 servers. These results show that evidence-grounded detection can assess both execution-related and semantic risks in MCP interactions.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-16T09:41:17Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Baichao An</name>
+    </author>
+    <author>
+      <name>Pei Chen</name>
+    </author>
+    <author>
+      <name>Geng Hong</name>
+    </author>
+    <author>
+      <name>Yueyue Chen</name>
+    </author>
+    <author>
+      <name>Mengying Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.21392v2</id>
+    <title>VIPER-MCP: Detecting and Exploiting Taint-Style Vulnerabilities in Model Context Protocol Servers</title>
+    <updated>2026-08-12T11:01:10Z</updated>
+    <link href="https://arxiv.org/abs/2605.21392v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.21392v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Model Context Protocol (MCP) has emerged as a standard interface for connecting LLM agents to external tools. Because MCP servers expose privileged operations such as shell execution, network access, and file-system manipulation to agent-driven invocation, implementation flaws in tool handlers can create a direct path from natural-language input to security-sensitive sinks, potentially granting attackers remote code execution or full system compromise. Existing approaches either produce unconfirmed static alerts without dynamic validation, or rely on fixed template libraries that lack code-level guidance and fail to trigger vulnerabilities requiring specific parameter shapes or multi-step taint paths.
+  In this paper, we present VIPER-MCP, the first end-to-end automated vulnerability auditing framework for MCP servers that not only detects taint-style vulnerabilities but also dynamically confirms their exploitability by producing concrete proof-of-concept prompts. VIPER-MCP introduces two novel techniques: (1) an anchor-query pass in a two-pass static analysis strategy that augments standard taint alerts with function-level structural context, resolving file-level static artifacts to specific MCP tool handlers and producing vulnerability-anchored call chains; and (2) a feedback-driven prompt evolution mechanism that employs dual-mutator scheduling that independently corrects tool-selection drift and deepens parameter penetration, together with fitness-scored seed selection to iteratively refine natural-language prompts toward vulnerable sinks. In a large-scale scan of 39,884 real-world open-source MCP server repositories, VIPER-MCP discovered 106 0-day vulnerabilities, all of which were confirmed through end-to-end exploit traces, with 67 CVE IDs assigned to date.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-20T16:46:51Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Pengyu Sun</name>
+    </author>
+    <author>
+      <name>Zifeng Kang</name>
+    </author>
+    <author>
+      <name>Qishu Jin</name>
+    </author>
+    <author>
+      <name>Enhao Huang</name>
+    </author>
+    <author>
+      <name>Xin Liu</name>
+    </author>
+    <author>
+      <name>Dakun Shen</name>
+    </author>
+    <author>
+      <name>Song Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.17548v1</id>
+    <title>Prompt Injection Attacks on Agentic Coding Assistants: A Systematic Analysis of Vulnerabilities in Skills, Tools, and Protocol Ecosystems</title>
+    <updated>2026-01-24T18:39:21Z</updated>
+    <link href="https://arxiv.org/abs/2601.17548v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.17548v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The proliferation of agentic AI coding assistants, including Claude Code, GitHub Copilot, Cursor, and emerging skill-based architectures, has fundamentally transformed software development workflows. These systems leverage Large Language Models (LLMs) integrated with external tools, file systems, and shell access through protocols like the Model Context Protocol (MCP). However, this expanded capability surface introduces critical security vulnerabilities. In this \textbf{Systematization of Knowledge (SoK)} paper, we present a comprehensive analysis of prompt injection attacks targeting agentic coding assistants. We propose a novel three-dimensional taxonomy categorizing attacks across \textit{delivery vectors}, \textit{attack modalities}, and \textit{propagation behaviors}. Our meta-analysis synthesizes findings from 78 recent studies (2021--2026), consolidating evidence that attack success rates against state-of-the-art defenses exceed 85\% when adaptive attack strategies are employed. We systematically catalog 42 distinct attack techniques spanning input manipulation, tool poisoning, protocol exploitation, multimodal injection, and cross-origin context poisoning. Through critical analysis of 18 defense mechanisms reported in prior work, we identify that most achieve less than 50\% mitigation against sophisticated adaptive attacks. We contribute: (1) a unified taxonomy bridging disparate attack classifications, (2) the first systematic analysis of skill-based architecture vulnerabilities with concrete exploit chains, and (3) a defense-in-depth framework grounded in the limitations we identify. Our findings indicate that the security community must treat prompt injection as a first-class vulnerability class requiring architectural-level mitigations rather than ad-hoc filtering approaches.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-24T18:39:21Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Narek Maloyan</name>
+    </author>
+    <author>
+      <name>Dmitry Namiot</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.21641v1</id>
+    <title>Auditing MCP Servers for Over-Privileged Tool Capabilities</title>
+    <updated>2026-03-23T07:20:00Z</updated>
+    <link href="https://arxiv.org/abs/2603.21641v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.21641v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Model Context Protocol (MCP) has emerged as a standard for connecting Large Language Models (LLMs) to external tools and data. However, MCP servers often expose privileged capabilities, such as file system access, network requests, and command execution that can be exploited if not properly secured. We present mcp-sec-audit, an extensible security assessment toolkit designed specifically for MCP servers. It implements static pattern matching for Python-based MCP servers and dynamic sandboxed fuzzing and monitoring via Docker and eBPF. The tool detects risky capabilities through configurable rule-based analysis and provides mitigation recommendations.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-23T07:20:00Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Charoes Huang</name>
+    </author>
+    <author>
+      <name>Xin Huang</name>
+    </author>
+    <author>
+      <name>Amin Milani Fard</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.01463v1</id>
+    <title>LLMHoney: A Real-Time SSH Honeypot with Large Language Model-Driven Dynamic Response Generation</title>
+    <updated>2025-09-01T13:28:00Z</updated>
+    <link href="https://arxiv.org/abs/2509.01463v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.01463v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cybersecurity honeypots are deception tools for engaging attackers and gather intelligence, but traditional low or medium-interaction honeypots often rely on static, pre-scripted interactions that can be easily identified by skilled adversaries. This Report presents LLMHoney, an SSH honeypot that leverages Large Language Models (LLMs) to generate realistic, dynamic command outputs in real time. LLMHoney integrates a dictionary-based virtual file system to handle common commands with low latency while using LLMs for novel inputs, achieving a balance between authenticity and performance. We implemented LLMHoney using open-source LLMs and evaluated it on a testbed with 138 representative Linux commands. We report comprehensive metrics including accuracy (exact-match, Cosine Similarity, Jaro-Winkler Similarity, Levenshtein Similarity and BLEU score), response latency and memory overhead. We evaluate LLMHoney using multiple LLM backends ranging from 0.36B to 3.8B parameters, including both open-source models and a proprietary model(Gemini). Our experiments compare 13 different LLM variants; results show that Gemini-2.0 and moderately-sized models Qwen2.5:1.5B and Phi3:3.8B provide the most reliable and accurate responses, with mean latencies around 3 seconds, whereas smaller models often produce incorrect or out-of-character outputs. We also discuss how LLM integration improves honeypot realism and adaptability compared to traditional honeypots, as well as challenges such as occasional hallucinated outputs and increased resource usage. Our findings demonstrate that LLM-driven honeypots are a promising approach to enhance attacker engagement and collect richer threat intelligence.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-01T13:28:00Z</published>
+    <arxiv:comment>7 Pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Pranjay Malhotra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.37901v1</id>
+    <title>Scan Before You Install: Detecting and Mitigating Local and Composite Vulnerabilities in Skills</title>
+    <updated>2026-10-27T19:43:31Z</updated>
+    <link href="https://arxiv.org/abs/2610.37901v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.37901v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An agent skill packages natural-language instructions, scripts, and reference files that an LLM-based agent loads for a task. Skills may access the file system, shell, and network under user-authorized permissions; weaknesses can lead to unsafe execution. Existing scanners primarily target malicious skills, not unintended vulnerabilities in public repositories, and analyze skills in isolation, overlooking multi-skill interactions. To address these gaps, we developed a six-module scanner: Content Extraction, Local Analysis, Composite Analysis, Validation, Reporting, and Mitigation. Local Analysis detects unintended vulnerabilities in benign skills. On a 556-case leaderboard subset of SkillTrustBench, it achieved 95.90% recall with a 4.22% false positive rate; on a balanced sample of 1,000 MalSkillBench skills, its F1 was 0.947, outperforming Cisco's Skill Scanner, NVIDIA's SkillSpector, AgentSkillsScanner, and SkillSieve. In 1,587 skills from the 75 most-starred GitHub repositories, three analysts confirmed 53 of 59 findings (89.8% precision) across 23 repositories. We developed proof-of-concept (PoC) attacks for each vulnerability, disclosed 10 medium- and high-severity cases to maintainers, and tested mitigations on the remaining cases. Composite Analysis models dependencies among skills through shared resources, invocations, and instruction-mediated interactions. On SCR-Bench, its F1 score was 0.991 (98.7% precision, 99.6% recall), versus 0.816-0.858 for three SkillsGuard configurations released with CompoSkill. It identified two composite findings on GitHub, validated by PoC attacks. The Mitigation module recommends skill substitution, patches, and configuration changes. For 47 of 55 GitHub findings, mitigations prevented PoC attacks in all trials while preserving tested legitimate functionality.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-27T19:43:31Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Parth A. Gandhi</name>
+    </author>
+    <author>
+      <name>Avital Aviv</name>
+    </author>
+    <author>
+      <name>Prasanna N. Wudali</name>
+    </author>
+    <author>
+      <name>Yuval Elovici</name>
+    </author>
+    <author>
+      <name>Asaf Shabtai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.23009v1</id>
+    <title>SolAgent: A Specialized Multi-Agent Framework for Solidity Code Generation</title>
+    <updated>2026-01-30T14:17:48Z</updated>
+    <link href="https://arxiv.org/abs/2601.23009v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.23009v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Smart contracts are the backbone of the decentralized web, yet ensuring their functional correctness and security remains a critical challenge. While Large Language Models (LLMs) have shown promise in code generation, they often struggle with the rigorous requirements of smart contracts, frequently producing code that is buggy or vulnerable. To address this, we propose SolAgent, a novel tool-augmented multi-agent framework that mimics the workflow of human experts. SolAgent integrates a \textbf{dual-loop refinement mechanism}: an inner loop using the \textit{Forge} compiler to ensure functional correctness, and an outer loop leveraging the \textit{Slither} static analyzer to eliminate security vulnerabilities. Additionally, the agent is equipped with file system capabilities to resolve complex project dependencies. Experiments on the SolEval+ Benchmark, a rigorous suite derived from high-quality real-world projects, demonstrate that SolAgent achieves a Pass@1 rate of up to \textbf{64.39\%}, significantly outperforming state-of-the-art LLMs ($\sim$25\%), AI IDEs (e.g., GitHub Copilot), and existing agent frameworks. Moreover, it reduces security vulnerabilities by up to \textbf{39.77\%} compared to human-written baselines. Finally, we demonstrate that the high-quality trajectories generated by SolAgent can be used to distill smaller, open-source models, democratizing access to secure smart contract generation. We release our data and code at https://github.com/openpaperz/SolAgent.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T14:17:48Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Wei Chen</name>
+    </author>
+    <author>
+      <name>Zhiyuan Peng</name>
+    </author>
+    <author>
+      <name>Xin Yin</name>
+    </author>
+    <author>
+      <name>Chao Ni</name>
+    </author>
+    <author>
+      <name>Chenhao Ying</name>
+    </author>
+    <author>
+      <name>Bang Xie</name>
+    </author>
+    <author>
+      <name>Yuan Luo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.11082v1</id>
+    <title>Quality-Driven Agentic Reasoning for LLM-Assisted Software Design: Questions-of-Thoughts (QoT) as a Time-Series Self-QA Chain</title>
+    <updated>2026-03-10T23:49:09Z</updated>
+    <link href="https://arxiv.org/abs/2603.11082v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.11082v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in large language models (LLMs) have accelerated AI-assisted software development, yet practical deployment remains constrained by incomplete implementations, weak modularization, and inconsistent security practices. We introduce Questions-of-Thoughts (QoT), a quality-driven inference-time scaffold that turns a user goal into (i) an ordered sequence of engineering steps and (ii) stepwise self-questioning to verify constraints and reduce omission errors, while maintaining a lightweight reasoning record that stabilizes subsequent design decisions.
+  We evaluate QoT across three representative backend engineering domains: API Design, Data Communication, and File Systems. Each task requires multi-module decomposition and exposes standard failure modes in LLM-generated systems. To enable data-driven comparison, we score generated artifacts using an ISO/IEC-inspired quality rubric that measures Scalability, Completeness, Modularity, and Security. We report domain-wise gains as the change in total quality score, defined as the QoT score minus the NoQoT score. Results show capacity-dependent improvements: QoT yields consistent quality improvements for larger models and more complex domains, while smaller models may exhibit trade-offs under tight context and planning budgets.
+  We release an open artifact with prompts, scoring guidelines, raw generations, and scripts that reproduce the reported tables and figures to support applied AI and data analytics research.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-10T23:49:09Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Yen-Ku Liu</name>
+    </author>
+    <author>
+      <name>Yun-Cheng Tsai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.20933v1</id>
+    <title>AC4A: Access Control for Agents</title>
+    <updated>2026-03-21T20:23:06Z</updated>
+    <link href="https://arxiv.org/abs/2603.20933v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.20933v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) agents combine the chat interaction capabilities of LLMs with the power to interact with external tools and APIs. This enables them to perform complex tasks and act autonomously to achieve user goals. However, current agent systems operate on an all-or-nothing basis: an agent either has full access to an API's capabilities and a web page's content, or it has no access at all. This coarse-grained approach forces users to trust agents with more capabilities than they actually need for a given task.
+  In this paper, we introduce AC4A, an access control framework for agents. As agents become more capable and autonomous, users need a way to limit what APIs or portions of web pages these agents can access, eliminating the need to trust them with everything an API or web page allows. Our goal with AC4A is to provide a framework for defining permissions that lets agents access only the resources they are authorized to access. AC4A works across both API-based and browser-based agents. It does not prescribe what permissions should be, but offers a flexible way to define and enforce them, making it practical for real-world systems.
+  AC4A works by creating permissions granting access to resources, drawing inspiration from established access control frameworks like the one for the Unix file system. Applications define their resources as hierarchies and provide a way to compute the necessary permissions at runtime needed for successful resource access. We demonstrate the usefulness of AC4A in enforcing permissions over real-world APIs and web pages through case studies. The source code of AC4A is available at https://github.com/reSHARMA/AC4A</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-21T20:23:06Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Reshabh K Sharma</name>
+    </author>
+    <author>
+      <name>Dan Grossman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.03821v2</id>
+    <title>DualView: Preventing Indirect Prompt Injection in Personal AI Agents</title>
+    <updated>2026-09-14T15:23:48Z</updated>
+    <link href="https://arxiv.org/abs/2607.03821v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.03821v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Personal AI agents that run on the user's local machine automate daily tasks including web search, email, and file management. Their access to computer resources, including the network, file system, and shell, exposes them to indirect prompt injection (IPI) attacks. Prior Dual LLM defenses block IPI by replacing untrusted data with symbols that the agent can reference but not read. However, they track untrusted data only inside the agent's context, so when the agent saves and later rereads untrusted data, that data, possibly an attacker's prompt, can return as trusted data rather than as a symbol, which we call stored IPI.
+  Operating on the user's real environment is what makes agents like OpenClaw practical, and is exactly why a defense that ignores it is incomplete. Preserving symbols in such an environment is hard, because humans and programs need original data. We present DualView, which extends untrusted data tracking from the agent's context to the user's environment, including the file system, shell, network, and other agents, by giving each channel two views. In AgentView, the agent sees untrusted data as symbols even after writing it out and reading it back, blocking stored IPI, while HumanView preserves original data for humans and tools. DualView routes each tool call to the right view and synchronizes data across the two views. DualView deploys as an OpenClaw plugin using only tool hooks, without changing the agent's tool-call logic or tool implementations. DualView deterministically prevents instructions in untrusted data from directly steering the agent's tool calls; this guarantee does not depend on recognizing the evaluated attack templates. In our evaluation on an IPI benchmark and PinchBench, DualView blocked every tested IPI attack, including stored IPI. On PinchBench, its utility drop was within 1.8 to 6.4 points.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-04T11:12:36Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Juhee Kim</name>
+    </author>
+    <author>
+      <name>Woohyuk Choi</name>
+    </author>
+    <author>
+      <name>Taehyun Kang</name>
+    </author>
+    <author>
+      <name>Youngmin Kim</name>
+    </author>
+    <author>
+      <name>Byoungyoung Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.06134v2</id>
+    <title>OpenAgentSafety: A Comprehensive Framework for Evaluating Real-World AI Agent Safety</title>
+    <updated>2026-02-16T22:34:53Z</updated>
+    <link href="https://arxiv.org/abs/2507.06134v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.06134v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in AI agents capable of solving complex, everyday tasks, from scheduling to customer service, have enabled deployment in real-world settings, but their possibilities for unsafe behavior demands rigorous evaluation. While prior benchmarks have attempted to assess agent safety, most fall short by relying on simulated environments, narrow task domains, or unrealistic tool abstractions. We introduce OpenAgentSafety, a comprehensive and modular framework for evaluating agent behavior across eight critical risk categories. Unlike prior work, our framework evaluates agents that interact with real tools, including web browsers, code execution environments, file systems, bash shells, and messaging platforms; and supports over 350 multi-turn, multi-user tasks spanning both benign and adversarial user intents. OpenAgentSafety is designed for extensibility, allowing researchers to add tools, tasks, websites, and adversarial strategies with minimal effort. It combines rule-based analysis with LLM-as-judge assessments to detect both overt and subtle unsafe behaviors. Empirical analysis of five prominent LLMs in agentic scenarios reveals unsafe behavior in 51.2% of safety-vulnerable tasks with Claude-Sonnet-3.7, to 72.7% with o3-mini, highlighting critical safety vulnerabilities and the need for stronger safeguards before real-world deployment.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-08T16:18:54Z</published>
+    <arxiv:comment>26 pages, 10 figures, Accepted at ICLR 2026 and IASEAI 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sanidhya Vijayvargiya</name>
+    </author>
+    <author>
+      <name>Aditya Bharat Soni</name>
+    </author>
+    <author>
+      <name>Xuhui Zhou</name>
+    </author>
+    <author>
+      <name>Zora Zhiruo Wang</name>
+    </author>
+    <author>
+      <name>Nouha Dziri</name>
+    </author>
+    <author>
+      <name>Graham Neubig</name>
+    </author>
+    <author>
+      <name>Maarten Sap</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.07781v1</id>
+    <title>RedCode: Risky Code Execution and Generation Benchmark for Code Agents</title>
+    <updated>2024-11-12T13:30:06Z</updated>
+    <link href="https://arxiv.org/abs/2411.07781v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.07781v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rapidly increasing capabilities and adoption of code agents for AI-assisted coding, safety concerns, such as generating or executing risky code, have become significant barriers to the real-world deployment of these agents. To provide comprehensive and practical evaluations on the safety of code agents, we propose RedCode, a benchmark for risky code execution and generation: (1) RedCode-Exec provides challenging prompts that could lead to risky code execution, aiming to evaluate code agents' ability to recognize and handle unsafe code. We provide a total of 4,050 risky test cases in Python and Bash tasks with diverse input formats including code snippets and natural text. They covers 25 types of critical vulnerabilities spanning 8 domains (e.g., websites, file systems). We provide Docker environments and design corresponding evaluation metrics to assess their execution results. (2) RedCode-Gen provides 160 prompts with function signatures and docstrings as input to assess whether code agents will follow instructions to generate harmful code or software. Our empirical findings, derived from evaluating three agent frameworks based on 19 LLMs, provide insights into code agents' vulnerabilities. For instance, evaluations on RedCode-Exec show that agents are more likely to reject executing risky operations on the operating system, but are less likely to reject executing technically buggy code, indicating high risks. Risky operations described in natural text lead to a lower rejection rate than those in code format. Additionally, evaluations on RedCode-Gen show that more capable base models and agents with stronger overall coding abilities, such as GPT4, tend to produce more sophisticated and effective harmful software. Our findings highlight the need for stringent safety evaluations for diverse code agents. Our dataset and code are available at https://github.com/AI-secure/RedCode.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-12T13:30:06Z</published>
+    <arxiv:comment>Accepted by NeurIPS 2024 Datasets and Benchmarks Track</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Chengquan Guo</name>
+    </author>
+    <author>
+      <name>Xun Liu</name>
+    </author>
+    <author>
+      <name>Chulin Xie</name>
+    </author>
+    <author>
+      <name>Andy Zhou</name>
+    </author>
+    <author>
+      <name>Yi Zeng</name>
+    </author>
+    <author>
+      <name>Zinan Lin</name>
+    </author>
+    <author>
+      <name>Dawn Song</name>
+    </author>
+    <author>
+      <name>Bo Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.35366v1</id>
+    <title>Planarian: Managing Agent State with Statepoints</title>
+    <updated>2026-09-28T15:09:18Z</updated>
+    <link href="https://arxiv.org/abs/2609.35366v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.35366v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents solve complex tasks by iteratively changing files, invoking local tools, and interacting with remote services, which modifies state across their local environment and remote services. Today, agents and users must manage these changes explicitly, whether reverting exploratory actions or recovering from erroneous ones. Doing so safely requires coordinated actions, yet current agent harnesses lack unified abstractions and mechanisms for managing local and remote state consistently and efficiently.
+  We describe Planarian, an agent runtime with state management that enables agents and users to recover from erroneous actions and explore alternative executions over consistent local and remote environment state. Planarian introduces the abstraction of agent statepoints, which are consistent, restorable point-in-time versions of the environment state. Planarian exposes three state-management primitives to agents and users: (i) snapshot creates a new statepoint spanning local and remote state without requiring external services to support checkpoints: it relies on efficient incremental process and file system snapshotting to capture local sandboxed state, and transparently records compensating actions to undo remote state changes; (ii) rollback restores the environment to a previous statepoint by reverting to a prior local checkpoint and replaying compensating actions for remote state changes; and (iii) fork creates multiple isolated branches from a statepoint, enabling the agent to explore alternatives in parallel. We show that Planarian enables agents to undo mistakes and explore alternatives in parallel, improving task quality by up to 15x, and allows users to recover from erroneous actions with only 3% overhead.</summary>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-28T15:09:18Z</published>
+    <arxiv:primary_category term="cs.OS"/>
+    <author>
+      <name>Jinnan Guo</name>
+    </author>
+    <author>
+      <name>Hao Mark Chen</name>
+    </author>
+    <author>
+      <name>Kapil Vaswani</name>
+    </author>
+    <author>
+      <name>Andrew Paverd</name>
+    </author>
+    <author>
+      <name>Peter Pietzuch</name>
+    </author>
+  </entry>
+</feed>

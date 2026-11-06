@@ -1,0 +1,242 @@
+[
+  {
+    "id": "arxiv:2601.05578",
+    "decision": "EXCLUDE",
+    "reason": "LLM used for financial fraud detection, not OS security.",
+    "evidence": "fraud detection in real-world financial contexts"
+  },
+  {
+    "id": "arxiv:2601.05890",
+    "decision": "EXCLUDE",
+    "reason": "Multi-agent coordination work with no security task.",
+    "evidence": "reliable long-horizon multi-agent collaboration"
+  },
+  {
+    "id": "arxiv:2601.06588",
+    "decision": "EXCLUDE",
+    "reason": "CSI compression work with no security task.",
+    "evidence": "CSI compression framework"
+  },
+  {
+    "id": "arxiv:2601.06596",
+    "decision": "EXCLUDE",
+    "reason": "Security of LLM preference alignment, not OS components.",
+    "evidence": "manipulative prompts"
+  },
+  {
+    "id": "arxiv:2601.06838",
+    "decision": "EXCLUDE",
+    "reason": "Malware analysis of software packages, not OS components.",
+    "evidence": "malicious PyPI packages"
+  },
+  {
+    "id": "arxiv:2601.07072",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection attacks on LLM systems, not OS components.",
+    "evidence": "Indirect Prompt Injection in the Wild for LLM Systems"
+  },
+  {
+    "id": "arxiv:2601.08641",
+    "decision": "EXCLUDE",
+    "reason": "Financial market manipulation defense, not OS security.",
+    "evidence": "manipulative bots"
+  },
+  {
+    "id": "arxiv:2601.09448",
+    "decision": "EXCLUDE",
+    "reason": "Audio equalization work with no security task.",
+    "evidence": "LLM-Based Equalization"
+  },
+  {
+    "id": "arxiv:2601.09625",
+    "decision": "EXCLUDE",
+    "reason": "Analysis of prompt-injection attacks on LLM systems, not OS.",
+    "evidence": "analyze thirty-six prominent studies"
+  },
+  {
+    "id": "arxiv:2601.09709",
+    "decision": "EXCLUDE",
+    "reason": "Clinical prediction work with no security task.",
+    "evidence": "Social Determinants of Health"
+  },
+  {
+    "id": "arxiv:2601.10338",
+    "decision": "EXCLUDE",
+    "reason": "Security analysis of agent skill ecosystem, not OS components.",
+    "evidence": "42,447 skills"
+  },
+  {
+    "id": "arxiv:2601.10560",
+    "decision": "EXCLUDE",
+    "reason": "Multi-agent latency optimization with no security task.",
+    "evidence": "inference latency"
+  },
+  {
+    "id": "arxiv:2601.10589",
+    "decision": "EXCLUDE",
+    "reason": "LLM safety alignment against jailbreaks, not OS security.",
+    "evidence": "safety alignment"
+  },
+  {
+    "id": "arxiv:2601.10681",
+    "decision": "EXCLUDE",
+    "reason": "RAG context construction with no security outcome.",
+    "evidence": "retrieval-augmented generation"
+  },
+  {
+    "id": "arxiv:2601.11776",
+    "decision": "EXCLUDE",
+    "reason": "LLM detoxification work with no OS security task.",
+    "evidence": "detoxification framework"
+  },
+  {
+    "id": "arxiv:2601.11893",
+    "decision": "EXCLUDE",
+    "reason": "Protection for LLM agent systems, not OS components.",
+    "evidence": "LLM-Based Agent Systems"
+  },
+  {
+    "id": "arxiv:2601.11939",
+    "decision": "EXCLUDE",
+    "reason": "Hardware Trojan detection, not OS components.",
+    "evidence": "hardware Trojans"
+  },
+  {
+    "id": "arxiv:2601.13631",
+    "decision": "EXCLUDE",
+    "reason": "KV cache serving work with no security task.",
+    "evidence": "KV cache"
+  },
+  {
+    "id": "arxiv:2601.14523",
+    "decision": "EXCLUDE",
+    "reason": "Code optimization work with no security task.",
+    "evidence": "GPU-oriented algorithm optimization"
+  },
+  {
+    "id": "arxiv:2601.14662",
+    "decision": "EXCLUDE",
+    "reason": "GraphRAG extraction attack, not OS components.",
+    "evidence": "GraphRAG systems"
+  },
+  {
+    "id": "arxiv:2601.15311",
+    "decision": "EXCLUDE",
+    "reason": "Cognitive OS memory engineering without a security outcome.",
+    "evidence": "Cognitive Operating System"
+  },
+  {
+    "id": "arxiv:2601.16681",
+    "decision": "EXCLUDE",
+    "reason": "DeFi exploit PoC synthesis, not OS components.",
+    "evidence": "DeFi Attacks"
+  },
+  {
+    "id": "arxiv:2601.16872",
+    "decision": "EXCLUDE",
+    "reason": "User behavior modeling with no security task.",
+    "evidence": "User Behavior Modeling"
+  },
+  {
+    "id": "arxiv:2601.16890",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial attacks on fact-checking systems, not OS.",
+    "evidence": "Fact-Checking Systems"
+  },
+  {
+    "id": "arxiv:2601.17762",
+    "decision": "EXCLUDE",
+    "reason": "General software vulnerability management, not OS-specific.",
+    "evidence": "repository-level information"
+  },
+  {
+    "id": "arxiv:2601.17833",
+    "decision": "EXCLUDE",
+    "reason": "Smart contract auditing, not OS components.",
+    "evidence": "Ethereum Smart Contract Auditing"
+  },
+  {
+    "id": "arxiv:2601.18386",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial image attacks, not OS security.",
+    "evidence": "adversarial primitives"
+  },
+  {
+    "id": "arxiv:2601.19121",
+    "decision": "EXCLUDE",
+    "reason": "Recommendation orchestration with no security task.",
+    "evidence": "Recommendation Systems"
+  },
+  {
+    "id": "arxiv:2601.19726",
+    "decision": "EXCLUDE",
+    "reason": "AI system hardening and guardrails, not OS-specific.",
+    "evidence": "AI System Hardening"
+  },
+  {
+    "id": "arxiv:2601.19931",
+    "decision": "EXCLUDE",
+    "reason": "Narrative similarity work with no security task.",
+    "evidence": "Narrative Story Similarity"
+  },
+  {
+    "id": "arxiv:2601.21112",
+    "decision": "EXCLUDE",
+    "reason": "LLM monitor sabotage detection, not OS security.",
+    "evidence": "detect sabotage"
+  },
+  {
+    "id": "arxiv:2601.21198",
+    "decision": "EXCLUDE",
+    "reason": "On-device MoE serving work with no security task.",
+    "evidence": "On-Device MoE Serving"
+  },
+  {
+    "id": "arxiv:2601.21233",
+    "decision": "EXCLUDE",
+    "reason": "System prompt extraction from LLMs, not OS components.",
+    "evidence": "system prompt extraction"
+  },
+  {
+    "id": "arxiv:2601.21360",
+    "decision": "EXCLUDE",
+    "reason": "LLM academic code evaluation security, not OS.",
+    "evidence": "automated grading"
+  },
+  {
+    "id": "arxiv:2601.21380",
+    "decision": "EXCLUDE",
+    "reason": "LLM routing adversarial defense, not OS security.",
+    "evidence": "LLM rerouting"
+  },
+  {
+    "id": "arxiv:2601.21586",
+    "decision": "EXCLUDE",
+    "reason": "In-context learning evasion attacks, not OS.",
+    "evidence": "In-Context Learning"
+  },
+  {
+    "id": "arxiv:2601.22240",
+    "decision": "EXCLUDE",
+    "reason": "Systematic literature review of prompt-injection defenses.",
+    "evidence": "systematic literature review"
+  },
+  {
+    "id": "arxiv:2601.22382",
+    "decision": "EXCLUDE",
+    "reason": "Biological design optimization with no security task.",
+    "evidence": "Biological Design"
+  },
+  {
+    "id": "arxiv:2601.22720",
+    "decision": "UNCLEAR",
+    "reason": "LLM generates attack paths on IT hosts, but OS or privileged-interface scope is not specified.",
+    "evidence": "spanning 46 IT hosts"
+  },
+  {
+    "id": "arxiv:2602.00028",
+    "decision": "EXCLUDE",
+    "reason": "Video command generation with no security task.",
+    "evidence": "Video Processing Tool"
+  }
+]

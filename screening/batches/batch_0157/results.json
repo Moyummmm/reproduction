@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R06281",
+    "decision": "UNCLEAR",
+    "reason": "LLM agents exploit vulnerabilities, but no OS or privileged-interface target is specified.",
+    "evidence": "teams of LLM agents can exploit real-world, zero-day vulnerabilities"
+  },
+  {
+    "id": "R06282",
+    "decision": "EXCLUDE",
+    "reason": "Study of prompt-triggered LLM agent exploitation; this is LLM safety, not OS-targeted security work.",
+    "evidence": "which features of a system prompt trigger this behaviour"
+  },
+  {
+    "id": "R06283",
+    "decision": "EXCLUDE",
+    "reason": "Token-extraction attack on LLM serving in a TEE; the LLM is the target, not the security tool.",
+    "evidence": "token extraction attack that exploits input-dependent neuron weight accesses"
+  },
+  {
+    "id": "R06284",
+    "decision": "EXCLUDE",
+    "reason": "Information-seeking agent system with no security or OS focus.",
+    "evidence": "a generalized information-seeking agent system based on LLMs"
+  },
+  {
+    "id": "R06285",
+    "decision": "EXCLUDE",
+    "reason": "Bayesian-optimization GP kernels, not OS kernels, and no security outcome.",
+    "evidence": "adaptively generate and refine GP kernels"
+  },
+  {
+    "id": "R06286",
+    "decision": "EXCLUDE",
+    "reason": "Reasoning-diversity method with no security or OS task.",
+    "evidence": "predicts suitable reasoning types based on the problem"
+  },
+  {
+    "id": "R06287",
+    "decision": "EXCLUDE",
+    "reason": "Multi-LLM collaboration benchmarks with no security or OS task.",
+    "evidence": "designed to effectively coordinate multiple open-source LLMs"
+  },
+  {
+    "id": "R06288",
+    "decision": "EXCLUDE",
+    "reason": "Red-teaming of LLM and agent safety, not LLM use for OS security.",
+    "evidence": "comparative red teaming analysis of GPT-OSS-20B"
+  },
+  {
+    "id": "R06289",
+    "decision": "UNCLEAR",
+    "reason": "LLM multi-agent offensive security, but the OS or privileged-interface target is not specified.",
+    "evidence": "autonomously exfiltrating executables and contextual intelligence"
+  },
+  {
+    "id": "R06290",
+    "decision": "EXCLUDE",
+    "reason": "NLG evaluation methodology with no security or OS task.",
+    "evidence": "automated assessment of natural language generation"
+  },
+  {
+    "id": "R06291",
+    "decision": "EXCLUDE",
+    "reason": "GPU kernel optimization with no security outcome.",
+    "evidence": "formulates kernel optimization as a Multi-Armed Bandit"
+  },
+  {
+    "id": "R06292",
+    "decision": "EXCLUDE",
+    "reason": "Reviewer-dynamics simulation with no security or OS task.",
+    "evidence": "LLM agent reviewer dynamics in an Elo-ranked review system"
+  },
+  {
+    "id": "R06293",
+    "decision": "EXCLUDE",
+    "reason": "Vocabulary assessment with no security or OS task.",
+    "evidence": "fine-grained vocabulary evaluation"
+  },
+  {
+    "id": "R06294",
+    "decision": "EXCLUDE",
+    "reason": "Entrepreneurial-cognition steering with no security or OS task.",
+    "evidence": "causally steering an opportunity recognition dial"
+  },
+  {
+    "id": "R06295",
+    "decision": "EXCLUDE",
+    "reason": "Legal-interpretation robustness study with no OS security task.",
+    "evidence": "ordinary meaning analysis"
+  },
+  {
+    "id": "R06296",
+    "decision": "EXCLUDE",
+    "reason": "Gaussian-splatting GPU kernel optimization with no security outcome.",
+    "evidence": "analyze and optimize Gaussian splatting kernels"
+  },
+  {
+    "id": "R06297",
+    "decision": "EXCLUDE",
+    "reason": "LLM inference hardware system with no security task.",
+    "evidence": "CXL-ENabled GPU-Free sysTem for LLM inference"
+  },
+  {
+    "id": "R06298",
+    "decision": "EXCLUDE",
+    "reason": "Automated feature extraction with no security or OS task.",
+    "evidence": "knowledge-informed automatic feature extraction"
+  },
+  {
+    "id": "R06299",
+    "decision": "EXCLUDE",
+    "reason": "Scam-website detection targets websites, not OS components or privileged interfaces.",
+    "evidence": "determine whether it is a scam"
+  },
+  {
+    "id": "R06300",
+    "decision": "EXCLUDE",
+    "reason": "GPU PTX kernel benchmark and adaptation with no security outcome.",
+    "evidence": "architecture-specific PTX for GPU kernel optimization"
+  },
+  {
+    "id": "R06301",
+    "decision": "EXCLUDE",
+    "reason": "Recommender-system policy exploration with no security or OS task.",
+    "evidence": "Policy Exploration for Recommender Systems"
+  },
+  {
+    "id": "R06302",
+    "decision": "EXCLUDE",
+    "reason": "Conversational recommendation with no security or OS task.",
+    "evidence": "Improving Conversational Recommendation Capability"
+  },
+  {
+    "id": "R06303",
+    "decision": "EXCLUDE",
+    "reason": "LLM sampling kernels with no security outcome.",
+    "evidence": "unified suite of tile-aware Triton kernels"
+  },
+  {
+    "id": "R06304",
+    "decision": "EXCLUDE",
+    "reason": "Pre-trained recommender system with no security or OS task.",
+    "evidence": "pre-trained recommendation model based on LLMs"
+  },
+  {
+    "id": "R06305",
+    "decision": "EXCLUDE",
+    "reason": "Verifies CUDA/GPU kernels, not OS components, and uses no LLM as the security analyzer.",
+    "evidence": "detect memory bugs in CUDA kernels used in LLM inference systems"
+  },
+  {
+    "id": "R06306",
+    "decision": "EXCLUDE",
+    "reason": "Measures prompt-framing susceptibility in LLMs; this is LLM safety, not OS security.",
+    "evidence": "pragmatic framing produces systematic shifts in directive prioritization"
+  },
+  {
+    "id": "R06307",
+    "decision": "UNCLEAR",
+    "reason": "LLM-guided post-breach attacks, but the OS or privileged-interface target is not specified.",
+    "evidence": "simulate the post-breach stage of attacks"
+  },
+  {
+    "id": "R06308",
+    "decision": "EXCLUDE",
+    "reason": "Tutorial on LLMs for data management, not core empirical OS security research.",
+    "evidence": "The tutorial will introduce participants to basic background on language models"
+  },
+  {
+    "id": "R06309",
+    "decision": "EXCLUDE",
+    "reason": "Exploit assessment uses static analysis, with no substantive LLM role or OS target.",
+    "evidence": "assess and prioritize actionable exploits through static analysis"
+  },
+  {
+    "id": "R06310",
+    "decision": "EXCLUDE",
+    "reason": "RL intrinsic rewards from LLM feedback, with no security or OS task.",
+    "evidence": "intrinsic reward function using LLM feedback"
+  },
+  {
+    "id": "R06311",
+    "decision": "EXCLUDE",
+    "reason": "LLM serving scheduler with no security task.",
+    "evidence": "an LLM serving system that reacts to such heterogeneous and unpredictable requests"
+  },
+  {
+    "id": "R06312",
+    "decision": "EXCLUDE",
+    "reason": "Attention kernel optimization with no security outcome.",
+    "evidence": "prefix-aware attention kernel implementation for LLM decoding"
+  },
+  {
+    "id": "R06313",
+    "decision": "EXCLUDE",
+    "reason": "LLM phishing-email detection targets email, not OS components or privileged interfaces.",
+    "evidence": "detect phishing email attacks across multiple attack vectors"
+  },
+  {
+    "id": "R06314",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreak defenses concern LLM security, not LLM use for OS security.",
+    "evidence": "Defending Large Language Models Against Jailbreak Exploits"
+  },
+  {
+    "id": "R06315",
+    "decision": "EXCLUDE",
+    "reason": "Cross-modal retrieval with no security or OS task.",
+    "evidence": "Cross-modal and Cross-lingual Retrieval Systems"
+  },
+  {
+    "id": "R06316",
+    "decision": "EXCLUDE",
+    "reason": "Financial question-answering system with no security or OS task.",
+    "evidence": "online financial question-answering system"
+  },
+  {
+    "id": "R06317",
+    "decision": "EXCLUDE",
+    "reason": "LLM backdoor attacks concern security of LLMs, not OS-targeted security work.",
+    "evidence": "Backdoor attacks pose a serious security threat to large language models"
+  },
+  {
+    "id": "R06318",
+    "decision": "EXCLUDE",
+    "reason": "Clinical evaluation audit with no security or OS task.",
+    "evidence": "evaluation artifacts and data leakage in large language model systems for rare disease diagnosis"
+  },
+  {
+    "id": "R06319",
+    "decision": "EXCLUDE",
+    "reason": "Prediction-market trading system with no security or OS task.",
+    "evidence": "prediction market trading and latency arbitrage"
+  },
+  {
+    "id": "R06320",
+    "decision": "EXCLUDE",
+    "reason": "LLM RL agent with experience memory and no security or OS task.",
+    "evidence": "semi-parametric RL agent"
+  }
+]

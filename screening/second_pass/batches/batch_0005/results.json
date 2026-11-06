@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R00535",
+    "decision": "EXCLUDE",
+    "reason": "OS performance optimization without a security outcome or LLM security task.",
+    "evidence": "adds accelerator-aware scheduling and tensor-aware memory management directly into the kernel"
+  },
+  {
+    "id": "R00536",
+    "decision": "EXCLUDE",
+    "reason": "No LLM; general network vulnerability scanning with GVM.",
+    "evidence": "open vulnerability assessment system method using Greenbone Vulnerability Management (GVM)"
+  },
+  {
+    "id": "R00537",
+    "decision": "EXCLUDE",
+    "reason": "Literary analysis; no LLM, security, or OS component.",
+    "evidence": "a ironia como uma ferramenta retórica"
+  },
+  {
+    "id": "R00545",
+    "decision": "EXCLUDE",
+    "reason": "LLM security detection targets user coercion behavior, not OS components.",
+    "evidence": "analyzes a user’s activity using an integrated large language model (LLM)"
+  },
+  {
+    "id": "R00546",
+    "decision": "EXCLUDE",
+    "reason": "Security operations and cloud incident response, not an OS-component security task.",
+    "evidence": "leverages LLMs for security incident response"
+  },
+  {
+    "id": "R00552",
+    "decision": "EXCLUDE",
+    "reason": "Recommender-system work with no security outcome.",
+    "evidence": "hybrid Transformer-based recommendation model"
+  },
+  {
+    "id": "R00556",
+    "decision": "EXCLUDE",
+    "reason": "Threat modeling targets water infrastructure, not OS components or privileged interfaces.",
+    "evidence": "threat landscape for a water treatment facility"
+  },
+  {
+    "id": "R00558",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted porting of a general C library, not an OS-component security task.",
+    "evidence": "LLM-assisted porting of security-critical C libraries to idiomatic Rust"
+  },
+  {
+    "id": "R00560",
+    "decision": "EXCLUDE",
+    "reason": "LLM is used for log querying, not OS security analysis.",
+    "evidence": "LLM-assisted query mechanism"
+  },
+  {
+    "id": "R00561",
+    "decision": "EXCLUDE",
+    "reason": "Survey on SLURM administration; not core empirical security research.",
+    "evidence": "A Survey"
+  },
+  {
+    "id": "R00563",
+    "decision": "EXCLUDE",
+    "reason": "General code repair and validation, with no security outcome or OS target.",
+    "evidence": "LLM-assisted repair framework integrated into a gated code-validation pipeline"
+  },
+  {
+    "id": "R00580",
+    "decision": "EXCLUDE",
+    "reason": "Speech disfluency transcription and classification; no security or OS scope.",
+    "evidence": "transcription and classification of speech disfluencies"
+  },
+  {
+    "id": "R00586",
+    "decision": "EXCLUDE",
+    "reason": "Programming-education knowledge modeling; no security or OS scope.",
+    "evidence": "introductory C# programming course with 227 students"
+  },
+  {
+    "id": "R00588",
+    "decision": "EXCLUDE",
+    "reason": "Paleoclimate database construction; no LLM security task or OS target.",
+    "evidence": "An LLM-assisted global proxy database for the Common Era"
+  },
+  {
+    "id": "R00600",
+    "decision": "EXCLUDE",
+    "reason": "Fitness-app and student exercise study; no LLM security task or OS target.",
+    "evidence": "fitness apps have sprung up like mushrooms"
+  },
+  {
+    "id": "R00601",
+    "decision": "EXCLUDE",
+    "reason": "LLM literature-screening architecture, not security research on OS components.",
+    "evidence": "LLM-Assisted Systematic Literature Screening"
+  },
+  {
+    "id": "R00603",
+    "decision": "EXCLUDE",
+    "reason": "General software test automation; no security outcome or OS target.",
+    "evidence": "cognitive software testing framework"
+  },
+  {
+    "id": "R00610",
+    "decision": "EXCLUDE",
+    "reason": "General software documentation and vulnerability reporting, not OS-specific security.",
+    "evidence": "reads project directories, extracts metadata"
+  },
+  {
+    "id": "R00611",
+    "decision": "EXCLUDE",
+    "reason": "Forensic and compliance auditing platform, not an OS-component security task.",
+    "evidence": "digital forensics and continuous auditing for compliance management"
+  },
+  {
+    "id": "R00614",
+    "decision": "EXCLUDE",
+    "reason": "Security of LLMs against prompt injection, not LLM-for-OS security.",
+    "evidence": "prompt injection and jailbreaking"
+  },
+  {
+    "id": "R00616",
+    "decision": "EXCLUDE",
+    "reason": "Methodological review of AI-assisted content analysis; no core OS security evaluation.",
+    "evidence": "content analysis (CA), supported by LLMs"
+  },
+  {
+    "id": "R00617",
+    "decision": "EXCLUDE",
+    "reason": "Synthetic medical records; no security or OS scope.",
+    "evidence": "prontuários eletrônicos (PE) sintéticos"
+  },
+  {
+    "id": "R00623",
+    "decision": "EXCLUDE",
+    "reason": "General data and network intrusion detection, not OS-component security.",
+    "evidence": "data security intrusion detection system"
+  },
+  {
+    "id": "R00630",
+    "decision": "EXCLUDE",
+    "reason": "Survey of cloud security posture for LLM deployments; security of LLMs, not OS.",
+    "evidence": "This survey presents emerging Unified AI Security Posture Management"
+  },
+  {
+    "id": "R00631",
+    "decision": "EXCLUDE",
+    "reason": "Analysis of LLM security and risk, not LLM use for OS security.",
+    "evidence": "examines the security and risk implications"
+  },
+  {
+    "id": "R00650",
+    "decision": "EXCLUDE",
+    "reason": "LLM sycophancy modeling; no security or OS scope.",
+    "evidence": "Bayesian-latent variable framework"
+  },
+  {
+    "id": "R00654",
+    "decision": "EXCLUDE",
+    "reason": "Economic-security risk management in the dairy industry; not OS or technical security.",
+    "evidence": "экономической безопасности"
+  },
+  {
+    "id": "R00655",
+    "decision": "EXCLUDE",
+    "reason": "Systematic survey of LLM supply-chain threats; security of LLMs, not OS.",
+    "evidence": "systematic literature review"
+  },
+  {
+    "id": "R00660",
+    "decision": "EXCLUDE",
+    "reason": "Smart-contract vulnerability detection, not OS-component security.",
+    "evidence": "54 Solidity contracts"
+  },
+  {
+    "id": "R00661",
+    "decision": "EXCLUDE",
+    "reason": "Smart-contract vulnerability detection, not OS-component security.",
+    "evidence": "smart contract vulnerability detection"
+  },
+  {
+    "id": "R00662",
+    "decision": "EXCLUDE",
+    "reason": "General software vulnerability detection on Java and C/C++ datasets, not OS-specific.",
+    "evidence": "OWASP and Juliet Java datasets and the BigVul C/C++ dataset"
+  },
+  {
+    "id": "R00663",
+    "decision": "EXCLUDE",
+    "reason": "Smart-contract reentrancy detection, not OS-component security.",
+    "evidence": "reentrancy vulnerability detection in Ethereum smart contracts"
+  },
+  {
+    "id": "R00664",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based power-system relaying, not computer OS security.",
+    "evidence": "LLM-based operating system (LLM-OS) designed to enhance power system relaying"
+  },
+  {
+    "id": "R00667",
+    "decision": "EXCLUDE",
+    "reason": "Function-level general C/C++ vulnerability detection, not OS-specific.",
+    "evidence": "function-level C/C++ vulnerability detection framework"
+  },
+  {
+    "id": "R00668",
+    "decision": "EXCLUDE",
+    "reason": "Smart-contract vulnerability analysis, not OS-component security.",
+    "evidence": "vulnerability analysis of Solidity smart contracts"
+  },
+  {
+    "id": "R00670",
+    "decision": "EXCLUDE",
+    "reason": "General source-code vulnerability detection, not OS-specific security.",
+    "evidence": "An experiment is performed with a source code dataset"
+  },
+  {
+    "id": "R00671",
+    "decision": "EXCLUDE",
+    "reason": "PHP web-application taint analysis, not OS-component security.",
+    "evidence": "PHP Web applications"
+  },
+  {
+    "id": "R00672",
+    "decision": "EXCLUDE",
+    "reason": "Smart-contract vulnerability detection benchmark, not OS-component security.",
+    "evidence": "SmartBugs Curated benchmark"
+  },
+  {
+    "id": "R00674",
+    "decision": "EXCLUDE",
+    "reason": "General source-code vulnerability detection, not OS-component security.",
+    "evidence": "vulnerable–patched pairs from PrimeVul"
+  },
+  {
+    "id": "R00675",
+    "decision": "EXCLUDE",
+    "reason": "General vulnerability-category detection in prompt-code pairs, not OS-specific.",
+    "evidence": "12,000 prompt-code pairs"
+  }
+]

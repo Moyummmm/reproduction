@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R06361",
+    "decision": "EXCLUDE",
+    "reason": "General multimodal anomaly detection, not a security task targeting OS components.",
+    "evidence": "Anomaly detection (AD) is a fundamental task of critical importance across numerous domains."
+  },
+  {
+    "id": "R06362",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates LLMs on MCP server log risks, not OS components or privileged interfaces.",
+    "evidence": "the first synthetic benchmark for evaluating LLMs' ability to identify security risks from system logs."
+  },
+  {
+    "id": "R06363",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection evaluation against LLM log interpretation is security of LLMs, not an OS-component task.",
+    "evidence": "a framework for evaluating prompt injection attacks against LLM-based log interpretation."
+  },
+  {
+    "id": "R06364",
+    "decision": "EXCLUDE",
+    "reason": "Distributed threat detection over mixed data sources, not an OS component or privileged interface.",
+    "evidence": "process heterogeneous data sources including network traffic, system logs, images, and sensor data."
+  },
+  {
+    "id": "R06365",
+    "decision": "EXCLUDE",
+    "reason": "Log anomaly detection for system reliability, not a security analysis of OS components.",
+    "evidence": "Log-based anomaly detection is critical for ensuring the stability and reliability of web systems."
+  },
+  {
+    "id": "R06366",
+    "decision": "EXCLUDE",
+    "reason": "Dataset and LLM case study on security-log interpretation, not OS components.",
+    "evidence": "Large Language Models enable domain- and format-agnostic interpretation of system logs and security alerts."
+  },
+  {
+    "id": "R06367",
+    "decision": "EXCLUDE",
+    "reason": "Natural-language querying of security logs, not a security task targeting OS components.",
+    "evidence": "Security analysts routinely query system logs to detect threats and investigate incidents"
+  },
+  {
+    "id": "R06368",
+    "decision": "EXCLUDE",
+    "reason": "Zero-label log anomaly detection, not a security analysis of OS components.",
+    "evidence": "zero-label cross-system log anomaly detection."
+  },
+  {
+    "id": "R06369",
+    "decision": "EXCLUDE",
+    "reason": "Edge threat detection over network traffic and system logs, not OS privileged interfaces.",
+    "evidence": "analyze local data streams, such as network traffic and system logs, in real-time."
+  },
+  {
+    "id": "R06370",
+    "decision": "EXCLUDE",
+    "reason": "Log anomaly detection on benchmark logs, not a security analysis of OS components.",
+    "evidence": "log anomaly detector built on EleutherAI's GPT-Neo"
+  },
+  {
+    "id": "R06371",
+    "decision": "EXCLUDE",
+    "reason": "Review article on LLM-based log parsing, excluded from the core empirical research set.",
+    "evidence": "systematically reviews 29 LLM-based log parsing methods."
+  },
+  {
+    "id": "R06372",
+    "decision": "EXCLUDE",
+    "reason": "Network incident-response planning from logs and alerts, not OS components.",
+    "evidence": "processing system logs and inferring the underlying network state"
+  },
+  {
+    "id": "R06373",
+    "decision": "EXCLUDE",
+    "reason": "APT detection from LLM-encoded system logs, not a security task targeting OS components.",
+    "evidence": "extracting meaningful semantic representations from unstructured system log data."
+  },
+  {
+    "id": "R06374",
+    "decision": "EXCLUDE",
+    "reason": "Defends an LLM/SOC pipeline against log poisoning, a security-of-LLM issue rather than an OS-component task.",
+    "evidence": "indirect prompt injection via log poisoning"
+  },
+  {
+    "id": "R06375",
+    "decision": "EXCLUDE",
+    "reason": "General log anomaly detection, not an OS-component security task.",
+    "evidence": "entry-based anomaly detection framework that enriches raw log entries"
+  },
+  {
+    "id": "R06376",
+    "decision": "EXCLUDE",
+    "reason": "Log data purification for anomaly detection, not a security task targeting OS components.",
+    "evidence": "detects irregular patterns within large volumes of log data"
+  },
+  {
+    "id": "R06377",
+    "decision": "EXCLUDE",
+    "reason": "Privacy-aware cybersecurity QA benchmark, focused on LLM privacy rather than OS security.",
+    "evidence": "privacy-aware QA benchmark covering key security domains."
+  },
+  {
+    "id": "R06378",
+    "decision": "UNCLEAR",
+    "reason": "Host-based log intrusion detection may be OS-adjacent, but no OS component or privileged interface is identified.",
+    "evidence": "intrusion detection from system logs, remains unexplored."
+  },
+  {
+    "id": "R06379",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM analyzes system-level audit behaviors at syscall granularity to detect malicious activity.",
+    "evidence": "semantic analysis based on audit logs have low granularity, only reaching the system call level"
+  },
+  {
+    "id": "R06380",
+    "decision": "EXCLUDE",
+    "reason": "General log-analysis chatbot, not a security task targeting OS components.",
+    "evidence": "clustering-based log analysis chatbot that leverages Large Language Models"
+  },
+  {
+    "id": "R06381",
+    "decision": "EXCLUDE",
+    "reason": "RAG-based log anomaly detection, not a security analysis of OS components.",
+    "evidence": "detect log anomalies from system logs"
+  },
+  {
+    "id": "R06382",
+    "decision": "EXCLUDE",
+    "reason": "Log anomaly detection for reliability; LLM only supplies feedback and is not used for OS security analysis.",
+    "evidence": "contemporary large language models, such as ChatGPT, can provide feedback"
+  },
+  {
+    "id": "R06383",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based log parsing, an OS engineering/data-processing task without a security outcome.",
+    "evidence": "Log parsing, which extracts structured events from massive unstructured log data"
+  },
+  {
+    "id": "R06384",
+    "decision": "EXCLUDE",
+    "reason": "HPC log parsing and mining, not a security task targeting OS components.",
+    "evidence": "parse and structure HPC logs with high fidelity."
+  },
+  {
+    "id": "R06385",
+    "decision": "EXCLUDE",
+    "reason": "Threat-intelligence extraction from logs, not a security analysis of OS components.",
+    "evidence": "information extraction from cybersecurity logs."
+  },
+  {
+    "id": "R06386",
+    "decision": "EXCLUDE",
+    "reason": "CI log reduction for LLM analysis, not a security task targeting OS components.",
+    "evidence": "diagnosing build failures and performance regressions"
+  },
+  {
+    "id": "R06387",
+    "decision": "EXCLUDE",
+    "reason": "Insider-threat simulation generating enterprise logs, not an OS-component security task.",
+    "evidence": "automatically simulates both benign and malicious insider activities and generates comprehensive system logs"
+  },
+  {
+    "id": "R06388",
+    "decision": "EXCLUDE",
+    "reason": "Privacy leakage through LLM routing metadata, not an OS-component security task.",
+    "evidence": "measure this privacy channel beyond token counts"
+  },
+  {
+    "id": "R06389",
+    "decision": "EXCLUDE",
+    "reason": "Cloud fault detection and self-healing, not a security task targeting OS components.",
+    "evidence": "intelligent fault detection and self-healing mechanisms in cloud systems."
+  },
+  {
+    "id": "R06390",
+    "decision": "EXCLUDE",
+    "reason": "Log visualization and summarization, without a security task targeting OS components.",
+    "evidence": "combine clustering and LLM summarization with event detection"
+  },
+  {
+    "id": "R06391",
+    "decision": "EXCLUDE",
+    "reason": "Log parsing for rare log groups, not a security task.",
+    "evidence": "improves template inference for rare log groups"
+  },
+  {
+    "id": "R06392",
+    "decision": "EXCLUDE",
+    "reason": "TEE protects on-device LLMs; the LLM is the protected object, not the security tool.",
+    "evidence": "protecting on-device LLMs using Arm Trusted Execution Environment (TEE), TrustZone."
+  },
+  {
+    "id": "R06393",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based literature analysis with a unikernel-security case study, not original empirical security research.",
+    "evidence": "generalizable approach to literature analysis called CEKER"
+  },
+  {
+    "id": "R06394",
+    "decision": "EXCLUDE",
+    "reason": "TEE-GPU design protects LLM inference; this is security of LLMs, not LLM use for OS security.",
+    "evidence": "securing them against model extraction attacks"
+  },
+  {
+    "id": "R06395",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-assisted intrusion detection explicitly covers host and hypervisor layers.",
+    "evidence": "The system secures three distinct layers: network, host, and hypervisor."
+  },
+  {
+    "id": "R06396",
+    "decision": "EXCLUDE",
+    "reason": "TEE design optimizes LLM training workloads; the LLM is a workload, not a security tool.",
+    "evidence": "improves the performance of Large Language Model (LLM) training workloads"
+  },
+  {
+    "id": "R06397",
+    "decision": "EXCLUDE",
+    "reason": "Protects LLM model IP with a TEE; the LLM is the protected object, not the security tool.",
+    "evidence": "Safeguarding LLMs from Unauthorized Knowledge Distillation on the Edge"
+  },
+  {
+    "id": "R06398",
+    "decision": "EXCLUDE",
+    "reason": "TEE-based protection of LLM API routers, not LLM use for an OS security task.",
+    "evidence": "sealing LLM API Routers with Attested TEEs"
+  },
+  {
+    "id": "R06399",
+    "decision": "EXCLUDE",
+    "reason": "MCP tool-server admission control, not an OS-component security task.",
+    "evidence": "security extension to the Model Context Protocol"
+  },
+  {
+    "id": "R06400",
+    "decision": "EXCLUDE",
+    "reason": "EHR interoperability architecture, not a security task targeting OS components.",
+    "evidence": "Secure Network Electronic Health Record (EHR) Interoperability"
+  }
+]

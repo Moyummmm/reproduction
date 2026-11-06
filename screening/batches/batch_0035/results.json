@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01401",
+    "decision": "EXCLUDE",
+    "reason": "eBPF memory allocator; no security outcome or LLM role.",
+    "evidence": "A Memory Pool Allocator for eBPF Applications"
+  },
+  {
+    "id": "R01402",
+    "decision": "EXCLUDE",
+    "reason": "Hardware-assisted eBPF defense; no LLM role indicated.",
+    "evidence": "SafeBPF: Hardware-assisted Defense-in-depth for eBPF Kernel Extensions"
+  },
+  {
+    "id": "R01403",
+    "decision": "EXCLUDE",
+    "reason": "MFA and eBPF monitoring for SSH; no LLM role indicated.",
+    "evidence": "Strengthening SSH Security with Multi-Factor Authentication and eBPF Monitoring"
+  },
+  {
+    "id": "R01404",
+    "decision": "EXCLUDE",
+    "reason": "SCION-IP translation in eBPF; networking work without security outcome or LLM.",
+    "evidence": "Unlocking Path Awareness for Legacy Applications through SCION-IP Translation in eBPF"
+  },
+  {
+    "id": "R01405",
+    "decision": "EXCLUDE",
+    "reason": "eBPF container security framework; no LLM role indicated.",
+    "evidence": "eBPF-Enhanced Container Security Framework for Multi-Tenant Enterprise Private Clouds"
+  },
+  {
+    "id": "R01406",
+    "decision": "EXCLUDE",
+    "reason": "Sub-core allocation with eBPF; performance work without security outcome or LLM.",
+    "evidence": "μslice: Toward Accurate Sub-Core Allocation with eBPF"
+  },
+  {
+    "id": "R01407",
+    "decision": "EXCLUDE",
+    "reason": "Custom page fault handling; OS engineering without security outcome or LLM.",
+    "evidence": "Custom Page Fault Handling With eBPF"
+  },
+  {
+    "id": "R01408",
+    "decision": "EXCLUDE",
+    "reason": "Decoupled verification for embedded eBPF; no security analysis or LLM role.",
+    "evidence": "Enabling eBPF on Embedded Systems Through Decoupled Verification"
+  },
+  {
+    "id": "R01409",
+    "decision": "EXCLUDE",
+    "reason": "eBPF map performance study; no security outcome or LLM.",
+    "evidence": "Understanding Performance of eBPF Maps"
+  },
+  {
+    "id": "R01410",
+    "decision": "EXCLUDE",
+    "reason": "SoK review of eBPF memory safety; surveys excluded and no LLM role.",
+    "evidence": "SoK: Challenges and Paths Toward Memory Safety for eBPF"
+  },
+  {
+    "id": "R01411",
+    "decision": "EXCLUDE",
+    "reason": "eBPF error-reporting tool; no security outcome or LLM.",
+    "evidence": "Design and implementation of a tool to improve error reporting for eBPF code"
+  },
+  {
+    "id": "R01412",
+    "decision": "POSSIBLE_CORE",
+    "reason": "GenAI-powered empirical security analysis of eBPF, a kernel subsystem.",
+    "evidence": "Toward an Empirical Security Panorama of eBPF using GenAI-powered Automated Pipelines"
+  },
+  {
+    "id": "R01413",
+    "decision": "EXCLUDE",
+    "reason": "eBPF-based ransomware/DGA detection; no LLM role.",
+    "evidence": "we developed eBPF-based modules, tested them, and simulated an attack"
+  },
+  {
+    "id": "R01414",
+    "decision": "EXCLUDE",
+    "reason": "eBPF pub-sub acceleration; systems performance without security outcome or LLM.",
+    "evidence": "Toward eBPF-Accelerated Pub-Sub Systems"
+  },
+  {
+    "id": "R01415",
+    "decision": "EXCLUDE",
+    "reason": "Review comparing eBPF security frameworks; no LLM role.",
+    "evidence": "the research compares some EBPF-based security frameworks and discusses their potential usage"
+  },
+  {
+    "id": "R01416",
+    "decision": "EXCLUDE",
+    "reason": "eBPF guard for io_uring; no LLM role indicated.",
+    "evidence": "RingGuard: Guard io_uring with eBPF"
+  },
+  {
+    "id": "R01417",
+    "decision": "EXCLUDE",
+    "reason": "eBPF anomaly detection in Kubernetes; no LLM role indicated.",
+    "evidence": "EDGE SECURITY AUTOMATION EBPF-BASED ANOMALY DETECTION IN K3S CLUSTERS AND ISTIO AMBIENT MESH"
+  },
+  {
+    "id": "R01418",
+    "decision": "EXCLUDE",
+    "reason": "eBPF runtime container security; no LLM role indicated.",
+    "evidence": "Container Instrumentation and Enforcement System for Runtime Security of Kubernetes Platform with eBPF"
+  },
+  {
+    "id": "R01419",
+    "decision": "EXCLUDE",
+    "reason": "Functional verification of eBPF programs; no security analysis or LLM role.",
+    "evidence": "Towards Functional Verification of eBPF Programs"
+  },
+  {
+    "id": "R01420",
+    "decision": "EXCLUDE",
+    "reason": "Kernel observability/performance study; no security outcome or LLM.",
+    "evidence": "The evaluated overheads of system performance and the fidelity of observability"
+  },
+  {
+    "id": "R01421",
+    "decision": "EXCLUDE",
+    "reason": "eBPF load balancing; networking performance without security outcome or LLM.",
+    "evidence": "HEELS: A Host-Enabled eBPF-Based Load Balancing Scheme"
+  },
+  {
+    "id": "R01422",
+    "decision": "EXCLUDE",
+    "reason": "eBPF program optimizations; no security outcome or LLM.",
+    "evidence": "Fun Optimizations for eBPF Programs and How to Enable Them"
+  },
+  {
+    "id": "R01423",
+    "decision": "EXCLUDE",
+    "reason": "Analysis/review of eBPF security tools; no LLM role.",
+    "evidence": "An In-Depth Analysis of eBPF-Based System Security Tools in Cloud-Native Environments"
+  },
+  {
+    "id": "R01424",
+    "decision": "EXCLUDE",
+    "reason": "Functional verification of eBPF deployments; no security analysis or LLM role.",
+    "evidence": "Hydra: Rich and Scalable Functional Verification of eBPF Deployments"
+  },
+  {
+    "id": "R01425",
+    "decision": "EXCLUDE",
+    "reason": "eBPF network flow extraction for security practice; no LLM role.",
+    "evidence": "RustiFlow: Bridging the Gap Between Security Research and Practice Using eBPF-Based Network Flow Extraction"
+  },
+  {
+    "id": "R01426",
+    "decision": "EXCLUDE",
+    "reason": "eBPF process checkpointing; systems work without security outcome or LLM.",
+    "evidence": "bpfCP: Efficient and Extensible Process Checkpointing via eBPF"
+  },
+  {
+    "id": "R01427",
+    "decision": "UNCLEAR",
+    "reason": "Vague title and no abstract; security task and LLM role cannot be assessed.",
+    "evidence": "Context Matters: Expanding the Potential of eBPF"
+  },
+  {
+    "id": "R01428",
+    "decision": "EXCLUDE",
+    "reason": "Dynamic sandboxing for unprivileged eBPF; no LLM role indicated.",
+    "evidence": "Unleashing Unprivileged eBPF Potential with Dynamic Sandboxing"
+  },
+  {
+    "id": "R01429",
+    "decision": "EXCLUDE",
+    "reason": "XDP/eBPF NFV framework; networking work with no LLM role.",
+    "evidence": "XenFlow: An XDP/eBPF-Based Multi-Tenant NFV Framework Considering System Security and High-Performance"
+  },
+  {
+    "id": "R01430",
+    "decision": "EXCLUDE",
+    "reason": "eBPF provenance-graph container escape detection; no LLM role.",
+    "evidence": "Real-Time Detection of Privileged Container Escape Attempts Using Kernel-Level eBPF Provenance Graphs"
+  },
+  {
+    "id": "R01431",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial ELF manipulation in eBPF network stacks; no LLM role.",
+    "evidence": "We're eBPF'd: Exploring Adversarial Manipulation of ELF Files in eBPF-Based Programmable Network Stacks"
+  },
+  {
+    "id": "R01432",
+    "decision": "EXCLUDE",
+    "reason": "eBPF-assisted TLS inspection; networking work without LLM.",
+    "evidence": "Decryption at the Edge: eBPF-Assisted TLS Insight for Enhanced DPI"
+  },
+  {
+    "id": "R01433",
+    "decision": "EXCLUDE",
+    "reason": "Conceptual blockchain/eBPF audit framework; no LLM role.",
+    "evidence": "combines blockchain and eBPF technologies"
+  },
+  {
+    "id": "R01434",
+    "decision": "EXCLUDE",
+    "reason": "Preventing information leaks from eBPF; no LLM role indicated.",
+    "evidence": "BPFflow - Preventing information leaks from eBPF"
+  },
+  {
+    "id": "R01435",
+    "decision": "EXCLUDE",
+    "reason": "eBPF/XDP private 5G RAN scaling; networking performance without security outcome or LLM.",
+    "evidence": "PRAVEGA: Scaling Private 5G RAN via eBPF/XDP"
+  },
+  {
+    "id": "R01436",
+    "decision": "EXCLUDE",
+    "reason": "eBPF telemetry and ML-enhanced SIEM for DDoS detection; no explicit LLM role.",
+    "evidence": "Real-Time DDoS Detection by Integrated eBPF Telemetry and Machine Learning-enhanced SIEM"
+  },
+  {
+    "id": "R01437",
+    "decision": "EXCLUDE",
+    "reason": "Programmable-switch and eBPF attack prevention; no LLM role.",
+    "evidence": "P4Control: Line-Rate Cross-Host Attack Prevention via In-Network Information Flow Control Enabled by Programmable Switches and eBPF"
+  },
+  {
+    "id": "R01438",
+    "decision": "EXCLUDE",
+    "reason": "Defensive framework against eBPF container attacks; no LLM role.",
+    "evidence": "eBPF-sec: A Defensive Framework Against eBPF Attacks on Containers"
+  },
+  {
+    "id": "R01439",
+    "decision": "EXCLUDE",
+    "reason": "eBPF/XDP TURN acceleration; networking performance without security outcome or LLM.",
+    "evidence": "Supercharge WebRTC: Accelerate TURN Services with eBPF/XDP"
+  },
+  {
+    "id": "R01440",
+    "decision": "EXCLUDE",
+    "reason": "eBPF JIT code-size overhead; performance work without security outcome or LLM.",
+    "evidence": "Quantifying the Code-Size Overhead of eBPF JIT Compilation"
+  }
+]

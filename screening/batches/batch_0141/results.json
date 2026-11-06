@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R05641",
+    "decision": "EXCLUDE",
+    "reason": "Studies bias in LLM-generated security advice, not an LLM applied to an OS security task.",
+    "evidence": "Prompt-Induced Bias in LLM Security Recommendations"
+  },
+  {
+    "id": "R05642",
+    "decision": "EXCLUDE",
+    "reason": "Targets jailbreaking of LLMs, which is security of LLMs rather than OS-component security.",
+    "evidence": "jailbreaking attacks against large language models"
+  },
+  {
+    "id": "R05643",
+    "decision": "EXCLUDE",
+    "reason": "Title concerns LLM jailbreak mitigation, i.e. LLM safety, not OS-targeted security.",
+    "evidence": "LLM-based Safeguard Technique for Automated Jailbreak Mitigation"
+  },
+  {
+    "id": "R05644",
+    "decision": "EXCLUDE",
+    "reason": "Concerns jailbreak-prompt detection for LLMs, not an LLM used against OS components.",
+    "evidence": "cross-dataset generalization in LLM jailbreak prompt detection"
+  },
+  {
+    "id": "R05645",
+    "decision": "EXCLUDE",
+    "reason": "Detects GCG jailbreak abuse of LLMs; this is LLM security, not OS security.",
+    "evidence": "GCG Jailbreak Attack Detection"
+  },
+  {
+    "id": "R05646",
+    "decision": "EXCLUDE",
+    "reason": "Focuses on defending LLMs from jailbreaks, not on OS-targeted security tasks.",
+    "evidence": "Summarization for LLM Jailbreak Defense"
+  },
+  {
+    "id": "R05647",
+    "decision": "EXCLUDE",
+    "reason": "Defends LLM-powered systems against jailbreak prompts; scope is LLM security.",
+    "evidence": "Defending against Jailbreak Attacks in LLM-Powered Systems"
+  },
+  {
+    "id": "R05648",
+    "decision": "EXCLUDE",
+    "reason": "Proposes an LLM jailbreak defense, so it addresses LLM safety rather than OS security.",
+    "evidence": "Efficient Defense Against LLM Jailbreak Attacks"
+  },
+  {
+    "id": "R05649",
+    "decision": "EXCLUDE",
+    "reason": "Describes an LLM jailbreak attack paradigm, not an LLM applied to OS security.",
+    "evidence": "A Paradigm for LLM Jailbreak via Simple Assistive Task Linkage"
+  },
+  {
+    "id": "R05650",
+    "decision": "EXCLUDE",
+    "reason": "Attacks a multi-agent LLM defense system, which is LLM security, not OS security.",
+    "evidence": "Jailbreak Attack on a Multi-agent LLM Defense System"
+  },
+  {
+    "id": "R05651",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates LLM jailbreak interactions and evaluators, not OS-component security analysis.",
+    "evidence": "multi-turn LLM jailbreak evaluation via semantic refusal manifold modeling"
+  },
+  {
+    "id": "R05652",
+    "decision": "EXCLUDE",
+    "reason": "Presents an LLM jailbreak method, so the security target is the LLM, not an OS.",
+    "evidence": "Efficient &amp; Effective LLM Jailbreak via Simultaneous Obfuscation"
+  },
+  {
+    "id": "R05653",
+    "decision": "EXCLUDE",
+    "reason": "Analyzes jailbreak prompt vulnerabilities in commercial LLMs, not OS security.",
+    "evidence": "Jailbreak Prompt Vulnerabilities in Commercial LLM"
+  },
+  {
+    "id": "R05654",
+    "decision": "EXCLUDE",
+    "reason": "Classifies LLM responses as jailbreak or normal; no OS-component security task.",
+    "evidence": "Evaluating Whether LLM Response Stem from Jailbreak or Normal Prompt"
+  },
+  {
+    "id": "R05655",
+    "decision": "EXCLUDE",
+    "reason": "Proposes an indirect LLM jailbreak attack, which is LLM security.",
+    "evidence": "Indirect Jailbreak Attack with Implicit Clues"
+  },
+  {
+    "id": "R05656",
+    "decision": "EXCLUDE",
+    "reason": "Explains LLM alignment and jailbreak behavior, addressing LLM safety not OS security.",
+    "evidence": "Explain LLM Safety through Intermediate Hidden States"
+  },
+  {
+    "id": "R05657",
+    "decision": "EXCLUDE",
+    "reason": "Concerns LLM guardrails against harmful content and jailbreaks, not OS security.",
+    "evidence": "LLM Guardrails Approaches Preventing Harmful Content and Jailbreak Attacks"
+  },
+  {
+    "id": "R05658",
+    "decision": "EXCLUDE",
+    "reason": "Improves LLM safety against jailbreak attacks, not OS-targeted security.",
+    "evidence": "Enhanced LLM Safety Against Jailbreak Attacks"
+  },
+  {
+    "id": "R05659",
+    "decision": "EXCLUDE",
+    "reason": "Proposes LLM jailbreak mitigation, which concerns LLM safety, not OS security.",
+    "evidence": "LLM-based safeguard technique for automated jailbreak mitigation"
+  },
+  {
+    "id": "R05660",
+    "decision": "EXCLUDE",
+    "reason": "Studies reliability of jailbreak evaluators for LLM attacks, not OS security.",
+    "evidence": "Human-Machine Agreement in Cybersecurity Multi-Turn LLM Attacks"
+  },
+  {
+    "id": "R05661",
+    "decision": "EXCLUDE",
+    "reason": "Optimizes LLM jailbreak generation, so the security target is the LLM.",
+    "evidence": "Efficient LLM Jailbreak via Adaptive Dense-to-sparse Constrained Optimization"
+  },
+  {
+    "id": "R05662",
+    "decision": "EXCLUDE",
+    "reason": "Uses diffusion to manipulate prompts for LLM jailbreak; no OS security task.",
+    "evidence": "Diffusion-Driven Prompt Manipulation for LLM Jailbreak"
+  },
+  {
+    "id": "R05663",
+    "decision": "EXCLUDE",
+    "reason": "Benchmarks co-authoring jailbreak attacks on LLMs, not OS-component security.",
+    "evidence": "Benchmark for Draft-Based Co-Authoring Jailbreak Attacks"
+  },
+  {
+    "id": "R05664",
+    "decision": "EXCLUDE",
+    "reason": "Models jailbreak attacks against LLMs via game theory; scope is LLM security.",
+    "evidence": "Jailbreak Attacks against LLM based on Red-Blue Team Game Theory"
+  },
+  {
+    "id": "R05665",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates LLM security failures in cloud, not an LLM applied to OS security.",
+    "evidence": "Systematic Evaluation of LLM Security in Cloud Environments"
+  },
+  {
+    "id": "R05666",
+    "decision": "EXCLUDE",
+    "reason": "Enhances LLM safety guardrails against jailbreak-like prompts, not OS security.",
+    "evidence": "Enhance LLM Safety Guardrail to Potential Attacks"
+  },
+  {
+    "id": "R05667",
+    "decision": "EXCLUDE",
+    "reason": "Analyzes LLMs against prompt injection and jailbreak; this is LLM security.",
+    "evidence": "Analysis of LLMs Against Prompt Injection and Jailbreak Attacks"
+  },
+  {
+    "id": "R05668",
+    "decision": "EXCLUDE",
+    "reason": "Improves LLM outputs under jailbreak attacks, addressing LLM safety.",
+    "evidence": "Improving LLM Outputs Against Jailbreak Attacks"
+  },
+  {
+    "id": "R05669",
+    "decision": "EXCLUDE",
+    "reason": "Balances jailbreak refusal and overrefusal in LLMs, not OS security.",
+    "evidence": "Resolving the Jailbreak-Overrefusal Trade-off via Vector Alignment"
+  },
+  {
+    "id": "R05670",
+    "decision": "EXCLUDE",
+    "reason": "Reveals LLM safety-alignment limits via jailbreak attacks, not OS security.",
+    "evidence": "Adaptive multi-turn jailbreak attacks reveal limitations of LLM safety alignment"
+  },
+  {
+    "id": "R05671",
+    "decision": "EXCLUDE",
+    "reason": "Title is a dictionary-style entry, not original research on LLM use for OS security.",
+    "evidence": "jailbreak, n."
+  },
+  {
+    "id": "R05672",
+    "decision": "EXCLUDE",
+    "reason": "Frameworks LLM jailbreak defense, so it addresses LLM safety rather than OS security.",
+    "evidence": "Retraining-Free Framework for LLM Jailbreak Defense"
+  },
+  {
+    "id": "R05673",
+    "decision": "EXCLUDE",
+    "reason": "Optimizes jailbreak prompts for LLM content moderation, not OS security.",
+    "evidence": "Optimizing Stealthy Jailbreak Prompt Generation"
+  },
+  {
+    "id": "R05674",
+    "decision": "EXCLUDE",
+    "reason": "Provides a dataset of LLM jailbreak prompts, not OS-targeted security research.",
+    "evidence": "Real-World Dataset of LLM Jailbreak Prompts"
+  },
+  {
+    "id": "R05675",
+    "decision": "EXCLUDE",
+    "reason": "Unlocks LLM safety restrictions, which is LLM jailbreak security, not OS security.",
+    "evidence": "Efficiently Unlocking LLM Safety Restrictions Through Formal Logical Expression"
+  },
+  {
+    "id": "R05676",
+    "decision": "EXCLUDE",
+    "reason": "Detects LLM jailbreaks via internal discrepancies; scope is LLM security.",
+    "evidence": "Zero-shot LLM Jailbreak Detection via Internal Discrepancy Amplification"
+  },
+  {
+    "id": "R05677",
+    "decision": "EXCLUDE",
+    "reason": "Title is a dictionary-style entry, not original research on LLM use for OS security.",
+    "evidence": "jailbreak, v."
+  },
+  {
+    "id": "R05678",
+    "decision": "EXCLUDE",
+    "reason": "Explicit survey of jailbreak attacks and defenses in the LLM ecosystem; reviews excluded.",
+    "evidence": "systematic survey of the complexity of jailbreak attacks and defense mechanisms"
+  },
+  {
+    "id": "R05679",
+    "decision": "EXCLUDE",
+    "reason": "Discovers jailbreak prompts in human-LLM conversations, not OS security.",
+    "evidence": "Jailbreak Prompts Discovery From Large-Scale Human-LLM Conversational Datasets"
+  },
+  {
+    "id": "R05680",
+    "decision": "EXCLUDE",
+    "reason": "Presents an aligned LLM as a jailbreak defender, addressing LLM safety not OS security.",
+    "evidence": "Your Aligned LLM is Inherently an Adaptive Jailbreak Defender"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R05961",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM-agent security/privacy threats, not original OS-targeted LLM security research.",
+    "evidence": "This survey systematizes the threat landscape for LLM-based agents"
+  },
+  {
+    "id": "R05962",
+    "decision": "EXCLUDE",
+    "reason": "Secures LLM software supply chains; does not use an LLM for OS security analysis.",
+    "evidence": "Securing LLM Software Supply Chains"
+  },
+  {
+    "id": "R05963",
+    "decision": "EXCLUDE",
+    "reason": "LLM recovers security-requirement traceability links; not OS security analysis/testing.",
+    "evidence": "Recover Traceability Links between Security Requirements and Goal Models"
+  },
+  {
+    "id": "R05964",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM-agent self-security and cybersecurity empowerment, not empirical OS-targeted work.",
+    "evidence": "This survey provides a comprehensive overview of the opportunities and challenges of LLM agents in security"
+  },
+  {
+    "id": "R05965",
+    "decision": "EXCLUDE",
+    "reason": "Analyzes LLM bias in incident response; no LLM-driven OS security analysis.",
+    "evidence": "оцінка практичних ризиків їх застосування в процесах реагування на інциденти інформаційної безпеки"
+  },
+  {
+    "id": "R05966",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted symbolic-execution modeling for sensor, smart-contract, and WebAssembly software, not OS components.",
+    "evidence": "sensor-driven software, blockchain smart contracts, and WebAssembly systems"
+  },
+  {
+    "id": "R05967",
+    "decision": "EXCLUDE",
+    "reason": "Comprehensive survey of LLM-agent security, not original OS security research.",
+    "evidence": "Security of LLM-based agents regarding attacks, defenses, and applications: A comprehensive survey"
+  },
+  {
+    "id": "R05968",
+    "decision": "EXCLUDE",
+    "reason": "LLM pipeline for requirements elicitation; no security analysis or OS target.",
+    "evidence": "generate an initial requirements baseline from informal system descriptions"
+  },
+  {
+    "id": "R05969",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted monolith refactoring; no security outcome or OS target.",
+    "evidence": "Beyond Decomposition: A LLM-Powered Automated Approach to Refactoring Monoliths Into Microservices"
+  },
+  {
+    "id": "R05970",
+    "decision": "EXCLUDE",
+    "reason": "Survey of SDN controllers without LLM security analysis.",
+    "evidence": "Comprehensive Survey of Implementing Multiple Controllers in a Software-Defined Network (SDN)"
+  },
+  {
+    "id": "R05971",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM-based software repair; not empirical OS security work.",
+    "evidence": "A Survey of LLM-based Software Repair: Taxonomies, Design Paradigms, and Applications"
+  },
+  {
+    "id": "R05972",
+    "decision": "EXCLUDE",
+    "reason": "Survey of SDN smart-grid security without LLM use.",
+    "evidence": "This survey considers the latest security techniques"
+  },
+  {
+    "id": "R05973",
+    "decision": "EXCLUDE",
+    "reason": "Versioning framework for LLM-agent software; no security analysis or OS target.",
+    "evidence": "Multi-Artifact Versioning (MAV)"
+  },
+  {
+    "id": "R05974",
+    "decision": "EXCLUDE",
+    "reason": "General scientific LLM workflow software; no security task or OS target.",
+    "evidence": "scaleLLMflow: General LLM Workflows for Scientific Scales"
+  },
+  {
+    "id": "R05975",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted requirements inconsistency detection; no security analysis or OS target.",
+    "evidence": "A Hybrid Framework for Inconsistency Detection in Diversity Requirements: Combining Multi-Graph Merging and Llm"
+  },
+  {
+    "id": "R05976",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM-agent trajectory analysis, not OS security research.",
+    "evidence": "A Survey for LLM Agent Trajectory Analysis: From Failure Attribution to Enhancement"
+  },
+  {
+    "id": "R05977",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM-IoT security threats/defenses, not original OS-targeted work.",
+    "evidence": "We systematically review 88 papers"
+  },
+  {
+    "id": "R05978",
+    "decision": "EXCLUDE",
+    "reason": "General LLM-agent survey with no original OS security analysis.",
+    "evidence": "LLM Agents: A Survey"
+  },
+  {
+    "id": "R05979",
+    "decision": "EXCLUDE",
+    "reason": "LLM-enhanced digital twins for computing centers; no security task or OS target.",
+    "evidence": "Towards LLM-Enhanced Digital Twins of Intelligent Computing Center"
+  },
+  {
+    "id": "R05980",
+    "decision": "UNCLEAR",
+    "reason": "Title suggests an LLM security-pipeline calibration study with KEV, but missing abstract leaves LLM role and OS target uncertain.",
+    "evidence": "Trust Score Reliability in LLM Security Pipelines: A Severity-Stratified Calibration Study with KEV Validation"
+  },
+  {
+    "id": "R05981",
+    "decision": "EXCLUDE",
+    "reason": "Concise review of LLM-agent security in telecom, not original OS security research.",
+    "evidence": "A Concise Review of Security Challenges and Protection for LLM-based Agents in Telecom Information Systems"
+  },
+  {
+    "id": "R05982",
+    "decision": "EXCLUDE",
+    "reason": "Survey of security threats/defenses in LLM-controlled robotics, not OS-targeted.",
+    "evidence": "we present a systematic survey"
+  },
+  {
+    "id": "R05983",
+    "decision": "UNCLEAR",
+    "reason": "Title suggests LLM-based security analysis on open source systems, but missing abstract leaves OS scope and LLM role unverified.",
+    "evidence": "Should We Evaluate LLM Based Security Analysis Approaches on Open Source Systems?"
+  },
+  {
+    "id": "R05984",
+    "decision": "EXCLUDE",
+    "reason": "RAG+LLM for economic security in the dairy industry; not OS security analysis.",
+    "evidence": "экономической безопасности предприятий молочной промышленности"
+  },
+  {
+    "id": "R05985",
+    "decision": "EXCLUDE",
+    "reason": "IoT authentication security survey without LLM use.",
+    "evidence": "A Survey on IoT Authentication Security Service"
+  },
+  {
+    "id": "R05986",
+    "decision": "EXCLUDE",
+    "reason": "Network security survey from firewalls to AI threat detection; not LLM OS security research.",
+    "evidence": "A Survey on Network Security: From Firewalls To Ai-Powered Threat Detection"
+  },
+  {
+    "id": "R05987",
+    "decision": "EXCLUDE",
+    "reason": "Measures security debt in LLM agent applications, i.e., security of LLM apps rather than OS analysis.",
+    "evidence": "Security Debt in LLM Agent Applications: A Measurement Study of Vulnerabilities and Mitigation Trade-offs"
+  },
+  {
+    "id": "R05988",
+    "decision": "EXCLUDE",
+    "reason": "LLM oracle for combinatorial testing, not security analysis or an OS target.",
+    "evidence": "A Design of Experiments Oracle LLM for Research-Grounded Combinatorial Testing"
+  },
+  {
+    "id": "R05989",
+    "decision": "EXCLUDE",
+    "reason": "Empirical study of LLM assistance in software engineering; no security outcome or OS target.",
+    "evidence": "A Mixed-Method Empirical Study of LLM Assistance in Software Engineering Workflows"
+  },
+  {
+    "id": "R05990",
+    "decision": "EXCLUDE",
+    "reason": "Survey of SDN data-plane security without LLM use.",
+    "evidence": "A Survey on Data Plane Security in Software-Defined Networks: Toward Adaptive Security of Data Planes"
+  },
+  {
+    "id": "R05991",
+    "decision": "EXCLUDE",
+    "reason": "LLM pipeline for security knowledge about AI systems, not OS components.",
+    "evidence": "From Threat Reports to Security Knowledge: Building an LLM-Based Pipeline for AI Systems"
+  },
+  {
+    "id": "R05992",
+    "decision": "EXCLUDE",
+    "reason": "LLM benchmark for web vulnerability detection; target is web applications, not OS components.",
+    "evidence": "BF-WeakWeb-2025: A Novel Dataset and LLM Benchmark for Web Vulnerability Detection in Burkina Faso"
+  },
+  {
+    "id": "R05993",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted vulnerability detection on a PHP benchmark; not OS-targeted.",
+    "evidence": "Capability Thresholds and Sanitisation Blind Spots in LLM-Assisted Vulnerability Detection: A Factorial Prompt Study on a Reconstructed PHP Benchmark"
+  },
+  {
+    "id": "R05994",
+    "decision": "EXCLUDE",
+    "reason": "Smart-contract vulnerability detection/remediation using static analysis and ML, not LLM or OS components.",
+    "evidence": "static analysis, pattern detection, lightweight machine learning classification, and template-based remediation"
+  },
+  {
+    "id": "R05995",
+    "decision": "EXCLUDE",
+    "reason": "Fault-detection benchmark for LLM agent observability; no security task or OS target.",
+    "evidence": "AgentTelemetry: A Fault Detection Benchmark and Toolkit for LLM Agent Observability"
+  },
+  {
+    "id": "R05996",
+    "decision": "EXCLUDE",
+    "reason": "Data-contamination attack on LLM fake-news detection; security of LLM evaluation, not OS.",
+    "evidence": "Analysis of Semantic Benchmark Data Contamination Attack for LLM-Driven Fake News Detection"
+  },
+  {
+    "id": "R05997",
+    "decision": "EXCLUDE",
+    "reason": "Benchmark for hallucinations in LLM-generated CVE/CTI text; not LLM analysis of OS components.",
+    "evidence": "HalluCVE, a multi-signal benchmark designed to detect hallucinations"
+  },
+  {
+    "id": "R05998",
+    "decision": "UNCLEAR",
+    "reason": "Code-level vulnerability benchmark title lacks an explicit LLM role and OS target; missing abstract leaves scope uncertain.",
+    "evidence": "A Benchmark Dataset for Code-Level Vulnerability Detection and Analysis"
+  },
+  {
+    "id": "R05999",
+    "decision": "EXCLUDE",
+    "reason": "Benchmarks LLMs for general software vulnerability detection, not OS components.",
+    "evidence": "software vulnerability detection"
+  },
+  {
+    "id": "R06000",
+    "decision": "EXCLUDE",
+    "reason": "Smart-contract vulnerability benchmark; no LLM use or OS target.",
+    "evidence": "five SWC-aligned Solidity smart contracts"
+  }
+]

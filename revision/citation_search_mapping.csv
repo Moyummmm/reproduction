@@ -1,0 +1,118 @@
+﻿bibtex_key,title,search_matches,status
+Alves2004TrustZoneI,\smy{Trustzone: Integrated hardware and software security},,no exact or manually confirmed snapshot match
+Cloosters2020TeeRexDA,\smy{TeeRex: Discovery and Exploitation of Memory Corruption Vulnerabilities in SGX Enclaves},,no exact or manually confirmed snapshot match
+amusuo2025unit,\smy{A Unit Proofing Framework for Code-level Verification: A Research Agenda},,no exact or manually confirmed snapshot match
+anderson1972computer,"\smy{Computer Security Technology Planning Study, Volume II}",,no exact or manually confirmed snapshot match
+anthropic2026mythos,\smy{Assessing Claude Mythos Preview's Cybersecurity Capabilities},,no exact or manually confirmed snapshot match
+arnold2009ksplice,\smy{Ksplice: Automatic rebootless kernel updates},,no exact or manually confirmed snapshot match
+baezner2017stuxnet,\smy{Stuxnet},,no exact or manually confirmed snapshot match
+ball2006thorough,\smy{Thorough static analysis of device drivers},,no exact or manually confirmed snapshot match
+barham2003xen,\smy{Xen and the art of virtualization},,no exact or manually confirmed snapshot match
+bessey2010few,\smy{A few billion lines of code later: using static analysis to find bugs in the real world},,no exact or manually confirmed snapshot match
+boehme16,\smy{Coverage-based Greybox Fuzzing as Markov Chain},,no exact or manually confirmed snapshot match
+brown20,\smy{Language Models are Few-Shot Learners},,no exact or manually confirmed snapshot match
+bulekov2024hyperpill,\smy{HYPERPILL: Fuzzing for Hypervisor-bugs by Leveraging the Hardware Virtualization Interface},,no exact or manually confirmed snapshot match
+cadar2008klee,\smy{KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs},,no exact or manually confirmed snapshot match
+cai2019understanding,\smy{Understanding Security Vulnerabilities in File Systems},,no exact or manually confirmed snapshot match
+chen2011linux,\smy{Linux kernel vulnerabilities: State-of-the-art defenses and open problems},,no exact or manually confirmed snapshot match
+chen2020koobe,\smy{KOOBE: Towards facilitating exploit generation of kernel Out-Of-Bounds write vulnerabilities},,no exact or manually confirmed snapshot match
+chen2021evaluating,\smy{Evaluating large language models trained on code},,no exact or manually confirmed snapshot match
+chen2025gpass,\smy{Gpass: A Goal-Adaptive Neural Theorem Prover Based on Coq for Automated Formal Verification},,no exact or manually confirmed snapshot match
+chipounov2011s2e,\smy{S2E: A platform for in-vivo multi-path analysis of software systems},,no exact or manually confirmed snapshot match
+corbato1965introduction,\smy{Introduction and overview of the Multics system},,no exact or manually confirmed snapshot match
+corina2017difuze,\smy{Difuze: Interface aware fuzzing for kernel drivers},,no exact or manually confirmed snapshot match
+costan2017secure,\smy{Secure processors part II: Intel SGX security analysis and MIT sanctum architecture},,no exact or manually confirmed snapshot match
+curaba24,\smy{CryptoFormalEval: Integrating Large Language Models and Formal Verification for Automated Cryptographic Protocol Vulnerability Detection},,no exact or manually confirmed snapshot match
+dang2025miggpt,\smy{MigGPT: Harnessing Large Language Models for Automated Migration of Out-of-Tree Linux Kernel Patches Across Versions},"R00869 (DOI, exact normalized title); R06116 (exact normalized title)",retrieval-snapshot match; verify eligibility and versions
+egersdoerfer2023early,\smy{Early exploration of using chatgpt for log-based anomaly detection on parallel file systems logs},,no exact or manually confirmed snapshot match
+egersdoerfer2025stellar,\smy{STELLAR: Storage Tuning Engine Leveraging LLM Autonomous Reasoning for High Performance Parallel File Systems},,no exact or manually confirmed snapshot match
+feng2025fuzzing,\smy{Fuzzing: Randomness? Reasoning! Efficient Directed Fuzzing via Large Language Models},,no exact or manually confirmed snapshot match
+gadey2026llmcal,\smy{Automated Code Annotation with LLMs for Establishing TEE Boundaries},,no exact or manually confirmed snapshot match
+gao2025offloading,\smy{Offloading the Tedious Task of Writing eBPF Programs},,no exact or manually confirmed snapshot match
+guan2024logllm,\smy{LogLLM: Log-based Anomaly Detection Using Large Language Models},,no exact or manually confirmed snapshot match
+guo2009linux,\smy{Linux Kernel Developer Responses to Static Analysis Bug Reports},,no exact or manually confirmed snapshot match
+hoffmann22,\smy{Training Compute-Optimal Large Language Models},,no exact or manually confirmed snapshot match
+hou2024large,\smy{Large language models for software engineering: A systematic literature review},,no exact or manually confirmed snapshot match
+huang2025template,\smy{Template-Guided Program Repair in the Era of Large Language Models},,no exact or manually confirmed snapshot match
+jaffal25,"\smy{Large Language Models in Cybersecurity: A Survey of Applications, Vulnerabilities, and Defense Techniques}","R05868 (DOI, exact normalized title)",retrieval-snapshot match; verify eligibility and versions
+kafl17,\smy{kAFL: Hardware-Assisted Feedback Fuzzing for OS Kernels},,no exact or manually confirmed snapshot match
+kaplan2020scaling,\smy{Scaling laws for neural language models},,no exact or manually confirmed snapshot match
+kerrisk2010linux,The Linux programming interface: a Linux and UNIX system programming handbook,,no exact or manually confirmed snapshot match
+kim2025logs,"\smy{Logs In, Patches Out: Automated Vulnerability Repair via Tree-of-Thought LLM Analysis}",,no exact or manually confirmed snapshot match
+lampson1974protection,\smy{Protection},,no exact or manually confirmed snapshot match
+lee2024static,\smy{Static detection of filesystem vulnerabilities in android systems},,no exact or manually confirmed snapshot match
+li2019research,\smy{Research on ARM TrustZone},,no exact or manually confirmed snapshot match
+li2024enhancing,Enhancing static analysis for practical bug detection: An llm-integrated approach,"R01063 (DOI, exact normalized title)",retrieval-snapshot match; verify eligibility and versions
+li2025portgpt,\smy{PortGPT: Towards Automated Backporting Using Large Language Models},"R04909 (DOI, exact normalized title); R06072 (exact normalized title)",retrieval-snapshot match; verify eligibility and versions
+li2025towards,\smy{Towards More Accurate Static Analysis for Taint-Style Bug Detection in Linux Kernel},"R01067 (DOI, exact normalized title)",retrieval-snapshot match; verify eligibility and versions
+li22alphacode,\smy{Competition-Level Code Generation with AlphaCode},,no exact or manually confirmed snapshot match
+lin2024fvel,\smy{FVEL: Interactive formal verification environment with large language models via theorem proving},"R05193 (DOI, exact normalized title)",retrieval-snapshot match; verify eligibility and versions
+liu2025patchscope,\smy{PatchScope: LLM-Enhanced Fine-Grained Stable Patch Classification for Linux Kernel},"R01211 (DOI, exact normalized title)",retrieval-snapshot match; verify eligibility and versions
+liu2025sharpen,"Sharpen the Spec, Cut the Code: A Case for Generative File System with {SYSSPEC}",,no exact or manually confirmed snapshot match
+looprepair25,\smy{Well Begun Is Half Done: Location-Aware and Trace-Guided Iterative Automated Vulnerability Repair},,no exact or manually confirmed snapshot match
+loscocco01selinux,\smy{Integrating Flexible Support for Security Policies into the Linux Operating System},,no exact or manually confirmed snapshot match
+lu2019detecting,\smy{Detecting Missing-Check bugs via semantic-and Context-Aware criticalness and constraints inferences},,no exact or manually confirmed snapshot match
+luAAL14,\smy{A Study of Linux File System Evolution},,no exact or manually confirmed snapshot match
+lyu2025ebpf,\smy{eBPF Misbehavior Detection: Fuzzing with a Specification-Based Oracle},,no exact or manually confirmed snapshot match
+ma24,\smy{From One Thousand Pages of Specification to Unveiling Hidden Bugs: Large Language Model Assisted Fuzzing of Matter IoT Devices},,no exact or manually confirmed snapshot match
+machiry2017dr,\smy{DR. CHECKER: A Soundy Analysis for Linux Kernel Drivers},,no exact or manually confirmed snapshot match
+mao2025llm,\smy{LLM-aided automatic modeling for security protocol verification},"R01983 (DOI, exact normalized title)",retrieval-snapshot match; verify eligibility and versions
+mathai2025crashfixer,\smy{kAgent: An Execution-Guided Crash Resolution Agent for the Linux Kernel},R06015 (exact normalized title),retrieval-snapshot match; verify eligibility and versions
+meng24,\smy{Large Language Model Guided Protocol Fuzzing},"R00003 (DOI, exact normalized title)",retrieval-snapshot match; verify eligibility and versions
+miranda2025veribench,\smy{VeriBench: End-to-End Formal Verification Benchmark for AI Code Generation in Lean 4},,no exact or manually confirmed snapshot match
+mondal2025llm,\smy{LLM-Based Config Synthesis requires Disambiguation},,no exact or manually confirmed snapshot match
+mu2025silent,\smy{The Silent Danger in HTTP: Identifying HTTP Desync Vulnerabilities with Gray-box Testing},,no exact or manually confirmed snapshot match
+nong2025appatch,\smy{APPATCH: Automated Adaptive Prompting for Real-World Software Vulnerability Patching},,no exact or manually confirmed snapshot match
+openai2026paths,\smy{A Thousand Fewer Paths to Root},,no exact or manually confirmed snapshot match
+optee,\smy{OP-TEE: Open Portable Trusted Execution Environment},,no exact or manually confirmed snapshot match
+ouyang22,\smy{Training Language Models to Follow Instructions with Human Feedback},,no exact or manually confirmed snapshot match
+page2021prisma,\smy{The PRISMA 2020 Statement: An Updated Guideline for Reporting Systematic Reviews},,no exact or manually confirmed snapshot match
+park2025principles,\smy{Principles and methodologies for serial performance optimization},,no exact or manually confirmed snapshot match
+popek1974formal,\smy{Formal requirements for virtualizable third generation architectures},,no exact or manually confirmed snapshot match
+redini2017bootstomp,\smy{BootStomp: On the security of bootloaders in mobile devices},,no exact or manually confirmed snapshot match
+renzelmann2012symdrive,\smy{SymDrive: Testing Drivers without Devices},,no exact or manually confirmed snapshot match
+rethlefsen2021prismas,\smy{PRISMA-S: An Extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews},,no exact or manually confirmed snapshot match
+saltzer1975protection,\smy{The protection of information in computer systems},,no exact or manually confirmed snapshot match
+salva2025dynamic,\smy{Dynamic Mitigation of RESTful Service Failures Using LLMs},,no exact or manually confirmed snapshot match
+schumilo2021nyx,\smy{Nyx: Greybox hypervisor fuzzing using fast snapshots and affine types},,no exact or manually confirmed snapshot match
+serebryany2012addresssanitizer,\smy{AddressSanitizer: A Fast Address Sanity Checker},,no exact or manually confirmed snapshot match
+sheng2025llms,\smy{LLMs in Software Security: A Survey of Vulnerability Detection Techniques and Insights},,no exact or manually confirmed snapshot match
+shoshitaishvili2015firmalice,\smy{Firmalice: Automatic Detection of Authentication Bypass Vulnerabilities in Binary Firmware},,no exact or manually confirmed snapshot match
+spencer99flask,\smy{The Flask Security Architecture: System Support for Diverse Security Policies},,no exact or manually confirmed snapshot match
+swift2003improving,\smy{Improving the reliability of commodity operating systems},,no exact or manually confirmed snapshot match
+syzagent25,\smy{Towards Large Language Model Guided Kernel Direct Fuzzing},"R00890 (DOI, exact normalized title); R06009 (exact normalized title)",retrieval-snapshot match; verify eligibility and versions
+szekeres13,\smy{SoK: Eternal War in Memory},,no exact or manually confirmed snapshot match
+tao2026knowledge,Knowledge-Augmented Log Anomaly Detection with Large Language Models,,no exact or manually confirmed snapshot match
+tu2025agentic,\smy{Agentic Verification of Software Systems},,no exact or manually confirmed snapshot match
+vaswani17,\smy{Attention Is All You Need},,no exact or manually confirmed snapshot match
+wang2024llmdfa,\smy{LLMDFA: Analyzing Dataflow in Code with Large Language Models},,no exact or manually confirmed snapshot match
+wang2024sanitizing,\smy{Sanitizing Large Language Models in Bug Detection with Data-Flow},"R01113 (DOI, exact normalized title)",retrieval-snapshot match; verify eligibility and versions
+wang2025absint,\smy{ABSINT-AI: Language Models for Abstract Interpretation},,no exact or manually confirmed snapshot match
+wang2025agentspec,\smy{AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents},,no exact or manually confirmed snapshot match
+wang2025qlcoder,\smy{QLCoder: A Query Synthesizer For Static Analysis of Security Vulnerabilities},,no exact or manually confirmed snapshot match
+wang2025tz,\smy{TZ-LLM: Protecting On-Device Large Language Models with Arm TrustZone},"R03168 (DOI, exact normalized title); R06392 (exact normalized title)",retrieval-snapshot match; verify eligibility and versions
+wang25boofuzz,\smy{LLM-BOOFUZZ: generation-based black-box fuzzing for network protocols via LLMs},"R00988 (DOI, exact normalized title)",retrieval-snapshot match; verify eligibility and versions
+wen2024automatically,\smy{Automatically inspecting thousands of static bug warnings with large language model: How far are we?},,no exact or manually confirmed snapshot match
+wen2025teedfuzzer,\smy{TeeDFuzzer: Fuzzing Trusted Execution Environment},"R02854 (DOI, exact normalized title)",retrieval-snapshot match; verify eligibility and versions
+wu2022autoformalization,\smy{Autoformalization with large language models},,no exact or manually confirmed snapshot match
+wu2025flow,\smy{Flow Hijacking in eBPF: Exploitation and Mitigation Across Both Interpreter and JIT Execution},,no exact or manually confirmed snapshot match
+wu2025one,"\smy{One Bug, Hundreds Behind: LLMs for Large-Scale Bug Discovery}",R06075 (exact normalized title),retrieval-snapshot match; verify eligibility and versions
+xia2024fuzz4all,\smy{Fuzz4all: Universal fuzzing with large language models},"R00937 (DOI, exact normalized title)",retrieval-snapshot match; verify eligibility and versions
+xiong2023hext5,\smy{HexT5: Unified Pre-Training for Stripped Binary Code Information Inference},,no exact or manually confirmed snapshot match
+xu2015collision,\smy{From Collision to Exploitation: Unleashing Use-After-Free Vulnerabilities in Linux Kernel},,no exact or manually confirmed snapshot match
+xue2025pagent,\smy{PAGENT: Learning to Patch Software Engineering Agents},,no exact or manually confirmed snapshot match
+yang2023leandojo,\smy{LeanDojo: Theorem Proving with Retrieval-Augmented Language Models},"R05220 (DOI, exact normalized title)",retrieval-snapshot match; verify eligibility and versions
+yang2024whitefox,\smy{WhiteFox: White-Box Compiler Fuzzing Empowered by Large Language Models},,no exact or manually confirmed snapshot match
+yang2025hybrid,\smy{Hybrid Language Processor Fuzzing via LLM-Based Constraint Solving},,no exact or manually confirmed snapshot match
+yang2025kernelgpt,\smy{KernelGPT: Enhanced Kernel Fuzzing via Large Language Models},"R00854 (DOI, exact normalized title)",retrieval-snapshot match; verify eligibility and versions
+yang2025knighter,\smy{KNighter: Transforming Static Analysis with LLM-Synthesized Checkers},"R01044 (DOI, exact normalized title)",retrieval-snapshot match; verify eligibility and versions
+yang2025rust,\smy{Rust-doctor: Enhanced Feature for Rust Ownership and Lifetime Repair with Balanced Training Data Generation},,no exact or manually confirmed snapshot match
+yang2025survey,"\smy{A Survey of LLM-Based Automated Program Repair: Taxonomies, Design Paradigms, and Applications}",,no exact or manually confirmed snapshot match
+yong2025gvi,\smy{GVI: Guided Vulnerability Imagination for Boosting Deep Vulnerability Detectors},,no exact or manually confirmed snapshot match
+zhang2019pex,\smy{PeX: A permission check analysis framework for linux kernel},,no exact or manually confirmed snapshot match
+zhang2024selene,\smy{Selene: Pioneering Automated Proof in Software Verification},,no exact or manually confirmed snapshot match
+zhao2019breaking,\smy{Breaking Turtles All the Way Down: An Exploitation Chain to Break out of VMware ESXi},,no exact or manually confirmed snapshot match
+zheng2024kgent,\smy{Kgent: Kernel Extensions Large Language Model Agent},"R00612 (DOI, exact normalized title); R06061 (KEN earlier version of Kgent; https://github.com/eunomia-bpf/KEN)",retrieval-snapshot match; verify eligibility and versions
+zheng2025agentsight,\smy{AgentSight: System-Level Observability for AI Agents Using eBPF},,no exact or manually confirmed snapshot match
+zheng25,\smy{Large Language Models for Validating Network Protocol Parsers},R06213 (exact normalized title),retrieval-snapshot match; verify eligibility and versions
+zhou2025lwdiff,\smy{LWDIFF: An LLM-Assisted Differential Testing Framework for WebAssembly Runtimes},"R04537 (DOI, exact normalized title)",retrieval-snapshot match; verify eligibility and versions

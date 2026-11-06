@@ -1,0 +1,122 @@
+[
+  {
+    "query_id": "kernel_fuzzing",
+    "query": "(all:\"large language model\" OR all:LLM OR all:GPT) AND (all:kernel AND (all:fuzzing OR all:fuzzer))",
+    "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22large+language+model%22+OR+all%3ALLM+OR+all%3AGPT%29+AND+%28all%3Akernel+AND+%28all%3Afuzzing+OR+all%3Afuzzer%29%29&start=0&max_results=100&sortBy=relevance&sortOrder=descending",
+    "started_utc": "2026-11-05T05:39:14.905691+00:00",
+    "limit": 100,
+    "status": "ok",
+    "total_results": "13",
+    "returned": 13
+  },
+  {
+    "query_id": "kernel_vulnerability",
+    "query": "(all:\"large language model\" OR all:LLM OR all:GPT) AND (all:kernel AND (all:vulnerability OR all:security))",
+    "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22large+language+model%22+OR+all%3ALLM+OR+all%3AGPT%29+AND+%28all%3Akernel+AND+%28all%3Avulnerability+OR+all%3Asecurity%29%29&start=0&max_results=100&sortBy=relevance&sortOrder=descending",
+    "started_utc": "2026-11-05T05:39:19.872196+00:00",
+    "limit": 100,
+    "status": "ok",
+    "total_results": "112",
+    "returned": 100
+  },
+  {
+    "query_id": "kernel_patch",
+    "query": "(all:\"large language model\" OR all:LLM OR all:GPT) AND (all:kernel AND (all:patch OR all:backporting))",
+    "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22large+language+model%22+OR+all%3ALLM+OR+all%3AGPT%29+AND+%28all%3Akernel+AND+%28all%3Apatch+OR+all%3Abackporting%29%29&start=0&max_results=100&sortBy=relevance&sortOrder=descending",
+    "started_utc": "2026-11-05T05:39:26.156033+00:00",
+    "limit": 100,
+    "status": "ok",
+    "total_results": "46",
+    "returned": 46
+  },
+  {
+    "query_id": "driver_security",
+    "query": "(all:\"large language model\" OR all:LLM OR all:GPT) AND (all:\"device driver\" AND (all:security OR all:fuzzing OR all:vulnerability))",
+    "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22large+language+model%22+OR+all%3ALLM+OR+all%3AGPT%29+AND+%28all%3A%22device+driver%22+AND+%28all%3Asecurity+OR+all%3Afuzzing+OR+all%3Avulnerability%29%29&start=0&max_results=100&sortBy=relevance&sortOrder=descending",
+    "started_utc": "2026-11-05T05:39:31.644883+00:00",
+    "limit": 100,
+    "status": "ok",
+    "total_results": "1",
+    "returned": 1
+  },
+  {
+    "query_id": "filesystem_security",
+    "query": "(all:\"large language model\" OR all:LLM OR all:GPT) AND (all:\"file system\" AND (all:security OR all:fuzzing OR all:vulnerability))",
+    "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22large+language+model%22+OR+all%3ALLM+OR+all%3AGPT%29+AND+%28all%3A%22file+system%22+AND+%28all%3Asecurity+OR+all%3Afuzzing+OR+all%3Avulnerability%29%29&start=0&max_results=100&sortBy=relevance&sortOrder=descending",
+    "started_utc": "2026-11-05T05:39:36.289269+00:00",
+    "limit": 100,
+    "status": "ok",
+    "total_results": "14",
+    "returned": 14
+  },
+  {
+    "query_id": "operating_system_security",
+    "query": "(all:\"large language model\" OR all:LLM OR all:GPT) AND (all:\"operating system\" AND (all:security OR all:vulnerability))",
+    "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22large+language+model%22+OR+all%3ALLM+OR+all%3AGPT%29+AND+%28all%3A%22operating+system%22+AND+%28all%3Asecurity+OR+all%3Avulnerability%29%29&start=0&max_results=100&sortBy=relevance&sortOrder=descending",
+    "started_utc": "2026-11-05T05:39:41.402193+00:00",
+    "limit": 100,
+    "status": "ok",
+    "total_results": "63",
+    "returned": 63
+  },
+  {
+    "query_id": "ebpf_security",
+    "query": "(all:\"large language model\" OR all:LLM OR all:GPT) AND (all:eBPF AND (all:security OR all:fuzzing OR all:verification))",
+    "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22large+language+model%22+OR+all%3ALLM+OR+all%3AGPT%29+AND+%28all%3AeBPF+AND+%28all%3Asecurity+OR+all%3Afuzzing+OR+all%3Averification%29%29&start=0&max_results=100&sortBy=relevance&sortOrder=descending",
+    "started_utc": "2026-11-05T05:39:47.337277+00:00",
+    "limit": 100,
+    "status": "ok",
+    "total_results": "15",
+    "returned": 15
+  },
+  {
+    "query_id": "protocol_fuzzing",
+    "query": "(all:\"large language model\" OR all:LLM OR all:GPT) AND (all:protocol AND (all:fuzzing OR all:fuzzer))",
+    "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22large+language+model%22+OR+all%3ALLM+OR+all%3AGPT%29+AND+%28all%3Aprotocol+AND+%28all%3Afuzzing+OR+all%3Afuzzer%29%29&start=0&max_results=100&sortBy=relevance&sortOrder=descending",
+    "started_utc": "2026-11-05T05:39:52.271510+00:00",
+    "limit": 100,
+    "status": "ok",
+    "total_results": "28",
+    "returned": 28
+  },
+  {
+    "query_id": "memory_safety",
+    "query": "(all:\"large language model\" OR all:LLM OR all:GPT) AND (all:\"memory safety\" AND (all:vulnerability OR all:detection))",
+    "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22large+language+model%22+OR+all%3ALLM+OR+all%3AGPT%29+AND+%28all%3A%22memory+safety%22+AND+%28all%3Avulnerability+OR+all%3Adetection%29%29&start=0&max_results=100&sortBy=relevance&sortOrder=descending",
+    "started_utc": "2026-11-05T05:39:57.570159+00:00",
+    "limit": 100,
+    "status": "ok",
+    "total_results": "31",
+    "returned": 31
+  },
+  {
+    "query_id": "exploit",
+    "query": "(all:\"large language model\" OR all:LLM OR all:GPT) AND (all:exploit AND (all:kernel OR all:system))",
+    "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22large+language+model%22+OR+all%3ALLM+OR+all%3AGPT%29+AND+%28all%3Aexploit+AND+%28all%3Akernel+OR+all%3Asystem%29%29&start=0&max_results=100&sortBy=relevance&sortOrder=descending",
+    "started_utc": "2026-11-05T05:40:03.336753+00:00",
+    "limit": 100,
+    "status": "ok",
+    "total_results": "1284",
+    "returned": 100
+  },
+  {
+    "query_id": "system_logs",
+    "query": "(all:\"large language model\" OR all:LLM OR all:GPT) AND (all:\"system log\" AND (all:security OR all:anomaly))",
+    "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22large+language+model%22+OR+all%3ALLM+OR+all%3AGPT%29+AND+%28all%3A%22system+log%22+AND+%28all%3Asecurity+OR+all%3Aanomaly%29%29&start=0&max_results=100&sortBy=relevance&sortOrder=descending",
+    "started_utc": "2026-11-05T05:40:09.433087+00:00",
+    "limit": 100,
+    "status": "ok",
+    "total_results": "35",
+    "returned": 35
+  },
+  {
+    "query_id": "virtualization",
+    "query": "(all:\"large language model\" OR all:LLM OR all:GPT) AND ((all:hypervisor OR all:enclave OR all:TrustZone) AND all:security)",
+    "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22large+language+model%22+OR+all%3ALLM+OR+all%3AGPT%29+AND+%28%28all%3Ahypervisor+OR+all%3Aenclave+OR+all%3ATrustZone%29+AND+all%3Asecurity%29&start=0&max_results=100&sortBy=relevance&sortOrder=descending",
+    "started_utc": "2026-11-05T05:40:15.208359+00:00",
+    "limit": 100,
+    "status": "ok",
+    "total_results": "21",
+    "returned": 21
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "seed": 20261105,
+  "per_stratum": 10,
+  "method": "sorted raw model decision x actual abstract present; sample without replacement; only completed model batches",
+  "source_results_sha256": "425b019596b94c8bc73afd1efba2a2082beb4b23626a2fef8fdd5e9a9ed6171e",
+  "source_records_sha256": "f208532691daab6add97eeb13e39322617e1233b0a80a24d4618ae10bb3e09c5",
+  "completed_population": 6408,
+  "strata": {
+    "EXCLUDE:has_abstract": {
+      "population": 2199,
+      "sample": 10
+    },
+    "EXCLUDE:no_abstract": {
+      "population": 3024,
+      "sample": 10
+    },
+    "POSSIBLE_CORE:has_abstract": {
+      "population": 69,
+      "sample": 10
+    },
+    "POSSIBLE_CORE:no_abstract": {
+      "population": 24,
+      "sample": 10
+    },
+    "UNCLEAR:has_abstract": {
+      "population": 43,
+      "sample": 10
+    },
+    "UNCLEAR:no_abstract": {
+      "population": 1049,
+      "sample": 10
+    }
+  },
+  "limitation": "Small targeted strata are not a representative population estimate; audit is a separate, non-blinded Codex review with prior model labels and reasons visible, not a human or independent screen.",
+  "source_results_snapshot": "audit/screening_results_sample_frame.csv"
+}

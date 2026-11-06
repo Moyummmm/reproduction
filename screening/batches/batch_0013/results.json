@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R00521",
+    "decision": "EXCLUDE",
+    "reason": "Classical literature study with no LLM, security, or OS dimension.",
+    "evidence": "Troy and Trojan lore plays an appreciable role in the extant poetry of Catullus"
+  },
+  {
+    "id": "R00522",
+    "decision": "EXCLUDE",
+    "reason": "Calibration procedure for FDA quality systems; no LLM security or OS research.",
+    "evidence": "requirements for calibration of equipment and instrumentation"
+  },
+  {
+    "id": "R00523",
+    "decision": "UNCLEAR",
+    "reason": "Title indicates an OS security vulnerability, but no abstract and no explicit LLM role.",
+    "evidence": "Configuration vulnerability in SNORT for Windows Operating Systems"
+  },
+  {
+    "id": "R00524",
+    "decision": "EXCLUDE",
+    "reason": "Operating-system hardware title with no security task or LLM role; abstract missing.",
+    "evidence": "Resonant Operating System for Color-Aware Analog Computronics"
+  },
+  {
+    "id": "R00525",
+    "decision": "EXCLUDE",
+    "reason": "Translation-studies article on the Iliad; no LLM, security, or OS.",
+    "evidence": "proposta tradutória de Odorico Mendes ao verter a Ilíada"
+  },
+  {
+    "id": "R00526",
+    "decision": "EXCLUDE",
+    "reason": "Classical philology on Pindar transmission; no LLM, security, or OS.",
+    "evidence": "Píndaro antes de Alexandria: a conexão aristotélica"
+  },
+  {
+    "id": "R00527",
+    "decision": "EXCLUDE",
+    "reason": "Critique of a Windows OS article; no LLM or security analysis.",
+    "evidence": "the critique could benefit from a clearer structure"
+  },
+  {
+    "id": "R00528",
+    "decision": "EXCLUDE",
+    "reason": "Codicology and watermark analysis; no LLM, security, or OS.",
+    "evidence": "analysis of the watermark in the Șumuleu Ciuc (Csíksomlyó) Codex"
+  },
+  {
+    "id": "R00529",
+    "decision": "EXCLUDE",
+    "reason": "Vulnerability used in an L2/motherhood context, not security; no LLM or OS.",
+    "evidence": "Motherhood as capital: Rethinking L2 investment through vulnerability"
+  },
+  {
+    "id": "R00530",
+    "decision": "EXCLUDE",
+    "reason": "Greek tragedy and dream emotions; no LLM, security, or OS.",
+    "evidence": "Sonhos e emoções na tragédia grega"
+  },
+  {
+    "id": "R00531",
+    "decision": "EXCLUDE",
+    "reason": "Codex Vaticanus textual articulation study; no LLM, security, or OS.",
+    "evidence": "textual division and numbered capitulation"
+  },
+  {
+    "id": "R00532",
+    "decision": "EXCLUDE",
+    "reason": "Medical sepsis codex; no LLM, security, or OS.",
+    "evidence": "The Sepsis Codex"
+  },
+  {
+    "id": "R00533",
+    "decision": "EXCLUDE",
+    "reason": "Literary study of Apuleius; no LLM, security, or OS.",
+    "evidence": "O conto de Cupido e Psiquê"
+  },
+  {
+    "id": "R00534",
+    "decision": "UNCLEAR",
+    "reason": "Vulnerability-management title on Android chipsets, but missing abstract; LLM role and OS scope unverified.",
+    "evidence": "Vulnerability, Where Art Thou? An Investigation of Vulnerability Management in Android Smartphone Chipsets"
+  },
+  {
+    "id": "R00535",
+    "decision": "EXCLUDE",
+    "reason": "OS scheduling and memory optimization for AI workloads; no security outcome or LLM security role.",
+    "evidence": "adds accelerator-aware scheduling and tensor-aware memory management directly into the kernel"
+  },
+  {
+    "id": "R00536",
+    "decision": "EXCLUDE",
+    "reason": "Vulnerability assessment uses Greenbone GVM, not an LLM.",
+    "evidence": "using Greenbone Vulnerability Management (GVM)"
+  },
+  {
+    "id": "R00537",
+    "decision": "EXCLUDE",
+    "reason": "Ciceronian rhetoric study; no LLM, security, or OS.",
+    "evidence": "Homo eloquens e a ironia nas Filipicas de Cícero"
+  },
+  {
+    "id": "R00538",
+    "decision": "EXCLUDE",
+    "reason": "Hospital nutrition service comparison; operating system term is food-service, not computing.",
+    "evidence": "Nutritional Service Experienced During Hospital Stay: Comparison between Centralized Operating System and Contracted Operating System"
+  },
+  {
+    "id": "R00539",
+    "decision": "UNCLEAR",
+    "reason": "LLM-assisted red teaming title, but missing abstract; OS-component target and evaluation uncertain.",
+    "evidence": "Incalmo: an Autonomous Llm-Assisted System for Red Teaming Multi-Host Networks"
+  },
+  {
+    "id": "R00540",
+    "decision": "UNCLEAR",
+    "reason": "LLM-assisted fuzzing and vulnerability detection, but missing abstract; OS versus general-software target unverified.",
+    "evidence": "Hybrid Vulnerability Detection: Combining Latent Semantic Analysis with LLM-Assisted Fuzzing via Context Distillation"
+  },
+  {
+    "id": "R00541",
+    "decision": "UNCLEAR",
+    "reason": "LLM-assisted fuzz testing title, but missing abstract; security outcome and OS target unverified.",
+    "evidence": "An LLM-Assisted Fuzz Testing Framework for Unmanned System Software"
+  },
+  {
+    "id": "R00542",
+    "decision": "EXCLUDE",
+    "reason": "Web penetration-testing agents; target is web applications, not OS components, and LLM role unstated.",
+    "evidence": "AWE: Adaptive Agents for Dynamic Web Penetration Testing"
+  },
+  {
+    "id": "R00543",
+    "decision": "EXCLUDE",
+    "reason": "Code-coverage closure is general software testing without a security outcome.",
+    "evidence": "LLM Assisted Code Coverage Closure"
+  },
+  {
+    "id": "R00544",
+    "decision": "UNCLEAR",
+    "reason": "Penetration-testing-agent title, but missing abstract; LLM role and OS target unverified.",
+    "evidence": "Context Relay for Long-Running Penetration-Testing Agents"
+  },
+  {
+    "id": "R00545",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted coercion detection uses biometrics and behavior, not OS components or privileged interfaces.",
+    "evidence": "analyzes a user’s activity using an integrated large language model (LLM)"
+  },
+  {
+    "id": "R00546",
+    "decision": "EXCLUDE",
+    "reason": "LLM security incident response for WAF, Kubernetes, and cloud events; no OS-component target.",
+    "evidence": "LLMs for security incident response"
+  },
+  {
+    "id": "R00547",
+    "decision": "EXCLUDE",
+    "reason": "LLM vulnerability analysis targets educational websites, not OS components.",
+    "evidence": "LLM-Assisted Security Vulnerability Analysis for Educational Websites: Risk Identification via LLM-EduAttackGraph"
+  },
+  {
+    "id": "R00548",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted security asset identification targets SoC verification, not OS components or privileged interfaces.",
+    "evidence": "LAsset: An LLM-assisted Security Asset Identification Framework for System-on-Chip (SoC) Verification"
+  },
+  {
+    "id": "R00549",
+    "decision": "UNCLEAR",
+    "reason": "LLM-assisted operations title, but missing abstract; security task and OS target not established.",
+    "evidence": "From Context to Code: Codifying Cross-System Reasoning for LLM-Assisted Operations"
+  },
+  {
+    "id": "R00550",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted encryption scheme for IoMT; not an OS security analysis, and LLM role unclear without abstract.",
+    "evidence": "One multi-receiver certificateless searchable public key encryption scheme for IoMT assisted by LLM"
+  },
+  {
+    "id": "R00551",
+    "decision": "EXCLUDE",
+    "reason": "AI packaging assistant for Nix; no security outcome or OS security task.",
+    "evidence": "Vibenix: An AI Assistant for Software Packaging with Nix"
+  },
+  {
+    "id": "R00552",
+    "decision": "EXCLUDE",
+    "reason": "Recommender-system research with LLM semantic modeling; no security or OS task.",
+    "evidence": "LLMTransRec, a hybrid Transformer-based recommendation model"
+  },
+  {
+    "id": "R00553",
+    "decision": "EXCLUDE",
+    "reason": "Smart-policing application framework; no OS security analysis or testing.",
+    "evidence": "A Framework for LLM-Assisted Smart Policing System"
+  },
+  {
+    "id": "R00554",
+    "decision": "EXCLUDE",
+    "reason": "Bash command-generation evaluation without a security outcome or LLM security task.",
+    "evidence": "Local LLMs for NL2Bash: A Large-Scale Open-Source Model Evaluation for Bash Command"
+  },
+  {
+    "id": "R00555",
+    "decision": "EXCLUDE",
+    "reason": "LLM used for qualitative data analysis of security/privacy concerns, not OS security testing.",
+    "evidence": "LLM-Assisted Qualitative Data Analysis: Security and Privacy Concerns in Gamified Workforce Studies"
+  },
+  {
+    "id": "R00556",
+    "decision": "EXCLUDE",
+    "reason": "Cyber-physical threat modeling for water infrastructure, not OS components or privileged interfaces.",
+    "evidence": "LLM-assisted methodology, leveraging Anthropic's Claude Sonnet 4.5 as a domain expert"
+  },
+  {
+    "id": "R00557",
+    "decision": "EXCLUDE",
+    "reason": "Carbon-aware EV charging optimization; no security or OS task.",
+    "evidence": "LLM-Assisted Carbon-Aware Coordinated EV Charging for Decarbonization"
+  },
+  {
+    "id": "R00558",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted security repair of general C library cJSON, not an OS component.",
+    "evidence": "LLM-assisted porting of security-critical C libraries to idiomatic Rust"
+  },
+  {
+    "id": "R00559",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted microservices system testing without explicit security outcome or OS target.",
+    "evidence": "Towards LLM-Assisted System Testing for Microservices"
+  },
+  {
+    "id": "R00560",
+    "decision": "EXCLUDE",
+    "reason": "LLM used for natural-language log querying in a blockchain system, not OS security analysis.",
+    "evidence": "integrates an LLM-assisted query mechanism"
+  }
+]

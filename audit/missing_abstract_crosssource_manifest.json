@@ -1,0 +1,22 @@
+{
+  "targets": 37,
+  "status": {
+    "matched": 12,
+    "missing": 20,
+    "ambiguous": 5
+  },
+  "best_text_kind": {
+    "candidate_paraphrase_not_abstract": 9,
+    "saved_source_abstract": 4,
+    "none": 20,
+    "candidate_abstract_fragment_unverified": 4
+  },
+  "input_sha256": {
+    "queue": "f699cccb088e4ba8dbee3626a69f9b6f09d5013fd80033f1a0de5470d7cf60fb",
+    "search": "f208532691daab6add97eeb13e39322617e1233b0a80a24d4618ae10bb3e09c5",
+    "arxiv_refresh": "14ade594377f605121cb29d46f3c75d095c44656edc614ac66d76f7f7a65749b",
+    "arxiv_results": "8433d25dba2b5f0be596140f825403150de2a875244c222fc5a9ff8b4dfb511c",
+    "legacy_candidates": "bed5a7551f12693d492b3eb5e30e9c18ffe673dfae09ec1de032f5f686d9c6e8"
+  },
+  "notice": "matching is record linkage, not eligibility, and saved paraphrases are not original abstracts"
+}

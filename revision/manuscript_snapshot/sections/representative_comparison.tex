@@ -1,0 +1,82 @@
+% Sources for numerical claims (publication snapshots, not live counts):
+% KernelGPT ASPLOS 2025 abstract and Table 3: https://yangchenyuan.github.io/files/ASPLOS25-KernelGPT.pdf
+% SyzAgent FASE 2025, Sec. 4 and Table 1: https://arxiv.org/pdf/2503.02301
+% BugLens ASE 2025, abstract and Table I: https://www.cs.ucr.edu/~zhiyunq/pub/ase25_buglens.pdf
+% KNighter SOSP 2025, Sec. 5 and Table 2: https://yangchenyuan.github.io/files/SOSP25-KNighter.pdf
+% MigGPT NeurIPS 2025, Sec. 6.1 and Table 5: https://proceedings.neurips.cc/paper_files/paper/2025/file/3760dbb5835bf0b771c3f83cb27ef2c0-Paper-Conference.pdf
+% PathSentinel arXiv:2407.11279, Sec. VII-D: https://arxiv.org/html/2407.11279
+\begin{table*}[t]
+\centering
+\caption{\revise{Representative LLM-assisted OS security approaches and their reported evaluations.}}
+\label{tab:representative-evidence}
+\begingroup
+\setlength{\tabcolsep}{2pt}
+\footnotesize
+\begin{tabular}{@{}>{\RaggedRight\arraybackslash}p{0.105\textwidth}>{\RaggedRight\arraybackslash}p{0.14\textwidth}>{\RaggedRight\arraybackslash}p{0.15\textwidth}>{\RaggedRight\arraybackslash}p{0.15\textwidth}>{\RaggedRight\arraybackslash}p{0.17\textwidth}>{\RaggedRight\arraybackslash}p{0.18\textwidth}@{}}
+\hline
+\revise{Study} & \revise{OS target and task} & \revise{LLM role and validation} & \revise{Evaluation and baseline} & \revise{Reported result} & \revise{Scope and limitation} \\
+\hline
+\revise{KernelGPT}~\revcite{yang2025kernelgpt} &
+\revise{Linux drivers and sockets; syscall fuzzing} &
+\revise{Generates and repairs Syzkaller specifications using validation feedback} &
+\revise{Kernel fuzzing; Syzkaller and SyzDescribe baselines} &
+\revise{24 new bugs; 11 CVEs and 12 fixes reported in the ASPLOS paper} &
+\revise{Findings depend on inferred interfaces and execution coverage; accepted specifications need not be complete.} \\
+\hline
+\revise{SyzAgent}~\revcite{syzagent25} &
+\revise{Linux kernel; directed fuzzing} &
+\revise{Guides Syzkaller test generation and mutation during fuzzing} &
+\revise{27 target-function cases; Syzkaller baseline; three two-hour runs per case} &
+\revise{18 of 27 cases had at least 10\% relative improvement under the paper's $\omega$ metric} &
+\revise{Preliminary target-reachability evaluation; the hit-rate metric is not a vulnerability count.} \\
+\hline
+\revise{BugLens}~\revcite{li2025towards} &
+\revise{Linux kernel drivers; taint-style warning triage} &
+\revise{Reasons over analyzer reports, impact and source-code constraints} &
+\revise{Android Linux 4.14.150 driver reports; Suture and CodeQL-SOD} &
+\revise{Suture-report precision rose from 0.10 to 0.72; four real bugs previously dismissed as false positives in Suture's manual review} &
+\revise{Refines existing reports and depends on the input analyzer's dataflow; reported gains are dataset-specific.} \\
+\hline
+\revise{KNighter}~\revcite{yang2025knighter} &
+\revise{Linux kernel; static bug-pattern detection} &
+\revise{Synthesizes and refines checkers from historical bug-fix patches} &
+\revise{61 bug-fix patches; generated checkers applied to the kernel} &
+\revise{92 new bugs, including 77 confirmed and 30 CVEs, in the SOSP paper} &
+\revise{Checker construction depends on input patches; the 32.2\% false-positive rate applies to reports from the evaluated triage pipeline.} \\
+\hline
+\revise{MigGPT}~\revcite{dang2025miggpt} &
+\revise{Linux kernel; patch migration and security backporting} &
+\revise{Retrieves relevant code and generates migrated patches} &
+\revise{Out-of-tree migration and FixMorph CVE-backporting benchmark with 350 instances} &
+\revise{On CVE backporting, GPT-4-turbo semantic match: 85.43\% baseline vs. 91.78\% with MigGPT} &
+\revise{Semantic match is not a proof of patch correctness; outcomes depend on model and target version.} \\
+\hline
+\revise{PathSentinel} \revcite{lee2024static} &
+\revise{Android applications and core services; filesystem-access vulnerabilities} &
+\revise{Generates test exploit code using findings from static and access-control analysis} &
+\revise{16 path-traversal cases; LLM-generated tests with analysis context} &
+\revise{Usable tests for 7 simple and 9 complex cases with appropriate context} &
+\revise{The LLM assists validation; vulnerability detection is performed by program and policy analysis.} \\
+\hline
+\revise{LLM-CAL}~\revcite{gadey2026llmcal} &
+\revise{TEE boundary design; annotate cryptographic code for TEE placement} &
+\revise{Fine-tuned LLM labels security-sensitive code to support partitioning} &
+\revise{4,010 C source files; held-out line-level classification} &
+\revise{98.41\% F1 and 97.50\% recall for line-level labels} &
+\revise{Code-label metrics do not validate the security of a resulting TEE partition.} \\
+\hline
+\revise{OpenAI pipeline}~\revcite{openai2026paths} &
+\revise{Linux kernel; local privilege escalation} &
+\revise{Finds candidates, reproduces bugs, develops exploits and proposes patches} &
+\revise{Stock Linux distribution; provider report; human review} &
+\revise{1,724 reproduced vulnerabilities; 948 working LPE exploits} &
+\revise{Provider-reported results depend on target configuration and resources; patches require review.} \\
+\hline
+\end{tabular}
+\endgroup
+\end{table*}
+
+\paragraph{\revise{Cross-study synthesis.}}
+\revise{The eight studies intervene at different points in a security workflow. KernelGPT improves the specifications supplied to a fuzzer, while SyzAgent steers mutation toward target functions; BugLens refines reports produced by an analyzer, KNighter generates the analyzer itself, MigGPT proposes migrated patches, PathSentinel assists exploit validation for Android applications, LLM-CAL labels cryptographic code for TEE partitioning, and the OpenAI pipeline reports exploitability assessment and candidate patches. Coverage or target hit rate, report precision, newly confirmed bugs, patch semantic match, code-label metrics and exploit counts measure different outcomes and should not be ranked as if they were a shared benchmark. Improved reachability does not by itself establish a vulnerability, agreement with a reference patch does not establish security correctness, and high code-label scores do not validate a resulting TEE boundary.}
+
+\revise{Tool feedback supplies useful checks, but each study retains a distinct evidence boundary: fuzzing requires executable interfaces and a meaningful oracle; report triage inherits the analyzer's candidate set and dataflow; patch-guided checker synthesis depends on representative historical fixes; and patch migration must preserve the target kernel's semantics. These dependencies motivate reporting baseline configuration, dataset construction, model and kernel versions, false positives, and independent reproduction or review together with success metrics.}

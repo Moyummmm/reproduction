@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R04681",
+    "decision": "UNCLEAR",
+    "reason": "Title-only general RL-guided fuzzing; missing abstract leaves LLM role and OS target uncertain.",
+    "evidence": "RLGFuzz: Reinforcement Learning Guided Fuzzing with State-Coverage Mapping Environment"
+  },
+  {
+    "id": "R04682",
+    "decision": "EXCLUDE",
+    "reason": "Targets compiler bugs, not OS components; no LLM use stated.",
+    "evidence": "Detecting Compiler-Introduced Security Bugs via IR Mutation and Coverage-Guided Fuzzing"
+  },
+  {
+    "id": "R04683",
+    "decision": "UNCLEAR",
+    "reason": "Title-only general fuzzing technique; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "Towards Path-Aware Coverage-Guided Fuzzing"
+  },
+  {
+    "id": "R04684",
+    "decision": "EXCLUDE",
+    "reason": "Hardware processor verification, not OS security; no LLM use stated.",
+    "evidence": "Efficient Cross-Level Processor Verification using Coverage-guided Fuzzing"
+  },
+  {
+    "id": "R04685",
+    "decision": "UNCLEAR",
+    "reason": "Title-only benchmark-based fuzzing study; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "Research on coverage-guided fuzzing technique based on Magma dataset"
+  },
+  {
+    "id": "R04686",
+    "decision": "EXCLUDE",
+    "reason": "Targets SMT floating-point formulas, not OS components; no LLM use stated.",
+    "evidence": "Scalable SMT Sampling for Floating-Point Formulas via Coverage-Guided Fuzzing"
+  },
+  {
+    "id": "R04687",
+    "decision": "EXCLUDE",
+    "reason": "Neural test-generation data augmentation, not OS security; no LLM use stated.",
+    "evidence": "FuzzAug: Data Augmentation by Coverage-guided Fuzzing for Neural Test Generation"
+  },
+  {
+    "id": "R04688",
+    "decision": "UNCLEAR",
+    "reason": "TEE target is relevant, but missing abstract leaves the LLM role and security task unclear.",
+    "evidence": "IntraFuzz: Coverage-Guided Intra-Enclave Fuzzing for Intel SGX Applications"
+  },
+  {
+    "id": "R04689",
+    "decision": "UNCLEAR",
+    "reason": "Title-only RL seed-scheduling work; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "A Seed Scheduling Method With a Reinforcement Learning for a Coverage Guided Fuzzing"
+  },
+  {
+    "id": "R04690",
+    "decision": "EXCLUDE",
+    "reason": "General test-case generation, not OS security; no LLM use stated.",
+    "evidence": "Automated SC-MCC test case generation using coverage-guided fuzzing"
+  },
+  {
+    "id": "R04691",
+    "decision": "EXCLUDE",
+    "reason": "Tests a DL malware classifier, not OS components; no LLM use stated.",
+    "evidence": "MalFuzz uses the idea of coverage-guided fuzzing to test deep learning-based malware detection models."
+  },
+  {
+    "id": "R04692",
+    "decision": "EXCLUDE",
+    "reason": "Targets deep-learning frameworks, not OS components; no LLM use stated.",
+    "evidence": "DeepCov: Coverage Guided Deep Learning Framework Fuzzing"
+  },
+  {
+    "id": "R04693",
+    "decision": "EXCLUDE",
+    "reason": "Targets deep reinforcement learning systems, not OS security; no LLM use stated.",
+    "evidence": "Coverage-guided fuzzing for deep reinforcement learning systems"
+  },
+  {
+    "id": "R04694",
+    "decision": "EXCLUDE",
+    "reason": "Targets closed-source GUI programs, not OS components; no LLM use stated.",
+    "evidence": "Terminator: Enabling Efficient Fuzzing of Closed-Source GUI Programs by Automatic Coverage-Guided Termination"
+  },
+  {
+    "id": "R04695",
+    "decision": "UNCLEAR",
+    "reason": "Title-only general greybox fuzzing; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "RumFuzz: Coverage-guided Greybox Fuzzing with Reasonable Use of Memory"
+  },
+  {
+    "id": "R04696",
+    "decision": "UNCLEAR",
+    "reason": "Title-only seed-mutation search fuzzing; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "Alphuzz: Monte Carlo Search on Seed-Mutation Tree for Coverage-Guided Fuzzing"
+  },
+  {
+    "id": "R04697",
+    "decision": "EXCLUDE",
+    "reason": "API error-handling fault injection, not OS security; no LLM use stated.",
+    "evidence": "Fuzzing API Error Handling Behaviors using Coverage Guided Fault Injection"
+  },
+  {
+    "id": "R04698",
+    "decision": "EXCLUDE",
+    "reason": "Targets JVM JIT compilers, not OS components; no LLM use stated.",
+    "evidence": "JITfuzz: Coverage-guided Fuzzing for JVM Just-in-Time Compilers"
+  },
+  {
+    "id": "R04699",
+    "decision": "EXCLUDE",
+    "reason": "Targets a deep-learning framework, not OS components; no LLM use stated.",
+    "evidence": "Python Coverage Guided Fuzzing for Deep Learning Framework"
+  },
+  {
+    "id": "R04700",
+    "decision": "EXCLUDE",
+    "reason": "LLM-guided reinforcement learning is used for game playtesting, not security or OS targets.",
+    "evidence": "Coverage-aware game playtesting with LLM-guided reinforcement learning"
+  },
+  {
+    "id": "R04701",
+    "decision": "EXCLUDE",
+    "reason": "Targets ICS protocol implementations, not OS components; no LLM use stated.",
+    "evidence": "MCFICS: Model-based Coverage-guided Fuzzing for Industrial Control System Protocol Implementations"
+  },
+  {
+    "id": "R04702",
+    "decision": "UNCLEAR",
+    "reason": "Title-only stochastic-control fuzzing; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "FOX: Coverage-guided Fuzzing as Online Stochastic Control"
+  },
+  {
+    "id": "R04703",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based fuzzing targets compilers and libraries, not OS components.",
+    "evidence": "discovered 47 bugs in systems such as GCC, Clang, CVC5, and Go"
+  },
+  {
+    "id": "R04704",
+    "decision": "EXCLUDE",
+    "reason": "Targets deep neural networks, not OS components; no LLM use stated.",
+    "evidence": "Deep2Fuzz: Coverage-Guided Reinforcement Fuzzing towards Deep Neural Networks"
+  },
+  {
+    "id": "R04705",
+    "decision": "EXCLUDE",
+    "reason": "Hardware peripheral verification, not OS security; no LLM use stated.",
+    "evidence": "verification methodology for Hardware (HW) peripherals"
+  },
+  {
+    "id": "R04706",
+    "decision": "UNCLEAR",
+    "reason": "Title-only coverage-information fuzzing; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "BitAFL: Provide More Accurate Coverage Information for Coverage-guided Fuzzing"
+  },
+  {
+    "id": "R04707",
+    "decision": "EXCLUDE",
+    "reason": "Targets semantic vulnerabilities in the Java ecosystem, not OS components; no LLM use stated.",
+    "evidence": "Jazzer: Coverage-Guided Fuzzing for Semantic Vulnerabilities in the Java Ecosystem"
+  },
+  {
+    "id": "R04708",
+    "decision": "EXCLUDE",
+    "reason": "Survey of coverage-guided greybox fuzzing, excluded from the core empirical set.",
+    "evidence": "A survey of coverage-guided greybox fuzzing with deep neural models"
+  },
+  {
+    "id": "R04709",
+    "decision": "EXCLUDE",
+    "reason": "Targets the Non-Access Stratum protocol, not OS components; no LLM use stated.",
+    "evidence": "A Coverage-Guided Fuzzing Method for Non-Access Stratum Protocol"
+  },
+  {
+    "id": "R04710",
+    "decision": "EXCLUDE",
+    "reason": "No LLM use stated; target is virtualized network devices rather than core OS components.",
+    "evidence": "coverage-guided fuzzing framework NDFuzz for virtualized network devices"
+  },
+  {
+    "id": "R04711",
+    "decision": "EXCLUDE",
+    "reason": "General greybox fuzzing with no LLM use stated and no OS target specified.",
+    "evidence": "Cohort, a novel greybox fuzzing technique that combines multiple coverage metrics"
+  },
+  {
+    "id": "R04712",
+    "decision": "UNCLEAR",
+    "reason": "Title-only fuzzing evaluation; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "Evaluating Impact of Coverage Feedback on Estimators for Maximum Reachability in Fuzzing (Registered Report)"
+  },
+  {
+    "id": "R04713",
+    "decision": "UNCLEAR",
+    "reason": "Title-only stochastic-control fuzzing; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "FOX: Coverage-guided Fuzzing as Online Stochastic Control"
+  },
+  {
+    "id": "R04714",
+    "decision": "EXCLUDE",
+    "reason": "Retrospective overview of protocol fuzzing, not original LLM/OS security research.",
+    "evidence": "AFLNet Five Years Later: On Coverage-Guided Protocol Fuzzing"
+  },
+  {
+    "id": "R04715",
+    "decision": "EXCLUDE",
+    "reason": "LLM agent training and search, not a security analysis or OS target.",
+    "evidence": "PROGRESS: Coverage-guided RL to Train Search-augmented LLM Agent"
+  },
+  {
+    "id": "R04716",
+    "decision": "EXCLUDE",
+    "reason": "Tests deep-learning library APIs, not OS components; no LLM use stated.",
+    "evidence": "How Effective Is Coverage-Guided Fuzzing to Test Deep Learning Library APIs?"
+  },
+  {
+    "id": "R04717",
+    "decision": "UNCLEAR",
+    "reason": "Title-only blackbox fuzzing work; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "Shepherd: High-Precision Coverage Inference for Response-guided Blackbox Fuzzing (Registered Report)"
+  },
+  {
+    "id": "R04718",
+    "decision": "EXCLUDE",
+    "reason": "Targets malware analysis, not OS components; no LLM use stated.",
+    "evidence": "Pfuzzer: Practical, Sound, and Effective Multi-path Analysis of Environment-sensitive Malware with Coverage-guided Fuzzing"
+  },
+  {
+    "id": "R04719",
+    "decision": "EXCLUDE",
+    "reason": "Targets a tensor compiler, not OS components; no LLM use stated.",
+    "evidence": "Tzer, a practical fuzzing technique for the widely used TVM tensor compiler"
+  },
+  {
+    "id": "R04720",
+    "decision": "EXCLUDE",
+    "reason": "LLM-powered harness generation targets Java libraries, not OS components.",
+    "evidence": "automates fuzz harness generation for Java libraries through specialized LLM-powered agents"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01502",
+    "decision": "EXCLUDE",
+    "reason": "Nuclear safety causal analysis; no security task or OS target.",
+    "evidence": "automating causal analysis of nuclear Licensee Event Reports (LERs)"
+  },
+  {
+    "id": "R01503",
+    "decision": "EXCLUDE",
+    "reason": "Financial data analysis; no security or OS focus.",
+    "evidence": "intelligent financial data analysis system that integrates Large Language Models (LLMs) with Retrieval-Augmented Generation (RAG) technology"
+  },
+  {
+    "id": "R01511",
+    "decision": "EXCLUDE",
+    "reason": "Epidemiological patch model; unrelated to LLMs or security.",
+    "evidence": "spatial heterogeneous SEIRS patch model with asymmetric mobility kernel"
+  },
+  {
+    "id": "R01514",
+    "decision": "EXCLUDE",
+    "reason": "Intrusion detection without LLM use; no LLM dimension.",
+    "evidence": "robust intrusion detection model that combines deep neural network"
+  },
+  {
+    "id": "R01516",
+    "decision": "EXCLUDE",
+    "reason": "Protein interaction prediction; no security task or OS target.",
+    "evidence": "Predicting protein-protein interactions (PPIs) using only sequence information"
+  },
+  {
+    "id": "R01517",
+    "decision": "EXCLUDE",
+    "reason": "IoT intrusion detection using clustering; no LLM involvement.",
+    "evidence": "quantum artificial fish population and fuzzy kernel clustering algorithm"
+  },
+  {
+    "id": "R01518",
+    "decision": "EXCLUDE",
+    "reason": "Kernel/hypervisor security but no LLM involvement.",
+    "evidence": "H-KPP, hypervisor-based protection for kernel code and data structures"
+  },
+  {
+    "id": "R01519",
+    "decision": "EXCLUDE",
+    "reason": "LLM software repair without a security outcome or OS target.",
+    "evidence": "lightweight language-model software repair"
+  },
+  {
+    "id": "R01520",
+    "decision": "EXCLUDE",
+    "reason": "Vision-language token pruning for efficiency; not security.",
+    "evidence": "semantic-aware patch-level pruning framework for vision"
+  },
+  {
+    "id": "R01521",
+    "decision": "EXCLUDE",
+    "reason": "Sonar image target detection; unrelated to LLMs or security.",
+    "evidence": "small target detection in SSS images"
+  },
+  {
+    "id": "R01522",
+    "decision": "EXCLUDE",
+    "reason": "Transportation specification RAG; no security task or OS target.",
+    "evidence": "amendment-aware RAG framework for LLM-based decision support in transportation construction specifications"
+  },
+  {
+    "id": "R01524",
+    "decision": "EXCLUDE",
+    "reason": "General exploit-grounded repair benchmark; no OS component target, results future.",
+    "evidence": "exploit-grounded benchmark and evidence standard for security repair"
+  },
+  {
+    "id": "R01526",
+    "decision": "EXCLUDE",
+    "reason": "SVM-based intrusion detection; no LLM involvement.",
+    "evidence": "SVM classification model, along with a linear kernel is used to classify the intruders"
+  },
+  {
+    "id": "R01529",
+    "decision": "EXCLUDE",
+    "reason": "GPU kernel performance optimization; not security.",
+    "evidence": "kernel activity on GPU/TPU architectures"
+  },
+  {
+    "id": "R01531",
+    "decision": "UNCLEAR",
+    "reason": "LM-assisted security event analysis, but OS component or privileged-interface target is not explicit.",
+    "evidence": "language model assisted security event analysis"
+  },
+  {
+    "id": "R01539",
+    "decision": "EXCLUDE",
+    "reason": "Protein interaction prediction; no security task or OS target.",
+    "evidence": "interaction prediction using deep and wide multi-kernel pooling convolutional neural networks"
+  },
+  {
+    "id": "R01545",
+    "decision": "EXCLUDE",
+    "reason": "Security patch timing uses deep RL, not LLMs.",
+    "evidence": "deep reinforcement learning-based approach"
+  },
+  {
+    "id": "R01546",
+    "decision": "EXCLUDE",
+    "reason": "Security patch survival measurement without LLM use; future cohort.",
+    "evidence": "PATCHSURVIVE defines that model"
+  },
+  {
+    "id": "R01551",
+    "decision": "EXCLUDE",
+    "reason": "Antenna design; unrelated to LLMs or security.",
+    "evidence": "A 41% bandwidth microstrip patch antenna"
+  },
+  {
+    "id": "R01554",
+    "decision": "EXCLUDE",
+    "reason": "Code LLMs for binary security patch detection on general software, not OS components.",
+    "evidence": "detecting binary security patches"
+  },
+  {
+    "id": "R01555",
+    "decision": "EXCLUDE",
+    "reason": "Language pedagogy experiment; not LLM security research.",
+    "evidence": "developing foreign language writing competence in future masters in national security"
+  },
+  {
+    "id": "R01558",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial attacks on vision-language models, not OS security.",
+    "evidence": "adversarial patch against vision-language pre-training models"
+  },
+  {
+    "id": "R01559",
+    "decision": "EXCLUDE",
+    "reason": "Overview of GPT advances and cybersecurity; review rather than empirical research.",
+    "evidence": "detailed overview of the technical advancements utilized in GPT"
+  },
+  {
+    "id": "R01561",
+    "decision": "EXCLUDE",
+    "reason": "Survey of VLM security in autonomous driving; review, not OS security research.",
+    "evidence": "systematic review of various attack vectors targeting VLMs"
+  },
+  {
+    "id": "R01566",
+    "decision": "EXCLUDE",
+    "reason": "Language model unlearning; no security task or OS target.",
+    "evidence": "LoRA-Based Language Model Unlearning"
+  },
+  {
+    "id": "R01573",
+    "decision": "EXCLUDE",
+    "reason": "Driver fuzzing security work but no LLM involvement.",
+    "evidence": "intelligent grey box fuzzing for Intel Media driver"
+  },
+  {
+    "id": "R01580",
+    "decision": "EXCLUDE",
+    "reason": "Ride-hailing behavioral simulation; no security task or OS target.",
+    "evidence": "LLM-Based Driver Agents in Ride-Hailing Markets"
+  },
+  {
+    "id": "R01582",
+    "decision": "EXCLUDE",
+    "reason": "On-device code development; no security outcome or OS target.",
+    "evidence": "LLM-Based Code Development Model with Active Prompt Adjustment and On-Device Validation"
+  },
+  {
+    "id": "R01583",
+    "decision": "EXCLUDE",
+    "reason": "Traffic safety warning system; no security task or OS target.",
+    "evidence": "traffic accident risk prediction and personalized driver warnings"
+  },
+  {
+    "id": "R01586",
+    "decision": "EXCLUDE",
+    "reason": "Hypervisor/virtual-device fuzzing without LLM involvement.",
+    "evidence": "protocol-sensitive fuzzing framework"
+  },
+  {
+    "id": "R01592",
+    "decision": "EXCLUDE",
+    "reason": "Smartphone addiction device design; not security research.",
+    "evidence": "Adolescent Smartphone Addiction Management Device"
+  },
+  {
+    "id": "R01593",
+    "decision": "EXCLUDE",
+    "reason": "Shared-memory LLM inference optimization; no security task.",
+    "evidence": "zero-copy shared memory interface for large language model (LLM) inference"
+  },
+  {
+    "id": "R01600",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted literature landscape and taxonomy; review-style, not security.",
+    "evidence": "LLM-assisted, dual-source landscape and taxonomy of device innovation"
+  },
+  {
+    "id": "R01611",
+    "decision": "EXCLUDE",
+    "reason": "General vulnerability-to-weakness mapping; no OS component target.",
+    "evidence": "automated vulnerability-to-weakness mapping model based on Large Language Models (LLMs)"
+  },
+  {
+    "id": "R01612",
+    "decision": "EXCLUDE",
+    "reason": "Foundational overview chapter, not original empirical OS security research.",
+    "evidence": "chapter explores the foundational aspects of large language models (LLMs)"
+  },
+  {
+    "id": "R01615",
+    "decision": "EXCLUDE",
+    "reason": "Review of driver identification techniques; not LLM OS security research.",
+    "evidence": "A Comprehensive Review: Analysis of Machine Learning, Deep Learning, and Large Language Model Techniques for Revolutionizing Driver Identification"
+  },
+  {
+    "id": "R01620",
+    "decision": "EXCLUDE",
+    "reason": "Seismic vulnerability screening, not cybersecurity or OS security.",
+    "evidence": "Residential Seismic Vulnerability Identification using Large Vision and Language Models"
+  },
+  {
+    "id": "R01623",
+    "decision": "EXCLUDE",
+    "reason": "LLM vulnerability detection targets smart contracts, not OS components.",
+    "evidence": "Smart Contract Vulnerability Detection"
+  },
+  {
+    "id": "R01626",
+    "decision": "EXCLUDE",
+    "reason": "Studies AI/LLM service failures, not LLMs applied to OS security.",
+    "evidence": "systemic vulnerability in AI infrastructure"
+  },
+  {
+    "id": "R01627",
+    "decision": "EXCLUDE",
+    "reason": "Observational data package and duplicate; not empirical OS security research.",
+    "evidence": "This is not a controlled study. The data is observational."
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01521",
+    "decision": "EXCLUDE",
+    "reason": "Image-processing target detection; no LLM or OS security task.",
+    "evidence": "iterative steering kernel regression and patch-image model"
+  },
+  {
+    "id": "R01522",
+    "decision": "EXCLUDE",
+    "reason": "LLM used for transportation-specification decision support, not OS security.",
+    "evidence": "LLM-based decision support in transportation construction specifications"
+  },
+  {
+    "id": "R01523",
+    "decision": "UNCLEAR",
+    "reason": "Title suggests code-LLM security patch detection, but OS target and evaluation are unspecified.",
+    "evidence": "A Comprehensive Evaluation of Code Language Models for Security Patch Detection"
+  },
+  {
+    "id": "R01524",
+    "decision": "EXCLUDE",
+    "reason": "Generic security-repair benchmark; no OS component target and execution remains future work.",
+    "evidence": "exploit-grounded benchmark and evidence standard for security repair"
+  },
+  {
+    "id": "R01525",
+    "decision": "UNCLEAR",
+    "reason": "Title is too vague to establish an LLM security task or OS target; abstract missing.",
+    "evidence": "Patch Release"
+  },
+  {
+    "id": "R01526",
+    "decision": "EXCLUDE",
+    "reason": "SVM-based intrusion detection; no LLM and no OS component target.",
+    "evidence": "SVM (Support Vector Machine) classification model, along with a linear kernel"
+  },
+  {
+    "id": "R01527",
+    "decision": "UNCLEAR",
+    "reason": "Container security and patch management could be OS-adjacent, but LLM role and scope are unstated.",
+    "evidence": "Ensuring Isolation and Patch Management"
+  },
+  {
+    "id": "R01528",
+    "decision": "UNCLEAR",
+    "reason": "Windows kernel security focus, but no LLM use is indicated and abstract is missing.",
+    "evidence": "Windows Kernel Architectures"
+  },
+  {
+    "id": "R01529",
+    "decision": "EXCLUDE",
+    "reason": "GPU kernel optimization for AI efficiency; no security task or OS component.",
+    "evidence": "kernel activity on GPU/TPU architectures"
+  },
+  {
+    "id": "R01530",
+    "decision": "EXCLUDE",
+    "reason": "Hyperspectral image classification; no LLM, security, or OS target.",
+    "evidence": "classification of hyper-spectral Image"
+  },
+  {
+    "id": "R01531",
+    "decision": "UNCLEAR",
+    "reason": "LLM-assisted security event analysis is relevant, but OS component target is not specified.",
+    "evidence": "A structured event logging framework for language model assisted security event analysis"
+  },
+  {
+    "id": "R01532",
+    "decision": "EXCLUDE",
+    "reason": "Security-protocol DSL modeling; no LLM or OS component target indicated.",
+    "evidence": "A Domain-Specific Language for Modeling Security Protocols"
+  },
+  {
+    "id": "R01533",
+    "decision": "UNCLEAR",
+    "reason": "Vague title cannot establish LLM role, security task, or OS target.",
+    "evidence": "Patch first"
+  },
+  {
+    "id": "R01534",
+    "decision": "EXCLUDE",
+    "reason": "Language-model graph distillation; no security or OS target.",
+    "evidence": "TaLK: Text-attributed Graph Dataset Distillation via Coupling Language Model with Graph-Aware Kernel"
+  },
+  {
+    "id": "R01535",
+    "decision": "UNCLEAR",
+    "reason": "Linux kernel patch identification with pre-trained models, but security relevance and LLM role are unclear.",
+    "evidence": "Continuous Stable Patch Identification for Linux Kernel"
+  },
+  {
+    "id": "R01536",
+    "decision": "UNCLEAR",
+    "reason": "Kernel-level container security could be core, but LLM use is not indicated and abstract missing.",
+    "evidence": "kernel-level control in containerized computing environments"
+  },
+  {
+    "id": "R01537",
+    "decision": "EXCLUDE",
+    "reason": "Control theory for networked systems; mathematical kernel, not OS or LLM security.",
+    "evidence": "Observer-based security control for nonlinear networked systems"
+  },
+  {
+    "id": "R01538",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial-defense patch transformation; not an OS or LLM security task.",
+    "evidence": "Adaptive patch transformation for adversarial defense"
+  },
+  {
+    "id": "R01539",
+    "decision": "EXCLUDE",
+    "reason": "Protein-interaction prediction; protein language model is not used for OS security.",
+    "evidence": "protein–protein interaction prediction"
+  },
+  {
+    "id": "R01540",
+    "decision": "UNCLEAR",
+    "reason": "Single-word title gives no evidence of LLM, security task, or OS target.",
+    "evidence": "patch"
+  },
+  {
+    "id": "R01541",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based time-series anomaly detection; no security or OS target is stated.",
+    "evidence": "Time-Series Anomaly Detection"
+  },
+  {
+    "id": "R01542",
+    "decision": "EXCLUDE",
+    "reason": "Optical-flow estimation; no LLM, security, or OS target.",
+    "evidence": "Learning Optical Flow with Kernel Patch Attention"
+  },
+  {
+    "id": "R01543",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial robustness for object detection; not OS or LLM security.",
+    "evidence": "Certifiably Robust Object Detection against Patch Hiding Attacks"
+  },
+  {
+    "id": "R01544",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted antenna design; no security or OS target.",
+    "evidence": "Wideband Pixelized Patch Antenna Design"
+  },
+  {
+    "id": "R01545",
+    "decision": "EXCLUDE",
+    "reason": "Deep-RL patch management; no LLM and no OS component target.",
+    "evidence": "deep reinforcement learning-based approach"
+  },
+  {
+    "id": "R01546",
+    "decision": "EXCLUDE",
+    "reason": "Generic security-patch survival measurement; no LLM and no OS component target.",
+    "evidence": "Measuring Security Patch Survival under Software Evolution"
+  },
+  {
+    "id": "R01547",
+    "decision": "EXCLUDE",
+    "reason": "Defense against model poisoning; security of ML models, not OS components.",
+    "evidence": "Kernel-Based Trust Segmentation Against Model Poisoning Attacks"
+  },
+  {
+    "id": "R01548",
+    "decision": "UNCLEAR",
+    "reason": "Pre-trained LM vulnerability repair is relevant, but OS target and abstract are missing.",
+    "evidence": "pre-trained language model-based vulnerability repair"
+  },
+  {
+    "id": "R01549",
+    "decision": "EXCLUDE",
+    "reason": "Language-competition model; no LLM, security, or OS target.",
+    "evidence": "Two-patch model of language competition"
+  },
+  {
+    "id": "R01550",
+    "decision": "UNCLEAR",
+    "reason": "Single-word title cannot establish LLM role, security task, or OS target.",
+    "evidence": "kernel"
+  },
+  {
+    "id": "R01551",
+    "decision": "EXCLUDE",
+    "reason": "Microstrip patch antenna design; no LLM or OS security.",
+    "evidence": "A 41% bandwidth microstrip patch antenna"
+  },
+  {
+    "id": "R01552",
+    "decision": "EXCLUDE",
+    "reason": "Antenna feeding strategies; no LLM, security, or OS target.",
+    "evidence": "Investigation of Feeding Strategies in Microstrip Patch Antenna"
+  },
+  {
+    "id": "R01553",
+    "decision": "UNCLEAR",
+    "reason": "Vague title provides no LLM, security-task, or OS-target evidence.",
+    "evidence": "patch-breech"
+  },
+  {
+    "id": "R01554",
+    "decision": "EXCLUDE",
+    "reason": "Code-LLM binary patch detection is general software security, not OS-component targeted.",
+    "evidence": "Binary Security Patch Detection"
+  },
+  {
+    "id": "R01555",
+    "decision": "EXCLUDE",
+    "reason": "Language-pedagogy experiment; no LLM, security analysis, or OS target.",
+    "evidence": "foreign language writing competence in future masters in national security"
+  },
+  {
+    "id": "R01556",
+    "decision": "EXCLUDE",
+    "reason": "SVM-based resource classification and data access control; no LLM or OS target.",
+    "evidence": "Multi-Kernel Fuzzy Support Vector Machine"
+  },
+  {
+    "id": "R01557",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial attacks on vision-language models; security of LLMs, not OS components.",
+    "evidence": "Attacking hard-label large vision–language models with model-sensitive adversarial patch designs"
+  },
+  {
+    "id": "R01558",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial patches against vision-language models; security of models, not OS components.",
+    "evidence": "naturalistic adversarial patch against vision-language pre-training models"
+  },
+  {
+    "id": "R01559",
+    "decision": "EXCLUDE",
+    "reason": "Review/overview of GPT and language models in cybersecurity; surveys excluded.",
+    "evidence": "This paper aims to provide a detailed overview"
+  },
+  {
+    "id": "R01560",
+    "decision": "EXCLUDE",
+    "reason": "Android application patch classification targets apps, not OS components; abstract missing.",
+    "evidence": "Security Patch Classification in Android Applications using CodeBERT"
+  }
+]

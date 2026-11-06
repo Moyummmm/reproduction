@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02201",
+    "decision": "EXCLUDE",
+    "reason": "Social-network study of LLM agents; no security task or OS target.",
+    "evidence": "Collective Behaviors of Large Language Model-Based Autonomous Agents in an Online Community"
+  },
+  {
+    "id": "R02202",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates activation steering for depression treatment advice, not security or OS work.",
+    "evidence": "changes an open-weights large language model’s (LLM) responses to questions about treatment for depression"
+  },
+  {
+    "id": "R02203",
+    "decision": "EXCLUDE",
+    "reason": "Network optimization paper; title shows no security task or OS target.",
+    "evidence": "Semantic-Aware Network Optimization"
+  },
+  {
+    "id": "R02204",
+    "decision": "EXCLUDE",
+    "reason": "Hardware and optics for LLM training/inference; not security or OS.",
+    "evidence": "Optically Connected Multi-Stack HBM Modules for Large Language Model Training and Inference"
+  },
+  {
+    "id": "R02205",
+    "decision": "EXCLUDE",
+    "reason": "Physical-layer networking; no security or OS focus in title.",
+    "evidence": "Large Language Model Enabled Multi-Task Physical Layer Network"
+  },
+  {
+    "id": "R02206",
+    "decision": "EXCLUDE",
+    "reason": "Psychometric methods study; no security or OS target.",
+    "evidence": "Estimating Dimensional Structure in Generative Psychometrics"
+  },
+  {
+    "id": "R02207",
+    "decision": "EXCLUDE",
+    "reason": "Psychometric methods study; no security or OS target.",
+    "evidence": "Network Methods Outperform PCA in Recovering Dimensional Structure from Large Language Model Item Embeddings"
+  },
+  {
+    "id": "R02208",
+    "decision": "EXCLUDE",
+    "reason": "Citation screening performance study, not security or OS research.",
+    "evidence": "Performance of a Large Language Model in Screening Citations"
+  },
+  {
+    "id": "R02209",
+    "decision": "EXCLUDE",
+    "reason": "Wireless split-learning paper; no security or OS focus in title.",
+    "evidence": "SplitLLM: Hierarchical Split Learning for Large Language Model over Wireless Network"
+  },
+  {
+    "id": "R02210",
+    "decision": "EXCLUDE",
+    "reason": "Developer-community trend analysis; no security or OS task.",
+    "evidence": "Trend Analysis of Large Language Models through a Developer Community"
+  },
+  {
+    "id": "R02211",
+    "decision": "UNCLEAR",
+    "reason": "LLM intrusion detection may be security-relevant, but no abstract establishes an OS/privileged target or research design.",
+    "evidence": "Robust, efficient detection of network intrusion attacks: A large language model approach"
+  },
+  {
+    "id": "R02212",
+    "decision": "EXCLUDE",
+    "reason": "Cellular traffic prediction; no security task or OS target in title.",
+    "evidence": "Spatiotemporal graph enhanced large language model for cellular network traffic prediction"
+  },
+  {
+    "id": "R02213",
+    "decision": "EXCLUDE",
+    "reason": "TCP/IP protocol overview with no LLM or security research.",
+    "evidence": "The TCP/IP Protocol"
+  },
+  {
+    "id": "R02214",
+    "decision": "EXCLUDE",
+    "reason": "TCP/IP protocol overview with no LLM or security research.",
+    "evidence": "TCP/IP Protocol Suite"
+  },
+  {
+    "id": "R02215",
+    "decision": "EXCLUDE",
+    "reason": "Network-security perspective on TCP/IP but no LLM involvement.",
+    "evidence": "TCP/IP from Network Security Perspective"
+  },
+  {
+    "id": "R02216",
+    "decision": "EXCLUDE",
+    "reason": "TCP/IP concepts text; no LLM or security research.",
+    "evidence": "TCP/IP Clients, Servers, and Concepts"
+  },
+  {
+    "id": "R02217",
+    "decision": "EXCLUDE",
+    "reason": "Security architecture paper but no LLM involvement.",
+    "evidence": "Multi-Level Security Architecture for Edge Intelligent Devices with Modbus Tcp/Ip Communication Protocols"
+  },
+  {
+    "id": "R02218",
+    "decision": "EXCLUDE",
+    "reason": "General network-security precautions; no LLM or OS research.",
+    "evidence": "Basic Precautions for Network Security"
+  },
+  {
+    "id": "R02219",
+    "decision": "EXCLUDE",
+    "reason": "TCP/IP textbook overview; no LLM or security research.",
+    "evidence": "Paradigma TCP/IP"
+  },
+  {
+    "id": "R02220",
+    "decision": "EXCLUDE",
+    "reason": "IP configuration overview; no LLM or security research.",
+    "evidence": "IP Configuration Options"
+  },
+  {
+    "id": "R02221",
+    "decision": "EXCLUDE",
+    "reason": "Network-coding multicast protocol; no LLM or security outcome.",
+    "evidence": "NCDP MULTICAST NETWORK CODING PROTOCOL IN TCP/IP NETWORKS"
+  },
+  {
+    "id": "R02222",
+    "decision": "EXCLUDE",
+    "reason": "Python networking text; no LLM or security research.",
+    "evidence": "TCP/IP and UDP/IP for Python 3"
+  },
+  {
+    "id": "R02223",
+    "decision": "EXCLUDE",
+    "reason": "Multicasting text; no LLM or security research.",
+    "evidence": "Multicasting"
+  },
+  {
+    "id": "R02224",
+    "decision": "EXCLUDE",
+    "reason": "TCP exploit study but title indicates no LLM role.",
+    "evidence": "Off-Path TCP Exploits: PMTUD Breaks TCP Connection Isolation in IP Address Sharing Scenarios"
+  },
+  {
+    "id": "R02225",
+    "decision": "EXCLUDE",
+    "reason": "UDP/IP concepts text; no LLM or security research.",
+    "evidence": "UDP/IP Clients, Servers, and Concepts"
+  },
+  {
+    "id": "R02226",
+    "decision": "EXCLUDE",
+    "reason": "TCP/IP and cellular networking overview; no LLM or security task.",
+    "evidence": "TCP/IP and Cellular Networks of GSM"
+  },
+  {
+    "id": "R02227",
+    "decision": "EXCLUDE",
+    "reason": "TCP/IP and cellular networking overview; no LLM or security task.",
+    "evidence": "TCP/IP and Cellular Networks of GSM"
+  },
+  {
+    "id": "R02228",
+    "decision": "EXCLUDE",
+    "reason": "OT protocol security analysis; no LLM involvement.",
+    "evidence": "Exponential Backoff and its Security Implications for Safety-Critical OT Protocols over TCP/IP Networks"
+  },
+  {
+    "id": "R02229",
+    "decision": "EXCLUDE",
+    "reason": "Resource/book section; no LLM or security research.",
+    "evidence": "Solutions &amp; Resources"
+  },
+  {
+    "id": "R02230",
+    "decision": "EXCLUDE",
+    "reason": "Networking and IPC concepts; no LLM or security research.",
+    "evidence": "Networking &amp; IPC Concepts"
+  },
+  {
+    "id": "R02231",
+    "decision": "EXCLUDE",
+    "reason": "Subnetting security design but no LLM involvement.",
+    "evidence": "Enhancing Data Security Through VLSM Subnetting and TCP/IP Model in an ENT"
+  },
+  {
+    "id": "R02232",
+    "decision": "EXCLUDE",
+    "reason": "Networking text section; no LLM or security research.",
+    "evidence": "Testing, Timeouts &amp; Retries"
+  },
+  {
+    "id": "R02233",
+    "decision": "EXCLUDE",
+    "reason": "Python socket framework text; no LLM or security research.",
+    "evidence": "Python’s Socket Server Framework"
+  },
+  {
+    "id": "R02234",
+    "decision": "EXCLUDE",
+    "reason": "Datagram and port concepts; no LLM or security research.",
+    "evidence": "Datagrams, Streams &amp; Ports"
+  },
+  {
+    "id": "R02235",
+    "decision": "EXCLUDE",
+    "reason": "Internet protocol overview; no LLM or security research.",
+    "evidence": "Internet Masks &amp; Protocols"
+  },
+  {
+    "id": "R02236",
+    "decision": "EXCLUDE",
+    "reason": "Protocol/interface concepts; no LLM or security research.",
+    "evidence": "Protocols, Interfaces &amp; Custom Operations"
+  },
+  {
+    "id": "R02237",
+    "decision": "EXCLUDE",
+    "reason": "Service-handler concepts; no LLM or security research.",
+    "evidence": "Service Handlers &amp; Object Inspections"
+  },
+  {
+    "id": "R02238",
+    "decision": "EXCLUDE",
+    "reason": "Systematic literature review; surveys are excluded, and no LLM role.",
+    "evidence": "This paper presents a systematic literature review (SLR)"
+  },
+  {
+    "id": "R02239",
+    "decision": "EXCLUDE",
+    "reason": "Comprehensive survey of TCP/IP application-layer issues; no LLM role.",
+    "evidence": "A comprehensive survey"
+  },
+  {
+    "id": "R02240",
+    "decision": "EXCLUDE",
+    "reason": "TCP/IP text section; no LLM or security research.",
+    "evidence": "TCP/IP II"
+  }
+]

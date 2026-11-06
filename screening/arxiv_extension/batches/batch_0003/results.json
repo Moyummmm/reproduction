@@ -1,0 +1,242 @@
+[
+  {
+    "id": "arxiv:2408.01803",
+    "decision": "EXCLUDE",
+    "reason": "LLM compression and efficiency work with no security analysis or OS target.",
+    "evidence": "structural binarization method for LLM compression to less than 1-bit precision"
+  },
+  {
+    "id": "arxiv:2408.03515",
+    "decision": "EXCLUDE",
+    "reason": "Studies prompt-injection risks in LLM-integrated robots, not OS components or privileged interfaces.",
+    "evidence": "prompt injections on mobile robot performance in LLM-integrated systems"
+  },
+  {
+    "id": "arxiv:2408.04323",
+    "decision": "EXCLUDE",
+    "reason": "Optimizes LLM inference service performance, with no security task or OS component.",
+    "evidence": "automatic performance tuning system to optimize SLOs"
+  },
+  {
+    "id": "arxiv:2408.04870",
+    "decision": "EXCLUDE",
+    "reason": "Analyzes security vulnerabilities in RAG-based LLM systems, not operating-system targets.",
+    "evidence": "a class of security vulnerabilities of RAG systems that confuse Copilot"
+  },
+  {
+    "id": "arxiv:2408.05855",
+    "decision": "UNCLEAR",
+    "reason": "Uses an LLM for attack-graph security analysis, but the abstract does not specify OS components.",
+    "evidence": "automate the generation of attack graphs by intelligently chaining Common Vulnerabilities and Exposures"
+  },
+  {
+    "id": "arxiv:2408.09565",
+    "decision": "EXCLUDE",
+    "reason": "Grammatical error feedback evaluation, unrelated to security or OS components.",
+    "evidence": "implicit evaluation approach to GEF that eliminates the need for manual feedback annotations"
+  },
+  {
+    "id": "arxiv:2408.12806",
+    "decision": "UNCLEAR",
+    "reason": "Demonstrates LLM-generated cyberattacks on live systems, but OS-level targets are not explicit.",
+    "evidence": "testing these AI generated attacks on live systems"
+  },
+  {
+    "id": "arxiv:2408.13597",
+    "decision": "UNCLEAR",
+    "reason": "Applies LLMs to real-world vulnerability patching, but does not specify OS components.",
+    "evidence": "automated vulnerability patching using no test input/exploit evidence"
+  },
+  {
+    "id": "arxiv:2408.14045",
+    "decision": "EXCLUDE",
+    "reason": "IoT network intrusion prediction using LLMs, not analysis of OS components.",
+    "evidence": "network intrusion prediction framework that combines Large Language Models (LLMs) with Long Short Term Memory (LSTM) networks"
+  },
+  {
+    "id": "arxiv:2408.15172",
+    "decision": "EXCLUDE",
+    "reason": "Multimodal recommendation prompting with no security task or OS target.",
+    "evidence": "Cross-Reflection Prompting, termed X-Reflect"
+  },
+  {
+    "id": "arxiv:2408.15915",
+    "decision": "EXCLUDE",
+    "reason": "LLM expertise transfer and model selection, unrelated to security or OS.",
+    "evidence": "advancing task expertise of LLMs with open knowledge"
+  },
+  {
+    "id": "arxiv:2409.03375",
+    "decision": "EXCLUDE",
+    "reason": "Clinical prediction chatbot for mental deterioration, unrelated to security or OS.",
+    "evidence": "provide interpretable Machine Learning prediction of cognitive decline in real-time"
+  },
+  {
+    "id": "arxiv:2409.03789",
+    "decision": "UNCLEAR",
+    "reason": "LLM multi-agent penetration testing, but the abstract does not identify OS-level targets.",
+    "evidence": "identifying vulnerabilities, simulating a variety of cyberattacks, executing exploits"
+  },
+  {
+    "id": "arxiv:2409.04744",
+    "decision": "EXCLUDE",
+    "reason": "LLM-guided reinforcement-learning rewards, with no security analysis or OS target.",
+    "evidence": "Language Model Guided reward Tuning (LMGT)"
+  },
+  {
+    "id": "arxiv:2409.04822",
+    "decision": "EXCLUDE",
+    "reason": "Red-teaming the safety behavior of LLMs, not operating-system security.",
+    "evidence": "off-the-shelf LLMs in straightforward red-teaming approaches"
+  },
+  {
+    "id": "arxiv:2409.04992",
+    "decision": "EXCLUDE",
+    "reason": "Storage and attention offloading for LLM inference, with no security outcome.",
+    "evidence": "In-Storage Attention Offloading for Cost-Effective Long-Context LLM Inference"
+  },
+  {
+    "id": "arxiv:2409.07110",
+    "decision": "EXCLUDE",
+    "reason": "Research and education chatbot, unrelated to security or OS components.",
+    "evidence": "a versatile platform designed to enhance user interaction for educational and research purposes"
+  },
+  {
+    "id": "arxiv:2409.09253",
+    "decision": "EXCLUDE",
+    "reason": "Sequential recommendation with LLMs, unrelated to security or OS.",
+    "evidence": "LLM-based sequential RS which adopts dual dynamic index mechanism"
+  },
+  {
+    "id": "arxiv:2409.11690",
+    "decision": "EXCLUDE",
+    "reason": "Attacks and detection for ID-free recommender systems, not OS components.",
+    "evidence": "LLM-powered agents can be strategically deployed to attack ID-free recommenders"
+  },
+  {
+    "id": "arxiv:2409.13445",
+    "decision": "EXCLUDE",
+    "reason": "Search-and-rescue robot learning, with no security task or OS target.",
+    "evidence": "integrates social interaction via large language models (LLMs) with a hierarchical reinforcement learning (HRL) framework"
+  },
+  {
+    "id": "arxiv:2409.13793",
+    "decision": "EXCLUDE",
+    "reason": "AI-automated vishing social-engineering study, not OS component security.",
+    "evidence": "AI-powered vishing system developed using publicly available AI technology"
+  },
+  {
+    "id": "arxiv:2409.14177",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreak attack on LLM safety, not operating-system security.",
+    "evidence": "a novel black-box jailbreak method"
+  },
+  {
+    "id": "arxiv:2409.14285",
+    "decision": "EXCLUDE",
+    "reason": "AI-generated text detection robustness, unrelated to OS security.",
+    "evidence": "back-translation as a novel technique for evading detection"
+  },
+  {
+    "id": "arxiv:2409.14743",
+    "decision": "EXCLUDE",
+    "reason": "Fake speech dataset and detection robustness, not OS security.",
+    "evidence": "an LLM-Driven Fake Speech Dataset Simulating Disinformation Generation"
+  },
+  {
+    "id": "arxiv:2409.16176",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based cyber-threat knowledge mapping, but no OS component target is specified.",
+    "evidence": "enhance cyber-attack knowledge completion through improved reasoning, inference, and summarization capabilities"
+  },
+  {
+    "id": "arxiv:2409.16209",
+    "decision": "EXCLUDE",
+    "reason": "mmWave crowd detection with LLMs, unrelated to security or OS.",
+    "evidence": "harness the capabilities of large-language models (LLMs) to enhance crowd detection performance"
+  },
+  {
+    "id": "arxiv:2409.16388",
+    "decision": "EXCLUDE",
+    "reason": "GUI prototyping for requirements elicitation, unrelated to security or OS.",
+    "evidence": "Self-Elicitation of Requirements (SER) based on an automated GUI prototyping assistant"
+  },
+  {
+    "id": "arxiv:2409.16900",
+    "decision": "EXCLUDE",
+    "reason": "Conceptual roadmap for embodied LLM grounding, not security research.",
+    "evidence": "A Roadmap for Embodied and Social Grounding in LLMs"
+  },
+  {
+    "id": "arxiv:2409.18708",
+    "decision": "EXCLUDE",
+    "reason": "Attacks on toxicity detection systems, not OS components.",
+    "evidence": "adversarial attacks on toxicity detection models"
+  },
+  {
+    "id": "arxiv:2409.19454",
+    "decision": "EXCLUDE",
+    "reason": "Eye-gaze reading tracking with LLMs, unrelated to security or OS.",
+    "evidence": "leveraging the large language model's contextual perception capability in aiding reading tracking"
+  },
+  {
+    "id": "arxiv:2409.20002",
+    "decision": "EXCLUDE",
+    "reason": "Timing side channels in LLM serving infrastructure, not OS components.",
+    "evidence": "new timing side channels in LLM systems, arising from shared caches and GPU memory allocations"
+  },
+  {
+    "id": "arxiv:2410.01606",
+    "decision": "EXCLUDE",
+    "reason": "Red-teaming LLM safety behavior, not operating-system security.",
+    "evidence": "automated agentic red teaming system that simulates plain language adversarial conversations"
+  },
+  {
+    "id": "arxiv:2410.02958",
+    "decision": "EXCLUDE",
+    "reason": "Full-pipeline AutoML with LLM agents, with no security task or OS target.",
+    "evidence": "A Multi-Agent LLM Framework for Full-Pipeline AutoML"
+  },
+  {
+    "id": "arxiv:2410.03770",
+    "decision": "EXCLUDE",
+    "reason": "Clinical information collection dialogue, unrelated to security or OS.",
+    "evidence": "A Two-Stage Proactive Dialogue Generator for Efficient Clinical Information Collection"
+  },
+  {
+    "id": "arxiv:2410.04009",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor attack on LLM system prompts, not OS security.",
+    "evidence": "a novel backdoor attack that systematically bypasses these system prompts"
+  },
+  {
+    "id": "arxiv:2410.06153",
+    "decision": "EXCLUDE",
+    "reason": "LLM agent architecture search, unrelated to security or OS.",
+    "evidence": "Automatic LLM Agent Search in Modular Design Space"
+  },
+  {
+    "id": "arxiv:2410.10215",
+    "decision": "EXCLUDE",
+    "reason": "LLM-judgment aggregation, unrelated to security or OS.",
+    "evidence": "Reference-free LLM-Dependent Aggregation"
+  },
+  {
+    "id": "arxiv:2410.11272",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreak via long-context prompt injection, not OS security.",
+    "evidence": "Prompt Injection for Long Context"
+  },
+  {
+    "id": "arxiv:2410.11672",
+    "decision": "EXCLUDE",
+    "reason": "Benchmark validity analysis for LLMs, with no security task or OS target.",
+    "evidence": "Simple features predict LLM benchmark answers"
+  },
+  {
+    "id": "arxiv:2410.12154",
+    "decision": "EXCLUDE",
+    "reason": "Legal information retrieval with LLMs, unrelated to security or OS.",
+    "evidence": "Exploiting LLMs' Reasoning Capability to Infer Implicit Concepts in Legal Information Retrieval"
+  }
+]

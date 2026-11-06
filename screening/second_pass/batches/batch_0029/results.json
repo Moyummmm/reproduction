@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03635",
+    "decision": "EXCLUDE",
+    "reason": "LLM-driven MES configuration work; no security task or OS target.",
+    "evidence": "LLM-DRIVEN DIGITAL MANUFACTURING CONFIGURATION RECOMMENDATION"
+  },
+  {
+    "id": "R03646",
+    "decision": "EXCLUDE",
+    "reason": "LLM transport-network configuration management; no security task or OS target.",
+    "evidence": "LLM-centric Transport Network Configuration Management Framework and Demonstration"
+  },
+  {
+    "id": "R03652",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted middleware configuration translation; no security task or OS target.",
+    "evidence": "Migrating decades-old middleware estates to container platforms is dominated less by code change than by configuration translation"
+  },
+  {
+    "id": "R03669",
+    "decision": "EXCLUDE",
+    "reason": "LLM qualification of manufacturing seating evidence; not security or OS work.",
+    "evidence": "Auditable LLM-Assisted Qualification of Configuration-Sensitive Manufacturing Evidence for Commercial Seating Design"
+  },
+  {
+    "id": "R03674",
+    "decision": "EXCLUDE",
+    "reason": "LLM foreign-language learning study; no security task or OS target.",
+    "evidence": "foreign language learning"
+  },
+  {
+    "id": "R03677",
+    "decision": "UNCLEAR",
+    "reason": "LLM firewall audit is security work, but an OS-level target is not established.",
+    "evidence": "Firewall configuration auditing across enterprise environments remains manual and time-intensive."
+  },
+  {
+    "id": "R03688",
+    "decision": "EXCLUDE",
+    "reason": "Compact LLM story-point estimation; no security task or OS target.",
+    "evidence": "Story point estimation is widely used in agile software planning"
+  },
+  {
+    "id": "R03707",
+    "decision": "EXCLUDE",
+    "reason": "LLM-enhanced PSO for ECU configuration; no security task or OS target.",
+    "evidence": "Large Language Model (LLM) enhanced Particle Swarm Optimization (PSO) framework for ECU configuration"
+  },
+  {
+    "id": "R03714",
+    "decision": "UNCLEAR",
+    "reason": "LLM cybersecurity auditing is security work, but an OS-level privileged target is not established.",
+    "evidence": "A Comparative Study with a Privileged Access Control Case"
+  },
+  {
+    "id": "R03721",
+    "decision": "EXCLUDE",
+    "reason": "Survey of campus dining systems; no core security/OS research.",
+    "evidence": "A Survey of Real-Time Resource Allocation, LLM-Driven Menu Optimization, and Access Control Paradigms"
+  },
+  {
+    "id": "R03724",
+    "decision": "EXCLUDE",
+    "reason": "OS access-control verification but no LLM use.",
+    "evidence": "we focus on security in operating systems and exploit security contexts used in the Type Enforcement mechanism of the SELinux security module"
+  },
+  {
+    "id": "R03742",
+    "decision": "EXCLUDE",
+    "reason": "SMT-based authorization-code verification but no LLM use.",
+    "evidence": "We present a deterministic SMT-based static verification approach for authorization enforcement code."
+  },
+  {
+    "id": "R03743",
+    "decision": "EXCLUDE",
+    "reason": "Governed LLM enterprise data access; not OS security research.",
+    "evidence": "Governed LLM Interfaces for Enterprise Data Access: Chat-Based Querying with Policy Constraints"
+  },
+  {
+    "id": "R03749",
+    "decision": "EXCLUDE",
+    "reason": "LLM benchmarking for survey coding; no security or OS target.",
+    "evidence": "benchmarks eighteen LLMs across four access tiers"
+  },
+  {
+    "id": "R03787",
+    "decision": "EXCLUDE",
+    "reason": "Audit of LLM policy-simulation values; no security or OS target.",
+    "evidence": "This paper develops an audit framework for measuring value sensitivity in LLM-generated policy simulations."
+  },
+  {
+    "id": "R03788",
+    "decision": "EXCLUDE",
+    "reason": "Privacy profiling of LLM access architectures; not OS security research.",
+    "evidence": "privacy risk profile of 20 LLM access configurations"
+  },
+  {
+    "id": "R03790",
+    "decision": "EXCLUDE",
+    "reason": "LLM spectrum-access agent; not security or OS research.",
+    "evidence": "an LLM-driven large-scale spectrum-access agent"
+  },
+  {
+    "id": "R03796",
+    "decision": "EXCLUDE",
+    "reason": "LLM multi-agent access control; target is not an OS component.",
+    "evidence": "Multi-agent large language model (LLM) systems built on LangGraph-style frameworks share an unencrypted state store"
+  },
+  {
+    "id": "R03797",
+    "decision": "EXCLUDE",
+    "reason": "Audit of LLM policy-simulation values; no security or OS target.",
+    "evidence": "This paper develops an audit framework for measuring value sensitivity in LLM-generated policy simulations."
+  },
+  {
+    "id": "R03800",
+    "decision": "EXCLUDE",
+    "reason": "Review of LLM use in research and education; no security or OS target.",
+    "evidence": "This review surveys global and domestic trends in the application of LLMs within science and education"
+  },
+  {
+    "id": "R03803",
+    "decision": "EXCLUDE",
+    "reason": "LLM-guided Android app testing; target is applications, not OS components.",
+    "evidence": "dynamic application security testing (DAST) of Android applications"
+  },
+  {
+    "id": "R03807",
+    "decision": "EXCLUDE",
+    "reason": "Review of Android security; no LLM use.",
+    "evidence": "A Comprehensive Review of Malware Detection, App Permissions and Vulnerability Assessment in Android Security"
+  },
+  {
+    "id": "R03819",
+    "decision": "EXCLUDE",
+    "reason": "Deep-learning Android vulnerability detection; no LLM use.",
+    "evidence": "Enhancing Android Security Through Artificial Intelligence: A Hyperparameter-Tuned Deep Learning Approach for Robust Software Vulnerability Detection"
+  },
+  {
+    "id": "R03820",
+    "decision": "EXCLUDE",
+    "reason": "Android security-advisor application; no LLM use.",
+    "evidence": "SecuFone evaluates the security of the overall system and provides advisory (recommendation) to improve their security."
+  },
+  {
+    "id": "R03824",
+    "decision": "EXCLUDE",
+    "reason": "Deep-learning Android vulnerability detection; no LLM use.",
+    "evidence": "FORTIFYING ANDROID SECURITY: HYPERPARAMETER TUNED DEEP LEARNING APPROACH FOR ROBUST SOFTWARE VULNERABILITY DETECTION"
+  },
+  {
+    "id": "R03828",
+    "decision": "EXCLUDE",
+    "reason": "Security testing of LLM applications in cockpits; security of LLMs, not OS components.",
+    "evidence": "security vulnerabilities of LLM applications in intelligent cockpit scenarios"
+  },
+  {
+    "id": "R03831",
+    "decision": "EXCLUDE",
+    "reason": "ML Android malware detection; no LLM use.",
+    "evidence": "Level Up with ML Vulnerability Identification: Leveraging Domain Constraints in Feature Space for Robust Android Malware Detection"
+  },
+  {
+    "id": "R03832",
+    "decision": "EXCLUDE",
+    "reason": "Gemini Android chatbot development; no security or OS task.",
+    "evidence": "aplikasi chatbot yang dikembangkan berjalan pada platform Android"
+  },
+  {
+    "id": "R03840",
+    "decision": "EXCLUDE",
+    "reason": "Android home-security application; no LLM or OS security analysis.",
+    "evidence": "Android-based Home Security Application"
+  },
+  {
+    "id": "R03844",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-assisted Windows forensics analyzes OS artifacts, giving a security task and substantive LLM role.",
+    "evidence": "LLM-assisted Windows forensic investigation that integrates artifact collection through The Sleuth Kit, parsing of standard Windows forensic artifacts"
+  },
+  {
+    "id": "R03846",
+    "decision": "EXCLUDE",
+    "reason": "Unsupported-Windows risk study; no LLM use.",
+    "evidence": "an infamous Windows exploit called EternalBlue using Metasploit and an unpatched Windows 7 virtual machine"
+  },
+  {
+    "id": "R03848",
+    "decision": "EXCLUDE",
+    "reason": "Adaptive Markov control work; no LLM or security task.",
+    "evidence": "adaptive Markov controllers with internal memory"
+  },
+  {
+    "id": "R03852",
+    "decision": "EXCLUDE",
+    "reason": "Kernel UAF isolation work; no LLM use.",
+    "evidence": "We present a lifetime-aware isolation model that assigns temporal protection windows to kernel objects."
+  },
+  {
+    "id": "R03853",
+    "decision": "EXCLUDE",
+    "reason": "Unauthorized-Windows risk study; no LLM use.",
+    "evidence": "Security Risks and Feature Limitations Impact on Productivity in Unauthorized Windows Usage"
+  },
+  {
+    "id": "R03858",
+    "decision": "EXCLUDE",
+    "reason": "Kernel UAF isolation work; no LLM use.",
+    "evidence": "We present a lifetime-aware isolation model that assigns temporal protection windows to kernel objects."
+  },
+  {
+    "id": "R03864",
+    "decision": "EXCLUDE",
+    "reason": "Industrial fault detection work; no LLM or security task.",
+    "evidence": "Fault Detection of Nonlinear Industrial Processes Based on Multi-Scale Sliding Windows and Multi-Kernel Principal Component Analysis"
+  },
+  {
+    "id": "R03869",
+    "decision": "EXCLUDE",
+    "reason": "Windows forensic tool study; no LLM use.",
+    "evidence": "In this paper we will use different forensic tools to extract forensic evidence from a windows environment."
+  },
+  {
+    "id": "R03871",
+    "decision": "EXCLUDE",
+    "reason": "Windows security bypass testing; no LLM use.",
+    "evidence": "we have tested the Microsoft Windows Security system using MITRE CALDERA and ATT&CK frameworks"
+  },
+  {
+    "id": "R03872",
+    "decision": "EXCLUDE",
+    "reason": "Windows security bypass testing; no LLM use.",
+    "evidence": "we have tested the Microsoft Windows Security system using MITRE CALDERA and ATT&CK frameworks"
+  },
+  {
+    "id": "R03874",
+    "decision": "EXCLUDE",
+    "reason": "Windows security bypass testing; no LLM use.",
+    "evidence": "we have tested the Microsoft Windows Security system using MITRE CALDERA and ATT&CK frameworks"
+  }
+]

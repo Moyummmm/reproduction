@@ -1,0 +1,21 @@
+{
+  "input_records": 1168,
+  "total_batches": 30,
+  "batch_status": {
+    "complete": 30
+  },
+  "decisions": {
+    "EXCLUDE": 1026,
+    "UNCLEAR": 130,
+    "POSSIBLE_CORE": 12
+  },
+  "evidence_match": {
+    "exact": 1157,
+    "not_exact": 11
+  },
+  "year_scope": {
+    "outside_range": 1,
+    "in_range": 1167
+  },
+  "disclaimer": "Automated preliminary triage; all decisions require independent verification. A missing batch is not an exclusion."
+}

@@ -1,0 +1,10 @@
+{
+  "refresh_unique_arxiv_ids": 1100,
+  "status_counts": {
+    "new_identifier": 888,
+    "existing_arxiv_id": 208,
+    "existing_doi_only": 4
+  },
+  "new_records_with_abstract": 888,
+  "note": "Exact identifier matching only; unpublished/published versions with different identifiers may still duplicate prior records."
+}

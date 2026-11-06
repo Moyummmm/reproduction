@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R05001",
+    "decision": "EXCLUDE",
+    "reason": "LLM classifies immigration media narratives; no security or OS target.",
+    "evidence": "few-shot ChatGPT 4o model to classify articles"
+  },
+  {
+    "id": "R05002",
+    "decision": "EXCLUDE",
+    "reason": "LLM classifies immigration media narratives; no security or OS target.",
+    "evidence": "few-shot ChatGPT 4o model to classify articles"
+  },
+  {
+    "id": "R05003",
+    "decision": "EXCLUDE",
+    "reason": "LLM used for industrial product text classification; no security outcome.",
+    "evidence": "combines large language models (LLMs) with deep learning for text classification"
+  },
+  {
+    "id": "R05004",
+    "decision": "EXCLUDE",
+    "reason": "LLM classifies immigration media narratives; no security or OS target.",
+    "evidence": "few-shot ChatGPT 4o model to classify articles"
+  },
+  {
+    "id": "R05005",
+    "decision": "UNCLEAR",
+    "reason": "CVE classification is security-adjacent, but missing abstract leaves LLM role and OS scope unverified.",
+    "evidence": "Evaluation of Feature Engineering Techniques for Improving CVE Vulnerability Classification"
+  },
+  {
+    "id": "R05006",
+    "decision": "EXCLUDE",
+    "reason": "LLM ensembles for survey coding; no security or OS analysis.",
+    "evidence": "classify open-ended survey responses"
+  },
+  {
+    "id": "R05007",
+    "decision": "EXCLUDE",
+    "reason": "Generic text classification title with no security or OS indication.",
+    "evidence": "Text classification system based on LLM"
+  },
+  {
+    "id": "R05008",
+    "decision": "EXCLUDE",
+    "reason": "LLM ensembles for survey coding; no security or OS analysis.",
+    "evidence": "classify open-ended survey responses"
+  },
+  {
+    "id": "R05009",
+    "decision": "EXCLUDE",
+    "reason": "Customer review classification; no security or OS target.",
+    "evidence": "Comparative Analysis of Traditional and Llm-Based Approaches for Customer Review Classification"
+  },
+  {
+    "id": "R05010",
+    "decision": "EXCLUDE",
+    "reason": "LLM ensembles for survey coding; no security or OS analysis.",
+    "evidence": "classify open-ended survey responses"
+  },
+  {
+    "id": "R05011",
+    "decision": "EXCLUDE",
+    "reason": "Neural-network classification for medical patch testing; no LLM or security/OS focus.",
+    "evidence": "ISID0207 - Comparison of neural network classification models to determine patch test reactivity"
+  },
+  {
+    "id": "R05012",
+    "decision": "EXCLUDE",
+    "reason": "Generic LLM text-classification method; no security or OS evidence.",
+    "evidence": "Enhanced LLM Text Classification Method with Embedded Semantic Feature Encoding"
+  },
+  {
+    "id": "R05013",
+    "decision": "EXCLUDE",
+    "reason": "PHP vulnerability detection uses token/LSTM models, not an LLM, and targets web apps.",
+    "evidence": "deep learning model with enhanced tokens to effectively detect vulnerabilities"
+  },
+  {
+    "id": "R05014",
+    "decision": "UNCLEAR",
+    "reason": "Security-adjacent CVE triage title lacks abstract; LLM use and OS relevance unresolved.",
+    "evidence": "AI-Assisted Supply Chain Risk Triage for Python Dependencies via SBOM-Like Signals and CVE Text Classification"
+  },
+  {
+    "id": "R05015",
+    "decision": "UNCLEAR",
+    "reason": "Ambiguous title-only record; missing abstract prevents assessing LLM role, task, and OS scope.",
+    "evidence": "Keywords CVE 100"
+  },
+  {
+    "id": "R05016",
+    "decision": "EXCLUDE",
+    "reason": "Reasoning-effort study of political-interview classification; no security or OS analysis.",
+    "evidence": "subjective classification tasks"
+  },
+  {
+    "id": "R05017",
+    "decision": "EXCLUDE",
+    "reason": "Technical note synthesizing PHP advisories, not original LLM security research on OS components.",
+    "evidence": "synthesises the public advisories and vendor research"
+  },
+  {
+    "id": "R05018",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-refinement study for text classification; no security or OS target.",
+    "evidence": "Optimizing Prompt Refinement: Algorithmic Strategies for Llm-Driven Text Classification Tasks"
+  },
+  {
+    "id": "R05019",
+    "decision": "EXCLUDE",
+    "reason": "Failure taxonomy for LLM agents, not security analysis of OS components.",
+    "evidence": "failure taxonomies for LLM agents"
+  },
+  {
+    "id": "R05020",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based vulnerability-commit identification is security-relevant, but missing abstract leaves OS scope unclear.",
+    "evidence": "LLM-SZZ: Novel Vulnerability-Inducing Commit Identification Driven by Large Language Model and CVE Description"
+  },
+  {
+    "id": "R05021",
+    "decision": "EXCLUDE",
+    "reason": "Multiclass advertisement classification; no security or OS analysis.",
+    "evidence": "automatic assignment of advertisements to a certain category"
+  },
+  {
+    "id": "R05022",
+    "decision": "EXCLUDE",
+    "reason": "Crowdfunding success text classification; no security or OS target.",
+    "evidence": "How Language Concreteness Affect Crowdfunding Success: A Combination of LLM-Based Text Classification with Statistical Analysis"
+  },
+  {
+    "id": "R05023",
+    "decision": "EXCLUDE",
+    "reason": "Review of LLM test-error methods; software testing, not OS security.",
+    "evidence": "overview of methods for analyzing and classifying errors"
+  },
+  {
+    "id": "R05024",
+    "decision": "EXCLUDE",
+    "reason": "IoT vulnerability detection uses BiLSTM-Transformer, not an LLM, and targets IoT software.",
+    "evidence": "CVE-VulDetect: BiLSTM-Transformer Architecture with CVE-Centric Hybrid Labeling for Vulnerability Detection in IoT Software"
+  },
+  {
+    "id": "R05025",
+    "decision": "EXCLUDE",
+    "reason": "Carbon-aware prompt study for requirement classification; no security or OS target.",
+    "evidence": "Carbon Prompting: An Empirical Analysis of LLM-Based Requirement Classification"
+  },
+  {
+    "id": "R05026",
+    "decision": "EXCLUDE",
+    "reason": "Customer churn classification; no security or OS analysis.",
+    "evidence": "LLMChurn: LLM-Enhanced Spectral Graph Neural Network with Mathematical Regularization for Customer Churn Classification"
+  },
+  {
+    "id": "R05027",
+    "decision": "EXCLUDE",
+    "reason": "Patent-based innovation regime classification; no security or OS target.",
+    "evidence": "LLM-Augmented Innovation Regime Classification: A Hybrid Framework for Patentometric Foresight"
+  },
+  {
+    "id": "R05028",
+    "decision": "EXCLUDE",
+    "reason": "Termite image classification; no security or OS analysis.",
+    "evidence": "Termite Image Classification Using Zero-Shot Learning with Multimodal LLM, FLAVA"
+  },
+  {
+    "id": "R05029",
+    "decision": "EXCLUDE",
+    "reason": "Technical review of PHP flaws; reviews are excluded from core empirical research and no LLM OS analysis is shown.",
+    "evidence": "This review reconstructs the origin and timeline of the vulnerabilities"
+  },
+  {
+    "id": "R05030",
+    "decision": "EXCLUDE",
+    "reason": "Hierarchical text classification; no security or OS target.",
+    "evidence": "HTC-GEN: A Generative LLM-Based Approach to Handle Data Scarcity in Hierarchical Text Classification"
+  },
+  {
+    "id": "R05031",
+    "decision": "EXCLUDE",
+    "reason": "Query optimization for multi-LLM classification; no security or OS analysis.",
+    "evidence": "Non-Adaptive Query Optimization for Multi-LLM Classification: Hardness and Approximation"
+  },
+  {
+    "id": "R05032",
+    "decision": "EXCLUDE",
+    "reason": "Bot detection via image classification; no LLM security analysis of OS components.",
+    "evidence": "image classification to distinguish between human and automated accounts"
+  },
+  {
+    "id": "R05033",
+    "decision": "EXCLUDE",
+    "reason": "Therapeutic LLM liability and regulation; no security or OS target.",
+    "evidence": "The Duck Test and Its Discontents: Why Function-based Classification Cannot Close the Therapeutic LLM Liability Gap"
+  },
+  {
+    "id": "R05034",
+    "decision": "EXCLUDE",
+    "reason": "Zero-shot image classification; no security or OS analysis.",
+    "evidence": "LLM-Guided Hierarchical Learning for Zero-shot Image Classification"
+  },
+  {
+    "id": "R05035",
+    "decision": "EXCLUDE",
+    "reason": "Misinformation veracity classification; no OS security analysis.",
+    "evidence": "predict the veracity of content"
+  },
+  {
+    "id": "R05036",
+    "decision": "EXCLUDE",
+    "reason": "Few-shot image classification; no security or OS target.",
+    "evidence": "Class-Relevant Patch Embedding Selection for Few-Shot Image Classification"
+  },
+  {
+    "id": "R05037",
+    "decision": "EXCLUDE",
+    "reason": "Point-cloud classification; no security or OS analysis.",
+    "evidence": "PPT: A Point Patch Transformer for Point Cloud Classification"
+  },
+  {
+    "id": "R05038",
+    "decision": "EXCLUDE",
+    "reason": "Systematic literature review; reviews are excluded and no OS security analysis is evident.",
+    "evidence": "A Systematic Literature Review on LLM-Based Information Retrieval: The Issue of Contents Classification"
+  },
+  {
+    "id": "R05039",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial traffic-sign defense uses a GAN, not an LLM, and targets AV perception rather than OS components.",
+    "evidence": "GAN-based single-stage defense strategy for traffic sign classification"
+  },
+  {
+    "id": "R05040",
+    "decision": "EXCLUDE",
+    "reason": "LLM data augmentation for software task classification; no security or OS target.",
+    "evidence": "Leveraging Llm-Based Data Augmentation for Automatic Classification of Recurring Tasks in Software Development Projects"
+  }
+]

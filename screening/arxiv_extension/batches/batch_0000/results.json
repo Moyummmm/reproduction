@@ -1,0 +1,242 @@
+[
+  {
+    "id": "arxiv:1909.03745",
+    "decision": "EXCLUDE",
+    "reason": "Fact-checking on FEVER; no security or OS component.",
+    "evidence": "We evaluate our system on FEVER, a benchmark dataset for fact checking"
+  },
+  {
+    "id": "arxiv:2008.00036",
+    "decision": "EXCLUDE",
+    "reason": "Deepfake tweet detection; social media content, not OS security.",
+    "evidence": "deepfake social media messages detection systems"
+  },
+  {
+    "id": "arxiv:2110.00929",
+    "decision": "EXCLUDE",
+    "reason": "GPU training scheduling; no security or OS task.",
+    "evidence": "an effective scheduling technique for neural network training"
+  },
+  {
+    "id": "arxiv:2110.08633",
+    "decision": "EXCLUDE",
+    "reason": "Multi-model DL training system; no security or OS focus.",
+    "evidence": "a system designed to tackle such challenges by enabling out-of-the-box scaling for multi-large-model DL workloads"
+  },
+  {
+    "id": "arxiv:2208.06946",
+    "decision": "EXCLUDE",
+    "reason": "Honeyword generation for authentication databases; not an OS component or privileged interface.",
+    "evidence": "Honeywords are fictitious passwords inserted into databases in order to identify password breaches."
+  },
+  {
+    "id": "arxiv:2210.05075",
+    "decision": "EXCLUDE",
+    "reason": "Numerical reasoning in language models; no security or OS task.",
+    "evidence": "Numerical reasoning over natural language has been a long-standing goal"
+  },
+  {
+    "id": "arxiv:2211.15363",
+    "decision": "EXCLUDE",
+    "reason": "Vulnerability testing of Text-to-SQL database applications, not OS components.",
+    "evidence": "conducted vulnerability tests on Text-to-SQL systems that are commonly used to create natural language interfaces to databases"
+  },
+  {
+    "id": "arxiv:2302.12173",
+    "decision": "EXCLUDE",
+    "reason": "Indirect prompt injection against LLM-integrated applications; security of LLMs/apps, not OS.",
+    "evidence": "Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection"
+  },
+  {
+    "id": "arxiv:2302.14401",
+    "decision": "EXCLUDE",
+    "reason": "Knowledge-grounded dialogue generation; no security or OS task.",
+    "evidence": "a large-scale language model (LLM) with 10B parameters capable of knowledge-grounded conversation in Chinese"
+  },
+  {
+    "id": "arxiv:2303.16252",
+    "decision": "EXCLUDE",
+    "reason": "Zero-shot task-oriented dialog system; no security or OS task.",
+    "evidence": "a novel Zero-Shot generalizable end-to-end Task-oriented Dialog system"
+  },
+  {
+    "id": "arxiv:2304.00472",
+    "decision": "EXCLUDE",
+    "reason": "Querying LLMs with SQL; database systems, not security or OS.",
+    "evidence": "we present Galois, a prototype based on a traditional database architecture"
+  },
+  {
+    "id": "arxiv:2304.03946",
+    "decision": "EXCLUDE",
+    "reason": "Mixture-of-Experts training framework; no security or OS task.",
+    "evidence": "a novel DNN training framework, FlexMoE"
+  },
+  {
+    "id": "arxiv:2305.05920",
+    "decision": "EXCLUDE",
+    "reason": "LLM inference serving performance; no security or OS task.",
+    "evidence": "a distributed inference serving system for LLMs"
+  },
+  {
+    "id": "arxiv:2305.17118",
+    "decision": "EXCLUDE",
+    "reason": "KV cache compression for LLM inference; no security or OS task.",
+    "evidence": "a system that maintains the memory usage of the KV cache at a fixed budget"
+  },
+  {
+    "id": "arxiv:2305.17433",
+    "decision": "EXCLUDE",
+    "reason": "Multimodal dialogue response generation; no security or OS task.",
+    "evidence": "an end-to-end framework with the capability to extract necessary slot values from the utterance"
+  },
+  {
+    "id": "arxiv:2305.19713",
+    "decision": "EXCLUDE",
+    "reason": "Red teaming LLM-generated-text detectors; security of LLMs, not OS.",
+    "evidence": "we investigate the robustness and reliability of these LLM detectors under adversarial attacks"
+  },
+  {
+    "id": "arxiv:2306.01820",
+    "decision": "EXCLUDE",
+    "reason": "Concurrent error detection in ML systems; reliability, not OS security.",
+    "evidence": "a scheme to implement CED in ML systems using a concurrent ML classifier to detect errors"
+  },
+  {
+    "id": "arxiv:2307.02779",
+    "decision": "EXCLUDE",
+    "reason": "Autonomous edge AI vision; no security or OS task.",
+    "evidence": "a vision of autonomous edge AI systems"
+  },
+  {
+    "id": "arxiv:2307.04693",
+    "decision": "EXCLUDE",
+    "reason": "Code-view generation for ML4SE; general software engineering, not OS security.",
+    "evidence": "a framework that allows researchers and developers to create and combine multiple code-views"
+  },
+  {
+    "id": "arxiv:2308.00127",
+    "decision": "EXCLUDE",
+    "reason": "DNN partitioning and scheduling on heterogeneous hardware; no security or OS task.",
+    "evidence": "a general framework for heterogeneous DNN compilation, offering automatic partitioning and device mapping"
+  },
+  {
+    "id": "arxiv:2308.09183",
+    "decision": "EXCLUDE",
+    "reason": "LLM proxy for malware dissemination and C2; not OS-targeted analysis, testing, or repair.",
+    "evidence": "use an LLM as proxy between the attacker and the victim"
+  },
+  {
+    "id": "arxiv:2308.10443",
+    "decision": "EXCLUDE",
+    "reason": "LLM performance on CTF and certification questions; not OS-specific security analysis.",
+    "evidence": "we qualitatively study the LLMs' abilities in solving CTF challenges"
+  },
+  {
+    "id": "arxiv:2308.13963",
+    "decision": "EXCLUDE",
+    "reason": "Code clone benchmark generation; no security or OS task.",
+    "evidence": "a comprehensive semantic clone and cross-language clone benchmark"
+  },
+  {
+    "id": "arxiv:2308.14284",
+    "decision": "EXCLUDE",
+    "reason": "Traffic signal control sim-to-real; no security or OS task.",
+    "evidence": "Sim-to-Real Transfer for Traffic Signal Control with Prompt Learning"
+  },
+  {
+    "id": "arxiv:2309.05248",
+    "decision": "EXCLUDE",
+    "reason": "Speaker diarization with LLMs; no security or OS task.",
+    "evidence": "a novel approach to speaker diarization that incorporates the prowess of LLMs"
+  },
+  {
+    "id": "arxiv:2309.09836",
+    "decision": "EXCLUDE",
+    "reason": "Audio captioning; no security or OS task.",
+    "evidence": "a novel and effective audio captioning system"
+  },
+  {
+    "id": "arxiv:2309.15217",
+    "decision": "EXCLUDE",
+    "reason": "RAG evaluation framework; no security or OS task.",
+    "evidence": "a framework for reference-free evaluation of Retrieval Augmented Generation (RAG) pipelines"
+  },
+  {
+    "id": "arxiv:2309.15847",
+    "decision": "EXCLUDE",
+    "reason": "Disinformation detection; content security, not OS components.",
+    "evidence": "Disinformation Detection: An Evolving Challenge in the Age of LLMs"
+  },
+  {
+    "id": "arxiv:2310.03266",
+    "decision": "EXCLUDE",
+    "reason": "Tabular classification with LLMs; no security or OS task.",
+    "evidence": "building universal tabular data predictors based on generative modeling"
+  },
+  {
+    "id": "arxiv:2310.05674",
+    "decision": "EXCLUDE",
+    "reason": "Scalable meta-learning systems; no security or OS task.",
+    "evidence": "we focus on making scalable meta learning practical by introducing SAMA"
+  },
+  {
+    "id": "arxiv:2310.06257",
+    "decision": "EXCLUDE",
+    "reason": "Hardware RTL side-channel protection; not an OS component or privileged interface.",
+    "evidence": "a novel pre-silicon power side-channel analysis framework based on Graph Neural Networks (GNN)"
+  },
+  {
+    "id": "arxiv:2310.06846",
+    "decision": "EXCLUDE",
+    "reason": "LLMs as knowledge source for cognitive agents; no security or OS task.",
+    "evidence": "exploiting language models as a source of task knowledge for cognitive agents"
+  },
+  {
+    "id": "arxiv:2310.14304",
+    "decision": "EXCLUDE",
+    "reason": "Domain-agnostic recommendation with LLMs; no security or OS task.",
+    "evidence": "a framework that utilizes pre-trained large language models (LLMs) for domain-agnostic recommendation"
+  },
+  {
+    "id": "arxiv:2310.17157",
+    "decision": "EXCLUDE",
+    "reason": "Contextual sparsity for efficient LLM inference; no security or OS task.",
+    "evidence": "a system that uses a low-cost algorithm to predict contextual sparsity on the fly"
+  },
+  {
+    "id": "arxiv:2310.19181",
+    "decision": "EXCLUDE",
+    "reason": "Phishing generation and detection using commercial LLMs; not OS-targeted security.",
+    "evidence": "generate functional phishing attacks using a series of malicious prompts"
+  },
+  {
+    "id": "arxiv:2311.03184",
+    "decision": "EXCLUDE",
+    "reason": "Propaganda and disinformation detection; not OS security.",
+    "evidence": "Fine-Tuning Arabic Language Models for Propaganda and Disinformation Detection"
+  },
+  {
+    "id": "arxiv:2311.07164",
+    "decision": "EXCLUDE",
+    "reason": "Analogue AI hardware optimization; no security or OS task.",
+    "evidence": "software-hardware co-design using structural plasticity-inspired edge pruning"
+  },
+  {
+    "id": "arxiv:2311.10813",
+    "decision": "EXCLUDE",
+    "reason": "LLM agent for autonomous driving; no security or OS task.",
+    "evidence": "a fundamental paradigm shift from current pipelines, exploiting Large Language Models (LLMs) as a cognitive agent"
+  },
+  {
+    "id": "arxiv:2312.01339",
+    "decision": "EXCLUDE",
+    "reason": "Arabic crossword puzzle generation; no security or OS task.",
+    "evidence": "the first Arabic crossword puzzle generator driven by advanced AI technology"
+  },
+  {
+    "id": "arxiv:2312.01941",
+    "decision": "EXCLUDE",
+    "reason": "ML-based intrusion detection; LLM is not substantive and no OS component is targeted.",
+    "evidence": "an enhanced intrusion detection system (IDS) that utilizes machine learning (ML) and hyperparameter tuning"
+  }
+]

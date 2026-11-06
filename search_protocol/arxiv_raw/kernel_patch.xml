@@ -1,0 +1,1494 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/LTTbEE7g6rvQ+rbnUQGKWWleoKA</id>
+  <title>arXiv Query: search_query=(all:"large language model" OR all:LLM OR all:GPT) AND (all:kernel AND (all:patch OR all:backporting) )&amp;id_list=&amp;start=0&amp;max_results=100</title>
+  <updated>2026-11-05T05:39:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(all:%22large+language+model%22+OR+(all:LLM+OR+all:GPT))+AND+(all:kernel+AND+(all:patch+OR+all:backporting))&amp;start=0&amp;max_results=100&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>100</opensearch:itemsPerPage>
+  <opensearch:totalResults>46</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.22396v1</id>
+    <title>PortGPT: Towards Automated Backporting Using Large Language Models</title>
+    <updated>2025-10-25T18:46:04Z</updated>
+    <link href="https://arxiv.org/abs/2510.22396v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.22396v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Patch backporting, the process of migrating mainline security patches to older branches, is an essential task in maintaining popular open-source projects (e.g., Linux kernel). However, manual backporting can be labor-intensive, while existing automated methods, which heavily rely on predefined syntax or semantic rules, often lack agility for complex patches.
+  In this paper, we introduce PORTGPT, an LLM-agent for end-to-end automation of patch backporting in real-world scenarios. PORTGPT enhances an LLM with tools to access code on-demand, summarize Git history, and revise patches autonomously based on feedback (e.g., from compilers), hence, simulating human-like reasoning and verification. PORTGPT achieved an 89.15% success rate on existing datasets (1815 cases), and 62.33% on our own dataset of 146 complex cases, both outperforms state-of-the-art of backporting tools. We contributed 9 backported patches from PORTGPT to the Linux kernel community and all patches are now merged.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-25T18:46:04Z</published>
+    <arxiv:comment>Accepted by IEEE S&amp;P 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zhaoyang Li</name>
+    </author>
+    <author>
+      <name>Zheng Yu</name>
+    </author>
+    <author>
+      <name>Jingyi Song</name>
+    </author>
+    <author>
+      <name>Meng Xu</name>
+    </author>
+    <author>
+      <name>Yuxuan Luo</name>
+    </author>
+    <author>
+      <name>Dongliang Mu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.09474v4</id>
+    <title>MigGPT: Harnessing Large Language Models for Automated Migration of Out-of-Tree Linux Kernel Patches Across Versions</title>
+    <updated>2025-11-26T06:32:12Z</updated>
+    <link href="https://arxiv.org/abs/2504.09474v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.09474v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Out-of-tree kernel patches are essential for adapting the Linux kernel to new hardware or enabling specific functionalities. Maintaining and updating these patches across different kernel versions demands significant effort from experienced engineers. Large language models (LLMs) have shown remarkable progress across various domains, suggesting their potential for automating out-of-tree kernel patch migration. However, our findings reveal that LLMs, while promising, struggle with incomplete code context understanding and inaccurate migration point identification. In this work, we propose MigGPT, a framework that employs a novel code fingerprint structure to retain code snippet information and incorporates three meticulously designed modules to improve the migration accuracy and efficiency of out-of-tree kernel patches. Furthermore, we establish a robust benchmark using real-world out-of-tree kernel patch projects to evaluate LLM capabilities. Evaluations show that MigGPT significantly outperforms the direct application of vanilla LLMs, achieving an average completion rate of 74.07 for migration tasks.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-13T08:08:37Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Pucheng Dang</name>
+    </author>
+    <author>
+      <name>Di Huang</name>
+    </author>
+    <author>
+      <name>Dong Li</name>
+    </author>
+    <author>
+      <name>Kang Chen</name>
+    </author>
+    <author>
+      <name>Yuanbo Wen</name>
+    </author>
+    <author>
+      <name>Qi Guo</name>
+    </author>
+    <author>
+      <name>Xing Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.23889v3</id>
+    <title>SyzHarness: Patch-Based Kernel Bug Reproduction with LLM-Synthesized Fuzzing Harnesses</title>
+    <updated>2026-10-01T05:46:32Z</updated>
+    <link href="https://arxiv.org/abs/2609.23889v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.23889v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automated kernel vulnerability reproduction is essential for bug triage, patch validation, and regression testing, but still lacks an effective and efficient solution. The core challenge is twofold: a reproducer must first recover the trigger scaffold needed to reach the vulnerable state and determine the precise concrete values that actually trigger the bug. Existing directed fuzzing approaches are ineffective at recovering the necessary trigger scaffold, while LLM-only generation is brittle because it struggles with concrete-value discovery and runtime nondeterminism. We design SyzHarness, a framework that combines LLM reasoning with coverage-guided fuzzing for patch-based Linux kernel vulnerability reproduction. Given a patch, SyzHarness uses an LLM agent grounded by code navigation tools to synthesize a parameterized fuzzing harness that fixes the prerequisite setup logic while exposing only uncertain, bug-critical input parameters to be mutated by Syzkaller. SyzHarness then translates this harness into a Syzkaller compatible interface and iteratively refines it using hierarchical reachability feedback. We evaluate SyzHarness on multiple datasets of triggerable real-world Linux kernel vulnerabilities. On 100 KernelCTF cases, SyzHarness achieves a 78% bug reproduction success rate. On the SyzDirect benchmark, SyzHarness achieves a 73% bug reproduction success rate, substantially outperforming prior directed greybox fuzzing. On 50 recent, known-triggerable syzbot bugs fixed after March 2026, SyzHarness reproduces 40/50 (80%) using only the fix commits as input.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-20T21:50:36Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Xingyu Li</name>
+    </author>
+    <author>
+      <name>Juefei Pu</name>
+    </author>
+    <author>
+      <name>Haonan Li</name>
+    </author>
+    <author>
+      <name>Arrdya Srivastav</name>
+    </author>
+    <author>
+      <name>Kareem Shehada</name>
+    </author>
+    <author>
+      <name>Srikanth V. Krishnamurthy</name>
+    </author>
+    <author>
+      <name>Zhiyun Qian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07287v2</id>
+    <title>Patch-to-PoC: A Systematic Study of Agentic LLM Systems for Linux Kernel N-Day Reproduction</title>
+    <updated>2026-02-18T20:22:47Z</updated>
+    <link href="https://arxiv.org/abs/2602.07287v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07287v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous large language model (LLM) based systems have recently shown promising results across a range of cybersecurity tasks. However, there is no systematic study on their effectiveness in autonomously reproducing Linux kernel vulnerabilities with concrete proofs-of-concept (PoCs). Owing to the size, complexity, and low-level nature of the Linux kernel, such tasks are widely regarded as particularly challenging for current LLM-based approaches.
+  In this paper, we present the first large-scale study of LLM-based Linux kernel vulnerability reproduction. For this purpose, we develop K-Repro, an LLM-based agentic system equipped with controlled code-browsing, virtual machine management, interaction, and debugging capabilities. Using kernel security patches as input, K-Repro automates end-to-end bug reproduction of N-day vulnerabilities in the Linux kernel. On a dataset of 100 real-world exploitable Linux kernel vulnerabilities collected from KernelCTF, our results show that K-Repro can generate PoCs that reproduce over 50\% of the cases with practical time and monetary cost.
+  Beyond aggregate success rates, we perform an extensive study of effectiveness, efficiency, stability, and impact factors to explain when agentic reproduction succeeds, where it fails, and which components drive performance. These findings provide actionable guidance for building more reliable autonomous security agents and for assessing real-world N-day risk from both offensive and defensive perspectives.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-07T00:34:08Z</published>
+    <arxiv:comment>17 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Juefei Pu</name>
+    </author>
+    <author>
+      <name>Xingyu Li</name>
+    </author>
+    <author>
+      <name>Zhengchuan Liang</name>
+    </author>
+    <author>
+      <name>Jonathan Cox</name>
+    </author>
+    <author>
+      <name>Yifan Wu</name>
+    </author>
+    <author>
+      <name>Kareem Shehada</name>
+    </author>
+    <author>
+      <name>Arrdya Srivastav</name>
+    </author>
+    <author>
+      <name>Zhiyun Qian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.13728v1</id>
+    <title>TyPatch: Transforming Patches into Typestate Rules for Kernel Bug Detection</title>
+    <updated>2026-09-12T05:34:12Z</updated>
+    <link href="https://arxiv.org/abs/2609.13728v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.13728v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Historical Linux kernel patches capture defect knowledge that applies beyond their original repair sites. Recent work has shown that large language models (LLMs) can generate static-analysis checkers from historical patches and use them to uncover new kernel bugs. However, complete-checker generation requires the model both to recover the defect semantics expressed by a patch and to implement sophisticated program-analysis machinery, including object tracking, alias analysis, path-state maintenance, and interprocedural propagation. Coupling these responsibilities in a single end-to-end code-generation task can turn a simple defect rule into an unstable and expensive analyzer-implementation problem.
+  To address this problem, we present TyPatch, which decouples patch-specific defect semantics from analyzer implementation. An LLM translates each patch into a typestate rule specifying its tracked object, actions, guards, transitions, and violations. A shared backend then executes these rules, binding their actions to program events, tracking object identity across aliases, propagating typestate along program paths, and producing reports for all rules. On Linux v6.16, TyPatch finds 559 distinct bugs, 121 of which have been confirmed by kernel developers. In a matched 38-patch comparison with the state-of-the-art complete-checker construction workflow, TyPatch uses 88.3-90.1% fewer generation tokens, while its initial report pools achieve 3.42-14.95$\times$ the precision of those produced by that workflow.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-12T05:34:12Z</published>
+    <arxiv:comment>15 pages, 7 figures, 6 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Ruoyu Wang</name>
+    </author>
+    <author>
+      <name>Tuo Li</name>
+    </author>
+    <author>
+      <name>Jia Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.10756v1</id>
+    <title>VulnLLMEval: A Framework for Evaluating Large Language Models in Software Vulnerability Detection and Patching</title>
+    <updated>2024-09-16T22:00:20Z</updated>
+    <link href="https://arxiv.org/abs/2409.10756v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.10756v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have shown promise in tasks like code translation, prompting interest in their potential for automating software vulnerability detection (SVD) and patching (SVP). To further research in this area, establishing a benchmark is essential for evaluating the strengths and limitations of LLMs in these tasks. Despite their capabilities, questions remain regarding whether LLMs can accurately analyze complex vulnerabilities and generate appropriate patches. This paper introduces VulnLLMEval, a framework designed to assess the performance of LLMs in identifying and patching vulnerabilities in C code. Our study includes 307 real-world vulnerabilities extracted from the Linux kernel, creating a well-curated dataset that includes both vulnerable and patched code. This dataset, based on real-world code, provides a diverse and representative testbed for evaluating LLM performance in SVD and SVP tasks, offering a robust foundation for rigorous assessment. Our results reveal that LLMs often struggle with distinguishing between vulnerable and patched code. Furthermore, in SVP tasks, these models tend to oversimplify the code, producing solutions that may not be directly usable without further refinement.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-16T22:00:20Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Arastoo Zibaeirad</name>
+    </author>
+    <author>
+      <name>Marco Vieira</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02690v3</id>
+    <title>Outrunning LLM Cutoffs: A Live Kernel Crash Resolution Benchmark for All</title>
+    <updated>2026-06-17T01:08:37Z</updated>
+    <link href="https://arxiv.org/abs/2602.02690v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02690v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Repairing system crashes discovered by kernel fuzzers like Syzkaller is a critical yet underexplored challenge in software engineering. While recent works have introduced Large Language Model (LLM) based agents for Linux kernel crash-resolution, their evaluation benchmarks are usually static and thus, do not capture the evolving nature of the Linux kernel, and suffer from potential data contamination due to LLM knowledge cutoffs. To address the above problem, we present (i) Live-kBench, an evaluation framework for self-evolving benchmarks that continuously scrapes and evaluates agents on freshly discovered kernel bugs, and (ii) kEnv, an agent-agnostic standardized crash-resolution environment for kernel compilation, execution, and feedback. This design decouples agent workflows from heavy-weight execution, enabling fair and scalable comparison across diverse agent frameworks under identical conditions.
+  To this end, we curate an inaugural dataset of 534 Linux kernel bugs and empirically demonstrate a significant performance gap, with agents achieving up to 25% higher equivalent patch rate on bugs fixed before the LLM knowledge cutoff. Using kEnv, we benchmark three state-of-the-art agents, showing that they resolve 74% of crashes on the first attempt (plausible patches); however only ~20% of generated patches closely match developer fixes. Additionally, exposing crash resolution feedback improves crash resolution rate by 29%. Live-kBench provides the community with an evaluation infrastructure for self-evolving benchmarks that is both time and attribute sensitive; complete with a public dashboard to track agent progress on Linux kernel bugs.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T19:06:15Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Chenxi Huang</name>
+    </author>
+    <author>
+      <name>Alex Mathai</name>
+    </author>
+    <author>
+      <name>Feiyang Yu</name>
+    </author>
+    <author>
+      <name>Aleksandr Nogikh</name>
+    </author>
+    <author>
+      <name>Petros Maniatis</name>
+    </author>
+    <author>
+      <name>Franjo Ivančić</name>
+    </author>
+    <author>
+      <name>Eugene Wu</name>
+    </author>
+    <author>
+      <name>Kostis Kaffes</name>
+    </author>
+    <author>
+      <name>Junfeng Yang</name>
+    </author>
+    <author>
+      <name>Baishakhi Ray</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.02680v5</id>
+    <title>KGym: A Platform and Dataset to Benchmark Large Language Models on Linux Kernel Crash Resolution</title>
+    <updated>2024-11-12T01:39:07Z</updated>
+    <link href="https://arxiv.org/abs/2407.02680v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.02680v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are consistently improving at increasingly realistic software engineering (SE) tasks. In real-world software stacks, significant SE effort is spent developing foundational system software like the Linux kernel. Unlike application-level software, a systems codebase like Linux is multilingual (low-level C/Assembly/Bash/Rust); gigantic (&gt;20 million lines); critical (impacting billions of devices worldwide), and highly concurrent (involving complex multi-threading). To evaluate if ML models are useful while developing such large-scale systems-level software, we introduce kGym (a platform) and kBench (a dataset). The kGym platform provides a SE environment for large-scale experiments on the Linux kernel, including compiling and running kernels in parallel across several virtual machines, detecting operations and crashes, inspecting logs, and querying and patching the code base. We use kGym to facilitate evaluation on kBench, a crash resolution benchmark drawn from real-world Linux kernel bugs. An example bug in kBench contains crashing stack traces, a bug-reproducer file, a developer-written fix, and other associated data. To understand current performance, we conduct baseline experiments by prompting LLMs to resolve Linux kernel crashes. Our initial evaluations reveal that the best performing LLM achieves 0.72% and 5.38% in the unassisted and assisted (i.e., buggy files disclosed to the model) settings, respectively. These results highlight the need for further research to enhance model performance in SE tasks. Improving performance on kBench requires models to master new learning skills, including understanding the cause of crashes and repairing faults, writing memory-safe and hardware-aware code, and understanding concurrency. As a result, this work opens up multiple avenues of research at the intersection of machine learning and systems software.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-02T21:44:22Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Alex Mathai</name>
+    </author>
+    <author>
+      <name>Chenxi Huang</name>
+    </author>
+    <author>
+      <name>Petros Maniatis</name>
+    </author>
+    <author>
+      <name>Aleksandr Nogikh</name>
+    </author>
+    <author>
+      <name>Franjo Ivancic</name>
+    </author>
+    <author>
+      <name>Junfeng Yang</name>
+    </author>
+    <author>
+      <name>Baishakhi Ray</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.22796v2</id>
+    <title>What Do They Fix? LLM-Aided Categorization of Security Patches for Critical Memory Bugs</title>
+    <updated>2026-09-25T05:35:06Z</updated>
+    <link href="https://arxiv.org/abs/2509.22796v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.22796v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Open-source software projects are foundational to modern software ecosystems, with the Linux kernel standing out as a critical exemplar due to its ubiquity and complexity. Although security patches are continuously integrated into the Linux mainline kernel, downstream maintainers often delay their adoption, creating windows of vulnerability. A key reason for this lag is the difficulty in identifying security-critical patches, particularly those addressing exploitable vulnerabilities such as out-of-bounds (OOB) accesses and use-after-free (UAF) bugs. This challenge is exacerbated by intentionally silent bug fixes, incomplete or missing CVE assignments, delays in CVE issuance, and recent changes to the CVE assignment criteria for the Linux kernel. While fine-grained patch classification approaches exist, they exhibit limitations in both coverage and accuracy. In this work, we identify previously unexplored opportunities to significantly improve fine-grained patch classification. Specifically, by leveraging cues from commit titles/messages and diffs alongside appropriate code context, we develop DUALLM, a dual-method pipeline that integrates two approaches based on a Large Language Model (LLM) and a fine-tuned small language model. DUALLM achieves 87.4% accuracy and an F1-score of 0.875, significantly outperforming prior solutions. Notably, DUALLM successfully identified 111 of 5,140 recent Linux kernel patches as addressing OOB or UAF vulnerabilities, with 90 true positives confirmed by manual verification (many do not have clear indications in patch descriptions). Moreover, we constructed proof-of-concepts for two identified bugs (one UAF and one OOB), including one developed to conduct a previously unknown control-flow hijack as further evidence of the correctness of the classification.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-26T18:06:36Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <arxiv:journal_ref>Network and Distributed System Security (NDSS) Symposium 2026, pp. 1-18</arxiv:journal_ref>
+    <author>
+      <name>Xingyu Li</name>
+      <arxiv:affiliation>UC Riverside</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Juefei Pu</name>
+      <arxiv:affiliation>UC Riverside</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yifan Wu</name>
+      <arxiv:affiliation>UC Riverside</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xiaochen Zou</name>
+      <arxiv:affiliation>UC Riverside</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shitong Zhu</name>
+      <arxiv:affiliation>UC Riverside</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Qiushi Wu</name>
+      <arxiv:affiliation>UC Riverside</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Zheng Zhang</name>
+      <arxiv:affiliation>UC Riverside</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joshua Hsu</name>
+      <arxiv:affiliation>UC Riverside</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yue Dong</name>
+      <arxiv:affiliation>UC Riverside</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Zhiyun Qian</name>
+      <arxiv:affiliation>UC Riverside</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kangjie Lu</name>
+      <arxiv:affiliation>UC Riverside</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Trent Jaeger</name>
+      <arxiv:affiliation>UC Riverside</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michael De Lucia</name>
+      <arxiv:affiliation>UC Riverside</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Srikanth V. Krishnamurthy</name>
+      <arxiv:affiliation>UC Riverside</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.14722/ndss.2026.230328</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.14722/ndss.2026.230328" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.06480v1</id>
+    <title>Patch-Effect Graph Kernels for LLM Interpretability</title>
+    <updated>2026-05-07T16:03:47Z</updated>
+    <link href="https://arxiv.org/abs/2605.06480v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.06480v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mechanistic interpretability aims to reverse-engineer transformer computations by identifying causal circuits through activation patching. However, scaling these interventions across diverse prompts and task families produces high-dimensional, unstructured datasets that are difficult to compare systematically. We propose a framework that reframes mechanistic analysis as a graph machine-learning problem by representing activation-patching profiles as patch-effect graphs over model components. We introduce three graph-construction methods: direct-influence via causal mediation, partial-correlation, and co-influence and apply graph kernels to analyze the resulting structures. Evaluating this approach on GPT-2 Small using Indirect Object Identification (IOI) and related tasks, we find that patch-effect graphs preserve discriminative structural signals. Specifically, localized edge-slot features provide higher classification accuracy than global graph-shape descriptors. A screened paired-patching validation suggests that CI and PC selected candidate edges correspond to stronger activation-influence effects than random or low-rank candidates. Crucially, by evaluating these representations against rigorous prompt-only and raw patch-effect controls, we make the evidential scope of the benchmark explicit: graph features compress structured patching signal, while raw tensors and surface cues define strong baselines that any circuit-level claim should address. Ultimately, our framework provides a compression and evaluation pipeline for comparing patching-derived structures under controlled baselines, separating robust slice-discriminative evidence from stronger task-general causal-circuit claims.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-07T16:03:47Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ruben Fernandez-Boullon</name>
+    </author>
+    <author>
+      <name>David N. Olivieri</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.06583v1</id>
+    <title>PatchCon: Patch-aware Weighted Supervised Contrastive Learning for Vulnerability Detection</title>
+    <updated>2026-11-04T14:39:42Z</updated>
+    <link href="https://arxiv.org/abs/2611.06583v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.06583v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automated vulnerability detection is critical for securing modern software systems, yet existing learning-based approaches often treat functions as independent samples and underuse the supervision provided by vulnerability-fixing patches. In this paper, we propose PatchCon, a CodeBERT-based patch-aware contrastive learning model for function-level vulnerability detection. PatchCon jointly optimizes vulnerability classification and supervised contrastive learning, and treats vulnerable-patched function pairs as hard negatives with larger contrastive weights to capture subtle security-relevant differences introduced by fixes. To evaluate patch-level discrimination, we use two pairwise metrics that measure whether a model can correctly distinguish vulnerable functions from their patched counterparts. We evaluate PatchCon on PairVul-Linux through extensive experiments, including state-of-the-art comparisons, ablation studies, hyperparameter sensitivity analysis, and statistical significance testing. We also conduct fine-grained analyses by Common Weakness Enumeration (CWE) type, function length, and patch size, and further evaluate PatchCon on Linux kernel vulnerabilities disclosed after the training data cutoff. On PairVul-Linux, PatchCon outperforms representative pretrained code models and contrastive learning baselines on both classification and pairwise metrics, improves pairwise accuracy over the strongest reproduced baseline from 0.2060 to 0.3264, and achieves pairwise accuracy comparable to that of a GPT-4o-based large language model (LLM) method at a substantially lower cost. Among the reproduced models, PatchCon also achieves the highest pairwise accuracy on test pairs from Common Vulnerabilities and Exposures (CVE) entries unseen during training and on newly disclosed vulnerabilities.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-04T14:39:42Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Chaomeng Lu</name>
+    </author>
+    <author>
+      <name>Pooya Rostami Mazrae</name>
+    </author>
+    <author>
+      <name>Bert Lagaisse</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.18924v1</id>
+    <title>LLM-Driven Kernel Evolution: Automating Driver Updates in Linux</title>
+    <updated>2025-11-24T09:31:52Z</updated>
+    <link href="https://arxiv.org/abs/2511.18924v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.18924v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Linux kernel evolution breaks drivers through API/ABI changes, semantic shifts, and security-hardening updates. We introduce DRIVEBENCH, an executable corpus of kernel$\rightarrow$driver co-evolution cases, and AUTODRIVER, a closed-loop, LLM-driven system for automating driver maintenance. The system integrates prompt engineering, multi-agent collaboration, static analysis, and iterative validation to ensure that generated patches are not only syntactically correct but also functionally and semantically consistent with kernel conventions. The corpus spans v5.10-v6.10 with 235 validated cases drawn from 612 candidates. In evaluation across 55 cases, AUTODRIVER achieves 56.4% compilation success; QEMU-based boot verification indicates that compiled patches preserve driver initialization in most instances. By releasing DRIVEBENCH and tooling, we enable reproducible research and a practical route to continuous, safe co-evolution of drivers with the Linux kernel.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-24T09:31:52Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Arina Kharlamova</name>
+    </author>
+    <author>
+      <name>Jiawen Liu</name>
+    </author>
+    <author>
+      <name>Tianyi Zhang</name>
+    </author>
+    <author>
+      <name>Xinrui Yang</name>
+    </author>
+    <author>
+      <name>Humaid Alqasimi</name>
+    </author>
+    <author>
+      <name>Youcheng Sun</name>
+    </author>
+    <author>
+      <name>Chun Jason Xue</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.19159v4</id>
+    <title>Sliding-Window Merging for Compacting Patch-Redundant Layers in LLMs</title>
+    <updated>2025-12-04T08:33:28Z</updated>
+    <link href="https://arxiv.org/abs/2502.19159v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.19159v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Depth-wise pruning accelerates LLM inference in resource-constrained scenarios but suffers from performance degradation due to direct removal of entire Transformer layers. This paper reveals ``Patch-like'' redundancy across layers via correlation analysis of the outputs of different layers in reproducing kernel Hilbert space, demonstrating consecutive layers exhibit high functional similarity. Building on this observation, this paper proposes Sliding-Window Merging (SWM) - a dynamic compression method that selects consecutive layers from top to bottom using a pre-defined similarity threshold, and compacts patch-redundant layers through a parameter consolidation, thereby simplifying the model structure while maintaining its performance. Extensive experiments on LLMs with various architectures and different parameter scales show that our method outperforms existing pruning techniques in both zero-shot inference performance and retraining recovery quality after pruning. In particular, in the experiment with 35% pruning on the Vicuna-7B model, our method achieved a 1.654% improvement in average performance on zero-shot tasks compared to the existing method. Moreover, we further reveal the potential of combining depth pruning with width pruning to enhance the pruning effect. Our codes are available at https://github.com/920927/SLM-a-sliding-layer-merging-method.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-26T14:15:24Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xuan Ding</name>
+    </author>
+    <author>
+      <name>Rui Sun</name>
+    </author>
+    <author>
+      <name>Yunjian Zhang</name>
+    </author>
+    <author>
+      <name>Xiu Yan</name>
+    </author>
+    <author>
+      <name>Yueqi Zhou</name>
+    </author>
+    <author>
+      <name>Kaihao Huang</name>
+    </author>
+    <author>
+      <name>Suzhong Fu</name>
+    </author>
+    <author>
+      <name>Angelica I Aviles-Rivero</name>
+    </author>
+    <author>
+      <name>Chuanlong Xie</name>
+    </author>
+    <author>
+      <name>Yao Zhu</name>
+    </author>
+    <arxiv:doi>10.1609/aaai.v40i25.39222</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1609/aaai.v40i25.39222" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.04195v2</id>
+    <title>AutoPatch: Multi-Agent Framework for Patching Real-World CVE Vulnerabilities</title>
+    <updated>2025-11-28T11:15:57Z</updated>
+    <link href="https://arxiv.org/abs/2505.04195v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.04195v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have emerged as promising tools in software development, enabling automated code generation and analysis. However, their knowledge is limited to a fixed cutoff date, making them prone to generating code vulnerable to newly disclosed CVEs. Frequent fine-tuning with new CVE sets is costly, and existing LLM-based approaches focus on oversimplified CWE examples and require providing explicit bug locations to LLMs, limiting their ability to patch complex real-world vulnerabilities. To address these limitations, we propose AutoPatch, a multi-agent framework designed to patch vulnerable LLM-generated code, particularly those introduced after the LLMs' knowledge cutoff. AutoPatch integrates Retrieval-Augmented Generation (RAG) with a structured database of recently disclosed vulnerabilities, comprising 525 code snippets derived from 75 high-severity CVEs across real-world systems such as the Linux kernel and Chrome. AutoPatch combines semantic and taint analysis to identify the most relevant CVE and leverages enhanced Chain-of-Thought (CoT) reasoning to construct enriched prompts for verification and patching. Our unified similarity model, which selects the most relevant vulnerabilities, achieves 90.4 percent accuracy in CVE matching. AutoPatch attains 89.5 percent F1-score for vulnerability verification and 95.0 percent accuracy in patching, while being over 50x more cost-efficient than traditional fine-tuning approaches.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-07T07:49:05Z</published>
+    <arxiv:comment>19 pages, double column, 9 figures. Under submission</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Minjae Seo</name>
+    </author>
+    <author>
+      <name>Wonwoo Choi</name>
+    </author>
+    <author>
+      <name>Myoungsung You</name>
+    </author>
+    <author>
+      <name>Seungwon Shin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.24825v1</id>
+    <title>Learning From Developers: Towards Reliable Patch Validation at Scale for Linux</title>
+    <updated>2026-03-25T21:28:06Z</updated>
+    <link href="https://arxiv.org/abs/2603.24825v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.24825v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Patch reviewing is critical for software development, especially in distributed open-source development, which highly depends on voluntary work, such as Linux. This paper studies the past 10 years of patch reviews of the Linux memory management subsystem to characterize the challenges involved in patch reviewing at scale. Our study reveals that the review process is still primarily reliant on human effort despite a wide-range of automatic checking tools. Although kernel developers strive to review all patch proposals, they struggle to keep up with the increasing volume of submissions and depend significantly on a few developers for these reviews.
+  To help scale the patch review process, we introduce FLINT, a patch validation system framework that synthesizes insights from past discussions among developers and automatically analyzes patch proposals for compliance. FLINT employs a rule-based analysis informed by past discussions among developers and an LLM that does not require training or fine-tuning on new data, and can continuously improve with minimum human effort. FLINT uses a multi-stage approach to efficiently distill the essential information from past discussions. Later, when a patch proposal needs review, FLINT retrieves the relevant validation rules for validation and generates a reference-backed report that developers can easily interpret and validate. FLINT targets bugs that traditional tools find hard to detect, ranging from maintainability issues, e.g., design choices and naming conventions, to complex concurrency issues, e.g., deadlocks and data races. FLINT detected 2 new issues in Linux v6.18 development cycle and 7 issues in previous versions. FLINT achieves 21% and 14% of higher ground-truth coverage on concurrency bugs than the baseline with LLM only. Moreover, FLINT achieves a 35% false positive rate, which is lower than the baseline.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-25T21:28:06Z</published>
+    <arxiv:comment>Submitted to OSDI'26</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Chih-En Lin</name>
+    </author>
+    <author>
+      <name>Attreyee Mukherjee</name>
+    </author>
+    <author>
+      <name>Ajay Rawat</name>
+    </author>
+    <author>
+      <name>Ruqi Zhang</name>
+    </author>
+    <author>
+      <name>Pedro Fonseca</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.20412v3</id>
+    <title>kAgent: An execution-guided crash resolution agent for the Linux kernel</title>
+    <updated>2026-07-06T02:42:28Z</updated>
+    <link href="https://arxiv.org/abs/2504.20412v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.20412v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fuzzing frameworks like syzkaller have uncovered thousands of Linux kernel crashes, many of which are critical and security-sensitive. However, the ability to rapidly repair these crashes has not kept pace, particularly given the complexity and low-level nature of kernel code. Predominantly targeting user-space applications, existing LLM-based program repair techniques are not tailored to the unique challenges posed by kernel fuzz bugs-such as the absence of natural language bug reports, lack of exhaustive test oracles, and highly specialized crash artifacts. Thus, in this work, we first identify the prevalent bottlenecks that generic agents struggle with in complex systems such as the Linux kernel. Guided by these findings, we then build kAgent, a workflow-based agent inspired by how kernel developers diagnose and fix bugs, and kGym++, the co-designed toolstack supporting kAgent's requests. kAgent inspects relevant execution logs, generates execution-grounded natural language hypotheses, synthesizes candidate patches, validates patches through crash reproduction, and iteratively refines its reasoning. We ablate these agentic system features in kAgent and quantitatively analyze their contributions to the overall performance. We also report our experience on building agents for kernel crash repair. Although derived from this work on Linux, we note that our experience applies broadly to fuzzing-discovered bugs in complex systems software. We evaluate kAgent on kBenchSyz and show that it can repair up to 54.5% of crashes without localization and 65% with correct file hints. We also show kAgent's generalization on a few wild Syzkaller bugs, and how different patch types offer varying utility to developers who debug complex system software.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-29T04:18:51Z</published>
+    <arxiv:comment>Accepted to ICML, 2026; in the Deep Learning for Code Workshop. This paper was previously circulated as "CrashFixer"</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Alex Mathai</name>
+    </author>
+    <author>
+      <name>Chenxi Huang</name>
+    </author>
+    <author>
+      <name>Suwei Ma</name>
+    </author>
+    <author>
+      <name>Jihwan Kim</name>
+    </author>
+    <author>
+      <name>Hailie Mitchell</name>
+    </author>
+    <author>
+      <name>Aleksandr Nogikh</name>
+    </author>
+    <author>
+      <name>Petros Maniatis</name>
+    </author>
+    <author>
+      <name>Franjo Ivančić</name>
+    </author>
+    <author>
+      <name>Junfeng Yang</name>
+    </author>
+    <author>
+      <name>Baishakhi Ray</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.09002v3</id>
+    <title>KNighter: Transforming Static Analysis with LLM-Synthesized Checkers</title>
+    <updated>2025-09-03T21:48:29Z</updated>
+    <link href="https://arxiv.org/abs/2503.09002v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.09002v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Static analysis is a powerful technique for bug detection in critical systems like operating system kernels. However, designing and implementing static analyzers is challenging, time-consuming, and typically limited to predefined bug patterns. While large language models (LLMs) have shown promise for static analysis, directly applying them to scan large systems remains impractical due to computational constraints and contextual limitations.
+  We present KNighter, the first approach that unlocks scalable LLM-based static analysis by automatically synthesizing static analyzers from historical bug patterns. Rather than using LLMs to directly analyze massive systems, our key insight is leveraging LLMs to generate specialized static analyzers guided by historical patch knowledge. KNighter implements this vision through a multi-stage synthesis pipeline that validates checker correctness against original patches and employs an automated refinement process to iteratively reduce false positives. Our evaluation on the Linux kernel demonstrates that KNighter generates high-precision checkers capable of detecting diverse bug patterns overlooked by existing human-written analyzers. To date, KNighter-synthesized checkers have discovered 92 new, critical, long-latent bugs (average 4.3 years) in the Linux kernel; 77 are confirmed, 57 fixed, and 30 have been assigned CVE numbers. This work establishes an entirely new paradigm for scalable, reliable, and traceable LLM-based static analysis for real-world systems via checker synthesis.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-12T02:30:19Z</published>
+    <arxiv:comment>SOSP 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Chenyuan Yang</name>
+    </author>
+    <author>
+      <name>Zijie Zhao</name>
+    </author>
+    <author>
+      <name>Zichen Xie</name>
+    </author>
+    <author>
+      <name>Haoyu Li</name>
+    </author>
+    <author>
+      <name>Lingming Zhang</name>
+    </author>
+    <arxiv:doi>10.1145/3731569.3764827</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3731569.3764827" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.03971v1</id>
+    <title>An Executable Benchmark for LLM-Based HLS Repair:Design Complexity and Repair Underconstraint</title>
+    <updated>2026-10-02T19:28:05Z</updated>
+    <link href="https://arxiv.org/abs/2610.03971v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.03971v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automated repair of High-Level Synthesis (HLS) designs using large language models (LLMs) is an emerging but underexplored problem. While LLM-based repair shows strong results on register-transfer level (RTL) Verilog, the only prior systematic study of HLS logic repair reports just 10.5% correction accuracy for GPT-4, with no analysis of why repair fails or what drives difficulty. We present the first comprehensive evaluation of LLM-based HLS repair across four models (GPT-4o, GPT-4o-mini, GPT-5.4, and Claude Opus 4.6) on 125 benchmark instances spanning eight logic bug types across three open-source HLS suites (CHStone, MachSuite, Polybench). We construct the first executable APR-style HLS repair benchmark with suite-specific functional oracles, enabling pass@k evaluation rather than the string-match approximations used in prior work. Design context and scale, rather than bug type alone, dominate repair difficulty: repair rates range from 6-45% on complex cryptographic kernels (CHStone) to 81-93% on compact algorithmic kernels (MachSuite) despite identical bug type distributions. We introduce solution multiplicity, the fraction of distinct patches generated across repeated repair attempts, as an empirical measure of repair underconstraint, and show it strongly predicts repair failure across all four models (Spearman rho = -0.393, p = 6.61 x 10^-20). Frontier models reduce underconstrained instances from 41-46 (GPT-4o, GPT-4o-mini) to just 3 (Claude Opus 4.6), with pass@1 improving from 42-53% to 73-76%. SHFT bugs remain consistently hard across all models, and semantic bug classes such as buffer indexing become reliably repairable only at frontier scale. These findings show that future APR benchmarks must include complex, executable, and weakly identifiable designs that remain challenging after frontier LLM repair.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-02T19:28:05Z</published>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Maisha Mastora</name>
+    </author>
+    <author>
+      <name>Dean Sullivan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.21836v1</id>
+    <title>LLM4LLM: Bridging Kernel Benchmarks and Real Deployment via Closed-Loop Agentic Optimization</title>
+    <updated>2026-08-22T08:12:16Z</updated>
+    <link href="https://arxiv.org/abs/2608.21836v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.21836v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models have become increasingly capable agents for low-level code and kernel optimization, but isolated kernel benchmarks provide only a proxy for the deployment behavior that matters in language-model inference. We identify a benchmark-to-deployment gap: candidate kernels that appear correct and fast in standalone harnesses can exhibit different performance, safety, or phase behavior after integration into a real inference workload. We introduce LLM4LLM, a deployment-aware closed-loop optimization framework that starts from a target inference script, extracts phase-aware optimization tasks, searches with an experience-guided episodic agent, and accepts patches through in-model validation. Across ten language-model inference workloads on A100 and H100 GPUs, LLM4LLM improves end-to-end latency for every evaluated model, achieving 3.91$\times$/6.98$\times$ geometric-mean speedups on A100/H100; as supporting kernel-level evidence, it also attains up to 2.745$\times$ GeoMean speedup on KernelBench Level 2.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-22T08:12:16Z</published>
+    <arxiv:comment>accepted by EMNLP 2026 main conference</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Hui Zeng</name>
+    </author>
+    <author>
+      <name>Pengfei Yang</name>
+    </author>
+    <author>
+      <name>Yanxin Chen</name>
+    </author>
+    <author>
+      <name>Fusong Ju</name>
+    </author>
+    <author>
+      <name>Xinran Wei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.20711v1</id>
+    <title>AsmEvo: Agentic Assembly-Level Optimization of AMD GPU Kernels with Functional Equivalence Verification</title>
+    <updated>2026-08-21T03:34:22Z</updated>
+    <link href="https://arxiv.org/abs/2608.20711v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.20711v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>High-performance ML systems increasingly rely on GPU kernels whose editable source is unavailable, generated, or too distant from final machine code to expose remaining optimizations. Existing LLM kernel optimizers and autotuners mainly operate on CUDA, Triton, HIP, or tensor-program source and validate against reference implementations. We study a stricter setting: optimizing an already compiled AMDGPU code object, where the deployed binary is the only behavioral oracle.
+  We present AsmEvo, an agentic assembly-level optimizer for AMD GPU kernels. Given an AMDGPU code object K0, AsmEvo reconstructs a reassemblable representation, proposes low-level edits with a long-horizon agent, rebuilds an ABI-preserving optimized object, and accepts candidates only after differential verification against K0 under identical launches. AsmEvo combines code-object recovery, metadata-aware rebuilding, profiling-guided hot-window editing, correctness-gated timing, and conservative in-place patch fallback.
+  We conduct extensive experiments with AsmEvo on various AMD GPU kernels. On MI308X, AsmEvo improves 29 of 30 selected KernelBench kernels, reaching 1.35x geometric-mean and 3.88x maximum speedup. On MI300X production workloads, it improves all evaluated AITer binaries and vLLM/SGLang Triton assembly kernels, reaching 1.09x/1.31x and 1.18x/1.34x geometric-mean/maximum speedups, respectively, while preserving functional equivalence.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-21T03:34:22Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ji Liu</name>
+    </author>
+    <author>
+      <name>Puyuan Yang</name>
+    </author>
+    <author>
+      <name>Rongzhang Zheng</name>
+    </author>
+    <author>
+      <name>Fan Wang</name>
+    </author>
+    <author>
+      <name>Jinglin Wang</name>
+    </author>
+    <author>
+      <name>Muhammad A. Awad</name>
+    </author>
+    <author>
+      <name>Mortis Huang</name>
+    </author>
+    <author>
+      <name>Andy Chang</name>
+    </author>
+    <author>
+      <name>Zekai Li</name>
+    </author>
+    <author>
+      <name>Zeping Li</name>
+    </author>
+    <author>
+      <name>Zihao An</name>
+    </author>
+    <author>
+      <name>Yue Liu</name>
+    </author>
+    <author>
+      <name>Yuchen Yang</name>
+    </author>
+    <author>
+      <name>Jianghui Wang</name>
+    </author>
+    <author>
+      <name>Chushi Chen</name>
+    </author>
+    <author>
+      <name>Ziqiong Liu</name>
+    </author>
+    <author>
+      <name>Fuwei Yang</name>
+    </author>
+    <author>
+      <name>Dong Li</name>
+    </author>
+    <author>
+      <name>Wen Heng Chung</name>
+    </author>
+    <author>
+      <name>Shengcai Liu</name>
+    </author>
+    <author>
+      <name>Emad Barsoum</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.29313v2</id>
+    <title>PatchBoard: Schema-Grounded State Mutation for Reliable and Auditable LLM Multi-Agent Collaboration</title>
+    <updated>2026-09-23T07:32:33Z</updated>
+    <link href="https://arxiv.org/abs/2605.29313v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.29313v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM multi-agent systems often coordinate through natural-language dialogue or loosely structured shared memory, making intermediate state difficult to validate, attribute, and audit. We introduce PatchBoard, a schema-grounded collaboration architecture that replaces inter-agent dialogue with validated JSON Patch mutations over a shared structured state. An Architect agent constructs a task-specific schema and workflow rules, while a deterministic kernel validates each proposed state mutation against schema constraints, role-specific write contracts, and runtime invariants before committing it transactionally. On 630 matched ALFWorld episodes, PatchBoard achieves an 84.6% success rate, compared with 30.8% for LangGraph and 61.6% for Flock, while reducing tokens per successful task to 45.5k, compared with 368.3k and 64.2k, respectively.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-28T03:43:22Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shuyu Zhang</name>
+    </author>
+    <author>
+      <name>Yaqi Shi</name>
+    </author>
+    <author>
+      <name>Jiarui Zhang</name>
+    </author>
+    <author>
+      <name>Yanxiao Zhao</name>
+    </author>
+    <author>
+      <name>Lu Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.33586v1</id>
+    <title>Approximating Softmax in Pretrained LLMs: Model Sensitivity and Kernel Acceleration</title>
+    <updated>2026-09-27T14:03:42Z</updated>
+    <link href="https://arxiv.org/abs/2609.33586v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.33586v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>On NVIDIA Blackwell B200, tensor-core throughput outpaces special-function exponential throughput by more than two orders of magnitude, exposing exponential evaluation in fused attention kernels. A pretrained Transformer, however, may not need it evaluated accurately at every element. We characterize what a pretrained model does need by approximating softmax at inference in ten frozen decoder-only models (0.5B-72B). The number of positions the softmax map assigns probability to and within-row resolution can be cut substantially, yet uniform weighting of the same positions is damaging. Where a fixed resolution budget is placed matters as much as its size, with resolution near the row maximum consistently favored. Perturbations matched on scalar distortion produce model-dependent responses of opposite sign. These findings motivate Rowmax-PoT, a coarse logarithmic weight representation anchored at each row maximum, and Rowmax-H15, its hardware specialization in FlashAttention-4. On B200, the patched FP8 attention forward is 12.4% faster at causal 8K and 25.8% faster at non-causal 8K in host-side call-latency measurements; board energy per forward falls by 8.4% at causal 16K. Measured separately on the BF16 kernel path at 2K, Rowmax-H15 increases perplexity by 0.091-0.492% across five models from three families.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-27T14:03:42Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shangzhen Zhu</name>
+    </author>
+    <author>
+      <name>Muyan Hu</name>
+    </author>
+    <author>
+      <name>Tomasz Kozlowski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.03734v1</id>
+    <title>We Must Have Missed This Comment: Detecting and Repairing Stale Function References in Linux Kernel Comments</title>
+    <updated>2026-08-04T14:28:48Z</updated>
+    <link href="https://arxiv.org/abs/2608.03734v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.03734v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As the Linux kernel evolves, code comments may become outdated, as the functions they reference can be refactored or removed independently without corresponding updates to the comments. Such stale function references can mislead maintainers and thus hinder code comprehension. Prior work on detecting code-comment inconsistency mainly focused on addressing semantic misalignment between Javadoc comments and their directly annotated functions, making them inapplicable to this type of externally induced staleness in the Linux kernel. Therefore, we propose ReCite, a three-stage approach to identify and repair such stale references: (1) detecting unresolved function-form symbols -- symbols in comments that appear to reference functions but for which no matching function can be found in the current codebase, (2) tracing the evolution history of each unresolved symbol through the Git history, and (3) generating LLM-based repair suggestions grounded in the evolution history and current code context. On Linux kernel v6.18-rc1, ReCite detects 869 stale references with generated repair suggestions. A manual evaluation on 200 sampled repairs shows that 178 (89.0%) provide useful repair guidance, with 85 (42.5%) directly applicable. Of our 75 submitted patches, 50 have been accepted. We also empirically study all unresolved function-form symbols.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-04T14:28:48Z</published>
+    <arxiv:comment>Accepted at ASE 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Kexin Sun</name>
+    </author>
+    <author>
+      <name>Yunbo Lyu</name>
+    </author>
+    <author>
+      <name>Xutong Ma</name>
+    </author>
+    <author>
+      <name>Hongyu Kuang</name>
+    </author>
+    <author>
+      <name>Ratnadira Widyasari</name>
+    </author>
+    <author>
+      <name>He Zhang</name>
+    </author>
+    <author>
+      <name>Xiaoxing Ma</name>
+    </author>
+    <author>
+      <name>Julia Lawall</name>
+    </author>
+    <author>
+      <name>David Lo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01613v1</id>
+    <title>A Practical Tensor-Network Compression Pipeline for Production-Scale Large Language Models</title>
+    <updated>2026-02-02T04:03:39Z</updated>
+    <link href="https://arxiv.org/abs/2602.01613v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01613v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models are limited in deployment by GPU memory and inference latency. We present Minima, a production compression pipeline that learns where and how to structurally compress a Transformer and turns that compression into real serving gains. Minima trains a lightweight convolutional predictor to estimate layer- and patch-level sensitivity, applies a mixture of Tucker, tensor-train, and tensor-ring decompositions to low-sensitivity regions, performs a short healing fine-tune, and executes the resulting operators with custom Triton and CUDA kernels. The reduced memory footprint enables speculative decoding with a small draft model and a larger verifier. On Qwen3-32B at an 8k-token context window, Minima reduces peak VRAM from 64 GiB to 40 GiB. For a single active request, throughput increases from 40 tokens per second (baseline) to 50 tokens per second (Minima) and 75 tokens per second (Minima with speculative decoding). Under 50 parallel requests, throughput is 34, 44, and 53 tokens per second respectively, showing that Minima remains effective under high concurrency even when speculative decoding gains compress. We position Minima relative to recent tensor-network, low-rank plus quantization, and cross-layer sharing methods, and argue that it is a practical step toward more aggressive structural compression via shared tensor backbones with tiny per-layer adapters.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T04:03:39Z</published>
+    <arxiv:comment>13 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sergii Kozyrev</name>
+      <arxiv:affiliation>Minima AI, Inc.</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Davyd Maiboroda</name>
+      <arxiv:affiliation>Minima AI, Inc.</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.18652v2</id>
+    <title>From Craft to Kernel: A Governance-First Execution Architecture and Semantic ISA for Agentic Computers</title>
+    <updated>2026-05-18T11:38:04Z</updated>
+    <link href="https://arxiv.org/abs/2604.18652v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.18652v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The transition of agentic AI from brittle prototypes to production systems is stalled by a pervasive crisis of craft. We suggest that the prevailing orchestration paradigm-delegating the system control loop to large language models and merely patching with heuristic guardrails-is the root cause of this fragility. Instead, we propose Arbiter-K, a Governance-First execution architecture that reconceptualizes the underlying model as a Probabilistic Processing Unit encapsulated by a deterministic, neuro-symbolic kernel. Arbiter-K implements a Semantic Instruction Set Architecture (ISA) to reify probabilistic messages into discrete instructions. This allows the kernel to maintain a Security Context Registry and construct an Instruction Dependency Graph at runtime, enabling active taint propagation based on the data-flow pedigree of each reasoning node. By leveraging this mechanism, Arbiter-K precisely interdicts unsafe trajectories at deterministic sinks (e.g., high-risk tool calls or unauthorized network egress) and enables autonomous execution correction and architectural rollback when security policies are triggered. Evaluations on OpenClaw and NanoBot demonstrate that Arbiter-K enforces security as a microarchitectural property, achieving 76% to 95% unsafe interception for a 92.79% absolute gain over native policies. The code is publicly available at https://github.com/cure-lab/ArbiterOS.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-20T05:25:37Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Xiangyu Wen</name>
+    </author>
+    <author>
+      <name>Yuang Zhao</name>
+    </author>
+    <author>
+      <name>Xiaoyu Xu</name>
+    </author>
+    <author>
+      <name>Lingjun Chen</name>
+    </author>
+    <author>
+      <name>Changran Xu</name>
+    </author>
+    <author>
+      <name>Shu Chi</name>
+    </author>
+    <author>
+      <name>Jianrong Ding</name>
+    </author>
+    <author>
+      <name>Zeju Li</name>
+    </author>
+    <author>
+      <name>Haomin Li</name>
+    </author>
+    <author>
+      <name>Li Jiang</name>
+    </author>
+    <author>
+      <name>Fangxin Liu</name>
+    </author>
+    <author>
+      <name>Qiang Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.11147v3</id>
+    <title>Vul-RAG: Enhancing LLM-based Vulnerability Detection via Knowledge-level RAG</title>
+    <updated>2025-06-17T15:07:17Z</updated>
+    <link href="https://arxiv.org/abs/2406.11147v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.11147v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although LLMs have shown promising potential in vulnerability detection, this study reveals their limitations in distinguishing between vulnerable and similar-but-benign patched code (only 0.06 - 0.14 accuracy). It shows that LLMs struggle to capture the root causes of vulnerabilities during vulnerability detection. To address this challenge, we propose enhancing LLMs with multi-dimensional vulnerability knowledge distilled from historical vulnerabilities and fixes. We design a novel knowledge-level Retrieval-Augmented Generation framework Vul-RAG, which improves LLMs with an accuracy increase of 16% - 24% in identifying vulnerable and patched code. Additionally, vulnerability knowledge generated by Vul-RAG can further (1) serve as high-quality explanations to improve manual detection accuracy (from 60% to 77%), and (2) detect 10 previously-unknown bugs in the recent Linux kernel release with 6 assigned CVEs.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-17T02:25:45Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Xueying Du</name>
+    </author>
+    <author>
+      <name>Geng Zheng</name>
+    </author>
+    <author>
+      <name>Kaixin Wang</name>
+    </author>
+    <author>
+      <name>Yi Zou</name>
+    </author>
+    <author>
+      <name>Yujia Wang</name>
+    </author>
+    <author>
+      <name>Wentai Deng</name>
+    </author>
+    <author>
+      <name>Jiayi Feng</name>
+    </author>
+    <author>
+      <name>Mingwei Liu</name>
+    </author>
+    <author>
+      <name>Bihuan Chen</name>
+    </author>
+    <author>
+      <name>Xin Peng</name>
+    </author>
+    <author>
+      <name>Tao Ma</name>
+    </author>
+    <author>
+      <name>Yiling Lou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.22220v1</id>
+    <title>Measuring the Checker: Mutation Analysis for GPU-Kernel Benchmark Oracles</title>
+    <updated>2026-09-02T10:30:05Z</updated>
+    <link href="https://arxiv.org/abs/2609.22220v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.22220v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Benchmarks for LLM-generated GPU kernels decide correctness with a few random inputs and a loose floating-point tolerance, and their verdicts now feed leaderboards and reinforcement-learning rewards. Recent work agrees these checkers are weak and patches them by hand---extra input distributions, fuzzing recipes, tighter tolerances---with no way to \emph{measure} whether any patch suffices. We introduce mutation analysis as an adequacy metric for kernel-benchmark oracles: deterministic rules inject 10{,}303 compilable faults into verified CUDA implementations of 188 KernelBench problems, 7{,}384 of them with an independent kill witness; any test protocol is scored by the fraction it detects. The official check misses \textbf{one in six} witnessed faults (16.9%), deterministically, and the misses are skewed by family: 8.7% of arithmetic faults escape, but 78.6% of precision faults do. The metric explains why (a tolerance blind band growing with reduction size; a measured ceiling on input aggressiveness set by legitimate floating-point variance), audits the strongest existing patch (KernelBench-Verified's gain splits into $+4.0$ points from hidden inputs and $+4.5$ from tighter tolerance, a split its authors could not compute), and exposes a published fuzzing recipe that rejects \emph{correct} kernels 107 times. Optimizing suites over the kill matrix reaches 98.0% detection with two inputs per problem (94.8% held-out), and the measurement's fault taxonomy teaches a test generator more than the raw faults themselves. Across 48 whole architectures, the blindness grows with scale, concentrating in deep homogeneous pipelines, and two problems prove unrefereeable: their official references violate the benchmark's own tolerance against fp64. We release everything as \href{https://huggingface.co/datasets/Elfsong/KernelBench-M}{KernelBench-M}.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-02T10:30:05Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mingzhe Du</name>
+    </author>
+    <author>
+      <name>Anh Tuan Luu</name>
+    </author>
+    <author>
+      <name>Dong Huang</name>
+    </author>
+    <author>
+      <name>See-Kiong Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.06664v1</id>
+    <title>Foundry: Template-Based CUDA Graph Context Materialization for Fast LLM Serving Cold Start</title>
+    <updated>2026-04-08T04:31:34Z</updated>
+    <link href="https://arxiv.org/abs/2604.06664v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.06664v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern LLM service providers increasingly rely on autoscaling and parallelism reconfiguration to respond to rapidly changing workloads, but cold-start latency remains a major bottleneck. While recent systems have reduced model weight loading to seconds, CUDA graph capture still takes tens of seconds to minutes and often dominates startup. Unfortunately, CUDA graphs cannot be naively serialized: beyond graph topology, they are tightly coupled to execution context, including device addresses embedded in kernel arguments and kernel code lazily loaded during warmup. Existing approaches either rely on brittle kernel-specific patching or heavyweight process-level checkpoint/restore that are inflexible to dynamic parallelism switching. We present Foundry, a template-based CUDA graph context materialization system that persists both graph topology and execution context during an offline processing stage, and reconstructs executable graphs online with negligible overhead. Foundry enforces deterministic memory layouts, automatically extracts and reloads kernel binaries required by captured graphs, and reduces online reconstruction costs through topology-based templating. For distributed serving, Foundry further enables a single-GPU offline capture to generate templates for multi-GPU deployments by patching only rank-dependent communication state. Across dense and MoE models up to 235B parameters, Foundry reduces cold-start latency by up to 99%, cutting the initialization time of Qwen3-235B-A22B from 10 minutes to 3.9 seconds while preserving the throughput gains of CUDA graphs.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-08T04:31:34Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Xueshen Liu</name>
+    </author>
+    <author>
+      <name>Yongji Wu</name>
+    </author>
+    <author>
+      <name>Yuncheng Yao</name>
+    </author>
+    <author>
+      <name>Danyang Zhuo</name>
+    </author>
+    <author>
+      <name>Ion Stoica</name>
+    </author>
+    <author>
+      <name>Z. Morley Mao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.01357v1</id>
+    <title>ProofPatch: Reviewing Lean Statements and Keeping the Reviews Valid as Formalizations Evolve</title>
+    <updated>2026-10-31T23:55:48Z</updated>
+    <link href="https://arxiv.org/abs/2611.01357v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.01357v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The kernel of the Lean proof assistant checks that a proof establishes its statement. Whether the statement says what was intended is left to human reviewers. This is the old problem of validating a specification, and it grows more pressing as language models write formal statements in bulk and agents edit formal developments continuously. We present ProofPatch, a tool that helps reviewers judge Lean statements and keeps their judgments valid while the development changes. A reviewer can ask the kernel targeted questions about a statement, such as whether a hypothesis is needed or whether a counterexample exists. Each decision is stored with fingerprints of the statement as Lean elaborated it and of the definitions it depends on, and any declaration can be pinned so that a patch changing it is blocked, whether a person or an agent built on a large language model (LLM) wrote the patch. Working on elaborated terms rather than source text is the central design choice: notation and formatting changes leave a decision intact, and a changed definition reaches every theorem that uses it. On 229 pairs of consecutive revisions of Mathlib, Lean's mathematics library, ProofPatch sends 118 of 12,898 synthetic decisions back for review. Every text-based alternative misses at least 38 of these or sends back at least 13 times as many. On 1,527 labeled statements, kernel evidence flags unfaithful ones with precision 0.88 to 0.96, and in 344 runs of an LLM agent no change to a pinned statement got through.</summary>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-31T23:55:48Z</published>
+    <arxiv:comment>24 pages, 11 figures, 5 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LO"/>
+    <author>
+      <name>Xujun Che</name>
+    </author>
+    <author>
+      <name>Depeng Xu</name>
+    </author>
+    <author>
+      <name>Jian Xiang</name>
+    </author>
+    <author>
+      <name>Taufiqua Khan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.03322v2</id>
+    <title>How Perturbations Propagate: A Multi-Level Analysis of Robustness in Large Language Models</title>
+    <updated>2026-10-05T06:30:31Z</updated>
+    <link href="https://arxiv.org/abs/2609.03322v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.03322v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language models encounter typos, corrupted text, altered words, and disrupted token order, yet robustness is usually evaluated only through output behavior. We study how six naturalistic and synthetic input perturbations propagate through decoder-only language models at three levels: output behavior, hidden-state geometry, and attention-head function. We evaluate behavioral effects across four GPT-2 and two Qwen2.5 checkpoints, analyze layerwise geometry using centered kernel alignment and intrinsic dimension, and examine attention-head responses in GPT-2. Perturbation types produce distinguishable metric profiles that are not fully captured by output measures and are only partly consistent across the tested checkpoints. Copying scores show the strongest pooled associations with activation-patching recovery under token substitution and shuffling, although these associations do not isolate copying-specific effects. Gradient-guided HotFlip perturbations also cause stronger behavioral and representational disruption than rate-matched random token substitutions in GPT-2; their behavioral effects are consistent across all six tested checkpoints. Our results show that robustness claims based on a single behavioral or representational metric can be misleading, and motivate multi-level evaluation of how perturbations alter language-model computation.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-03T03:17:25Z</published>
+    <arxiv:comment>15 pages, 6 figures; Accepted at the NeurIPS 2026 InterpScience workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Dun Li Chan</name>
+    </author>
+    <author>
+      <name>Emily Liu</name>
+    </author>
+    <author>
+      <name>Niyathi Allu</name>
+    </author>
+    <author>
+      <name>Christian Hoang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.14036v1</id>
+    <title>One Bug, Hundreds Behind: LLMs for Large-Scale Bug Discovery</title>
+    <updated>2025-10-15T19:18:06Z</updated>
+    <link href="https://arxiv.org/abs/2510.14036v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.14036v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fixing bugs in large programs is a challenging task that demands substantial time and effort. Once a bug is found, it is reported to the project maintainers, who work with the reporter to fix it and eventually close the issue. However, across the program, there are often similar code segments, which may also contain the bug, but were missed during discovery. Finding and fixing each recurring bug instance individually is labor intensive. Even more concerning, bug reports can inadvertently widen the attack surface as they provide attackers with an exploitable pattern that may be unresolved in other parts of the program.
+  In this paper, we explore these Recurring Pattern Bugs (RPBs) that appear repeatedly across various code segments of a program or even in different programs, stemming from a same root cause, but are unresolved. Our investigation reveals that RPBs are widespread and can significantly compromise the security of software programs. This paper introduces BugStone, a program analysis system empowered by LLVM and a Large Language Model (LLM). The key observation is that many RPBs have one patched instance, which can be leveraged to identify a consistent error pattern, such as a specific API misuse. By examining the entire program for this pattern, it is possible to identify similar sections of code that may be vulnerable. Starting with 135 unique RPBs, BugStone identified more than 22K new potential issues in the Linux kernel. Manual analysis of 400 of these findings confirmed that 246 were valid. We also created a dataset from over 1.9K security bugs reported by 23 recent top-tier conference works. We manually annotate the dataset, identify 80 recurring patterns and 850 corresponding fixes. Even with a cost-efficient model choice, BugStone achieved 92.2% precision and 79.1% pairwise accuracy on the dataset.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-15T19:18:06Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Qiushi Wu</name>
+    </author>
+    <author>
+      <name>Yue Xiao</name>
+    </author>
+    <author>
+      <name>Dhilung Kirat</name>
+    </author>
+    <author>
+      <name>Kevin Eykholt</name>
+    </author>
+    <author>
+      <name>Jiyong Jang</name>
+    </author>
+    <author>
+      <name>Douglas Lee Schales</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.17289v2</id>
+    <title>LEAP: Learnable End-to-End Adaptive Pruning of Large Language Models</title>
+    <updated>2026-06-07T21:13:22Z</updated>
+    <link href="https://arxiv.org/abs/2605.17289v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.17289v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unstructured sparsity is now natively accelerated by recent GPU kernels and dataflow hardware, shifting the bottleneck from inference execution to the pruning algorithm. State-of-the-art methods for unstructured LLM pruning are layer-wise surrogates derived from the Optimal Brain Surgeon principle, and they sacrifice end-to-end accuracy, especially under aggressive sparsity. End-to-end alternatives such as MaskLLM and PATCH show that learnable masks can close this gap, but their categorical-over-patterns parameterization scales with the number of valid masks per row and does not port to the unstructured setting. We introduce LEAP, which replaces this intractable parameterization with a per-weight Bernoulli-via-Gumbel-sigmoid relaxation that makes end-to-end unstructured mask learning tractable. Across five LLM families from 0.5B to 8B parameters at 50% and 60% sparsity, LEAP improves six-task average zero-shot accuracy by +2.59 points on average over ADMM, the best layer-wise baseline in our sweep.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-17T07:01:13Z</published>
+    <arxiv:comment>Accepted at the ICML 2026 Workshop on Resource-Adaptive Foundation Model Inference (AdaptFM)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mohammad Mozaffari</name>
+    </author>
+    <author>
+      <name>Younes Hourri</name>
+    </author>
+    <author>
+      <name>Mohammad Rastegari</name>
+    </author>
+    <author>
+      <name>Mahyar Najibi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.20502v1</id>
+    <title>Calibration Without Comprehension: Diagnosing the Limits of Fine-Tuning LLMs for Vulnerability Detection in Systems Software</title>
+    <updated>2026-06-18T17:19:26Z</updated>
+    <link href="https://arxiv.org/abs/2606.20502v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.20502v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Whether LLMs scoring well on vulnerability benchmarks genuinely reason about security or merely pattern-match on contaminated data remains unresolved. We present CWE-Trace, a framework for LLM vulnerability detection built from 834 manually curated Linux kernel samples spanning 74 CWEs. The framework enforces a strict temporal split (pre-2025 historical set / post-cutoff leakage-free set), preserves context-aware vulnerable--patched pairs, and introduces two diagnostic metrics: the Directional Failure Index (DFI) and Hierarchical Distance and Direction (HDD). We evaluate eight vanilla LLMs and 15 LoRA fine-tuned variants across non-targeted detection, targeted detection, and CWE classification. Our analysis yields two key results. First, data contamination provides no measurable advantage. Function-level analysis shows that 84% of nominally contaminated samples carry no usable memorization signal: vulnerable functions are absent or cross-mapped across datasets, and ~31% of contaminated samples carry CWE misclassification. Second, backbone directional priors dominate fine-tuning. Models exhibit stable, systematic failure modes (DFI ranging from -85.5 to +94.8 pp) that persist from historical to post-cutoff data and resist correction. Fine-tuning shifts the output threshold without changing the decision policy. This is calibration without comprehension: output distributions adapt to training data while the underlying security reasoning remains absent. The weakest backbone at binary detection (DeepSeek-R1) gains the most in coarse CWE classification, revealing that detection and understanding are decoupled capabilities. The best detection score reaches only 52.1% (+2.1 pp above chance); exact CWE ranking remains below 1.3% Top-1 accuracy, confirming that current LLMs lack reliable security reasoning for systems software, regardless of fine-tuning strategy.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-18T17:19:26Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Arastoo Zibaeirad</name>
+    </author>
+    <author>
+      <name>Marco Vieira</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.23658v1</id>
+    <title>Elastic KV Cache for LLM Serving:A Working Reclamation Mechanism, and Why Chunked Prefill Already Closes the Gap</title>
+    <updated>2026-08-24T15:49:39Z</updated>
+    <link href="https://arxiv.org/abs/2608.23658v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.23658v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An LLM serving engine sizes its key-value (KV) cache once, at startup, permanently setting aside a reserve for the worst-case prefill activation. During decode-dominant phases that reserve sits idle, yet it cannot be handed to the KV pool because it is exactly the memory a large prefill needs. We ask whether this reserve is reclaimable, and build a mechanism to test it. Our elastic KV cache lends the reserve to the KV pool during decode and returns it before prefill, driven by the scheduler's one-step-ahead view of the next batch. It is pure userspace on the CUDA virtual-memory path: two physical handles mapped into one contiguous virtual range per layer, so the attention kernel is unchanged and no driver patch is required. It decommits in a few milliseconds and recommits in tens of milliseconds, works with CUDA graphs and prefix caching, and never triggers an out-of-memory event. A static commit of the same memory is unsafe, crashing on prefill bursts, which makes the dynamic toggle necessary.
+  Having built the mechanism, we test the premise it rests on and report an honest negative result. It only pays off if a small prefill chunk size badly hurts prefill latency. In a controlled experiment injecting long prompts into a live decode load, that penalty is small (median time-to-first-token differs by about 1% between chunk sizes of 8192 and 32768 tokens), because prefill is compute bound and decode consumes only about one token per sequence per step. Simply lowering max_num_batched_tokens recovers more KV than the controller does, at nearly equal latency. The reserve also dilutes under tensor parallelism, from 16% of KV at TP1 to 2.7% at TP4. We state precisely when reclaiming the reserve could still help, and release the mechanism as a reusable userspace elastic-VMM allocator.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-24T15:49:39Z</published>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Sathishkumar Sivashanmugam</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.12723v2</id>
+    <title>Bulkhead: Automated Semantic Detection and Remediation of Container Escape Vulnerabilities</title>
+    <updated>2026-10-10T03:41:04Z</updated>
+    <link href="https://arxiv.org/abs/2607.12723v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.12723v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Container filesystem isolation depends on safely resolving container-controlled paths during privileged host-container interactions. As third-party plugins and agent sandboxes introduce more interactions, unsafe path resolution can redirect host operations across isolation boundaries, expanding the attack surface for path traversal vulnerabilities. These logic flaws are difficult to mitigate: kernel defenses require intrusive redesign, static rules miss cross-boundary semantics, and manual auditing cannot scale. Large Language Model (LLM) based methods can detect syntax flaws through stable code patterns and identify logic flaws in domains such as smart contracts by comparing equivalent implementations. Container components, however, provide neither form of regularity: their heterogeneous interfaces operate under trust boundaries, filesystem views and interaction orders, making the security invariant difficult to find.
+  We present Bulkhead, an automated framework for detection and remediation. Bulkhead summarizes historical CVEs into structured semantic patterns, correlates documentation with entry and effect side code evidence, and recovers source-to-sink execution contexts. Grounded patterns guide LLM reasoning, while isolated Proof-of-Concept (PoC) execution validates findings. For remediation, Bulkhead generates repository-specific patches, checks that they build, and iteratively verifies path safety and functionality using pattern derived model checking templates and counterexamples before runtime validation. Across container repositories, Bulkhead discovered 20 zero-day vulnerabilities, accounting for 43% of the total number discovered over the past decade. Among them, 3 have been assigned CVEs and the verified patch suggestions have been submitted to the upstream.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-14T12:52:56Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Qiyuan Fan</name>
+    </author>
+    <author>
+      <name>Zhi Li</name>
+    </author>
+    <author>
+      <name>Junjie Li</name>
+    </author>
+    <author>
+      <name>XiaoFeng Wang</name>
+    </author>
+    <author>
+      <name>Bin Yuan</name>
+    </author>
+    <author>
+      <name>Deqing Zou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02047v1</id>
+    <title>Dissecting Outlier Dynamics in LLM NVFP4 Pretraining</title>
+    <updated>2026-02-02T12:50:27Z</updated>
+    <link href="https://arxiv.org/abs/2602.02047v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02047v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training large language models using 4-bit arithmetic enhances throughput and memory efficiency. Yet, the limited dynamic range of FP4 increases sensitivity to outliers. While NVFP4 mitigates quantization error via hierarchical microscaling, a persistent loss gap remains compared to BF16. This study conducts a longitudinal analysis of outlier dynamics across architecture during NVFP4 pretraining, focusing on where they localize, why they occur, and how they evolve temporally. We find that, compared with Softmax Attention (SA), Linear Attention (LA) reduces per-tensor heavy tails but still exhibits persistent block-level spikes under block quantization. Our analysis attributes outliers to specific architectural components: Softmax in SA, gating in LA, and SwiGLU in FFN, with "post-QK" operations exhibiting higher sensitivity to quantization. Notably, outliers evolve from transient spikes early in training to a small set of persistent hot channels (i.e., channels with persistently large magnitudes) in later stages. Based on these findings, we introduce Hot-Channel Patch (HCP), an online compensation mechanism that identifies hot channels and reinjects residuals using hardware-efficient kernels. We then develop CHON, an NVFP4 training recipe integrating HCP with post-QK operation protection. On GLA-1.3B model trained for 60B tokens, CHON reduces the loss gap to BF16 from 0.94% to 0.58% while maintaining downstream accuracy.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T12:50:27Z</published>
+    <arxiv:comment>39 pages, 32 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Peijie Dong</name>
+    </author>
+    <author>
+      <name>Ruibo Fan</name>
+    </author>
+    <author>
+      <name>Yuechen Tao</name>
+    </author>
+    <author>
+      <name>Di Mou</name>
+    </author>
+    <author>
+      <name>Wenhu Hu</name>
+    </author>
+    <author>
+      <name>Zhenheng Tang</name>
+    </author>
+    <author>
+      <name>Yinghao Yu</name>
+    </author>
+    <author>
+      <name>Jiamang Wang</name>
+    </author>
+    <author>
+      <name>Wenbo Su</name>
+    </author>
+    <author>
+      <name>Guodong Yang</name>
+    </author>
+    <author>
+      <name>Liping Zhang</name>
+    </author>
+    <author>
+      <name>Xiaowen Chu</name>
+    </author>
+    <author>
+      <name>Baochun Li</name>
+    </author>
+    <author>
+      <name>Bo Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.11060v2</id>
+    <title>Code Researcher: Deep Research Agent for Large Systems Code and Commit History</title>
+    <updated>2026-05-20T15:03:52Z</updated>
+    <link href="https://arxiv.org/abs/2506.11060v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.11060v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM)-based coding agents have shown promising results on coding benchmarks, but their effectiveness on systems code remains underexplored. Due to the size and complexities of systems code, making changes to a systems codebase requires researching about many pieces of context, derived from the large codebase and its massive commit history, before making changes. Inspired by the recent progress on deep research agents, we design the first deep research agent for code, called Code Researcher, and apply it to the problem of generating patches to mitigate crashes reported in systems code. Code Researcher performs multi-step reasoning about semantics, patterns, and commit history of code to retrieve all relevant context from the codebase and its commit history. We evaluate Code Researcher on kBenchSyz, a benchmark of Linux kernel crashes, and show that it significantly outperforms strong baselines, achieving a crash-resolution rate (CRR) of 48%, compared to 31.5% by SWE-agent and 31% by Agentless, using OpenAI's GPT-4o model. Scaling up sampling budget to 10 trajectories increases Code Researcher's CRR to 54%. Code Researcher is also robust to model choices, reaching 67% with the newer Gemini 2.5-Flash model. Through another experiment on an open-source multimedia software, we show the generalizability of Code Researcher and also conduct ablations. Our experiments highlight the importance of global context gathering and multi-faceted reasoning for large codebases.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-27T04:57:00Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Ramneet Singh</name>
+    </author>
+    <author>
+      <name>Sathvik Joel</name>
+    </author>
+    <author>
+      <name>Abhav Mehrotra</name>
+    </author>
+    <author>
+      <name>Nalin Wadhwa</name>
+    </author>
+    <author>
+      <name>Ramakrishna B Bairi</name>
+    </author>
+    <author>
+      <name>Aditya Kanade</name>
+    </author>
+    <author>
+      <name>Nagarajan Natarajan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.00505v3</id>
+    <title>LLaVA-SP: Enhancing Visual Representation with Visual Spatial Tokens for MLLMs</title>
+    <updated>2025-07-04T13:15:34Z</updated>
+    <link href="https://arxiv.org/abs/2507.00505v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.00505v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The architecture of multimodal large language models (MLLMs) commonly connects a vision encoder, often based on CLIP-ViT, to a large language model. While CLIP-ViT works well for capturing global image features, it struggles to model local relationships between adjacent patches, leading to weaker visual representation, which in turn affects the detailed understanding ability of MLLMs. To solve this, we propose LLaVA-SP, which only adds six spatial visual tokens to the original visual tokens to enhance the visual representation. Our approach offers three key advantages: 1) We propose a novel Projector, which uses convolutional kernels to derive visual spatial tokens from ViT patch features, simulating two visual spatial ordering approaches: "from central region to global" and "from abstract to specific". Then, a cross-attention mechanism is applied to fuse fine-grained visual information, enriching the overall visual representation. 2) We present two model variants: LLaVA-SP-Cropping, which focuses on detail features through progressive cropping, and LLaVA-SP-Pooling, which captures global semantics through adaptive pooling, enabling the model to handle diverse visual understanding tasks. 3) Extensive experiments show that LLaVA-SP, fine-tuned with LoRA, achieves significant performance improvements across various multimodal benchmarks, outperforming the state-of-the-art LLaVA-1.5 model in multiple tasks with nearly identical inference latency. The code and models are available at https://github.com/CnFaker/LLaVA-SP.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-01T07:20:11Z</published>
+    <arxiv:comment>Accepted to ICCV 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Haoran Lou</name>
+    </author>
+    <author>
+      <name>Chunxiao Fan</name>
+    </author>
+    <author>
+      <name>Ziyan Liu</name>
+    </author>
+    <author>
+      <name>Yuexin Wu</name>
+    </author>
+    <author>
+      <name>Xinliang Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.12875v3</id>
+    <title>Automatic Model-Hardware Co-Adaptation for Heterogeneous AI Accelerators</title>
+    <updated>2026-09-01T14:02:28Z</updated>
+    <link href="https://arxiv.org/abs/2607.12875v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.12875v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models now evolve faster than production inference systems can be ported and optimized. New releases change attention, MoE routing, quantization formats, KV-cache layout, and parallel execution patterns, while deployed accelerator fleets remain heterogeneous across hardware generations, framework forks, operator libraries, compiler backends, and communication runtimes. Serving a new model on existing hardware is therefore a model-framework-kernel-hardware co-adaptation problem.
+  We present MetaInfer, an LLM-agent system that formulates inference adaptation as route search over a costed execution-adaptation graph. The graph connects model semantics, framework dispatch, kernel choices, hardware capabilities, runtime evidence, and serving objectives. MetaInfer constructs and updates this graph during execution, restores missing or blocked routes through patches, and reduces route cost through staged validation and end-to-end profiling. Three real episodes -- DeepSeek V4 Flash on NVIDIA A800, GLM 5.3 Flash on NVIDIA A800, and DeepSeek V4 Flash on Hygon K100AI DCU -- demonstrate deployment repair, cross-model knowledge transfer, and portability across heterogeneous accelerator software stacks.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-14T15:22:48Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Tian Chen</name>
+    </author>
+    <author>
+      <name>Mingheng Mi</name>
+    </author>
+    <author>
+      <name>Pu Wang</name>
+    </author>
+    <author>
+      <name>Chen Hu</name>
+    </author>
+    <author>
+      <name>Hai Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.06713v1</id>
+    <title>Agentic AI and the Industrialization of Cyber Offense: Forecast, Consequences, and Defensive Priorities for Enterprises and the Mittelstand</title>
+    <updated>2026-05-06T23:23:26Z</updated>
+    <link href="https://arxiv.org/abs/2605.06713v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.06713v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agentic AI systems can plan, call tools, inspect code, interact with web applications, and coordinate multi-step workflows. These same capabilities change the economics of cyber offense. The central near-term risk is not that every low-skill criminal immediately becomes a frontier exploit researcher; it is that agentic AI compresses the attack lifecycle by lowering the cost of reconnaissance, phishing, credential abuse, vulnerability triage, exploit adaptation, and post-compromise decision support. This paper synthesizes current public evidence from national cybersecurity agencies, industry threat reports, agent security guidance, and research on LLM agents cyber capabilities. It introduces a Three Channel Agentic Cyber Risk Model and an Agentic Attack Compression Model, uses the 2026 Linux kernel Copy Fail incident as a case study for foothold-to-root acceleration, and develops a 2026 to 2028 forecast for large enterprises and the German and European Mittelstand. The paper concludes with a prioritized defense roadmap. Organizations should treat agentic AI security as an immediate operational problem: identity, phishing resistant authentication, patch velocity, CI/CD and Linux/container hardening, agent governance, telemetry, and recovery readiness must be strengthened now.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-06T23:23:26Z</published>
+    <arxiv:comment>7 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Christopher Koch</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.34928v2</id>
+    <title>Beyond Compilation Feedback: Refining Vulnerability Checkers with Program-Analysis Evidence</title>
+    <updated>2026-10-29T15:01:43Z</updated>
+    <link href="https://arxiv.org/abs/2610.34928v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.34928v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work shows that LLMs can synthesize static-analysis checkers from security patches, but a compilable checker is not necessarily a correct one. A patch reveals what changed, not why the change is safe, so generated checkers often match only the surface edit and miss the deeper semantic condition. Existing refinement loops feed back compilation errors and validation reports, yet these signals describe symptoms without explaining what the checker misunderstands about the code. We observe that the analysis framework itself already computes the information needed to close this gap. Control-flow graphs, symbolic values, memory regions and checker callbacks are available inside the analyzer but unused by current refinement strategies. SemWeaver is a plug-in refinement layer that extracts patch-relevant analyzer evidence and assembles it with source context and validation feedback into a structured, provenance-labelled bundle. An iterative editing loop refines the checker on both the vulnerable and fixed revisions, guarded by a retention gate that accepts warning recovery or false-positive reduction while preventing over-pruning. We evaluate SemWeaver on 39 KNighter-derived CSA checkers from Linux kernel fixes. With analyzer evidence, refinement reaches 23 warning-positive vulnerable revisions (vs. 15 for KNighter's loop) and raises version-level $F_1$ from 0.448 to 0.575. An ablation removing internal evidence recovers fewer silent cases and produces different checker edits, indicating that the two evidence configurations address complementary recognition gaps. Additional experiments cover three editor models on a 12-subject subset, a CodeQL query refinement, and controlled source-form variations. A qualitative follow-up on all 11 non-tied comparisons traces each warning-count change to a specific checker repair, such as recognizing a lowered callback or unwrapping an expression cast.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-26T06:55:23Z</published>
+    <arxiv:comment>Title updated and code repository URL removed; results unchanged</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Chengzhi Yi</name>
+    </author>
+    <author>
+      <name>Shenao Wang</name>
+    </author>
+    <author>
+      <name>Yanjie Zhao</name>
+    </author>
+    <author>
+      <name>Xiao Cheng</name>
+    </author>
+    <author>
+      <name>Haoyu Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.01892v1</id>
+    <title>CyberAId: AI-Driven Cybersecurity for Financial Service Providers</title>
+    <updated>2026-05-03T14:15:11Z</updated>
+    <link href="https://arxiv.org/abs/2605.01892v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.01892v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>European financial institutions face mounting regulatory pressure while their security operations centres remain constrained not by data or staffing but by reasoning capacity: enterprise SIEMs cover only a fraction of MITRE ATT&amp;CK techniques, two thirds of SOC teams cannot keep pace with alert volumes, and the majority of breaches are preceded by alerts that are generated but never investigated. Frontier large language models now achieve state-of-the-art results on isolated cybersecurity tasks (one-day vulnerability exploitation, code-level patching, intrusion detection) yet no narrow win constitutes a platform that can compose across functions, persist multi-tenant state, map findings to regulatory regimes and survive an audit. This position paper argues that the right unit of construction is a hybrid multi-agent system in which specialised LLM subagents reason over classical SIEM/XDR telemetry rather than replacing it, share accumulated agent state across institutions through privacy-preserving federation, and can connect to complementary capability packs such as quantum-based authentication, digital twins for adversarial validation, and eBPF-based kernel telemetry. We present CyberAId, a model-agnostic, on-premise-deployable platform in which a Main Agent coordination layer, a Reporting capability, and specialist subagents operate within a shared runtime under bounded human-in-the-loop autonomy, organised around four falsifiable design principles, and aligned with relevant regulations. CyberAId will be validated at four representative financial use cases (client impersonation, anti-money-laundering for payment service providers, retail-banking incident response, and high-frequency-trading resilience) and propose skill-based agent adaptation as the most promising research direction for turning each deployment into a contribution to a continuously refined collective defence.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-03T14:15:11Z</published>
+    <arxiv:comment>8 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>George Fatouros</name>
+    </author>
+    <author>
+      <name>Georgios Makridis</name>
+    </author>
+    <author>
+      <name>John Soldatos</name>
+    </author>
+    <author>
+      <name>Dimosthenis Kyriazis</name>
+    </author>
+    <author>
+      <name>Pedro Malo</name>
+    </author>
+    <author>
+      <name>George Kousiouris</name>
+    </author>
+    <author>
+      <name>Giannis Ledakis</name>
+    </author>
+    <author>
+      <name>Louiza Kachrimani</name>
+    </author>
+    <author>
+      <name>Panagiotis Rizomiliotis</name>
+    </author>
+    <author>
+      <name>Bruno Almeida</name>
+    </author>
+    <author>
+      <name>Despina Tomkou</name>
+    </author>
+    <author>
+      <name>Kostas Metaxas</name>
+    </author>
+    <author>
+      <name>Konstantinos Ilias</name>
+    </author>
+    <author>
+      <name>Christos Gkizelis</name>
+    </author>
+    <author>
+      <name>Ernstjan de Gooyert</name>
+    </author>
+    <author>
+      <name>Amin Babazadeh</name>
+    </author>
+    <author>
+      <name>Kostis Mavrogiorgos</name>
+    </author>
+    <author>
+      <name>Pepi Paraskevoulakou</name>
+    </author>
+    <author>
+      <name>Christos Xenakis</name>
+    </author>
+    <author>
+      <name>Giannis Chouchoulis</name>
+    </author>
+    <author>
+      <name>Konstantina Tripodi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.07120v2</id>
+    <title>Block-Sparse Global Attention for Efficient Multi-View Geometry Transformers</title>
+    <updated>2026-05-20T17:17:47Z</updated>
+    <link href="https://arxiv.org/abs/2509.07120v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.07120v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Efficient and accurate feed-forward multi-view reconstruction has long been an important task in computer vision. Recent transformer-based models like VGGT, $π^3$ and MapAnything have demonstrated remarkable performance with relatively simple architectures. However, their scalability is fundamentally constrained by the quadratic complexity of global attention, which imposes a significant runtime bottleneck when processing large image sets. In this work, we empirically analyze the global attention matrix of these models and observe that the probability mass concentrates on a small subset of patch-patch interactions corresponding to cross-view geometric correspondences. Building on this insight and inspired by recent advances in large language models, we propose a training-free, block-sparse replacement for dense global attention, implemented with highly optimized kernels. Our method accelerates inference by more than $3\times$ while maintaining comparable task performance. Evaluations on a comprehensive suite of multi-view benchmarks demonstrate that our approach seamlessly integrates into existing global attention-based architectures such as VGGT, $π^3$ , and MapAnything, while substantially improving scalability to large image collections.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-08T18:16:09Z</published>
+    <arxiv:comment>Project page at https://vision.rwth-aachen.de/sparse-vggt</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Chung-Shien Brian Wang</name>
+    </author>
+    <author>
+      <name>Christian Schmidt</name>
+    </author>
+    <author>
+      <name>Jens Piekenbrinck</name>
+    </author>
+    <author>
+      <name>Bastian Leibe</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.14622v1</id>
+    <title>ExaGEMM: Exploration Framework for CPU-Driven ML Inference via Associative In-Register Computing for Low-Bit GEMM</title>
+    <updated>2026-07-16T06:38:49Z</updated>
+    <link href="https://arxiv.org/abs/2607.14622v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.14622v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low-bit GEMM is increasingly central to efficient ML inference, yet very-low-bit execution remains a poor fit for conventional CPUs. Practical deployment spans fragmented regimes-from 1/2/4-bit weights to varying activation precision-whose feasibility, reuse opportunity, and support cost differ under fixed SIMD and register-file budgets, making lightweight CPU support selection a first-class design problem. We present ExaGEMM, a workload-aware codesign and exploration framework for CPU-native low-bit GEMM via register-resident LUT execution. The key insight is that existing SIMD datapaths already cover table generation and accumulation; the only new hardware is an in-register select/feed mechanism with explicitly modeled cost. ExaGEMM co-explores parameterized kernels and lightweight SIMD ISA support using analytical models of register feasibility, compute cost, memory traffic, and hardware overhead, pruning the candidate space by 99.2% before simulation. It then identifies non-dominated support points and generates ISA specs, gem5 patches, and GEMM kernels for validation. Across representative ML models and CPU targets, ExaGEMM improves latency by 13.29x over software-only baselines, while showing that workload-aware frontier selection is especially important for mixed-precision LLM workloads.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-16T06:38:49Z</published>
+    <arxiv:comment>Accepted to ICCAD 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Hyunwoo Oh</name>
+    </author>
+    <author>
+      <name>Suyeon Jang</name>
+    </author>
+    <author>
+      <name>Hanning Chen</name>
+    </author>
+    <author>
+      <name>Sanggeon Yun</name>
+    </author>
+    <author>
+      <name>Ryozo Masukawa</name>
+    </author>
+    <author>
+      <name>Mohsen Imani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.25018v1</id>
+    <title>OSFoundry: Building and Evolving Operating Systems with Specification-Guided Agents</title>
+    <updated>2026-08-08T09:11:12Z</updated>
+    <link href="https://arxiv.org/abs/2609.25018v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.25018v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Operating systems must evolve continuously. Yet their development remains code-centric and largely manual: even a localized change can require recovering implicit assumptions, coordinating multiple subsystems, and repeatedly building, booting, testing, and debugging the complete system. General-purpose coding agents automate individual edits, but their prompt-centric workflows repeatedly reconstruct task boundaries and OS semantics from scattered context, limiting their reliability for sustained OS evolution. This paper presents OSFoundry, an OS-specialized agent harness that makes design intent persistent throughout OS development. Its key insight is to separate stable intent from diverse implementation. Instead of relying on free-form natural-language prompts to convey design intent, OSFoundry uses SysSpec*, a shared development blueprint comprising a task-bounding Plan and an OS-specific Specification: the Plan bounds what a change should achieve, while the Specification records the interfaces, modular dependencies, and concurrency semantics that its implementation must preserve. Agents implement and validate code against this same blueprint, refining both SysSpec* and the implementation when execution or review exposes a mismatch. We evaluate OSFoundry along three ways. First, OSFoundry generates SpecOS from SysSpec*; the resulting complete OS boots and passes all 70 functional tests. Second, specification patches evolve SpecOS with a GUI and three performance optimizations that improve performance by up to 4.41x. Third, across 11 recent Linux-kernel bug-fix tasks, OSFoundry achieves 1.8x the accuracy of Codex using GPT-5.5. These results show that persistent specifications can shift OS construction and evolution from repeated manual kernel engineering toward specification-guided development.</summary>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-08T09:11:12Z</published>
+    <arxiv:primary_category term="cs.OS"/>
+    <author>
+      <name>Hengbin Zhang</name>
+    </author>
+    <author>
+      <name>Qingyuan Liu</name>
+    </author>
+    <author>
+      <name>Mo Zou</name>
+    </author>
+    <author>
+      <name>Dong Du</name>
+    </author>
+    <author>
+      <name>Yubin Xia</name>
+    </author>
+    <author>
+      <name>Haibo Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.08215v1</id>
+    <title>On the Limitations of Non-GPU AI Accelerators for Large-Model Inference: A Field Study of MoE and Multimodal Serving on Huawei Ascend</title>
+    <updated>2026-07-09T08:12:15Z</updated>
+    <link href="https://arxiv.org/abs/2607.08215v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.08215v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Non-GPU AI accelerators are increasingly adopted as alternatives to general-purpose GPUs for large-model inference, but the real engineering cost of migrating demanding workloads beyond CUDA remains poorly documented. We present a field study of deploying two large inference workloads on a 16-device Huawei Ascend 910 system using CANN and vLLM-Ascend: an LLM-as-a-judge safety and alignment evaluation pipeline based on a W8A8 MoE judge model, DeepSeek-V4-Flash, and a multimodal medical vision--language benchmark based on DeepSeek-V4-Flash-Vision for MMMU and MMMU-Pro. Making these workloads reliable required twelve source-level patches to the vendor inference plugin, disabling several high-throughput features to preserve numerical correctness, and adding operational safeguards for recurring device-level failures. We summarize the main platform limitations in eight categories: incomplete operator and feature support, fragile parallelism, numerical faults in low-level kernels, immature graph compilation, unstable advanced features, limited scalability, weak observability, and ecosystem fragmentation. For each category, we report the symptoms, evidence, and likely causes. We also quantify the integration effort, concurrency behavior, and benchmark quality to show that both workloads were served correctly. Our study provides a reproducible reference for teams evaluating or operating non-GPU accelerators for large-model inference.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-09T08:12:15Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Zheng Yu</name>
+    </author>
+  </entry>
+</feed>

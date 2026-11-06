@@ -1,0 +1,242 @@
+[
+  {
+    "id": "arxiv:2503.00714",
+    "decision": "EXCLUDE",
+    "reason": "Database query speculation and caching; no security analysis or OS target.",
+    "evidence": "Wonder reduces SQL execution time by up to 31.8%"
+  },
+  {
+    "id": "arxiv:2503.02550",
+    "decision": "EXCLUDE",
+    "reason": "GPU scheduling for DL training; no security task or OS component.",
+    "evidence": "exploit idle GPU resources"
+  },
+  {
+    "id": "arxiv:2503.03263",
+    "decision": "EXCLUDE",
+    "reason": "Photonic AI accelerator for DDoS classification; LLM is motivation, not used for OS security analysis.",
+    "evidence": "trained for DDoS attack identification and MNIST classification"
+  },
+  {
+    "id": "arxiv:2503.04234",
+    "decision": "EXCLUDE",
+    "reason": "Spatial keyword query system; no security task or OS target.",
+    "evidence": "retrieve geo-textual objects that are more semantically relevant to a query"
+  },
+  {
+    "id": "arxiv:2503.10241",
+    "decision": "EXCLUDE",
+    "reason": "Social continual learning and causal reasoning; no security task or OS target.",
+    "evidence": "social continual learning framework for causal knowledge acquisition and collaborative decision-making"
+  },
+  {
+    "id": "arxiv:2503.10793",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based vulnerability detection in general Rust applications, not OS components or privileged interfaces.",
+    "evidence": "detect vulnerabilities in real-world Rust scenarios"
+  },
+  {
+    "id": "arxiv:2503.11926",
+    "decision": "EXCLUDE",
+    "reason": "Monitoring LLM reward hacking and alignment; security of LLMs, not OS security.",
+    "evidence": "monitor a frontier reasoning model"
+  },
+  {
+    "id": "arxiv:2503.15547",
+    "decision": "EXCLUDE",
+    "reason": "Privilege-escalation defense for LLM agents; target is agent security, not OS components.",
+    "evidence": "prevent privilege escalation in LLM agents"
+  },
+  {
+    "id": "arxiv:2503.15560",
+    "decision": "EXCLUDE",
+    "reason": "Defense against manipulation attacks on LLMs; security of LLMs, not OS.",
+    "evidence": "multi-turn manipulation attacks"
+  },
+  {
+    "id": "arxiv:2503.17553",
+    "decision": "EXCLUDE",
+    "reason": "Radiotherapy treatment planning; no security task or OS target.",
+    "evidence": "optimizing radiotherapy treatment plans"
+  },
+  {
+    "id": "arxiv:2503.18487",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based malicious traffic classification; general network security, not an OS component or privileged interface.",
+    "evidence": "LLM-powered DDoS detection as a case study"
+  },
+  {
+    "id": "arxiv:2503.19201",
+    "decision": "EXCLUDE",
+    "reason": "Personalized RLHF; no security task or OS target.",
+    "evidence": "personalized RLHF framework"
+  },
+  {
+    "id": "arxiv:2503.20124",
+    "decision": "EXCLUDE",
+    "reason": "World-model learning and planning; no security task or OS target.",
+    "evidence": "bilevel planning algorithm can exploit this hierarchical structure to solve large domains"
+  },
+  {
+    "id": "arxiv:2503.23125",
+    "decision": "EXCLUDE",
+    "reason": "Evaluation of multimodal scene understanding; no security task or OS target.",
+    "evidence": "compositional visual processing capabilities"
+  },
+  {
+    "id": "arxiv:2503.23718",
+    "decision": "EXCLUDE",
+    "reason": "Smart-contract bug detection; target is blockchain code, not OS components.",
+    "evidence": "detect functional bugs, in smart contracts"
+  },
+  {
+    "id": "arxiv:2504.00428",
+    "decision": "EXCLUDE",
+    "reason": "Threat-intelligence retrieval and CVE analysis; no OS component or privileged interface targeted.",
+    "evidence": "enhance real-time cybersecurity threat detection and response"
+  },
+  {
+    "id": "arxiv:2504.00446",
+    "decision": "EXCLUDE",
+    "reason": "Detecting abnormal LLM behavior; security of LLMs, not OS security.",
+    "evidence": "detecting abnormal behaviors in LLMs via hidden state forensics"
+  },
+  {
+    "id": "arxiv:2504.01094",
+    "decision": "EXCLUDE",
+    "reason": "Audio jailbreak attacks on LLMs; security of LLMs, not OS.",
+    "evidence": "audio jailbreaks"
+  },
+  {
+    "id": "arxiv:2504.02254",
+    "decision": "EXCLUDE",
+    "reason": "LLM-generated deceptive puzzles; no security analysis or OS target.",
+    "evidence": "generate deceptive puzzles that mislead and challenge human users"
+  },
+  {
+    "id": "arxiv:2504.02263",
+    "decision": "EXCLUDE",
+    "reason": "MoE inference serving system; no security task or OS target.",
+    "evidence": "serving large-scale MoE models"
+  },
+  {
+    "id": "arxiv:2504.02780",
+    "decision": "EXCLUDE",
+    "reason": "Human-LLM interaction and cognition; no security task or OS target.",
+    "evidence": "Measuring Interaction Patterns to Augment Human Cognition"
+  },
+  {
+    "id": "arxiv:2504.03767",
+    "decision": "EXCLUDE",
+    "reason": "Security audit of MCP servers and agentic tools; security of LLM infrastructure, not OS components.",
+    "evidence": "assess the security of an arbitrary MCP server"
+  },
+  {
+    "id": "arxiv:2504.04279",
+    "decision": "EXCLUDE",
+    "reason": "Tracing AI-generated images and text; no OS security task.",
+    "evidence": "AI authorship detection"
+  },
+  {
+    "id": "arxiv:2504.04893",
+    "decision": "EXCLUDE",
+    "reason": "Typographic robustness of multimodal models; security of LLMs, not OS.",
+    "evidence": "typographic attacks significantly degrade performance"
+  },
+  {
+    "id": "arxiv:2504.06636",
+    "decision": "EXCLUDE",
+    "reason": "Multimodal sequential recommendation; no security task or OS target.",
+    "evidence": "Behavior-Bind multi-modal Quantization for Sequential Recommendation"
+  },
+  {
+    "id": "arxiv:2504.07257",
+    "decision": "EXCLUDE",
+    "reason": "Causal world-model extraction for RL; no security task or OS target.",
+    "evidence": "learn the exact interpretable causal world models"
+  },
+  {
+    "id": "arxiv:2504.07396",
+    "decision": "EXCLUDE",
+    "reason": "Quantum feature-map design; no security task or OS target.",
+    "evidence": "autonomously generates, evaluates, and refines quantum feature maps"
+  },
+  {
+    "id": "arxiv:2504.07733",
+    "decision": "EXCLUDE",
+    "reason": "Corporate greenwashing detection; no security task or OS target.",
+    "evidence": "detecting potential corporate greenwashing in annual reports"
+  },
+  {
+    "id": "arxiv:2504.07794",
+    "decision": "EXCLUDE",
+    "reason": "Retrieval-augmented generation framework; no security task or OS target.",
+    "evidence": "generating diverse and comprehensive responses"
+  },
+  {
+    "id": "arxiv:2504.08850",
+    "decision": "EXCLUDE",
+    "reason": "LLM inference acceleration; no security task or OS target.",
+    "evidence": "fast LLM inference engine with speculative early exiting"
+  },
+  {
+    "id": "arxiv:2504.09776",
+    "decision": "EXCLUDE",
+    "reason": "Spam detection and adversarial robustness of LLM filters; security of LLMs, not OS.",
+    "evidence": "LLM-based spam detection systems perform under adversarial attacks"
+  },
+  {
+    "id": "arxiv:2504.11281",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection attacks on GUI agents; security and privacy of LLM agents, not OS components.",
+    "evidence": "GUI agents are highly vulnerable"
+  },
+  {
+    "id": "arxiv:2504.11514",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted autonomous driving; no security task or OS target.",
+    "evidence": "enhance decision-making and Human Machine Interaction"
+  },
+  {
+    "id": "arxiv:2504.11696",
+    "decision": "EXCLUDE",
+    "reason": "LLM-driven wireless communication; no security task or OS target.",
+    "evidence": "LLM-driven paradigm for wireless communication"
+  },
+  {
+    "id": "arxiv:2504.11765",
+    "decision": "EXCLUDE",
+    "reason": "KV-cache management for RAG inference; no security task or OS target.",
+    "evidence": "disk-based shared KV cache management system"
+  },
+  {
+    "id": "arxiv:2504.12143",
+    "decision": "EXCLUDE",
+    "reason": "Automated cyber-range generation; security tooling, not analysis of OS components.",
+    "evidence": "automatic generation and deployment of CRs"
+  },
+  {
+    "id": "arxiv:2504.12321",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreak defense for language models; security of LLMs, not OS.",
+    "evidence": "Explainable Defense Against Novel Jailbreaks"
+  },
+  {
+    "id": "arxiv:2504.14348",
+    "decision": "EXCLUDE",
+    "reason": "Cross-modal prompt injection against multimodal agents; security of LLM agents, not OS.",
+    "evidence": "cross-modal prompt injection attacks"
+  },
+  {
+    "id": "arxiv:2504.14489",
+    "decision": "EXCLUDE",
+    "reason": "LLM serving multiplexing; no security task or OS target.",
+    "evidence": "prefill-decode multiplexing"
+  },
+  {
+    "id": "arxiv:2504.15302",
+    "decision": "EXCLUDE",
+    "reason": "RAG serving system on a single GPU; no security task or OS target.",
+    "evidence": "resource-efficient, self-adaptive RAG serving system"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R05068",
+    "decision": "EXCLUDE",
+    "reason": "LLM patch validation on general security benchmarks; no OS component target stated.",
+    "evidence": "Experimental evaluation on Juliet, Devign, and Defects4J security benchmarks"
+  },
+  {
+    "id": "R05071",
+    "decision": "EXCLUDE",
+    "reason": "LLM version migration study in financial decision systems; no security task or OS target.",
+    "evidence": "We quantify the decision instability associated with two prespecified model-version transitions"
+  },
+  {
+    "id": "R05078",
+    "decision": "EXCLUDE",
+    "reason": "Microwave liquid classification with SVM kernels; no LLM, security analysis, or OS target.",
+    "evidence": "Effect of Different Kernel Functions on Hazardous Liquid Detection Using a Patch Antenna and Support Vector Machines"
+  },
+  {
+    "id": "R05081",
+    "decision": "EXCLUDE",
+    "reason": "Epidemic patch model; no LLM, security analysis, or OS target.",
+    "evidence": "This paper presents an SIQR patch model that combines population migration and entry–exit screening."
+  },
+  {
+    "id": "R05083",
+    "decision": "EXCLUDE",
+    "reason": "LLM SQL migration repair in cloud platforms; no security outcome or OS target.",
+    "evidence": "This paper presents an LLM-based self-healing agent that automatically detects, diagnoses, and repairs failed SQL transformations."
+  },
+  {
+    "id": "R05088",
+    "decision": "EXCLUDE",
+    "reason": "AI/ML legacy application migration framework; no security task or OS-specific target.",
+    "evidence": "A Framework for Automated Application Migration using AI/ML/GenAI/LLM"
+  },
+  {
+    "id": "R05090",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted auditing of solid-state electrolyte data; no security or OS context.",
+    "evidence": "a language model that can normalize entities and assemble comparable cohorts"
+  },
+  {
+    "id": "R05092",
+    "decision": "EXCLUDE",
+    "reason": "Forestry patch-cut and assisted migration study; no LLM, security, or OS target.",
+    "evidence": "Adapting the patch-cut system to implement forest assisted migration"
+  },
+  {
+    "id": "R05093",
+    "decision": "EXCLUDE",
+    "reason": "Stochastic two-patch predator-prey model; no LLM, security, or OS target.",
+    "evidence": "This study investigates a stochastic two-patch predator–prey system"
+  },
+  {
+    "id": "R05097",
+    "decision": "EXCLUDE",
+    "reason": "Two-patch epidemic model; no LLM, security, or OS target.",
+    "evidence": "We consider a two-patch Susceptible-Infected-Recovered epidemic model"
+  },
+  {
+    "id": "R05103",
+    "decision": "EXCLUDE",
+    "reason": "Three-patch fishery predator-prey model; no LLM, security, or OS target.",
+    "evidence": "a stochastic predator-prey model for three interconnected patches"
+  },
+  {
+    "id": "R05105",
+    "decision": "EXCLUDE",
+    "reason": "Foot-and-mouth disease metapopulation model; no LLM, security, or OS target.",
+    "evidence": "This study develops a multipatch susceptible-exposed-infectious-recovered metapopulation model"
+  },
+  {
+    "id": "R05106",
+    "decision": "EXCLUDE",
+    "reason": "Corruption dynamics model with patches and migration; no LLM, security, or OS target.",
+    "evidence": "a novel compartmental model to study the spatial dynamics of corruption"
+  },
+  {
+    "id": "R05108",
+    "decision": "EXCLUDE",
+    "reason": "LLM vulnerability patch porting across general projects; no OS component target stated.",
+    "evidence": "superior generality across various projects, bugs, and programming languages"
+  },
+  {
+    "id": "R05129",
+    "decision": "EXCLUDE",
+    "reason": "Formal verification of ABS neural controllers; no LLM and no OS component target.",
+    "evidence": "Compositional Formal Verification of Anti-Lock Braking System Neural Controllers"
+  },
+  {
+    "id": "R05142",
+    "decision": "EXCLUDE",
+    "reason": "Formal type-system verification for CPS/IoT C/C++; no LLM and no security/OS target.",
+    "evidence": "Our improved type system enables formal verification of C++ software"
+  },
+  {
+    "id": "R05153",
+    "decision": "EXCLUDE",
+    "reason": "Lean 4 formalization of twin-prime candidate verification; no LLM or security/OS task.",
+    "evidence": "formally verified finite divisor-exclusion framework for twin-prime candidate pairs"
+  },
+  {
+    "id": "R05154",
+    "decision": "EXCLUDE",
+    "reason": "Governance/sustainability white paper; no LLM or security analysis of OS components.",
+    "evidence": "EMJ.NEXUS: The Trust Operating System (v1.0)"
+  },
+  {
+    "id": "R05156",
+    "decision": "EXCLUDE",
+    "reason": "Duplicate governance white paper; no LLM or security analysis of OS components.",
+    "evidence": "EMJ.NEXUS: The Trust Operating System (v1.0)"
+  },
+  {
+    "id": "R05161",
+    "decision": "EXCLUDE",
+    "reason": "RTOS partition-scheduling verification with timed automata; no LLM or security task.",
+    "evidence": "This paper presents a formal modeling and verification methodology for partition scheduling in operating systems, based on timed automata."
+  },
+  {
+    "id": "R05175",
+    "decision": "EXCLUDE",
+    "reason": "Review of formal methods for quantum circuit verification; no LLM or OS security research.",
+    "evidence": "This review explores how formal methods are currently applied to the verification of quantum circuits"
+  },
+  {
+    "id": "R05179",
+    "decision": "EXCLUDE",
+    "reason": "Predicate-abstraction method for hyperliveness verification; no LLM or OS security task.",
+    "evidence": "we present an automated method for the verification of"
+  },
+  {
+    "id": "R05180",
+    "decision": "EXCLUDE",
+    "reason": "Review of formal methods for quantum circuit verification; no LLM or OS security research.",
+    "evidence": "This study examines how formal methods are applied to quantum circuit verification."
+  },
+  {
+    "id": "R05184",
+    "decision": "EXCLUDE",
+    "reason": "Review of formal methods for quantum circuit verification; no LLM or OS security research.",
+    "evidence": "This study examines how formal methods are applied to quantum circuit verification."
+  },
+  {
+    "id": "R05186",
+    "decision": "EXCLUDE",
+    "reason": "Review of formal methods for quantum circuit verification; no LLM or OS security research.",
+    "evidence": "This study examines how formal methods are applied to quantum circuit verification."
+  },
+  {
+    "id": "R05187",
+    "decision": "EXCLUDE",
+    "reason": "Review of formal methods for quantum circuit verification; no LLM or OS security research.",
+    "evidence": "This review examines how formal methods are applied to quantum circuit verification."
+  },
+  {
+    "id": "R05188",
+    "decision": "EXCLUDE",
+    "reason": "Review of formal methods for quantum circuit verification; no LLM or OS security research.",
+    "evidence": "This review examines how formal methods are applied to quantum circuit verification."
+  },
+  {
+    "id": "R05190",
+    "decision": "EXCLUDE",
+    "reason": "TLA+ verification of a glucose-monitoring system; no LLM and no OS security target.",
+    "evidence": "The paper describes theoretical and applied aspects of modeling real-time information systems using the example of a continuous glucose monitoring (CGM) system."
+  },
+  {
+    "id": "R05195",
+    "decision": "EXCLUDE",
+    "reason": "Number-theory preprint on Fermat's Last Theorem; no LLM, security, or OS task.",
+    "evidence": "This study seeks to revisit FLT through classical and elementary approaches"
+  },
+  {
+    "id": "R05196",
+    "decision": "EXCLUDE",
+    "reason": "Comparison of formal methods for security protocol verification; no LLM or OS target.",
+    "evidence": "Formal Methods for Security Protocol Verification: Model Checking and Theorem Proving Approaches"
+  },
+  {
+    "id": "R05197",
+    "decision": "EXCLUDE",
+    "reason": "Number-theory preprint on Fermat's Last Theorem; no LLM, security, or OS task.",
+    "evidence": "This study seeks to revisit FLT through classical and elementary approaches"
+  },
+  {
+    "id": "R05201",
+    "decision": "EXCLUDE",
+    "reason": "Graph neural network guidance for automated theorem proving; not an LLM and no security/OS task.",
+    "evidence": "The machine learning component, a graph neural network"
+  },
+  {
+    "id": "R05206",
+    "decision": "EXCLUDE",
+    "reason": "Elementary proof attempt for Fermat's Last Theorem; no LLM, security, or OS task.",
+    "evidence": "using elementary mathematics methods at the intersection of geometry and number theory"
+  },
+  {
+    "id": "R05207",
+    "decision": "EXCLUDE",
+    "reason": "Complex-number/trigonometric reformulation of Fermat's Last Theorem; no LLM, security, or OS task.",
+    "evidence": "We present a geometric and analytic reformulation of Fermat’s Last Theorem (FLT) using complex numbers and trigonometric identities."
+  },
+  {
+    "id": "R05208",
+    "decision": "EXCLUDE",
+    "reason": "Rule-based recipe generation using theorem proving; no LLM, security, or OS task.",
+    "evidence": "This paper presents FASTFOOD, a rule-based natural language generation (NLG) program for cooking recipes."
+  },
+  {
+    "id": "R05210",
+    "decision": "EXCLUDE",
+    "reason": "LLM analysis of congressional testimony; no security task or OS target.",
+    "evidence": "we analyze a dataset of 661 testimonies from hearings between 2007 and 2017"
+  },
+  {
+    "id": "R05211",
+    "decision": "EXCLUDE",
+    "reason": "Formal verification of bioinformatics software; no LLM and no security/OS target.",
+    "evidence": "we explore an effective combination of model checking and theorem proving of bioinformatics software"
+  },
+  {
+    "id": "R05214",
+    "decision": "EXCLUDE",
+    "reason": "Nonstandard calculus/race-theory essay; no LLM, security, or OS task.",
+    "evidence": "The Fundamental Theorem of Calculus is true because integration is the inverse operation of derivation."
+  },
+  {
+    "id": "R05217",
+    "decision": "EXCLUDE",
+    "reason": "Logical treatment of proving-refuting conjectures; no LLM, security, or OS task.",
+    "evidence": "we introduce the notion of extrapolation of a possibly unprovable statement"
+  },
+  {
+    "id": "R05221",
+    "decision": "EXCLUDE",
+    "reason": "Commentary/newsletter on superhuman theorem proving and AI safety/attacks; not original empirical LLM security research.",
+    "evidence": "Progress in Superhuman Theorem Proving?"
+  }
+]

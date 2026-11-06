@@ -1,0 +1,99 @@
+\section{Background}
+\subsection{OS Security Primer}
+\label{sec:bkgd:os}
+
+\revise{An operating system mediates access by processes, users and services to files, devices and other resources. Compromise can undermine confidentiality, integrity and availability; Stuxnet illustrates the potential for disruption of industrial processes}~\revcite{baezner2017stuxnet}. \revise{Foundational work on reference monitors, Multics and protection systems motivates least privilege, complete mediation and isolation}~\revcite{anderson1972computer,corbato1965introduction,lampson1974protection,saltzer1975protection}. \revise{Modern networking, drivers, virtualization and accelerators introduce interconnected trust boundaries and motivate layered defenses.}
+
+\paragraph{\textbf{System calls as the key attack surface}}
+Most OSes enforce privilege separation by running applications in an unprivileged mode while centralizing sensitive operations in the kernel, i.e., the separation between user/kernel mode. User space requests privileged operations (e.g., file I/O, process management, and networking) through \textit{system calls}, a standardized interface that transfers control to the kernel.
+
+Because system calls are the main gateway from \textit{untrusted} applications into privileged kernel code, they constitute a primary attack surface. 
+Attacks range from passing malformed or adversarial arguments including crafted buffers, filesystem images, and packets, to exploiting unexpected call sequences that trigger corner cases across subsystems, e.g., file systems, IPC, networking, device drivers, BPF/JITs, and virtualization backends, leading to denial-of-service, information disclosure, privilege escalation, or full kernel compromise~\cite{chen2011linux}.
+
+% The ``reference monitor'' concept provides an organizing abstraction: every security-relevant access should be checked by a tamper-resistant mechanism whose complexity is small enough to be analyzable\cite{saltzer75,lampson71}. In practice, faithfully approximating a reference monitor is difficult because the effective policy surface is spread across numerous subsystems, each with subtle notions of identity and authority. Modern implementations thus rely on layered mediation---e.g., discretionary permissions, capability-style privilege separation, and system call filtering/sandboxing---but these layers must track evolving kernel ABIs and cross-subsystem object lifecycles, which creates opportunities for confused-deputy behavior and policy bypasses.
+
+\paragraph{\textbf{Memory bugs as a dominant attack vector}}
+\revise{Memory unsafety is a recurring source of OS vulnerabilities, alongside the difficulty of maintaining low-level invariants in concurrent, performance-critical code.}~\revcite{chen2020koobe,xu2015collision,wu2025flow,szekeres13}
+\revise{Violations at system-call, packet or driver interfaces can yield out-of-bounds accesses, use-after-free or information disclosure; these primitives may be composed to corrupt security state or gain code execution}~\revcite{chen2020koobe,xu2015collision,wu2025flow,szekeres13}.
+
+\paragraph{\textbf{Defense by isolation: processes, containers, and virtual machines}}
+In response to the above attacks and to mitigate them, an OS adopts various \textit{isolation} mechanisms and implements them at multiple layers, each introducing new trust boundaries and failure modes, which can characterized by the following:
+\begin{myitemize}
+  \item  
+  \textbf{Processes} provide an address-space boundary (often reinforced by W$\oplus$X and ASLR), but they still share a kernel, so kernel compromise breaks the isolation model. 
+  
+  \item 
+  \textbf{OS-level virtualization} (i.e., namespaces and cgroups) underpins containers by virtualizing resource views and constraining resource consumption; however, containers typically treat the host kernel as trusted and are therefore sensitive to kernel vulnerabilities and configuration errors (e.g., overly broad capabilities). 
+
+  \item 
+  \textbf{Hypervisor-based} virtualization adds an additional privilege layer, with the hypervisor mediating guest access to hardware and exposing a carefully defined virtual device surface. 
+  Popek and Goldberg formalize requirements under which an architecture can support efficient virtualization, motivating the modern separation of guest OSs from a smaller virtual machine monitor\cite{popek1974formal}.
+  \revise{Vulnerabilities in virtual-device implementations can allow guest-to-host escapes, as demonstrated in attacks on VMware virtual machines}~\revcite{zhao2019breaking}.
+
+
+
+\end{myitemize} 
+
+
+
+\paragraph{\textbf{Mandatory access control (MAC) and policy-driven mediation}}
+
+
+Isolation controls \emph{who shares what}, whereas access control governs \emph{who may do what}: OSes mediate operations on objects (files, sockets, devices, processes) based on identities, capabilities, and policy. 
+Traditional discretionary access control (DAC) provides owner-centric rules, but it is often complemented by stronger, system-wide mechanisms such as mandatory access control (MAC), which enforces global policies even on privileged services (e.g., restricting networking, module loading, or introspection) and is widely deployed via architectures such as the Flask security server in SELinux\cite{spencer99flask,loscocco01selinux}.
+
+In practice, access control becomes difficult for two reasons. 
+First, policy is complex: administrators must reason about large rule sets, defaults, and policy composition, and misconfigurations can silently overgrant or break intended invariants. 
+Second, enforcement logic is subtle: correct mediation depends on comprehensive labeling, consistent object identity across subsystems, and correct placement of checks; omissions or inconsistent interpretations lead to logic bugs that allow unintended access despite an apparently sound policy~\cite{lu2019detecting, zhang2019pex}.
+
+\begin{comment}
+\paragraph{\textbf{Trusted boot, measured boot, and attestation across the boot chain}}
+\note{to decide whether we will keep them}
+OS security depends on the integrity of the boot chain, which has become a first-class trust boundary as platforms increasingly rely on complex firmware stacks (UEFI, option ROMs, management engines) and late-loaded components. ``Secure boot'' aims to prevent unauthorized components from executing, while ``measured boot'' records cryptographic measurements that enable attestation against an expected configuration (typically using TPM PCRs)\cite{tpm2spec}. 
+These mechanisms extend the reference-monitor mindset earlier in time: rather than mediating accesses at runtime, they attempt to constrain what code is allowed to become part of the trusted computing base. Yet, empirical analyses show that real-world firmware and boot implementations can violate expected measurement properties and that scale and diversity complicate validation; BootKeeper exemplifies how tooling is needed to verify integrity properties over large firmware corpora\cite{bootkeeper19}.
+\end{comment}
+
+\paragraph{\textbf{Trusted execution environments (TEEs) as an inverted trust boundary}}
+At last, modern OS security \revise{involves} TEEs, which aim to protect sensitive computations even if the OS or hypervisor is compromised, by isolating code and data in hardware-enforced enclaves~\cite{costan2017secure} or secure worlds~\cite{li2019research, Alves2004TrustZoneI}.
+This model effectively inverts a classic trust assumption: the OS is no longer the root of trust for application confidentiality/integrity, but instead becomes part of the threat. 
+% Intel SGX has been analyzed in depth by Costan and Devadas\cite{costan16sgx}, while TrustZone-based designs demonstrate how TEEs can shield applications from an untrusted commodity OS\cite{guan17trustshadow}. 
+\revise{TEEs still depend on carefully designed boundaries. SGX enclaves rely on host-provided services and remain subject to microarchitectural side-channel attacks; these protections therefore apply under specific threat models and do not remove the need to validate enclave--OS interactions}~\revcite{costan2017secure,Cloosters2020TeeRexDA}.
+% \my{Slightly change some paragraph A-F, add the leckage}
+% \begin{figure}[H]
+%   \centering
+%   \includegraphics[width=0.7\linewidth]{figures/Transformer_arch.png}
+%   \caption{Transformer architecture.~\cite{vaswani17}}
+%   \label{fig:transformer}
+% \end{figure}
+% IEEE Access中放置图片的方法
+
+% \my{Insert Transformer figure and manually adjust position, origional: figure is in the middle of paragraph-f}
+
+\subsection{Large Language Models for Security}
+% \subsection{LLMs and Tool-Augmented/Agentic Systems}
+
+
+
+
+
+In this survey, we use ``LLM'' to refer to large Transformer-based models trained on massive corpora with self-supervised objectives (e.g., next-token prediction).
+Due to the multi-head self-attention, Transformer enables efficient parallel training and strong sequence modeling for LLMs~\cite{vaswani17}; 
+its architecture is shown in Figure~\ref{fig:transformer}.
+
+% Commonly known as the \textit{scaling law}~\cite{kaplan2020scaling}, LLM's reasoning capability empirically scales with model size, data, and compute.
+\smy{Language-modeling loss exhibits empirical scaling relationships with model size, dataset size, and training compute~\cite{kaplan2020scaling}.}
+% As a result, a LLM yields strong generalization and in-context learning (few-shot prompting) without task-specific gradient updates~\cite{brown20}. 
+\smy{Separately, GPT-3 demonstrates in-context learning on evaluated tasks using few-shot prompts without task-specific gradient updates~\cite{brown20}.} 
+\revise{Hoffmann et al. show that compute-optimal training scales data alongside model parameters, changing how a fixed compute budget should be allocated}~\revcite{hoffmann22}.
+\revise{Code-generation work separately evaluates function-level correctness (Codex/HumanEval) and competitive-programming performance (AlphaCode); these benchmarks measure different tasks and do not establish OS-security performance}~\revcite{chen2021evaluating,li22alphacode}.
+
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.9\linewidth]{figures/transformer.pdf}
+  \caption{Transformer architecture}
+  \label{fig:transformer}
+\end{figure}
+
+\revise{Studies have explored LLM assistance for interpreting code-analysis warnings, translating protocol requirements into formal models, and synthesizing network access-control policies. These results are task-specific and motivate evaluation of similar methods for OS security}~\revcite{wen2024automatically,mao2025llm,mondal2025llm}.
+When coupled with deterministic tools (static analyzers, fuzzers, debuggers, CI/test runners), LLMs can help connect heterogeneous evidence into an auditable workflow, while final judgments remain grounded in reproducible tool outputs.

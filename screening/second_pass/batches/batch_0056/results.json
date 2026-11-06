@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R06338",
+    "decision": "EXCLUDE",
+    "reason": "Protects privacy of LLM service users; no OS-targeted security task.",
+    "evidence": "ensures user anonymity by preventing service providers from linking requests to the individuals who submit them"
+  },
+  {
+    "id": "R06339",
+    "decision": "EXCLUDE",
+    "reason": "Attacks target LLM behavior, i.e. security of LLMs, not OS components.",
+    "evidence": "crafting universal jailbreaks and data extraction attacks"
+  },
+  {
+    "id": "R06340",
+    "decision": "EXCLUDE",
+    "reason": "Capability exploration of GPT-4V; no security task or OS target.",
+    "evidence": "we analyze the latest model, GPT-4V(ision)"
+  },
+  {
+    "id": "R06341",
+    "decision": "EXCLUDE",
+    "reason": "System-prompt poisoning is security of LLM deployment, not OS security.",
+    "evidence": "conditional system prompt poisoning"
+  },
+  {
+    "id": "R06342",
+    "decision": "EXCLUDE",
+    "reason": "LLM serving/training scheduling; OS engineering without security outcome.",
+    "evidence": "co-locating and managing concurrent LLM serving and training workloads"
+  },
+  {
+    "id": "R06343",
+    "decision": "EXCLUDE",
+    "reason": "Defends system prompts, i.e. security of LLM applications.",
+    "evidence": "safeguard system prompts"
+  },
+  {
+    "id": "R06344",
+    "decision": "EXCLUDE",
+    "reason": "Attacks LLM tool-calling/MCP pipelines, not OS components.",
+    "evidence": "cross-channel fragmentation attacks"
+  },
+  {
+    "id": "R06345",
+    "decision": "EXCLUDE",
+    "reason": "Security of LLM-generated code in general software development.",
+    "evidence": "security and quality of the generated code"
+  },
+  {
+    "id": "R06346",
+    "decision": "EXCLUDE",
+    "reason": "Performance modeling for LLM inference; no security task.",
+    "evidence": "statistical prediction and uncertainty estimation in LLM inference workloads"
+  },
+  {
+    "id": "R06347",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreak defense, i.e. security of LLMs.",
+    "evidence": "deceptive LLM defense framework"
+  },
+  {
+    "id": "R06348",
+    "decision": "EXCLUDE",
+    "reason": "Red-teaming text-to-image generators, not OS targets.",
+    "evidence": "fine-tunes a red-team large language model (LLM)"
+  },
+  {
+    "id": "R06349",
+    "decision": "EXCLUDE",
+    "reason": "LLM-enhanced recommendation; no security or OS dimension.",
+    "evidence": "Large Language Models enhanced Collaborative Filtering"
+  },
+  {
+    "id": "R06350",
+    "decision": "EXCLUDE",
+    "reason": "Stopping criteria for self-evolving LLM systems; no security task.",
+    "evidence": "when should a self-evolving system stop"
+  },
+  {
+    "id": "R06351",
+    "decision": "EXCLUDE",
+    "reason": "Trojaned LLM adapters; security of the LLM supply chain, not OS.",
+    "evidence": "Trojaning Plugins of Large Language Models"
+  },
+  {
+    "id": "R06352",
+    "decision": "EXCLUDE",
+    "reason": "Privacy inversion against LLM recommenders; not OS security.",
+    "evidence": "inversion attacks targeting LLM empowered recommender systems"
+  },
+  {
+    "id": "R06353",
+    "decision": "EXCLUDE",
+    "reason": "LLM for MIMO channel estimation; no security task.",
+    "evidence": "semantic-aware channel estimation framework for multiple-input multiple-output (MIMO) systems"
+  },
+  {
+    "id": "R06354",
+    "decision": "EXCLUDE",
+    "reason": "Microservice root-cause analysis for reliability, not security.",
+    "evidence": "microservice root cause analysis"
+  },
+  {
+    "id": "R06355",
+    "decision": "EXCLUDE",
+    "reason": "Simulation of legal proceedings; not an OS security task.",
+    "evidence": "multi-agent simulation of adversarial legal proceedings"
+  },
+  {
+    "id": "R06356",
+    "decision": "EXCLUDE",
+    "reason": "Headline generation for recommendation; no security outcome.",
+    "evidence": "aligning LLM-based Headline Generation with Personalized Recommendation"
+  },
+  {
+    "id": "R06357",
+    "decision": "EXCLUDE",
+    "reason": "Log anomaly detection benchmark for diagnostics/reliability, no security outcome.",
+    "evidence": "critical for maintaining the reliability of large-scale software systems"
+  },
+  {
+    "id": "R06358",
+    "decision": "POSSIBLE_CORE",
+    "reason": "GPT-based system-log anomaly detection explicitly framed as cyber defense.",
+    "evidence": "cybersecurity defense strategies"
+  },
+  {
+    "id": "R06359",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM supports security incident-response planning using system logs.",
+    "evidence": "generate a response and recovery plan based on system logs"
+  },
+  {
+    "id": "R06360",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLMs benchmarked for security-oriented analysis of system/application logs.",
+    "evidence": "analyze application and system log files for security"
+  },
+  {
+    "id": "R06361",
+    "decision": "EXCLUDE",
+    "reason": "General multi-domain anomaly detection; security task not established.",
+    "evidence": "anomaly detection tasks across diverse domains and modalities"
+  },
+  {
+    "id": "R06362",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM evaluates security risks from MCP server system logs.",
+    "evidence": "evaluating LLMs' ability to identify security risks from system logs"
+  },
+  {
+    "id": "R06363",
+    "decision": "UNCLEAR",
+    "reason": "Prompt-injection evasion of LLM log interpretation is adjacent; OS target and LLM role ambiguous.",
+    "evidence": "prompt injection attacks against LLM-based log interpretation"
+  },
+  {
+    "id": "R06364",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Multimodal LLM used for distributed security threat detection.",
+    "evidence": "integrates federated learning with multimodal large language models (LLMs)"
+  },
+  {
+    "id": "R06365",
+    "decision": "EXCLUDE",
+    "reason": "Cross-system log anomaly detection for reliability; security outcome not established.",
+    "evidence": "ensuring the stability and reliability of web systems"
+  },
+  {
+    "id": "R06366",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM interprets attack manifestations in system logs and security alerts.",
+    "evidence": "utilizing an LLM to process the CAM-LDS"
+  },
+  {
+    "id": "R06367",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM generates executable queries for security log investigation.",
+    "evidence": "generates executable query code from natural-language security questions"
+  },
+  {
+    "id": "R06368",
+    "decision": "EXCLUDE",
+    "reason": "Stability-focused cross-system log anomaly detection; no clear security outcome.",
+    "evidence": "Log-based anomaly detection is crucial for ensuring software system stability"
+  },
+  {
+    "id": "R06369",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-driven threat intelligence and detection on edge systems.",
+    "evidence": "enhancing cybersecurity on resource-constrained edge devices"
+  },
+  {
+    "id": "R06370",
+    "decision": "POSSIBLE_CORE",
+    "reason": "GPT-Neo-based system-log anomaly detection framed as security-critical.",
+    "evidence": "critical for the reliability and security of modern computing infrastructure"
+  },
+  {
+    "id": "R06371",
+    "decision": "EXCLUDE",
+    "reason": "Review of LLM-based log parsing; surveys excluded from core empirical set.",
+    "evidence": "systematically reviews 29 LLM-based log parsing methods"
+  },
+  {
+    "id": "R06372",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM agent performs autonomous security incident response using system logs.",
+    "evidence": "end-to-end agentic solution for incident response planning"
+  },
+  {
+    "id": "R06373",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-derived semantic embeddings used for APT detection in system logs.",
+    "evidence": "leverages semantic embeddings generated by Large Language Models (LLMs)"
+  },
+  {
+    "id": "R06374",
+    "decision": "UNCLEAR",
+    "reason": "Defends an LLM/SOC pipeline against log poisoning; OS-component targeting unclear.",
+    "evidence": "indirect prompt injection via log poisoning"
+  },
+  {
+    "id": "R06375",
+    "decision": "EXCLUDE",
+    "reason": "LLM log anomaly detection for monitoring; no explicit security outcome.",
+    "evidence": "System logs are a critical resource for monitoring and managing distributed systems"
+  },
+  {
+    "id": "R06376",
+    "decision": "EXCLUDE",
+    "reason": "LLM role is log-data purification for training, not security analysis.",
+    "evidence": "rule-enhanced purification framework"
+  },
+  {
+    "id": "R06377",
+    "decision": "EXCLUDE",
+    "reason": "Privacy-aware cybersecurity QA benchmark; not OS-targeted security research.",
+    "evidence": "privacy-aware QA benchmark covering key security domains"
+  }
+]

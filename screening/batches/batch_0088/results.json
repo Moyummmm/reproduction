@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03521",
+    "decision": "EXCLUDE",
+    "reason": "LLM application observability and KPI framework, not an OS security task.",
+    "evidence": "observability in large language model (LLM) applications"
+  },
+  {
+    "id": "R03522",
+    "decision": "EXCLUDE",
+    "reason": "Title addresses general log parsing, with no security or OS target.",
+    "evidence": "LLM-based Log Parsing"
+  },
+  {
+    "id": "R03523",
+    "decision": "EXCLUDE",
+    "reason": "Unsupervised log parsing method, not security analysis or an OS target.",
+    "evidence": "Unsupervised Log Parsing"
+  },
+  {
+    "id": "R03524",
+    "decision": "EXCLUDE",
+    "reason": "Petrophysical well-log benchmark, outside OS security.",
+    "evidence": "Well Logs on Carbonate Reservoirs"
+  },
+  {
+    "id": "R03525",
+    "decision": "EXCLUDE",
+    "reason": "Audit of LLM panel agreement under quantization, not OS security.",
+    "evidence": "Does Quantization Change What Agreement Means?"
+  },
+  {
+    "id": "R03526",
+    "decision": "EXCLUDE",
+    "reason": "Clinical and public-health citation audit, outside OS security.",
+    "evidence": "Clinical and Public Health Large Language Model (LLM) Outputs"
+  },
+  {
+    "id": "R03527",
+    "decision": "EXCLUDE",
+    "reason": "Distributed audit-log storage system; title shows no LLM or security analysis.",
+    "evidence": "Distributed Audit Log Storage System"
+  },
+  {
+    "id": "R03528",
+    "decision": "EXCLUDE",
+    "reason": "LLM assistant for energy management, not OS security.",
+    "evidence": "using large language models in the energy management system"
+  },
+  {
+    "id": "R03529",
+    "decision": "EXCLUDE",
+    "reason": "RCA framework for failures in multi-agent LLM systems, not OS security.",
+    "evidence": "automated root-cause analysis in multi-agent LLM systems"
+  },
+  {
+    "id": "R03530",
+    "decision": "EXCLUDE",
+    "reason": "Incident RCA in distributed microservices, not a security or OS task.",
+    "evidence": "Distributed System Incidents"
+  },
+  {
+    "id": "R03531",
+    "decision": "EXCLUDE",
+    "reason": "Enterprise indicator forecasting and RCA, outside OS security.",
+    "evidence": "Exploring Enterprise Operating Indicator Data"
+  },
+  {
+    "id": "R03532",
+    "decision": "UNCLEAR",
+    "reason": "Title links RCA to OS logs, but the missing abstract leaves the LLM role and security task uncertain.",
+    "evidence": "Root Cause Analysis for Server Failure using Operating System Logs"
+  },
+  {
+    "id": "R03533",
+    "decision": "EXCLUDE",
+    "reason": "Cloud observability and RCA framework, not OS security analysis.",
+    "evidence": "LLM-Powered Multi-Agent Root Cause Analysis"
+  },
+  {
+    "id": "R03534",
+    "decision": "EXCLUDE",
+    "reason": "Empirical study of microservice RCA accuracy, not OS security.",
+    "evidence": "Microservice Benchmarks"
+  },
+  {
+    "id": "R03535",
+    "decision": "EXCLUDE",
+    "reason": "Power-system alarm RCA, outside OS security.",
+    "evidence": "root cause analysis of power system alarms"
+  },
+  {
+    "id": "R03536",
+    "decision": "EXCLUDE",
+    "reason": "Balanced-scorecard performance measurement and RCA, outside OS security.",
+    "evidence": "Balanced Scorecard and Root Cause Analysis Method"
+  },
+  {
+    "id": "R03537",
+    "decision": "EXCLUDE",
+    "reason": "RCA for microservice exceptions, not security analysis of OS components.",
+    "evidence": "Automated Root Cause Analysis in Microservices Architectures"
+  },
+  {
+    "id": "R03538",
+    "decision": "EXCLUDE",
+    "reason": "Cloud microservice RCA using LLM priors, not OS security.",
+    "evidence": "Multimodal Root Cause Analysis for Cloud Microservices"
+  },
+  {
+    "id": "R03539",
+    "decision": "EXCLUDE",
+    "reason": "Profiling-based RCA, with no stated security or OS target.",
+    "evidence": "LLM-Enabled Fine-Grained Root Cause Analysis with Continuous Profiling Data"
+  },
+  {
+    "id": "R03540",
+    "decision": "EXCLUDE",
+    "reason": "Microservice RCA methods, outside OS security.",
+    "evidence": "Root Cause Analysis Methods for Microservice System"
+  },
+  {
+    "id": "R03541",
+    "decision": "EXCLUDE",
+    "reason": "Robotics RCA escalation engine, not OS security.",
+    "evidence": "Root-Cause Analysis in Advanced Robotics Systems"
+  },
+  {
+    "id": "R03542",
+    "decision": "EXCLUDE",
+    "reason": "Metric-based microservice RCA scaffold, not OS security.",
+    "evidence": "Metric-Based Microservice Root-Cause Analysis"
+  },
+  {
+    "id": "R03543",
+    "decision": "EXCLUDE",
+    "reason": "Generic RCA knowledge-base construction, not OS security.",
+    "evidence": "LLM-Augmented Knowledge Base Construction for Root Cause Analysis"
+  },
+  {
+    "id": "R03544",
+    "decision": "EXCLUDE",
+    "reason": "Outage RCA inference engine, not security or an OS target.",
+    "evidence": "Autonomous Inference Engine for Multi-Layered System Outages"
+  },
+  {
+    "id": "R03545",
+    "decision": "EXCLUDE",
+    "reason": "SRE incident analysis and RCA, not OS security.",
+    "evidence": "Intelligent Site Reliability Engineering"
+  },
+  {
+    "id": "R03546",
+    "decision": "EXCLUDE",
+    "reason": "Terminal test-report automation and RCA, not OS security.",
+    "evidence": "Intelligent Terminal Test Report Automation"
+  },
+  {
+    "id": "R03547",
+    "decision": "UNCLEAR",
+    "reason": "SSD firmware validation is OS-adjacent, but the missing abstract leaves the security task unclear.",
+    "evidence": "Automated Root Cause Analysis in SSD Firmware Validation"
+  },
+  {
+    "id": "R03548",
+    "decision": "EXCLUDE",
+    "reason": "Quality-engineering test automation and RCA, not OS security.",
+    "evidence": "Intelligent Test Automation and Root Cause Analysis"
+  },
+  {
+    "id": "R03549",
+    "decision": "EXCLUDE",
+    "reason": "RCA for LLM inference, not security analysis of OS components.",
+    "evidence": "Cross-Layer Root-Cause Analysis for LLM Inference"
+  },
+  {
+    "id": "R03550",
+    "decision": "EXCLUDE",
+    "reason": "Datacenter network self-healing includes intrusion detection, but no LLM role and no OS security focus.",
+    "evidence": "autonomous self-healing datacenter networks"
+  },
+  {
+    "id": "R03551",
+    "decision": "EXCLUDE",
+    "reason": "RCA/RCFA guidelines, not original empirical research and no LLM.",
+    "evidence": "Root Cause Failure Analysis"
+  },
+  {
+    "id": "R03552",
+    "decision": "EXCLUDE",
+    "reason": "Microservice backend RCA, not OS security.",
+    "evidence": "Root Cause Analysis for Microservice Backends"
+  },
+  {
+    "id": "R03553",
+    "decision": "EXCLUDE",
+    "reason": "Microservice RCA alignment method, not OS security.",
+    "evidence": "Microservice Root Cause Analysis"
+  },
+  {
+    "id": "R03554",
+    "decision": "EXCLUDE",
+    "reason": "Hardware design failure RCA, not OS security.",
+    "evidence": "Root Cause Analysis of Hardware Design Failures"
+  },
+  {
+    "id": "R03555",
+    "decision": "EXCLUDE",
+    "reason": "Introductory RCFA guidance, not original research and no LLM.",
+    "evidence": "Introduction to Successful Root Cause Failure Analysis"
+  },
+  {
+    "id": "R03556",
+    "decision": "EXCLUDE",
+    "reason": "Customer-service complaint RCA, not OS security.",
+    "evidence": "Root Cause Analysis (RCA) In Customer Service Automation"
+  },
+  {
+    "id": "R03557",
+    "decision": "EXCLUDE",
+    "reason": "SOP-enhanced multi-agent RCA, not OS security.",
+    "evidence": "SOP Enhanced LLM-Based Multi-Agent System for Root Cause Analysis"
+  },
+  {
+    "id": "R03558",
+    "decision": "EXCLUDE",
+    "reason": "AIOps RCA agents, not OS security.",
+    "evidence": "Evidence-Grounded LLM Agents for Root Cause Analysis in AIOPs"
+  },
+  {
+    "id": "R03559",
+    "decision": "EXCLUDE",
+    "reason": "SAP Cloud ALM telemetry RCA, not OS security.",
+    "evidence": "LLM-AUGMENTED ROOT CAUSE ANALYSIS"
+  },
+  {
+    "id": "R03560",
+    "decision": "EXCLUDE",
+    "reason": "Griller product quality control with FMEA/RCA, outside OS security.",
+    "evidence": "Analysis Quality Control of Griller Products"
+  }
+]

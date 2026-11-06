@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R00281",
+    "decision": "UNCLEAR",
+    "reason": "Title links a language model to malicious-code detection, but no abstract confirms an OS/privileged target or a substantive LLM role.",
+    "evidence": "Based on the Large Language Model ModernBERT"
+  },
+  {
+    "id": "R00282",
+    "decision": "EXCLUDE",
+    "reason": "Local-government operating model; no OS security or LLM research.",
+    "evidence": "new operating model for local government in Wales"
+  },
+  {
+    "id": "R00283",
+    "decision": "UNCLEAR",
+    "reason": "Windows vulnerability work is potentially relevant, but the missing abstract leaves LLM use and original-research scope unverified.",
+    "evidence": "Windows 10 Operating System: Vulnerability Assessment and Exploitation"
+  },
+  {
+    "id": "R00284",
+    "decision": "EXCLUDE",
+    "reason": "Local-government operating model; no OS security or LLM research.",
+    "evidence": "towards a new operating model for local government"
+  },
+  {
+    "id": "R00285",
+    "decision": "EXCLUDE",
+    "reason": "OS kernel resource-governance paper; abstract describes security aims but no LLM use.",
+    "evidence": "ensures the security of key resources in OSes"
+  },
+  {
+    "id": "R00286",
+    "decision": "UNCLEAR",
+    "reason": "OS VAPT topic could be relevant, but the title gives no LLM role and the abstract is missing.",
+    "evidence": "Vulnerability Assesment and Penetration Testing (VAPT) on Operating System Security"
+  },
+  {
+    "id": "R00287",
+    "decision": "EXCLUDE",
+    "reason": "Power-grid foundation-model auditing, not OS/privileged security analysis.",
+    "evidence": "grid foundation models for operational power-system screening"
+  },
+  {
+    "id": "R00288",
+    "decision": "EXCLUDE",
+    "reason": "Stochastic modeling of vulnerability discovery, not an LLM-based security task; abstract missing.",
+    "evidence": "Predicting vulnerability discovery processes in an operating system"
+  },
+  {
+    "id": "R00289",
+    "decision": "EXCLUDE",
+    "reason": "Regenerative-systems framework using an operating-system metaphor; no OS security or LLM.",
+    "evidence": "an operating system for building trusted regenerative systems"
+  },
+  {
+    "id": "R00290",
+    "decision": "EXCLUDE",
+    "reason": "Battery degradation modeling; outside OS security and LLM scope.",
+    "evidence": "Lithium-Ion Battery Degradation Model"
+  },
+  {
+    "id": "R00291",
+    "decision": "EXCLUDE",
+    "reason": "Title specifies GNN-based OS vulnerability detection, not an LLM method; abstract missing.",
+    "evidence": "Vulnerability Detection Technology Based on Graph Neural Networks"
+  },
+  {
+    "id": "R00292",
+    "decision": "EXCLUDE",
+    "reason": "Firm supply-chain vulnerability in Somalia; not OS/privileged security or LLM research.",
+    "evidence": "Supply Chain Vulnerability of Firms Operating in Post-conflict Zones"
+  },
+  {
+    "id": "R00293",
+    "decision": "EXCLUDE",
+    "reason": "Subway foundation-pit vulnerability study; outside OS security and LLM scope.",
+    "evidence": "subway deep foundation pit construction system"
+  },
+  {
+    "id": "R00294",
+    "decision": "EXCLUDE",
+    "reason": "Civilizational model using an operating-system metaphor; no OS security or LLM.",
+    "evidence": "Civilization as an Operating System"
+  },
+  {
+    "id": "R00295",
+    "decision": "EXCLUDE",
+    "reason": "Psychological Bayesian model labeled a cognitive operating system; no technical OS security or LLM.",
+    "evidence": "A Cognitive Operating System for Adaptive Human Behaviour"
+  },
+  {
+    "id": "R00296",
+    "decision": "EXCLUDE",
+    "reason": "Psychological Bayesian model labeled a cognitive operating system; no technical OS security or LLM.",
+    "evidence": "A Cognitive Operating System for Adaptive Human Behaviour"
+  },
+  {
+    "id": "R00297",
+    "decision": "EXCLUDE",
+    "reason": "Automotive SOA platform paper; no security task or LLM use described.",
+    "evidence": "intelligent driving operating system foundation"
+  },
+  {
+    "id": "R00298",
+    "decision": "EXCLUDE",
+    "reason": "Psychological Bayesian framework labeled a cognitive operating system; no technical OS security or LLM.",
+    "evidence": "cognitive operating system for adaptive human behaviour"
+  },
+  {
+    "id": "R00299",
+    "decision": "EXCLUDE",
+    "reason": "Psychological Bayesian framework labeled a cognitive operating system; no technical OS security or LLM.",
+    "evidence": "cognitive operating system for adaptive human behaviour"
+  },
+  {
+    "id": "R00300",
+    "decision": "EXCLUDE",
+    "reason": "Psychological Bayesian framework labeled a cognitive operating system; no technical OS security or LLM.",
+    "evidence": "cognitive operating system for adaptive human behaviour"
+  },
+  {
+    "id": "R00301",
+    "decision": "EXCLUDE",
+    "reason": "Psychological Bayesian framework labeled a cognitive operating system; no technical OS security or LLM.",
+    "evidence": "cognitive operating system for adaptive human behaviour"
+  },
+  {
+    "id": "R00302",
+    "decision": "EXCLUDE",
+    "reason": "Psychological Bayesian framework labeled a cognitive operating system; no technical OS security or LLM.",
+    "evidence": "cognitive operating system for adaptive human behaviour"
+  },
+  {
+    "id": "R00303",
+    "decision": "EXCLUDE",
+    "reason": "Psychological Bayesian framework labeled a cognitive operating system; no technical OS security or LLM.",
+    "evidence": "cognitive operating system for adaptive human behaviour"
+  },
+  {
+    "id": "R00304",
+    "decision": "EXCLUDE",
+    "reason": "Psychological Bayesian framework labeled a cognitive operating system; no technical OS security or LLM.",
+    "evidence": "cognitive operating system for adaptive human behaviour"
+  },
+  {
+    "id": "R00305",
+    "decision": "EXCLUDE",
+    "reason": "Psychological Bayesian framework labeled a cognitive operating system; no technical OS security or LLM.",
+    "evidence": "cognitive operating system for adaptive human behaviour"
+  },
+  {
+    "id": "R00306",
+    "decision": "EXCLUDE",
+    "reason": "Psychological Bayesian framework labeled a cognitive operating system; no technical OS security or LLM.",
+    "evidence": "cognitive operating system for adaptive human behaviour"
+  },
+  {
+    "id": "R00307",
+    "decision": "EXCLUDE",
+    "reason": "Psychological Bayesian framework labeled a cognitive operating system; no technical OS security or LLM.",
+    "evidence": "cognitive operating system for adaptive human behaviour"
+  },
+  {
+    "id": "R00308",
+    "decision": "EXCLUDE",
+    "reason": "Psychological Bayesian framework labeled a cognitive operating system; no technical OS security or LLM.",
+    "evidence": "cognitive operating system for adaptive human behaviour"
+  },
+  {
+    "id": "R00309",
+    "decision": "EXCLUDE",
+    "reason": "Psychological Bayesian framework labeled a cognitive operating system; no technical OS security or LLM.",
+    "evidence": "cognitive operating system for adaptive human behaviour"
+  },
+  {
+    "id": "R00310",
+    "decision": "EXCLUDE",
+    "reason": "Psychological Bayesian framework labeled a cognitive operating system; no technical OS security or LLM.",
+    "evidence": "cognitive operating system for adaptive human behaviour"
+  },
+  {
+    "id": "R00311",
+    "decision": "EXCLUDE",
+    "reason": "Urban metro operation-system vulnerability simulation; not OS/privileged computing security.",
+    "evidence": "Vulnerability Simulation and Evaluation of Urban Metro Operation System"
+  },
+  {
+    "id": "R00312",
+    "decision": "EXCLUDE",
+    "reason": "Psychological Bayesian framework labeled a cognitive operating system; no technical OS security or LLM.",
+    "evidence": "cognitive operating system for adaptive human behaviour"
+  },
+  {
+    "id": "R00313",
+    "decision": "EXCLUDE",
+    "reason": "Psychological Bayesian framework labeled a cognitive operating system; no technical OS security or LLM.",
+    "evidence": "cognitive operating system for adaptive human behaviour"
+  },
+  {
+    "id": "R00314",
+    "decision": "EXCLUDE",
+    "reason": "Psychological Bayesian framework labeled a cognitive operating system; no technical OS security or LLM.",
+    "evidence": "cognitive operating system for adaptive human behaviour"
+  },
+  {
+    "id": "R00315",
+    "decision": "EXCLUDE",
+    "reason": "Distributed programming and cloud-side OS concept; no security task or LLM use.",
+    "evidence": "cloud-side operating system"
+  },
+  {
+    "id": "R00316",
+    "decision": "EXCLUDE",
+    "reason": "Control-systems identification around an operating point; not OS security or LLM.",
+    "evidence": "Varying Operating Point"
+  },
+  {
+    "id": "R00317",
+    "decision": "EXCLUDE",
+    "reason": "Sustainable-finance data foundation; outside OS security and LLM scope.",
+    "evidence": "The Data Foundation of Sustainable Finance"
+  },
+  {
+    "id": "R00318",
+    "decision": "EXCLUDE",
+    "reason": "Windows host vulnerability scanner with driver-aware CVE correlation; no LLM use described.",
+    "evidence": "DefenX, a lightweight host-based vulnerability scanner"
+  },
+  {
+    "id": "R00319",
+    "decision": "UNCLEAR",
+    "reason": "IVI operating-interface fuzzing is potentially relevant, but the missing abstract leaves the LLM role unverified.",
+    "evidence": "operating interface of the In-Vehicle Infotainment system"
+  },
+  {
+    "id": "R00320",
+    "decision": "EXCLUDE",
+    "reason": "Hospital operating-room hazard analysis; outside OS security and LLM scope.",
+    "evidence": "operating room in a hospital in China"
+  }
+]

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/m0nrqfFsbMIpKDPoyfHi4eBYmCo</id>
+  <title>arXiv Query: search_query=(all:"large language model" OR all:LLM OR all:GPT) AND (all:"device driver" AND (all:security OR all:fuzzing OR all:vulnerability) )&amp;id_list=&amp;start=0&amp;max_results=100</title>
+  <updated>2026-11-05T05:39:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(all:%22large+language+model%22+OR+(all:LLM+OR+all:GPT))+AND+(all:%22device+driver%22+AND+(all:security+OR+(all:fuzzing+OR+all:vulnerability)))&amp;start=0&amp;max_results=100&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>100</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.00430v1</id>
+    <title>Don't Trust the Code, Check Its Effects: Runtime Refinement for Regenerated Systems Code Under an Adversarial Generator</title>
+    <updated>2026-08-31T22:06:48Z</updated>
+    <link href="https://arxiv.org/abs/2609.00430v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.00430v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work uses large language models to generate systems code from specifications, treating the specification as the durable artifact and the implementation as disposable. Regenerating the implementation specializes it to each workload and device. However, that work lives in a forgiving setting: a component's externally visible effects, its writes and device commands, are recoverable, and the generator is honest, so trust is discharged by re-execution. We target the unforgiving setting: systems code whose effects are irreversible, produced by a generator that may be adversarial. There, re-execution cannot check an effect after the fact, and a proof fails silently when its assumptions do. We take the position that the only safe way to operate here is to deny the generated code the authority to act. The generated code only plans, while a fixed trusted mediator owns every effect and performs one only when the specification would have produced it. Because the guarantee lives in the mediator, not the code, it survives regeneration. We instantiate this as a reference monitor for regenerated device drivers, and characterize the mediability envelope, six conditions on the effect vocabulary: legibility, spec-input observability, correlatability, completeness, outcome enumerability, and explicit durability. They decide when such mediation is possible.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-31T22:06:48Z</published>
+    <arxiv:comment>Accepted to the 5th Workshop on Practical Adoption Challenges of ML for Systems (PACMI 2026), co-located with ACM SOSP 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jinhao Hu</name>
+    </author>
+    <author>
+      <name>Ashvin Goel</name>
+    </author>
+    <author>
+      <name>Laurent Bindschaedler</name>
+    </author>
+    <arxiv:doi>10.1145/3843967.3844678</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3843967.3844678" title="doi"/>
+  </entry>
+</feed>

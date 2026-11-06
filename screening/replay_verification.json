@@ -1,0 +1,12 @@
+{
+  "byte_identical": {
+    "./screening_results.csv": true,
+    "arxiv_extension/screening_results.csv": true,
+    "crosssource/triage/screening_results.csv": true,
+    "second_pass/comparison.csv": true,
+    "third_pass/third_review.csv": true,
+    "priority_review_queue.csv": true,
+    "high_priority_review_queue.csv": true
+  },
+  "note": "Derived outputs replay saved model events; no claim of model factual accuracy."
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R04401",
+    "decision": "EXCLUDE",
+    "reason": "Office-layout generation for workplace design; no security task or OS target.",
+    "evidence": "automated generation of activity-based office layouts"
+  },
+  {
+    "id": "R04402",
+    "decision": "EXCLUDE",
+    "reason": "Robot behaviour-tree generation; robotics application, not security or OS components.",
+    "evidence": "AI-driven Fast Generation of Robot Behaviour Tree"
+  },
+  {
+    "id": "R04403",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM inference and feature-generation techniques; reviews excluded, no OS security task.",
+    "evidence": "our survey provides an overview of 10 representative LLM techniques"
+  },
+  {
+    "id": "R04404",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM inference and feature-generation techniques; reviews excluded, no OS security task.",
+    "evidence": "our survey provides an overview of 10 representative LLM techniques"
+  },
+  {
+    "id": "R04405",
+    "decision": "UNCLEAR",
+    "reason": "LLM-assisted software testing is named, but security task and OS/privileged target are not; abstract missing.",
+    "evidence": "LARGE LANGUAGE MODEL-ASSISTED SOFTWARE TESTING"
+  },
+  {
+    "id": "R04406",
+    "decision": "EXCLUDE",
+    "reason": "Backdooring LLMs/RAG is security of LLMs, not an OS-targeted security task.",
+    "evidence": "Retrieval-Augmented Generation Can Be Backdoor Driver"
+  },
+  {
+    "id": "R04407",
+    "decision": "EXCLUDE",
+    "reason": "Building-energy model generation; non-security domain and no OS target.",
+    "evidence": "building energy model generation"
+  },
+  {
+    "id": "R04408",
+    "decision": "EXCLUDE",
+    "reason": "Generic advanced RAG topic with missing abstract; no security task or OS target indicated.",
+    "evidence": "Advanced Retrieval‐Augmented Generation"
+  },
+  {
+    "id": "R04409",
+    "decision": "UNCLEAR",
+    "reason": "Fuzz-driver generation may support vulnerability discovery, but LLM use and OS/privileged target are unstated; abstract missing.",
+    "evidence": "fuzz driver generation for binary libraries"
+  },
+  {
+    "id": "R04410",
+    "decision": "EXCLUDE",
+    "reason": "RAG distillation for contextual response prediction; no security analysis or OS target.",
+    "evidence": "retrieval-augmented generation (RAG) and model distillation"
+  },
+  {
+    "id": "R04411",
+    "decision": "EXCLUDE",
+    "reason": "Automated summary report generation; non-security application.",
+    "evidence": "Summary Report Auto-Generation"
+  },
+  {
+    "id": "R04412",
+    "decision": "EXCLUDE",
+    "reason": "LLM code generation for construction robots; construction/robotics domain, no OS security.",
+    "evidence": "Control of Construction Assembly Robots"
+  },
+  {
+    "id": "R04413",
+    "decision": "EXCLUDE",
+    "reason": "Healthcare-focused chapter on multi-agent LLMs; no OS-targeted security task.",
+    "evidence": "Multi-agent LLM systems in diagnostics and healthcare"
+  },
+  {
+    "id": "R04414",
+    "decision": "EXCLUDE",
+    "reason": "Public-service RAG chatbot; no security analysis, testing, or OS target.",
+    "evidence": "chatbot cerdas berbasis Large Language Model (LLM)"
+  },
+  {
+    "id": "R04415",
+    "decision": "EXCLUDE",
+    "reason": "Vocabulary-test generation and evaluation; education application, not security or OS.",
+    "evidence": "AUTOMATED GENERATION AND EVALUATION OF VOCABULARY TESTS"
+  },
+  {
+    "id": "R04416",
+    "decision": "EXCLUDE",
+    "reason": "Industry-chain graph generation; business application with no security or OS focus.",
+    "evidence": "Industry Chain Agent"
+  },
+  {
+    "id": "R04417",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM reasoning techniques; reviews excluded and no OS security task.",
+    "evidence": "This paper surveys the core reasoning techniques"
+  },
+  {
+    "id": "R04418",
+    "decision": "EXCLUDE",
+    "reason": "Adaptive traffic-signal control; transportation application, not security or OS.",
+    "evidence": "adaptive traffic signals"
+  },
+  {
+    "id": "R04419",
+    "decision": "UNCLEAR",
+    "reason": "Title is generic and abstract missing, so security task, OS target, and LLM role cannot be assessed.",
+    "evidence": "Large Language Models"
+  },
+  {
+    "id": "R04420",
+    "decision": "EXCLUDE",
+    "reason": "Aviation-accident causal analysis; safety/transport domain, not OS security.",
+    "evidence": "Causal Identification of Aviation Accidents"
+  },
+  {
+    "id": "R04421",
+    "decision": "EXCLUDE",
+    "reason": "Construction safety visualization and fault-tree generation; not cybersecurity or OS target.",
+    "evidence": "Construction Safety Data Visualization and Fault Tree Generation"
+  },
+  {
+    "id": "R04422",
+    "decision": "EXCLUDE",
+    "reason": "ETL workflow generation; data-engineering task with no security or OS focus.",
+    "evidence": "Autonomous ETL Workflow Generation"
+  },
+  {
+    "id": "R04423",
+    "decision": "EXCLUDE",
+    "reason": "Apartment price prediction from real-estate news; non-security domain.",
+    "evidence": "Predicting Apartment Price Indices"
+  },
+  {
+    "id": "R04424",
+    "decision": "EXCLUDE",
+    "reason": "Procedural-graph generation with iterative correction; general LLM generation, not security or OS.",
+    "evidence": "Iterative Error-Correction Framework"
+  },
+  {
+    "id": "R04425",
+    "decision": "EXCLUDE",
+    "reason": "Context-driven LLM self-adaptation; general generation research, not security or OS.",
+    "evidence": "Context-Driven Self-Adaptation Mechanism"
+  },
+  {
+    "id": "R04426",
+    "decision": "EXCLUDE",
+    "reason": "Patent concept generation; non-security application.",
+    "evidence": "patent concept generation"
+  },
+  {
+    "id": "R04427",
+    "decision": "EXCLUDE",
+    "reason": "Learning-object generation; education application, no security or OS task.",
+    "evidence": "Interconnected Learning Objects"
+  },
+  {
+    "id": "R04428",
+    "decision": "EXCLUDE",
+    "reason": "LLM-generated Java deserialization exploits target application gadget chains, not OS components or privileged interfaces.",
+    "evidence": "automated Java deserialization payload generation"
+  },
+  {
+    "id": "R04429",
+    "decision": "EXCLUDE",
+    "reason": "Medical dialogue word enhancement; healthcare application, not security or OS.",
+    "evidence": "Medical related word enhancement framework"
+  },
+  {
+    "id": "R04430",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM HDL generation; reviews excluded and hardware design is outside OS-security scope.",
+    "evidence": "A Survey on Large Language Models for Hardware Description Language Generation"
+  },
+  {
+    "id": "R04431",
+    "decision": "EXCLUDE",
+    "reason": "General LLM text-generation topic; no security task or OS target indicated.",
+    "evidence": "Large Language Model and Text Generation"
+  },
+  {
+    "id": "R04432",
+    "decision": "EXCLUDE",
+    "reason": "Well-logging report generation; geoscience application, not security or OS.",
+    "evidence": "Report Generation System for Well Logging Industry"
+  },
+  {
+    "id": "R04433",
+    "decision": "EXCLUDE",
+    "reason": "Medical visual question generation; healthcare application, not security or OS.",
+    "evidence": "Medical Domain Visual Question Generation Model"
+  },
+  {
+    "id": "R04434",
+    "decision": "EXCLUDE",
+    "reason": "Constraint-model generation for configuration problems; general CSP task, not security or OS.",
+    "evidence": "Automated Constraint Model Generation in Configuration Problems"
+  },
+  {
+    "id": "R04435",
+    "decision": "UNCLEAR",
+    "reason": "Fuzz-driver generation may support vulnerability discovery, but LLM use and OS/privileged target are unstated; abstract missing.",
+    "evidence": "Automatic Generation of Fuzz Driver using Unit Tests"
+  },
+  {
+    "id": "R04436",
+    "decision": "EXCLUDE",
+    "reason": "Ontology generation with an LLM; knowledge-engineering task, not security or OS.",
+    "evidence": "Ontology Generation with a Dedicated Large Language Model"
+  },
+  {
+    "id": "R04437",
+    "decision": "EXCLUDE",
+    "reason": "Drug generation for protein targets; biomedical application, not security or OS.",
+    "evidence": "Drug Generation for Novel Protein Targets"
+  },
+  {
+    "id": "R04438",
+    "decision": "EXCLUDE",
+    "reason": "Story generation through human-LLM interaction; creative application, not security or OS.",
+    "evidence": "Story Generation via Interaction between Human and Large Language Model"
+  },
+  {
+    "id": "R04439",
+    "decision": "EXCLUDE",
+    "reason": "Synthetic data generation for phrase-break prediction; speech application, not security or OS.",
+    "evidence": "Synthetic Data Generation for Phrase Break Prediction"
+  },
+  {
+    "id": "R04440",
+    "decision": "EXCLUDE",
+    "reason": "Consistent graph-model generation; general LLM generation, not security or OS.",
+    "evidence": "Consistent Graph Model Generation"
+  }
+]

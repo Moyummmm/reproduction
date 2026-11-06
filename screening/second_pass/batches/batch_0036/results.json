@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R04794",
+    "decision": "UNCLEAR",
+    "reason": "LLM cybersecurity evaluation with VM exploit validation, but the OS-level target and the LLM's substantive security role are not explicit.",
+    "evidence": "tracking 217 Indicators of Compromise within isolated VM environments"
+  },
+  {
+    "id": "R04795",
+    "decision": "EXCLUDE",
+    "reason": "Chart captioning and visualization work with no security task or OS target.",
+    "evidence": "LLM-generated chart captions"
+  },
+  {
+    "id": "R04796",
+    "decision": "EXCLUDE",
+    "reason": "LLM code-generation context study with no security outcome or OS target.",
+    "evidence": "Persistent Design Context Improves LLM Code Generation"
+  },
+  {
+    "id": "R04799",
+    "decision": "EXCLUDE",
+    "reason": "LLM-driven UI generation DSL with no security task or OS target.",
+    "evidence": "compact Domain-Specific Language (DSL) to express User Interfaces"
+  },
+  {
+    "id": "R04800",
+    "decision": "EXCLUDE",
+    "reason": "Automated heap exploit generation uses symbolic execution and ASTs, with no LLM involvement.",
+    "evidence": "AAHEG can automatically detect heap-related vulnerabilities in binaries without source code"
+  },
+  {
+    "id": "R04802",
+    "decision": "EXCLUDE",
+    "reason": "Duplicate LLM code-generation context study with no security outcome or OS target.",
+    "evidence": "Persistent Design Context Improves LLM Code Generation"
+  },
+  {
+    "id": "R04804",
+    "decision": "EXCLUDE",
+    "reason": "Ethics and governance analysis of LLM quantum code generation, not OS security research.",
+    "evidence": "ethical, legal, and technical challenges"
+  },
+  {
+    "id": "R04808",
+    "decision": "EXCLUDE",
+    "reason": "LLM agent planning and error correction in embodied tasks, with no security or OS target.",
+    "evidence": "simulated embodied environments (e.g., VirtualHome)"
+  },
+  {
+    "id": "R04814",
+    "decision": "EXCLUDE",
+    "reason": "Human-LLM design scaffold study on heuristic generation, with no security or OS target.",
+    "evidence": "heuristic generation for the Directed Steiner Tree problem"
+  },
+  {
+    "id": "R04815",
+    "decision": "EXCLUDE",
+    "reason": "Backend API code-generation study; security metrics are used, but there is no OS security task.",
+    "evidence": "NestJS-based API endpoint generation"
+  },
+  {
+    "id": "R04816",
+    "decision": "EXCLUDE",
+    "reason": "Review of automated exploit-generation frameworks, and reviews are excluded from the core empirical set.",
+    "evidence": "This review examines the technological trajectory"
+  },
+  {
+    "id": "R04817",
+    "decision": "EXCLUDE",
+    "reason": "LLM music generation and data augmentation with no security or OS target.",
+    "evidence": "fine-tuning of the MusicGen model"
+  },
+  {
+    "id": "R04818",
+    "decision": "EXCLUDE",
+    "reason": "LLM benchmark for cross-chain smart-contract code generation, not OS security research.",
+    "evidence": "cross-chain smart contract translation and contract generation"
+  },
+  {
+    "id": "R04823",
+    "decision": "EXCLUDE",
+    "reason": "Governance framework for secure enterprise code generation, focused on general software rather than OS security.",
+    "evidence": "enterprise software development workflows"
+  },
+  {
+    "id": "R04826",
+    "decision": "EXCLUDE",
+    "reason": "Mental-health chatbot whose safety evaluation is not OS security research.",
+    "evidence": "chatbot kesehatan mental berbasis LLM"
+  },
+  {
+    "id": "R04829",
+    "decision": "EXCLUDE",
+    "reason": "LLM-friendly CAD DSL with no security task or OS target.",
+    "evidence": "computer-aided design (CAD) generation"
+  },
+  {
+    "id": "R04830",
+    "decision": "EXCLUDE",
+    "reason": "Neuro-symbolic finance SQL generation with no security task or OS target.",
+    "evidence": "text-to-SQL translation"
+  },
+  {
+    "id": "R04833",
+    "decision": "EXCLUDE",
+    "reason": "Self-reflective RAG to reduce hallucination, with no security task or OS target.",
+    "evidence": "Eliminate Hallucination in LLM Generation"
+  },
+  {
+    "id": "R04838",
+    "decision": "EXCLUDE",
+    "reason": "LLM dashboard generation with no security task or OS target.",
+    "evidence": "automatically generate comprehensive analytical dashboards"
+  },
+  {
+    "id": "R04841",
+    "decision": "EXCLUDE",
+    "reason": "Runtime release gating for LLM reliability with no security task or OS target.",
+    "evidence": "Decoupling generation from release"
+  },
+  {
+    "id": "R04843",
+    "decision": "EXCLUDE",
+    "reason": "Retrieval-augmented knowledge fusion with no security task or OS target.",
+    "evidence": "retrieval-augmented generation method enhanced with intelligent search algorithms"
+  },
+  {
+    "id": "R04846",
+    "decision": "EXCLUDE",
+    "reason": "Dietary-supplement question answering with no security task or OS target.",
+    "evidence": "dietary supplement (DS) question answering"
+  },
+  {
+    "id": "R04847",
+    "decision": "EXCLUDE",
+    "reason": "LLM exam generation and assessment; database access controls are incidental, not OS security research.",
+    "evidence": "использует языковую модель для подготовки тестовых заданий"
+  },
+  {
+    "id": "R04850",
+    "decision": "EXCLUDE",
+    "reason": "MCP provenance gateway defense targets the multi-agent application layer, not an OS component or privileged OS interface.",
+    "evidence": "gateway defense that persists connector provenance on write"
+  },
+  {
+    "id": "R04851",
+    "decision": "EXCLUDE",
+    "reason": "Privilege-escalation detection uses static analysis and MDE with no LLM involvement.",
+    "evidence": "applies static analysis to extract vulnerabilities by pattern matching"
+  },
+  {
+    "id": "R04852",
+    "decision": "EXCLUDE",
+    "reason": "Duplicate privilege-escalation detection study using static analysis and MDE with no LLM involvement.",
+    "evidence": "applies static analysis to extract vulnerabilities by pattern matching"
+  },
+  {
+    "id": "R04853",
+    "decision": "EXCLUDE",
+    "reason": "Microsoft Teams vulnerability discussion with no LLM and no OS-level security task.",
+    "evidence": "Securing it and discovering what vulnerabilities might affect it"
+  },
+  {
+    "id": "R04856",
+    "decision": "EXCLUDE",
+    "reason": "Cloud IAM privilege-cycle classification with no LLM involvement or OS target.",
+    "evidence": "classifying cyclic privilege patterns"
+  },
+  {
+    "id": "R04857",
+    "decision": "EXCLUDE",
+    "reason": "Linux privilege-escalation lab testing uses ISSAF and MITRE techniques, with no LLM involvement.",
+    "evidence": "mengidentifikasi dan mengevaluasi teknik privilege escalation pada sistem operasi Linux"
+  },
+  {
+    "id": "R04862",
+    "decision": "EXCLUDE",
+    "reason": "Security of multi-agent LLM systems, not an LLM used for an OS-level security task.",
+    "evidence": "Cascading Privilege Escalation across Inter-Process Communication (IPC)"
+  },
+  {
+    "id": "R04863",
+    "decision": "EXCLUDE",
+    "reason": "Security analysis of a browser AI-panel CVE; the LLM is not the analysis tool and the target is a browser, not an OS.",
+    "evidence": "systematic security analysis of CVE-2026-0628"
+  },
+  {
+    "id": "R04864",
+    "decision": "EXCLUDE",
+    "reason": "Synthetic clinical escalation conversation dataset with no security task or OS target.",
+    "evidence": "synthetic dataset of 480 multi-turn clinical escalation conversations"
+  },
+  {
+    "id": "R04866",
+    "decision": "EXCLUDE",
+    "reason": "LLM source-fabrication study with no security analysis or testing of OS components.",
+    "evidence": "Source fabrication-the generation of plausible but nonexistent citations"
+  },
+  {
+    "id": "R04868",
+    "decision": "EXCLUDE",
+    "reason": "Legal privilege and confidentiality review of enterprise LLM deployment, not technical OS security.",
+    "evidence": "reviews the doctrinal, regulatory, and practical challenges"
+  },
+  {
+    "id": "R04869",
+    "decision": "EXCLUDE",
+    "reason": "RBAC in DevSecOps toolchains with no LLM involvement and a CI/CD/cloud rather than OS target.",
+    "evidence": "role-based access control (RBAC) within DevSecOps toolchains"
+  },
+  {
+    "id": "R04874",
+    "decision": "EXCLUDE",
+    "reason": "Student-facing LLM agent authorization testing targets an educational application, not an OS.",
+    "evidence": "server-side authorization function was tested on 16 constructed role-action requests"
+  },
+  {
+    "id": "R04876",
+    "decision": "EXCLUDE",
+    "reason": "Social-science critique of academic privilege, not a technical security or OS study.",
+    "evidence": "Western European academia's stance"
+  },
+  {
+    "id": "R04880",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-escalation cost and performance study with no security task or OS target.",
+    "evidence": "Prompt escalation can increase the resource requirements of lightweight large language models"
+  },
+  {
+    "id": "R04881",
+    "decision": "EXCLUDE",
+    "reason": "Course-grounded LLM tutoring verification with no security task or OS target.",
+    "evidence": "course grounded large language model (LLM) tutoring pipeline"
+  },
+  {
+    "id": "R04882",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-driven autonomous Linux privilege-escalation testing targets OS-level access.",
+    "evidence": "fully automated LLM-driven prototype designed for evaluating autonomous Linux privilege-escalation"
+  }
+]

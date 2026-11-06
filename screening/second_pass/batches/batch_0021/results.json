@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02560",
+    "decision": "EXCLUDE",
+    "reason": "LLM serving memory management inspired by OS paging; no security analysis or security task targeting OS components.",
+    "evidence": "An alternative algorithm inspired by the classical virtual memory and paging techniques in operating systems."
+  },
+  {
+    "id": "R02561",
+    "decision": "EXCLUDE",
+    "reason": "Clinical dental trauma evaluation of LLMs; no security task or OS component.",
+    "evidence": "This study evaluated whether LLM performance in dental trauma management differs based on the language"
+  },
+  {
+    "id": "R02564",
+    "decision": "EXCLUDE",
+    "reason": "Long-context efficiency methods; no security analysis or OS target.",
+    "evidence": "a Hierarchical Token Compressor (HTC) that builds multi-granularity token pyramids"
+  },
+  {
+    "id": "R02567",
+    "decision": "EXCLUDE",
+    "reason": "Diabetes care LLM development; no security task.",
+    "evidence": "This study developed a domain-specific large language model (DS-LLM) aimed at improving diabetes care"
+  },
+  {
+    "id": "R02569",
+    "decision": "EXCLUDE",
+    "reason": "Onboarding case study with NotebookLM; no security or OS focus.",
+    "evidence": "this research proposes leveraging Large Language Models (LLMs), with a specific focus on NotebookLM"
+  },
+  {
+    "id": "R02570",
+    "decision": "EXCLUDE",
+    "reason": "Survey of KV-cache compression; surveys are excluded and no OS security task is present.",
+    "evidence": "This survey gives a unified, hardware-aware treatment of techniques that mitigate this bottleneck."
+  },
+  {
+    "id": "R02573",
+    "decision": "EXCLUDE",
+    "reason": "Industrial process-safety application; not an OS security analysis.",
+    "evidence": "incorporates artificial intelligence (AI) into asset integrity and process safety (AIPS) management"
+  },
+  {
+    "id": "R02577",
+    "decision": "EXCLUDE",
+    "reason": "Review of LLM optimization; reviews are excluded and no OS security task is present.",
+    "evidence": "This paper presents a comprehensive review of Memory-Augmented Large Language Models"
+  },
+  {
+    "id": "R02581",
+    "decision": "EXCLUDE",
+    "reason": "Physics of magnetomechanics; no LLM and no security task.",
+    "evidence": "A moving permanent magnet induces currents in nearby conductors"
+  },
+  {
+    "id": "R02585",
+    "decision": "EXCLUDE",
+    "reason": "User-level memory injection for LLMs; no security task or OS target.",
+    "evidence": "injects Key-Value representations directly into the attention mechanism"
+  },
+  {
+    "id": "R02586",
+    "decision": "EXCLUDE",
+    "reason": "Interpretability of factual memory in LLMs; no OS security task.",
+    "evidence": "localize, verify, and rewrite factual and false memory traces in GPT-style transformers"
+  },
+  {
+    "id": "R02587",
+    "decision": "EXCLUDE",
+    "reason": "Systematic review of LLM use in DKA management; review and medical, not OS security.",
+    "evidence": "This study aimed to investigate the application potentials of large language model in the management of patients with diabetes ketoacidosis"
+  },
+  {
+    "id": "R02591",
+    "decision": "EXCLUDE",
+    "reason": "Seismic inversion using attention/LSTM; no LLM security or OS task.",
+    "evidence": "a low-frequency constrained seismic impedance inversion method combining Large Kernel Attention (LKA)"
+  },
+  {
+    "id": "R02596",
+    "decision": "EXCLUDE",
+    "reason": "Study of AI-text detectors; not OS security research.",
+    "evidence": "investigates the effectiveness of 13 free online AI-content detection tools"
+  },
+  {
+    "id": "R02599",
+    "decision": "EXCLUDE",
+    "reason": "Distills LLM control rules onto a microcontroller; no security task.",
+    "evidence": "distills them into confidence-calibrated interval rules executed locally on an ESP32-S3"
+  },
+  {
+    "id": "R02601",
+    "decision": "EXCLUDE",
+    "reason": "RAG hallucination detection; no OS security task.",
+    "evidence": "evaluates word-level hallucination detection and uncertainty control on the complete RAGTruth corpus"
+  },
+  {
+    "id": "R02607",
+    "decision": "EXCLUDE",
+    "reason": "HRV quality control for depression detection; medical, not OS security.",
+    "evidence": "A Methodological Data Quality Control Tool to Improve Clinical Trust for LLM-Based Depressive Detection"
+  },
+  {
+    "id": "R02611",
+    "decision": "EXCLUDE",
+    "reason": "Human-LLM interaction convergence study; no OS security task.",
+    "evidence": "a residual convergence persisted after sycophancy had been suppressed"
+  },
+  {
+    "id": "R02612",
+    "decision": "EXCLUDE",
+    "reason": "Training-free depth pruning of LLMs; no security or OS target.",
+    "evidence": "Training-free LLM depth pruning is usually driven by a scalar score attached to each Transformer block"
+  },
+  {
+    "id": "R02613",
+    "decision": "EXCLUDE",
+    "reason": "Static-analysis vulnerability study but no LLM is used, so the LLM role dimension is absent.",
+    "evidence": "an empirical study of eleven openly accessible static analysis tools for detecting these vulnerabilities"
+  },
+  {
+    "id": "R02619",
+    "decision": "EXCLUDE",
+    "reason": "Bias detection in LLM outputs; not OS security.",
+    "evidence": "treats subtle racial bias in LLM responses as a rare failure event"
+  },
+  {
+    "id": "R02620",
+    "decision": "EXCLUDE",
+    "reason": "LLM evaluation framework; no OS security task.",
+    "evidence": "we propose the Dynamic Arbitration Framework for Evaluation (DAFE)"
+  },
+  {
+    "id": "R02622",
+    "decision": "EXCLUDE",
+    "reason": "Bias anomaly detection in LLM outputs; not OS security.",
+    "evidence": "treats subtle racial bias in LLM responses as a rare failure event"
+  },
+  {
+    "id": "R02623",
+    "decision": "EXCLUDE",
+    "reason": "R tutorial for prompting a local LLM; no security task.",
+    "evidence": "Here I'll demonstrate using the ollamar package on CRAN to talk to an LLM running locally"
+  },
+  {
+    "id": "R02625",
+    "decision": "EXCLUDE",
+    "reason": "Microservice fault detection and self-healing; reliability rather than OS security.",
+    "evidence": "utilizing Llama 3.1 for automatic fault detection, fault root cause analysis, and self-healing"
+  },
+  {
+    "id": "R02626",
+    "decision": "EXCLUDE",
+    "reason": "R tutorial for prompting a local LLM; no security task.",
+    "evidence": "Here I'll demonstrate using the ollamar package on CRAN to talk to an LLM running locally"
+  },
+  {
+    "id": "R02629",
+    "decision": "EXCLUDE",
+    "reason": "LLM text attribution; not OS security.",
+    "evidence": "can we identify whether it was produced by a particular LLM"
+  },
+  {
+    "id": "R02631",
+    "decision": "EXCLUDE",
+    "reason": "RAG retrieval framework; no security task.",
+    "evidence": "MaxEntRAG, a sparse source-anchored retrieval framework"
+  },
+  {
+    "id": "R02633",
+    "decision": "EXCLUDE",
+    "reason": "Detection of LLM-generated text; not OS security.",
+    "evidence": "MFD comprehensively considers log-likelihood, log-rank, entropy, and LLM-Deviation"
+  },
+  {
+    "id": "R02634",
+    "decision": "EXCLUDE",
+    "reason": "Letter/reply about LLM misinformation; not empirical OS security research.",
+    "evidence": "A response to Dr. Fred Cohen's"
+  },
+  {
+    "id": "R02635",
+    "decision": "EXCLUDE",
+    "reason": "LLM translation of help documentation in R; no security task.",
+    "evidence": "Most of the developer tooling for AI/LLM training and evaluation is Python-centric"
+  },
+  {
+    "id": "R02636",
+    "decision": "EXCLUDE",
+    "reason": "LLM translation of help documentation in R; no security task.",
+    "evidence": "Most of the developer tooling for AI/LLM training and evaluation is Python-centric"
+  },
+  {
+    "id": "R02637",
+    "decision": "EXCLUDE",
+    "reason": "R tutorial on local LLM prompting; title shows no security task despite truncated abstract.",
+    "evidence": "This is reposted from the original article:"
+  },
+  {
+    "id": "R02638",
+    "decision": "EXCLUDE",
+    "reason": "R tutorial on local LLM prompting; title shows no security task despite truncated abstract.",
+    "evidence": "This is reposted from the original article:"
+  },
+  {
+    "id": "R02640",
+    "decision": "EXCLUDE",
+    "reason": "Spatial transcriptomics LLM guidance; no security or OS task.",
+    "evidence": "L-STAR, a visual LLM-guided, consensus-based framework"
+  },
+  {
+    "id": "R02643",
+    "decision": "EXCLUDE",
+    "reason": "Time-series anomaly detection augmentation; not OS security.",
+    "evidence": "using a large language model to generate and augment diverse anomaly scenarios"
+  },
+  {
+    "id": "R02648",
+    "decision": "EXCLUDE",
+    "reason": "R help-documentation translation; no security task.",
+    "evidence": "The lang package overrides the ? and help() functions in your R session"
+  },
+  {
+    "id": "R02649",
+    "decision": "EXCLUDE",
+    "reason": "R help-documentation translation; no security task.",
+    "evidence": "The lang package overrides the ? and help() functions in your R session"
+  },
+  {
+    "id": "R02650",
+    "decision": "EXCLUDE",
+    "reason": "LLM safety refusal metric; security of LLMs rather than OS components.",
+    "evidence": "We introduce Weighted Safety Refusal (WSR), a metric framework"
+  },
+  {
+    "id": "R02653",
+    "decision": "EXCLUDE",
+    "reason": "Constitutional law article; no LLM security or OS task.",
+    "evidence": "Revisiting Use of United States Free Speech Doctrine after Babet, Ravbar, and Farmer"
+  }
+]

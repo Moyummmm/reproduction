@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R06178",
+    "decision": "EXCLUDE",
+    "reason": "Survey of agentic skills, not original empirical OS security research.",
+    "evidence": "A Systematic Survey of Agentic Skills"
+  },
+  {
+    "id": "R06179",
+    "decision": "EXCLUDE",
+    "reason": "LLM generates mobile app test scripts; no security outcome or OS security target.",
+    "evidence": "application of large language models (LLM) in the domain of mobile application test script generation"
+  },
+  {
+    "id": "R06180",
+    "decision": "EXCLUDE",
+    "reason": "Drone command-and-control harness; security checks concern the agent interface, not OS components.",
+    "evidence": "gives any MCP-capable LLM command, telemetry, mission, and safety functions"
+  },
+  {
+    "id": "R06181",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM investigation of OS system provenance for intrusion detection and attack attribution.",
+    "evidence": "combines evidence curation with context-grounded LLM reasoning"
+  },
+  {
+    "id": "R06182",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-assisted automated repair of TEE partitioning vulnerabilities with patch validation.",
+    "evidence": "automatically repairing bad partitioning issues in TEE applications"
+  },
+  {
+    "id": "R06183",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM agents perform evidence-grounded attack-chain reconstruction across multiple operating systems.",
+    "evidence": "attack chain reconstruction by retrieving and interpreting heterogeneous telemetry"
+  },
+  {
+    "id": "R06184",
+    "decision": "EXCLUDE",
+    "reason": "Benchmark of behavioral jailbreaks against LLM agents; agent safety, not LLM use for OS security.",
+    "evidence": "behavior jailbreak, where an adversary induces an agent to execute dangerous OS-level operations"
+  },
+  {
+    "id": "R06185",
+    "decision": "EXCLUDE",
+    "reason": "Local LLM deployment for translators; no security or OS security task.",
+    "evidence": "Local LLM Deployment for Translators"
+  },
+  {
+    "id": "R06186",
+    "decision": "UNCLEAR",
+    "reason": "LLM incident-log analysis, but the target is not shown to be an OS component or privileged interface.",
+    "evidence": "segment-level ablation attribution to investigate incident logs of an actual cyberattack"
+  },
+  {
+    "id": "R06187",
+    "decision": "EXCLUDE",
+    "reason": "Attacks and evaluates LLM coding agents via OS state composition; focus is agent security.",
+    "evidence": "exposing what we call CLI command-composition risk (CCR)"
+  },
+  {
+    "id": "R06188",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM generates security-policy DSL rules for Polkit, an OS authorization service.",
+    "evidence": "DSLs are widely used for managing operating system security policies"
+  },
+  {
+    "id": "R06189",
+    "decision": "EXCLUDE",
+    "reason": "LLM code generation for GPU-accelerated cryptography; performance, not OS security analysis.",
+    "evidence": "GPU-friendly code generation using various LLMs"
+  },
+  {
+    "id": "R06190",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM translates adversary-emulation procedures across operating systems for structural security evaluation.",
+    "evidence": "Translating them across operating systems supports cross-platform defender evaluation"
+  },
+  {
+    "id": "R06191",
+    "decision": "EXCLUDE",
+    "reason": "General OS agent for user tasks; security is only listed as future work.",
+    "evidence": "evaluation paradigms, agent collaboration, and security"
+  },
+  {
+    "id": "R06192",
+    "decision": "EXCLUDE",
+    "reason": "Characterizes command-denylist fragility in terminal AI agents; focus is agent security.",
+    "evidence": "first systematic characterization of command denylist fragility in terminal AI agents"
+  },
+  {
+    "id": "R06193",
+    "decision": "EXCLUDE",
+    "reason": "Indirect prompt-injection benchmark for computer-use agents; security of LLM agents.",
+    "evidence": "low-harm injected goals"
+  },
+  {
+    "id": "R06194",
+    "decision": "EXCLUDE",
+    "reason": "Position paper on LLMs as 6G RAN orchestrators; not OS security research.",
+    "evidence": "This position paper argues"
+  },
+  {
+    "id": "R06195",
+    "decision": "EXCLUDE",
+    "reason": "Scientific-discovery agent workspace; operating system is used metaphorically with no security task.",
+    "evidence": "a unified, multi-modal operating system designed for Artificial Intelligence for Science"
+  },
+  {
+    "id": "R06196",
+    "decision": "EXCLUDE",
+    "reason": "Forensic analysis of local LLM client artifacts, not LLM applied to OS security.",
+    "evidence": "systematic, cross platform forensic analysis of these popular local LLM clients"
+  },
+  {
+    "id": "R06197",
+    "decision": "EXCLUDE",
+    "reason": "LLM/NLP mining of CTI reports; not targeted at OS components or privileged interfaces.",
+    "evidence": "mining temporal attack patterns from cyberthreat intelligence (CTI) reports"
+  },
+  {
+    "id": "R06198",
+    "decision": "EXCLUDE",
+    "reason": "Position or overview on general-purpose AI risks; security of LLMs, not OS security application.",
+    "evidence": "Fundamental Risks in the Current Deployment of General-Purpose AI Models"
+  },
+  {
+    "id": "R06199",
+    "decision": "UNCLEAR",
+    "reason": "LLM/RAG log analysis includes OS logs, but security-analysis focus and target specificity are ambiguous.",
+    "evidence": "produced by software applications, operating systems, servers, and network devices"
+  },
+  {
+    "id": "R06200",
+    "decision": "EXCLUDE",
+    "reason": "Red-teaming computer-use agents to induce OS-level compromise; security of LLM agents.",
+    "evidence": "We target operating-system-level compromise"
+  },
+  {
+    "id": "R06201",
+    "decision": "EXCLUDE",
+    "reason": "Audits scientific summary rigor; vulnerability is methodological, not OS security.",
+    "evidence": "post-retrieval auditing framework"
+  },
+  {
+    "id": "R06202",
+    "decision": "EXCLUDE",
+    "reason": "Trust and verification schema for agent skill runtimes, not an OS security task.",
+    "evidence": "a skill is untrusted code until it is verified"
+  },
+  {
+    "id": "R06203",
+    "decision": "EXCLUDE",
+    "reason": "LLM generates Unix CTF training tasks; no LLM security analysis or testing of OS components.",
+    "evidence": "LLM-assisted synthesis pipeline that generates candidate hiding techniques"
+  },
+  {
+    "id": "R06204",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM repair benchmark for eBPF verifier rejections in the Linux kernel.",
+    "evidence": "eBPF lets developers run custom programs inside the Linux kernel"
+  },
+  {
+    "id": "R06205",
+    "decision": "EXCLUDE",
+    "reason": "Defense framework for securing AI agents on Kubernetes; LLM is the secured party.",
+    "evidence": "agent safety on Kubernetes is therefore an infrastructure problem"
+  },
+  {
+    "id": "R06206",
+    "decision": "EXCLUDE",
+    "reason": "Kernel scheduler policy switching for LLM agents; OS performance work without a security outcome.",
+    "evidence": "switch scheduler behavior as the workload changes"
+  },
+  {
+    "id": "R06207",
+    "decision": "UNCLEAR",
+    "reason": "LLM-guided network protocol fuzzing, but the abstract does not establish an OS network-stack target.",
+    "evidence": "A Dense Retrieval-based Multi-Agent System for Network Protocol Fuzzing"
+  },
+  {
+    "id": "R06208",
+    "decision": "UNCLEAR",
+    "reason": "Protocol fuzzing with LLM-assisted mutation; OS network-stack scope is not established.",
+    "evidence": "Greybox protocol fuzzing is a random testing approach for stateful protocol implementations"
+  },
+  {
+    "id": "R06209",
+    "decision": "UNCLEAR",
+    "reason": "LLM-assisted fuzzing of network protocol implementations; OS component target is ambiguous.",
+    "evidence": "Testing network protocol implementations is critical"
+  },
+  {
+    "id": "R06210",
+    "decision": "EXCLUDE",
+    "reason": "LLM fuzzing of industrial control protocols, not OS components or privileged interfaces.",
+    "evidence": "vulnerabilities in industrial control protocols (ICPs)"
+  },
+  {
+    "id": "R06211",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted fuzzing of IoT HTTP services, not OS components.",
+    "evidence": "LLM-guided IoT HTTP fuzzing method"
+  },
+  {
+    "id": "R06212",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted fuzzing of industrial control protocols, outside OS component scope.",
+    "evidence": "Industrial Control Protocols (ICPs)"
+  },
+  {
+    "id": "R06213",
+    "decision": "UNCLEAR",
+    "reason": "LLM validation of network protocol parsers; whether these are OS network-stack components is unclear.",
+    "evidence": "Network protocol parsers are essential for enabling correct and secure communication between devices"
+  },
+  {
+    "id": "R06214",
+    "decision": "UNCLEAR",
+    "reason": "LLM-driven security testing of cryptographic protocol implementations; OS target is not explicit.",
+    "evidence": "protocol security testing"
+  },
+  {
+    "id": "R06215",
+    "decision": "EXCLUDE",
+    "reason": "LLM-guided semantic fuzzing for general software targets; no OS component focus.",
+    "evidence": "LLM-Guided, Reasoning-Driven Input Mutation"
+  },
+  {
+    "id": "R06216",
+    "decision": "UNCLEAR",
+    "reason": "LLM extracts RFC rules to fuzz network protocol implementations; OS target is ambiguous.",
+    "evidence": "Semantics-Aware Fuzzing Framework for Network Protocol Implementations"
+  },
+  {
+    "id": "R06217",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted fuzzing of cross-chain bridge contracts, not OS components.",
+    "evidence": "Cross-chain bridges move value between blockchains"
+  }
+]

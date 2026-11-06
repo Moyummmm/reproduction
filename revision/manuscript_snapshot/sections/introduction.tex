@@ -1,0 +1,61 @@
+\section{Introduction}
+
+\revise{Operating systems (OSes) underpin modern computing devices---from servers and cloud platforms to mobile phones, IoT devices, and embedded controllers---by multiplexing hardware resources and enforcing trust boundaries between applications, data, and devices. As a result, OS safety and security remain central concerns: a kernel or privileged-service compromise can undermine system availability, confidentiality, or integrity}~\revcite{anderson1972computer}.
+
+\revise{Yet, OSes are difficult to secure. They are implemented largely in low-level systems languages (e.g., C/C++) and evolve into large codebases with long-lived interfaces, hardware coupling, concurrency, and cross-subsystem dependencies}~\revcite{chen2011linux}.
+In practice, many real-world attacks are enabled by memory-unsafety and the difficulty of maintaining low-level invariants at trust boundaries; Szekeres \emph{et al.} characterize this as an ``eternal war'' between exploitation and defenses\cite{szekeres13}. Beyond the kernel core, bugs persist in other OS-critical components (e.g., Linux file systems evolving over time\cite{luAAL14}), and even correct isolation can be undermined by policy and configuration complexity (e.g., system-wide mediation in MAC frameworks such as Flask/SELinux\cite{spencer99flask,loscocco01selinux}).
+
+To this end, the community has developed a broad spectrum of toolboxes.
+Unfortunately, each technique still faces OS-specific limitations.
+\revise{For instance, kernel static analysis can surface many candidate warnings that still require expert triage: DR. CHECKER reported 3,973 flaws at 78\% precision across nine mobile kernels, while studies of Linux-kernel developer responses find that false positives reduce willingness to triage later reports}~\revcite{machiry2017dr,guo2009linux};
+\textbf{fuzzing} has been highly effective in practice\cite{boehme16}, and kernel-specific systems further leverage virtualization and hardware support (e.g., kAFL)\cite{kafl17}, but reaching deep kernel states still suffers from the reachability gap and from the difficulty of generating semantically valid, stateful inputs;
+\textbf{symbolic execution} can systematically explore corner cases (e.g., KLEE, S2E)\cite{cadar2008klee,chipounov2011s2e}, yet scaling it to OS kernels is challenging due to path explosion, environment modeling (devices, timing, concurrency), and the cost of maintaining accurate models across fast-evolving subsystems;
+\textbf{formal methods} can provide high-assurance guarantees, but they remain expensive to apply at scale; recent work such as Selene and AutoRocq highlights that proof engineering and specification effort are still key adoption barriers\cite{zhang2024selene,tu2025agentic}.
+
+The above limitations motivate complementary approaches that reduce the human burden in interpreting tool evidence, reconstructing intent, and validating fixes in fast-evolving OS code.
+
+Large language models (LLMs) have recently emerged as such a complement. 
+Built on the Transformer architecture~\revcite{vaswani17}, \revise{modern LLMs show code-related capabilities on benchmarks such as Codex/HumanEval and AlphaCode}~\revcite{chen2021evaluating,li22alphacode}. \revise{GPT-3 demonstrates few-shot in-context learning on evaluated tasks}~\revcite{brown20}, \revise{while compute-optimal scaling work studies the relationship between model size, training data, and compute}~\revcite{hoffmann22}. \revise{Separately, instruction tuning with human feedback improves instruction following in evaluated settings}~\revcite{ouyang22}; \revise{these results do not by themselves establish reliable natural-language-to-code translation for OS-security tasks.}
+
+
+In fact, a growing line of research integrates LLMs into \emph{program analysis} workflows, using models as semantic helpers that translate between code, natural language, and analysis artifacts.
+\revise{Common patterns include (i) using LLM guidance to refine static analysis of Linux-kernel UBI code, as in LLIFT}~\revcite{li2024enhancing}, \revise{(ii) translating informal security-protocol descriptions into models for formal verification}~\revcite{mao2025llm}, \revise{and (iii) coupling candidate patch generation with build and reproducer feedback, as in kAgent (previously circulated as CrashFixer)}~\revcite{mathai2025crashfixer}.
+\revise{When an approach retains an analyzer, compiler, or prover as an explicit checker, the model's output can be tested against that tool; this does not by itself establish that the model preserved the intended property or the assumptions of the original analysis.}
+\revise{Potential uses in OS-security workflows include summarizing call chains, relating crash traces or static-analysis warnings to code context, and inspecting policy artifacts such as access-control rules; their reliability must be established for each target task.}
+
+\revise{Prior surveys provide complementary perspectives on LLMs in software engineering, vulnerability detection, program repair, and cybersecurity}~\revcite{hou2024large,sheng2025llms,yang2025survey,jaffal25}. \revise{Table~\ref{tab:survey-comparison} compares their primary organizing perspectives with ours. Our contribution is a synthesis organized by OS components and privileged interfaces: it connects each component's security tasks with the artifacts used to validate model outputs, and distinguishes demonstrated OS-security applications from transferable methods and work that protects LLM execution.}
+
+\begin{table*}[t]
+\centering
+\caption{\revise{Positioning this survey alongside representative prior reviews.}}
+\label{tab:survey-comparison}
+\footnotesize
+\begin{tabular}{@{}p{0.16\textwidth}p{0.33\textwidth}p{0.43\textwidth}@{}}
+\hline
+\textbf{\revise{Review}} & \textbf{\revise{Primary focus}} & \textbf{\revise{Organizing perspective}} \\ \hline
+\revise{Hou et al.}~\revcite{hou2024large} & \revise{LLMs across software-engineering tasks} & \revise{Model use, data, optimization, evaluation and SE tasks} \\
+\revise{Sheng et al.}~\revcite{sheng2025llms} & \revise{LLM-based vulnerability detection} & \revise{Detection methods, datasets, evaluation and challenges} \\
+\revise{Yang et al.}~\revcite{yang2025survey} & \revise{LLM-based automated program repair} & \revise{Repair paradigms and benchmark evaluation} \\
+\revise{Jaffal et al.}~\revcite{jaffal25} & \revise{Cybersecurity applications and LLM threats} & \revise{Security domains, attacks on LLMs and defenses} \\
+\textbf{\revise{This survey}} & \revise{LLM assistance for OS security} & \revise{OS components and interfaces, security workflows, validation evidence, and adjacent work} \\ \hline
+\end{tabular}
+\end{table*}
+
+\revise{We conduct a retrospective survey of selected research on how LLMs have been used, and might be used, to support OS security. We assembled a literature collection through targeted bibliographic searches, as described in Section III.}
+We organize this literature by a component-based taxonomy, i.e., \revise{kernel (including syscalls and eBPF), device drivers}, networking, file systems, \revise{privileged user-space system services}, and virtualization/TEEs;
+such taxonomy highlights where untrusted inputs enter an OS and what artifacts can ground LLM outputs (e.g., a synthesized eBPF program, a fuzzed driver).
+
+\paragraph*{\textbf{Contributions}} 
+\revise{Based on the literature selection and synthesis described in Section III, we make three contributions:}
+\begin{itemize}
+  \item \textbf{A component-based taxonomy for LLM-assisted OS security.} 
+  We organize the design space by major OS components and interfaces, clarifying how threat surfaces, ground-truth artifacts, and evaluation signals differ across subsystems (\S\ref{sec:methodology}).
+
+  \item \textbf{\revise{A synthesis of LLM-assisted OS-security research.}}
+  \revise{We summarize selected approaches involving program analysis, synthesis, and fuzzing, distinguishing demonstrated applications to OS security from potentially transferable techniques and adjacent work protecting LLM systems} (\S\ref{sec:os}).
+  % designs that close the loop with deterministic feedback (builds, tests, traces, proofs) to make LLM assistance auditable.
+  
+  \item \textbf{Open problems and future directions.} 
+  We identify the most pressing bottlenecks that currently limit practical impact (e.g., evidence grounding and reproducibility). 
+  Crucially, we shed light on how \textit{review capacity} is becoming a first-class constraint under high-throughput ``vibe coding'', and we therefore prioritize directions that use LLMs to assist \textit{reviewing} so that LLM assistance scales human governance rather than overwhelming it (\S\ref{sec:future}).
+\end{itemize}

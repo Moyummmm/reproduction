@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02001",
+    "decision": "EXCLUDE",
+    "reason": "Title describes multi-LLM certification/compliance work, not security analysis or testing of OS components.",
+    "evidence": "Automated Certification Based on the German IT-Grundschutz"
+  },
+  {
+    "id": "R02002",
+    "decision": "EXCLUDE",
+    "reason": "Focuses on risks in LLM applications, which is security of LLMs rather than OS-targeted security analysis.",
+    "evidence": "Unveiling Risks in LLM Applications Arising from Blurred Capability Boundaries"
+  },
+  {
+    "id": "R02003",
+    "decision": "EXCLUDE",
+    "reason": "Appears to concern pitfalls in LLM security research itself, not empirical security work targeting OS components.",
+    "evidence": "Chasing Shadows: Pitfalls in LLM Security Research"
+  },
+  {
+    "id": "R02004",
+    "decision": "EXCLUDE",
+    "reason": "Power-system dispatch and frequency security; no LLM or OS security component.",
+    "evidence": "Distributionally robust dispatch of power system with advanced adiabatic compressed air energy storage for frequency security"
+  },
+  {
+    "id": "R02005",
+    "decision": "EXCLUDE",
+    "reason": "LLM-agent tool security issue, but not security analysis or protection of OS components or privileged interfaces.",
+    "evidence": "Cross-Tool Harvesting and Polluting in Pool-of-Tools Empowered LLM Agents"
+  },
+  {
+    "id": "R02006",
+    "decision": "EXCLUDE",
+    "reason": "LLM-driven event ontology construction; no security task or OS target.",
+    "evidence": "An LLM-Driven Event Ontology Automatic Construction System"
+  },
+  {
+    "id": "R02007",
+    "decision": "EXCLUDE",
+    "reason": "Storage security interface work without any stated LLM use.",
+    "evidence": "Efficient Security Interface for High-Performance Ceph Storage System"
+  },
+  {
+    "id": "R02008",
+    "decision": "EXCLUDE",
+    "reason": "LLM formal verification targets smart contracts, not OS components or privileged interfaces.",
+    "evidence": "LLM-driven Formal Verification of Smart Contracts"
+  },
+  {
+    "id": "R02009",
+    "decision": "UNCLEAR",
+    "reason": "Title is uninformative and abstract is missing, so scope, LLM role, and security task cannot be determined.",
+    "evidence": "14 Storage"
+  },
+  {
+    "id": "R02010",
+    "decision": "UNCLEAR",
+    "reason": "OS storage security analysis is suggested, but the LLM role is not explicit and the abstract is missing.",
+    "evidence": "Analyzing the Security of Android's Scoped Storage via Differential Analysis"
+  },
+  {
+    "id": "R02011",
+    "decision": "EXCLUDE",
+    "reason": "LLM use is for disaster-warning guideline generation, not security analysis or OS protection.",
+    "evidence": "Integrating Predictive Data with LLM for Contextualized Guideline Generation"
+  },
+  {
+    "id": "R02012",
+    "decision": "EXCLUDE",
+    "reason": "AI/ML physical security for nuclear facilities; no LLM or OS component target.",
+    "evidence": "security system that uses the growing potential of artificial intelligence (AI)"
+  },
+  {
+    "id": "R02013",
+    "decision": "UNCLEAR",
+    "reason": "Shell-command explanation may touch privileged interfaces, but no security task is stated and the abstract is missing.",
+    "evidence": "LLM-Powered Shell Command Explainer"
+  },
+  {
+    "id": "R02014",
+    "decision": "UNCLEAR",
+    "reason": "LLM and IoT security are explicit, but an OS or privileged-interface target is not established and the abstract is missing.",
+    "evidence": "LLM-based IoT_Sec_Assist Expert System for IoT Device Security"
+  },
+  {
+    "id": "R02015",
+    "decision": "EXCLUDE",
+    "reason": "LLM agent evaluation methodology; no security task or OS target.",
+    "evidence": "Understanding Discriminative Power in LLM Agent Evaluation"
+  },
+  {
+    "id": "R02016",
+    "decision": "EXCLUDE",
+    "reason": "Two-factor cloud-storage protection without stated LLM use or OS-level target.",
+    "evidence": "TWO-FACTOR DATA SECURITY PROTECTION MECHANISM FOR CLOUD STORAGE SYSTEM"
+  },
+  {
+    "id": "R02017",
+    "decision": "UNCLEAR",
+    "reason": "LLM deobfuscation is security-adjacent, but the ARM binary target and OS/privileged scope are unstated; abstract missing.",
+    "evidence": "An LLM-Powered Deobfuscation System for ARM Binary Code"
+  },
+  {
+    "id": "R02018",
+    "decision": "EXCLUDE",
+    "reason": "Semantic cache poisoning concerns LLM systems security, not OS cache or privileged-interface security.",
+    "evidence": "Semantic Cache Poisoning and Its Countermeasures"
+  },
+  {
+    "id": "R02019",
+    "decision": "EXCLUDE",
+    "reason": "Smart-home data security and privacy; no OS-component security analysis.",
+    "evidence": "A Big Data Security, Privacy-Preserving and Visualization System for LLM-Powered Smart Homes"
+  },
+  {
+    "id": "R02020",
+    "decision": "UNCLEAR",
+    "reason": "LLM-enhanced intrusion detection is security-related, but the monitored target and OS scope are unstated; abstract missing.",
+    "evidence": "LLM Enhanced Explainable Intrusion Detection System"
+  },
+  {
+    "id": "R02021",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based incident-response support for bank supervisors, not OS-component security analysis.",
+    "evidence": "Llm-Based Ir-System for Bank Supervisors"
+  },
+  {
+    "id": "R02022",
+    "decision": "EXCLUDE",
+    "reason": "Log-structured filesystem design focused on performance and power resilience, with no LLM or security task.",
+    "evidence": "A Hardware-Assisted Log-Structured File System with Temporal Locality Optimization under Resource Constraints"
+  },
+  {
+    "id": "R02023",
+    "decision": "EXCLUDE",
+    "reason": "Filesystem design focused on performance and power-failure resilience, with no LLM or security outcome.",
+    "evidence": "time-locality-optimized, hardware-cooperative log-structured file system"
+  },
+  {
+    "id": "R02024",
+    "decision": "EXCLUDE",
+    "reason": "Embedded log-structured filesystem implementation, not LLM-based security research.",
+    "evidence": "Design and Implementation of Basic Log Structured File System for Internal Flash on Embedded Systems"
+  },
+  {
+    "id": "R02025",
+    "decision": "EXCLUDE",
+    "reason": "PCM-based filesystem architecture with no stated LLM use or security task.",
+    "evidence": "DPLFS: A Dual-Mode PCM-based Log-Structured File System"
+  },
+  {
+    "id": "R02026",
+    "decision": "EXCLUDE",
+    "reason": "Userspace filesystem performance work; no LLM use or security analysis.",
+    "evidence": "scalable userspace log-structured file system for modern SSDs"
+  },
+  {
+    "id": "R02027",
+    "decision": "EXCLUDE",
+    "reason": "Buffer-cache management for I/O performance, without LLM use or security task.",
+    "evidence": "Data Correlation Aware Buffer Cache Management for Improved I/O Performance"
+  },
+  {
+    "id": "R02028",
+    "decision": "EXCLUDE",
+    "reason": "ZNS SSD filesystem design; no LLM use or security outcome.",
+    "evidence": "zoned namespace-tailored log-structured file system for commodity ZNS SSDs"
+  },
+  {
+    "id": "R02029",
+    "decision": "EXCLUDE",
+    "reason": "Crash-consistent filesystem design with no stated LLM use or security analysis.",
+    "evidence": "BlzFS: Crash Consistent Log-structured File System Based on Byte-loggable Zone for ZNS SSD"
+  },
+  {
+    "id": "R02030",
+    "decision": "EXCLUDE",
+    "reason": "LLM test-scenario generation from bug descriptions is general software testing, not security testing of OS components.",
+    "evidence": "LLM Based Software Test Scenario Generation System From Bug Descriptions"
+  },
+  {
+    "id": "R02031",
+    "decision": "EXCLUDE",
+    "reason": "Ransomware detection uses machine learning, not an LLM, and addresses file-system logs rather than LLM-based OS security analysis.",
+    "evidence": "detection of ransomware anomalies within vast file system log data"
+  },
+  {
+    "id": "R02032",
+    "decision": "EXCLUDE",
+    "reason": "Manycore logging for filesystems; no LLM use or security task.",
+    "evidence": "Manycore Scalable Logging for Log-Structured Filesystem"
+  },
+  {
+    "id": "R02033",
+    "decision": "EXCLUDE",
+    "reason": "Psychological analysis of log-file timing, unrelated to LLM security or OS components.",
+    "evidence": "Log File Times as Indicators of Structured Figural Matrix Processing"
+  },
+  {
+    "id": "R02034",
+    "decision": "UNCLEAR",
+    "reason": "LLM log anomaly detection could be security-relevant, but the target and security outcome are unstated; abstract missing.",
+    "evidence": "Zero-shot Log-based Anomaly Detection with LLM"
+  },
+  {
+    "id": "R02035",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted bug-priority assignment is general software triage, not security analysis of OS components.",
+    "evidence": "An Empirical Comparison of Human and LLM-Assisted Bug Priority Assignment"
+  },
+  {
+    "id": "R02036",
+    "decision": "EXCLUDE",
+    "reason": "Query-intent annotation framework; no security task or OS target.",
+    "evidence": "Automatic Query-Intent Annotation: A Log-Free Agentic LLM Framework"
+  },
+  {
+    "id": "R02037",
+    "decision": "EXCLUDE",
+    "reason": "Filesystem and persistent-memory integration work, without LLM use or a security task.",
+    "evidence": "Overcoming the Last Mile between Log-Structured File Systems and Persistent Memory via Scatter Logging"
+  },
+  {
+    "id": "R02038",
+    "decision": "EXCLUDE",
+    "reason": "ETCD storage data-structure performance comparison; no LLM use or security analysis.",
+    "evidence": "implementation of ETCD using Log Structured Merge (LSM)"
+  },
+  {
+    "id": "R02039",
+    "decision": "UNCLEAR",
+    "reason": "Generic title with a missing abstract, so LLM role, security task, and target cannot be determined.",
+    "evidence": "Log File Analysis"
+  },
+  {
+    "id": "R02040",
+    "decision": "EXCLUDE",
+    "reason": "LLM agents for general code generation and debugging, not security analysis or repair targeting OS components.",
+    "evidence": "automated code generation and debugging"
+  }
+]

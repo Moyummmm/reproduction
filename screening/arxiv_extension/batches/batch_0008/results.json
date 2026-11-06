@@ -1,0 +1,242 @@
+[
+  {
+    "id": "arxiv:2505.17694",
+    "decision": "EXCLUDE",
+    "reason": "LLM inference kernel optimization; no security analysis or outcome.",
+    "evidence": "a dedicated attention kernel to combine the memory access of shared prefixes"
+  },
+  {
+    "id": "arxiv:2505.18323",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor attack on batched ML inference; security of LLMs, not OS components.",
+    "evidence": "specifically engineered to exploit batched inference"
+  },
+  {
+    "id": "arxiv:2505.18864",
+    "decision": "EXCLUDE",
+    "reason": "Audio jailbreak against a multimodal LLM; security of LLMs, not OS components.",
+    "evidence": "an adversarial attack targeting the speech input of aligned MLLMs"
+  },
+  {
+    "id": "arxiv:2505.19864",
+    "decision": "EXCLUDE",
+    "reason": "Poisoning attack on RAG systems; security of LLMs, not OS components.",
+    "evidence": "a black-box adversarial framework that generates query-relevant texts"
+  },
+  {
+    "id": "arxiv:2505.20186",
+    "decision": "EXCLUDE",
+    "reason": "LLM patches general open-source path-traversal bugs, not OS components.",
+    "evidence": "generates a patch using GPT-4"
+  },
+  {
+    "id": "arxiv:2505.20771",
+    "decision": "EXCLUDE",
+    "reason": "LLM recommender-system fine-tuning; no security task.",
+    "evidence": "significantly enhances the recommendation accuracy"
+  },
+  {
+    "id": "arxiv:2505.21487",
+    "decision": "EXCLUDE",
+    "reason": "Efficient attention and KV-cache design; no security analysis.",
+    "evidence": "redesigns attention to perform more computation per byte loaded from memory"
+  },
+  {
+    "id": "arxiv:2505.23022",
+    "decision": "EXCLUDE",
+    "reason": "LLM serving-system scheduling; no security task.",
+    "evidence": "an SLO-oriented LLM serving system designed to maximize system goodput"
+  },
+  {
+    "id": "arxiv:2505.23219",
+    "decision": "EXCLUDE",
+    "reason": "On-device LLM inference system; no security task.",
+    "evidence": "a LLM inference system for end-user devices with the unified memory architecture"
+  },
+  {
+    "id": "arxiv:2505.23518",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial manipulation of VLM agents; security of AI agents, not OS.",
+    "evidence": "a novel generative adversarial framework that manipulates the agent's decision-making"
+  },
+  {
+    "id": "arxiv:2505.23634",
+    "decision": "EXCLUDE",
+    "reason": "Refusal training against MCP exploits; security of LLM agents, not OS.",
+    "evidence": "attackers need only post malicious content online to deceive MCP agents"
+  },
+  {
+    "id": "arxiv:2505.23754",
+    "decision": "EXCLUDE",
+    "reason": "Informal theorem-proving benchmark and RL; no security task.",
+    "evidence": "a comprehensive informal theorem-proving framework"
+  },
+  {
+    "id": "arxiv:2505.24019",
+    "decision": "EXCLUDE",
+    "reason": "Position paper on security principles for LLM agents; not empirical OS security research.",
+    "evidence": "This position paper argues that the well-established design principles in information security"
+  },
+  {
+    "id": "arxiv:2505.24201",
+    "decision": "EXCLUDE",
+    "reason": "Anomaly detection for LLM multi-agent systems; not OS-component security.",
+    "evidence": "an LLM-powered oversight agent that observes, analyzes, and intervenes in MAS execution"
+  },
+  {
+    "id": "arxiv:2506.00794",
+    "decision": "EXCLUDE",
+    "reason": "Predicting empirical AI research outcomes; no security task targeting OS.",
+    "evidence": "we aim to predict which will perform better on a set of benchmarks"
+  },
+  {
+    "id": "arxiv:2506.02040",
+    "decision": "EXCLUDE",
+    "reason": "Empirical attack study of the MCP ecosystem; security of LLM agents, not OS.",
+    "evidence": "accessing private files or controlling devices to transfer digital assets"
+  },
+  {
+    "id": "arxiv:2506.02859",
+    "decision": "EXCLUDE",
+    "reason": "Attack-graph threat assessment for LLM multi-agent applications, not OS.",
+    "evidence": "systematically analyze the security risks associated with AI-agent applications"
+  },
+  {
+    "id": "arxiv:2506.03444",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based hypothesis assessment; no security task.",
+    "evidence": "we study the complementary problem to hypothesis generation: automatic hypothesis assessment"
+  },
+  {
+    "id": "arxiv:2506.04572",
+    "decision": "EXCLUDE",
+    "reason": "Integrity attacks on LLM multi-agent systems, not OS components.",
+    "evidence": "malicious agents employ subtle prompt manipulation to bias MAS operations"
+  },
+  {
+    "id": "arxiv:2506.04679",
+    "decision": "EXCLUDE",
+    "reason": "Analysis of LLM value alignment; not OS security research.",
+    "evidence": "This paper examines the value alignment problem for LLMs"
+  },
+  {
+    "id": "arxiv:2506.04962",
+    "decision": "EXCLUDE",
+    "reason": "LLM-generated PoC exploits for npm packages; general software, not OS.",
+    "evidence": "generate and validate PoC exploits for vulnerabilities in npm packages"
+  },
+  {
+    "id": "arxiv:2506.06971",
+    "decision": "EXCLUDE",
+    "reason": "Robustness of LLM code reasoning under prompt perturbations; no OS security task.",
+    "evidence": "we systematically investigate the robustness of reasoning LLMs"
+  },
+  {
+    "id": "arxiv:2506.09600",
+    "decision": "EXCLUDE",
+    "reason": "Red-teaming policy-adherent LLM agents; not OS security.",
+    "evidence": "a multi-agent red-teaming system"
+  },
+  {
+    "id": "arxiv:2506.09632",
+    "decision": "EXCLUDE",
+    "reason": "Trust model for LLMs; no security analysis or testing of OS components.",
+    "evidence": "a bowtie model for holistically conceptualizing and formulating trust in LLMs"
+  },
+  {
+    "id": "arxiv:2506.10323",
+    "decision": "EXCLUDE",
+    "reason": "LLM-driven fuzzer synthesis evaluated on general software, not OS components.",
+    "evidence": "automatically synthesizes generation-based fuzzers tailored to a system under test"
+  },
+  {
+    "id": "arxiv:2506.11027",
+    "decision": "EXCLUDE",
+    "reason": "LLM code generation for underrepresented languages; no security outcome.",
+    "evidence": "a generalizable Reinforcement Learning (RL) approach"
+  },
+  {
+    "id": "arxiv:2506.11886",
+    "decision": "EXCLUDE",
+    "reason": "KV-cache compression for LLM efficiency; no security analysis.",
+    "evidence": "a training-free framework that exploits the heterogeneous roles of transformer head dimensions"
+  },
+  {
+    "id": "arxiv:2506.13434",
+    "decision": "EXCLUDE",
+    "reason": "Position paper on LLMs in cybersecurity red/blue teaming; not empirical OS-targeted research.",
+    "evidence": "This position paper maps LLM applications across cybersecurity frameworks"
+  },
+  {
+    "id": "arxiv:2506.13666",
+    "decision": "EXCLUDE",
+    "reason": "Position paper on third-party safety risks in MCP-powered agent systems; not OS security.",
+    "evidence": "In this position paper, we advocate the research community in LLM safety"
+  },
+  {
+    "id": "arxiv:2506.14067",
+    "decision": "EXCLUDE",
+    "reason": "Conformal abstention for generative systems; no OS security task.",
+    "evidence": "a novel online learning framework for conformal abstention with adversarial and partial feedback"
+  },
+  {
+    "id": "arxiv:2506.14682",
+    "decision": "EXCLUDE",
+    "reason": "AI/ML red-teaming benchmark; targets AI systems, not OS components.",
+    "evidence": "an AI red teaming benchmark for evaluating language models' ability"
+  },
+  {
+    "id": "arxiv:2506.15656",
+    "decision": "EXCLUDE",
+    "reason": "Phishing-website detection; targets web content, not OS components.",
+    "evidence": "a modular multi-agent LLM-based debate framework for phishing website detection"
+  },
+  {
+    "id": "arxiv:2506.17318",
+    "decision": "EXCLUDE",
+    "reason": "Context-manipulation attacks on web agents; security of LLM agents, not OS.",
+    "evidence": "a novel context manipulation attack that corrupts these agents' internal task representations"
+  },
+  {
+    "id": "arxiv:2506.18311",
+    "decision": "EXCLUDE",
+    "reason": "LLM relation extraction for document retrieval; no security task.",
+    "evidence": "we present a method to help the retrieval system"
+  },
+  {
+    "id": "arxiv:2506.18403",
+    "decision": "EXCLUDE",
+    "reason": "Debugging strategy analysis for code LLMs; no security task.",
+    "evidence": "a mathematical framework that quantifies when debugging becomes ineffective"
+  },
+  {
+    "id": "arxiv:2506.18928",
+    "decision": "EXCLUDE",
+    "reason": "Game-theoretic evaluation of LLM randomization; no security task.",
+    "evidence": "we propose a novel zero-sum game inspired by the Tian Ji Horse Race"
+  },
+  {
+    "id": "arxiv:2506.19505",
+    "decision": "EXCLUDE",
+    "reason": "KV-cache quantization for LLM efficiency; no security analysis.",
+    "evidence": "a dual-stage framework that leverages anchor token-aware vector quantization to compress the KV cache"
+  },
+  {
+    "id": "arxiv:2506.20608",
+    "decision": "EXCLUDE",
+    "reason": "LLM assistant for scientific-software knowledge; no security task.",
+    "evidence": "an LLM-powered system that combines PETSc content with custom LLM tools"
+  },
+  {
+    "id": "arxiv:2506.21593",
+    "decision": "EXCLUDE",
+    "reason": "Enterprise RAG retrieval system; no security task.",
+    "evidence": "a five-layer module that routes each query through two instant caches"
+  },
+  {
+    "id": "arxiv:2506.21638",
+    "decision": "EXCLUDE",
+    "reason": "LLM ranking/reasoning framework; no security task.",
+    "evidence": "a reasoning-incentive framework built on reinforcement learning"
+  }
+]

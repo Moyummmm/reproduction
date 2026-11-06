@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02081",
+    "decision": "EXCLUDE",
+    "reason": "Storage/RAID engineering title with no LLM or security task indicated.",
+    "evidence": "Log-ROC: Log Structured RAID on Open-Channel SSD"
+  },
+  {
+    "id": "R02082",
+    "decision": "EXCLUDE",
+    "reason": "Workshop proceedings, not original empirical research, with no security or OS task.",
+    "evidence": "Proceedings of the First Workshop on Structured Understanding, Retrieval, and Generation in the LLM Era"
+  },
+  {
+    "id": "R02083",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted embedded development study; no security analysis or OS target.",
+    "evidence": "document observed bug patterns in AI-generated embedded code"
+  },
+  {
+    "id": "R02084",
+    "decision": "EXCLUDE",
+    "reason": "IoT file-system forensics without LLM use.",
+    "evidence": "HIKVISION file system is being revisited regarding the log records it stores"
+  },
+  {
+    "id": "R02085",
+    "decision": "EXCLUDE",
+    "reason": "Perspective on multi-agent LLM systems; no security or OS target.",
+    "evidence": "In this Perspective, we argue that the next scaling frontier for LLMs"
+  },
+  {
+    "id": "R02086",
+    "decision": "EXCLUDE",
+    "reason": "Comparative LLM response assessment; no security or OS task.",
+    "evidence": "controlled comparative assessment of seven AI response systems"
+  },
+  {
+    "id": "R02087",
+    "decision": "EXCLUDE",
+    "reason": "Hallucination detection for LLM outputs; not OS security.",
+    "evidence": "early detection of hallucinating answers"
+  },
+  {
+    "id": "R02088",
+    "decision": "EXCLUDE",
+    "reason": "LLM fault localization over bug reports; general software debugging, not security or OS.",
+    "evidence": "Coverage-Free LLM-Based Fault Localization via Semantic Reasoning Over Historical Bug Reports"
+  },
+  {
+    "id": "R02089",
+    "decision": "EXCLUDE",
+    "reason": "Financial decision-making with LLMs; no security or OS task.",
+    "evidence": "Bridging Language and Optimization for Financial Decision-Making"
+  },
+  {
+    "id": "R02090",
+    "decision": "EXCLUDE",
+    "reason": "Web-log IDS uses classical ML, not an LLM.",
+    "evidence": "four machine learning algorithms: gradient-boosted trees, decision tree, random forest, and support vector machine"
+  },
+  {
+    "id": "R02091",
+    "decision": "EXCLUDE",
+    "reason": "LLM bug-report generation for software maintenance; no security or OS task.",
+    "evidence": "generate higher-quality bug reports for software maintenance"
+  },
+  {
+    "id": "R02092",
+    "decision": "EXCLUDE",
+    "reason": "Reposted blog/tool description; no original security research.",
+    "evidence": "Reposted from the original"
+  },
+  {
+    "id": "R02093",
+    "decision": "EXCLUDE",
+    "reason": "Title about LLM hallucination design; no security or OS research.",
+    "evidence": "AI hallucinations are a feature of LLM design, not a bug"
+  },
+  {
+    "id": "R02094",
+    "decision": "EXCLUDE",
+    "reason": "Reposted blog/tool description; no original security research.",
+    "evidence": "Reposted from the original"
+  },
+  {
+    "id": "R02095",
+    "decision": "EXCLUDE",
+    "reason": "Toxicity detection with LLM synthetic supervision; not security or OS.",
+    "evidence": "Explainable Toxicity Detection with Structured LLM-Based Synthetic Supervision"
+  },
+  {
+    "id": "R02096",
+    "decision": "EXCLUDE",
+    "reason": "Bug priority classification; software triage, not security or OS.",
+    "evidence": "LLM-based Contrastive Learning Approach for Bug Priority Classification"
+  },
+  {
+    "id": "R02097",
+    "decision": "EXCLUDE",
+    "reason": "Persona extraction for LLM digital twins; no security or OS task.",
+    "evidence": "Structured Persona Extraction for LLM-Based Digital Twins"
+  },
+  {
+    "id": "R02098",
+    "decision": "EXCLUDE",
+    "reason": "Identifying bug-introducing commits; general software engineering, not security or OS.",
+    "evidence": "LLM-Based Agents for Identifying Bug-Introducing Commits"
+  },
+  {
+    "id": "R02099",
+    "decision": "EXCLUDE",
+    "reason": "LLM program analysis for bug detection; general software, not security or OS.",
+    "evidence": "LLM-Augmented Program Analysis: Towards Practical and Scalable Bug Detection"
+  },
+  {
+    "id": "R02100",
+    "decision": "EXCLUDE",
+    "reason": "Medical physics log QA; no LLM or security/OS task.",
+    "evidence": "LOG FILE-BASED MACHINE AND PATIENT QA SYSTEM FOR IMRT AND VMAT"
+  },
+  {
+    "id": "R02101",
+    "decision": "EXCLUDE",
+    "reason": "OS filesystem title with no LLM or security task.",
+    "evidence": "The Btrfs File System"
+  },
+  {
+    "id": "R02102",
+    "decision": "EXCLUDE",
+    "reason": "Building-regulation encoding with LLMs; no security or OS task.",
+    "evidence": "Building Regulation Encoding"
+  },
+  {
+    "id": "R02103",
+    "decision": "EXCLUDE",
+    "reason": "Research topic decision support; no security or OS task.",
+    "evidence": "An LLM-Enhanced System for Research Topic Decision-Making"
+  },
+  {
+    "id": "R02104",
+    "decision": "EXCLUDE",
+    "reason": "Delphi/orchestration for ill-structured decisions; no security or OS task.",
+    "evidence": "Cyborg Orchestration in LLM Council-Double Delphi"
+  },
+  {
+    "id": "R02105",
+    "decision": "EXCLUDE",
+    "reason": "Bug detection in LLM-generated code; code quality, not security or OS.",
+    "evidence": "Beyond Pass Fail Fine Grained Bug Detection in LLM Generated Code"
+  },
+  {
+    "id": "R02106",
+    "decision": "EXCLUDE",
+    "reason": "OCR table recovery with an LLM; no security or OS task.",
+    "evidence": "Retab-Llama: Structured Table Recovery Post-Ocr Using Instruction-Tuned Llm"
+  },
+  {
+    "id": "R02107",
+    "decision": "EXCLUDE",
+    "reason": "Requirements and UML generation; no security or OS task.",
+    "evidence": "LLM-Based Generation of Structured Requirements and UML Models"
+  },
+  {
+    "id": "R02108",
+    "decision": "EXCLUDE",
+    "reason": "LLM query planning over data; no security or OS task.",
+    "evidence": "LLM-driven query planning"
+  },
+  {
+    "id": "R02109",
+    "decision": "EXCLUDE",
+    "reason": "Mutual-fund disclosure study using EDGAR logs; no LLM or security/OS task.",
+    "evidence": "Evidence from the EDGAR log file"
+  },
+  {
+    "id": "R02110",
+    "decision": "EXCLUDE",
+    "reason": "OS filesystem title with no LLM or security task.",
+    "evidence": "The\n            <scp>NTFS</scp>\n            File System"
+  },
+  {
+    "id": "R02111",
+    "decision": "EXCLUDE",
+    "reason": "OS filesystem title with no LLM or security task.",
+    "evidence": "The\n            <scp>XFS</scp>\n            File System"
+  },
+  {
+    "id": "R02112",
+    "decision": "EXCLUDE",
+    "reason": "General LLM-agent engineering lifecycle; safety mention, not OS security analysis.",
+    "evidence": "LLM Agent Development Lifecycle (LADL)"
+  },
+  {
+    "id": "R02113",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection defense for LLM systems; security of LLMs, not an OS target.",
+    "evidence": "A Graph-Structured Defense Framework for Prompt Injection in RAG and Multi-Agent LLM Systems"
+  },
+  {
+    "id": "R02114",
+    "decision": "EXCLUDE",
+    "reason": "LLM SEO content optimization; no security or OS task.",
+    "evidence": "LLM SEO Files"
+  },
+  {
+    "id": "R02115",
+    "decision": "EXCLUDE",
+    "reason": "Competitive-programming prompt study; no security or OS task.",
+    "evidence": "Heuristic Paradox"
+  },
+  {
+    "id": "R02116",
+    "decision": "EXCLUDE",
+    "reason": "Review of 5G protocol fuzzing; no LLM and not empirical.",
+    "evidence": "analyzes the landscape of 5G network protocol fuzzing through 18 recent works"
+  },
+  {
+    "id": "R02117",
+    "decision": "UNCLEAR",
+    "reason": "LLM fuzzing for IoT protocols, but missing abstract leaves OS/privileged target and scope uncertain.",
+    "evidence": "LLM-RLFuzz: An Intelligent Fuzzing Framework for IoT Protocol"
+  },
+  {
+    "id": "R02118",
+    "decision": "EXCLUDE",
+    "reason": "Network-protocol fuzzing title without an LLM role.",
+    "evidence": "A Analysis on the Expansion of Network Protocol Fuzzing Procedures"
+  },
+  {
+    "id": "R02119",
+    "decision": "EXCLUDE",
+    "reason": "Survey of protocol fuzzing with no LLM role and no empirical security evaluation.",
+    "evidence": "we categorized and summarized the protocol fuzzing"
+  },
+  {
+    "id": "R02120",
+    "decision": "UNCLEAR",
+    "reason": "LLM-enhanced protocol fuzzing is security testing, but missing abstract leaves OS/privileged target uncertain.",
+    "evidence": "Network Protocol Security Evaluation via LLM-Enhanced Fuzzing in Extended ProFuzzBench"
+  }
+]

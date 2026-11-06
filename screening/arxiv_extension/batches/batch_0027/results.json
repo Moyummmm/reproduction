@@ -1,0 +1,242 @@
+[
+  {
+    "id": "arxiv:2609.29697",
+    "decision": "EXCLUDE",
+    "reason": "Exploits feedback-based agent planning; the security target is LLM agents, not OS components.",
+    "evidence": "black-box framework for exploiting this weakness through attacker-controlled external materials"
+  },
+  {
+    "id": "arxiv:2609.30674",
+    "decision": "EXCLUDE",
+    "reason": "LLM agent for industrial planning software; no security task or OS target.",
+    "evidence": "a benchmark built from two AspenTech PIMS demonstration models"
+  },
+  {
+    "id": "arxiv:2609.31395",
+    "decision": "EXCLUDE",
+    "reason": "KV-cache compression for agent inference; performance rather than security.",
+    "evidence": "the first KV cache compression framework tailored for agentic LLM inference"
+  },
+  {
+    "id": "arxiv:2609.32424",
+    "decision": "UNCLEAR",
+    "reason": "LLM security-log analysis is relevant, but the OS or privileged-interface target is not specified.",
+    "evidence": "APT attack chain provenance from long-context security logs"
+  },
+  {
+    "id": "arxiv:2609.33119",
+    "decision": "EXCLUDE",
+    "reason": "Medical question-answering routing; no security or OS target.",
+    "evidence": "an agentic system that uses an embedding-based multi-label router to select and query specialist LLMs"
+  },
+  {
+    "id": "arxiv:2609.33184",
+    "decision": "EXCLUDE",
+    "reason": "Speculative decoding serving efficiency; no security task.",
+    "evidence": "a speculative decoding system that begins verification without waiting for the full KV history"
+  },
+  {
+    "id": "arxiv:2609.33618",
+    "decision": "EXCLUDE",
+    "reason": "Open-world tool-agent planning; no security or OS target.",
+    "evidence": "a structured parallel-action loop"
+  },
+  {
+    "id": "arxiv:2609.33833",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial attacks on multimodal LLMs; security of models, not OS components.",
+    "evidence": "whether a single adversarial image can consistently mislead diverse frontier MLLMs"
+  },
+  {
+    "id": "arxiv:2609.35158",
+    "decision": "EXCLUDE",
+    "reason": "Agentic reinforcement-learning serving throughput; no security outcome.",
+    "evidence": "an asynchronous agentic RL system"
+  },
+  {
+    "id": "arxiv:2609.36573",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-based attackers are evaluated on host installation and persistence across system disruptions, targeting OS-level footholds.",
+    "evidence": "agents use native host mechanisms to maintain footholds across staged system disruptions"
+  },
+  {
+    "id": "arxiv:2609.36732",
+    "decision": "EXCLUDE",
+    "reason": "Survey of latency and availability attacks; surveys are excluded from the core empirical set.",
+    "evidence": "A Cross-Domain Survey of Availability Threats"
+  },
+  {
+    "id": "arxiv:2609.37567",
+    "decision": "EXCLUDE",
+    "reason": "Conceals multi-agent topology; security of LLM systems, not OS components.",
+    "evidence": "a topology-concealment framework"
+  },
+  {
+    "id": "arxiv:2609.38270",
+    "decision": "EXCLUDE",
+    "reason": "Recommender-agent promotion attack; not OS or privileged-interface security.",
+    "evidence": "the first black-box targeted promotion attack"
+  },
+  {
+    "id": "arxiv:2609.38349",
+    "decision": "EXCLUDE",
+    "reason": "Automated agent-harness discovery; no security task.",
+    "evidence": "co-evolves agent harnesses and the strategy used to discover them"
+  },
+  {
+    "id": "arxiv:2609.39297",
+    "decision": "EXCLUDE",
+    "reason": "Robust aggregation for multi-agent debate; security of agents, not OS.",
+    "evidence": "a reputation-based aggregation system for MAD under malicious agents"
+  },
+  {
+    "id": "arxiv:2610.00430",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial propagation in LLM-agent networks; not OS components.",
+    "evidence": "a distinct class of network-mediated attack"
+  },
+  {
+    "id": "arxiv:2610.00573",
+    "decision": "EXCLUDE",
+    "reason": "Long-video QA keyframe selection; no security or OS target.",
+    "evidence": "Query-aware keyframe selection enables multimodal large language models"
+  },
+  {
+    "id": "arxiv:2610.01222",
+    "decision": "EXCLUDE",
+    "reason": "Cooperation study of generative AI; no security task or OS target.",
+    "evidence": "using the iterated prisoner's dilemma"
+  },
+  {
+    "id": "arxiv:2610.01434",
+    "decision": "EXCLUDE",
+    "reason": "MLLM operation pruning for efficiency; no security task.",
+    "evidence": "Modality-aware Width-wise Operation Pruning"
+  },
+  {
+    "id": "arxiv:2610.01887",
+    "decision": "EXCLUDE",
+    "reason": "Agentic heuristic design for resource assignment; no security outcome.",
+    "evidence": "Dynamic resource assignment"
+  },
+  {
+    "id": "arxiv:2610.02297",
+    "decision": "EXCLUDE",
+    "reason": "Log-only incident diagnosis for outages; not a security task targeting OS components.",
+    "evidence": "isolate failure propagation using strictly raw text logs"
+  },
+  {
+    "id": "arxiv:2610.02373",
+    "decision": "EXCLUDE",
+    "reason": "Attack on GraphRAG auxiliary structures; security of retrieval pipelines, not OS.",
+    "evidence": "Auxiliary Schema-Level Entity as a novel attack surface"
+  },
+  {
+    "id": "arxiv:2610.02598",
+    "decision": "EXCLUDE",
+    "reason": "LLM decoding speedup via activation sparsity; no security task.",
+    "evidence": "improve the trade-off between model quality and decoding performance"
+  },
+  {
+    "id": "arxiv:2610.03088",
+    "decision": "EXCLUDE",
+    "reason": "Coding-agent serving system; performance rather than security.",
+    "evidence": "a coding-agent serving system"
+  },
+  {
+    "id": "arxiv:2610.04134",
+    "decision": "EXCLUDE",
+    "reason": "Materials discovery optimization; no security or OS target.",
+    "evidence": "a multi-objective BO framework for alloy design"
+  },
+  {
+    "id": "arxiv:2610.04162",
+    "decision": "EXCLUDE",
+    "reason": "Top-k selection training for LLMs; no security task.",
+    "evidence": "a principled objective for training selection modules"
+  },
+  {
+    "id": "arxiv:2610.04378",
+    "decision": "EXCLUDE",
+    "reason": "Benchmark of LLM robustness to adversarial MCP context; security of LLMs and protocol, not OS.",
+    "evidence": "a controlled benchmark that isolates the model as an MCP client"
+  },
+  {
+    "id": "arxiv:2610.04875",
+    "decision": "EXCLUDE",
+    "reason": "Diffusion LLM speculative decoding acceleration; no security task.",
+    "evidence": "multi-branch computational redundancy"
+  },
+  {
+    "id": "arxiv:2610.05640",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection defense for multi-agent systems; not OS components.",
+    "evidence": "Securing Multi-Agent Systems Against Indirect Prompt Injection Attacks"
+  },
+  {
+    "id": "arxiv:2610.06584",
+    "decision": "UNCLEAR",
+    "reason": "LLM exploit generation and repair is core-adjacent, but the environments are not identified as OS components.",
+    "evidence": "five nonpublic software environments"
+  },
+  {
+    "id": "arxiv:2610.06673",
+    "decision": "EXCLUDE",
+    "reason": "Compliance diagnostic for language models; no security or OS target.",
+    "evidence": "an open two-probe benchmark"
+  },
+  {
+    "id": "arxiv:2610.07000",
+    "decision": "EXCLUDE",
+    "reason": "Capability control for multi-agent LLM trust; security of agents, not OS.",
+    "evidence": "Trust-Gated Capability Control issues short-lived, revocable capability grants"
+  },
+  {
+    "id": "arxiv:2610.07086",
+    "decision": "EXCLUDE",
+    "reason": "Efficient tool-call decoding; no security task.",
+    "evidence": "slot-parallel speculative decoding"
+  },
+  {
+    "id": "arxiv:2610.07443",
+    "decision": "EXCLUDE",
+    "reason": "LLM serving accelerator architecture; no security outcome.",
+    "evidence": "a unified architecture for efficient LLM serving"
+  },
+  {
+    "id": "arxiv:2610.11286",
+    "decision": "EXCLUDE",
+    "reason": "Image-generation safety and security of generative models, not OS components.",
+    "evidence": "rendered-text semantic leakage"
+  },
+  {
+    "id": "arxiv:2610.13408",
+    "decision": "EXCLUDE",
+    "reason": "GPU virtual-memory management; OS engineering without a security outcome.",
+    "evidence": "a UVM management framework for oversubscribed workloads"
+  },
+  {
+    "id": "arxiv:2610.13568",
+    "decision": "EXCLUDE",
+    "reason": "MLP linearization for efficiency; no security task.",
+    "evidence": "efficiently linearizing MLPs"
+  },
+  {
+    "id": "arxiv:2610.14024",
+    "decision": "EXCLUDE",
+    "reason": "Agentic ML development for physics time series; no security or OS target.",
+    "evidence": "an LLM agent system designed to move beyond a better score"
+  },
+  {
+    "id": "arxiv:2610.14215",
+    "decision": "EXCLUDE",
+    "reason": "Side-channel attack extracts LLM tokens and prompts; the target is the LLM, not OS components.",
+    "evidence": "an electromagnetic (EM) side-channel attack targeting LLM inference on edge devices"
+  },
+  {
+    "id": "arxiv:2610.14289",
+    "decision": "EXCLUDE",
+    "reason": "Watermarking for federated LLM training security; not an OS target.",
+    "evidence": "an aggregator-agnostic watermarking scheme for embedding robust watermarks in FL"
+  }
+]

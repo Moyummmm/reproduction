@@ -1,0 +1,101 @@
+﻿id,theme,query,notes
+1,A. 总体：LLM × OS 安全,"""large language model"" ""operating system"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+2,A. 总体：LLM × OS 安全,"LLM ""OS security""",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+3,A. 总体：LLM × OS 安全,"""large language model"" ""systems security"" code",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+4,A. 总体：LLM × OS 安全,"""foundation model"" ""operating system"" vulnerability",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+5,A. 总体：LLM × OS 安全,"""GPT-4"" ""operating system"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+6,A. 总体：LLM × OS 安全,"""Codex"" ""operating system"" vulnerability",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+7,A. 总体：LLM × OS 安全,"""LLM-assisted"" ""system security""",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+8,A. 总体：LLM × OS 安全,"""large language model"" ""kernel"" ""security""",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+9,A. 总体：LLM × OS 安全,"LLM ""operating system"" ""vulnerability detection""",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+10,A. 总体：LLM × OS 安全,"""generative AI"" ""operating system"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+11,B. 内核 kernel,"""large language model"" ""Linux kernel"" fuzzing",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+12,B. 内核 kernel,"LLM ""kernel fuzzing"" syscall",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+13,B. 内核 kernel,"LLM ""kernel"" ""static analysis""",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+14,B. 内核 kernel,"""large language model"" ""kernel bug"" detection",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+15,B. 内核 kernel,"LLM ""Linux kernel"" ""vulnerability detection""",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+16,B. 内核 kernel,"""GPT-4"" ""Linux kernel"" exploit",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+17,B. 内核 kernel,"LLM ""kernel crash"" diagnosis",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+18,B. 内核 kernel,"LLM ""eBPF"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+19,B. 内核 kernel,"LLM ""kernel module"" analysis",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+20,B. 内核 kernel,"""language model"" ""kernel patch"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+21,C. 驱动 / 文件系统 / 存储,"LLM ""device driver"" fuzzing",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+22,C. 驱动 / 文件系统 / 存储,"""large language model"" ""driver"" vulnerability",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+23,C. 驱动 / 文件系统 / 存储,"LLM ""driver synthesis"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+24,C. 驱动 / 文件系统 / 存储,"LLM ""driver repair""",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+25,C. 驱动 / 文件系统 / 存储,"LLM ""Linux driver"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+26,C. 驱动 / 文件系统 / 存储,"LLM ""filesystem"" fuzzing",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+27,C. 驱动 / 文件系统 / 存储,"""large language model"" ""file system"" vulnerability",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+28,C. 驱动 / 文件系统 / 存储,"LLM ""filesystem"" verification",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+29,C. 驱动 / 文件系统 / 存储,"LLM ""storage system"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+30,C. 驱动 / 文件系统 / 存储,"LLM ""log-structured file system"" bug",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+31,D. 网络 / 内存管理,"LLM ""network protocol"" fuzzing",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+32,D. 网络 / 内存管理,"""large language model"" ""network stack"" vulnerability",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+33,D. 网络 / 内存管理,"LLM ""TCP/IP"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+34,D. 网络 / 内存管理,"LLM ""protocol implementation"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+35,D. 网络 / 内存管理,"LLM ""network packet"" analysis",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+36,D. 网络 / 内存管理,"LLM ""memory safety"" bug detection",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+37,D. 网络 / 内存管理,"""large language model"" ""memory management"" kernel",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+38,D. 网络 / 内存管理,"LLM ""use-after-free"" detection",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+39,D. 网络 / 内存管理,"LLM ""buffer overflow"" operating system",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+40,D. 网络 / 内存管理,"LLM ""page table"" vulnerability",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+41,E. TEE / hypervisor / 机密计算,"LLM ""hypervisor"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+42,E. TEE / hypervisor / 机密计算,"""large language model"" ""trusted execution environment""",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+43,E. TEE / hypervisor / 机密计算,"LLM ""confidential computing"" vulnerability",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+44,E. TEE / hypervisor / 机密计算,"LLM ""enclave"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+45,E. TEE / hypervisor / 机密计算,"LLM ""virtualization"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+46,E. TEE / hypervisor / 机密计算,"LLM ""seL4"" verification",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+47,E. TEE / hypervisor / 机密计算,"LLM ""hypervisor"" fuzzing",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+48,E. TEE / hypervisor / 机密计算,"LLM ""confidential VM"" side channel",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+49,E. TEE / hypervisor / 机密计算,"""large language model"" ""Arm TrustZone""",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+50,E. TEE / hypervisor / 机密计算,"LLM ""sandbox"" escape detection",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+51,F. 用户态 / 系统服务 / 日志,"LLM ""system log"" anomaly detection security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+52,F. 用户态 / 系统服务 / 日志,"""large language model"" ""system call"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+53,F. 用户态 / 系统服务 / 日志,"LLM ""container security""",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+54,F. 用户态 / 系统服务 / 日志,"LLM ""system service"" vulnerability",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+55,F. 用户态 / 系统服务 / 日志,"LLM ""audit log"" analysis",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+56,F. 用户态 / 系统服务 / 日志,"LLM ""root cause analysis"" operating system",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+57,F. 用户态 / 系统服务 / 日志,"LLM ""OS configuration"" hardening",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+58,F. 用户态 / 系统服务 / 日志,"LLM ""access control"" policy",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+59,F. 用户态 / 系统服务 / 日志,"LLM ""Android"" security vulnerability",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+60,F. 用户态 / 系统服务 / 日志,"LLM ""Windows"" kernel security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+61,G. 漏洞检测 / 程序分析,"LLM ""static analysis"" vulnerability detection",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+62,G. 漏洞检测 / 程序分析,"""large language model"" ""program analysis"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+63,G. 漏洞检测 / 程序分析,"LLM ""taint analysis""",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+64,G. 漏洞检测 / 程序分析,"LLM ""dataflow analysis"" vulnerability",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+65,G. 漏洞检测 / 程序分析,"LLM ""code property graph"" vulnerability",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+66,G. 漏洞检测 / 程序分析,"LLM ""repository-level"" vulnerability detection",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+67,G. 漏洞检测 / 程序分析,"LLM ""binary"" vulnerability detection",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+68,G. 漏洞检测 / 程序分析,"LLM ""decompilation"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+69,G. 漏洞检测 / 程序分析,"LLM ""reverse engineering"" binary",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+70,G. 漏洞检测 / 程序分析,"LLM ""CWE"" detection",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+71,H. 模糊测试 / 测试 / Exploit,"LLM ""fuzzing"" seed generation",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+72,H. 模糊测试 / 测试 / Exploit,"""large language model"" ""fuzz driver"" generation",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+73,H. 模糊测试 / 测试 / Exploit,"LLM ""directed fuzzing""",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+74,H. 模糊测试 / 测试 / Exploit,"LLM ""grammar fuzzing""",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+75,H. 模糊测试 / 测试 / Exploit,"LLM ""differential testing"" operating system",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+76,H. 模糊测试 / 测试 / Exploit,"LLM ""test oracle"" generation",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+77,H. 模糊测试 / 测试 / Exploit,"LLM ""coverage-guided fuzzing""",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+78,H. 模糊测试 / 测试 / Exploit,"LLM ""harness generation"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+79,H. 模糊测试 / 测试 / Exploit,"LLM ""exploit generation""",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+80,H. 模糊测试 / 测试 / Exploit,"""large language model"" ""privilege escalation"" exploit",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+81,I. 补丁 / 修复 / 形式化验证 / 保障,"LLM ""vulnerability repair""",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+82,I. 补丁 / 修复 / 形式化验证 / 保障,"""large language model"" ""patch backporting""",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+83,I. 补丁 / 修复 / 形式化验证 / 保障,"LLM ""security patch"" generation",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+84,I. 补丁 / 修复 / 形式化验证 / 保障,"LLM ""program repair"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+85,I. 补丁 / 修复 / 形式化验证 / 保障,"LLM ""CVE"" patch classification",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+86,I. 补丁 / 修复 / 形式化验证 / 保障,"LLM ""kernel patch"" migration",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+87,I. 补丁 / 修复 / 形式化验证 / 保障,"LLM ""formal verification"" operating system",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+88,I. 补丁 / 修复 / 形式化验证 / 保障,"""large language model"" ""theorem proving"" kernel",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+89,I. 补丁 / 修复 / 形式化验证 / 保障,"LLM ""specification inference"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+90,I. 补丁 / 修复 / 形式化验证 / 保障,"LLM ""OS security"" benchmark",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+91,J. 相邻：Agent / LLM 安全 / 综述,"LLM ""agent"" security operating system",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+92,J. 相邻：Agent / LLM 安全 / 综述,"""computer use agent"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+93,J. 相邻：Agent / LLM 安全 / 综述,"LLM ""prompt injection"" system security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+94,J. 相邻：Agent / LLM 安全 / 综述,"LLM ""jailbreak"" operating system",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+95,J. 相邻：Agent / LLM 安全 / 综述,"LLM ""model extraction"" security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+96,J. 相邻：Agent / LLM 安全 / 综述,"LLM ""data poisoning"" code security",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+97,J. 相邻：Agent / LLM 安全 / 综述,"LLM ""backdoor"" code model",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+98,J. 相邻：Agent / LLM 安全 / 综述,"""large language model"" ""cybersecurity"" survey",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+99,J. 相邻：Agent / LLM 安全 / 综述,"""LLM"" ""software security"" survey",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用
+100,J. 相邻：Agent / LLM 安全 / 综述,"LLM ""vulnerability detection"" benchmark",Google Scholar 直接粘贴；建议 2022–2026 年，关闭专利/引用

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R04161",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted repository discovery for software development, with no security task or OS target.",
+    "evidence": "Multi-Signal Repository Discovery for LLM-Assisted Software Development"
+  },
+  {
+    "id": "R04162",
+    "decision": "EXCLUDE",
+    "reason": "ESG greenwashing detection in corporate narratives, not security analysis or OS work.",
+    "evidence": "ESG Issue-Level Greenwashing Detection through LLM Analysis"
+  },
+  {
+    "id": "R04163",
+    "decision": "EXCLUDE",
+    "reason": "Fraud detection in financial transactions using clustering; no LLM or OS security target.",
+    "evidence": "detecting fraud in financial transactions"
+  },
+  {
+    "id": "R04164",
+    "decision": "UNCLEAR",
+    "reason": "Vulnerability detection is security-relevant, but the missing abstract leaves the LLM role and OS target uncertain.",
+    "evidence": "Hybrid Semantic Statement-Level Vulnerability Detection Using Transformer and Graph Neural Networks"
+  },
+  {
+    "id": "R04165",
+    "decision": "EXCLUDE",
+    "reason": "Hallucination detection for web LLM applications; this concerns LLM health, not OS security.",
+    "evidence": "Embedded Hallucination Detection Widgets as UI-Level Model Health Indicators"
+  },
+  {
+    "id": "R04166",
+    "decision": "UNCLEAR",
+    "reason": "Repository-level vulnerability dataset may be relevant, but the missing abstract does not establish substantive LLM use or an OS target.",
+    "evidence": "A Repository-Level High-Quality Vulnerability Dataset"
+  },
+  {
+    "id": "R04167",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted knowledge-graph repository manipulation, with no security task or OS component target.",
+    "evidence": "LLM-enhanced knowledge graph repository manipulation"
+  },
+  {
+    "id": "R04168",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-based vulnerability detection explicitly discovers Linux kernel bugs with assigned CVEs.",
+    "evidence": "detect 10 previously-unknown bugs in the recent Linux kernel release with six assigned CVEs"
+  },
+  {
+    "id": "R04169",
+    "decision": "EXCLUDE",
+    "reason": "Python vulnerability detection using a Conformer/self-attention model; no LLM or OS component target is shown.",
+    "evidence": "Block-Level Conformer-Based Python Vulnerability Detection"
+  },
+  {
+    "id": "R04170",
+    "decision": "UNCLEAR",
+    "reason": "Statement-level vulnerability detection may be relevant, but the missing abstract leaves LLM use and OS scope unverified.",
+    "evidence": "Automated Software Vulnerability Detection in Statement Level using Vulnerability Reports"
+  },
+  {
+    "id": "R04171",
+    "decision": "EXCLUDE",
+    "reason": "Object-detection robustness under image resolution reduction, not LLM-based security analysis or OS work.",
+    "evidence": "Object-Level Detection-State Transitions, Recovery, and Vulnerability Prediction Under Resolution Reduction"
+  },
+  {
+    "id": "R04172",
+    "decision": "EXCLUDE",
+    "reason": "Multi-LLM modular architecture for AGI; no security task or OS component target.",
+    "evidence": "Neuromorphic Multi-LLM Modular Intelligence Architecture"
+  },
+  {
+    "id": "R04173",
+    "decision": "UNCLEAR",
+    "reason": "Binary vulnerability detection is potentially relevant, but the missing abstract does not establish an LLM role or OS target.",
+    "evidence": "Binary-Level Vulnerability Detection Through Signature"
+  },
+  {
+    "id": "R04174",
+    "decision": "UNCLEAR",
+    "reason": "Binary vulnerability detection is potentially relevant, but LLM use and OS scope cannot be assessed without the abstract.",
+    "evidence": "Binary Code Vulnerability Detection Based on Multi-Level Feature Fusion"
+  },
+  {
+    "id": "R04175",
+    "decision": "UNCLEAR",
+    "reason": "Program-graph study for binary vulnerability detection is potentially relevant, but LLM use and OS target are unverified.",
+    "evidence": "A Comparative Study of Program Graph Effectiveness for Binary Vulnerability Detection"
+  },
+  {
+    "id": "R04176",
+    "decision": "UNCLEAR",
+    "reason": "Pretraining-based binary vulnerability detection may involve an LLM, but the missing abstract leaves the model role and OS target uncertain.",
+    "evidence": "A Pretraining-Based Multi-Modal Binary Vulnerability Detection Framework"
+  },
+  {
+    "id": "R04177",
+    "decision": "UNCLEAR",
+    "reason": "Title indicates LLM-assisted vulnerability identification in binary fuzzing, but OS scope and evaluation are not available.",
+    "evidence": "Enhanced Reverse-Analyzed LLM Model in Binary Program Fuzzy Testing"
+  },
+  {
+    "id": "R04178",
+    "decision": "UNCLEAR",
+    "reason": "Title indicates LLM-based vulnerability detection in decompiled binaries, but the missing abstract leaves the OS target uncertain.",
+    "evidence": "LLM-Based Vulnerability Detection in Decompiled Binary Code for Automated Reverse Engineering"
+  },
+  {
+    "id": "R04179",
+    "decision": "UNCLEAR",
+    "reason": "Binary vulnerability detection is potentially relevant, but the missing abstract does not establish LLM use or an OS target.",
+    "evidence": "Assembly semantic-enhanced binary vulnerability detection without disassembly"
+  },
+  {
+    "id": "R04180",
+    "decision": "UNCLEAR",
+    "reason": "Learning-based binary vulnerability detection is potentially relevant, but LLM use and OS scope are not established.",
+    "evidence": "Learning-based Vulnerability Detection in Binary Code"
+  },
+  {
+    "id": "R04181",
+    "decision": "UNCLEAR",
+    "reason": "Firmware vulnerability detection may be adjacent to privileged/OS targets, but the missing abstract leaves LLM use and scope uncertain.",
+    "evidence": "Firmware vulnerability detection with control transfer-enhanced binary code similarity detection"
+  },
+  {
+    "id": "R04182",
+    "decision": "UNCLEAR",
+    "reason": "Binary vulnerability detection is potentially relevant, but the missing abstract leaves LLM use and OS target unverified.",
+    "evidence": "Binary vulnerability detection based on texture and input-related embeddings"
+  },
+  {
+    "id": "R04183",
+    "decision": "EXCLUDE",
+    "reason": "Deep graph matching for binary vulnerability similarity; abstract shows no LLM use or OS component target.",
+    "evidence": "a deep graph matching model for vulnerability similarity detection"
+  },
+  {
+    "id": "R04184",
+    "decision": "UNCLEAR",
+    "reason": "Binary vulnerability detection is potentially relevant, but the missing abstract leaves LLM use and OS target uncertain.",
+    "evidence": "Binary Code Vulnerability Detection Based on Slice Semantic and Node Order"
+  },
+  {
+    "id": "R04185",
+    "decision": "UNCLEAR",
+    "reason": "Binary translation for vulnerability discovery is potentially relevant, but the missing abstract leaves LLM role and OS scope unclear.",
+    "evidence": "Unsupervised Binary Code Translation with Application to Code Clone Detection and Vulnerability Discovery"
+  },
+  {
+    "id": "R04186",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based binary vulnerability detection targets general software/CVEs, not OS components or privileged interfaces.",
+    "evidence": "The proliferation of binary vulnerabilities in the software supply chain"
+  },
+  {
+    "id": "R04187",
+    "decision": "UNCLEAR",
+    "reason": "Binary vulnerability detection is potentially relevant, but the missing abstract leaves LLM use and OS target uncertain.",
+    "evidence": "Software Vulnerability Detection Based on Binary Intermediate Slicing"
+  },
+  {
+    "id": "R04188",
+    "decision": "UNCLEAR",
+    "reason": "Binary vulnerability detection framework is potentially relevant, but LLM use and OS scope are unverified.",
+    "evidence": "A Generalizable and Context-Aware Framework for Binary Vulnerability Detection"
+  },
+  {
+    "id": "R04189",
+    "decision": "EXCLUDE",
+    "reason": "LLM alignment from binary preference feedback, not a security analysis of OS components.",
+    "evidence": "Belief Propagation for Binary Feedback in Large Language Model Alignment"
+  },
+  {
+    "id": "R04190",
+    "decision": "EXCLUDE",
+    "reason": "LLM-judged annotation for hate-speech detection, not security analysis or OS work.",
+    "evidence": "LLM-Judged Synthetic Annotation Applied to Hate Speech Detection"
+  },
+  {
+    "id": "R04191",
+    "decision": "EXCLUDE",
+    "reason": "Evaluating intermediate representations for LLM-based decompilation, with no security outcome or OS target.",
+    "evidence": "Evaluating IRs for LLM-based Binary Decompilation"
+  },
+  {
+    "id": "R04192",
+    "decision": "UNCLEAR",
+    "reason": "Source/binary graph vulnerability detection is potentially relevant, but the missing abstract leaves LLM use and OS target uncertain.",
+    "evidence": "Unifying Source and Binary Graphs for Robust Vulnerability Detection"
+  },
+  {
+    "id": "R04193",
+    "decision": "UNCLEAR",
+    "reason": "Title indicates LLM-based vulnerability detection, but the missing abstract leaves the OS target and evaluation scope uncertain.",
+    "evidence": "A Multi-dimensional Auxiliary Information Augmented Prompting Method for LLM-Based Vulnerability Detection"
+  },
+  {
+    "id": "R04194",
+    "decision": "EXCLUDE",
+    "reason": "LLM and symbolic-execution decompilation for RISC-V, without an explicit security task or OS target.",
+    "evidence": "LLM and Symbolic Execution Collaborative Decompilation Method for RISC-V"
+  },
+  {
+    "id": "R04195",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted decompilation of C++ STL semantics, with no security outcome or OS target.",
+    "evidence": "Recovering Lowered STL Semantics for LLM-assisted C++ Decompilation"
+  },
+  {
+    "id": "R04196",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based binary decompilation, without an explicit security task or OS target.",
+    "evidence": "LLM-Based Binary Decompilation with Progressive Constraints and Bounded Symbolic Differencing"
+  },
+  {
+    "id": "R04197",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based LLVM IR decompilation through program analysis, not OS security analysis.",
+    "evidence": "Enhancing LLM-based LLVM IR decompilation through program analysis"
+  },
+  {
+    "id": "R04198",
+    "decision": "EXCLUDE",
+    "reason": "LLM-agent firmware decompilation, without an explicit security outcome or OS component target.",
+    "evidence": "Behavior-Guided Decompilation of AVR Firmware with Autonomous LLM Agents"
+  },
+  {
+    "id": "R04199",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted binary decompilation without an explicit security task or OS target.",
+    "evidence": "LLM-assisted end-to-end binary decompilation"
+  },
+  {
+    "id": "R04200",
+    "decision": "EXCLUDE",
+    "reason": "Energy-efficient LLM decompilation on constrained hardware; no security analysis or OS target.",
+    "evidence": "Energy-Efficient LLM-Based Decompilation via a Two-Stage Pipeline on Constrained Hardware"
+  }
+]

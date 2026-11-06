@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R00001",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; LLM use in SOC/SIEM is security-related, but OS-component targeting is not stated.",
+    "evidence": "Enhancing Security Operations Center Efficiency Through Multi-Model Integration of Large Language Models and Siem System"
+  },
+  {
+    "id": "R00002",
+    "decision": "EXCLUDE",
+    "reason": "Focuses on securing multimodal LLMs, not on using an LLM for OS security.",
+    "evidence": "Robust Multimodal Large Language Model Security"
+  },
+  {
+    "id": "R00003",
+    "decision": "UNCLEAR",
+    "reason": "LLM-guided protocol fuzzing is a security-testing use, but the OS/network-stack target is unstated.",
+    "evidence": "Large Language Model guided Protocol Fuzzing"
+  },
+  {
+    "id": "R00004",
+    "decision": "EXCLUDE",
+    "reason": "Concerns vulnerabilities of LLMs themselves, not LLM-based security analysis of OS components.",
+    "evidence": "Large Language Model Vulnerabilities"
+  },
+  {
+    "id": "R00005",
+    "decision": "EXCLUDE",
+    "reason": "LLM agents integrated with ROS for interaction and task allocation, with no security outcome.",
+    "evidence": "for Human-Robot Interaction and Task Allocation in Complex Environments"
+  },
+  {
+    "id": "R00006",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Original LLM framework detects Windows malware from system-call behavior, targeting an OS and syscall interface.",
+    "evidence": "detecting malware at the application layer of the Windows operating system"
+  },
+  {
+    "id": "R00007",
+    "decision": "EXCLUDE",
+    "reason": "Addresses security of human-AI interaction and LLM behavior, not LLM use for OS security.",
+    "evidence": "Securing Human-AI Interaction in Large Language Model Systems"
+  },
+  {
+    "id": "R00008",
+    "decision": "EXCLUDE",
+    "reason": "Addresses security of human-AI interaction and LLM behavior, not LLM use for OS security.",
+    "evidence": "Securing Human-AI Interaction in Large Language Model Systems"
+  },
+  {
+    "id": "R00009",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; incident-response planning is security-adjacent, but OS targeting and evaluation are not stated.",
+    "evidence": "Incident Response Planning Using a Lightweight Large Language Model with Reduced Hallucination"
+  },
+  {
+    "id": "R00010",
+    "decision": "EXCLUDE",
+    "reason": "Uses operating system metaphorically for modeling; no security task or OS security outcome.",
+    "evidence": "Large language models as an “operating” system for software and systems modeling"
+  },
+  {
+    "id": "R00011",
+    "decision": "EXCLUDE",
+    "reason": "Path planning for agents, not a security task or OS target.",
+    "evidence": "Research on Multi-agent Path Planning Algorithm Based on Large Language Model"
+  },
+  {
+    "id": "R00012",
+    "decision": "EXCLUDE",
+    "reason": "Focuses on defending LLM security, not using an LLM for OS security tasks.",
+    "evidence": "Adaptive Cognitive Defense: The Meta-Recursive Framework Paradigm for Large Language Model Security"
+  },
+  {
+    "id": "R00013",
+    "decision": "EXCLUDE",
+    "reason": "Earth-science LLM system; no security or OS security task.",
+    "evidence": "GeoGPT, a large earth science language model system"
+  },
+  {
+    "id": "R00014",
+    "decision": "EXCLUDE",
+    "reason": "Operating conditions control, not operating-system security; no security task.",
+    "evidence": "Large Language Model Driven Multiple Operating Conditions Identification and Predictive Control"
+  },
+  {
+    "id": "R00015",
+    "decision": "EXCLUDE",
+    "reason": "LLM security verification targets power-system operation, not OS components.",
+    "evidence": "Power System Operation Security Verification with Retrieval-Augmented Generation Enhanced Large Language Model"
+  },
+  {
+    "id": "R00016",
+    "decision": "EXCLUDE",
+    "reason": "Explores LLM architecture; no security task or OS target.",
+    "evidence": "An in-depth exploration of large language model architecture"
+  },
+  {
+    "id": "R00017",
+    "decision": "EXCLUDE",
+    "reason": "Relic interpretation system; no security or OS security task.",
+    "evidence": "Research on Intelligent Relic Interpretation System Based on a Large Language Model"
+  },
+  {
+    "id": "R00018",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates security/detection for LLM applications, not LLM-driven OS security.",
+    "evidence": "Enhancing Security in Large Language Model Applications: A Performance Evaluation of Early Detection Systems"
+  },
+  {
+    "id": "R00019",
+    "decision": "EXCLUDE",
+    "reason": "LLM generates Common Criteria documentation, not OS security analysis, testing, or detection.",
+    "evidence": "Common Criteria Security Document Generation"
+  },
+  {
+    "id": "R00020",
+    "decision": "EXCLUDE",
+    "reason": "Secures LLM banking chatbots; target is an LLM application, not OS components.",
+    "evidence": "Security Risk Assessment and Layered Protection Strategies for Large Language Model Banking Chatbots"
+  },
+  {
+    "id": "R00021",
+    "decision": "EXCLUDE",
+    "reason": "Analyzes prompt-injection attacks on LLMs, i.e., LLM security rather than OS security.",
+    "evidence": "Prompt Injection Attacks on Large Language Models: Multi-Model Security Analysis with Categorized Attack Types"
+  },
+  {
+    "id": "R00022",
+    "decision": "EXCLUDE",
+    "reason": "Clinical classification study; no security task or OS target.",
+    "evidence": "Agent Role Structure and Operating Characteristics in Large Language Model Clinical Classification"
+  },
+  {
+    "id": "R00023",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreaking LLM chatbots; security of LLMs, not OS security use.",
+    "evidence": "MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots"
+  },
+  {
+    "id": "R00024",
+    "decision": "EXCLUDE",
+    "reason": "Cost-efficient LLM inference infrastructure; no security task or OS target.",
+    "evidence": "LOIS: Learning-Optimized Inference System for Cost-Efficient Large Language Model Deployment"
+  },
+  {
+    "id": "R00025",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; telecom security-support chatbot may be security-related but OS task scope is unstated.",
+    "evidence": "Developing Intelligent Chatbots for Telecom Security Support: A Comparative Study of Large Language Model Utilization Strategies"
+  },
+  {
+    "id": "R00026",
+    "decision": "EXCLUDE",
+    "reason": "Process-engineering automation using an LLM OS; no security task or OS security outcome.",
+    "evidence": "Knowledge Graph Modeling-Driven Large Language Model Operating System (LLM OS) for Task Automation in Process Engineering Problem-Solving"
+  },
+  {
+    "id": "R00027",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; LLM network threat detection is security-related, but OS/network-stack scope is unstated.",
+    "evidence": "Research on network security threat detection system based on large language model Optimized by GloVe technology"
+  },
+  {
+    "id": "R00028",
+    "decision": "EXCLUDE",
+    "reason": "LLM honeypot targets web APIs, an application layer, not OS components.",
+    "evidence": "DecoyPot: A large language model-driven web API honeypot for realistic attacker engagement"
+  },
+  {
+    "id": "R00029",
+    "decision": "EXCLUDE",
+    "reason": "Compares OS forensic artifacts without any LLM use.",
+    "evidence": "Forensic Artifacts in Operating Systems Windows vs. Linux"
+  },
+  {
+    "id": "R00030",
+    "decision": "EXCLUDE",
+    "reason": "LLM survey simulation; no security task or OS target.",
+    "evidence": "Auto Sim Ai: A Large Language Model-Based System For Survey Research Simulation"
+  },
+  {
+    "id": "R00031",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; LLM vulnerability detection is security-related, but OS target and evaluation are unstated.",
+    "evidence": "From Large to Mammoth: A Comparative Evaluation of Large Language Models in Zero-Shot Vulnerability Detection"
+  },
+  {
+    "id": "R00032",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; hybrid SAST-LLM code security is security-related, but OS-code scope is unstated.",
+    "evidence": "Reducing Noise: Hybrid Static Application Security Testing–Large Language Model Pipeline for Code Security"
+  },
+  {
+    "id": "R00033",
+    "decision": "EXCLUDE",
+    "reason": "LLM test-script generation for software testing; no security task or OS target.",
+    "evidence": "Large Language Model (LLM)-Based Automation for Software Test Script Generation"
+  },
+  {
+    "id": "R00034",
+    "decision": "EXCLUDE",
+    "reason": "Clinical decision support with an LLM; no security task or OS target.",
+    "evidence": "Whole Genome Sequencing-based digital twin as a clinical decision support system"
+  },
+  {
+    "id": "R00035",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial attacks and defenses for LLM-based systems, i.e., LLM security.",
+    "evidence": "Adversarial Attacks on Large Language Model-Based System and Mitigating Strategies"
+  },
+  {
+    "id": "R00036",
+    "decision": "EXCLUDE",
+    "reason": "ROS/blockchain robot security system does not use an LLM.",
+    "evidence": "Multi-Robot Security System based on Robot Operating System and Hybridized Blockchain Model"
+  },
+  {
+    "id": "R00037",
+    "decision": "EXCLUDE",
+    "reason": "Emergency-response LLM; no security task or OS target.",
+    "evidence": "An Emergency Response Approach Based on a Contingency-Plan-Fine-Tuned and Emergency-Knowledge-Enhanced Large Language Model"
+  },
+  {
+    "id": "R00038",
+    "decision": "EXCLUDE",
+    "reason": "Security analysis of LLM-based systems, not LLM use for OS security analysis.",
+    "evidence": "A System-Level Security Analysis and Roadmap for Large Language Model-Based Systems"
+  },
+  {
+    "id": "R00039",
+    "decision": "EXCLUDE",
+    "reason": "Carbon-market forecasting with LLM agents; no security task or OS target.",
+    "evidence": "Forecasting carbon market with a multi-agent system of large language model"
+  },
+  {
+    "id": "R00040",
+    "decision": "UNCLEAR",
+    "reason": "Title-only; security Q&A system may be security-related, but OS task scope is unstated.",
+    "evidence": "Intelligent Security Q&amp;A System Based on Large Language Model"
+  }
+]

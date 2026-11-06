@@ -1,0 +1,8 @@
+{
+  "frozen_sha256": "f208532691daab6add97eeb13e39322617e1233b0a80a24d4618ae10bb3e09c5",
+  "missing_records": 4097,
+  "record_doi_pairs": 4097,
+  "unique_dois": 4097,
+  "batch_size": 50,
+  "started_utc": "2026-11-05T08:11:19.865867+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "audit_mapping_sha256": "5e307232edacfbb242d6665b0489a4a829a7168bd2880322c5aa8198dbb69d1a",
+  "original_records_sha256": "f208532691daab6add97eeb13e39322617e1233b0a80a24d4618ae10bb3e09c5",
+  "supplemented_records_sha256": "faec450e0a9d473beda9a716e8d680c26aba319ba49dcf525f4c21c47de1985a",
+  "record_ids": [
+    "R00629",
+    "R00869",
+    "R03168",
+    "R04909"
+  ],
+  "prepared_utc": "2026-11-05T08:36:52.940043+00:00",
+  "note": "Abstracts originate from linked source records in original snapshot; cross-source title/author matching does not alter original search hits or frozen decisions."
+}

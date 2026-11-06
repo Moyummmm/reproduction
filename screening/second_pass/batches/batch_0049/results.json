@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R06058",
+    "decision": "EXCLUDE",
+    "reason": "LLM agents are the systems being secured; no LLM is used as the security-analysis method.",
+    "evidence": "LLM-driven autonomous agents acquire capabilities for planning, tool use, network access, and code execution."
+  },
+  {
+    "id": "R06059",
+    "decision": "EXCLUDE",
+    "reason": "The LLM is the probabilistic component governed by a deterministic kernel, not the security-analysis tool.",
+    "evidence": "reconceptualizes the underlying model as a Probabilistic Processing Unit encapsulated by a deterministic, neuro-symbolic kernel"
+  },
+  {
+    "id": "R06060",
+    "decision": "EXCLUDE",
+    "reason": "Studies LLM adversarial robustness, a security-of-LLMs topic with no OS target.",
+    "evidence": "we study their worst-case robustness"
+  },
+  {
+    "id": "R06061",
+    "decision": "EXCLUDE",
+    "reason": "LLM synthesizes eBPF kernel extensions, but no security analysis or security outcome is evaluated.",
+    "evidence": "KEN uses recent advances in large language models (LLMs) to synthesize an eBPF program given a user's English language prompt."
+  },
+  {
+    "id": "R06062",
+    "decision": "EXCLUDE",
+    "reason": "Security protocol for LLM-agent interoperability; the LLM is not used for OS security analysis.",
+    "evidence": "a trust-native protocol suite that supplies this missing security substrate"
+  },
+  {
+    "id": "R06063",
+    "decision": "EXCLUDE",
+    "reason": "LLM generates GPU kernels for performance and correctness, not a security task or OS target.",
+    "evidence": "reinforcement learning (RL) for kernel generation"
+  },
+  {
+    "id": "R06064",
+    "decision": "EXCLUDE",
+    "reason": "Kernel/eBPF defense protects against untrusted LLM agents; the LLM is not the security mechanism.",
+    "evidence": "without trusting the agent or its policy suggestions"
+  },
+  {
+    "id": "R06065",
+    "decision": "EXCLUDE",
+    "reason": "eBPF provenance monitor observes LLM-agent activity; no LLM is used for security analysis.",
+    "evidence": "an extended Berkeley Packet Filter (eBPF)-based provenance monitor for tracking task and regular-file states"
+  },
+  {
+    "id": "R06066",
+    "decision": "EXCLUDE",
+    "reason": "Multilingual unlearning in LLMs; no OS component or LLM security-analysis task.",
+    "evidence": "knowledge erased in one language frequently remains accessible through others"
+  },
+  {
+    "id": "R06067",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM refines static-analysis vulnerability checkers for Linux kernel fixes.",
+    "evidence": "We evaluate SemWeaver on 39 KNighter-derived CSA checkers from Linux kernel fixes."
+  },
+  {
+    "id": "R06068",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM translates kernel patches into typestate rules and detects Linux kernel bugs.",
+    "evidence": "An LLM translates each patch into a typestate rule"
+  },
+  {
+    "id": "R06069",
+    "decision": "EXCLUDE",
+    "reason": "Generalist LLM-agent autopilot; no security analysis or OS security outcome.",
+    "evidence": "an open-source agent system towards the goal of generalist autopilots"
+  },
+  {
+    "id": "R06070",
+    "decision": "EXCLUDE",
+    "reason": "Examines LoRA robustness to training-time attacks, a security-of-LLMs study.",
+    "evidence": "its behavior upon training-time attacks remain underexplored"
+  },
+  {
+    "id": "R06071",
+    "decision": "EXCLUDE",
+    "reason": "HE-friendly LLM architecture for privacy-preserving inference; not OS security.",
+    "evidence": "a modified HE-friendly transformer architecture"
+  },
+  {
+    "id": "R06072",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM agent automates backporting of security patches to the Linux kernel.",
+    "evidence": "an LLM-agent for end-to-end automation of patch backporting in real-world scenarios"
+  },
+  {
+    "id": "R06073",
+    "decision": "EXCLUDE",
+    "reason": "Verifies deterministic LLM-pipeline computations; the filesystem sandbox is a setting, not the target OS security task.",
+    "evidence": "verifying the deterministic structured computations surrounding a large language model rather than the model itself"
+  },
+  {
+    "id": "R06074",
+    "decision": "EXCLUDE",
+    "reason": "LLM-driven PQC hardware/software co-design; no OS security analysis.",
+    "evidence": "accelerate the hardware-software co-design process for PQC"
+  },
+  {
+    "id": "R06075",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-powered BugStone discovers recurring security bugs at scale in the Linux kernel.",
+    "evidence": "BugStone identified more than 22K new potential issues in the Linux kernel."
+  },
+  {
+    "id": "R06076",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-assisted rule inference supports syscall/capability minimization for Kubernetes workloads.",
+    "evidence": "leverages LLM-assisted rule specification to derive syscall--parameter--capability relations from Linux kernel code"
+  },
+  {
+    "id": "R06077",
+    "decision": "EXCLUDE",
+    "reason": "GPU information-flow tracking isolates LLM-serving users; the LLM is the workload, not the security tool.",
+    "evidence": "enforces user data isolation in LLM serving"
+  },
+  {
+    "id": "R06078",
+    "decision": "EXCLUDE",
+    "reason": "Studies denial-of-wallet attacks on tool-calling LLM agents, not OS security analysis.",
+    "evidence": "denial-of-wallet attacks and defenses in tool-calling LLM agents"
+  },
+  {
+    "id": "R06079",
+    "decision": "EXCLUDE",
+    "reason": "GPU register-leak vulnerability; the LLM is a victim workload, not the analysis method.",
+    "evidence": "unintended register content leakage of previously executed shader kernels"
+  },
+  {
+    "id": "R06080",
+    "decision": "EXCLUDE",
+    "reason": "Text-to-image alignment and DPO kernels; no OS or security-analysis task.",
+    "evidence": "a novel extension enhancing alignment across three dimensions"
+  },
+  {
+    "id": "R06081",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based FPGA HLS optimization; no security task or OS target.",
+    "evidence": "LLM-Based Timing-Aware and Architecture-Specific FPGA HLS Optimization"
+  },
+  {
+    "id": "R06082",
+    "decision": "EXCLUDE",
+    "reason": "Privacy-preserving LLM inference via semantic null-space obfuscation; not OS security.",
+    "evidence": "a lightweight client-side encryption framework for privacy-preserving LLM inference"
+  },
+  {
+    "id": "R06083",
+    "decision": "EXCLUDE",
+    "reason": "Synthesis and forecast of agentic cyber offense, not original LLM security research on OS components.",
+    "evidence": "This paper synthesizes current public evidence"
+  },
+  {
+    "id": "R06084",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-assisted DeputyHunt analyzes confused-deputy vulnerabilities at AI-accelerator/OS privilege boundaries.",
+    "evidence": "a Large Language Model (LLM)-assisted framework to extract CDA-relevant information"
+  },
+  {
+    "id": "R06085",
+    "decision": "EXCLUDE",
+    "reason": "Characterizes WebGPU dispatch overhead for LLM inference; no security analysis.",
+    "evidence": "a systematic characterization of WebGPU dispatch overhead for LLM inference"
+  },
+  {
+    "id": "R06086",
+    "decision": "EXCLUDE",
+    "reason": "FHE linear-algebra kernels for private transformer inference; no OS security task.",
+    "evidence": "implementations of linear algebra kernels needed for transformer inference in FHE"
+  },
+  {
+    "id": "R06087",
+    "decision": "EXCLUDE",
+    "reason": "Reversibility of LLM unlearning; no OS component or security-analysis task.",
+    "evidence": "Investigating Reversibility of Machine Unlearning in LLMs"
+  },
+  {
+    "id": "R06088",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-guided harness construction supports static analysis of Android kernel-driver warnings.",
+    "evidence": "On 200 real Android kernel-driver warnings, including 40 confirmed bugs"
+  },
+  {
+    "id": "R06089",
+    "decision": "EXCLUDE",
+    "reason": "LLM-driven survey methodology for codebase evolution; security is only one insight area, not the task.",
+    "evidence": "an LLM-driven methodology for analyzing large-scale codebases"
+  },
+  {
+    "id": "R06090",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM maps eBPF kernel-level provenance telemetry to MITRE ATT&CK for security analysis.",
+    "evidence": "collects kernel-level events via eBPF, correlates attacker commands into a provenance graph"
+  },
+  {
+    "id": "R06091",
+    "decision": "EXCLUDE",
+    "reason": "LLM agent identifies bug-inducing commits, a general software-engineering task without a direct security outcome.",
+    "evidence": "identifying bug-inducing commits"
+  },
+  {
+    "id": "R06092",
+    "decision": "EXCLUDE",
+    "reason": "Edge-cloud multimodal sensing with LLM routing and privacy constraints; not OS security.",
+    "evidence": "an edge-first framework that turns continuous multimodal sensor streams"
+  },
+  {
+    "id": "R06093",
+    "decision": "EXCLUDE",
+    "reason": "Position paper on a multi-agent cybersecurity platform; not original empirical research on an OS-targeted LLM task.",
+    "evidence": "This position paper argues"
+  },
+  {
+    "id": "R06094",
+    "decision": "EXCLUDE",
+    "reason": "Personalized OS with LLM capabilities; OS engineering without an LLM security-analysis outcome.",
+    "evidence": "a personalized OS ingrained with LLM capabilities"
+  },
+  {
+    "id": "R06095",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-template role-injection study in LLM applications; no OS component target.",
+    "evidence": "structural role injection, where attacker-controlled data carries chat role delimiters"
+  },
+  {
+    "id": "R06096",
+    "decision": "EXCLUDE",
+    "reason": "Agent library OS controls LLM-agent authority; security of agents, not LLM-based OS security analysis.",
+    "evidence": "an agent-native library OS substrate that separates three planes"
+  },
+  {
+    "id": "R06097",
+    "decision": "EXCLUDE",
+    "reason": "LLM-generated deception defends web applications against penetration agents; the target is not an OS component.",
+    "evidence": "Across 15 CVE-Bench web applications and four attacker models"
+  }
+]

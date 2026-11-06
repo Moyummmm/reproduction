@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03481",
+    "decision": "EXCLUDE",
+    "reason": "Construction-cost diagnostics with an audit hash, not an OS security task.",
+    "evidence": "LLM-based construction cost diagnostic systems for consumer protection"
+  },
+  {
+    "id": "R03482",
+    "decision": "EXCLUDE",
+    "reason": "Career-support chatbot log analysis; no security or OS component target.",
+    "evidence": "Information Collection Process of an LLM-Based Career Support Chatbot"
+  },
+  {
+    "id": "R03483",
+    "decision": "EXCLUDE",
+    "reason": "Root-cause analysis for distributed systems; no security outcome or OS target.",
+    "evidence": "LLM-based Root Cause Analysis in Distributed Systems"
+  },
+  {
+    "id": "R03484",
+    "decision": "EXCLUDE",
+    "reason": "SAP financial-workflow audit logging; not OS or privileged-interface security.",
+    "evidence": "audit log completeness in Agentic RAG systems deployed over SAP financial modules"
+  },
+  {
+    "id": "R03485",
+    "decision": "EXCLUDE",
+    "reason": "General log monitoring and self-healing; security outcome and OS target are not evidenced.",
+    "evidence": "Enhancing Log Monitoring with ELK, LLM-Based Analysis, Automated Alerts, and Self-Healing Mechanisms"
+  },
+  {
+    "id": "R03486",
+    "decision": "EXCLUDE",
+    "reason": "Organizational information-distortion simulation; no OS security analysis.",
+    "evidence": "real-LLM multi-agent episodes"
+  },
+  {
+    "id": "R03487",
+    "decision": "UNCLEAR",
+    "reason": "Config-file security audit could concern privileged OS configuration, but the missing abstract leaves target and evaluation unconfirmed.",
+    "evidence": "LLM-based Security Audit Assistant for Configuration File Analysis"
+  },
+  {
+    "id": "R03488",
+    "decision": "EXCLUDE",
+    "reason": "Health-misinformation jailbreak study; security of LLMs, not OS components.",
+    "evidence": "LLM-produced jailbreak attacks that cause other models to produce harmful medical misinformation"
+  },
+  {
+    "id": "R03489",
+    "decision": "EXCLUDE",
+    "reason": "MCQA confidence calibration; no security or OS dimension.",
+    "evidence": "confidence estimation in LLM-Based Multiple-Choice Question Answering"
+  },
+  {
+    "id": "R03490",
+    "decision": "EXCLUDE",
+    "reason": "Log parsing method; no security outcome or OS target.",
+    "evidence": "Advancing Log Parsing in the LLM Era"
+  },
+  {
+    "id": "R03491",
+    "decision": "EXCLUDE",
+    "reason": "AI-text-detector accuracy audit; unrelated to OS security.",
+    "evidence": "three-arm diagnostic accuracy study"
+  },
+  {
+    "id": "R03492",
+    "decision": "EXCLUDE",
+    "reason": "HIE usage audit-log study; no LLM role or OS security target.",
+    "evidence": "audit log analyses of large-scale HIEs"
+  },
+  {
+    "id": "R03493",
+    "decision": "EXCLUDE",
+    "reason": "Government audit-finding retrieval; not OS security research.",
+    "evidence": "LLM-Enhanced Judgement Basis Retrieval for Audit Findings in Government Audit Report"
+  },
+  {
+    "id": "R03494",
+    "decision": "UNCLEAR",
+    "reason": "Secure log analysis with an LLM is security-relevant, but title-only evidence does not establish OS scope.",
+    "evidence": "TALL-Detect: A Transformer and LLM-Augmented Framework for Tamper-Evident and Explainable Secure Log Analysis"
+  },
+  {
+    "id": "R03495",
+    "decision": "EXCLUDE",
+    "reason": "Learner reading-log analysis; no security or OS dimension.",
+    "evidence": "ARCHIE: Exploring Language Learner Behaviors in LLM Chatbot-Supported Active Reading Log Data with Epistemic Network Analysis"
+  },
+  {
+    "id": "R03496",
+    "decision": "UNCLEAR",
+    "reason": "Cyber-threat log detection with LLM orchestration is security-relevant, but OS scope is not explicit in the title.",
+    "evidence": "LLM-Orchestrated Multi-Agent Framework for Log-Centric Cyber Threat Detection and Analysis"
+  },
+  {
+    "id": "R03497",
+    "decision": "EXCLUDE",
+    "reason": "Test-time LLM optimization; no security or OS task.",
+    "evidence": "Audit-First Recombination for Test-Time LLM Optimization Under Deterministic Verifiers"
+  },
+  {
+    "id": "R03498",
+    "decision": "EXCLUDE",
+    "reason": "Vehicle incident triage; security and OS scope are not established.",
+    "evidence": "LLM-Assisted Joint Ticket and Log Analysis for Incident Triage in Intelligent and Connected Vehicles"
+  },
+  {
+    "id": "R03499",
+    "decision": "EXCLUDE",
+    "reason": "Systematic review of LLM-serving evaluations; reviews are excluded from the core empirical set.",
+    "evidence": "We systematically reviewed peer-reviewed journal articles"
+  },
+  {
+    "id": "R03500",
+    "decision": "EXCLUDE",
+    "reason": "Benchmark contamination audit; not OS security.",
+    "evidence": "reliability of Bengali LLM benchmarks"
+  },
+  {
+    "id": "R03501",
+    "decision": "EXCLUDE",
+    "reason": "Practitioner tacit-theory audit; not OS security.",
+    "evidence": "Auditing a Practitioner's Tacit Theories"
+  },
+  {
+    "id": "R03502",
+    "decision": "EXCLUDE",
+    "reason": "AHP expert-judgment validation; no security or OS task.",
+    "evidence": "Validating LLM-Generated Expert Judgments in AHP Decision Support"
+  },
+  {
+    "id": "R03503",
+    "decision": "EXCLUDE",
+    "reason": "EMR insider-threat dataset; no LLM role and not OS components.",
+    "evidence": "Insider Threat Behavioral Analysis"
+  },
+  {
+    "id": "R03504",
+    "decision": "EXCLUDE",
+    "reason": "Wiki provenance audit; no OS security task.",
+    "evidence": "Provenance-Native Audit Infrastructure for LLM-Maintained Wiki Knowledge Systems"
+  },
+  {
+    "id": "R03505",
+    "decision": "EXCLUDE",
+    "reason": "K-Means log clustering; no LLM role and not OS security.",
+    "evidence": "menggunakan K-Means"
+  },
+  {
+    "id": "R03506",
+    "decision": "EXCLUDE",
+    "reason": "AIOps log prioritization; no security outcome.",
+    "evidence": "LLM-based AIOps via Log Prioritization in Air-Gapped Systems"
+  },
+  {
+    "id": "R03507",
+    "decision": "EXCLUDE",
+    "reason": "Log-generation alignment data; no security task.",
+    "evidence": "AUCAD: Automated Construction of Alignment Dataset from Log-Related Issues for Enhancing LLM-based Log Generation"
+  },
+  {
+    "id": "R03508",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-specification QA audit; not OS security.",
+    "evidence": "Prompt-Engineering Quality Assurance"
+  },
+  {
+    "id": "R03509",
+    "decision": "UNCLEAR",
+    "reason": "Cyber-threat-intelligence audit with LLM scoping is security-relevant, but OS target and substantive role are unclear title-only.",
+    "evidence": "Cybersecurity Threat Intelligence for Audit: LLM Scoping, Evidence Guardrails, and Materiality"
+  },
+  {
+    "id": "R03510",
+    "decision": "EXCLUDE",
+    "reason": "Recommender reasoning audit; not security.",
+    "evidence": "How Faithful Is the Reasoning of LLM Recommenders? A Counterfactual Audit"
+  },
+  {
+    "id": "R03511",
+    "decision": "EXCLUDE",
+    "reason": "Networking-log knowledge extraction; no security outcome.",
+    "evidence": "LLM Application for Knowledge Extraction from Networking Log Files"
+  },
+  {
+    "id": "R03512",
+    "decision": "EXCLUDE",
+    "reason": "Online log parsing; no security task.",
+    "evidence": "LLM-powered Zero-shot Online Log Parsing"
+  },
+  {
+    "id": "R03513",
+    "decision": "EXCLUDE",
+    "reason": "Sanitizable signature scheme; no LLM role.",
+    "evidence": "Designated Confirmer Sanitizable Signature suitable for Audit Log"
+  },
+  {
+    "id": "R03514",
+    "decision": "EXCLUDE",
+    "reason": "Predictive-maintenance sensor fusion; not security.",
+    "evidence": "LLM-Assisted Sensor-Log Fusion for Predictive Maintenance in Nanofabrication Equipment"
+  },
+  {
+    "id": "R03515",
+    "decision": "EXCLUDE",
+    "reason": "Generic audit-log management; no LLM or security evidence.",
+    "evidence": "Audit Log Management"
+  },
+  {
+    "id": "R03516",
+    "decision": "EXCLUDE",
+    "reason": "Retail options decision-pipeline audit; not OS security.",
+    "evidence": "Governing LLM-assisted retail equity-options decision pipeline"
+  },
+  {
+    "id": "R03517",
+    "decision": "EXCLUDE",
+    "reason": "Log-analysis instruction synthesis; no security task.",
+    "evidence": "LogInstruct: Knowledge-Driven Instruction Synthesis for Enhancing LLM-Based Log Analysis"
+  },
+  {
+    "id": "R03518",
+    "decision": "EXCLUDE",
+    "reason": "LLM workflow-reliability audit; not OS security.",
+    "evidence": "downstream workflow reliability of conversational AI"
+  },
+  {
+    "id": "R03519",
+    "decision": "EXCLUDE",
+    "reason": "General LLM-generated-code audit; no OS or privileged-interface target shown.",
+    "evidence": "Polyglot but Perilous: A Multi-Model, Multi-Language Audit of LLM-Generated Code"
+  },
+  {
+    "id": "R03520",
+    "decision": "EXCLUDE",
+    "reason": "Content-safety guard robustness; security of LLMs, not OS.",
+    "evidence": "LLM Content-Safety Guards"
+  }
+]

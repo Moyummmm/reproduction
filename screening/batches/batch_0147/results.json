@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R05881",
+    "decision": "EXCLUDE",
+    "reason": "Generic cybersecurity fundamentals overview; no original LLM-based OS security task.",
+    "evidence": "explores the fundamental principles of cybersecurity"
+  },
+  {
+    "id": "R05882",
+    "decision": "EXCLUDE",
+    "reason": "Title identifies a review of a survey, not original empirical research.",
+    "evidence": "Review of: \"Large Vision-Language Model Alignment and Misalignment: A Survey Through the Lens of Explainability\""
+  },
+  {
+    "id": "R05883",
+    "decision": "EXCLUDE",
+    "reason": "Title identifies a review of a survey, not original empirical research.",
+    "evidence": "Review of: \"Large Vision-Language Model Alignment and Misalignment: A Survey Through the Lens of Explainability\""
+  },
+  {
+    "id": "R05884",
+    "decision": "EXCLUDE",
+    "reason": "Book chapter surveying LLM cybersecurity applications, not original OS-targeted research.",
+    "evidence": "This chapter explores the dual role of LLMs in enhancing cybersecurity"
+  },
+  {
+    "id": "R05885",
+    "decision": "EXCLUDE",
+    "reason": "Medical multimodal LLM title gives no security task or OS component target.",
+    "evidence": "LLaVA-NeXT-Med: Medical Multimodal Large Language Model"
+  },
+  {
+    "id": "R05886",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; cybersecurity assistant may be relevant but OS scope and empirical task are unverified.",
+    "evidence": "CyberGuardian: An Interactive Assistant for Cybersecurity Specialists Using Large Language Models"
+  },
+  {
+    "id": "R05887",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM cybersecurity analysis/response could be relevant, but OS target and study design are unverified.",
+    "evidence": "Leveraging Large Language Model to Augment Cybersecurity Analysis and Response in Thai Language"
+  },
+  {
+    "id": "R05888",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based malware image classification is security analysis but does not target OS components or privileged interfaces.",
+    "evidence": "Malware family classification is crucial for threat detection"
+  },
+  {
+    "id": "R05889",
+    "decision": "EXCLUDE",
+    "reason": "Title concerns manipulative behavior across LLM architectures, not OS-targeted security research.",
+    "evidence": "Algorithmic Sociopathy: Comparative Analysis of Manipulative Patterns Across Large Language Model Architectures"
+  },
+  {
+    "id": "R05890",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM data-science agents; not security research or OS-targeted.",
+    "evidence": "This survey presents a comprehensive analysis of LLM-based agents designed for data science tasks"
+  },
+  {
+    "id": "R05891",
+    "decision": "EXCLUDE",
+    "reason": "Chapter overview of DL/LLM cybersecurity foundations, not original OS-targeted empirical work.",
+    "evidence": "This chapter explores the foundational concepts of deep learning and LLMs"
+  },
+  {
+    "id": "R05892",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates guardrail robustness of enterprise LLM assistants, i.e. LLM security rather than OS-targeted analysis.",
+    "evidence": "The UNICORN Framework: A Multi-Dimensional Methodology for Evaluating Guardrail Robustness in Enterprise Large Language Model Assistants"
+  },
+  {
+    "id": "R05893",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted threat-intelligence graph construction does not target OS components or privileged interfaces.",
+    "evidence": "constructing canonical knowledge graphs from sensitive textual data"
+  },
+  {
+    "id": "R05894",
+    "decision": "EXCLUDE",
+    "reason": "Empirical study of prompt-injection defenses in LLMs; security of LLMs, not OS components.",
+    "evidence": "systematic experimental evaluation of prompt injection attacks and layered defensive controls"
+  },
+  {
+    "id": "R05895",
+    "decision": "EXCLUDE",
+    "reason": "Title denotes a state-of-the-art review, excluded from core empirical research.",
+    "evidence": "Large Language Models in Cybersecurity: State-of-the-Art"
+  },
+  {
+    "id": "R05896",
+    "decision": "EXCLUDE",
+    "reason": "Cybersecurity domain-adaptive pretraining framework; no explicit security task or OS target.",
+    "evidence": "CyLLM-DAP: Cybersecurity Domain-Adaptive Pre-Training Framework of Large Language Models"
+  },
+  {
+    "id": "R05897",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted cybersecurity knowledge graph construction from threat reports, not OS-targeted security analysis.",
+    "evidence": "a cybersecurity knowledge-graph construction method"
+  },
+  {
+    "id": "R05898",
+    "decision": "EXCLUDE",
+    "reason": "Cyberbullying identification is outside OS security and privileged-interface scope.",
+    "evidence": "A Study on Cyberbullying Identification Based on Large Model Language Method"
+  },
+  {
+    "id": "R05899",
+    "decision": "EXCLUDE",
+    "reason": "Survey of smart-grid cybersecurity and LLM roles, not original OS-targeted research.",
+    "evidence": "This survey also outlines emerging threats"
+  },
+  {
+    "id": "R05900",
+    "decision": "EXCLUDE",
+    "reason": "Spam detection with tailored LLMs is not OS-component or privileged-interface security.",
+    "evidence": "Tailored Large Language Models for Spam Detection: From Model Customization to Benchmarking Effectiveness"
+  },
+  {
+    "id": "R05901",
+    "decision": "EXCLUDE",
+    "reason": "Overview of LLM cybersecurity applications; no original OS-targeted security analysis.",
+    "evidence": "This paper explores the applications of LLMs in cybersecurity"
+  },
+  {
+    "id": "R05902",
+    "decision": "EXCLUDE",
+    "reason": "Title identifies a review of a survey, not original empirical research.",
+    "evidence": "Review of: \"Large Vision-Language Model Alignment and Misalignment: A Survey Through the Lens of Explainability\""
+  },
+  {
+    "id": "R05903",
+    "decision": "EXCLUDE",
+    "reason": "Brief survey of agentic-AI security threats/defenses; excluded as a survey and focused on AI security.",
+    "evidence": "From Large Language Models to Agentic AI: A Brief Survey of Security Threats and Defense Strategies"
+  },
+  {
+    "id": "R05904",
+    "decision": "EXCLUDE",
+    "reason": "Survey of causal inference with LLMs, not OS-targeted security research.",
+    "evidence": "Causal Inference with Large Language Model: A Survey"
+  },
+  {
+    "id": "R05905",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM agent architectures and evaluation, without OS security task.",
+    "evidence": "Large Language Model-Based Autonomous Agents: A Survey of Architectures, Coordination, Evaluation, and Practical Guidance"
+  },
+  {
+    "id": "R05906",
+    "decision": "EXCLUDE",
+    "reason": "Survey-methodology work using LLMs, not a security analysis targeting OS components.",
+    "evidence": "Rethinking Survey Methodology With Large Language Models"
+  },
+  {
+    "id": "R05907",
+    "decision": "EXCLUDE",
+    "reason": "Phishing URL detection is not an OS-component or privileged-interface security task.",
+    "evidence": "A Study of Large Language Model Performance for Phishing URL Detection and Explainability for User-Centric Security"
+  },
+  {
+    "id": "R05908",
+    "decision": "EXCLUDE",
+    "reason": "Cultural risk profiling framework; title gives no LLM role or OS-targeted security task.",
+    "evidence": "Toward Proactive Cybersecurity: A Cultural Risk Profiling Framework for Predictive Cybersecurity Analytics"
+  },
+  {
+    "id": "R05909",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates explainability of LLM cybersecurity advice, not OS-targeted analysis/testing.",
+    "evidence": "ability of advanced language models to distinguish between defensive and offensive cybersecurity advice"
+  },
+  {
+    "id": "R05910",
+    "decision": "EXCLUDE",
+    "reason": "Uncertainty quantification for LLM survey simulation, unrelated to OS security.",
+    "evidence": "How Many Human Survey Respondents is a Large Language Model Worth? An Uncertainty Quantification Perspective"
+  },
+  {
+    "id": "R05911",
+    "decision": "EXCLUDE",
+    "reason": "Historical overview of language-model development, not security or OS-targeted research.",
+    "evidence": "an overview of the history of LLMs development"
+  },
+  {
+    "id": "R05912",
+    "decision": "EXCLUDE",
+    "reason": "Title identifies a literature review, excluded from core empirical research.",
+    "evidence": "Exploring Large Language Model Agents in Cybersecurity: A Literature Review with Experiments"
+  },
+  {
+    "id": "R05913",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM-agent cyber defense is potentially relevant, but OS target and empirical design are unverified.",
+    "evidence": "Intelligent Cybersecurity Defense Strategies Based on Large Language Model Agents"
+  },
+  {
+    "id": "R05914",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM incident-response model may be relevant, but OS target and evaluation are unverified.",
+    "evidence": "A Cybersecurity Incident Response Model Based on Knowledge Adaptation for Large Language Models"
+  },
+  {
+    "id": "R05915",
+    "decision": "EXCLUDE",
+    "reason": "Agricultural cybersecurity chapter covers AI/LLM intrusion detection but not OS components or privileged interfaces.",
+    "evidence": "This chapter explores the application of these technologies in securing agricultural networks"
+  },
+  {
+    "id": "R05916",
+    "decision": "EXCLUDE",
+    "reason": "Air-traffic-management cybersecurity LLM; domain application does not indicate OS-component or privileged-interface target.",
+    "evidence": "AeroSec: a vertical domain large language model for air traffic management cybersecurity"
+  },
+  {
+    "id": "R05917",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial attack on vision-language models; security of LLMs, not OS-targeted security analysis.",
+    "evidence": "targeted adversarial attack on LVLMs"
+  },
+  {
+    "id": "R05918",
+    "decision": "EXCLUDE",
+    "reason": "Secure voice-agent architecture addresses prompt injection and least privilege, not OS components or privileged interfaces.",
+    "evidence": "The article presents an architectural approach to secure voice agent integration"
+  },
+  {
+    "id": "R05919",
+    "decision": "EXCLUDE",
+    "reason": "Comprehensive analysis of LLM security risks and defenses; security of LLMs, not OS-targeted empirical research.",
+    "evidence": "The article provides a comprehensive analysis of current security challenges related to Large Language Models"
+  },
+  {
+    "id": "R05920",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial attack framework against LLMs; security of LLMs, not OS-targeted security analysis.",
+    "evidence": "Ctta: a novel chain-of-thought transfer adversarial attacks framework for large language models"
+  }
+]

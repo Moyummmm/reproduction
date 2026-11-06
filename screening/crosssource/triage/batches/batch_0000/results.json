@@ -1,0 +1,26 @@
+[
+  {
+    "id": "R00629",
+    "decision": "EXCLUDE",
+    "reason": "Focuses on defending LLM applications against prompt injection and jailbreaking, not on using an LLM for an OS-level security task.",
+    "evidence": "The security of Large Language Model (LLM) applications is fundamentally challenged by \"formfirst\" attacks like prompt injection and jailbreaking"
+  },
+  {
+    "id": "R00869",
+    "decision": "EXCLUDE",
+    "reason": "LLM assists Linux kernel patch migration, which is OS engineering without a stated security analysis, testing, or protection outcome.",
+    "evidence": "automating out-of-tree kernel patch migration"
+  },
+  {
+    "id": "R03168",
+    "decision": "EXCLUDE",
+    "reason": "Uses a TEE to protect on-device LLMs; the LLM is the protected asset, not used for an OS security task.",
+    "evidence": "protecting on-device LLMs using Arm Trusted Execution Environment (TEE), TrustZone"
+  },
+  {
+    "id": "R04909",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM agent automates backporting of security patches to older branches, including for the Linux kernel.",
+    "evidence": "migrating mainline security patches to older branches"
+  }
+]

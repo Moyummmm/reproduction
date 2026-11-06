@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03001",
+    "decision": "UNCLEAR",
+    "reason": "Title-only enclave memory-introspection security work; LLM role and evaluation are unstated.",
+    "evidence": "Smile: Secure Memory Introspection for Live Enclave"
+  },
+  {
+    "id": "R03002",
+    "decision": "EXCLUDE",
+    "reason": "Social-science study of security force assistance, not LLM-based OS security research.",
+    "evidence": "Security force assistance to Cameroon: how building enclave units deepens autocracy"
+  },
+  {
+    "id": "R03003",
+    "decision": "UNCLEAR",
+    "reason": "Title-only TEE enclave migration work; LLM use and security task details are absent.",
+    "evidence": "Unified Enclave Abstraction and Secure Enclave Migration on Heterogeneous Security Architectures"
+  },
+  {
+    "id": "R03004",
+    "decision": "UNCLEAR",
+    "reason": "Title-only MLaaS and enclave partitioning work; whether an LLM is used for security is unstated.",
+    "evidence": "Secure MLaaS with Temper: Trusted and Efficient Model Partitioning and Enclave Reuse"
+  },
+  {
+    "id": "R03005",
+    "decision": "UNCLEAR",
+    "reason": "Title-only enclave simulator work; LLM role and security evaluation are not specified.",
+    "evidence": "EnclaveSim:A Micro-architectural Simulator with Enclave Support"
+  },
+  {
+    "id": "R03006",
+    "decision": "UNCLEAR",
+    "reason": "Title-only RISC-V enclave cache work; LLM use and security outcome are unstated.",
+    "evidence": "Enclave Application Cache for RISC-V Keystone"
+  },
+  {
+    "id": "R03007",
+    "decision": "UNCLEAR",
+    "reason": "Title-only SGX enclave security analysis; LLM involvement is not specified.",
+    "evidence": "TCS Security Analysis in Intel SGX Enclave MultiThreading"
+  },
+  {
+    "id": "R03008",
+    "decision": "UNCLEAR",
+    "reason": "Title-only SGX side-channel attack; LLM role is not specified.",
+    "evidence": "Recover Secrets from an SGX Enclave with Horizontal Power Analysis"
+  },
+  {
+    "id": "R03009",
+    "decision": "EXCLUDE",
+    "reason": "Dictionary entry, not original security research.",
+    "evidence": "enclave, adj."
+  },
+  {
+    "id": "R03010",
+    "decision": "UNCLEAR",
+    "reason": "Title-only symbolic validation of SGX runtimes; LLM role and evaluation details are absent.",
+    "evidence": "Pandora: Principled Symbolic Validation of Intel SGX Enclave Runtimes"
+  },
+  {
+    "id": "R03011",
+    "decision": "EXCLUDE",
+    "reason": "Dictionary entry, not original security research.",
+    "evidence": "enclave, n."
+  },
+  {
+    "id": "R03012",
+    "decision": "UNCLEAR",
+    "reason": "Title-only enclave parallelism architecture; LLM use and security outcome are unstated.",
+    "evidence": "SSE: Security Service Engines to Scale Enclave Parallelism for System Interactive Applications"
+  },
+  {
+    "id": "R03013",
+    "decision": "UNCLEAR",
+    "reason": "Title-only multi-enclave availability work; LLM role and security evaluation are absent.",
+    "evidence": "It's a Non-Stop PARTEE! Practical Multi-Enclave Availability Through Partitioning and Asynchrony"
+  },
+  {
+    "id": "R03014",
+    "decision": "UNCLEAR",
+    "reason": "Title-only RISC-V enclave architecture; LLM use and security task are unstated.",
+    "evidence": "SPEAR-V: Secure and Practical Enclave Architecture for RISC-V"
+  },
+  {
+    "id": "R03015",
+    "decision": "EXCLUDE",
+    "reason": "Comparative architectural survey of mobile key storage; no LLM security role.",
+    "evidence": "a comparative analysis of the SEP, Knox Vault, and Titan M2 architectures"
+  },
+  {
+    "id": "R03016",
+    "decision": "EXCLUDE",
+    "reason": "TEE framework for distributed event-driven applications; no LLM role described.",
+    "evidence": "We present an integrated open-source framework to develop, deploy, and use such applications across heterogeneous TEEs."
+  },
+  {
+    "id": "R03017",
+    "decision": "UNCLEAR",
+    "reason": "Title-only enclave performance architecture; LLM use and security evaluation are unstated.",
+    "evidence": "SSE: Security Service Engines to Accelerate Enclave Performance in Secure Multicore Processors"
+  },
+  {
+    "id": "R03018",
+    "decision": "UNCLEAR",
+    "reason": "Title-only secure cloud file sharing using enclaves; LLM role and security evaluation are unstated.",
+    "evidence": "EnShare: Sharing Files Securely and Efficiently in the Cloud using Enclave"
+  },
+  {
+    "id": "R03019",
+    "decision": "UNCLEAR",
+    "reason": "Title provides no scope information; LLM, security task, and target cannot be determined.",
+    "evidence": "ENGRAFT"
+  },
+  {
+    "id": "R03020",
+    "decision": "UNCLEAR",
+    "reason": "Title-only virtualization security work; LLM use and research scope are unstated.",
+    "evidence": "Virtualization Security"
+  },
+  {
+    "id": "R03021",
+    "decision": "EXCLUDE",
+    "reason": "Review-style NFV security overview; no LLM-based security research.",
+    "evidence": "Various research methodologies are used for this study such as researching, data collection, and summarizing."
+  },
+  {
+    "id": "R03022",
+    "decision": "EXCLUDE",
+    "reason": "Review of virtualization security concerns and proposed solutions; no LLM role.",
+    "evidence": "exploring the various concerns and examining the solutions proposed by the research community"
+  },
+  {
+    "id": "R03023",
+    "decision": "UNCLEAR",
+    "reason": "Title-only Android patch distribution via virtualization; LLM role and security evaluation are unstated.",
+    "evidence": "VirtualPatch: Distributing Android security patches through Android virtualization"
+  },
+  {
+    "id": "R03024",
+    "decision": "UNCLEAR",
+    "reason": "Title-only virtualization security implications; LLM role and research scope are ambiguous.",
+    "evidence": "Security Implication in Virtualization"
+  },
+  {
+    "id": "R03025",
+    "decision": "UNCLEAR",
+    "reason": "Title-only SDN security and challenges work; LLM use and original-research status are unstated.",
+    "evidence": "SDN Security and Challenges"
+  },
+  {
+    "id": "R03026",
+    "decision": "UNCLEAR",
+    "reason": "Title-only virtualization security overview; LLM use and study design are unstated.",
+    "evidence": "Virtualization Technologies and Security"
+  },
+  {
+    "id": "R03027",
+    "decision": "UNCLEAR",
+    "reason": "Title-only Android patch distribution via virtualization; LLM role and security evaluation are unstated.",
+    "evidence": "Virtualpatch: Distributing Android Security Patches Through Android Virtualization"
+  },
+  {
+    "id": "R03028",
+    "decision": "EXCLUDE",
+    "reason": "General compute and virtualization topic with no security or LLM dimension.",
+    "evidence": "Compute and Virtualization"
+  },
+  {
+    "id": "R03029",
+    "decision": "EXCLUDE",
+    "reason": "Introductory virtualization and cloud security material, not core empirical LLM security research.",
+    "evidence": "Introduction to Virtualization Security and Cloud Security"
+  },
+  {
+    "id": "R03030",
+    "decision": "EXCLUDE",
+    "reason": "General storage and virtualization topic with no security or LLM dimension.",
+    "evidence": "Storage and Virtualization"
+  },
+  {
+    "id": "R03031",
+    "decision": "UNCLEAR",
+    "reason": "Title-only cloud and virtualization security considerations; LLM role and study design are unstated.",
+    "evidence": "Cloud and Virtualization Security Considerations"
+  },
+  {
+    "id": "R03032",
+    "decision": "EXCLUDE",
+    "reason": "General operating-systems curriculum topic; no original LLM security analysis or outcome.",
+    "evidence": "Advanced Operating Systems: Virtualization, Memory, Processes &amp; Security"
+  },
+  {
+    "id": "R03033",
+    "decision": "EXCLUDE",
+    "reason": "Tourism virtualization, outside OS security and LLM scope.",
+    "evidence": "VIRTUALIZATION IN TOURISM: THE PRACTICE OF USE"
+  },
+  {
+    "id": "R03034",
+    "decision": "EXCLUDE",
+    "reason": "LLM inference virtualization performance study; no security analysis or protection outcome.",
+    "evidence": "configuration complexity and performance across six platforms"
+  },
+  {
+    "id": "R03035",
+    "decision": "EXCLUDE",
+    "reason": "General virtualization and containerization chapter; no LLM-based security research.",
+    "evidence": "The information in this chapter acts as a thorough reference"
+  },
+  {
+    "id": "R03036",
+    "decision": "UNCLEAR",
+    "reason": "Title-only cloud virtualization security concerns; LLM role and study type are unstated.",
+    "evidence": "Security Concerns of Virtualization in Cloud Computing"
+  },
+  {
+    "id": "R03037",
+    "decision": "UNCLEAR",
+    "reason": "Title-only multimodal abnormal-behavior detection in virtualization; LLM role and security task are unstated.",
+    "evidence": "Multimodal-based abnormal behavior detection method in virtualization environment"
+  },
+  {
+    "id": "R03038",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Title explicitly pairs LLM-augmented post-incident analysis with MTD live migration in Kubernetes.",
+    "evidence": "CubeMig: MTD Live Migration in Kubernetes with LLM-Augmented Post-Incident Analysis"
+  },
+  {
+    "id": "R03039",
+    "decision": "EXCLUDE",
+    "reason": "VMware NSX getting-started guide, not original LLM security research.",
+    "evidence": "Getting Started with VMware NSX 4.X"
+  },
+  {
+    "id": "R03040",
+    "decision": "UNCLEAR",
+    "reason": "Title-only secure green data-center virtualization; whether an LLM is used for an OS security task is unstated.",
+    "evidence": "Secure Green Data Center Solutions Using Virtualization Technology"
+  }
+]

@@ -1,0 +1,1764 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NrzWF1OSZUI8nXfvCcbTdEK0gDw</id>
+  <title>arXiv Query: search_query=(all:"large language model" OR all:LLM OR all:GPT) AND (all:"operating system" AND (all:security OR all:vulnerability) )&amp;id_list=&amp;start=0&amp;max_results=100</title>
+  <updated>2026-11-05T05:39:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(all:%22large+language+model%22+OR+(all:LLM+OR+all:GPT))+AND+(all:%22operating+system%22+AND+(all:security+OR+all:vulnerability))&amp;start=0&amp;max_results=100&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>100</opensearch:itemsPerPage>
+  <opensearch:totalResults>63</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.10732v1</id>
+    <title>Automating Security Audit Using Large Language Model based Agent: An Exploration Experiment</title>
+    <updated>2025-05-15T22:22:52Z</updated>
+    <link href="https://arxiv.org/abs/2505.10732v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.10732v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the current rapidly changing digital environment, businesses are under constant stress to ensure that their systems are secured. Security audits help to maintain a strong security posture by ensuring that policies are in place, controls are implemented, gaps are identified for cybersecurity risks mitigation. However, audits are usually manual, requiring much time and costs. This paper looks at the possibility of developing a framework to leverage Large Language Models (LLMs) as an autonomous agent to execute part of the security audit, namely with the field audit. password policy compliance for Windows operating system. Through the conduct of an exploration experiment of using GPT-4 with Langchain, the agent executed the audit tasks by accurately flagging password policy violations and appeared to be more efficient than traditional manual audits. Despite its potential limitations in operational consistency in complex and dynamic environment, the framework suggests possibilities to extend further to real-time threat monitoring and compliance checks.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-15T22:22:52Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jia Hui Chin</name>
+    </author>
+    <author>
+      <name>Pu Zhang</name>
+    </author>
+    <author>
+      <name>Yu Xin Cheong</name>
+    </author>
+    <author>
+      <name>Jonathan Pan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.14932v1</id>
+    <title>Toward Securing AI Agents Like Operating Systems</title>
+    <updated>2026-05-14T15:07:25Z</updated>
+    <link href="https://arxiv.org/abs/2605.14932v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.14932v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous agents based on large language models (LLMs) are rapidly emerging as a general-purpose technology, with recent systems such as OpenClaw extending their capabilities through broad tool use, third-party skills, and deeper integration into user environments. At the same time, these agentic systems introduce substantial security risks by combining unconstrained capabilities with access to sensitive user data. In this work, we investigate the security of LLM-based agents through the lens of operating systems. We argue that both face strikingly similar challenges in isolating resources, separating privileges, and mediating communication.
+  Guided by this perspective, we survey the current landscape of open-source agents, derive a unified agent architecture, and systematically analyze potential attack vectors. To validate this analysis, we conduct a case study evaluating four widely used OpenClaw-like agents. Even under modest attacker capabilities, we find that several protection mechanisms fail in practice and that secure operation requires detailed system knowledge and careful configuration. However, we also observe that while some agentic capabilities remain insecure by design, many vulnerabilities can be mitigated using well-established techniques from operating system security. We conclude with a set of recommendations for the secure design of agentic systems.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-14T15:07:25Z</published>
+    <arxiv:comment>17 pages, under submission</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Lukas Pirch</name>
+    </author>
+    <author>
+      <name>Micha Horlboge</name>
+    </author>
+    <author>
+      <name>Patrick Großmann</name>
+    </author>
+    <author>
+      <name>Syeda Mahnur Asif</name>
+    </author>
+    <author>
+      <name>Klim Kireev</name>
+    </author>
+    <author>
+      <name>Thorsten Holz</name>
+    </author>
+    <author>
+      <name>Konrad Rieck</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.00024v5</id>
+    <title>Can LLMs Patch Security Issues?</title>
+    <updated>2024-10-16T05:46:45Z</updated>
+    <link href="https://arxiv.org/abs/2312.00024v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.00024v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have shown impressive proficiency in code generation. Unfortunately, these models share a weakness with their human counterparts: producing code that inadvertently has security vulnerabilities. These vulnerabilities could allow unauthorized attackers to access sensitive data or systems, which is unacceptable for safety-critical applications. In this work, we propose Feedback-Driven Security Patching (FDSP), where LLMs automatically refine generated, vulnerable code. Our approach leverages automatic static code analysis to empower the LLM to generate and implement potential solutions to address vulnerabilities. We address the research communitys needs for safe code generation by introducing a large-scale dataset, PythonSecurityEval, covering the diversity of real-world applications, including databases, websites and operating systems. We empirically validate that FDSP outperforms prior work that uses self-feedback from LLMs by up to 17.6% through our procedure that injects targeted, external feedback. Code and data are available at \url{https://github.com/Kamel773/LLM-code-refine}</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-13T08:54:37Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Kamel Alrashedy</name>
+    </author>
+    <author>
+      <name>Abdullah Aljasser</name>
+    </author>
+    <author>
+      <name>Pradyumna Tambwekar</name>
+    </author>
+    <author>
+      <name>Matthew Gombolay</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.02741v1</id>
+    <title>ATrust: Adaptive Trust Boundary Expansion for Securing LLM Agents</title>
+    <updated>2026-11-02T08:28:35Z</updated>
+    <link href="https://arxiv.org/abs/2611.02741v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.02741v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As large language model (LLM) agents take on more complex tasks with greater autonomy, security has become a major obstacle to their broader deployment. Unlike in attacks that require complex exploitation of operating system vulnerabilities, attackers can easily hijack agents through indirect prompt injection (IPI), leading to privacy leakage, financial loss, and destructive operations. However, existing defenses often make security decisions based on limited static trusted evidence or assess observations in isolation. Such rigid trust assumptions can cause task-essential information to be unnecessarily discarded, resulting in over-defense and degraded agent functionality. To address this problem, we propose ATrust, a defense mechanism that adaptively expands the trust boundary during agent runtime. Starting from the user query as the root trust anchor, ATrust evaluates external observations against the current trust boundary and execution state, progressively admitting task-essential information as new trust anchors. This preserves necessary environmental feedback while excluding irrelevant content, whether benign or malicious, from subsequent decision-making, thereby limiting unnecessary exposure to external environment. We evaluate ATrust on AgentDojo and AgentDyn, where it achieves the strongest overall security--utility trade-off among existing defenses. With GPT-4o as the engine model, ATrust reduces the attack success rate on AgentDyn from 37.80% to 4.37% while enhancing utility by 10.00%, outperforming AuthGraph, the state-of-the-art defense, by 12.33%. These results demonstrate the effectiveness and practicality of ATrust.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-02T08:28:35Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Xu Zhang</name>
+    </author>
+    <author>
+      <name>Zhichao Lu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.23700v1</id>
+    <title>When the Agent Becomes the Kernel: A Systematization of Security on the Path to AI-Native Operating Systems</title>
+    <updated>2026-09-20T15:18:00Z</updated>
+    <link href="https://arxiv.org/abs/2609.23700v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.23700v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model agents are now privileged principals that take consequential actions: editing code repositories, operating inboxes, completing purchases. Their authority is kernel-grade, but it comes without what classical systems security requires: a trusted mediator interposed on every access. Operating-system vendors are now rebuilding the platform around this de-facto agent kernel, inheriting complete mediation as a design problem. We systematize the security of such systems around a single distinction: a crossing mediated over provenance admits a deterministic check, while one over content semantics does not. A trust-boundary taxonomy locates where mediation must occur and isolates the central mediation gap at two kinds of semantic judgment: distinguishing data from instruction in untrusted input, and an authorized action from an unauthorized one. We argue that this gap leaves an irreducible residual of undetected attacks wherever inputs and actions are not restricted in advance to an enumerated set. The same distinction makes attack-success statistics actionable, placing each number on a spectrum from deployment debt (a sound deterministic mediator left unused) to a structural gap (no such mediator known). We systematize defenses across runtime monitoring, architectural separation, and authorization, and show that current evaluations tend to overstate deployed security through evaluation-validity failures. Finally, we carry that analysis forward beyond the de-facto kernel, to an architecture in which the model itself becomes the arbitration core, and derive the design constraints, open challenges, and research agenda for a security-first AI-native OS.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-20T15:18:00Z</published>
+    <arxiv:comment>32 pages, 5 figures, 6 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Li Zhang</name>
+    </author>
+    <author>
+      <name>Yang Sun</name>
+    </author>
+    <author>
+      <name>Jie Shi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.27140v3</id>
+    <title>Measuring the Security of Mobile LLM Agents under Adversarial Prompts from Untrusted Third-Party Channels</title>
+    <updated>2026-07-07T02:18:26Z</updated>
+    <link href="https://arxiv.org/abs/2510.27140v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.27140v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have transformed software development, enabling AI-powered applications known as LLM-based agents that promise to automate tasks across diverse apps and workflows. Yet, the security implications of deploying such agents in adversarial mobile environments remain poorly understood. In this paper, we present the first systematic study of security risks in mobile LLM agents. We design and evaluate a suite of adversarial case studies, ranging from opportunistic manipulations such as pop-up advertisements to advanced, end-to-end workflows involving malware installation and cross-app data exfiltration. Our evaluation covers eight state-of-the-art mobile agents across three architectures, with over 2,000 adversarial and paired benign trials. The results reveal systemic vulnerabilities: low-barrier vectors such as fraudulent ads succeed with over 80% reliability, while even workflows requiring the circumvention of operating-system warnings, such as malware installation, are consistently completed by advanced multi-app agents. By mapping these attacks to the MITRE ATT&amp;CK Mobile framework, we uncover novel privilege-escalation and persistence pathways unique to LLM-driven automation. Collectively, our findings provide the first end-to-end evidence that mobile LLM agents are exploitable in realistic adversarial settings, where untrusted third-party channels (e.g., ads, embedded webviews, cross-app notifications) are an inherent part of the mobile ecosystem.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-31T03:35:59Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Chenghao Du</name>
+    </author>
+    <author>
+      <name>Quanfeng Huang</name>
+    </author>
+    <author>
+      <name>Tingxuan Tang</name>
+    </author>
+    <author>
+      <name>Zihao Wang</name>
+    </author>
+    <author>
+      <name>Adwait Nadkarni</name>
+    </author>
+    <author>
+      <name>Yue Xiao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.19450v3</id>
+    <title>Red-Teaming Claude Opus and ChatGPT-based Security Advisors for Trusted Execution Environments</title>
+    <updated>2026-05-26T03:40:50Z</updated>
+    <link href="https://arxiv.org/abs/2602.19450v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.19450v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Trusted Execution Environments (TEEs) (e.g., Intel SGX and ArmTrustZone) aim to protect sensitive computation from a compromised operating system, yet real deployments remain vulnerable to microarchitectural leakage, side-channel attacks, and fault injection. In parallel, security teams increasingly rely on Large Language Model (LLM) assistants as security advisors for TEE architecture review, mitigation planning, and vulnerability triage. This creates a socio-technical risk surface: assistants may hallucinate TEE mechanisms, overclaim guarantees (e.g., what attestation does and does not establish), or behave unsafely under adversarial prompting.
+  We present a red-teaming study of two prevalently deployed LLM assistants in the role of TEE security advisors: ChatGPT-5.2 and Claude Opus-4.6, focusing on the inherent limitations and transferability of prompt-induced failures across LLMs. We introduce TEE-RedBench, a TEE-grounded evaluation methodology comprising (i) a TEE-specific threat model for LLM-mediated security work, (ii) a structured prompt suite spanning SGX and TrustZone architecture, attestation and key management, threat modeling, and non-operational mitigation guidance, along with policy-bound misuse probes, and (iii) an annotation rubric that jointly measures technical correctness, groundedness, uncertainty calibration, refusal quality, and safe helpfulness. We find that some failures are not purely idiosyncratic, transferring up to 12.02% across LLM assistants, and we connect these outcomes to secure architecture by outlining an "LLM-in-the-loop" evaluation pipeline: policy gating, retrieval grounding, structured templates, and lightweight verification checks that, when combined, reduce failures by 80.62%.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-23T02:47:05Z</published>
+    <arxiv:comment>Accepted for publication in ACM CAIS '26 Workshop on AI Discovery in the Wild (AID-Wild)</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Kunal Mukherjee</name>
+    </author>
+    <author>
+      <name>Spandan Mukherjee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.03374v2</id>
+    <title>LLM-Powered Code Vulnerability Repair with Reinforcement Learning and Semantic Reward</title>
+    <updated>2024-02-22T00:29:37Z</updated>
+    <link href="https://arxiv.org/abs/2401.03374v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.03374v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In software development, the predominant emphasis on functionality often supersedes security concerns, a trend gaining momentum with AI-driven automation tools like GitHub Copilot. These tools significantly improve developers' efficiency in functional code development. Nevertheless, it remains a notable concern that such tools are also responsible for creating insecure code, predominantly because of pre-training on publicly available repositories with vulnerable code. Moreover, developers are called the "weakest link in the chain" since they have very minimal knowledge of code security. Although existing solutions provide a reasonable solution to vulnerable code, they must adequately describe and educate the developers on code security to ensure that the security issues are not repeated. Therefore we introduce a multipurpose code vulnerability analysis system \texttt{SecRepair}, powered by a large language model, CodeGen2 assisting the developer in identifying and generating fixed code along with a complete description of the vulnerability with a code comment. Our innovative methodology uses a reinforcement learning paradigm to generate code comments augmented by a semantic reward mechanism. Inspired by how humans fix code issues, we propose an instruction-based dataset suitable for vulnerability analysis with LLMs. We further identify zero-day and N-day vulnerabilities in 6 Open Source IoT Operating Systems on GitHub. Our findings underscore that incorporating reinforcement learning coupled with semantic reward augments our model's performance, thereby fortifying its capacity to address code vulnerabilities with improved efficacy.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-07T02:46:39Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Nafis Tanveer Islam</name>
+    </author>
+    <author>
+      <name>Joseph Khoury</name>
+    </author>
+    <author>
+      <name>Andrew Seong</name>
+    </author>
+    <author>
+      <name>Mohammad Bahrami Karkevandi</name>
+    </author>
+    <author>
+      <name>Gonzalo De La Torre Parra</name>
+    </author>
+    <author>
+      <name>Elias Bou-Harb</name>
+    </author>
+    <author>
+      <name>Peyman Najafirad</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.01364v1</id>
+    <title>Needles at Scale: LLM-Assisted Target Selection for Windows Vulnerability Research</title>
+    <updated>2026-05-31T17:46:13Z</updated>
+    <link href="https://arxiv.org/abs/2606.01364v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.01364v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The attack surface of a modern operating system is a haystack: thousands of signed binaries and millions of functions, almost none relevant to any given vulnerability. A human analyst or an LLM agent must pick the function worth reading before analyzing it. At whole-OS scope, this target selection, not the analysis, is the binding constraint. We present Symbolicate-Enrich-Sample, a low-cost batch pipeline that turns a corpus of production Windows binaries into a queryable, priority-ranked research queue. We (i) recover function-level symbols for stripped vendor binaries by auto-fetching the public symbol files and joining them to a recovered call graph; (ii) attach cheap, deterministic structural features to each named function and, conditioned on those features, use a low-cost language model to assign a reachability tier, a risk level, a bug-class hypothesis, and a rationale; and (iii) draw diverse, prioritized batches via a priority-weighted importance sampler. The contribution is a selection substrate: the prioritization layer a downstream detector or LLM agent runs on top of. Across a whole Windows image of 7,231,419 functions, the labels are markedly selective, and stacking deterministic filters on them leaves a ~22K-function shortlist: the candidate needles, few enough for a human or agent to work through. We characterize the pipeline's selectivity and its failure modes, describe the methodology, and report aggregate statistics; we withhold the derived dataset for legal and dual-use reasons.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-31T17:46:13Z</published>
+    <arxiv:comment>9 pages, 3 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Michael J. Bommarito</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.21129v1</id>
+    <title>AgenticOS: An Intent-Oriented Secure Operating System Architecture for Autonomous AI Agents</title>
+    <updated>2026-06-19T06:14:37Z</updated>
+    <link href="https://arxiv.org/abs/2606.21129v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.21129v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Traditional OS security models based on "resource exposure plus permission checks" face structural challenges as LLM-driven autonomous agents acquire capabilities for planning, tool use, network access, and code execution. Once an agent runtime is compromised through prompt injection or malicious tool outputs, an attacker can compose POSIX-style resource primitives into behaviors far beyond the user's task authorization. To address this, we propose AgenticOS, an intent-oriented secure OS architecture that consolidates delegable, auditable software capabilities into OS-native ones rather than replacing all applications. The core insight is to reframe the OS from a "resource manager" into an "intent filter": instead of requesting low-level resources directly, agents submit structured intent declarations, from which the system synthesizes a least-privilege environment with mandatory mediation, auditing, and information-flow constraints. At the implementation level, we introduce a four-layer architecture -- Ghost Kernel, Logic Shutter, Agent Capsule, and Semantic Boundary Gateway -- together with the Intent ABI, Manifest-Only Runtime, Weaver-based capability generation, and an admission model for AgenticOS-native Skills.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-19T06:14:37Z</published>
+    <arxiv:comment>11 pages,5 figures,1 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zhen Zhao</name>
+    </author>
+    <author>
+      <name>Yu Zhang</name>
+    </author>
+    <author>
+      <name>Yanpeng Zhu</name>
+    </author>
+    <author>
+      <name>Jia Wang</name>
+    </author>
+    <author>
+      <name>Songqiao Tao</name>
+    </author>
+    <author>
+      <name>Xin Cheng</name>
+    </author>
+    <author>
+      <name>Jiexin Gao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07398v1</id>
+    <title>AgentSys: Secure and Dynamic LLM Agents Through Explicit Hierarchical Memory Management</title>
+    <updated>2026-02-07T06:28:51Z</updated>
+    <link href="https://arxiv.org/abs/2602.07398v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07398v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Indirect prompt injection threatens LLM agents by embedding malicious instructions in external content, enabling unauthorized actions and data theft. LLM agents maintain working memory through their context window, which stores interaction history for decision-making. Conventional agents indiscriminately accumulate all tool outputs and reasoning traces in this memory, creating two critical vulnerabilities: (1) injected instructions persist throughout the workflow, granting attackers multiple opportunities to manipulate behavior, and (2) verbose, non-essential content degrades decision-making capabilities. Existing defenses treat bloated memory as given and focus on remaining resilient, rather than reducing unnecessary accumulation to prevent the attack.
+  We present AgentSys, a framework that defends against indirect prompt injection through explicit memory management. Inspired by process memory isolation in operating systems, AgentSys organizes agents hierarchically: a main agent spawns worker agents for tool calls, each running in an isolated context and able to spawn nested workers for subtasks. External data and subtask traces never enter the main agent's memory; only schema-validated return values can cross boundaries through deterministic JSON parsing. Ablations show isolation alone cuts attack success to 2.19%, and adding a validator/sanitizer further improves defense with event-triggered checks whose overhead scales with operations rather than context length.
+  On AgentDojo and ASB, AgentSys achieves 0.78% and 4.25% attack success while slightly improving benign utility over undefended baselines. It remains robust to adaptive attackers and across multiple foundation models, showing that explicit memory management enables secure, dynamic LLM agent architectures. Our code is available at: https://github.com/ruoyaow/agentsys-memory.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-07T06:28:51Z</published>
+    <arxiv:comment>21 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ruoyao Wen</name>
+    </author>
+    <author>
+      <name>Hao Li</name>
+    </author>
+    <author>
+      <name>Chaowei Xiao</name>
+    </author>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.12644v1</id>
+    <title>Uncovering Security Threats and Architecting Defenses in Autonomous Agents: A Case Study of OpenClaw</title>
+    <updated>2026-03-13T04:33:05Z</updated>
+    <link href="https://arxiv.org/abs/2603.12644v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.12644v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid evolution of Large Language Models (LLMs) into autonomous, tool-calling agents has fundamentally altered the cybersecurity landscape. Frameworks like OpenClaw grant AI systems operating-system-level permissions and the autonomy to execute complex workflows. This level of access creates unprecedented security challenges. Consequently, traditional content-filtering defenses have become obsolete. This report presents a comprehensive security analysis of the OpenClaw ecosystem. We systematically investigate its current threat landscape, highlighting critical vulnerabilities such as prompt injection-driven Remote Code Execution (RCE), sequential tool attack chains, context amnesia, and supply chain contamination. To systematically contextualize these threats, we propose a novel tri-layered risk taxonomy for autonomous Agents, categorizing vulnerabilities across AI Cognitive, Software Execution, and Information System dimensions. To address these systemic architectural flaws, we introduce the Full-Lifecycle Agent Security Architecture (FASA). This theoretical defense blueprint advocates for zero-trust agentic execution, dynamic intent verification, and cross-layer reasoning-action correlation. Building on this framework, we present Project ClawGuard, our ongoing engineering initiative. This project aims to implement the FASA paradigm and transition autonomous agents from high-risk experimental utilities into trustworthy systems. Our code and dataset are available at https://github.com/NY1024/ClawGuard.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-13T04:33:05Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zonghao Ying</name>
+    </author>
+    <author>
+      <name>Xiao Yang</name>
+    </author>
+    <author>
+      <name>Siyang Wu</name>
+    </author>
+    <author>
+      <name>Yumeng Song</name>
+    </author>
+    <author>
+      <name>Yang Qu</name>
+    </author>
+    <author>
+      <name>Hainan Li</name>
+    </author>
+    <author>
+      <name>Tianlin Li</name>
+    </author>
+    <author>
+      <name>Jiakai Wang</name>
+    </author>
+    <author>
+      <name>Aishan Liu</name>
+    </author>
+    <author>
+      <name>Xianglong Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.19134v5</id>
+    <title>Confidential Prompting: Privacy-preserving LLM Inference on Cloud</title>
+    <updated>2025-11-19T04:53:58Z</updated>
+    <link href="https://arxiv.org/abs/2409.19134v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.19134v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces a vision of confidential prompting: securing user prompts from an untrusted, cloud-hosted large language model (LLM) while preserving model confidentiality, output invariance, and compute efficiency. As a first step toward this vision, we present Petridish, a system built on top of confidential computing and its core contribution, a novel technology called Secure Partitioned Decoding (SPD). Petridish runs the LLM service inside a confidential virtual machine (CVM), which protects the secrets, i.e., the LLM parameters and user prompts, from adversaries outside the CVM. Importantly, it splits the LLM service for a user into two processes, using SPD: a per-user process performs prefill with the user prompts and computes attention scores during decoding; a service process, shared by all users, batches the attention scores from per-user processes and generates output tokens for all users. Both the LLM provider and the users trust Petridish's CVM and its operating system, which guarantees isolation between processes and limits their outbound network capabilities to control information flow. The CVM's attestation capability and its open-source software stack enable Petridish to provide auditable protection of both user prompt and LLM confidentiality. Together, Petridish maintains full utility of LLM service and enables practical, privacy-preserving cloud-hosted LLM inference for sensitive applications, such as processing personal data, clinical records, and financial documents.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-27T20:32:42Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Caihua Li</name>
+    </author>
+    <author>
+      <name>In Gim</name>
+    </author>
+    <author>
+      <name>Lin Zhong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10915v3</id>
+    <title>Blind Gods and Broken Screens: Architecting a Secure, Intent-Centric Mobile Agent Operating System</title>
+    <updated>2026-02-13T12:42:39Z</updated>
+    <link href="https://arxiv.org/abs/2602.10915v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10915v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The evolution of Large Language Models (LLMs) has shifted mobile computing from App-centric interactions to system-level autonomous agents. Current implementations predominantly rely on a "Screen-as-Interface" paradigm, which inherits structural vulnerabilities and conflicts with the mobile ecosystem's economic foundations. In this paper, we conduct a systematic security analysis of state-of-the-art mobile agents using Doubao Mobile Assistant as a representative case. We decompose the threat landscape into four dimensions - Agent Identity, External Interface, Internal Reasoning, and Action Execution - revealing critical flaws such as fake App identity, visual spoofing, indirect prompt injection, and unauthorized privilege escalation stemming from a reliance on unstructured visual data.
+  To address these challenges, we propose Aura, an Agent Universal Runtime Architecture for a clean-slate secure agent OS. Aura replaces brittle GUI scraping with a structured, agent-native interaction model. It adopts a Hub-and-Spoke topology where a privileged System Agent orchestrates intent, sandboxed App Agents execute domain-specific tasks, and the Agent Kernel mediates all communication. The Agent Kernel enforces four defense pillars: (i) cryptographic identity binding via a Global Agent Registry; (ii) semantic input sanitization through a multilayer Semantic Firewall; (iii) cognitive integrity via taint-aware memory and plan-trajectory alignment; and (iv) granular access control with non-deniable auditing. Evaluation on MobileSafetyBench shows that, compared to Doubao, Aura improves low-risk Task Success Rate from roughly 75% to 94.3%, reduces high-risk Attack Success Rate from roughly 40% to 4.4%, and achieves near-order-of-magnitude latency gains. These results demonstrate Aura as a viable, secure alternative to the "Screen-as-Interface" paradigm.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T14:52:27Z</published>
+    <arxiv:comment>35 pages, 15 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zhenhua Zou</name>
+    </author>
+    <author>
+      <name>Sheng Guo</name>
+    </author>
+    <author>
+      <name>Qiuyang Zhan</name>
+    </author>
+    <author>
+      <name>Lepeng Zhao</name>
+    </author>
+    <author>
+      <name>Shuo Li</name>
+    </author>
+    <author>
+      <name>Qi Li</name>
+    </author>
+    <author>
+      <name>Ke Xu</name>
+    </author>
+    <author>
+      <name>Mingwei Xu</name>
+    </author>
+    <author>
+      <name>Zhuotao Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.15444v3</id>
+    <title>10 Security and Privacy Problems in Large Foundation Models</title>
+    <updated>2023-06-09T15:53:54Z</updated>
+    <link href="https://arxiv.org/abs/2110.15444v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.15444v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Foundation models--such as GPT, CLIP, and DINO--have achieved revolutionary progress in the past several years and are commonly believed to be a promising approach for general-purpose AI. In particular, self-supervised learning is adopted to pre-train a foundation model using a large amount of unlabeled data. A pre-trained foundation model is like an ``operating system'' of the AI ecosystem. Specifically, a foundation model can be used as a feature extractor for many downstream tasks with little or no labeled training data. Existing studies on foundation models mainly focused on pre-training a better foundation model to improve its performance on downstream tasks in non-adversarial settings, leaving its security and privacy in adversarial settings largely unexplored. A security or privacy issue of a pre-trained foundation model leads to a single point of failure for the AI ecosystem. In this book chapter, we discuss 10 basic security and privacy problems for the pre-trained foundation models, including six confidentiality problems, three integrity problems, and one availability problem. For each problem, we discuss potential opportunities and challenges. We hope our book chapter will inspire future research on the security and privacy of foundation models.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-28T21:45:53Z</published>
+    <arxiv:comment>A book chapter</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jinyuan Jia</name>
+    </author>
+    <author>
+      <name>Hongbin Liu</name>
+    </author>
+    <author>
+      <name>Neil Zhenqiang Gong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.02422v1</id>
+    <title>Agentic Incident Response through Digital Twin-Enhanced Multiscale Planning</title>
+    <updated>2026-08-03T16:03:16Z</updated>
+    <link href="https://arxiv.org/abs/2608.02422v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.02422v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Incident response is currently managed by security operators using predefined playbooks, resulting in slow, labor-intensive security decision-making processes. Consequently, there is a growing need for automated incident response planning. Decision-theoretic approaches based on control, optimization, and reinforcement learning have been proposed to automate such planning tasks with well-grounded approaches, yet most of which, while guaranteeing strong performance, are limited to abstract models and cannot be directly applied to operational systems. A promising approach to mitigate this limitation is to use the security knowledge embedded in large language models (LLMs) to develop agentic response systems. However, current agentic approaches rely on repeated invocations of the LLM to generate a response plan, which is unreliable and limits the planning horizon due to hallucination. In this paper, we develop a principled LLM-based planning method by combining decision-theoretic planning with LLM-generated response commands. The proposed agentic incident response approach uses a rollout planner to compute a high-level response strategy that allocates security resources (the tactical scale), which is then translated into executable commands by a lightweight LLM agent (the operational scale). Within this architecture, we use a digital twin that supports tactical planning through simulation and operational execution through emulation. Across three attack scenarios, our agentic approach reduces recovery execution time by 15.1\% on average and increases the recovery rate by 33.6\% over frontier LLM baselines.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-03T16:03:16Z</published>
+    <arxiv:comment>31st European Symposium on Research in Computer Security (ESORICS) 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yiran Gao</name>
+    </author>
+    <author>
+      <name>Tao Li</name>
+    </author>
+    <author>
+      <name>Kim Hammar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.08290v2</id>
+    <title>Systematization of Knowledge: Security and Safety in the Model Context Protocol Ecosystem</title>
+    <updated>2025-12-13T20:37:14Z</updated>
+    <link href="https://arxiv.org/abs/2512.08290v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.08290v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Model Context Protocol (MCP) has emerged as the de facto standard for connecting Large Language Models (LLMs) to external data and tools, effectively functioning as the "USB-C for Agentic AI." While this decoupling of context and execution solves critical interoperability challenges, it introduces a profound new threat landscape where the boundary between epistemic errors (hallucinations) and security breaches (unauthorized actions) dissolves. This Systematization of Knowledge (SoK) aims to provide a comprehensive taxonomy of risks in the MCP ecosystem, distinguishing between adversarial security threats (e.g., indirect prompt injection, tool poisoning) and epistemic safety hazards (e.g., alignment failures in distributed tool delegation). We analyze the structural vulnerabilities of MCP primitives, specifically Resources, Prompts, and Tools, and demonstrate how "context" can be weaponized to trigger unauthorized operations in multi-agent environments. Furthermore, we survey state-of-the-art defenses, ranging from cryptographic provenance (ETDI) to runtime intent verification, and conclude with a roadmap for securing the transition from conversational chatbots to autonomous agentic operating systems.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-09T06:39:21Z</published>
+    <arxiv:comment>All authors contributed equally to this work</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Shiva Gaire</name>
+    </author>
+    <author>
+      <name>Srijan Gyawali</name>
+    </author>
+    <author>
+      <name>Saroj Mishra</name>
+    </author>
+    <author>
+      <name>Suman Niroula</name>
+    </author>
+    <author>
+      <name>Dilip Thakur</name>
+    </author>
+    <author>
+      <name>Umesh Yadav</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.33753v1</id>
+    <title>Ring-0 by Default: Agents as Operating Systems (AaOS)</title>
+    <updated>2026-10-24T15:51:23Z</updated>
+    <link href="https://arxiv.org/abs/2610.33753v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.33753v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents now read and write files, start processes and subagents, fetch network content, load third-party extensions, and save and resume state, which are the responsibilities of an operating system. They gained these functions within about three years, but not the protections that operating systems built over five decades: whatever the model outputs, whether it follows the user, a tool result, or a downloaded skill, runs with the full authority of the host user, in effect at ring 0. Prior work builds an operating system for agents (OS4A); we argue that a deployed agent already is like an operating system (AaOS) and analyze it as one. Taking the mechanisms of standard OS textbooks as a checklist, we map 116 mechanisms in 19 subsystems to their agent counterparts, from product documentation, source code, and the literature, and label each as isomorphic, degraded (function present, protection dependent on the model), missing, mutated, or novel. Only 11 are isomorphic and 65 are missing, most of them protections: privilege separation, resource quotas, transactions, and tamper-proof audit. Existing defenses confine the whole agent or review its extensions and leave this interior unprotected, and by Anderson's reference-monitor criteria (non-bypassable, tamper-proof, verifiable), rules written in the prompt satisfy none.
+  We test the map with thirteen experiments on Claude Code, Codex CLI, and Gemini CLI, covering 25 mechanisms whose enforcement documentation cannot settle: 16 match the analysis, 7 gain a more precise description, and 2 change verdict. Checks sit in single tools, so the shell bypasses them; all three CLIs load forged transcript records on resume; and task control, sub-agent permissions, and model-based monitors are weak. We identify five problems for which no OS defense transfers and derive a prioritized list of open problems from the gaps of the map.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-24T15:51:23Z</published>
+    <arxiv:comment>30 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Xiang Li</name>
+    </author>
+    <author>
+      <name>Aichun Huang</name>
+    </author>
+    <author>
+      <name>Zuyao Xu</name>
+    </author>
+    <author>
+      <name>Fasheng Miao</name>
+    </author>
+    <author>
+      <name>Zheli Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.27464v1</id>
+    <title>Security Attack and Defense Strategies for Autonomous Agent Frameworks: A Layered Review with OpenClaw as a Case Study</title>
+    <updated>2026-04-30T06:04:34Z</updated>
+    <link href="https://arxiv.org/abs/2604.27464v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.27464v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous agent frameworks built upon large language models (LLMs) are evolving into complex, tool-integrated, and continuously operating systems, introducing security risks beyond traditional prompt-level vulnerabilities. As this paradigm is still at an early stage of development, a timely and systematic understanding of its security implications is increasingly important. Although a growing body of work has examined different attack surfaces and defense problems in agent systems, existing studies remain scattered across individual aspects of agent security, and there is still a lack of a layered review on this topic. To address this gap, this survey presents a layered review of security risks and defense strategies in autonomous agent frameworks, with OpenClaw as a case study. We organize the analysis into four security-relevant layers: the context and instruction layer, the tool and action layer, the state and persistence layer, and the ecosystem and automation layer. For each layer, we summarize its functional role, representative security risks, and corresponding defense strategies. Based on this layered analysis, we further identify that threats in autonomous agent frameworks may propagate across layers, from manipulated inputs to unsafe actions, persistent state contamination, and broader ecosystem-level impact. Finally, we highlight potential key challenges, including research imbalance across layers, the lack of long-horizon evaluation, and weak ecosystem trust models, and outline future directions toward more systematic and integrated defenses.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-30T06:04:34Z</published>
+    <arxiv:comment>14 pages, 2 figures, 6 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Luyao Xu</name>
+    </author>
+    <author>
+      <name>Xiang Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.00057v1</id>
+    <title>PerOS: Personalized Self-Adapting Operating Systems in the Cloud</title>
+    <updated>2024-03-26T20:10:31Z</updated>
+    <link href="https://arxiv.org/abs/2404.00057v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.00057v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Operating systems (OSes) are foundational to computer systems, managing hardware resources and ensuring secure environments for diverse applications. However, despite their enduring importance, the fundamental design objectives of OSes have seen minimal evolution over decades. Traditionally prioritizing aspects like speed, memory efficiency, security, and scalability, these objectives often overlook the crucial aspect of intelligence as well as personalized user experience. The lack of intelligence becomes increasingly critical amid technological revolutions, such as the remarkable advancements in machine learning (ML).
+  Today's personal devices, evolving into intimate companions for users, pose unique challenges for traditional OSes like Linux and iOS, especially with the emergence of specialized hardware featuring heterogeneous components. Furthermore, the rise of large language models (LLMs) in ML has introduced transformative capabilities, reshaping user interactions and software development paradigms.
+  While existing literature predominantly focuses on leveraging ML methods for system optimization or accelerating ML workloads, there is a significant gap in addressing personalized user experiences at the OS level. To tackle this challenge, this work proposes PerOS, a personalized OS ingrained with LLM capabilities. PerOS aims to provide tailored user experiences while safeguarding privacy and personal data through declarative interfaces, self-adaptive kernels, and secure data management in a scalable cloud-centric architecture; therein lies the main research question of this work: How can we develop intelligent, secure, and scalable OSes that deliver personalized experiences to thousands of users?</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-26T20:10:31Z</published>
+    <arxiv:comment>29 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Hongyu Hè</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.11060v1</id>
+    <title>Dynamic Code Orchestration: Harnessing the Power of Large Language Models for Adaptive Script Execution</title>
+    <updated>2024-08-07T17:11:31Z</updated>
+    <link href="https://arxiv.org/abs/2408.11060v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.11060v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Computer programming initially required humans to directly translate their goals into machine code. These goals could have easily been expressed as a written (or human) language directive. Computers, however, had no capacity to satisfactorily interpret written language. Large language model's provide exactly this capability; automatic generation of computer programs or even assembly code from written language directives. This research examines dynamic code execution of written language directives within the context of a running application. It implements a text editor whose business logic is purely backed by large language model prompts. That is, the program's execution uses prompts and written language directives to dynamically generate application logic at the point in time it is needed. The research clearly shows how written language directives, backed by a large language model, offer radically new programming and operating system paradigms. For example, empowerment of users to directly implement requirements via written language directives, thus supplanting the need for a team ofprogrammers, a release schedule and the like. Or, new security mechanisms where static executables, always a target for reverse engineering or fuzzing, no longer exist. They are replaced by ephemeral executables that may continually change, be completely removed, and are easily updated.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-07T17:11:31Z</published>
+    <arxiv:comment>6 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Justin Del Vecchio</name>
+    </author>
+    <author>
+      <name>Andrew Perreault</name>
+    </author>
+    <author>
+      <name>Eliana Furmanek</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.06596v1</id>
+    <title>Understanding the Weakness of Large Language Model Agents within a Complex Android Environment</title>
+    <updated>2024-02-09T18:19:25Z</updated>
+    <link href="https://arxiv.org/abs/2402.06596v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.06596v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have empowered intelligent agents to execute intricate tasks within domain-specific software such as browsers and games. However, when applied to general-purpose software systems like operating systems, LLM agents face three primary challenges. Firstly, the action space is vast and dynamic, posing difficulties for LLM agents to maintain an up-to-date understanding and deliver accurate responses. Secondly, real-world tasks often require inter-application cooperation}, demanding farsighted planning from LLM agents. Thirdly, agents need to identify optimal solutions aligning with user constraints, such as security concerns and preferences. These challenges motivate AndroidArena, an environment and benchmark designed to evaluate LLM agents on a modern operating system. To address high-cost of manpower, we design a scalable and semi-automated method to construct the benchmark. In the task evaluation, AndroidArena incorporates accurate and adaptive metrics to address the issue of non-unique solutions. Our findings reveal that even state-of-the-art LLM agents struggle in cross-APP scenarios and adhering to specific constraints. Additionally, we identify a lack of four key capabilities, i.e., understanding, reasoning, exploration, and reflection, as primary reasons for the failure of LLM agents. Furthermore, we provide empirical analysis on the failure of reflection, and improve the success rate by 27% with our proposed exploration strategy. This work is the first to present valuable insights in understanding fine-grained weakness of LLM agents, and offers a path forward for future research in this area. Environment, benchmark, and evaluation code for AndroidArena are released at https://github.com/AndroidArenaAgent/AndroidArena.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-09T18:19:25Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mingzhe Xing</name>
+    </author>
+    <author>
+      <name>Rongkai Zhang</name>
+    </author>
+    <author>
+      <name>Hui Xue</name>
+    </author>
+    <author>
+      <name>Qi Chen</name>
+    </author>
+    <author>
+      <name>Fan Yang</name>
+    </author>
+    <author>
+      <name>Zhen Xiao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.24118v1</id>
+    <title>AgentVisor: Defending LLM Agents Against Prompt Injection via Semantic Virtualization</title>
+    <updated>2026-04-27T07:12:52Z</updated>
+    <link href="https://arxiv.org/abs/2604.24118v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.24118v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) agents are increasingly used to automate complex workflows, but integrating untrusted external data with privileged execution exposes them to severe security risks, particularly direct and indirect prompt injection. Existing defenses face significant challenges in balancing security with utility, often encountering a trade-off where rigorous protection leads to over-defense, or where subtle indirect injections bypass detection. Drawing inspiration from operating system virtualization, we propose AgentVisor, a novel defense framework that enforces semantic privilege separation. AgentVisor treats the target agent as an untrusted guest and intercepts tool calls via a trusted semantic visor. Central to our approach is a rigorous audit protocol grounded in classic OS security primitives, designed to systematically mitigate both direct and indirect injection attacks. Furthermore, we introduce a one-shot self-correction mechanism that transforms security violations into constructive feedback, enabling agents to recover from attacks. Extensive experiments show that AgentVisor reduces the attack success rate to 0.65%, achieving this strong defense while incurring only a 1.45% average decrease in utility relative to the No Defense scenario, demonstrating superior performance compared to existing defense methods.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-27T07:12:52Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zonghao Ying</name>
+    </author>
+    <author>
+      <name>Haozheng Wang</name>
+    </author>
+    <author>
+      <name>Jiangfan Liu</name>
+    </author>
+    <author>
+      <name>Quanchen Zou</name>
+    </author>
+    <author>
+      <name>Aishan Liu</name>
+    </author>
+    <author>
+      <name>Jian Yang</name>
+    </author>
+    <author>
+      <name>Yaodong Yang</name>
+    </author>
+    <author>
+      <name>Xianglong Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.38224v1</id>
+    <title>Separation of Duties for Privileged LLM Agents: A Governed Execution Architecture with Measured Security-Utility Trade-offs</title>
+    <updated>2026-09-28T05:32:17Z</updated>
+    <link href="https://arxiv.org/abs/2609.38224v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.38224v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model agents are increasingly granted real privileges (executing commands, modifying files, calling APIs), so an agent that errs has already acted. Existing defences concentrate on the agent's inputs, while the path from a candidate action to privileged side effects remains less directly studied. We argue that this path must be governed outside the model, and study an architecture interposing four roles (planner, policy gate, executor, auditor) between agent and operating system.
+  Two choices are central: actions arrive as structured intents, so adjudication never parses shell syntax; and approval is a one-shot credential bound to the exact bytes that will run. We evaluate on a 313-case benchmark across eight variants, with prompt-only baselines from three hosted LLMs on 150 stratified cases, five repetitions (2,250 attempted calls; 2,249 completed).
+  Effective attack success falls from 98.3% under direct execution to 7.7% deployed. Re-execution against the real implementation yields a similar aggregate rate (7.6% over 66 sandbox-evaluable payloads) but substantial case-level disagreement, at a corrected false-denial rate of 11.1%. A substantial final-stage reduction (from 30.8% to 7.7%) is attributable to the operating-system sandbox, and the benchmark found four implementation defects, none by design review.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-28T05:32:17Z</published>
+    <arxiv:comment>12 pages, 2 figures. Supplementary material and a reproducibility artifact are provided as ancillary files</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Qishuai Jing</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.15556v1</id>
+    <title>TopoClaw: A Human-Centric and Topology-Aware Agent Operating System</title>
+    <updated>2026-05-15T02:49:36Z</updated>
+    <link href="https://arxiv.org/abs/2605.15556v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.15556v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have evolved AI assistants into autonomous reasoning engines that maintain context, invoke tools, and pursue long-horizon tasks. This has spurred Agent Operating Systems (Agent OS) as kernel-like layers for lifecycle management, memory, scheduling, and access control. Yet most designs remain agent-centric, treating the OS as a single-host runtime for internal reasoning and tool use, leaving open how autonomous actions integrate with distributed, collaborative, permission-sensitive workflows.
+  TopoClaw is an open-source, human-centric, topology-aware Agent OS modeling the user's ecosystem as two coupled structures: a physical device topology of heterogeneous surfaces and a social relationship topology of shared spaces, teams, and delegated roles. It unifies device operation, messaging, and skills around accountable cross-boundary execution, with three core contributions: (1) cross-device action placement, decoupling intent from actuation and routing distributed actions across the device cluster based on hardware affordances and user context; (2) cross-user identity attribution, treating agents as socially situated "Digital Twins" that coordinate in multi-user spaces while preserving provenance, role-aware permissions, and human accountability; (3) cross-context authority governance, pairing broad capability with distributed, context-aware policy enforcement across physical and social trust boundaries to bound proactive autonomy at the OS layer.
+  This report presents TopoClaw as an engineering-oriented reference architecture, covering its design principles, runtime, cross-device execution, collaboration mechanisms, security model, and deployment outlook.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-15T02:49:36Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Heyuan Huang</name>
+    </author>
+    <author>
+      <name>Yeyi Guan</name>
+    </author>
+    <author>
+      <name>Jihong Wang</name>
+    </author>
+    <author>
+      <name>Mingzhi Wang</name>
+    </author>
+    <author>
+      <name>Jiamu Zhou</name>
+    </author>
+    <author>
+      <name>Xiangmou Qu</name>
+    </author>
+    <author>
+      <name>Jiaxin Yin</name>
+    </author>
+    <author>
+      <name>Xin Liao</name>
+    </author>
+    <author>
+      <name>Xingyu Lou</name>
+    </author>
+    <author>
+      <name>Jun Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.09385v1</id>
+    <title>APT-LLM: Embedding-Based Anomaly Detection of Cyber Advanced Persistent Threats Using Large Language Models</title>
+    <updated>2025-02-13T15:01:18Z</updated>
+    <link href="https://arxiv.org/abs/2502.09385v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.09385v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Advanced Persistent Threats (APTs) pose a major cybersecurity challenge due to their stealth and ability to mimic normal system behavior, making detection particularly difficult in highly imbalanced datasets. Traditional anomaly detection methods struggle to effectively differentiate APT-related activities from benign processes, limiting their applicability in real-world scenarios. This paper introduces APT-LLM, a novel embedding-based anomaly detection framework that integrates large language models (LLMs) -- BERT, ALBERT, DistilBERT, and RoBERTa -- with autoencoder architectures to detect APTs. Unlike prior approaches, which rely on manually engineered features or conventional anomaly detection models, APT-LLM leverages LLMs to encode process-action provenance traces into semantically rich embeddings, capturing nuanced behavioral patterns. These embeddings are analyzed using three autoencoder architectures -- Baseline Autoencoder (AE), Variational Autoencoder (VAE), and Denoising Autoencoder (DAE) -- to model normal process behavior and identify anomalies. The best-performing model is selected for comparison against traditional methods. The framework is evaluated on real-world, highly imbalanced provenance trace datasets from the DARPA Transparent Computing program, where APT-like attacks constitute as little as 0.004\% of the data across multiple operating systems (Android, Linux, BSD, and Windows) and attack scenarios. Results demonstrate that APT-LLM significantly improves detection performance under extreme imbalance conditions, outperforming existing anomaly detection methods and highlighting the effectiveness of LLM-based feature extraction in cybersecurity.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-13T15:01:18Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Sidahmed Benabderrahmane</name>
+    </author>
+    <author>
+      <name>Petko Valtchev</name>
+    </author>
+    <author>
+      <name>James Cheney</name>
+    </author>
+    <author>
+      <name>Talal Rahwan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.00563v3</id>
+    <title>KernelGPT: Enhanced Kernel Fuzzing via Large Language Models</title>
+    <updated>2025-03-13T22:00:21Z</updated>
+    <link href="https://arxiv.org/abs/2401.00563v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.00563v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bugs in operating system kernels can affect billions of devices and users all over the world. As a result, a large body of research has been focused on kernel fuzzing, i.e., automatically generating syscall (system call) sequences to detect potential kernel bugs or vulnerabilities. Kernel fuzzing aims to generate valid syscall sequences guided by syscall specifications that define both the syntax and semantics of syscalls. While there has been existing work trying to automate syscall specification generation, this remains largely manual work, and a large number of important syscalls are still uncovered.
+  In this paper, we propose KernelGPT, the first approach to automatically synthesizing syscall specifications via Large Language Models (LLMs) for enhanced kernel fuzzing. Our key insight is that LLMs have seen massive kernel code, documentation, and use cases during pre-training, and thus can automatically distill the necessary information for making valid syscalls. More specifically, KernelGPT leverages an iterative approach to automatically infer the specifications, and further debug and repair them based on the validation feedback. Our results demonstrate that KernelGPT can generate more new and valid specifications and achieve higher coverage than state-of-the-art techniques. So far, by using newly generated specifications, KernelGPT has already detected 24 new unique bugs in Linux kernel, with 12 fixed and 11 assigned with CVE numbers. Moreover, a number of specifications generated by KernelGPT have already been merged into the kernel fuzzer Syzkaller, following the request from its development team.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-31T18:47:33Z</published>
+    <arxiv:comment>ASPLOS 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Chenyuan Yang</name>
+    </author>
+    <author>
+      <name>Zijie Zhao</name>
+    </author>
+    <author>
+      <name>Lingming Zhang</name>
+    </author>
+    <arxiv:doi>10.1145/3676641.3716022</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3676641.3716022" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.06607v3</id>
+    <title>Your Harness is Not Secure: Benchmarking Real-world Threat of Command Line Interface Agent</title>
+    <updated>2026-08-21T05:20:06Z</updated>
+    <link href="https://arxiv.org/abs/2510.06607v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.06607v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Command-line interface (CLI) agents powered by large language models (LLMs) can interpret natural-language requests, plan multi-step tasks, execute shell commands, and modify files and system state. As these agents are increasingly used for operating-system (OS) workflows, it is important to evaluate whether they can be misused to carry out security-relevant operations. Existing benchmarks often lack an attacker-knowledge model grounded in tactics, techniques, and procedures (TTPs), provide limited coverage of end-to-end kill chains, rely on simplified single-host environments, or use LLM-as-a-judge for success evaluation. We introduce AdvCLI, an MITRE ATT&amp;CK-aligned benchmark for evaluating OS-level misuse risks of CLI agents in a controlled multi-host sandbox. AdvCLI contains 140 tasks: 40 direct malicious requests, 74 TTP-based tasks, and 26 end-to-end kill chains. Each task is paired with deterministic hard-coded verification protocols that check whether the requested OS-level effect is realized. We evaluate seven CLI agents and products built on nine foundation models, including ReAct, OpenClaw, OpenAI Agent SDK, Claude Code, Gemini CLI, Cursor CLI, and Cursor IDE. Results show that current CLI agents frequently proceed beyond refusal and can complete a non-negligible fraction of malicious OS-level tasks, especially when requests include TTP-style attacker knowledge. AdvCLI provides a reproducible testbed for evaluating these risks and for developing stronger safety mechanisms for tool-using CLI agents in the future.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-08T03:35:23Z</published>
+    <arxiv:comment>Accepted by EMNLP 2026 (Findings)</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Weidi Luo</name>
+    </author>
+    <author>
+      <name>Qiming Zhang</name>
+    </author>
+    <author>
+      <name>Tianyu Lu</name>
+    </author>
+    <author>
+      <name>Xiaogeng Liu</name>
+    </author>
+    <author>
+      <name>Bin Hu</name>
+    </author>
+    <author>
+      <name>Hung-Chun Chiu</name>
+    </author>
+    <author>
+      <name>Siyuan Ma</name>
+    </author>
+    <author>
+      <name>Yizhe Zhang</name>
+    </author>
+    <author>
+      <name>Xusheng Xiao</name>
+    </author>
+    <author>
+      <name>Yinzhi Cao</name>
+    </author>
+    <author>
+      <name>Zhen Xiang</name>
+    </author>
+    <author>
+      <name>Chaowei Xiao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.26791v1</id>
+    <title>SecRespond: Benchmarking AI Agents for Real-World Post-Compromise Incident Response</title>
+    <updated>2026-07-29T11:32:23Z</updated>
+    <link href="https://arxiv.org/abs/2607.26791v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.26791v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) agents are increasingly adopted in real-world security operations with access to host artifacts and command-line interfaces (CLIs), making it critical to thoroughly assess their security capabilities. However, existing cybersecurity benchmarks focus on pre-compromise settings where agents are placed in a clean and idealized environment before an attack occurs. This leaves the post-compromise setting underexplored. To address this gap, we introduce SecRespond, the first benchmark for evaluating LLM agents on the post-compromise incident-response workflow. Given a forensic disk snapshot of a compromised host together with the alerts, vulnerability scans, and baseline checks reported by a host security product, agents are required to produce forensic reports on intrusions, baseline risks, and vulnerability risks, together with a remediation plan. We instantiate this task across 10 cyber ranges, each constructed from a distinct compromised cloud host, spanning 4 entry-point types, 21 ATT&amp;CK techniques, and 5 operating systems. We evaluate 23 frontier LLMs on the OpenCode agent harness. Experimental results show that although current agents can reliably uncover the problems exposed by alerts, they struggle to proactively investigate the disk for silent intrusions and to produce comprehensive, verified remediation plans, with no model achieving complete detection and remediation on any single range. This reveals a fundamental bottleneck in building agents for real-world incident response. The benchmark is publicly available at https://github.com/Alibaba-NLP/qqr/tree/main/data/secrespond.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-29T11:32:23Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Lehan Wang</name>
+    </author>
+    <author>
+      <name>Boli Chen</name>
+    </author>
+    <author>
+      <name>Ruixue Ding</name>
+    </author>
+    <author>
+      <name>Pengjun Xie</name>
+    </author>
+    <author>
+      <name>Jinwei Huang</name>
+    </author>
+    <author>
+      <name>Zhendong Liu</name>
+    </author>
+    <author>
+      <name>Shuo Wang</name>
+    </author>
+    <author>
+      <name>Tao Lei</name>
+    </author>
+    <author>
+      <name>Xin Ouyang</name>
+    </author>
+    <author>
+      <name>Xiaomeng Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.29596v2</id>
+    <title>A Systematic Survey of Agentic Skills: Architecture, Lifecycle, and Security</title>
+    <updated>2026-09-28T17:25:01Z</updated>
+    <link href="https://arxiv.org/abs/2608.29596v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.29596v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous large language model (LLM) agents increasingly face reliability, context consumption, and execution stability bottlenecks when deployed on complex, long-horizon tasks. While monolithic prompt engineering and stateless tool-calling paradigms struggle to scale, the field is rapidly converging toward \emph{agentic skills}: modular procedural abstractions that externalize execution knowledge into reusable, executable, and portable artifacts. This paper establishes a unified systems foundation and reference architecture for the agentic skills ecosystem. We formalize skills as externalized procedural knowledge bridging high-level cognitive planning with deterministic execution environments, and systematically delineate the architecture across a nine-stage lifecycle: autonomous discovery, authoring and representation formats, memory storage, dynamic retrieval and routing, composition and orchestration, execution and repair, lifelong adaptation, empirical evaluation, and security governance. We further examine marketplace dynamics, public registries, and emerging adversarial threat vectors, alongside runtime verification and defense mechanisms. Finally, we categorize system implementations across software engineering, operating system navigation, embodied robotics, and scientific discovery, while highlighting critical open challenges in continual learning and benchmark realism. This work establishes agentic skills as a foundational paradigm for building scalable, robust, and verifiable autonomous language agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-30T06:36:42Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sanket Badhe</name>
+    </author>
+    <author>
+      <name>Deep Shah</name>
+    </author>
+    <author>
+      <name>Priyanka Tiwari</name>
+    </author>
+    <author>
+      <name>Nehal Kathrotia</name>
+    </author>
+    <arxiv:doi>10.2139/ssrn.7245419</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2139/ssrn.7245419" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.13574v1</id>
+    <title>LLM for Test Script Generation and Migration: Challenges, Capabilities, and Opportunities</title>
+    <updated>2023-09-24T07:58:57Z</updated>
+    <link href="https://arxiv.org/abs/2309.13574v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.13574v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper investigates the application of large language models (LLM) in the domain of mobile application test script generation. Test script generation is a vital component of software testing, enabling efficient and reliable automation of repetitive test tasks. However, existing generation approaches often encounter limitations, such as difficulties in accurately capturing and reproducing test scripts across diverse devices, platforms, and applications. These challenges arise due to differences in screen sizes, input modalities, platform behaviors, API inconsistencies, and application architectures. Overcoming these limitations is crucial for achieving robust and comprehensive test automation.
+  By leveraging the capabilities of LLMs, we aim to address these challenges and explore its potential as a versatile tool for test automation. We investigate how well LLMs can adapt to diverse devices and systems while accurately capturing and generating test scripts. Additionally, we evaluate its cross-platform generation capabilities by assessing its ability to handle operating system variations and platform-specific behaviors. Furthermore, we explore the application of LLMs in cross-app migration, where it generates test scripts across different applications and software environments based on existing scripts.
+  Throughout the investigation, we analyze its adaptability to various user interfaces, app architectures, and interaction patterns, ensuring accurate script generation and compatibility. The findings of this research contribute to the understanding of LLMs' capabilities in test automation. Ultimately, this research aims to enhance software testing practices, empowering app developers to achieve higher levels of software quality and development efficiency.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-24T07:58:57Z</published>
+    <arxiv:comment>Accepted by the 23rd IEEE International Conference on Software Quality, Reliability, and Security (QRS 2023)</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Shengcheng Yu</name>
+    </author>
+    <author>
+      <name>Chunrong Fang</name>
+    </author>
+    <author>
+      <name>Yuchen Ling</name>
+    </author>
+    <author>
+      <name>Chentian Wu</name>
+    </author>
+    <author>
+      <name>Zhenyu Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.09002v3</id>
+    <title>KNighter: Transforming Static Analysis with LLM-Synthesized Checkers</title>
+    <updated>2025-09-03T21:48:29Z</updated>
+    <link href="https://arxiv.org/abs/2503.09002v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.09002v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Static analysis is a powerful technique for bug detection in critical systems like operating system kernels. However, designing and implementing static analyzers is challenging, time-consuming, and typically limited to predefined bug patterns. While large language models (LLMs) have shown promise for static analysis, directly applying them to scan large systems remains impractical due to computational constraints and contextual limitations.
+  We present KNighter, the first approach that unlocks scalable LLM-based static analysis by automatically synthesizing static analyzers from historical bug patterns. Rather than using LLMs to directly analyze massive systems, our key insight is leveraging LLMs to generate specialized static analyzers guided by historical patch knowledge. KNighter implements this vision through a multi-stage synthesis pipeline that validates checker correctness against original patches and employs an automated refinement process to iteratively reduce false positives. Our evaluation on the Linux kernel demonstrates that KNighter generates high-precision checkers capable of detecting diverse bug patterns overlooked by existing human-written analyzers. To date, KNighter-synthesized checkers have discovered 92 new, critical, long-latent bugs (average 4.3 years) in the Linux kernel; 77 are confirmed, 57 fixed, and 30 have been assigned CVE numbers. This work establishes an entirely new paradigm for scalable, reliable, and traceable LLM-based static analysis for real-world systems via checker synthesis.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-12T02:30:19Z</published>
+    <arxiv:comment>SOSP 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Chenyuan Yang</name>
+    </author>
+    <author>
+      <name>Zijie Zhao</name>
+    </author>
+    <author>
+      <name>Zichen Xie</name>
+    </author>
+    <author>
+      <name>Haoyu Li</name>
+    </author>
+    <author>
+      <name>Lingming Zhang</name>
+    </author>
+    <arxiv:doi>10.1145/3731569.3764827</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3731569.3764827" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.15486v3</id>
+    <title>An LLM-Agnostic, MAVLink-Based Drone Command and Control Interface and Agentic Harness Using the Model Context Protocol</title>
+    <updated>2026-09-11T14:01:42Z</updated>
+    <link href="https://arxiv.org/abs/2601.15486v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.15486v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Artificial intelligence integrated with drone command and control (physical AI) offers a route to autonomy through large language models (LLMs), yet a unified LLM-to-drone interface has been missing. We present an LLM-agnostic command-and-control interface and agentic harness joining the Model Context Protocol (MCP) to MAVLink, the near-universal drone command-and-telemetry standard: "DroneServer" gives any MCP-capable LLM command, telemetry, mission, and safety functions over ArduPilot and PX4. Its 98 tools cover 223 of 238 client-side methods of MavSDK, MAVLink's library; 61 of the 98 were exercised in software-in-the-loop. We treat the LLM as an untrusted commander: zero public ports (externally verified); every command validated server-side (tiers, confirmation handshakes, independent geofence, audit log), exercised by an adversarial safety suite. Server-side mission state resolves the "fire-and-forget" mismatch: a scripted client's 37.8-minute mission survived a 4-minute disconnection. Over 1,000 simulated flights ran a ten-mission LLM-UAV control benchmark; eight of eleven models complete 90.0-100% of its six flying missions, and no aircraft left the permitted zone in 110 geofence-violation trials. On real hardware, the unmodified server commanded three quadcopters, GPS-guided and GPS-denied; five providers' models flew an unseen mission, ten of ten. The tests and datasets include: repeated trials, standardized evaluation tasks, success/failure statistics, latency analysis, uncertainty treatment, comparative benchmarking across models/platforms, prompt sets, mission complexity, tool-call traces, safety-intervention logs, and safety-performance assessment. The architecture is a scaffold for a higher-level drone-LLM operating system where plain-language commands realize complex missions, and a path to agent swarms commanding drone swarms under one security umbrella.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-21T21:37:54Z</published>
+    <arxiv:comment>Revised version. 67 pages, 15 figures, 2 tables, 70 references. Supplementary Information (88 pages, Notes S1-S17, 15 figures, 17 tables) attached as an ancillary file. Code: https://github.com/PeterJBurke/droneserver (v2.0.2, doi:10.5281/zenodo.22309419). Data: doi:10.5281/zenodo.22310050</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Javier Noé Ramos Silva</name>
+    </author>
+    <author>
+      <name>Peter J. Burke</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.36494v1</id>
+    <title>Know the Normal, Track the Attack: Context-Grounded and Stateful LLM Investigation over System Provenance</title>
+    <updated>2026-09-29T01:49:17Z</updated>
+    <link href="https://arxiv.org/abs/2609.36494v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.36494v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Provenance-based intrusion detection systems (PIDSs) identify suspicious activity in audit streams, but their outputs remain difficult to turn into coherent attack narratives. Direct LLM analyses of local anomalous subgraphs lack deployment-specific normal-behavior knowledge and validated attack state across evidence fragments. This can cause unsupported attack interpretations of routine activities and incorrect attribution of temporally dispersed evidence to attack stages. We present ANCHOR, an investigation-oriented provenance system that combines evidence curation with context-grounded LLM reasoning. It calibrates anomaly judgments by relation type and links anomalous windows through rare relation-role patterns. The resulting evidence queues preserve causal structure, temporal boundaries, and cross-window continuity. The investigator interprets process-centered evidence using two complementary forms of context. Deployment Context combines environment-specific interaction and object baselines with high-risk security knowledge. Case Context uses a confidence-gated Attack-Tracking Cache to maintain investigation state across windows. Correlating current evidence with high-confidence prior findings, ANCHOR incrementally reconstructs attack narratives organized by kill-chain stages. We evaluate ANCHOR on six DARPA Transparent Computing E3/E5 datasets across three operating systems. Controlled evidence-level and end-to-end comparisons show improved overall IoC recovery and attack-stage attribution over state-of-the-art provenance-based baselines. These gains persist under a fixed LLM backbone in our evaluation. ANCHOR processes a full audit day at dollar-level API cost, supporting practical, context-grounded investigation across windows.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-29T01:49:17Z</published>
+    <arxiv:comment>19 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Lijie Zheng</name>
+    </author>
+    <author>
+      <name>Ji He</name>
+    </author>
+    <author>
+      <name>Ying Wang</name>
+    </author>
+    <author>
+      <name>Huang Zhang</name>
+    </author>
+    <author>
+      <name>Yulong Shen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.22087v1</id>
+    <title>Automated Repair of TEE Partitioning Issues via DSL-Guided and LLM-Assisted Patching</title>
+    <updated>2026-05-21T07:27:28Z</updated>
+    <link href="https://arxiv.org/abs/2605.22087v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.22087v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Trusted Execution Environments (TEEs) provide hardware-based isolation to protect sensitive data and computations from potentially compromised operating systems (OS). However, TEE applications inevitably interact with the untrusted OS through SDK interfaces, and improper partitioning can introduce severe vulnerabilities such as data leakage and code injection. While prior work has proposed static analysis tools to detect such issues, automated repair remains largely unexplored. This problem is particularly challenging due to three TEE-specific factors: the lack of standardized secure development guidelines, the difficulty of extracting semantic information from low-level C code, and the absence of mature testing and validation methods. In this work, we present TEERepair, a framework for automatically repairing bad partitioning issues in TEE applications. Our approach tackles the above challenges by introducing a domain-specific language (DSL) to encode repair rules that express and capture common TEE security patterns, which are instantiated as patch templates with placeholders for context-specific variables. We then leverage large language models (LLMs) to reason about code semantics and synthesize context-aware patches, and further generate test clients to validate the repairs. We evaluate TEERepair on the TEE Partitioning Errors Benchmark (PartitioningE-Bench), achieving a significantly higher repair success rate of 87.6% compared to baselines. Furthermore, applying TEERepair to real-world TEE projects, we submitted 5 repair pull requests, 2 of which have been confirmed and merged by project maintainers.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-21T07:27:28Z</published>
+    <arxiv:comment>Accepted by the ACM International Conference on the Foundations of Software Engineering (FSE 2026)</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Chengyan Ma</name>
+    </author>
+    <author>
+      <name>Jieke Shi</name>
+    </author>
+    <author>
+      <name>Ruidong Han</name>
+    </author>
+    <author>
+      <name>Ye Liu</name>
+    </author>
+    <author>
+      <name>Feng Li</name>
+    </author>
+    <author>
+      <name>Yuqing Niu</name>
+    </author>
+    <author>
+      <name>David Lo</name>
+    </author>
+    <arxiv:doi>10.1145/3808207</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3808207" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.03591v1</id>
+    <title>DiagChain: A Diagnostic Benchmark for Evaluating LLM Agents on Evidence-Grounded Attack Chain Reconstruction</title>
+    <updated>2026-08-04T12:43:47Z</updated>
+    <link href="https://arxiv.org/abs/2608.03591v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.03591v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) agents offer a promising approach to attack chain reconstruction by retrieving and interpreting heterogeneous telemetry to infer ordered attacker actions. However, existing benchmarks mainly evaluate final outputs or aggregate accuracy, providing limited insight into how errors arise and propagate across intermediate reasoning stages. We present DiagChain, a diagnostic benchmark for evidence-grounded attack chain reconstruction that enables stage-wise evaluation of LLM agents. DiagChain includes MAIN-69, a suite of 69 scenarios spanning multiple operating systems, evidence noise levels, and chain lengths. It further introduces Evidence-Centric Retrieval-Augmented Generation (ECRAG), which couples evidence retrieval with an evolving structured representation of the reconstructed chain. Five complementary metrics are introduced to assess distinct stages of the reconstruction process and support systematic failure diagnosis. Based on evaluations using 6 LLMs, DiagChain reveals that even the strongest configuration succeeds on only 39.6% of the 849 reference steps in MAIN-69. Our analysis further shows that smaller models struggle with the more basic task of incorporating retrieved evidence into their outputs, whereas larger models can proceed to later steps, where correctly ordering that evidence becomes the main bottleneck. These results validate the importance of diagnostic evaluation beyond end-to-end accuracy and provide actionable insights for improving evidence-grounded cybersecurity agents.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-04T12:43:47Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Xuyang Liu</name>
+    </author>
+    <author>
+      <name>Yibin Han</name>
+    </author>
+    <author>
+      <name>Zhenwei Zhang</name>
+    </author>
+    <author>
+      <name>Kai Chang</name>
+    </author>
+    <author>
+      <name>Zhiwei Xu</name>
+    </author>
+    <author>
+      <name>Tian Qiu</name>
+    </author>
+    <author>
+      <name>Weixian Deng</name>
+    </author>
+    <author>
+      <name>Jiabao Gao</name>
+    </author>
+    <author>
+      <name>Xiaolin Peng</name>
+    </author>
+    <author>
+      <name>Hai Wan</name>
+    </author>
+    <author>
+      <name>Xibin Zhao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.10779v2</id>
+    <title>LITMUS: Benchmarking Behavioral Jailbreaks of LLM Agents in Real OS Environments</title>
+    <updated>2026-11-04T12:30:56Z</updated>
+    <link href="https://arxiv.org/abs/2605.10779v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.10779v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid proliferation of LLM-based autonomous agents in real operating system environments introduces a new category of safety risk beyond content safety: behavior jailbreak, where an adversary induces an agent to execute dangerous OS-level operations with irreversible consequences. Existing benchmarks either evaluate safety at the semantic layer alone, missing physical-layer harms, or fail to isolate test cases, letting earlier runs contaminate later ones. We present LITMUS (LLM-agents In-OS Testing for Measuring Unsafe Subversion), a benchmark addressing both gaps via a semantic-physical dual verification mechanism and OS-level state rollback. LITMUS comprises 819 high-risk test cases organized into one harmful seed subset and six attack-extended subsets covering three adversarial paradigms (jailbreak speaking, skill injection, and entity wrapping), plus a fully automated multi-agent evaluation framework judging behavior at both conversational and OS-level physical layers. Evaluation across frontier agents reveals three findings: (1) current agents lack effective safety awareness, with strong models (e.g., Claude Sonnet 4.6) still executing 40.64% of high-risk operations; (2) agents exhibit pervasive Execution Hallucination (EH), verbally refusing a request while the dangerous operation has already completed at the system level, invisible to every prior semantic-only framework; and (3) skill injection and entity wrapping attacks achieve high success rates, exposing pronounced agent vulnerabilities. LITMUS provides the first standardized platform for reproducible, physically grounded behavioral safety evaluation of LLM agents in real OS environments.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-11T16:14:04Z</published>
+    <arxiv:comment>Accepted at NeurIPS 2026 Oral. 32 pages, including appendices</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Chiyu Zhang</name>
+    </author>
+    <author>
+      <name>Lu Zhou</name>
+    </author>
+    <author>
+      <name>Xiaogang Xu</name>
+    </author>
+    <author>
+      <name>Huiqin Yang</name>
+    </author>
+    <author>
+      <name>Bendong Jiang</name>
+    </author>
+    <author>
+      <name>Xiaolei Zhang</name>
+    </author>
+    <author>
+      <name>Yiran Zhao</name>
+    </author>
+    <author>
+      <name>Ruyi Chen</name>
+    </author>
+    <author>
+      <name>Jiafei Wu</name>
+    </author>
+    <author>
+      <name>Liming Fang</name>
+    </author>
+    <author>
+      <name>Zhe Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.17707v3</id>
+    <title>Speed Kills: Exploring Confused Deputy Attacks Through Edge AI Accelerators</title>
+    <updated>2026-10-07T07:02:24Z</updated>
+    <link href="https://arxiv.org/abs/2605.17707v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.17707v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI Accelerators (AIAs) are specialized hardware, such as Tensor Processing Units (TPUs), that enable optimal and efficient execution of AI applications and on-device inference. The growing demand for AI applications has led to the widespread adoption of AIAs on edge and embedded devices. Unlike applications, AIAs are not bound by Operating System (OS) restrictions and have limited visibility into Application Processor (AP) security mechanisms (e.g., kernel versus application memory and process isolation). This semantic gap can lead to confused deputy vulnerabilities, where an AIA can be tricked by a malicious application into performing privileged operations on its behalf.
+  In this paper, we conduct the first in-depth study of Confused Deputy Attacks (CDAs) using AIAs. We design DeputyHunt, a Large Language Model (LLM)-assisted framework to extract CDA-relevant information for a given AIA through a combination of dynamic and static analysis. We use this information to explore the feasibility of CDAs on seven different AIAs from popular vendors, including Google, NVIDIA, Hailo, Texas Instruments, NXP, AWS, and Rockchip. Our analysis reveals that CDAs are feasible on six out of the seven AIAs, impacting over 128 System-on-Chips (SoCs) and over 100 million devices. Our findings highlight critical security risks posed by AIAs to system security. Our work has been acknowledged by the corresponding vendors and assigned CVE-2025-66425. We propose an on-demand validation defense against CDAs, and our evaluation on the Gem5-salam simulator shows that the average runtime overhead of our mechanism is significantly lower (~15% versus ~56%) than that of traditional defenses.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-18T00:04:51Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Datta Manikanta Sri Hari Danduri</name>
+    </author>
+    <author>
+      <name>Aravind Kumar Machiry</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.23399v1</id>
+    <title>Beyond the Cloud: Assessing the Benefits and Drawbacks of Local LLM Deployment for Translators</title>
+    <updated>2025-07-31T10:13:48Z</updated>
+    <link href="https://arxiv.org/abs/2507.23399v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.23399v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid proliferation of Large Language Models presents both opportunities and challenges for the translation field. While commercial, cloud-based AI chatbots have garnered significant attention in translation studies, concerns regarding data privacy, security, and equitable access necessitate exploration of alternative deployment models. This paper investigates the feasibility and performance of locally deployable, free language models as a viable alternative to proprietary, cloud-based AI solutions. This study evaluates three open-source models installed on CPU-based platforms and compared against commercially available online chat-bots. The evaluation focuses on functional performance rather than a comparative analysis of human-machine translation quality, an area already subject to extensive research. The platforms assessed were chosen for their accessibility and ease of use across various operating systems. While local deployment introduces its own challenges, the benefits of enhanced data control, improved privacy, and reduced dependency on cloud services are compelling. The findings of this study contribute to a growing body of knowledge concerning the democratization of AI technology and inform future research and development efforts aimed at making LLMs more accessible and practical for a wider range of users, specifically focusing on the needs of individual translators and small businesses.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-31T10:13:48Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Peter Sandrini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.38248v1</id>
+    <title>ContractWarden: Kernel-Enforced Damage Boundaries for AI Agents via Human-Authorized Contracts</title>
+    <updated>2026-09-29T07:13:14Z</updated>
+    <link href="https://arxiv.org/abs/2609.38248v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.38248v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model agents can execute commands, create subprocesses, and directly access files and networks, allowing prompt injection or planning errors to become operating-system side effects. We present ContractWarden, a Linux reference monitor that enforces a human-authorized damage boundary without trusting the agent or its policy suggestions. A model may propose a tri-state asset contract - allow, deny, or no_egress - but a human makes the final choice. An execution gate binds the contract to a concrete task before untrusted code runs. An extended Berkeley Packet Filter (eBPF) Linux Security Modules (LSM) data plane then enforces file and network decisions and monotonically propagates no_egress through processes, regular files, pipes, FIFOs, and supported Unix-domain sockets. All 570 runs across 19 security tests satisfy predefined return-value and side-effect criteria. On three co-located file-I/O workloads, median overhead is 11.96-12.89% in a Linux 6.15 virtual machine and 35.79-61.54% on a Linux 6.15 physical platform, lower than the evaluated frozen ActPlane baseline. The results demonstrate deterministic kernel enforcement for declared assets, supported paths, and controlled object lifecycles.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-29T07:13:14Z</published>
+    <arxiv:comment>Supersedes the preprint DOI 10.21203/rs.3.rs-10865359/v1, which has a different title. Submitted to ICOIN 2027. 6 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Dongxu Cui</name>
+    </author>
+    <author>
+      <name>Zhichao Gu</name>
+    </author>
+    <author>
+      <name>Ping Zheng</name>
+    </author>
+    <author>
+      <name>Wenshuai Xi</name>
+    </author>
+    <author>
+      <name>Simeng Han</name>
+    </author>
+    <author>
+      <name>Yong Liao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.16775v1</id>
+    <title>Topological Attribution Distance (TAD): Revealing Segment-Level RAG Influence on LLM Output Geometry for Incident Log Analysis</title>
+    <updated>2026-08-17T16:21:18Z</updated>
+    <link href="https://arxiv.org/abs/2608.16775v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.16775v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are increasingly being deployed in cybersecurity operations to assist cybersecurity analysts with rapid decision-making against emerging threats. However, there is a main criteria that must be met when using LLMs in cybersecurity, that is, trust in the generated outputs. As Agentic AI is integrated into operational systems, a robust evidence attribution and provenance tracking technique is essential to trace the origins of model generations. When autonomous agents make a decision (right or wrong), the ability to trace back through the decision chain is critical, as without it, teams cannot identify which segment of the data caused the model generation. Existing methods often struggle to distinguish among complex and highly similar evidence sources, such as cyber incident logs. This reveals a key gap: current approaches do not adequately capture the holistic geometric relationship between the retrieved evidence and the generated response for reliable evidence verification. To bridge this gap, we propose Topological Attribution Distance (TAD), inspired by Topology, to characterize and capture the global geometric shape of an output and its changes against its retrieved logs. In other words, if the embeddings of a specific source log drastically changes the geometry of the model's response in the embedding space, this suggests that such log is a critical source for the model's generated response. Therefore, TAD is powered by segment-level ablation attribution to investigate incident logs of an actual cyberattack. We demonstrate how TAD finds the most attributed logs on LLM outputs in an adaptive manner. This can provide an explainable and trustworthy tracing based on each LLM's hidden state to understand how geometrically different retrieved logs influence the model generation, and provide evidence verification in cybersecurity and Agentic-AI workflows.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-17T16:21:18Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Reza Fayyazi</name>
+    </author>
+    <author>
+      <name>Michael Zuzak</name>
+    </author>
+    <author>
+      <name>Shanchieh Jay Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.25431v1</id>
+    <title>Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking</title>
+    <updated>2026-08-26T06:42:56Z</updated>
+    <link href="https://arxiv.org/abs/2608.25431v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.25431v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM serving frameworks process large volumes of user data--often containing sensitive information--on shared infrastructure. Ensuring isolation between users who share the same serving framework (on CPUs) and LLM operators (on GPUs) is critical for privacy protection.
+  This paper presents GIFT, a GPU Information Flow Tracking system that enforces user data isolation in LLM serving with minimal overhead. Moreover, the design of GIFT is non-intrusive and allows CPU-side serving frameworks to evolve freely. It rests on two key insights. First, encryption-as-isolation leverages the observation that CPU components only orchestrate data flow, not content manipulation; thus, per-user encryption can provide isolation without modifying serving logic. Second, GPU kernels exhibit limited and predictable information flows, enabling static flow analysis. GIFT precomputes information flow rules for each kernel and uses decoupled flow tracking, avoiding instrumentation or GPU stalls.
+  Furthermore, we extend GIFT to GIFT-CC, which integrates confidential computing to protect against untrusted operating systems and hypervisors (LLM service providers). Implemented on vLLM and DistServe, GIFT and GIFT-CC enforce user data isolation with a 4-10.7% throughput overhead while maintaining the same latency level.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-26T06:42:56Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jiacheng Shi</name>
+    </author>
+    <author>
+      <name>Xunjie Wang</name>
+    </author>
+    <author>
+      <name>Cheng Tan</name>
+    </author>
+    <author>
+      <name>Jinyu Gu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.02857v1</id>
+    <title>MOSAIC: Knowledge-Guided CLI Command Composition Attack in LLM Coding Agents</title>
+    <updated>2026-07-03T01:41:17Z</updated>
+    <link href="https://arxiv.org/abs/2607.02857v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.02857v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM coding agents increasingly complete development tasks by issuing ordinary CLI commands. Following the Unix design, these commands cooperate through shared operating-system state: one command may write state that a later command reads. While this composition is benign and intended, it creates an overlooked exploit surface. Existing attacks and defenses mainly target the instruction layer, where malicious intent appears as hostile text. In contrast, we observe that individually benign commands can form a dangerous producer-consumer state relation across the command trace, exposing what we call CLI command-composition risk (CCR).
+  Given this new attack surface, it is critical to systematically uncover and characterize the impact of CCR in real-world coding agents. However, systematically understanding this risk is quite challenging, because naive command enumeration and end-to-end LLM generation produce mostly invalid workflows. We present MOSAIC, a knowledge-guided framework that distills validated command-state behaviors from CVEs, advisories, and researcher PoCs into reusable summaries, composes them into exploit paths, and instantiates them as realistic developer workflows for black-box agent evaluation. Across five real-world CLI coding agents and five backend LLMs over 2,525 trials, MOSAIC achieves a 96.59% attack success rate under benign developer tasks.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-03T01:41:17Z</published>
+    <arxiv:comment>12 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jiangrong Wu</name>
+    </author>
+    <author>
+      <name>Huaijin Wang</name>
+    </author>
+    <author>
+      <name>Yihao Zhang</name>
+    </author>
+    <author>
+      <name>Yuhong Nan</name>
+    </author>
+    <author>
+      <name>Shuai Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.05531v1</id>
+    <title>KEN: Kernel Extensions using Natural Language</title>
+    <updated>2023-12-09T10:45:54Z</updated>
+    <link href="https://arxiv.org/abs/2312.05531v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.05531v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ability to modify and extend an operating system is an important feature for improving a system's security, reliability, and performance. The extended Berkeley Packet Filters (eBPF) ecosystem has emerged as the standard mechanism for extending the Linux kernel and has recently been ported to Windows. eBPF programs inject new logic into the kernel that the system will execute before or after existing logic. While the eBPF ecosystem provides a flexible mechanism for kernel extension, it is difficult for developers to write eBPF programs today. An eBPF developer must have deep knowledge of the internals of the operating system to determine where to place logic and cope with programming limitations on the control flow and data accesses of their eBPF program enforced by the eBPF verifier. This paper presents KEN, an alternative framework that alleviates the difficulty of writing an eBPF program by allowing Kernel Extensions to be written in Natural language. KEN uses recent advances in large language models (LLMs) to synthesize an eBPF program given a user's English language prompt. To ensure that LLM's output is semantically equivalent to the user's prompt, KEN employs a combination of LLM-empowered program comprehension, symbolic execution, and a series of feedback loops. KEN's key novelty is the combination of these techniques. In particular, the system uses symbolic execution in a novel structure that allows it to combine the results of program synthesis and program comprehension and build on the recent success that LLMs have shown for each of these tasks individually. To evaluate KEN, we developed a new corpus of natural language prompts for eBPF programs. We show that KEN produces correct eBPF programs on 80% which is an improvement of a factor of 2.67 compared to an LLM-empowered program synthesis baseline.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-09T10:45:54Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yusheng Zheng</name>
+    </author>
+    <author>
+      <name>Yiwei Yang</name>
+    </author>
+    <author>
+      <name>Maolin Chen</name>
+    </author>
+    <author>
+      <name>Andrew Quinn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.22586v1</id>
+    <title>Text2DSL: LLM-Based Code Generation for Domain-Specific Languages</title>
+    <updated>2026-06-21T16:44:20Z</updated>
+    <link href="https://arxiv.org/abs/2606.22586v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.22586v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Domain-specific languages (DSLs) are widely used for managing operating system security policies, yet manually authoring rules in such languages demands high expertise and is error-prone. This paper formalises the task of automatic DSL code generation from natural language descriptions - Text2DSL - as a distinct problem class, separate from Text-to-SQL and general-purpose code generation. We introduce the PolkitBench dataset comprising 4,204 verified natural-language-to-Polkit-rule pairs, each validated through a three-level AST-based pipeline. Controlled prompt experiments on two MoE models of different scale and provenance - GigaChat-10B-A1.8B (1.8B active parameters) and Nemotron-3-Nano-30B-A3B (3B active) - demonstrate the critical role of structured context (BNF grammar, API specification, permitted identifier vocabulary) for LLM-based DSL code generation. Across both models, supplying context raises syntactic validity to 98.6-99.4%, structural validity by +9.7 to +35.5 pp, and the CodeBLEU score by +60% to +95%. The consistency of the effect across models of different scale and provenance indicates that, for the Text2DSL class of problems, injecting a formal target-language specification into the prompt context is a robust enabling factor for high-quality generation without model fine-tuning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-21T16:44:20Z</published>
+    <arxiv:comment>14 pages, 4 figures, 5 tables. Accepted at KES 2026 (Knowledge-Based Intelligent Information and Engineering Systems), Procedia Computer Science, Elsevier</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Alexander V. Kozachok</name>
+    </author>
+    <author>
+      <name>Alexander M. Nazimov</name>
+    </author>
+    <author>
+      <name>Shamil G. Magomedov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.02344v2</id>
+    <title>Characterizing WebGPU Dispatch Overhead for LLM Inference Across Four GPU Vendors, Three Backends, and Three Browsers</title>
+    <updated>2026-10-26T10:55:53Z</updated>
+    <link href="https://arxiv.org/abs/2604.02344v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.02344v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>WebGPU's security-focused design imposes per-operation validation that compounds across the many small dispatches in neural network inference, yet the true cost of this overhead is poorly characterized. We present a systematic characterization of WebGPU dispatch overhead for LLM inference at batch size 1, spanning four GPU vendors (NVIDIA, AMD, Apple, Intel), two native implementations (Dawn, wgpu-native) and three browsers (Chrome, Safari, Firefox), and two model sizes (Qwen2.5-0.5B and 1.5B). Our primary contribution is a sequential-dispatch methodology that reveals naive single-operation benchmarks overestimate dispatch cost by ${\sim}20\times$. The true per-dispatch cost of WebGPU API overhead alone is 24-36 $μ$s on Vulkan and 32-71 $μ$s on Metal, while the total per-operation overhead including Python cost is ${\sim}95$~$μ$s, which turns out to be a distinction critical for optimization. On Vulkan, kernel fusion improves throughput by 53%, while CUDA fusion provides no benefit, confirming that per-operation overhead is a primary differentiator. LLM inference was tested across three major operating systems (Linux, Windows, macOS). We built $\texttt{torch-webgpu}$, a PrivateUse1-based out-of-tree PyTorch backend and an FX-to-WebGPU compiler, which on our reference platform achieves 11--12% of CUDA performance. At dtype-matched float32, RTX PRO 2000 achieves 1.4$\times$ WebGPU's throughput despite ${\sim}6\times$ less compute than RTX 5090. For dispatch overhead, backend choice is the dominant factor, although implementation choice also matters substantially within a backend (2.2$\times$ for Metal). In terms of dispatch vs kernel compute efficiency, we conclude that at batch=1 with the current dispatch-heavy pipeline, per-operation overhead dominates regardless of kernel quality. All code, benchmarks, and raw data are open source.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PF" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-09T20:14:42Z</published>
+    <arxiv:comment>Superseded by arXiv:2608.08730. Please cite that version</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jędrzej Maczan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.11110v1</id>
+    <title>Ramp Up NTT in Record Time using GPU-Accelerated Algorithms and LLM-based Code Generation</title>
+    <updated>2025-02-16T12:53:23Z</updated>
+    <link href="https://arxiv.org/abs/2502.11110v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.11110v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Homomorphic encryption (HE) is a core building block in privacy-preserving machine learning (PPML), but HE is also widely known as its efficiency bottleneck. Therefore, many GPU-accelerated cryptographic schemes have been proposed to improve the performance of HE. However, these methods often require complex modifications tailored to specific algorithms and are tightly coupled with specific GPU and operating systems. It is interesting to ask how to generally offer more practical GPU-accelerated cryptographic algorithm implementations. Given the powerful code generation capabilities of large language models (LLMs), we aim to explore their potential to automatically generate practical GPU-friendly algorithm code using CPU-friendly code. In this paper, we focus on number theoretic transform (NTT) -- the core mechanism of HE. We first develop and optimize a GPU-friendly NTT (GNTT) family that exploits PyTorch's fast matrix computation and precomputation, achieving an approximately 62x speedup -- a significant boost over existing ones. Then we explore GPU-friendly code generation using various LLMs, including DeepSeek-R1, OpenAI o1 and o3-mini. We discover many interesting findings throughout the process. For instance, somewhat surprisingly, our experiments demonstrate that DeepSeek-R1 significantly outperforms OpenAI o3-mini and o1, but still cannot beat our optimized protocol. The findings provide valuable insights for turbocharging PPML and enhancing code generation capabilities of LLMs. Codes are available at: https://github.com/LMPC-Lab/GenGPUCrypto.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-16T12:53:23Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yu Cui</name>
+    </author>
+    <author>
+      <name>Hang Fu</name>
+    </author>
+    <author>
+      <name>Licheng Wang</name>
+    </author>
+    <author>
+      <name>Haibin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.11517v1</id>
+    <title>Graph-Based Structural Evaluation of LLM-Translated Adversary Emulation Procedures</title>
+    <updated>2026-07-13T13:04:23Z</updated>
+    <link href="https://arxiv.org/abs/2607.11517v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.11517v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Adversary emulation plans describe multi-step attacker procedures using MITRE ATT&amp;CK techniques, privilege requirements, and observable telemetry. Translating them across operating systems supports cross-platform defender evaluation, and large language models (LLMs) can automate this task. However, a translation may only rename tools while retaining source-platform logic, giving defenders little target-platform coverage. Binary scoring can overestimate fidelity because it measures countable features rather than structural, observable, and rule-level equivalence. Graph-Based Structural Evaluation (GBSE) models each procedure as a directed attributed graph and calculates normalized Graph Edit Distance (GED) across four layers: technique, tactic, telemetry class, and Sigma logsource. GBSE was applied to a 29-step ALPHV/BlackCat Windows-to-Linux plan, comparing a reconstructed Windows control with the unmodified LLM-generated Linux version. Technique and tactic structure were fully preserved (GED=0, similarity=1.000). Telemetry similarity fell to 0.897 (GED=3) because three steps contained unmapped or drifting observables, while Sigma logsource similarity was 1.000. Every state was classified as Medium Fidelity, with a best composite score of 0.674. The 0.80 deployment threshold was not reached because technical realism scored 0.43 against the required 0.990. The framework includes bipartite GED, a telemetry-intent parser that converts free text into observable classes, and 49 validated Sigma rules: 19 for Linux and 30 for Windows. The rules provide complete ATT&amp;CK technique coverage and pass validation with zero findings. Additional analysis reveals technique-level divergence, including RDP-based external access mapped to unencrypted exfiltration and credential-store access mapped to remote-system discovery. Results were reproduced and verified against recorded outputs.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-13T13:04:23Z</published>
+    <arxiv:comment>This technical contribution supports the MITRE white paper titled: Evaluating LLMs for Impact-Faithful Translation of Adversary Behavior Across Operating Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ahmed M. Elmisery</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.04469v2</id>
+    <title>Cross-Layer Semantic Flow Reconstruction for Attack Detection in Agentic Systems</title>
+    <updated>2026-08-05T11:39:29Z</updated>
+    <link href="https://arxiv.org/abs/2603.04469v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.04469v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agentic systems increasingly orchestrate complex, tool-using workflows within agentic execution environments, where high-level goals and tool invocations at the application layer materialize as process, file, and network activities at the operating-system layer. This cross-layer execution creates security risks that conventional input guardrails cannot capture, because malicious intent may become observable only through downstream execution effects. In multi-agent deployments, inter-agent communication and delegation introduce additional propagation paths. To address this gap, we propose AScope, an execution-aware framework that correlates application-level agent semantics with kernel-level audit events and reconstructs them as cross-layer semantic flows. AScope connects fragmented operations into causal behavioral trajectories and uses a supervisor LLM to identify data flow violations, control flow deviations, and intent inconsistencies. We evaluate AScope on published AgentDojo traces with application-layer evidence and on ten multi-agent scenarios with cross-layer telemetry. The results demonstrate strong detection sensitivity across both evidence settings and achieve node- and path-level F1-scores of 85.3% and 66.7% on the cross-layer dataset.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-04T01:59:16Z</published>
+    <arxiv:comment>16 pages, 15 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Qizhi Cai</name>
+    </author>
+    <author>
+      <name>Yangyang Wei</name>
+    </author>
+    <author>
+      <name>Zhipeng Chen</name>
+    </author>
+    <author>
+      <name>Shouling Ji</name>
+    </author>
+    <author>
+      <name>Zhenyuan Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.19386v2</id>
+    <title>ColorAgent: Building A Robust, Personalized, and Interactive OS Agent</title>
+    <updated>2025-10-24T07:32:03Z</updated>
+    <link href="https://arxiv.org/abs/2510.19386v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.19386v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the advancements in hardware, software, and large language model technologies, the interaction between humans and operating systems has evolved from the command-line interface to the rapidly emerging AI agent interactions. Building an operating system (OS) agent capable of executing user instructions and faithfully following user desires is becoming a reality. In this technical report, we present ColorAgent, an OS agent designed to engage in long-horizon, robust interactions with the environment while also enabling personalized and proactive user interaction. To enable long-horizon interactions with the environment, we enhance the model's capabilities through step-wise reinforcement learning and self-evolving training, while also developing a tailored multi-agent framework that ensures generality, consistency, and robustness. In terms of user interaction, we explore personalized user intent recognition and proactive engagement, positioning the OS agent not merely as an automation tool but as a warm, collaborative partner. We evaluate ColorAgent on the AndroidWorld and AndroidLab benchmarks, achieving success rates of 77.2% and 50.7%, respectively, establishing a new state of the art. Nonetheless, we note that current benchmarks are insufficient for a comprehensive evaluation of OS agents and propose further exploring directions in future work, particularly in the areas of evaluation paradigms, agent collaboration, and security.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-22T09:02:48Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Ning Li</name>
+    </author>
+    <author>
+      <name>Qiqiang Lin</name>
+    </author>
+    <author>
+      <name>Zheng Wu</name>
+    </author>
+    <author>
+      <name>Xiaoyun Mo</name>
+    </author>
+    <author>
+      <name>Weiming Zhang</name>
+    </author>
+    <author>
+      <name>Yin Zhao</name>
+    </author>
+    <author>
+      <name>Xiangmou Qu</name>
+    </author>
+    <author>
+      <name>Jiamu Zhou</name>
+    </author>
+    <author>
+      <name>Jun Wang</name>
+    </author>
+    <author>
+      <name>Congmin Zheng</name>
+    </author>
+    <author>
+      <name>Yuanyi Song</name>
+    </author>
+    <author>
+      <name>Hongjiang Chen</name>
+    </author>
+    <author>
+      <name>Heyuan Huang</name>
+    </author>
+    <author>
+      <name>Jihong Wang</name>
+    </author>
+    <author>
+      <name>Jiaxin Yin</name>
+    </author>
+    <author>
+      <name>Jingwei Yu</name>
+    </author>
+    <author>
+      <name>Junwei Liao</name>
+    </author>
+    <author>
+      <name>Qiuying Peng</name>
+    </author>
+    <author>
+      <name>Xingyu Lou</name>
+    </author>
+    <author>
+      <name>Jun Wang</name>
+    </author>
+    <author>
+      <name>Weiwen Liu</name>
+    </author>
+    <author>
+      <name>Zhuosheng Zhang</name>
+    </author>
+    <author>
+      <name>Weinan Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.15549v2</id>
+    <title>One Goal, Many Commands: Characterizing Denylist Fragility in AI Agents</title>
+    <updated>2026-06-20T22:26:27Z</updated>
+    <link href="https://arxiv.org/abs/2606.15549v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.15549v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The adoption of AI agents is increasing rapidly. Terminal AI agents, i.e., AI agents that run in terminal environments, are a widely used type of AI agents. Terminal AI agents rely heavily on shell command execution to interact with the host systems. They adopt a three-list command-gating mechanism to mitigate security risks introduced by command execution, with denylists serving as the load-bearing component. However, modern operating systems often ship a large, ever-expanding set of shell commands with complex functionalities. Our observation is that even a built-in denylist of Claude Code, well-maintained by its developers, can overlook bypass commands that invalidate its effectiveness. Such negligence leads to fragile command denylists that cannot even block operations that practitioners expect them to block.
+  This paper presents the first systematic characterization of command denylist fragility in terminal AI agents. The paper formalizes the command denylist fragility problem and proposes an LLM-driven pipeline, ShellSieve, to detect such fragility. It prompts the LLM to propose possible bypasses and iteratively repairs them using feedback from a validator that executes them in a sandbox. In the evaluation, we applied ShellSieve to 1,709 real-world command denylists (containing 13,332 denylist rules) collected from GitHub. The evaluation shows several key findings, including that 69.0--98.6% of the denylists are fragile, that this fragility occurs consistently across projects and agents, and the validity of several possible root causes for this fragility. Our pipeline and findings will hopefully facilitate future research and practice regarding the command denylists used by AI agents.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-14T02:30:09Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Chuyang Chen</name>
+    </author>
+    <author>
+      <name>Zhiqiang Lin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.02018v2</id>
+    <title>Invisible Ink Threats: Adversarial Goals Behind Legitimate Tasks in Computer-Use Agents</title>
+    <updated>2026-08-06T02:33:08Z</updated>
+    <link href="https://arxiv.org/abs/2608.02018v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.02018v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Computer-use agents (CUAs), which empower large language models to autonomously operate operating systems and the web, are increasingly vulnerable to indirect prompt injection attacks. A widely adopted defense is the human-in-the-loop paradigm, in which the agent pauses for explicit user confirmation before executing sensitive operations. While effective against conspicuously high-harm attacks, this defense offers little protection against what we term Invisible Ink Threats: low-harm injected goals, such as starring a repository or installing a package, that are behaviorally indistinguishable from legitimate task execution and thus evade both model safety mechanisms and human oversight. To systematically investigate this blind spot, we present II-Bench, a collection of seemingly harmless adversarial tasks. II-Bench comprises 444 examples targeting confidentiality and integrity attacks across three platforms, spanning three attack categories: page navigation and interaction, sensitive information exfiltration, and code download and execution. Each category is instantiated in both natural language and code forms under two levels of instruction specificity. Furthermore, we construct HITLCUA, a comprehensive adversarial testing framework that integrates a real virtual machine operating system environment with isolated Docker-based web platforms, and simulates human participation by allowing CUAs to consult an API-simulated user before proceeding with suspicious operations. Extensive evaluations of leading CUAs reveal that low-harm injections frequently bypass both agent defenses and simulated user review, exposing severe and previously underexplored security risks in current CUAs.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-03T10:16:53Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jia-Chen Zhang</name>
+    </author>
+    <author>
+      <name>Ze-Yu Zhang</name>
+    </author>
+    <author>
+      <name>Kai-Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.11516v1</id>
+    <title>Agents Should Replace Narrow Predictive AI as the Orchestrator in 6G AI-RAN</title>
+    <updated>2026-05-12T04:39:34Z</updated>
+    <link href="https://arxiv.org/abs/2605.11516v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.11516v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This position paper argues that to achieve Level 5 autonomous 6G networks, the next generation of Artificial Intelligence in Radio Access Networks (AI-RAN) should transition away from fragmented, narrow predictive models and instead adopt multimodal Large Language Models (LLMs) as central reasoning agents. Current AI-RAN architectures rely on disjointed Deep Neural Networks (DNNs) and Deep Reinforcement Learning (DRL) agents that operate in isolated domains. These narrow models suffer from siloed knowledge, severe brittleness to out-of-distribution dynamics, and a fundamental inability to bridge the intent gap the semantic disconnect between high-level, unstructured operator directives and rigid numerical network configurations. We propose elevating LLMs, or domain-adapted Large Telecom Models (LTMs), to act as the cognitive operating system situated within the RAN Intelligent Controller (RIC), the control and orchestration layer of AI-RAN. In this architecture, LLMs do not replace narrow models but orchestrate them as executable subroutines, dynamically translating human intent into concrete policies and utilizing Retrieval-Augmented Generation (RAG) to autonomously diagnose complex, multi-vendor network anomalies. To make this architectural shift a reality, we call upon the machine learning community to prioritize critical foundational research tailored to the strict constraints of telecommunications, specifically focusing on continuous alignment via network-driven feedback (RLNF), extreme sub-8-bit edge quantization, neuro-symbolic verification to curb hallucinations, and securing orchestration frameworks against adversarial prompt injections.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-12T04:39:34Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Pranshav Gajjar</name>
+    </author>
+    <author>
+      <name>Vijay K Shah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.00550v1</id>
+    <title>BloClaw: An Omniscient, Multi-Modal Agentic Workspace for Next-Generation Scientific Discovery</title>
+    <updated>2026-04-01T06:47:40Z</updated>
+    <link href="https://arxiv.org/abs/2604.00550v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.00550v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The integration of Large Language Models (LLMs) into life sciences has catalyzed the development of "AI Scientists." However, translating these theoretical capabilities into deployment-ready research environments exposes profound infrastructural vulnerabilities. Current frameworks are bottlenecked by fragile JSON-based tool-calling protocols, easily disrupted execution sandboxes that lose graphical outputs, and rigid conversational interfaces inherently ill-suited for high-dimensional scientific data.We introduce BloClaw, a unified, multi-modal operating system designed for Artificial Intelligence for Science (AI4S). BloClaw reconstructs the Agent-Computer Interaction (ACI) paradigm through three architectural innovations: (1) An XML-Regex Dual-Track Routing Protocol that statistically eliminates serialization failures (0.2% error rate vs. 17.6% in JSON); (2) A Runtime State Interception Sandbox that utilizes Python monkey-patching to autonomously capture and compile dynamic data visualizations (Plotly/Matplotlib), circumventing browser CORS policies; and (3) A State-Driven Dynamic Viewport UI that morphs seamlessly between a minimalist command deck and an interactive spatial rendering engine. We comprehensively benchmark BloClaw across cheminformatics (RDKit), de novo 3D protein folding via ESMFold, molecular docking, and autonomous Retrieval-Augmented Generation (RAG), establishing a highly robust, self-evolving paradigm for computational research assistants. The open-source repository is available at https://github.com/qinheming/BloClaw.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-01T06:47:40Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yao Qin</name>
+    </author>
+    <author>
+      <name>Yangyang Yan</name>
+    </author>
+    <author>
+      <name>Jinhua Pang</name>
+    </author>
+    <author>
+      <name>Xiaoming Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.23996v1</id>
+    <title>Forensic Implications of Localized AI: Artifact Analysis of Ollama, LM Studio, and llama.cpp</title>
+    <updated>2026-03-25T06:51:33Z</updated>
+    <link href="https://arxiv.org/abs/2603.23996v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.23996v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The proliferation of local Large Language Model (LLM) runners, such as Ollama, LM Studio and llama.cpp, presents a new challenge for digital forensics investigators. These tools enable users to deploy powerful AI models in an offline manner, creating a potential evidentiary blind spot for investigators. This work presents a systematic, cross platform forensic analysis of these popular local LLM clients. Through controlled experiments on Windows and Linux operating systems, we acquired and analyzed disk and memory artifacts, documenting installation footprints, configuration files, model caches, prompt histories and network activity. Our experiments uncovered a rich set of previously undocumented artifacts for each software, revealing significant differences in evidence persistence and location based on application architecture. Key findings include the recovery of plaintext prompt histories in structured JSON files, detailed model usage logs and unique file signatures suitable for forensic detection. This research provides a foundational corpus of digital evidence for local LLMs, offering forensic investigators reproducible methodologies, practical triage commands and analyse this new class of software. The findings have critical implications for user privacy, the admissibility of AI-related evidence and the development of anti-forensic techniques.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-25T06:51:33Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Shariq Murtuza</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.01883v1</id>
+    <title>Mining Temporal Attack Patterns from Cyberthreat Intelligence Reports</title>
+    <updated>2024-01-03T18:53:22Z</updated>
+    <link href="https://arxiv.org/abs/2401.01883v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.01883v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Defending from cyberattacks requires practitioners to operate on high-level adversary behavior. Cyberthreat intelligence (CTI) reports on past cyberattack incidents describe the chain of malicious actions with respect to time. To avoid repeating cyberattack incidents, practitioners must proactively identify and defend against recurring chain of actions - which we refer to as temporal attack patterns. Automatically mining the patterns among actions provides structured and actionable information on the adversary behavior of past cyberattacks. The goal of this paper is to aid security practitioners in prioritizing and proactive defense against cyberattacks by mining temporal attack patterns from cyberthreat intelligence reports. To this end, we propose ChronoCTI, an automated pipeline for mining temporal attack patterns from cyberthreat intelligence (CTI) reports of past cyberattacks. To construct ChronoCTI, we build the ground truth dataset of temporal attack patterns and apply state-of-the-art large language models, natural language processing, and machine learning techniques. We apply ChronoCTI on a set of 713 CTI reports, where we identify 124 temporal attack patterns - which we categorize into nine pattern categories. We identify that the most prevalent pattern category is to trick victim users into executing malicious code to initiate the attack, followed by bypassing the anti-malware system in the victim network. Based on the observed patterns, we advocate organizations to train users about cybersecurity best practices, introduce immutable operating systems with limited functionalities, and enforce multi-user authentications. Moreover, we advocate practitioners to leverage the automated mining capability of ChronoCTI and design countermeasures against the recurring attack patterns.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-03T18:53:22Z</published>
+    <arxiv:comment>A modified version of this pre-print is submitted to IEEE Transactions on Software Engineering, and is under review</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Md Rayhanur Rahman</name>
+    </author>
+    <author>
+      <name>Brandon Wroblewski</name>
+    </author>
+    <author>
+      <name>Quinn Matthews</name>
+    </author>
+    <author>
+      <name>Brantley Morgan</name>
+    </author>
+    <author>
+      <name>Tim Menzies</name>
+    </author>
+    <author>
+      <name>Laurie Williams</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.01435v1</id>
+    <title>Fundamental Risks in the Current Deployment of General-Purpose AI Models: What Have We (Not) Learnt From Cybersecurity?</title>
+    <updated>2024-12-19T14:44:41Z</updated>
+    <link href="https://arxiv.org/abs/2501.01435v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.01435v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>General Purpose AI - such as Large Language Models (LLMs) - have seen rapid deployment in a wide range of use cases. Most surprisingly, they have have made their way from plain language models, to chat-bots, all the way to an almost ``operating system''-like status that can control decisions and logic of an application. Tool-use, Microsoft co-pilot/office integration, and OpenAIs Altera are just a few examples of increased autonomy, data access, and execution capabilities. These methods come with a range of cybersecurity challenges. We highlight some of the work we have done in terms of evaluation as well as outline future opportunities and challenges.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-19T14:44:41Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Mario Fritz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.07781v1</id>
+    <title>RedCode: Risky Code Execution and Generation Benchmark for Code Agents</title>
+    <updated>2024-11-12T13:30:06Z</updated>
+    <link href="https://arxiv.org/abs/2411.07781v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.07781v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rapidly increasing capabilities and adoption of code agents for AI-assisted coding, safety concerns, such as generating or executing risky code, have become significant barriers to the real-world deployment of these agents. To provide comprehensive and practical evaluations on the safety of code agents, we propose RedCode, a benchmark for risky code execution and generation: (1) RedCode-Exec provides challenging prompts that could lead to risky code execution, aiming to evaluate code agents' ability to recognize and handle unsafe code. We provide a total of 4,050 risky test cases in Python and Bash tasks with diverse input formats including code snippets and natural text. They covers 25 types of critical vulnerabilities spanning 8 domains (e.g., websites, file systems). We provide Docker environments and design corresponding evaluation metrics to assess their execution results. (2) RedCode-Gen provides 160 prompts with function signatures and docstrings as input to assess whether code agents will follow instructions to generate harmful code or software. Our empirical findings, derived from evaluating three agent frameworks based on 19 LLMs, provide insights into code agents' vulnerabilities. For instance, evaluations on RedCode-Exec show that agents are more likely to reject executing risky operations on the operating system, but are less likely to reject executing technically buggy code, indicating high risks. Risky operations described in natural text lead to a lower rejection rate than those in code format. Additionally, evaluations on RedCode-Gen show that more capable base models and agents with stronger overall coding abilities, such as GPT4, tend to produce more sophisticated and effective harmful software. Our findings highlight the need for stringent safety evaluations for diverse code agents. Our dataset and code are available at https://github.com/AI-secure/RedCode.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-12T13:30:06Z</published>
+    <arxiv:comment>Accepted by NeurIPS 2024 Datasets and Benchmarks Track</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Chengquan Guo</name>
+    </author>
+    <author>
+      <name>Xun Liu</name>
+    </author>
+    <author>
+      <name>Chulin Xie</name>
+    </author>
+    <author>
+      <name>Andy Zhou</name>
+    </author>
+    <author>
+      <name>Yi Zeng</name>
+    </author>
+    <author>
+      <name>Zinan Lin</name>
+    </author>
+    <author>
+      <name>Dawn Song</name>
+    </author>
+    <author>
+      <name>Bo Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.12364v1</id>
+    <title>LogBabylon: A Unified Framework for Cross-Log File Integration and Analysis</title>
+    <updated>2024-12-16T21:36:03Z</updated>
+    <link href="https://arxiv.org/abs/2412.12364v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.12364v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Logs are critical resources that record events, activities, or messages produced by software applications, operating systems, servers, and network devices. However, consolidating the heterogeneous logs and cross-referencing them is challenging and complicated. Manually analyzing the log data is time-consuming and prone to errors. LogBabylon is a centralized log data consolidating solution that leverages Large Language Models (LLMs) integrated with Retrieval-Augmented Generation (RAG) technology. LogBabylon interprets the log data in a human-readable way and adds insight analysis of the system performance and anomaly alerts. It provides a paramount view of the system landscape, enabling proactive management and rapid incident response. LogBabylon consolidates diverse log sources and enhances the extracted information's accuracy and relevancy. This facilitates a deeper understanding of log data, supporting more effective decision-making and operational efficiency. Furthermore, LogBabylon streamlines the log analysis process, significantly reducing the time and effort required to interpret complex datasets. Its capabilities extend to generating context-aware insights, offering an invaluable tool for continuous monitoring, performance optimization, and security assurance in dynamic computing environments.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-16T21:36:03Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Rabimba Karanjai</name>
+    </author>
+    <author>
+      <name>Yang Lu</name>
+    </author>
+    <author>
+      <name>Dana Alsagheer</name>
+    </author>
+    <author>
+      <name>Keshav Kasichainula</name>
+    </author>
+    <author>
+      <name>Lei Xu</name>
+    </author>
+    <author>
+      <name>Weidong Shi</name>
+    </author>
+    <author>
+      <name>Shou-Hsuan Stephen Huang</name>
+    </author>
+    <arxiv:doi>10.1145/3672608.3707883</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3672608.3707883" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.30207v2</id>
+    <title>SIR: Self-improving Red-teaming for Compute Use Agents</title>
+    <updated>2026-10-03T10:41:41Z</updated>
+    <link href="https://arxiv.org/abs/2608.30207v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.30207v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Computer-use agents (CUAs) are agents powered by vision-language models (VLMs) that perceive a screen and operate an operating system through mouse, keyboard, and terminal interactions to automate everyday digital tasks. Their exposure to untrusted content creates a risk of indirect prompt injection (IPI), where an adversary embeds instructions in content the agent reads to redirect it toward actions that violate the user's intent. Evaluations based on fixed, hand-written injections may underestimate the risk posed by adaptive adversaries. We present SIR, a black-box self-improving IPI framework that (i) composes task-specific injections from a small library of reusable red-teaming principles stated in plain language and (ii) uses an iterative feedback loop to analyze unsuccessful attack trajectories and distill new, named principles that are retained in a shared library and reused across tasks. We target operating-system-level compromise and evaluate outcomes through deterministic checks on filesystem, service, and permission state rather than an LLM judge. An attack counts as successful only when both the adversarial objective and the benign user task are completed in the same execution. We evaluate three frontier CUAs, allowing SIR up to 10 attack attempts per case. It achieves joint attack success rates of 24% on Claude Opus 4.8 and 28% on Gemini 3.5 Flash, compared with 4% and 0%, respectively, for the benchmark's fixed, hand-written injection. The red-teaming principles discovered against one victim also improve attacks against other victims, including a different model family, without additional feedback.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-31T03:39:43Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Chen Xiong</name>
+    </author>
+    <author>
+      <name>Zhiyuan He</name>
+    </author>
+    <author>
+      <name>Pin-Yu Chen</name>
+    </author>
+    <author>
+      <name>Stjepan Picek</name>
+    </author>
+    <author>
+      <name>Tsung-Yi Ho</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.17948v2</id>
+    <title>VERIRAG: A Post-Retrieval Auditing of Scientific Study Summaries</title>
+    <updated>2025-12-05T00:40:28Z</updated>
+    <link href="https://arxiv.org/abs/2507.17948v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.17948v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Can democratized information gatekeepers and community note writers effectively decide what scientific information to amplify? Lacking domain expertise, such gatekeepers rely on automated reasoning agents that use RAG to ground evidence to cited sources. But such standard RAG systems validate summaries via semantic grounding and suffer from "methodological blindness," treating all cited evidence as equally valid regardless of rigor. To address this, we introduce VERIRAG, a post-retrieval auditing framework that shifts the task from classification to methodological vulnerability detection. Using private Small Language Models (SLMs), VERIRAG audits source papers against the Veritable taxonomy of statistical rigor. We contribute: (1) a benchmark of 1,730 summaries with realistic, non-obvious perturbations modeled after retracted papers; (2) the auditable Veritable taxonomy; and (3) an operational system that improves Macro F1 by at least 19 points over baselines using GPT-based SLMs, a result that replicates across MISTRAL and Gemma architectures. Given the complexity of detecting non-obvious flaws, we view VERIRAG as a "vulnerability-detection copilot," providing structured audit trails for human editors. In our experiments, individual human testers found over 80% of the generated audit trails useful for decision-making. We plan to release the dataset and code to support responsible science advocacy.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-23T21:32:50Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Shubham Mohole</name>
+    </author>
+    <author>
+      <name>Hongjun Choi</name>
+    </author>
+    <author>
+      <name>Shusen Liu</name>
+    </author>
+    <author>
+      <name>Christine Klymko</name>
+    </author>
+    <author>
+      <name>Shashank Kushwaha</name>
+    </author>
+    <author>
+      <name>Derek Shi</name>
+    </author>
+    <author>
+      <name>Wesam Sakla</name>
+    </author>
+    <author>
+      <name>Sainyam Galhotra</name>
+    </author>
+    <author>
+      <name>Ruben Glatt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.00424v2</id>
+    <title>Skills as Verifiable Artifacts: A Trust Schema and a Biconditional Correctness Criterion for Human-in-the-Loop Agent Runtimes</title>
+    <updated>2026-05-15T07:02:35Z</updated>
+    <link href="https://arxiv.org/abs/2605.00424v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.00424v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agent skills - structured packages of instructions, scripts, and references that augment a large language model (LLM) without modifying the model itself - have moved from convenience to first-class deployment artifact. The runtime that loads them inherits the same problem package managers and operating systems have always faced: a piece of content claims a behavior; the runtime must decide whether to believe it. We argue this paper's central thesis up front: a skill is untrusted code until it is verified, and the runtime that loads it must enforce that default rather than infer trust from a signature, a clearance, or a registry of origin. Without skill verification, a human-in-the-loop (HITL) gate must fire on every irreversible call - which is operationally untenable and degrades into rubber-stamping at any non-trivial scale. With skill verification treated as a separate, gated process, HITL fires only for what is unverified, and the system becomes sustainable. We give a trust schema that includes an explicit verification level on every skill manifest; a capability gate whose HITL policy is a function of that verification level; a biconditional correctness criterion that any candidate verification procedure must satisfy on an adversarial-ensemble exercise; and a portable runtime profile with ten normative guidelines abstracted from a working open-source reference implementation. The contribution is harness- and model-agnostic; nothing here requires retraining, fine-tuning, or proprietary infrastructure.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-01T05:53:05Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Alfredo Metere</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.29115v1</id>
+    <title>unix-ctf: Procedural Environments for Unix-Competence Reinforcement Learning</title>
+    <updated>2026-05-27T21:23:00Z</updated>
+    <link href="https://arxiv.org/abs/2605.29115v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.29115v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unix competence is the ability to use shell and operating-system primitives as first-class tools, not merely to write programs through a terminal. Current terminal benchmarks tend to blur this distinction: a solver fluent in Python but weak in Unix can pass a substantial fraction of Terminal-Bench 2.0, while the reverse skill profile is rarely exercised. We make the distinction operational and build a training surface for the Unix component. unix-ctf is a procedural generator of capture-the-flag tasks for shell agents. Each task hides a short token (a flag of the form flag(a3b1c9...)) inside a fresh Linux container using a single Unix feature, and the agent must recover it. Tasks are produced by an LLM-assisted synthesis pipeline that generates candidate hiding techniques, rewrites them into parameterized hide-and-find script pairs, and filters them with a bidirectional contract: the hide script must leave no plaintext trace of the flag on disk, and the find script must recover the flag in a fresh directory. Because the LLM only writes the planting and recovery steps (the container, layout, and grading harness are fixed), the pipeline lands 656 of 750 raw attempts as portable, reusable variants (87.5\%). Our reproduction of Endless Terminals' full-container-generation approach lands only 17.4\% under the same checks. The 656 variants canonicalize to 155 distinct techniques. Fine-tuning Qwen3-8B with LoRA using GRPO on this surface lifts solve rate from 11.6\% to 43.6\% on a 15-skill multi-family holdout (n=225), redistributes which InterCode-CTF tasks the model solves, and produces a +33 pp gain in Forensics while reaching 32/100 on InterCode-CTF. These results suggest that Unix competence is separable, trainable, and best evaluated directly rather than folded into programming-through-a-shell.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-27T21:23:00Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Geoffrey Bradway</name>
+    </author>
+    <author>
+      <name>Roger Creus Castanyer</name>
+    </author>
+    <author>
+      <name>Lorenz Wolf</name>
+    </author>
+    <author>
+      <name>Maxwill Lin</name>
+    </author>
+    <author>
+      <name>Matthew James Sargent</name>
+    </author>
+    <author>
+      <name>Augustine N. Mavor-Parker</name>
+    </author>
+  </entry>
+</feed>

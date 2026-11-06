@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R04601",
+    "decision": "EXCLUDE",
+    "reason": "Concerns poisoned RAG/LLM answer gating, i.e., security of LLMs rather than OS security analysis.",
+    "evidence": "Poisoned retrieval-augmented generation (RAG)"
+  },
+  {
+    "id": "R04602",
+    "decision": "EXCLUDE",
+    "reason": "General LLM unit-test generation and evaluation; no security task or OS target.",
+    "evidence": "BenjiTest: An Agentic Framework for Evaluating LLM-Based Unit Test Generation and Correction"
+  },
+  {
+    "id": "R04603",
+    "decision": "EXCLUDE",
+    "reason": "General LLM unit-test generation and evaluation; no security task or OS target.",
+    "evidence": "BenjiTest: An Agentic Framework for Evaluating LLM-Based Unit Test Generation and Correction"
+  },
+  {
+    "id": "R04604",
+    "decision": "EXCLUDE",
+    "reason": "Title indicates general LLM test-generation failure modes; no security or OS focus; abstract missing.",
+    "evidence": "Failure Modes of Standalone LLM-Based Test Generation"
+  },
+  {
+    "id": "R04605",
+    "decision": "UNCLEAR",
+    "reason": "Security verification and LLM role are explicit, but the missing abstract leaves the hardware target's OS/privileged scope uncertain.",
+    "evidence": "LLM-guided Threat Modeling and Test Plan Generation for Hardware Security Verification"
+  },
+  {
+    "id": "R04606",
+    "decision": "EXCLUDE",
+    "reason": "General LLM test-case generation; no security task or OS target.",
+    "evidence": "TriGen: A Semantic-Feedback Collaborative LLM Test Case Generation Model"
+  },
+  {
+    "id": "R04607",
+    "decision": "EXCLUDE",
+    "reason": "General LLM unit-test generation and evaluation; no security task or OS target.",
+    "evidence": "BenjiTest: An Agentic Framework for Evaluating LLM-Based Unit Test Generation and Correction"
+  },
+  {
+    "id": "R04608",
+    "decision": "EXCLUDE",
+    "reason": "General BDD-based LLM test generation; no security task or OS target.",
+    "evidence": "Automated Test Generation Using LLM Based on BDD: A Comparative Study"
+  },
+  {
+    "id": "R04609",
+    "decision": "EXCLUDE",
+    "reason": "Conformance test and oracle generation; title indicates no LLM role or security/OS target.",
+    "evidence": "Automatic Test Case and Test Oracle Generation Based on Functional Scenarios in Formal Specifications for Conformance Testing"
+  },
+  {
+    "id": "R04610",
+    "decision": "EXCLUDE",
+    "reason": "General comparison of manual and LLM unit-test generation; no security task or OS target.",
+    "evidence": "Comparative Analysis of the Efficiency of Generation of Unit Test Cases: Manual Methods Versus Automation with Llm"
+  },
+  {
+    "id": "R04611",
+    "decision": "EXCLUDE",
+    "reason": "General REST API system-test generation; no security task or OS target.",
+    "evidence": "From Requirements to Executable Tests: LLM-Based System Test Generation for REST APIs"
+  },
+  {
+    "id": "R04612",
+    "decision": "EXCLUDE",
+    "reason": "General LLM-based test generation; no security task or OS target.",
+    "evidence": "Beyond Input Maturity: Evolving LLM-Based Test Generation"
+  },
+  {
+    "id": "R04613",
+    "decision": "EXCLUDE",
+    "reason": "Hardware RTL code generation using LLMs; no security task or OS target.",
+    "evidence": "LLM vs HLS for RTL Code Generation: Friend or Foe?"
+  },
+  {
+    "id": "R04614",
+    "decision": "EXCLUDE",
+    "reason": "Confidentiality in test-data generation is not security analysis of OS components.",
+    "evidence": "Navigating Confidentiality in Test Automation: A Case Study in LLM Driven Test Data Generation"
+  },
+  {
+    "id": "R04615",
+    "decision": "EXCLUDE",
+    "reason": "Comparison of unit-test generation methods; no security task or OS target.",
+    "evidence": "Test Wars: A Comparative Study of SBST, Symbolic Execution, and LLM-Based Approaches to Unit Test Generation"
+  },
+  {
+    "id": "R04616",
+    "decision": "EXCLUDE",
+    "reason": "General LLM patch generation and correctness assessment; no security task or OS target.",
+    "evidence": "Oracle-Free Assessment of LLM-Generated Patches for GitHub Issues"
+  },
+  {
+    "id": "R04617",
+    "decision": "EXCLUDE",
+    "reason": "CIS remediation targets Oracle databases, not OS components or privileged interfaces; abstract missing.",
+    "evidence": "CIS Benchmark Compliance on Oracle Multitenant Databases"
+  },
+  {
+    "id": "R04618",
+    "decision": "EXCLUDE",
+    "reason": "Benchmarking general LLM test-case generation; no security task or OS target.",
+    "evidence": "TestForge: Benchmarking LLM-Based Test Case Generation"
+  },
+  {
+    "id": "R04619",
+    "decision": "EXCLUDE",
+    "reason": "General structured software test-case generation; no security task or OS target.",
+    "evidence": "A retrieval-augmented LoRA-Tuned LLM framework for structured software test case generation"
+  },
+  {
+    "id": "R04620",
+    "decision": "EXCLUDE",
+    "reason": "General coverage-oriented automated test generation; no security task or OS target.",
+    "evidence": "MAST: LLM-Guided Multi-Path Analysis and Solver-Driven Synthesis for Automated Test Generation"
+  },
+  {
+    "id": "R04621",
+    "decision": "EXCLUDE",
+    "reason": "General evolutionary test generation for untyped languages; no security task or OS target.",
+    "evidence": "LLM-enhanced evolutionary test generation for untyped languages"
+  },
+  {
+    "id": "R04622",
+    "decision": "EXCLUDE",
+    "reason": "Exam practice material, not original research on LLM security analysis of OS components.",
+    "evidence": "Oracle 1Z0-1060-26 Practice Test Questions with PDF"
+  },
+  {
+    "id": "R04623",
+    "decision": "EXCLUDE",
+    "reason": "General neural test-oracle generation evaluation; no security task or OS target.",
+    "evidence": "Towards More Realistic Evaluation for Neural Test Oracle Generation"
+  },
+  {
+    "id": "R04624",
+    "decision": "EXCLUDE",
+    "reason": "General LLM test generation with role-specialized agents; no security task or OS target.",
+    "evidence": "MAGISTER: LLM-Based Test Generation with Role-Specialized Agents"
+  },
+  {
+    "id": "R04625",
+    "decision": "EXCLUDE",
+    "reason": "Educational test-question generation, not software or OS security testing.",
+    "evidence": "TwinStar: A Novel Design for Enhanced Test Question Generation Using Dual-LLM Engine"
+  },
+  {
+    "id": "R04626",
+    "decision": "EXCLUDE",
+    "reason": "Logical-flaw detection for autonomous driving; no explicit security analysis or OS target.",
+    "evidence": "Facilitating Logical Flaw Detection for Autonomous Driving Systems Through LLM-Empowered Oracle Generation"
+  },
+  {
+    "id": "R04627",
+    "decision": "EXCLUDE",
+    "reason": "General static test-oracle generation for REST APIs; no security task or OS target.",
+    "evidence": "SATORI: Static Test Oracle Generation for REST APIs"
+  },
+  {
+    "id": "R04628",
+    "decision": "EXCLUDE",
+    "reason": "Exam preparation guide, not original research on LLM security analysis of OS components.",
+    "evidence": "How to test high availability Oracle 1Z0-590 exam"
+  },
+  {
+    "id": "R04629",
+    "decision": "EXCLUDE",
+    "reason": "General TDD and LLM code generation; no security task or OS target.",
+    "evidence": "Test-Driven Development and LLM-based Code Generation"
+  },
+  {
+    "id": "R04630",
+    "decision": "EXCLUDE",
+    "reason": "General test-case minimization for LLM code generation; no security task or OS target.",
+    "evidence": "Quantum-Guided Test Case Minimization for LLM-Based Code Generation"
+  },
+  {
+    "id": "R04631",
+    "decision": "EXCLUDE",
+    "reason": "General frontend component unit-test generation; no security task or OS target.",
+    "evidence": "LLM-Based Unit Test Cases Generation for React, Vue, and Angular Components"
+  },
+  {
+    "id": "R04632",
+    "decision": "EXCLUDE",
+    "reason": "Price-oracle manipulation detection is blockchain/DeFi security, not OS component security.",
+    "evidence": "Automated Detection of Price Oracle Manipulations via LLM-Driven Knowledge Mining and Prompt Generation"
+  },
+  {
+    "id": "R04633",
+    "decision": "EXCLUDE",
+    "reason": "General test-oracle generation improvement; no security task or OS target.",
+    "evidence": "Escaping the Self-Repair Trap: Improving Test Oracle Generation via Dual-Context Awareness"
+  },
+  {
+    "id": "R04634",
+    "decision": "EXCLUDE",
+    "reason": "Test-oracle automation for industrial elevators, not OS components or security analysis.",
+    "evidence": "Automating Test Oracle Generation in DevOps for Industrial Elevators"
+  },
+  {
+    "id": "R04635",
+    "decision": "EXCLUDE",
+    "reason": "General Python unit-test generation and coverage improvement; no security task or OS target.",
+    "evidence": "LLM Driven Unit Test Case Generation Using Agentic AI"
+  },
+  {
+    "id": "R04636",
+    "decision": "EXCLUDE",
+    "reason": "Data-poisoning mitigation in LLM fine-tuning is security of LLMs, not OS security analysis.",
+    "evidence": "SafeTune: Mitigating Data Poisoning in LLM Fine-Tuning for RTL Code Generation"
+  },
+  {
+    "id": "R04637",
+    "decision": "EXCLUDE",
+    "reason": "General end-to-end web-application test generation; no security task or OS target.",
+    "evidence": "Intent Based E2E Automated Test Case Generation for Web Applications Using LLM"
+  },
+  {
+    "id": "R04638",
+    "decision": "EXCLUDE",
+    "reason": "General LLM test generation via program analysis; no security task or OS target.",
+    "evidence": "LLM Test Generation via Iterative Hybrid Program Analysis"
+  },
+  {
+    "id": "R04639",
+    "decision": "EXCLUDE",
+    "reason": "Compiler validation test generation; no security outcome or OS target.",
+    "evidence": "GrammLLM: Grammar-Guided LLM Test Generation for Compiler Validation"
+  },
+  {
+    "id": "R04640",
+    "decision": "EXCLUDE",
+    "reason": "General specification-based test-case generation; no security task or OS target.",
+    "evidence": "Automatic Test Case Generation Method by Structuring Specification Documents Using LLM"
+  }
+]

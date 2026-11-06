@@ -1,0 +1,18 @@
+{
+  "records": 197,
+  "raw": {
+    "possible_core": 77,
+    "unclear": 77,
+    "adjacent": 43
+  },
+  "conservative": {
+    "possible_core": 53,
+    "unclear": 113,
+    "adjacent": 31
+  },
+  "evidence_exact": {
+    "true": 141,
+    "false": 56
+  },
+  "status": "all require independent final eligibility review; model agreement is not accuracy"
+}

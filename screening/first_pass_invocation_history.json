@@ -1,0 +1,20 @@
+[
+  {
+    "invocation": "initial_attempts_01_02",
+    "attempt_metadata_count": 163,
+    "first_start_utc": "2026-11-05T07:55:01.527568+00:00",
+    "last_end_utc": "2026-11-05T08:05:58.587551+00:00",
+    "configured_workers": 16,
+    "worker_count_basis": "observed command invocation; not inferred from timestamps",
+    "note": "time range from saved attempt metadata; attempts within each range may overlap"
+  },
+  {
+    "invocation": "retry_attempts_03_plus",
+    "attempt_metadata_count": 2,
+    "first_start_utc": "2026-11-05T08:07:48.411917+00:00",
+    "last_end_utc": "2026-11-05T08:08:46.368467+00:00",
+    "configured_workers": 2,
+    "worker_count_basis": "observed command invocation; not inferred from timestamps",
+    "note": "time range from saved attempt metadata; attempts within each range may overlap"
+  }
+]

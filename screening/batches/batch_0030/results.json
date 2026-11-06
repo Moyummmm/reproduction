@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01201",
+    "decision": "UNCLEAR",
+    "reason": "Kernel exploitability security topic, but the title gives no LLM role and the abstract is missing.",
+    "evidence": "KBEE: Linux Kernel Vulnerability Exploitability Exploration"
+  },
+  {
+    "id": "R01202",
+    "decision": "UNCLEAR",
+    "reason": "Kernel USB threat detection could be relevant, but no LLM role is stated and the abstract is missing.",
+    "evidence": "A Linux Kernel USB Proxy With Integrated Threat Detection"
+  },
+  {
+    "id": "R01203",
+    "decision": "EXCLUDE",
+    "reason": "Uses an LSTM model for kernel ransomware detection, not an LLM.",
+    "evidence": "The proposed approach involves the deployment of an LSTM model capable of analyzing system call sequences in realtime"
+  },
+  {
+    "id": "R01204",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Title explicitly presents an LLM-powered approach for Linux kernel exploit primitive assessment.",
+    "evidence": "Exp-Arch: A Novel LLM-Powered Approach for Facilitating Exploit Primitive Assessment in the Linux Kernel"
+  },
+  {
+    "id": "R01205",
+    "decision": "UNCLEAR",
+    "reason": "Linux binary vulnerability detection is potentially relevant, but LLM use and OS-component scope are unspecified with no abstract.",
+    "evidence": "BinAIV: Semantic-enhanced vulnerability detection for Linux x86 binaries"
+  },
+  {
+    "id": "R01206",
+    "decision": "EXCLUDE",
+    "reason": "Automated static firmware analysis is named, with no LLM role, and the item is an extended abstract.",
+    "evidence": "Towards Reliable and Scalable Linux Kernel CVE Attribution in Automated Static Firmware Analyses"
+  },
+  {
+    "id": "R01207",
+    "decision": "EXCLUDE",
+    "reason": "The proposed approach is post-quantum cryptography for a kernel IDS module, not an LLM.",
+    "evidence": "Post-Quantum Cryptographic Approach for Linux Kernel Module Used in Intrusion Detection System"
+  },
+  {
+    "id": "R01208",
+    "decision": "EXCLUDE",
+    "reason": "Kernel anomaly detection uses AI/deep learning, but no LLM is identified.",
+    "evidence": "An AI-driven anomaly detection framework that integrates with live kernel-level protection methods addresses existing limitations."
+  },
+  {
+    "id": "R01209",
+    "decision": "EXCLUDE",
+    "reason": "Empirical kernel vulnerability-commit study uses non-LLM methods and has no LLM role.",
+    "evidence": "we conduct the first empirical study on the Kernel Vulnerability Inducing Commits (KVIC)"
+  },
+  {
+    "id": "R01210",
+    "decision": "EXCLUDE",
+    "reason": "Kernel runtime defense is eBPF/PPO-based; no LLM role is described.",
+    "evidence": "An eBPF sensor scores process behaviour and enforces five graded containment levels"
+  },
+  {
+    "id": "R01211",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-generated patch analysis supports Linux kernel stable-patch classification in vulnerability management.",
+    "evidence": "Patch analysis leverages Large Language Models (LLMs) to generate detailed patch descriptions from the commit message and code changes"
+  },
+  {
+    "id": "R01212",
+    "decision": "EXCLUDE",
+    "reason": "Kernel intrusion detection uses eBPF and a Random Forest classifier, not an LLM.",
+    "evidence": "The proposed approach adopts behavior-based detection using contextual runtime features and a Random Forest classifier for runtime classification."
+  },
+  {
+    "id": "R01213",
+    "decision": "UNCLEAR",
+    "reason": "A vulnerability-detection dataset for embedded Linux is potentially relevant, but method/LLM use and target scope are unspecified with no abstract.",
+    "evidence": "Mining Large Data to Create a Balanced Vulnerability Detection Dataset for Embedded Linux System"
+  },
+  {
+    "id": "R01214",
+    "decision": "EXCLUDE",
+    "reason": "Compares LLM inference performance across operating systems; no security task is involved.",
+    "evidence": "LLM INFERENCE PERFORMANCE ANALYSIS ACROSS WINDOWS, WINDOWS SUBSYSTEM FOR LINUX 2 AND NATIVE LINUX"
+  },
+  {
+    "id": "R01215",
+    "decision": "EXCLUDE",
+    "reason": "Service-aware grey-box fuzzing is the named method, with no LLM role.",
+    "evidence": "HouseFuzz: Service-Aware Grey-Box Fuzzing for Vulnerability Detection in Linux-Based Firmware"
+  },
+  {
+    "id": "R01216",
+    "decision": "EXCLUDE",
+    "reason": "This is a survey of Linux IoT vulnerability detection and therefore excluded from the core empirical set.",
+    "evidence": "A comprehensive survey of vulnerability detection method towards Linux-based IoT devices"
+  },
+  {
+    "id": "R01217",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates LLM agents for Linux server management, not a security analysis or protection task.",
+    "evidence": "Managing Linux Servers with Llm-Based Ai Agents: An Empirical Evaluation with Gpt4"
+  },
+  {
+    "id": "R01218",
+    "decision": "UNCLEAR",
+    "reason": "Kernel bug exploitability assessment is potentially relevant, but no LLM role is stated and the abstract is missing.",
+    "evidence": "SyzBridge: Bridging the Gap in Exploitability Assessment of Linux Kernel Bugs in the Linux Ecosystem"
+  },
+  {
+    "id": "R01219",
+    "decision": "EXCLUDE",
+    "reason": "eBPF-based kernel intrusion detection is named, with no LLM role.",
+    "evidence": "Design and implementation of an intrusion detection system by using Extended BPF in the Linux kernel"
+  },
+  {
+    "id": "R01220",
+    "decision": "UNCLEAR",
+    "reason": "Linux kernel rootkit detection/removal is potentially relevant, but method and LLM role are unspecified with no abstract.",
+    "evidence": "Como Detectar e Remover Linux Kernel Rootkits"
+  },
+  {
+    "id": "R01221",
+    "decision": "EXCLUDE",
+    "reason": "Overview of the Linux kernel with no original research, security task, or LLM role.",
+    "evidence": "OVERVIEW OF THE LINUX KERNEL AND ITS ROLE IN MODERN INFORMATION SYSTEMS"
+  },
+  {
+    "id": "R01222",
+    "decision": "EXCLUDE",
+    "reason": "Visualization of kernel subsystems; no security outcome or LLM use.",
+    "evidence": "Interactive 3D Graph Visualization of Linux Kernel Subsystems"
+  },
+  {
+    "id": "R01223",
+    "decision": "UNCLEAR",
+    "reason": "Incremental kernel UBI-bug detection is potentially relevant, but the method and LLM role are unspecified with no abstract.",
+    "evidence": "Progressive Scrutiny: Incremental Detection of UBI bugs in the Linux Kernel"
+  },
+  {
+    "id": "R01224",
+    "decision": "EXCLUDE",
+    "reason": "CDN/reverse-proxy deployment on Linux has no security task or LLM use.",
+    "evidence": "Membangun Content Delivery Network (CDN) menggunakan Reverse Proxy dan Caching berbasis Linux"
+  },
+  {
+    "id": "R01225",
+    "decision": "UNCLEAR",
+    "reason": "Kernel malware detection/prevention framework could be relevant, but LLM use is not stated and the abstract is missing.",
+    "evidence": "Linux Kernel Module Security Framework for Real-Time Malware Detection and Prevention Compared to Traditional Security Approaches"
+  },
+  {
+    "id": "R01226",
+    "decision": "EXCLUDE",
+    "reason": "Kernel contributor-network visualization; no security task or LLM use.",
+    "evidence": "Visualizing Linux Kernel Contributor Networks in Java"
+  },
+  {
+    "id": "R01227",
+    "decision": "EXCLUDE",
+    "reason": "Cache side-channel kernel heap exploitation is named, with no LLM role.",
+    "evidence": "HEAP LOCALIZATION: Cache Side-Channel Based Linux Kernel Heap Exploit Techniques"
+  },
+  {
+    "id": "R01228",
+    "decision": "EXCLUDE",
+    "reason": "MSFVenom-based Linux/ARM exploit design; no LLM role is described.",
+    "evidence": "This article presents the in-depth analysis and new critical characteristics of the MSFVenom software for penetration testing of Linux/ARM architecture systems."
+  },
+  {
+    "id": "R01229",
+    "decision": "EXCLUDE",
+    "reason": "Duplicate MSFVenom Linux/ARM exploit-design paper; no LLM role is described.",
+    "evidence": "This article presents the in-depth analysis and new critical characteristics of the MSFVenom software for penetration testing of Linux/ARM architecture systems."
+  },
+  {
+    "id": "R01230",
+    "decision": "EXCLUDE",
+    "reason": "Kernel latency optimization; no security task or LLM use.",
+    "evidence": "Optimizing the Linux Kernel: Strategies for Reducing OS-Induced Latency"
+  },
+  {
+    "id": "R01231",
+    "decision": "EXCLUDE",
+    "reason": "Formal verification of Linux kernel design uses type theory, not an LLM.",
+    "evidence": "a formal method based on type theory that ensures the correct design of the Linux architecture"
+  },
+  {
+    "id": "R01232",
+    "decision": "EXCLUDE",
+    "reason": "Visual explanation of the Linux kernel; no security task or LLM use.",
+    "evidence": "Understanding the Linux Kernel, Visually"
+  },
+  {
+    "id": "R01233",
+    "decision": "EXCLUDE",
+    "reason": "eBPF runtime defense against kernel privilege escalation, with no LLM role.",
+    "evidence": "KSHIELD: An eBPF Runtime Defence Framework for Linux Kernel Privilege Escalation Attacks"
+  },
+  {
+    "id": "R01234",
+    "decision": "EXCLUDE",
+    "reason": "Rust kernel module development; no security task or LLM use.",
+    "evidence": "Linux Kernel Module Development with Rust"
+  },
+  {
+    "id": "R01235",
+    "decision": "EXCLUDE",
+    "reason": "SSD wear-out-aware kernel modification; no security task or LLM use.",
+    "evidence": "A STUDY ON LINUX KERNEL MODIFICATION FOR PERFORMANCE IMPROVEMENT OF SSD WEAR-OUT-AWARE SYSTEM"
+  },
+  {
+    "id": "R01236",
+    "decision": "EXCLUDE",
+    "reason": "Comparative analysis of Linux kernel tools for DDoS/SYN-flood detection; no LLM role.",
+    "evidence": "Analysis of Linux kernel tools for detecting DDOS and SYN flood attacks"
+  },
+  {
+    "id": "R01237",
+    "decision": "EXCLUDE",
+    "reason": "ERACE uses dynamic/static analysis and taint analysis for kernel race exploit generation, not an LLM.",
+    "evidence": "ERACE first applies a combination of dynamic and static analysis techniques to locate the instruction that causes the race"
+  },
+  {
+    "id": "R01238",
+    "decision": "UNCLEAR",
+    "reason": "Kernel security/patching topic is potentially relevant, but the method and LLM role are unspecified with no abstract.",
+    "evidence": "Patch Me If You Can—Securing the Linux Kernel"
+  },
+  {
+    "id": "R01239",
+    "decision": "UNCLEAR",
+    "reason": "Linux kernel arbitrary-write/exploit construction is potentially relevant, but no LLM role is stated and the abstract is missing.",
+    "evidence": "Constructing Arbitrary Write Via Puppet Objects and Delivering Gadgets in Linux Kernel"
+  },
+  {
+    "id": "R01240",
+    "decision": "EXCLUDE",
+    "reason": "Linux kernel load balancing with IPVS; no security task or LLM use.",
+    "evidence": "Linux Kernel Load Balancing with IPVS for Modern Distributed Systems"
+  }
+]

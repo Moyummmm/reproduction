@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03921",
+    "decision": "EXCLUDE",
+    "reason": "Security task targets smart contracts, not OS components or privileged interfaces.",
+    "evidence": "Smart Contract Vulnerabilities with Large Language Model Agents"
+  },
+  {
+    "id": "R03922",
+    "decision": "EXCLUDE",
+    "reason": "LLM clusters documents for threat-intelligence extraction; no OS-component or privileged-interface target.",
+    "evidence": "Document Clustering"
+  },
+  {
+    "id": "R03923",
+    "decision": "EXCLUDE",
+    "reason": "Review of risks across LLM research and development, not original OS security analysis.",
+    "evidence": "this review summarises the actual risks"
+  },
+  {
+    "id": "R03924",
+    "decision": "EXCLUDE",
+    "reason": "Clinical triage training model; outside security and OS scope.",
+    "evidence": "triage training program"
+  },
+  {
+    "id": "R03925",
+    "decision": "EXCLUDE",
+    "reason": "Focused review of LLM agents for statistical data analysis, not security or OS.",
+    "evidence": "focused review of recent advances in tool-augmented LLM agents"
+  },
+  {
+    "id": "R03926",
+    "decision": "UNCLEAR",
+    "reason": "Title indicates LLM use for software security analysis, but missing abstract leaves OS target and scope uncertain.",
+    "evidence": "Large Language Models (LLMs) for Software Security Analysis"
+  },
+  {
+    "id": "R03927",
+    "decision": "EXCLUDE",
+    "reason": "Sentiment-analysis architecture; no security or OS-component analysis.",
+    "evidence": "Transforming Sentiment Analysis"
+  },
+  {
+    "id": "R03928",
+    "decision": "EXCLUDE",
+    "reason": "Review of jailbreak security of LLMs; not OS-targeted empirical security research.",
+    "evidence": "Unleashing Jailbreak Prompts on LLMs"
+  },
+  {
+    "id": "R03929",
+    "decision": "EXCLUDE",
+    "reason": "ML/NLP classification of survey papers; no security analysis or OS target.",
+    "evidence": "classify academic survey papers into predefined taxonomy categories"
+  },
+  {
+    "id": "R03930",
+    "decision": "EXCLUDE",
+    "reason": "Review of LLM jailbreak security; not OS-targeted empirical research.",
+    "evidence": "Unleashing Jailbreak Prompts on LLMs"
+  },
+  {
+    "id": "R03931",
+    "decision": "EXCLUDE",
+    "reason": "Model capability overview; no security task or OS target.",
+    "evidence": "Llama 3.1 405B, the first open model with 405 billion parameters"
+  },
+  {
+    "id": "R03932",
+    "decision": "EXCLUDE",
+    "reason": "LLM analyzes scientific hypotheses and evidence; outside security and OS scope.",
+    "evidence": "Automated Scientific Hypothesis and Evidence Analysis"
+  },
+  {
+    "id": "R03933",
+    "decision": "EXCLUDE",
+    "reason": "Sanskrit morphological analysis comparison; no security task or OS target.",
+    "evidence": "Sanskrit Morphological Analysis"
+  },
+  {
+    "id": "R03934",
+    "decision": "EXCLUDE",
+    "reason": "Decision letter about a jailbreak-security paper, not original empirical research.",
+    "evidence": "Decision letter for"
+  },
+  {
+    "id": "R03935",
+    "decision": "EXCLUDE",
+    "reason": "Security of the LLM supply chain, not LLM use against OS components.",
+    "evidence": "Large Language Model Supply Chain: Open Problems From the Security Perspective"
+  },
+  {
+    "id": "R03936",
+    "decision": "EXCLUDE",
+    "reason": "Honeypot/network intrusion detection; no OS-component or privileged-interface target.",
+    "evidence": "analyzed by LLMs that classify attack types"
+  },
+  {
+    "id": "R03937",
+    "decision": "EXCLUDE",
+    "reason": "Decision letter, not original security research.",
+    "evidence": "Decision letter for"
+  },
+  {
+    "id": "R03938",
+    "decision": "EXCLUDE",
+    "reason": "Decision letter, not original security research.",
+    "evidence": "Decision letter for"
+  },
+  {
+    "id": "R03939",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted development of scientific FEA software; no security task or OS target.",
+    "evidence": "developing verified scientific software"
+  },
+  {
+    "id": "R03940",
+    "decision": "EXCLUDE",
+    "reason": "Analysis of LLM pretraining and fine-tuning; no security task or OS target.",
+    "evidence": "pretraining and fine-tuning in large language models"
+  },
+  {
+    "id": "R03941",
+    "decision": "EXCLUDE",
+    "reason": "LLM-generated user personas; outside security and OS scope.",
+    "evidence": "Creating User Personas"
+  },
+  {
+    "id": "R03942",
+    "decision": "EXCLUDE",
+    "reason": "LLM agents for finite element analysis; no security task or OS target.",
+    "evidence": "Optimizing Collaboration of Large Language Model-Based Agents for Finite Element Analysis"
+  },
+  {
+    "id": "R03943",
+    "decision": "EXCLUDE",
+    "reason": "Psychometric correlation prediction; no security task or OS target.",
+    "evidence": "Predict Test Item Correlations"
+  },
+  {
+    "id": "R03944",
+    "decision": "UNCLEAR",
+    "reason": "Title-only malware-analysis candidate; OS target, security outcome, and evaluation scope are not stated.",
+    "evidence": "PE2Prompt: A Large Language Model-Native Framework for Interpretable Static Malware Analysis"
+  },
+  {
+    "id": "R03945",
+    "decision": "EXCLUDE",
+    "reason": "Layer-wise capability analysis of LLMs; no security task or OS target.",
+    "evidence": "Layer-Wise Analysis Reveals Universal Discrete Emergence"
+  },
+  {
+    "id": "R03946",
+    "decision": "EXCLUDE",
+    "reason": "LLM tools for psychological text analysis; outside security and OS scope.",
+    "evidence": "Tools for Psychological Text Analysis"
+  },
+  {
+    "id": "R03947",
+    "decision": "EXCLUDE",
+    "reason": "Building-control program synthesis; no security task or OS target.",
+    "evidence": "Comparison between program synthesis with large language models and model predictive control for buildings optimal operation"
+  },
+  {
+    "id": "R03948",
+    "decision": "EXCLUDE",
+    "reason": "LLM decision-analysis workflow for influence diagrams; no security task or OS target.",
+    "evidence": "Large Language Model as Decision Analyst"
+  },
+  {
+    "id": "R03949",
+    "decision": "EXCLUDE",
+    "reason": "Introduction to LLM fundamentals; no original security analysis or OS target.",
+    "evidence": "Introduction to Large Language Model: Fundamentals, Issues, and Challenges"
+  },
+  {
+    "id": "R03950",
+    "decision": "EXCLUDE",
+    "reason": "ML/NLP classification of survey papers; no security analysis or OS target.",
+    "evidence": "Automated Classification and Trend Analysis of Large Language Model Survey Papers"
+  },
+  {
+    "id": "R03951",
+    "decision": "UNCLEAR",
+    "reason": "Title-only program-analysis study; security outcome and OS target are not stated.",
+    "evidence": "Distributional Program Analysis: Treating Large Language Models as Program Samplers"
+  },
+  {
+    "id": "R03952",
+    "decision": "EXCLUDE",
+    "reason": "BLEU metric validity experiment across LLM use cases; no security or OS analysis.",
+    "evidence": "BLEU Score Validity Across Large Language Model Use Cases"
+  },
+  {
+    "id": "R03953",
+    "decision": "EXCLUDE",
+    "reason": "Review/tutorial on LLM text analysis for behavioral scientists; outside scope.",
+    "evidence": "A Tutorial on Large-Language-Model-Based Text Analysis for Behavioral Scientists"
+  },
+  {
+    "id": "R03954",
+    "decision": "EXCLUDE",
+    "reason": "LLM applications to public-data processing and governance; no OS-targeted security analysis.",
+    "evidence": "public data development and utilization"
+  },
+  {
+    "id": "R03955",
+    "decision": "EXCLUDE",
+    "reason": "LLM drift probing framework; no security task or OS target.",
+    "evidence": "Linear-Algebraic Framework for Deep Analysis of Large-Language-Model Drift"
+  },
+  {
+    "id": "R03956",
+    "decision": "EXCLUDE",
+    "reason": "Ontological analysis of LLM interaction illusions; no security task or OS target.",
+    "evidence": "The Triple Illusion Architecture"
+  },
+  {
+    "id": "R03957",
+    "decision": "EXCLUDE",
+    "reason": "LLM agents for autonomous finite element analysis; no security task or OS target.",
+    "evidence": "Autonomous Finite Element Analysis"
+  },
+  {
+    "id": "R03958",
+    "decision": "EXCLUDE",
+    "reason": "Review/tutorial on LLM text analysis for behavioral scientists; outside scope.",
+    "evidence": "A Tutorial on Large-Language-Model-Based Text Analysis for Behavioral Scientists"
+  },
+  {
+    "id": "R03959",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted biodiversity frame analysis in corporate discourse; outside security and OS scope.",
+    "evidence": "The Evolution of Biodiversity in Corporate Discourse"
+  },
+  {
+    "id": "R03960",
+    "decision": "EXCLUDE",
+    "reason": "LLM error classification for fraction computation; outside security and OS scope.",
+    "evidence": "Automated Error Classification and Analysis of Fraction Computation"
+  }
+]

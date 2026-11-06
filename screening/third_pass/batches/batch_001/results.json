@@ -1,0 +1,182 @@
+[
+  {
+    "id": "R01063",
+    "os_target": "Linux kernel",
+    "llm_role": "LLM integrated with static analysis to support bug-specific modeling and analysis of a large codebase",
+    "security_task": "Use-before-initialization (UBI) bug detection in the Linux kernel; the abstract does not explicitly frame this as security work",
+    "evidence": "In this paper, we present LLift, a pioneering framework that synergizes static analysis and LLMs, with a spotlight on identifying use-before-initialization (UBI) bugs within the Linux kernel.",
+    "suggested": "unclear",
+    "uncertainty": "The abstract establishes kernel bug detection but not an explicit security task; this could be possible_core if UBI detection is counted as security-relevant."
+  },
+  {
+    "id": "R01084",
+    "os_target": "Linux kernel",
+    "llm_role": "LLM-based semantic reasoning to identify critical variables, interpret security-check semantics, and support missing-check detection",
+    "security_task": "Detection of missing security-check bugs in the Linux kernel",
+    "evidence": "we present LLMSA-MC, a framework that combines static analysis with LLM-based semantic reasoning for missing-check bug detection.",
+    "suggested": "possible_core",
+    "uncertainty": "The abstract does not identify the specific LLM or the exact division of labor between static analysis and LLM reasoning."
+  },
+  {
+    "id": "R01211",
+    "os_target": "Linux kernel stable/LTS versions 5.10 and 6.6",
+    "llm_role": "LLM generates detailed patch descriptions from commit messages and code changes; a separate pre-trained language model performs classification",
+    "security_task": "Stable patch classification for Linux kernel vulnerability management, predicting which patches merge into which LTS versions",
+    "evidence": "Stable patch classification plays a crucial role in vulnerability management for the Linux kernel, significantly contributing to the stability and security of Long-term support (LTS) versions. Patch analysis leverages Large Language Models (LLMs) to generate detailed patch descriptions from the commit message and code changes, thereby deepening the model’s semantic understanding of patches.",
+    "suggested": "possible_core",
+    "uncertainty": "The security link is vulnerability management; the paper predicts merge status rather than directly detecting vulnerabilities."
+  },
+  {
+    "id": "R01289",
+    "os_target": "Kali Linux environment",
+    "llm_role": "GPT-4.1 integrated through ShellGPT to analyze scan results, compose payloads, and create scripts across penetration-testing stages",
+    "security_task": "Penetration testing of the VulnHub PumpkinFestival machine",
+    "evidence": "GPT-4.1 is integrated into the Kali Linux environment through the ShellGPT tool. The results show that GPT-4.1 can significantly accelerate all stages of the pentest, from reconnaissance to exploitation.",
+    "suggested": "possible_core",
+    "uncertainty": "Kali Linux is the operating environment and ShellGPT the interface; no specific OS component or privilege level is identified."
+  },
+  {
+    "id": "R01301",
+    "os_target": "unknown",
+    "llm_role": "Claude Code agent generates and executes R scripts for psychometric model fitting, comparison, and report generation",
+    "security_task": "unknown",
+    "evidence": "a single terminal command triggers a Claude Code agent that generates and executes R scripts",
+    "suggested": "unclear",
+    "uncertainty": "The work is clinical psychometrics; no OS component or security task is described."
+  },
+  {
+    "id": "R01303",
+    "os_target": "unknown",
+    "llm_role": "Claude Code agent generates and executes R scripts for psychometric model fitting, comparison, and report generation",
+    "security_task": "unknown",
+    "evidence": "a single terminal command triggers a Claude Code agent that generates and executes R scripts",
+    "suggested": "unclear",
+    "uncertainty": "The work is clinical psychometrics; no OS component or security task is described."
+  },
+  {
+    "id": "R01465",
+    "os_target": "unknown",
+    "llm_role": "GPT-based model classifies lung sounds and segments wheezes and crackles",
+    "security_task": "unknown",
+    "evidence": "This study introduces Lung-GPT, a Generative Pre-Trained Transformer (GPT)-based model designed to analyze lung sounds collected from digital stethoscopes.",
+    "suggested": "unclear",
+    "uncertainty": "Medical audio analysis; no OS or security element is established."
+  },
+  {
+    "id": "R01630",
+    "os_target": "IoT device firmware binaries",
+    "llm_role": "Prompt-based LLM agent analyzes decompiled pseudo-code chunks, assigns CWE IDs, and suggests mitigations",
+    "security_task": "IoT firmware vulnerability detection",
+    "evidence": "This research presents an innovative pipeline which integrates advanced tools like EMBA and Ghidra with a prompt-based Large Language Model (LLM) to enhance firmware vulnerability detection especially in dealing with black-box type of systems.",
+    "suggested": "possible_core",
+    "uncertainty": "Firmware is the target; the abstract does not explicitly identify an OS component or a privileged interface."
+  },
+  {
+    "id": "R01635",
+    "os_target": "IoT device firmware binaries",
+    "llm_role": "Prompt-based LLM agent analyzes decompiled pseudo-code chunks, assigns CWE IDs, and suggests mitigations",
+    "security_task": "IoT firmware vulnerability detection",
+    "evidence": "This research presents an innovative pipeline which integrates advanced tools like EMBA and Ghidra with a prompt-based Large Language Model (LLM) to enhance firmware vulnerability detection especially in dealing with black-box type of systems.",
+    "suggested": "possible_core",
+    "uncertainty": "Firmware is the target; the abstract does not explicitly identify an OS component or a privileged interface."
+  },
+  {
+    "id": "R01649",
+    "os_target": "unknown",
+    "llm_role": "Health LLM is evaluated as the target of adversarial jailbreak prompts; the LLM is not used as a security tool",
+    "security_task": "Cross-language jailbreak vulnerability assessment for a health LLM",
+    "evidence": "The findings of this formative study reveal that LLM safety performance varies substantially across languages and harm categories, raising concerns about equitable protection in multilingual health communication.",
+    "suggested": "adjacent",
+    "uncertainty": "General LLM safety evaluation; no OS component or privileged interface is identified."
+  },
+  {
+    "id": "R01876",
+    "os_target": "unknown",
+    "llm_role": "LLM coding agent builds MODFLOW 6 input file sets from natural-language descriptions using reference plugin files",
+    "security_task": "unknown",
+    "evidence": "The result is a reusable design pattern for adapting an LLM coding agent to a scientific simulator without retraining the model.",
+    "suggested": "unclear",
+    "uncertainty": "Scientific simulator input generation; no OS security role is described."
+  },
+  {
+    "id": "R02127",
+    "os_target": "unknown",
+    "llm_role": "unknown",
+    "security_task": "Vulnerability detection in network protocol programs via fuzzing",
+    "evidence": "Network protocol fuzzing is a critical method for detecting vulnerabilities in network protocol programs.",
+    "suggested": "unclear",
+    "uncertainty": "No LLM is described, and no OS component is specified."
+  },
+  {
+    "id": "R02252",
+    "os_target": "unknown",
+    "llm_role": "unknown",
+    "security_task": "Security enhancement for wireless sensor networks using trust evaluation and TCP/IP",
+    "evidence": "The advent of wireless sensor network has given birth to new kinds of routing algorithms and new security threats.",
+    "suggested": "unclear",
+    "uncertainty": "No LLM role or concrete OS component is established."
+  },
+  {
+    "id": "R02302",
+    "os_target": "unknown",
+    "llm_role": "unknown",
+    "security_task": "Detection of slow and distributed port scanning",
+    "evidence": "This article discusses TCP activity analysis methods designed to detect slow and distributed forms of port scanning that are insufficiently detected by traditional signature-based IDSs.",
+    "suggested": "unclear",
+    "uncertainty": "No LLM is described, and no OS component is specified."
+  },
+  {
+    "id": "R02347",
+    "os_target": "unknown",
+    "llm_role": "LLM agent is modeled as an untrusted stochastic proposer of typed actions, with authority constrained by capabilities and a policy engine",
+    "security_task": "Authorization containment, loss bounding, and audit verification for LLM-agent actions in banking",
+    "evidence": "An agent is modelled as an untrusted stochastic proposer of typed actions whose authority is a capability set attenuated along a delegation chain, mediated by a deterministic policy engine and single-use, parameter-bounded tokens.",
+    "suggested": "adjacent",
+    "uncertainty": "The architecture addresses LLM-agent security in banking; no OS component or privileged OS interface is identified."
+  },
+  {
+    "id": "R02607",
+    "os_target": "unknown",
+    "llm_role": "Three LLMs (GPT-4o, Qwen, DeepSeek) generate depression detection outputs from HRV data",
+    "security_task": "unknown",
+    "evidence": "we developed a large language model (LLM)-based framework using three LLMs (GPT-4o, Qwen, and DeepSeek) to generate detection under three conditions of non-stationary processes",
+    "suggested": "unclear",
+    "uncertainty": "Clinical HRV analysis; no OS or security task is described."
+  },
+  {
+    "id": "R02694",
+    "os_target": "unknown",
+    "llm_role": "unknown",
+    "security_task": "unknown",
+    "evidence": "The object of the study is the process of processing data represented in the residual class system.",
+    "suggested": "unclear",
+    "uncertainty": "Arithmetic overflow detection; no LLM or security task is described."
+  },
+  {
+    "id": "R02745",
+    "os_target": "unknown",
+    "llm_role": "LLM-based system supports legal experts in generating maxims from judgments",
+    "security_task": "unknown",
+    "evidence": "we describe the general lifecycle of LLM-based systems and the architecture of a system designed to support legal experts in the process of generating maxims from judgments.",
+    "suggested": "unclear",
+    "uncertainty": "The abstract mentions risk assessment, but no OS component or security task is established."
+  },
+  {
+    "id": "R02747",
+    "os_target": "unknown",
+    "llm_role": "LLM-based system supports legal experts in generating maxims from judgments",
+    "security_task": "unknown",
+    "evidence": "we describe the general lifecycle of LLM-based systems and the architecture of a system designed to support legal experts in the process of generating maxims from judgments.",
+    "suggested": "unclear",
+    "uncertainty": "The abstract mentions risk assessment, but no OS component or security task is established."
+  },
+  {
+    "id": "R02750",
+    "os_target": "unknown",
+    "llm_role": "LLM-based system supports legal experts in generating maxims from judgments",
+    "security_task": "unknown",
+    "evidence": "we describe the general lifecycle of LLM-based systems and the architecture of a system designed to support legal experts in the process of generating maxims from judgments.",
+    "suggested": "unclear",
+    "uncertainty": "The abstract mentions risk assessment, but no OS component or security task is established."
+  }
+]

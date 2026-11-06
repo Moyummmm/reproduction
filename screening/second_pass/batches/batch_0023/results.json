@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02775",
+    "decision": "EXCLUDE",
+    "reason": "Audits RAG source attribution for LLM responses; LLM trustworthiness work, not a security analysis task targeting OS components.",
+    "evidence": "LLM Embedding-based Attribution (LEA) to analyze the generated responses for vulnerability exploitation analysis"
+  },
+  {
+    "id": "R02776",
+    "decision": "EXCLUDE",
+    "reason": "Security evaluation of LLM agent deployment frameworks; targets AI/agent threats, not OS components or privileged interfaces.",
+    "evidence": "targeting both AI-specific threats (prompt injection) and software vulnerabilities (JSON injection, denial-of-service)"
+  },
+  {
+    "id": "R02777",
+    "decision": "EXCLUDE",
+    "reason": "Front-matter record, not original research.",
+    "evidence": "Table of Contents"
+  },
+  {
+    "id": "R02778",
+    "decision": "UNCLEAR",
+    "reason": "LLM substantively guides binary fuzz testing for vulnerability discovery, but the abstract does not establish that targets are OS components or privileged interfaces.",
+    "evidence": "the LLM, fine-tuned with binary vulnerability data, predicts high-risk areas and guides the fuzz testing module"
+  },
+  {
+    "id": "R02785",
+    "decision": "EXCLUDE",
+    "reason": "Front-matter record, not original research.",
+    "evidence": "cover page and table of contents"
+  },
+  {
+    "id": "R02788",
+    "decision": "EXCLUDE",
+    "reason": "Fake-news detector evasion study; no security analysis of OS components.",
+    "evidence": "Flagship LLMs can launder fake news into fluent, claim-preserving text that bypasses classifiers"
+  },
+  {
+    "id": "R02791",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based CVE classification for medical IT systems; no OS component or privileged-interface focus.",
+    "evidence": "classify and analyze CVEs within the medical IT systems domain"
+  },
+  {
+    "id": "R02792",
+    "decision": "EXCLUDE",
+    "reason": "LLM agents generate tests for third-party library vulnerabilities, not OS components or privileged interfaces.",
+    "evidence": "generating downstream vulnerability-triggering tests for third-party library vulnerabilities"
+  },
+  {
+    "id": "R02795",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates LLM vulnerability patching in application languages; general software work, not OS-targeted.",
+    "evidence": "eight commercial and open LLMs on 922 JavaScript vulnerability patches"
+  },
+  {
+    "id": "R02796",
+    "decision": "EXCLUDE",
+    "reason": "Legal scholarship on access to justice; no LLM or OS security work.",
+    "evidence": "this article theorizes our concept of legal vulnerability"
+  },
+  {
+    "id": "R02802",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted vulnerability-patch matching in OSS; software maintenance, no OS component focus.",
+    "evidence": "matching vulnerabilities with commit patches based on large language model"
+  },
+  {
+    "id": "R02818",
+    "decision": "EXCLUDE",
+    "reason": "Hypervisor-level malware framework is in-scope target, but no LLM is used for the security task.",
+    "evidence": "malware prevention and detection (MP&D) framework aims to address these challenges"
+  },
+  {
+    "id": "R02826",
+    "decision": "EXCLUDE",
+    "reason": "Hypervisor virtualization security architecture; no LLM involvement.",
+    "evidence": "this article suggests novel security architecture in a virtualization technology based on hypervisors"
+  },
+  {
+    "id": "R02828",
+    "decision": "EXCLUDE",
+    "reason": "Hypervisor-level malware detection framework; no LLM involvement.",
+    "evidence": "A Hypervisor-Level Framework for Malware Prevention and Detection"
+  },
+  {
+    "id": "R02831",
+    "decision": "EXCLUDE",
+    "reason": "Hypervisor performance/security analysis without LLM use.",
+    "evidence": "We benchmark CPU, memory, I/O, and network performance using SPEC Cloud, Phoronix Test Suite, and OpenStack Rally"
+  },
+  {
+    "id": "R02837",
+    "decision": "EXCLUDE",
+    "reason": "LLM is the protected object inside a TEE, not a tool used for security analysis of OS components.",
+    "evidence": "TEE-based secure reasoning framework enhanced with Explainable Artificial Intelligence (XAI)"
+  },
+  {
+    "id": "R02838",
+    "decision": "EXCLUDE",
+    "reason": "Distributed energy trading using TEE; no LLM involvement.",
+    "evidence": "a model for the implementation of distributed energy trading based on a trusted execution environment"
+  },
+  {
+    "id": "R02840",
+    "decision": "EXCLUDE",
+    "reason": "Formal TEE verification is in-scope target, but analysis uses Maude model checking, not an LLM.",
+    "evidence": "we present a formal specification for TEE APIs using Maude"
+  },
+  {
+    "id": "R02844",
+    "decision": "EXCLUDE",
+    "reason": "Blockchain/TEE IoT access control; no LLM involvement.",
+    "evidence": "a blockchain-based and encrypted currency-based access control model CcBAC supported by Trusted Execution Environment (TEE)"
+  },
+  {
+    "id": "R02845",
+    "decision": "EXCLUDE",
+    "reason": "TEE overview text; no LLM and not empirical research.",
+    "evidence": "Trusted execution environments are secure areas of central processors or devices"
+  },
+  {
+    "id": "R02849",
+    "decision": "EXCLUDE",
+    "reason": "Privacy-preserving metering with TEE; no LLM involvement.",
+    "evidence": "a privacy-preserving scheme that leverages consumer privacy without reducing accuracy"
+  },
+  {
+    "id": "R02850",
+    "decision": "EXCLUDE",
+    "reason": "LLM tabular analytics reliability work; no security task or OS target.",
+    "evidence": "translate natural language queries into executable tabular analytics"
+  },
+  {
+    "id": "R02852",
+    "decision": "EXCLUDE",
+    "reason": "Secure genomic phasing in TEE; no LLM involvement.",
+    "evidence": "a secure haplotype phasing method based on the framework of Trusted Execution Environments (TEEs)"
+  },
+  {
+    "id": "R02854",
+    "decision": "EXCLUDE",
+    "reason": "TEE fuzzing is in-scope target, but the technique is dependency-guided fuzzing, not LLM-based.",
+    "evidence": "we present a fuzzing strategy for TrustZone-assisted TEE that utilizes inferred dependencies between Trusted Kernel system calls"
+  },
+  {
+    "id": "R02873",
+    "decision": "EXCLUDE",
+    "reason": "Blockchain/TEE data-fusion architecture; no LLM involvement.",
+    "evidence": "a trusted execution environment architecture based on blockchain technology for multi-source data fusion scenarios"
+  },
+  {
+    "id": "R02880",
+    "decision": "EXCLUDE",
+    "reason": "TEE-based metadata-protected messaging system; no LLM involvement.",
+    "evidence": "the first MPCS designed for metadata-protected messaging that simultaneously achieves all four desirable properties"
+  },
+  {
+    "id": "R02886",
+    "decision": "EXCLUDE",
+    "reason": "Survey of TEE applications; no LLM and reviews are outside the core empirical set.",
+    "evidence": "This paper systematically discusses TEE’s technical principle, application status, and future development trend"
+  },
+  {
+    "id": "R02889",
+    "decision": "EXCLUDE",
+    "reason": "LLM agent for drug discovery; no security analysis or OS target.",
+    "evidence": "a modular framework powered by large language models (LLMs) that automates and streamlines key tasks across the early-stage computational drug discovery pipeline"
+  },
+  {
+    "id": "R02894",
+    "decision": "EXCLUDE",
+    "reason": "TEE confidentiality assessment for consistency checking; no LLM used for security analysis.",
+    "evidence": "provides a systematic assessment of attack surfaces and leakage threats inherent to multi-model consistency checking"
+  },
+  {
+    "id": "R02895",
+    "decision": "EXCLUDE",
+    "reason": "Duplicate-style TEE confidentiality study for consistency checking; no LLM used for security analysis.",
+    "evidence": "we propose a secure setup protocol that binds code identity, attestation, and key establishment"
+  },
+  {
+    "id": "R02896",
+    "decision": "EXCLUDE",
+    "reason": "UAV federated learning with TEE; no LLM involvement.",
+    "evidence": "this research integrates a trusted execution environment (TEE) into UAV-assisted federated learning"
+  },
+  {
+    "id": "R02902",
+    "decision": "EXCLUDE",
+    "reason": "LLM instruction-execution stability study; no security task or OS target.",
+    "evidence": "analyze how instruction-preserving paraphrases affect the reliability with which LLMs execute structured instructions"
+  },
+  {
+    "id": "R02916",
+    "decision": "UNCLEAR",
+    "reason": "LLM powers symbolic execution for program analysis, but the abstract does not make a security outcome or OS-component target explicit.",
+    "evidence": "AutoBug, an LLM-based symbolic execution engine that is lightweight and language-agnostic"
+  },
+  {
+    "id": "R02918",
+    "decision": "EXCLUDE",
+    "reason": "TEE-based virtual remote attestation and secure migration; no LLM involvement.",
+    "evidence": "a secure migration-enabled generic virtual remote attestation architecture based on improved TEE"
+  },
+  {
+    "id": "R02921",
+    "decision": "EXCLUDE",
+    "reason": "LLM-generated PLC logic with safety verification; industrial control safety, not OS security analysis.",
+    "evidence": "a Human-in-the-Loop (HITL) framework for the structured translation and Software-in-the-Loop (SIL) verification of LLM-generated PLC logic"
+  },
+  {
+    "id": "R02928",
+    "decision": "EXCLUDE",
+    "reason": "Risk-based access control using TEE for vehicles; no LLM involvement.",
+    "evidence": "an Adaptive Risk-Based Access Control with TEE (AdRbAC-TEE) is proposed"
+  },
+  {
+    "id": "R02939",
+    "decision": "EXCLUDE",
+    "reason": "Use-case report on confidential computing; no LLM and not empirical core research.",
+    "evidence": "This use case report interviewed members of the confidential computing community"
+  },
+  {
+    "id": "R02955",
+    "decision": "EXCLUDE",
+    "reason": "Comparative cloud architecture analysis; no LLM used for security analysis of OS components.",
+    "evidence": "This paper presents a comparative architectural analysis of ten major platforms"
+  },
+  {
+    "id": "R02960",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted vulnerability-fixing commit classification for general software; no OS component focus.",
+    "evidence": "a large language model LLM is employed to address the challenges posed by the variant code language and length"
+  },
+  {
+    "id": "R02967",
+    "decision": "EXCLUDE",
+    "reason": "Palliative care philosophy paper; no LLM or OS security work.",
+    "evidence": "This article examines confidential conversations through a philosophical dialogue"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02113",
+    "decision": "EXCLUDE",
+    "reason": "Security defense for LLM/RAG systems, not an LLM targeting OS components.",
+    "evidence": "a graph-structured defense framework for LLMs"
+  },
+  {
+    "id": "R02114",
+    "decision": "EXCLUDE",
+    "reason": "SEO content optimization; no security task or OS target.",
+    "evidence": "optimize digital content for visibility, retrievability, and citation"
+  },
+  {
+    "id": "R02115",
+    "decision": "EXCLUDE",
+    "reason": "Competitive programming code generation; no security analysis.",
+    "evidence": "solve complex algorithmic problems under competitive programming constraints"
+  },
+  {
+    "id": "R02116",
+    "decision": "EXCLUDE",
+    "reason": "Review of 5G protocol fuzzing; no LLM and no OS-targeted LLM security task.",
+    "evidence": "analyzes the landscape of 5G network protocol fuzzing through 18 recent works"
+  },
+  {
+    "id": "R02119",
+    "decision": "EXCLUDE",
+    "reason": "Survey of protocol fuzzing; no LLM role or OS-targeted LLM security task.",
+    "evidence": "comprehensively survey the development of network protocol fuzzing techniques"
+  },
+  {
+    "id": "R02127",
+    "decision": "EXCLUDE",
+    "reason": "Protocol fuzzing framework without an LLM component.",
+    "evidence": "a fuzzing framework called Contextual AFLnet"
+  },
+  {
+    "id": "R02128",
+    "decision": "EXCLUDE",
+    "reason": "Stateful protocol fuzzing; uses QRNN, not an LLM, for a security task.",
+    "evidence": "uses a quasi-recurrent neural network (QRNN) to filter the test cases"
+  },
+  {
+    "id": "R02130",
+    "decision": "EXCLUDE",
+    "reason": "Seed scheduling for protocol fuzzing; no LLM component.",
+    "evidence": "employing a multi-armed bandit model"
+  },
+  {
+    "id": "R02131",
+    "decision": "EXCLUDE",
+    "reason": "Protocol fuzzing with Markov/message mutation; no LLM role.",
+    "evidence": "greybox protocol fuzzer based on the protocol-controlled Markov property"
+  },
+  {
+    "id": "R02133",
+    "decision": "EXCLUDE",
+    "reason": "LLM network management, not security analysis of OS components.",
+    "evidence": "a holistic framework that incorporates the Model Context Protocol (MCP), large language models (LLMs)"
+  },
+  {
+    "id": "R02134",
+    "decision": "EXCLUDE",
+    "reason": "Syntax extraction for fuzzing; no LLM component.",
+    "evidence": "extracts network protocol syntax from Wireshark protocol dissector files"
+  },
+  {
+    "id": "R02140",
+    "decision": "EXCLUDE",
+    "reason": "LLM network remediation/optimization, not OS security analysis.",
+    "evidence": "intent-aware auto-remediation and active optimization"
+  },
+  {
+    "id": "R02144",
+    "decision": "EXCLUDE",
+    "reason": "Stateful protocol fuzzing; uses neural networks but no LLM.",
+    "evidence": "two neural networks are employed to learn the potential mappings"
+  },
+  {
+    "id": "R02152",
+    "decision": "EXCLUDE",
+    "reason": "Governance for LLM agents, not an LLM security task targeting OS components.",
+    "evidence": "protocol-mediated execution layers as a governance architecture for LLM agent systems"
+  },
+  {
+    "id": "R02156",
+    "decision": "EXCLUDE",
+    "reason": "Analysis of protocol-fuzzing efficiency; no LLM component.",
+    "evidence": "comprehensive analysis of all the root causes behind the inefficiency of fuzzing network protocols"
+  },
+  {
+    "id": "R02158",
+    "decision": "EXCLUDE",
+    "reason": "OAuth protocol fuzzing; no LLM component.",
+    "evidence": "we propose OAuthFuzz, a novel fuzzing framework"
+  },
+  {
+    "id": "R02159",
+    "decision": "EXCLUDE",
+    "reason": "PLC protocol fuzzing; no LLM component.",
+    "evidence": "a method for fuzzing industrial proprietary protocols"
+  },
+  {
+    "id": "R02161",
+    "decision": "EXCLUDE",
+    "reason": "Multi-agent LLM protocol security/efficiency, not OS-targeted security.",
+    "evidence": "an identity-aware protocol for multi-agent LLM systems"
+  },
+  {
+    "id": "R02163",
+    "decision": "EXCLUDE",
+    "reason": "Binary protocol fuzzing driven by MPA; no LLM component.",
+    "evidence": "a greybox fuzzer for binary protocols driven by the Marine Predators Algorithm"
+  },
+  {
+    "id": "R02169",
+    "decision": "EXCLUDE",
+    "reason": "LLM semantic-network exploration; no security task.",
+    "evidence": "generates a semantic network in order to identify the associations between different topics"
+  },
+  {
+    "id": "R02177",
+    "decision": "EXCLUDE",
+    "reason": "Financial analysis with GNN/LLM; no security task.",
+    "evidence": "Large Language Model (LLM) for predictive analysis and theorizing"
+  },
+  {
+    "id": "R02183",
+    "decision": "EXCLUDE",
+    "reason": "Medical imaging/report generation; no security task.",
+    "evidence": "Automated Chest Radiograph Analysis"
+  },
+  {
+    "id": "R02184",
+    "decision": "EXCLUDE",
+    "reason": "Prompt coherence framework; no security task.",
+    "evidence": "maintaining contextual coherence across iterative interactions"
+  },
+  {
+    "id": "R02186",
+    "decision": "EXCLUDE",
+    "reason": "LLM code reliability study; general software, not OS security.",
+    "evidence": "evaluating the reliability and robustness of code generated by LLMs"
+  },
+  {
+    "id": "R02187",
+    "decision": "EXCLUDE",
+    "reason": "LLM incident triage for reliability, not security analysis of OS components.",
+    "evidence": "automated incident triage framework that leverages Large Language Model (LLM) reasoning"
+  },
+  {
+    "id": "R02190",
+    "decision": "EXCLUDE",
+    "reason": "Construction cost estimation; no security task.",
+    "evidence": "automation of local cost estimate (LCE) generation"
+  },
+  {
+    "id": "R02191",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM-based 6G networks; no OS security task.",
+    "evidence": "conducts a systematic review themed on the reconstruction of the core technical system of AI-native 6G networks"
+  },
+  {
+    "id": "R02196",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection vulnerability in medical advice; security of LLM, not OS target.",
+    "evidence": "Vulnerability of Large Language Models to Prompt Injection When Providing Medical Advice"
+  },
+  {
+    "id": "R02197",
+    "decision": "EXCLUDE",
+    "reason": "Neuroscience language-aging study; not a security task.",
+    "evidence": "Neuro-compensatory mechanisms underline differential language aging trajectories"
+  },
+  {
+    "id": "R02198",
+    "decision": "EXCLUDE",
+    "reason": "Financial forecasting; no security task.",
+    "evidence": "time-series forecasting of financial network indicators"
+  },
+  {
+    "id": "R02199",
+    "decision": "EXCLUDE",
+    "reason": "Protein classification; no security task.",
+    "evidence": "Identification and classification of phage virion proteins"
+  },
+  {
+    "id": "R02202",
+    "decision": "EXCLUDE",
+    "reason": "Mental health recommendation manipulation; no OS security task.",
+    "evidence": "activation steering changes an open-weights large language model’s (LLM) responses"
+  },
+  {
+    "id": "R02206",
+    "decision": "EXCLUDE",
+    "reason": "Psychometric embedding methods; no security task.",
+    "evidence": "Estimating Dimensional Structure in Generative Psychometrics"
+  },
+  {
+    "id": "R02207",
+    "decision": "EXCLUDE",
+    "reason": "Psychometric embedding methods; no security task.",
+    "evidence": "Network Methods Outperform PCA in Recovering Dimensional Structure"
+  },
+  {
+    "id": "R02208",
+    "decision": "EXCLUDE",
+    "reason": "Citation screening performance; no security task.",
+    "evidence": "Performance of a Large Language Model in Screening Citations"
+  },
+  {
+    "id": "R02210",
+    "decision": "EXCLUDE",
+    "reason": "Stack Overflow trend analysis; no security task.",
+    "evidence": "Trend Analysis of Large Language Models through a Developer Community"
+  },
+  {
+    "id": "R02217",
+    "decision": "EXCLUDE",
+    "reason": "Modbus/SCADA security architecture without an LLM component.",
+    "evidence": "Coordinating firewall, IDS, load balancer, and NTA with Modbus in Python3"
+  },
+  {
+    "id": "R02219",
+    "decision": "EXCLUDE",
+    "reason": "TCP/IP textbook; no LLM or security research.",
+    "evidence": "El libro presenta el paradigma TCP/IP completo"
+  },
+  {
+    "id": "R02221",
+    "decision": "EXCLUDE",
+    "reason": "Multicast protocol design; no LLM or security task.",
+    "evidence": "A new multicast session protocol NCDP based on the network coding method"
+  },
+  {
+    "id": "R02226",
+    "decision": "EXCLUDE",
+    "reason": "TCP/IP and cellular networks overview; no LLM or security task.",
+    "evidence": "The paper focuses on TCP/IP with cellular networks."
+  }
+]

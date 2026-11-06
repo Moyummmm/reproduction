@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03761",
+    "decision": "EXCLUDE",
+    "reason": "No LLM role or OS-level security task is evident; access-control policy generation is general software work.",
+    "evidence": "A Flexible Relationship-Based Access Control Policy Generator"
+  },
+  {
+    "id": "R03762",
+    "decision": "EXCLUDE",
+    "reason": "Focuses on LLM performance and pirated data access, not a security task targeting OS components.",
+    "evidence": "The Impact of Pirated Data Access on LLM Performance"
+  },
+  {
+    "id": "R03763",
+    "decision": "EXCLUDE",
+    "reason": "Policy brief on khat regulation; no LLM or OS security research.",
+    "evidence": "The regulation and control of khat use and access in Ethiopia"
+  },
+  {
+    "id": "R03764",
+    "decision": "EXCLUDE",
+    "reason": "Security analysis concerns LLM-generated web API backends, an application-level target, not OS components.",
+    "evidence": "Security Analysis of LLM-Generated Web API Backends"
+  },
+  {
+    "id": "R03765",
+    "decision": "EXCLUDE",
+    "reason": "Edge inference and scheduling work with no security outcome or OS target.",
+    "evidence": "Edge-LLM Inference With Cost-Aware Layer Allocation and Adaptive Scheduling"
+  },
+  {
+    "id": "R03766",
+    "decision": "EXCLUDE",
+    "reason": "Prompt engineering for RL exploration, not security analysis of OS components.",
+    "evidence": "Agent-Specific Prompt Engineering for LLM-Guided RL Exploration"
+  },
+  {
+    "id": "R03767",
+    "decision": "EXCLUDE",
+    "reason": "Policy brief on khat regulation; no LLM or OS security research.",
+    "evidence": "Decision: The regulation and control of khat use and access in Ethiopia"
+  },
+  {
+    "id": "R03768",
+    "decision": "EXCLUDE",
+    "reason": "Policy brief on khat regulation; no LLM or OS security research.",
+    "evidence": "Decision: The regulation and control of khat use and access in Ethiopia"
+  },
+  {
+    "id": "R03769",
+    "decision": "EXCLUDE",
+    "reason": "Policy brief on khat regulation; no LLM or OS security research.",
+    "evidence": "Recommendation: The regulation and control of khat use and access in Ethiopia"
+  },
+  {
+    "id": "R03770",
+    "decision": "EXCLUDE",
+    "reason": "Quantization method for LLM efficiency; no security task or OS target.",
+    "evidence": "Enhanced Rotation-Based Quantization for LLM by Outlier Injection"
+  },
+  {
+    "id": "R03771",
+    "decision": "UNCLEAR",
+    "reason": "Trust and orchestration are security-adjacent, but the LLM role, security task, and OS target are unclear without an abstract.",
+    "evidence": "Trust-Aware Orchestration Architecture for LLM-Assisted Workflows in Multi-Tenant Enterprise Systems"
+  },
+  {
+    "id": "R03772",
+    "decision": "EXCLUDE",
+    "reason": "LLM-manipulated news detection, not OS security.",
+    "evidence": "Generation, Analysis, and Detection of LLM Manipulated Bangla News"
+  },
+  {
+    "id": "R03773",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based domain-squatting detection targets domain names, not OS components or privileged interfaces.",
+    "evidence": "Advancing LLM Techniques for Robust Domain Squatting Detection"
+  },
+  {
+    "id": "R03774",
+    "decision": "EXCLUDE",
+    "reason": "Access-control policy authoring without an explicit LLM role or OS target.",
+    "evidence": "Rethinking Access-Control Policy Authoring as a Multimodal Challenge"
+  },
+  {
+    "id": "R03775",
+    "decision": "EXCLUDE",
+    "reason": "Safety assessment of LLM responses; security of LLMs rather than OS security.",
+    "evidence": "Enhancing Safety Assessment of LLM Responses via Text-to-Image Generation"
+  },
+  {
+    "id": "R03776",
+    "decision": "UNCLEAR",
+    "reason": "LLM-assisted malware generation is security-relevant, but OS targeting and evaluation are not described and the abstract is missing.",
+    "evidence": "Jailbreak-Free LLM-Assisted Malware Generation"
+  },
+  {
+    "id": "R03777",
+    "decision": "EXCLUDE",
+    "reason": "Recommendation system work with no security or OS dimension.",
+    "evidence": "LLM-Based Multi-Agent Recommendation System via Community Graph"
+  },
+  {
+    "id": "R03778",
+    "decision": "EXCLUDE",
+    "reason": "Access-control policy refinement with no explicit LLM use or OS security task.",
+    "evidence": "Qualitative Intention-aware Attribute-based Access Control Policy Refinement"
+  },
+  {
+    "id": "R03779",
+    "decision": "EXCLUDE",
+    "reason": "Reviewer-assignment matching; no security or OS target.",
+    "evidence": "LLM-Assisted Reviewer Assignment via Auditable Expertise Matching"
+  },
+  {
+    "id": "R03780",
+    "decision": "EXCLUDE",
+    "reason": "Recommender-systems feedback modeling, not OS security.",
+    "evidence": "Modeling of Negative Feedback Refined via LLM in Recommender Systems"
+  },
+  {
+    "id": "R03781",
+    "decision": "EXCLUDE",
+    "reason": "Agent delegation and access protocol work, not analysis of OS components or privileged interfaces.",
+    "evidence": "A UMA2.0 Protocol Extension for Multi-Hop LLM Agent Delegation"
+  },
+  {
+    "id": "R03782",
+    "decision": "EXCLUDE",
+    "reason": "Fact-checking credibility framework; no OS security task.",
+    "evidence": "A Credibility Framework for Effortless LLM-Powered Fact Checking"
+  },
+  {
+    "id": "R03783",
+    "decision": "EXCLUDE",
+    "reason": "Text style transfer, not security.",
+    "evidence": "LLM-Based Text Style Transfer"
+  },
+  {
+    "id": "R03784",
+    "decision": "EXCLUDE",
+    "reason": "Access-control policy extraction from user stories in software development, not OS-level security.",
+    "evidence": "Leveraging RAG and LLMs for Access Control Policy Extraction From User Stories"
+  },
+  {
+    "id": "R03785",
+    "decision": "EXCLUDE",
+    "reason": "Policy-guarded control for a digital twin surrogate, not security analysis of OS components.",
+    "evidence": "Policy-Guarded Explainable ML–LLM Framework for Data-Driven Control in Digital Twin Surrogate"
+  },
+  {
+    "id": "R03786",
+    "decision": "EXCLUDE",
+    "reason": "LLM-driven policy generation for ICS security; target is industrial control systems, not OS components.",
+    "evidence": "LLM-Driven Automated Policy Generation for Securing Industrial Control Systems"
+  },
+  {
+    "id": "R03787",
+    "decision": "EXCLUDE",
+    "reason": "Audits value sensitivity in LLM policy simulations, not a security task targeting OS components.",
+    "evidence": "measuring value sensitivity in LLM-generated policy simulations"
+  },
+  {
+    "id": "R03788",
+    "decision": "EXCLUDE",
+    "reason": "Privacy-risk profiling of LLM access architectures, not LLM used for OS security analysis.",
+    "evidence": "systematic privacy risk profile of 20 LLM access configurations"
+  },
+  {
+    "id": "R03789",
+    "decision": "EXCLUDE",
+    "reason": "Data governance for controlled access, not OS security research.",
+    "evidence": "Controlled-Access Data Governance in the LLM Era"
+  },
+  {
+    "id": "R03790",
+    "decision": "EXCLUDE",
+    "reason": "Spectrum-access agent; no security analysis or OS target despite tamper-evident watermarking.",
+    "evidence": "LLM-Driven Large-Scale Spectrum-Access Agent with Tamper-Evident Decisions"
+  },
+  {
+    "id": "R03791",
+    "decision": "UNCLEAR",
+    "reason": "Honeypot analysis is security-relevant and LLM-driven, but the OS target and evaluation are unclear without an abstract.",
+    "evidence": "Accelerating Honeypot Analysis With LLM-Driven Feedback"
+  },
+  {
+    "id": "R03792",
+    "decision": "EXCLUDE",
+    "reason": "Program-synthesis dataset for LLM temperature analysis; no security or OS task.",
+    "evidence": "A Program Synthesis Dataset for LLM Temperature Analysis"
+  },
+  {
+    "id": "R03793",
+    "decision": "EXCLUDE",
+    "reason": "Automated tabular data analysis, not OS security.",
+    "evidence": "Risk-Gated and Adaptive LLM Agents for Reliable Automated Tabular Data Analysis"
+  },
+  {
+    "id": "R03794",
+    "decision": "EXCLUDE",
+    "reason": "Phishing-chat detection targets messages, not OS components.",
+    "evidence": "Enhancing Business-Specific Phishing Chat Detection"
+  },
+  {
+    "id": "R03795",
+    "decision": "EXCLUDE",
+    "reason": "Kubernetes troubleshooting is operational, with no explicit security outcome or OS-component security task.",
+    "evidence": "Evaluating Self-Reflective LLM Agents for Autonomous Kubernetes Troubleshooting"
+  },
+  {
+    "id": "R03796",
+    "decision": "EXCLUDE",
+    "reason": "Protects multi-agent LLM state stores; security of LLM systems, not OS components.",
+    "evidence": "Capability-Token Access Control Architecture with Verifiable Provenance for Multi-Agent LLM Systems"
+  },
+  {
+    "id": "R03797",
+    "decision": "EXCLUDE",
+    "reason": "Audits value sensitivity in LLM policy simulations, not a security task targeting OS components.",
+    "evidence": "audit framework for measuring value sensitivity in LLM-generated policy simulations"
+  },
+  {
+    "id": "R03798",
+    "decision": "EXCLUDE",
+    "reason": "Test-report clustering is not a security analysis of OS components.",
+    "evidence": "LLM-Guided Crowdsourced Test Report Clustering"
+  },
+  {
+    "id": "R03799",
+    "decision": "EXCLUDE",
+    "reason": "Systematic literature review of prompt injection; reviews are excluded and it concerns LLM systems.",
+    "evidence": "A Systematic Literature Review of Prompt Injection Attacks"
+  },
+  {
+    "id": "R03800",
+    "decision": "EXCLUDE",
+    "reason": "Review of LLM use in research and education, not empirical OS security research.",
+    "evidence": "This review surveys global and domestic trends"
+  }
+]

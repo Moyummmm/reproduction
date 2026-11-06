@@ -1,0 +1,101 @@
+﻿id,theme,query,google_scholar_url,crossref_csv
+1,A. 总体：LLM × OS 安全,"""large language model"" ""operating system"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22large+language+model%22+%22operating+system%22+security,q001.csv
+2,A. 总体：LLM × OS 安全,"LLM ""OS security""",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22OS+security%22,q002.csv
+3,A. 总体：LLM × OS 安全,"""large language model"" ""systems security"" code",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22large+language+model%22+%22systems+security%22+code,q003.csv
+4,A. 总体：LLM × OS 安全,"""foundation model"" ""operating system"" vulnerability",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22foundation+model%22+%22operating+system%22+vulnerability,q004.csv
+5,A. 总体：LLM × OS 安全,"""GPT-4"" ""operating system"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22GPT-4%22+%22operating+system%22+security,q005.csv
+6,A. 总体：LLM × OS 安全,"""Codex"" ""operating system"" vulnerability",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22Codex%22+%22operating+system%22+vulnerability,q006.csv
+7,A. 总体：LLM × OS 安全,"""LLM-assisted"" ""system security""",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22LLM-assisted%22+%22system+security%22,q007.csv
+8,A. 总体：LLM × OS 安全,"""large language model"" ""kernel"" ""security""",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22large+language+model%22+%22kernel%22+%22security%22,q008.csv
+9,A. 总体：LLM × OS 安全,"LLM ""operating system"" ""vulnerability detection""",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22operating+system%22+%22vulnerability+detection%22,q009.csv
+10,A. 总体：LLM × OS 安全,"""generative AI"" ""operating system"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22generative+AI%22+%22operating+system%22+security,q010.csv
+11,B. 内核 kernel,"""large language model"" ""Linux kernel"" fuzzing",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22large+language+model%22+%22Linux+kernel%22+fuzzing,q011.csv
+12,B. 内核 kernel,"LLM ""kernel fuzzing"" syscall",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22kernel+fuzzing%22+syscall,q012.csv
+13,B. 内核 kernel,"LLM ""kernel"" ""static analysis""",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22kernel%22+%22static+analysis%22,q013.csv
+14,B. 内核 kernel,"""large language model"" ""kernel bug"" detection",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22large+language+model%22+%22kernel+bug%22+detection,q014.csv
+15,B. 内核 kernel,"LLM ""Linux kernel"" ""vulnerability detection""",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22Linux+kernel%22+%22vulnerability+detection%22,q015.csv
+16,B. 内核 kernel,"""GPT-4"" ""Linux kernel"" exploit",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22GPT-4%22+%22Linux+kernel%22+exploit,q016.csv
+17,B. 内核 kernel,"LLM ""kernel crash"" diagnosis",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22kernel+crash%22+diagnosis,q017.csv
+18,B. 内核 kernel,"LLM ""eBPF"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22eBPF%22+security,q018.csv
+19,B. 内核 kernel,"LLM ""kernel module"" analysis",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22kernel+module%22+analysis,q019.csv
+20,B. 内核 kernel,"""language model"" ""kernel patch"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22language+model%22+%22kernel+patch%22+security,q020.csv
+21,C. 驱动 / 文件系统 / 存储,"LLM ""device driver"" fuzzing",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22device+driver%22+fuzzing,q021.csv
+22,C. 驱动 / 文件系统 / 存储,"""large language model"" ""driver"" vulnerability",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22large+language+model%22+%22driver%22+vulnerability,q022.csv
+23,C. 驱动 / 文件系统 / 存储,"LLM ""driver synthesis"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22driver+synthesis%22+security,q023.csv
+24,C. 驱动 / 文件系统 / 存储,"LLM ""driver repair""",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22driver+repair%22,q024.csv
+25,C. 驱动 / 文件系统 / 存储,"LLM ""Linux driver"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22Linux+driver%22+security,q025.csv
+26,C. 驱动 / 文件系统 / 存储,"LLM ""filesystem"" fuzzing",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22filesystem%22+fuzzing,q026.csv
+27,C. 驱动 / 文件系统 / 存储,"""large language model"" ""file system"" vulnerability",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22large+language+model%22+%22file+system%22+vulnerability,q027.csv
+28,C. 驱动 / 文件系统 / 存储,"LLM ""filesystem"" verification",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22filesystem%22+verification,q028.csv
+29,C. 驱动 / 文件系统 / 存储,"LLM ""storage system"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22storage+system%22+security,q029.csv
+30,C. 驱动 / 文件系统 / 存储,"LLM ""log-structured file system"" bug",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22log-structured+file+system%22+bug,q030.csv
+31,D. 网络 / 内存管理,"LLM ""network protocol"" fuzzing",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22network+protocol%22+fuzzing,q031.csv
+32,D. 网络 / 内存管理,"""large language model"" ""network stack"" vulnerability",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22large+language+model%22+%22network+stack%22+vulnerability,q032.csv
+33,D. 网络 / 内存管理,"LLM ""TCP/IP"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22TCP%2FIP%22+security,q033.csv
+34,D. 网络 / 内存管理,"LLM ""protocol implementation"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22protocol+implementation%22+security,q034.csv
+35,D. 网络 / 内存管理,"LLM ""network packet"" analysis",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22network+packet%22+analysis,q035.csv
+36,D. 网络 / 内存管理,"LLM ""memory safety"" bug detection",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22memory+safety%22+bug+detection,q036.csv
+37,D. 网络 / 内存管理,"""large language model"" ""memory management"" kernel",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22large+language+model%22+%22memory+management%22+kernel,q037.csv
+38,D. 网络 / 内存管理,"LLM ""use-after-free"" detection",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22use-after-free%22+detection,q038.csv
+39,D. 网络 / 内存管理,"LLM ""buffer overflow"" operating system",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22buffer+overflow%22+operating+system,q039.csv
+40,D. 网络 / 内存管理,"LLM ""page table"" vulnerability",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22page+table%22+vulnerability,q040.csv
+41,E. TEE / hypervisor / 机密计算,"LLM ""hypervisor"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22hypervisor%22+security,q041.csv
+42,E. TEE / hypervisor / 机密计算,"""large language model"" ""trusted execution environment""",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22large+language+model%22+%22trusted+execution+environment%22,q042.csv
+43,E. TEE / hypervisor / 机密计算,"LLM ""confidential computing"" vulnerability",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22confidential+computing%22+vulnerability,q043.csv
+44,E. TEE / hypervisor / 机密计算,"LLM ""enclave"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22enclave%22+security,q044.csv
+45,E. TEE / hypervisor / 机密计算,"LLM ""virtualization"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22virtualization%22+security,q045.csv
+46,E. TEE / hypervisor / 机密计算,"LLM ""seL4"" verification",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22seL4%22+verification,q046.csv
+47,E. TEE / hypervisor / 机密计算,"LLM ""hypervisor"" fuzzing",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22hypervisor%22+fuzzing,q047.csv
+48,E. TEE / hypervisor / 机密计算,"LLM ""confidential VM"" side channel",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22confidential+VM%22+side+channel,q048.csv
+49,E. TEE / hypervisor / 机密计算,"""large language model"" ""Arm TrustZone""",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22large+language+model%22+%22Arm+TrustZone%22,q049.csv
+50,E. TEE / hypervisor / 机密计算,"LLM ""sandbox"" escape detection",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22sandbox%22+escape+detection,q050.csv
+51,F. 用户态 / 系统服务 / 日志,"LLM ""system log"" anomaly detection security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22system+log%22+anomaly+detection+security,q051.csv
+52,F. 用户态 / 系统服务 / 日志,"""large language model"" ""system call"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22large+language+model%22+%22system+call%22+security,q052.csv
+53,F. 用户态 / 系统服务 / 日志,"LLM ""container security""",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22container+security%22,q053.csv
+54,F. 用户态 / 系统服务 / 日志,"LLM ""system service"" vulnerability",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22system+service%22+vulnerability,q054.csv
+55,F. 用户态 / 系统服务 / 日志,"LLM ""audit log"" analysis",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22audit+log%22+analysis,q055.csv
+56,F. 用户态 / 系统服务 / 日志,"LLM ""root cause analysis"" operating system",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22root+cause+analysis%22+operating+system,q056.csv
+57,F. 用户态 / 系统服务 / 日志,"LLM ""OS configuration"" hardening",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22OS+configuration%22+hardening,q057.csv
+58,F. 用户态 / 系统服务 / 日志,"LLM ""access control"" policy",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22access+control%22+policy,q058.csv
+59,F. 用户态 / 系统服务 / 日志,"LLM ""Android"" security vulnerability",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22Android%22+security+vulnerability,q059.csv
+60,F. 用户态 / 系统服务 / 日志,"LLM ""Windows"" kernel security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22Windows%22+kernel+security,q060.csv
+61,G. 漏洞检测 / 程序分析,"LLM ""static analysis"" vulnerability detection",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22static+analysis%22+vulnerability+detection,q061.csv
+62,G. 漏洞检测 / 程序分析,"""large language model"" ""program analysis"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22large+language+model%22+%22program+analysis%22+security,q062.csv
+63,G. 漏洞检测 / 程序分析,"LLM ""taint analysis""",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22taint+analysis%22,q063.csv
+64,G. 漏洞检测 / 程序分析,"LLM ""dataflow analysis"" vulnerability",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22dataflow+analysis%22+vulnerability,q064.csv
+65,G. 漏洞检测 / 程序分析,"LLM ""code property graph"" vulnerability",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22code+property+graph%22+vulnerability,q065.csv
+66,G. 漏洞检测 / 程序分析,"LLM ""repository-level"" vulnerability detection",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22repository-level%22+vulnerability+detection,q066.csv
+67,G. 漏洞检测 / 程序分析,"LLM ""binary"" vulnerability detection",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22binary%22+vulnerability+detection,q067.csv
+68,G. 漏洞检测 / 程序分析,"LLM ""decompilation"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22decompilation%22+security,q068.csv
+69,G. 漏洞检测 / 程序分析,"LLM ""reverse engineering"" binary",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22reverse+engineering%22+binary,q069.csv
+70,G. 漏洞检测 / 程序分析,"LLM ""CWE"" detection",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22CWE%22+detection,q070.csv
+71,H. 模糊测试 / 测试 / Exploit,"LLM ""fuzzing"" seed generation",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22fuzzing%22+seed+generation,q071.csv
+72,H. 模糊测试 / 测试 / Exploit,"""large language model"" ""fuzz driver"" generation",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22large+language+model%22+%22fuzz+driver%22+generation,q072.csv
+73,H. 模糊测试 / 测试 / Exploit,"LLM ""directed fuzzing""",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22directed+fuzzing%22,q073.csv
+74,H. 模糊测试 / 测试 / Exploit,"LLM ""grammar fuzzing""",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22grammar+fuzzing%22,q074.csv
+75,H. 模糊测试 / 测试 / Exploit,"LLM ""differential testing"" operating system",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22differential+testing%22+operating+system,q075.csv
+76,H. 模糊测试 / 测试 / Exploit,"LLM ""test oracle"" generation",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22test+oracle%22+generation,q076.csv
+77,H. 模糊测试 / 测试 / Exploit,"LLM ""coverage-guided fuzzing""",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22coverage-guided+fuzzing%22,q077.csv
+78,H. 模糊测试 / 测试 / Exploit,"LLM ""harness generation"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22harness+generation%22+security,q078.csv
+79,H. 模糊测试 / 测试 / Exploit,"LLM ""exploit generation""",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22exploit+generation%22,q079.csv
+80,H. 模糊测试 / 测试 / Exploit,"""large language model"" ""privilege escalation"" exploit",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22large+language+model%22+%22privilege+escalation%22+exploit,q080.csv
+81,I. 补丁 / 修复 / 形式化验证 / 保障,"LLM ""vulnerability repair""",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22vulnerability+repair%22,q081.csv
+82,I. 补丁 / 修复 / 形式化验证 / 保障,"""large language model"" ""patch backporting""",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22large+language+model%22+%22patch+backporting%22,q082.csv
+83,I. 补丁 / 修复 / 形式化验证 / 保障,"LLM ""security patch"" generation",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22security+patch%22+generation,q083.csv
+84,I. 补丁 / 修复 / 形式化验证 / 保障,"LLM ""program repair"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22program+repair%22+security,q084.csv
+85,I. 补丁 / 修复 / 形式化验证 / 保障,"LLM ""CVE"" patch classification",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22CVE%22+patch+classification,q085.csv
+86,I. 补丁 / 修复 / 形式化验证 / 保障,"LLM ""kernel patch"" migration",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22kernel+patch%22+migration,q086.csv
+87,I. 补丁 / 修复 / 形式化验证 / 保障,"LLM ""formal verification"" operating system",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22formal+verification%22+operating+system,q087.csv
+88,I. 补丁 / 修复 / 形式化验证 / 保障,"""large language model"" ""theorem proving"" kernel",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22large+language+model%22+%22theorem+proving%22+kernel,q088.csv
+89,I. 补丁 / 修复 / 形式化验证 / 保障,"LLM ""specification inference"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22specification+inference%22+security,q089.csv
+90,I. 补丁 / 修复 / 形式化验证 / 保障,"LLM ""OS security"" benchmark",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22OS+security%22+benchmark,q090.csv
+91,J. 相邻：Agent / LLM 安全 / 综述,"LLM ""agent"" security operating system",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22agent%22+security+operating+system,q091.csv
+92,J. 相邻：Agent / LLM 安全 / 综述,"""computer use agent"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22computer+use+agent%22+security,q092.csv
+93,J. 相邻：Agent / LLM 安全 / 综述,"LLM ""prompt injection"" system security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22prompt+injection%22+system+security,q093.csv
+94,J. 相邻：Agent / LLM 安全 / 综述,"LLM ""jailbreak"" operating system",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22jailbreak%22+operating+system,q094.csv
+95,J. 相邻：Agent / LLM 安全 / 综述,"LLM ""model extraction"" security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22model+extraction%22+security,q095.csv
+96,J. 相邻：Agent / LLM 安全 / 综述,"LLM ""data poisoning"" code security",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22data+poisoning%22+code+security,q096.csv
+97,J. 相邻：Agent / LLM 安全 / 综述,"LLM ""backdoor"" code model",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22backdoor%22+code+model,q097.csv
+98,J. 相邻：Agent / LLM 安全 / 综述,"""large language model"" ""cybersecurity"" survey",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22large+language+model%22+%22cybersecurity%22+survey,q098.csv
+99,J. 相邻：Agent / LLM 安全 / 综述,"""LLM"" ""software security"" survey",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22LLM%22+%22software+security%22+survey,q099.csv
+100,J. 相邻：Agent / LLM 安全 / 综述,"LLM ""vulnerability detection"" benchmark",https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=LLM+%22vulnerability+detection%22+benchmark,q100.csv

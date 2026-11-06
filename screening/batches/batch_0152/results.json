@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R06081",
+    "decision": "EXCLUDE",
+    "reason": "LLM optimizes FPGA HLS timing and performance; no security task.",
+    "evidence": "automatically generate and iteratively refine HLS code optimized for FPGA-specific timing and performance requirements"
+  },
+  {
+    "id": "R06082",
+    "decision": "EXCLUDE",
+    "reason": "Protects LLM inference privacy, not an OS security task.",
+    "evidence": "a lightweight client-side encryption framework for privacy-preserving LLM inference"
+  },
+  {
+    "id": "R06083",
+    "decision": "EXCLUDE",
+    "reason": "Forecast and synthesis rather than original LLM security research on OS components.",
+    "evidence": "This paper synthesizes current public evidence from national cybersecurity agencies"
+  },
+  {
+    "id": "R06084",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-assisted analysis of confused deputy vulnerabilities involving AI accelerators and OS isolation.",
+    "evidence": "We design DeputyHunt, a Large Language Model (LLM)-assisted framework to extract CDA-relevant information for a given AIA"
+  },
+  {
+    "id": "R06085",
+    "decision": "EXCLUDE",
+    "reason": "Performance characterization of WebGPU and LLM inference, not a security task.",
+    "evidence": "We present a systematic characterization of WebGPU dispatch overhead for LLM inference"
+  },
+  {
+    "id": "R06086",
+    "decision": "EXCLUDE",
+    "reason": "FHE inference optimization for privacy, not OS security analysis.",
+    "evidence": "we explore implementations of linear algebra kernels needed for transformer inference in FHE"
+  },
+  {
+    "id": "R06087",
+    "decision": "EXCLUDE",
+    "reason": "Studies unlearning in LLMs; no OS security task.",
+    "evidence": "Unlearning in large language models (LLMs) aims to remove specified data"
+  },
+  {
+    "id": "R06088",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM constructs harnesses for static analysis of kernel-driver warnings and bugs.",
+    "evidence": "On 200 real Android kernel-driver warnings, including 40 confirmed bugs, Evident filters out 48.8-63.8% of the 160 false alarms across four LLMs without missing any confirmed bug"
+  },
+  {
+    "id": "R06089",
+    "decision": "EXCLUDE",
+    "reason": "General codebase analysis of Linux eBPF; no specific security task.",
+    "evidence": "the first LLM-driven methodology designed to systematically explore and analyze large-scale codebases"
+  },
+  {
+    "id": "R06090",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM maps kernel-level telemetry to ATT&CK for security threat analysis.",
+    "evidence": "collects kernel-level events via eBPF, correlates attacker commands into a provenance graph, and derives compact graph representations suitable for LLM-based reasoning"
+  },
+  {
+    "id": "R06091",
+    "decision": "EXCLUDE",
+    "reason": "LLM agent for bug-inducing commit identification, a general software-engineering task.",
+    "evidence": "an agent-based framework that leverages LLM-driven agents to explore repositories and identify bug-inducing commits"
+  },
+  {
+    "id": "R06092",
+    "decision": "EXCLUDE",
+    "reason": "Edge multimodal LLM system with privacy controls; no OS security analysis.",
+    "evidence": "an edge-first framework that turns continuous multimodal sensor streams"
+  },
+  {
+    "id": "R06093",
+    "decision": "EXCLUDE",
+    "reason": "Position paper proposing a SOC platform; not original empirical LLM security research.",
+    "evidence": "This position paper argues that the right unit of construction is a hybrid multi-agent system"
+  },
+  {
+    "id": "R06094",
+    "decision": "EXCLUDE",
+    "reason": "LLM-enabled personalized OS design; no security analysis or testing task.",
+    "evidence": "a personalized OS ingrained with LLM capabilities"
+  },
+  {
+    "id": "R06095",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection security of LLM applications, not OS components.",
+    "evidence": "structural role injection, where attacker-controlled data carries chat role delimiters that forge a higher-privilege turn"
+  },
+  {
+    "id": "R06096",
+    "decision": "EXCLUDE",
+    "reason": "Runtime protection for LLM agents; no LLM security analysis of OS targets.",
+    "evidence": "an agent-native library OS substrate that separates three planes"
+  },
+  {
+    "id": "R06097",
+    "decision": "EXCLUDE",
+    "reason": "Defends web applications against penetration agents; not an OS security task.",
+    "evidence": "Across 15 CVE-Bench web applications and four attacker models"
+  },
+  {
+    "id": "R06098",
+    "decision": "EXCLUDE",
+    "reason": "FHE model inference system; privacy, not OS security.",
+    "evidence": "a free and open Python software library that supports the full stack of encrypted model inference"
+  },
+  {
+    "id": "R06099",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM repairs and formally verifies eBPF kernel programs.",
+    "evidence": "uses large language models to translate legacy libbpf C programs to Aya Rust"
+  },
+  {
+    "id": "R06100",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM proof generation for formal verification of OS kernel code.",
+    "evidence": "on the Asterinas Rust OS kernel, KVerus produces upstream-accepted proofs that verify 23 previously unverified functions"
+  },
+  {
+    "id": "R06101",
+    "decision": "EXCLUDE",
+    "reason": "LLM agent detects malicious packages, not OS component security.",
+    "evidence": "Detecting malicious PyPI packages is crucial for maintaining the security of the open source software supply chain"
+  },
+  {
+    "id": "R06102",
+    "decision": "EXCLUDE",
+    "reason": "Audits LLM gateway model substitution; security of LLM services, not OS.",
+    "evidence": "Budgeted Black-Box Auditing of Model Substitution and Routing Dilution in LLM Gateways"
+  },
+  {
+    "id": "R06103",
+    "decision": "EXCLUDE",
+    "reason": "Red-teaming MLLMs for safety; security of LLMs, not OS.",
+    "evidence": "a unified, modular, and high-throughput red-teaming framework designed for comprehensive MLLM safety evaluation"
+  },
+  {
+    "id": "R06104",
+    "decision": "EXCLUDE",
+    "reason": "Cross-modal unlearning study in VLMs; no OS security task.",
+    "evidence": "the first systematic, bidirectional study of cross-modal unlearning transfer across three VLM architectures"
+  },
+  {
+    "id": "R06105",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM supervisor detects security violations from kernel-level audit events.",
+    "evidence": "correlates application-level agent semantics with kernel-level audit events and reconstructs them as cross-layer semantic flows"
+  },
+  {
+    "id": "R06106",
+    "decision": "EXCLUDE",
+    "reason": "Membership inference privacy auditing of LLMs; not OS security.",
+    "evidence": "We propose Word-level Probability MIA (WPMIA), a statistically principled MIA for strict black-box privacy auditing"
+  },
+  {
+    "id": "R06107",
+    "decision": "EXCLUDE",
+    "reason": "Side-channel DNN architecture inference; ML security, not an OS component task.",
+    "evidence": "leverages simple, non-intrusive, and coarse-grained system-level information to identify the underlying DNN architecture"
+  },
+  {
+    "id": "R06108",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted HLS design; no security analysis or OS target.",
+    "evidence": "a contract-aligned multi-agent workflow for practical high-level synthesis (HLS) engineering"
+  },
+  {
+    "id": "R06109",
+    "decision": "EXCLUDE",
+    "reason": "Table representation and reasoning study; unrelated to OS security.",
+    "evidence": "a semantically robust latent space for table reasoning must be intrinsically Permutation Invariant (PI)"
+  },
+  {
+    "id": "R06110",
+    "decision": "EXCLUDE",
+    "reason": "Privacy leakage in multi-agent LLM communication; not OS security.",
+    "evidence": "We identify selection-channel leakage"
+  },
+  {
+    "id": "R06111",
+    "decision": "EXCLUDE",
+    "reason": "LLM watermarking method; no security analysis of OS components.",
+    "evidence": "a new statistical watermark for Large Language Models that determines green list membership through independent per-token Bernoulli trials"
+  },
+  {
+    "id": "R06112",
+    "decision": "EXCLUDE",
+    "reason": "Survey of agentic AI security; reviews are excluded from the core empirical set.",
+    "evidence": "This survey delivers a comprehensive systems-security reference framework for trustworthy agentic AI"
+  },
+  {
+    "id": "R06113",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor detection in ML models; security of LLMs, not OS.",
+    "evidence": "a unified backdoor detection framework in the semi-honest setting that exploits cross-examination of model inconsistencies between two independent service providers"
+  },
+  {
+    "id": "R06114",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-injection defense for LLM serving; custom kernels are not an OS target.",
+    "evidence": "a unified framework that synthesizes the explainability of detection systems with the seamless integration of prevention strategies"
+  },
+  {
+    "id": "R06115",
+    "decision": "EXCLUDE",
+    "reason": "Agent OS architecture with access control; no LLM security analysis or evaluation.",
+    "evidence": "Agent Operating Systems (Agent OS) as kernel-like layers for lifecycle management, memory, scheduling, and access control"
+  },
+  {
+    "id": "R06116",
+    "decision": "EXCLUDE",
+    "reason": "LLM automates Linux kernel patch migration; OS engineering without a security outcome.",
+    "evidence": "a framework that employs a novel code fingerprint structure to retain code snippet information"
+  },
+  {
+    "id": "R06117",
+    "decision": "EXCLUDE",
+    "reason": "LLM benchmark for kernel crash repair; OS debugging without an explicit security task.",
+    "evidence": "a crash resolution benchmark drawn from real-world Linux kernel bugs"
+  },
+  {
+    "id": "R06118",
+    "decision": "EXCLUDE",
+    "reason": "Mechanistic interpretability of LLMs; unrelated to OS security.",
+    "evidence": "a framework that reframes mechanistic analysis as a graph machine-learning problem by representing activation-patching profiles as patch-effect graphs over model components"
+  },
+  {
+    "id": "R06119",
+    "decision": "EXCLUDE",
+    "reason": "LLM layer pruning and compression; not security or OS.",
+    "evidence": "a dynamic compression method that selects consecutive layers from top to bottom using a pre-defined similarity threshold"
+  },
+  {
+    "id": "R06120",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-assisted validation of Linux kernel patches, including concurrency bugs.",
+    "evidence": "FLINT, a patch validation system framework that synthesizes insights from past discussions among developers and automatically analyzes patch proposals for compliance"
+  }
+]

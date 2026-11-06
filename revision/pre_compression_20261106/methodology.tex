@@ -1,0 +1,193 @@
+\section{Survey Methodology}
+\label{sec:methodology}
+\revise{This retrospective literature survey examines LLM-assisted security analysis, testing, verification, and repair across OS components, emphasizing approaches that ground their outputs in verifiable artifacts. Studies that protect LLM-based systems are discussed as adjacent work where relevant, rather than as direct evidence of improved OS security. The collected literature is not claimed to result from a complete, reproducible systematic search.}
+
+\revise{For transparency, we use the search-reporting items of PRISMA-S}~\revcite{rethlefsen2021prismas} \revise{and the selection-reporting guidance of PRISMA 2020}~\revcite{page2021prisma} \revise{to document the available evidence and remaining gaps; referring to these guidelines does not imply that all their items have been satisfied.}
+
+\paragraph{\textbf{Search strategy and venues}}
+\revise{The original literature collection combined targeted searches and foundational references. The surviving documentation contains 18 historical query formulations shown in Listing~\ref{listing:queries}; it does not establish the database-specific form, execution date, or results for each formulation. The listed queries include TEE and hardware-isolation terminology, but do not establish comprehensive coverage of neighboring terms such as VMMs, hypercalls, enclave interfaces, and secure monitors. This limits recall and precludes an exhaustive absence claim. Table~\ref{tab:venues} lists representative publication outlets, not databases verified to have been searched. Preprints were also considered.}
+
+\revise{On November 5, 2026, an exploratory update used Crossref after automated Google Scholar requests were blocked. It submitted 100 queries with a 2022-01-01 lower publication-date limit and retained up to 20 ranked results per query. Crossref received transformed free-text expressions, not the original Boolean queries. The queries, times, returned counts and status are recorded in \url{reproduct/search/search_metadata.csv}. This later update does not reconstruct the historical search.}
+
+\revise{A separate audit on the same date saved up to 100 results for each of the 100 Crossref queries and for 12 arXiv queries. Crossref and arXiv used different query syntax and date limits; all Crossref queries and two arXiv queries were truncated. Exact DOI and arXiv-identifier matching grouped the 10,467 retrieved rows into 6,408 provisional records. The two truncated arXiv searches were subsequently paginated; their additional records and the time and ranking limitations are documented separately. These bounded searches are exploratory, and their results are not a verified replacement for the historical synthesis. Query logs, linkage rules and scripts are documented under \url{reproduct/search_protocol/} and \url{reproduct/arxiv_pagination/}; the research archive also retains provider responses.}
+
+\revise{The audit records received preliminary triage of titles and available abstracts using \texttt{deepseek/deepseek-flash} via OpenCode. A separate call using the same model assessed the 2,311 records with available abstracts in the 6,408-record snapshot. These model outputs are not independent human screening or final eligibility decisions. Missing abstracts, mismatched evidence excerpts, disagreements and flagged OS-related records remain for review; a check of cited work found a potential model false exclusion. The screening protocol, decision fields, conservative rules and audit are documented under \url{reproduct/screening/} and \url{reproduct/audit/}; individual model inputs and responses are retained in the research archive.}
+
+\revise{The associated search records, screening materials, inventories and supporting scripts are organized in the accompanying \texttt{reproduct/} directory. The exact contents of any public release depend on the materials made available with that release.}
+
+\begin{table}[t]
+\caption{\revise{Representative publication venues in the surveyed fields.}}
+\label{tab:venues}
+\centering
+\footnotesize
+\begin{tabular}{@{}>{\RaggedRight\arraybackslash}p{0.28\columnwidth}>{\RaggedRight\arraybackslash}p{0.64\columnwidth}@{}}
+\hline
+\textbf{Category} & \textbf{Representative venues} \\
+\hline
+Software Engineering & ICSE (incl. tracks), ASE, ISSTA, FSE, OOPSLA\\
+Security & USENIX Security, IEEE S\&P, ACM CCS, NDSS \\
+Systems \& OS & ASPLOS, SOSP, OSDI, EuroSys, FAST, ATC, HPDC \\
+AI \& ML & NeurIPS, ICLR, ICML, EMNLP, ACL\\
+\hline
+\end{tabular}
+\end{table}
+
+\paragraph{\textbf{Search terms}}
+\revise{Listing~\ref{listing:queries} reproduces historical query formulations as context, not a verified database execution log.}
+
+
+\begin{figure}[htbp] % 将代码块设为浮动体，防止被拆分
+\label{sec:usecases}
+\begin{lstlisting}[style=elegantQueries, language=SQL, caption={\revise{Historical query formulations; execution details are unavailable}}, label={listing:queries}]
+/* General Code & System Reasoning */
+("LLM" OR "Large Language Model" OR "Transformer") 
+  AND ("Operating System Security" OR "OS Security")
+("LLM" OR "Large Language Model") AND "System Security"
+("LLM Agent" OR "Autonomous Agent") AND "OS Security"
+
+/* Kernel Security & Fuzzing */
+("Operating System" OR "OS Kernel" OR "RTOS" OR "Firmware") 
+  AND ("Fuzzing" OR "Fuzzer" OR "Testing") 
+  AND ("LLM" OR "Machine Learning")
+("LLM" OR "Large Language Model") 
+  AND "Specification Inference" AND "System Calls"
+("LLM" OR "Large Language Model") 
+  AND "Driver Fuzzing" AND "Constraint Solving"
+
+/* Vulnerability Detection & Static Analysis */
+("LLM" OR "Large Language Model") AND "Vulnerability" 
+  AND ("Detection" OR "Localization" OR "Assessment") 
+  AND ("OS" OR "Linux" OR "Kernel") 
+("LLM" OR "Large Language Model") AND "Static Analysis" 
+  AND "OS"
+("LLM" OR "Large Language Model") 
+  AND ("Data-Flow" OR "Control-Flow" OR "Inter-Procedural") 
+  AND ("OS" OR "Linux" OR "Kernel")
+
+/* Automated Exploit Generation & Patching */
+("Large Language Model" OR "LLM") 
+  AND "Exploit Generation" AND "Kernel"
+("LLM" OR "Large Language Model") 
+  AND "Automated Program Repair" 
+  AND "Security Patches" AND "Linux Kernel"
+("LLM Agent") AND "Iterative Vulnerability Repair" 
+  AND "Validation Feedback"
+
+/* System Architecture & Verification */
+("LLM" OR "Large Language Model") 
+  AND "Formal Verification" AND "Kernel"
+("Trusted Execution Environment" OR "TEE" 
+  OR "Hardware Isolation") AND "LLM"
+("eBPF" OR "Network") AND "Security Analysis" 
+  AND "Large Language Model"
+
+/* Adversarial Robustness & Model Side-Channels */
+("LLM" OR "Large Language Model") 
+  AND ("Internal State" OR "Privacy") 
+  AND "Input Inversion" AND "Kernel"
+("LLM" OR "Large Language Model") 
+  AND "Timing Side Channel" AND "Shared Cache"
+("LLM" OR "Large Language Model") AND "System Call" 
+  AND "OS"
+\end{lstlisting}
+\end{figure}
+
+
+\revise{The stated publication window for candidate research is 2020--2026; older foundational references are used for background rather than as evidence of recent LLM-assisted OS-security methods. Coverage in 2026 is limited to the collected records, not the entire calendar year. For the historical collection, the available materials do not establish exact search dates, a database-specific query log, or a consistent rule for choosing between first-publication and final-publication dates. The venues listed above identify publication outlets rather than a verified list of searched databases. These documentation gaps limit reproducibility and the completeness of the review.}
+
+
+\paragraph{\textbf{Deduplication and publication versions}}
+\revise{The following version-handling principles guide interpretation of the literature; the available spreadsheet does not document a completed record-to-study reconciliation.}
+\revise{Version reconciliation requires matching DOI or arXiv identifiers and comparing normalized titles and author metadata; ambiguous or renamed records require comparison of the underlying studies. A preprint and its published counterpart should be treated as one study when they report the same contribution, with the published version preferred when available within the search period. Preprint-only work can be considered under the same substantive criteria, with its publication status identified. Distinct contributions in extended versions require explicit justification before separate counting. These principles do not imply that the 220 scored records already represent 220 unique studies.}
+
+\paragraph{\textbf{Eligibility and screening}}
+\revise{The criteria below define the intended scope of the core synthesis, rather than certifying the eligibility of every previously scored entry.}
+For the core synthesis, a study must (i) fall within the stated date and document-type limits; (ii) use an LLM as a substantive part of a security analysis, testing, repair, or verification method; (iii) explicitly target an OS component or privileged interface; and (iv) provide sufficient methodological detail and evaluation evidence to assess that OS-security application. Evidence may include experiments, case studies, or formal results; public artifact availability is recorded rather than assumed to be mandatory.
+Excluded from the core synthesis are duplicates, out-of-window studies, non-LLM methods, generic code-generation or application-security studies without an explicit OS target, and opinion or promotional material without assessable research evidence. Work that uses OS isolation or TEEs solely to protect LLM execution is treated as adjacent research rather than direct evidence that LLMs improve OS security. Surveys, foundational papers, standards, and vendor documentation may support background discussion but are not counted as independent core studies.
+\revise{In particular, ERP, OA, and mail studies confined to application business logic or message-content analysis are excluded from the core synthesis.}
+\revise{The surviving materials do not provide a complete record-level log of title/abstract decisions, full-text exclusions, or retrieval failures, nor do they establish whether language or full-text availability restrictions were applied consistently. Eligibility criteria describe the intended scope and do not certify a final eligible-study set.}
+
+\paragraph{\textbf{\revise{Relevance scoring and evidence}}}
+\revise{The exploratory update returned 2,000 Crossref result rows across the 100 queries. DOI-based merging yielded 1,454 candidate records; records without a DOI were kept separately. A ranked subset of 200 was inspected rapidly using titles and available abstracts, and 101 entries were selected as direct or adjacent candidates. Six matched previously retained records and 95 were added as new rows. The resulting inventory contains 130 retained legacy rows and 95 new rows, totaling 225. Earlier low-relevance records were not systematically carried forward. These are candidate records, not a census of unique eligible studies. Matching used recorded identifiers or normalized titles where available; unresolved duplicates and preprint/publication versions can remain. The candidate-origin labels are provisional and should not be equated with final eligibility decisions.}
+
+\revise{The later assessment assigns topical relevance scores of 0 (no substantive connection), 1 (background), 2 (adjacent or transferable) and 3 (direct OS-security candidate). The 225 records contain 1, 37, 164 and 23 entries at these scores, respectively. Scores indicate topical fit rather than study quality or verified eligibility; the inventory records whether judgments used abstracts, accessible conclusions or earlier notes.}
+
+\paragraph{\textbf{\revise{Screening personnel and limitations}}}
+\revise{The surviving historical records do not document who screened each stage, independent duplicate screening or disagreement resolution. The later update does not establish independent human adjudication either. Inter-rater agreement cannot be reconstructed, and decisions near the core/adjacent boundary may be subjective.}
+
+\paragraph{\textbf{\revise{Record counts and provenance}}}
+\revise{Table~\ref{tab:selection-counts} distinguishes the historical scored-record inventory from the later merged candidate inventory. The archived historical file has 485 records, of which 220 carry scores 1--3: 45, 116 and 59 respectively. These counts match those in the earlier manuscript, which designated 59 score-3 records for in-depth review; the exact correspondence to the previously submitted supplementary file cannot be established from counts alone. Neither number is a verified count of unique eligible studies. The remaining 265 rows include scores of zero and missing or other values; they cannot be interpreted as documented exclusions. The later inventory draws on a different selection and updated ratings, so its totals cannot replace the historical numbers in a single sequential screening flow. A record-level crosswalk and unresolved matches are provided with the supplementary inventory.}
+
+\begin{table}[htbp]
+\centering
+\caption{\revise{Available literature-record counts and their limits.}}
+\label{tab:selection-counts}
+\small
+\begin{tabular}{@{}>{\RaggedRight\arraybackslash}p{0.44\columnwidth}>{\RaggedRight\arraybackslash}p{0.50\columnwidth}@{}}
+\hline
+\textbf{Quantity} & \textbf{Count/status} \\ \hline
+\revise{Original search hits and selection stages} & \revise{Unknown; full search and decision logs unavailable} \\
+\revise{Historical scored records} & \revise{220 records; 59 formerly designated for in-depth review} \\
+\revise{Updated merged candidate inventory} & \revise{225 records, including 23 provisional score-3 records} \\
+\revise{Separate discovery audit} & \revise{6,408 identifier groups; later arXiv pagination produced 1,168 additional unmatched identifiers} \\
+\revise{Unique studies after version reconciliation} & \revise{Not established} \\
+\revise{Unique eligible studies and final in-depth set} & \revise{Not established} \\ \hline
+\end{tabular}
+\par\smallskip
+\parbox{0.96\columnwidth}{\footnotesize\revise{These counts describe different record sets, not consecutive stages. Preliminary scores do not certify eligibility.}}
+\end{table}
+
+\revise{The candidate and historical inventories and their interpretation are provided in \url{reproduct/}. The accompanying Crossref metadata log documents the exploratory update; it does not reconstruct the earlier search. A separate citation-level audit maps manuscript references to the candidate and search records where identifiers or source-checked aliases permit; unmatched citations include background, adjacent work and unresolved cases, and are not automatically counted as omissions. Version aliases and source-supported corrections are retained with their evidence under \url{reproduct/audit/}, and the revised manuscript's citation mapping is in \url{reproduct/revision/}. Table~\ref{tab:llm-kernel-related} illustrates representative core and related work rather than a complete eligibility record. The KernelGPT workflow in the device-driver discussion is a literature-based illustration, not an experiment performed to validate the survey framework (\S~\ref{sec:os:driver}).}
+
+\begin{table*}[t]
+\caption{Representative works used in this paper and their underpinning PL techniques.}
+\label{tab:llm-kernel-related}
+\centering
+\footnotesize
+\begin{tabular}{>{\RaggedRight\arraybackslash}p{0.22\textwidth}>{\RaggedRight\arraybackslash}p{0.72\textwidth}}
+\hline
+\textbf{PL techniques} & \textbf{Representative papers} \\
+\hline
+Program analysis and fuzzing
+& \textbf{KernelGPT}~\cite{yang2025kernelgpt} uses LLMs to help infer and refine syscall specifications (syzlang) that drive kernel fuzzers, aiming to make inputs more semantically valid and improve coverage. \revise{This illustrates how LLM-generated specifications can be refined through validation feedback and constraint checks.}
+
+% \textbf{RandLuzz}~\cite{feng2025fuzzing} integrates LLMs into directed fuzzing to reduce randomness in seeds and build bug-specific mutators. While not kernel-specific by itself, the technique is directly applicable to kernel fuzzing where reaching deep states requires satisfying complex constraints.
+\textbf{RandLuzz}~\cite{feng2025fuzzing} integrates LLMs into directed fuzzing to reduce randomness in seeds and build bug-specific mutators. \smy{Its applicability to kernel fuzzing requires separate evaluation.}
+
+\textbf{SyzAgent}~\cite{syzagent25} explores LLM-guided kernel fuzzing, where the model helps steer input generation toward high-value regions and reduces wasted exploration. Its relevance is in connecting LLM suggestions to concrete fuzzing objectives and measurable coverage.
+\\
+\hline
+Formal verification
+& \textbf{Selene}~\cite{zhang2024selene} targets the seL4 microkernel and casts project-scale automated proof generation as a benchmark task for LLMs. 
+It highlights how models can propose intermediate lemmas and proof sketches while the proof assistant enforces soundness.
+
+\textbf{AutoRocq}~\cite{tu2025agentic} integrates LLMs with the Rocq theorem prover to synthesize proof scripts and iteratively repair failed proof attempts, reducing the manual effort needed to formalize and maintain kernel correctness arguments.
+
+\textbf{FVEL}~\cite{lin2024fvel} provides an interactive formal-verification environment in which an LLM generates proof steps and uses feedback from Isabelle to refine its attempts.
+\\
+
+\hline
+Synthesis & 
+\textbf{KNighter}~\revcite{yang2025knighter} synthesizes static-analysis checkers from historical kernel bug-fix patches, using patch-based validation and iterative refinement.
+
+% \textbf{FineNib}~\cite{finenib2026} and \textbf{QLCoder}~\cite{wang2025qlcoder} synthesize CodeQL vulnerability queries from metadata (e.g., CVEs) and refine them with execution feedback, supporting reproducible large-scale scanning of kernel repositories.
+
+\smy{\textbf{QLCoder}~\cite{wang2025qlcoder} synthesizes CodeQL vulnerability queries from CVE metadata and refines them using execution feedback. In its published evaluation, generated queries met the vulnerable-versus-patched detection criterion for 53.4\% of 176 CVEs across 111 Java projects. This is a transferable query-synthesis technique; its applicability to kernel code requires separate evaluation.}
+
+\revise{\textbf{Kgent (initially circulated as KEN)}}~\revcite{zheng2024kgent} uses an agentic LLM workflow to generate and deploy verifier-checked eBPF programs for observability and defensive instrumentation, with runtime constraints serving as guardrails.
+
+\\
+\hline
+Patching and repairing
+% & \textbf{CrashFixer}~\cite{mathai2025crashfixer} proposes an LLM-based crash-resolution agent for Linux kernel bugs, iterating between patch candidates and validation feedback (e.g., builds, tests, and reproducer re-runs) until a reviewable fix is obtained.
+& \textbf{kAgent (formerly CrashFixer)}~\cite{mathai2025crashfixer} proposes an LLM-based crash-resolution agent for Linux kernel bugs, iterating between patch candidates and validation feedback (e.g., builds, tests, and reproducer re-runs) \smy{to produce candidate fixes for review.}
+
+\textbf{SAN2PATCH}~\cite{kim2025logs} applies structured multi-step reasoning to vulnerability repair (e.g., decomposing understanding and fix planning before editing). \revise{Candidate patches require validation; compilation and regression testing provide evidence of correctness but do not establish full semantic correctness.}
+
+\textbf{PortGPT}~\cite{li2025portgpt} \revise{targets automated backporting of Linux kernel patches, a practical task in maintaining security fixes across versions. Candidate backports require validation in the target kernel version.}
+\\
+\hline
+
+
+\end{tabular}
+\end{table*}

@@ -1,0 +1,8 @@
+{
+  "offset_started": 1000,
+  "next_offset": 1284,
+  "last_reported_total": 1284,
+  "reached_last_reported_total": true,
+  "returned_rows": 284,
+  "note": "Ranking may shift between requests and between the initial refresh and this resumed fetch."
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01721",
+    "decision": "EXCLUDE",
+    "reason": "General code generation and defect repair; no security task or OS/privileged target indicated.",
+    "evidence": "Deep-Context-Awareness-Based LLM Code Generation and Accurate-Defect-Repair Integrated Architecture"
+  },
+  {
+    "id": "R01722",
+    "decision": "EXCLUDE",
+    "reason": "Warranty report analysis, not security or OS-focused research.",
+    "evidence": "Enhancing Automated Warranty Repair Reports Analysis With Llm Generative Technologies"
+  },
+  {
+    "id": "R01723",
+    "decision": "EXCLUDE",
+    "reason": "General Python program repair on QuixBugs; no security outcome or OS target.",
+    "evidence": "30 QuixBugs-derived Python tasks"
+  },
+  {
+    "id": "R01724",
+    "decision": "UNCLEAR",
+    "reason": "Vulnerability repair is potentially in scope, but the title gives no OS/privileged target and the abstract is missing.",
+    "evidence": "LLM-Based Vulnerability Fixes"
+  },
+  {
+    "id": "R01725",
+    "decision": "EXCLUDE",
+    "reason": "Interactive-fiction graph repair, not security or OS work.",
+    "evidence": "Symmetry-Aware LLM-Driven Generation and Repair of Interactive Fiction Graphs in Twine/Twee"
+  },
+  {
+    "id": "R01726",
+    "decision": "EXCLUDE",
+    "reason": "General autonomous program repair; no security task or OS target indicated.",
+    "evidence": "RepairAgent: An Autonomous, LLM-Based Agent for Program Repair"
+  },
+  {
+    "id": "R01727",
+    "decision": "EXCLUDE",
+    "reason": "Sim-racing driver coaching, not security or OS research.",
+    "evidence": "Explaining Driver Behavior in Sim Racing with Shannon Entropy and LLM Feedback"
+  },
+  {
+    "id": "R01728",
+    "decision": "EXCLUDE",
+    "reason": "Fitness-function repair for software testing; no security outcome or OS target.",
+    "evidence": "FitGen: Validation and Guided Repair of LLM Generated Executable Fitness Functions for Search Based Software Testing"
+  },
+  {
+    "id": "R01729",
+    "decision": "EXCLUDE",
+    "reason": "Automotive inference optimization, not security or OS work.",
+    "evidence": "Enhancing Inference Performance of a Personalized Driver Assistance System through LLM Fine-Tuning and Quantization"
+  },
+  {
+    "id": "R01730",
+    "decision": "EXCLUDE",
+    "reason": "Test repair for non-idempotent outcomes; no security task or OS target.",
+    "evidence": "NIODebugger: A Novel Approach to Repair Non-Idempotent-Outcome Tests with LLM-Based Agent"
+  },
+  {
+    "id": "R01731",
+    "decision": "EXCLUDE",
+    "reason": "Driver training and V2X scenario explanation, not security or OS research.",
+    "evidence": "V2X Communication and LLM-Based Driver Training System: Providing Scenario Semantic Explanations and Challenge Task Generation for Novice Drivers"
+  },
+  {
+    "id": "R01732",
+    "decision": "EXCLUDE",
+    "reason": "ASR error repair evaluation, not security or OS work.",
+    "evidence": "CSER: Semantic Evaluation of LLM Auto-Repair for Code-Switching ASR"
+  },
+  {
+    "id": "R01733",
+    "decision": "EXCLUDE",
+    "reason": "General program-repair objective alignment; no security or OS focus.",
+    "evidence": "Aligning the Objective of LLM-Based Program Repair"
+  },
+  {
+    "id": "R01734",
+    "decision": "EXCLUDE",
+    "reason": "Web UI test repair, not security or OS research.",
+    "evidence": "Intent-driven Web UI Tests Repair with LLM"
+  },
+  {
+    "id": "R01735",
+    "decision": "EXCLUDE",
+    "reason": "General code repair with human insights; no security outcome or OS target.",
+    "evidence": "Leveraging Human Insights for Enhanced LLM-based Code Repair"
+  },
+  {
+    "id": "R01736",
+    "decision": "EXCLUDE",
+    "reason": "Robustness benchmark for general program repair; no security or OS target.",
+    "evidence": "HEJ-Robust: A Robustness Benchmark for LLM-Based Automated Program Repair"
+  },
+  {
+    "id": "R01737",
+    "decision": "EXCLUDE",
+    "reason": "Driver-assistance education outcomes, not security or OS research.",
+    "evidence": "The impact of LLM chatbots on learning outcomes in advanced driver assistance systems education"
+  },
+  {
+    "id": "R01738",
+    "decision": "EXCLUDE",
+    "reason": "Driving-team conversational interface study, not security or OS work.",
+    "evidence": "ELI: A Conversational LLM-Based Interface for Human–AI Driving Teams and Its Impact on Performance and Driver Status"
+  },
+  {
+    "id": "R01739",
+    "decision": "EXCLUDE",
+    "reason": "Private LLM program repair; no security task targeting OS components is indicated.",
+    "evidence": "LLM Firewall: Private LLM Program Repair Using Hybrid Intent Inference"
+  },
+  {
+    "id": "R01740",
+    "decision": "EXCLUDE",
+    "reason": "General program repair with knowledge injection; no security or OS focus.",
+    "evidence": "Hierarchical Knowledge Injection for Improving LLM-based Program Repair"
+  },
+  {
+    "id": "R01741",
+    "decision": "EXCLUDE",
+    "reason": "General code repair using RAG; no security outcome or OS target.",
+    "evidence": "RAGFix: Enhancing LLM Code Repair Using RAG and Stack Overflow Posts"
+  },
+  {
+    "id": "R01742",
+    "decision": "EXCLUDE",
+    "reason": "Test-generation repair loops, not security or OS research.",
+    "evidence": "A Qualitative and Quantitative Exploration of LLM-Based Test Generation Repair Loops"
+  },
+  {
+    "id": "R01743",
+    "decision": "EXCLUDE",
+    "reason": "Review of fungal DNA repair, not LLM or OS security research.",
+    "evidence": "In the present review"
+  },
+  {
+    "id": "R01744",
+    "decision": "EXCLUDE",
+    "reason": "Data-engineering pipeline incident repair, not security or OS work.",
+    "evidence": "agentic data engineering"
+  },
+  {
+    "id": "R01745",
+    "decision": "EXCLUDE",
+    "reason": "ESLint-related program repair, not security or OS research.",
+    "evidence": "An Empirical Analysis of ESLint Information Components and Their Interactions in LLM-based Program Repair"
+  },
+  {
+    "id": "R01746",
+    "decision": "EXCLUDE",
+    "reason": "Program-repair benchmark position, not security or OS research.",
+    "evidence": "Making the Case for LLM-Generated Automated Program Repair Benchmarks"
+  },
+  {
+    "id": "R01747",
+    "decision": "EXCLUDE",
+    "reason": "Public error-repair analysis after LLM failures; no security or OS target.",
+    "evidence": "A Reliability-Gated Computational Pipeline for Analyzing Public Error Repair after LLM Failures"
+  },
+  {
+    "id": "R01748",
+    "decision": "EXCLUDE",
+    "reason": "Automated test-case repair, not security or OS research.",
+    "evidence": "A Multi-Stage Approach for LLM-Based Automated Repair of Test Cases"
+  },
+  {
+    "id": "R01749",
+    "decision": "EXCLUDE",
+    "reason": "Theorem-proving repair, not security or OS work.",
+    "evidence": "LLM-Enhanced Theorem Proving with Term Explanation and Tactic Parameter Repair"
+  },
+  {
+    "id": "R01750",
+    "decision": "EXCLUDE",
+    "reason": "Automotive fault detection and OTA assistance; no security or OS target.",
+    "evidence": "Hybrid LSTM-LLM Framework for Fault Detection and OTA-Enabled Driver Assistance in SDV-Based Special Purpose Vehicles"
+  },
+  {
+    "id": "R01751",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; Kubernetes configuration repair could touch system services, but no security task or OS/privileged target is established.",
+    "evidence": "Kubernetes Backend Configurations"
+  },
+  {
+    "id": "R01752",
+    "decision": "EXCLUDE",
+    "reason": "General code repair with knowledge graphs; no security or OS focus.",
+    "evidence": "From Bugs to Fixes: Self-Evolving Hierarchical Knowledge Graphs for LLM-Based Code Repair"
+  },
+  {
+    "id": "R01753",
+    "decision": "EXCLUDE",
+    "reason": "Driving-fatigue chatbot, not security or OS research.",
+    "evidence": "Chatbot and Fatigued Driver: Exploring the Use of LLM-Based Voice Assistants for Driving Fatigue"
+  },
+  {
+    "id": "R01754",
+    "decision": "EXCLUDE",
+    "reason": "CI failure diagnosis and patch repair; no security outcome or OS target.",
+    "evidence": "LLM-Driven CI Failure Diagnosis and Automated Repair: From GitHub Actions Logs to Patch Recommendation"
+  },
+  {
+    "id": "R01755",
+    "decision": "EXCLUDE",
+    "reason": "Chip layout DRC repair, not OS security research.",
+    "evidence": "Violation-Centric and Constraint-Aware LLM Agent for Layout DRC Repair"
+  },
+  {
+    "id": "R01756",
+    "decision": "EXCLUDE",
+    "reason": "Browser end-to-end test-script repair, not security or OS work.",
+    "evidence": "Does Live Browser Context Improve LLM-Assisted End-to-End Test Script Repair? An Empirical Study of Playwright MCP"
+  },
+  {
+    "id": "R01757",
+    "decision": "EXCLUDE",
+    "reason": "Code translation and repair benchmark; no security or OS focus.",
+    "evidence": "CodeTransBenchmark: evaluating LLM-based code translation and repair across programming languages"
+  },
+  {
+    "id": "R01758",
+    "decision": "EXCLUDE",
+    "reason": "Community social repair initiative, not LLM or OS security research.",
+    "evidence": "Repair as a driver of community-led behavioural change"
+  },
+  {
+    "id": "R01759",
+    "decision": "EXCLUDE",
+    "reason": "V2X telemetry repair and fault detection; no security task or OS target.",
+    "evidence": "LLM-Based Telemetry Repair and Fault Detection in V2X Networks with Digital Twin Guidance"
+  },
+  {
+    "id": "R01760",
+    "decision": "EXCLUDE",
+    "reason": "PDDL planning-domain repair, not security or OS research.",
+    "evidence": "Feedback Granularity in Bounded Repair of LLM-Generated PDDL Domains"
+  }
+]

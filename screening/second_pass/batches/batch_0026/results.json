@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03286",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-attack defense for LLMs themselves, not OS components.",
+    "evidence": "adversarial prompt attacks against LLMs"
+  },
+  {
+    "id": "R03287",
+    "decision": "EXCLUDE",
+    "reason": "Random-forest/text classifiers for enterprise logs, with no LLM role.",
+    "evidence": "compares class-balanced logistic regression with a 90-tree random forest"
+  },
+  {
+    "id": "R03297",
+    "decision": "EXCLUDE",
+    "reason": "T5-based log anomaly detection for system failures, not security analysis.",
+    "evidence": "Spiking Neural Networks for System Log Anomaly Detection"
+  },
+  {
+    "id": "R03299",
+    "decision": "EXCLUDE",
+    "reason": "Simulated LLM-style AIOps policies for reliability, not substantive LLM security.",
+    "evidence": "deterministic local policies that simulate zero-shot and few-shot LLM-style inference"
+  },
+  {
+    "id": "R03300",
+    "decision": "EXCLUDE",
+    "reason": "AIOps anomaly/runbook generation, not security analysis of OS components.",
+    "evidence": "produces operator-ready runbooks using an LLM-style agent"
+  },
+  {
+    "id": "R03302",
+    "decision": "EXCLUDE",
+    "reason": "Federated LLM log anomaly detection for reliability/privacy, not OS security.",
+    "evidence": "unified online log anomaly detection framework"
+  },
+  {
+    "id": "R03305",
+    "decision": "EXCLUDE",
+    "reason": "Unsupervised HDFS security-log detection without an LLM.",
+    "evidence": "an end-to-end complete CPU-only, unsupervised anomaly detection engine for HDFS security logging system"
+  },
+  {
+    "id": "R03312",
+    "decision": "EXCLUDE",
+    "reason": "Transfer-learning log anomaly detection, with no LLM or OS security task.",
+    "evidence": "a transfer learning-based approach for cross-system log anomaly detection"
+  },
+  {
+    "id": "R03319",
+    "decision": "EXCLUDE",
+    "reason": "Graph/LSTM cyber-log detection without an LLM.",
+    "evidence": "a graph-based deep learning model that analyzes log data to detect cyber-attacks"
+  },
+  {
+    "id": "R03320",
+    "decision": "EXCLUDE",
+    "reason": "LLM framework for operational log anomaly detection, not a security task.",
+    "evidence": "intelligent system operations and maintenance"
+  },
+  {
+    "id": "R03322",
+    "decision": "EXCLUDE",
+    "reason": "Cloud anomaly detection uses autoencoder/forest/LSTM, not an LLM.",
+    "evidence": "a hybrid detection model based on the combination of an Autoencoder model, an Isolation Forest model and a Long Short-Term Memory (LSTM) model"
+  },
+  {
+    "id": "R03326",
+    "decision": "EXCLUDE",
+    "reason": "Federated log anomaly detection and privacy, with no LLM security work.",
+    "evidence": "a memory-augmented meta-learning model to enhance generalization"
+  },
+  {
+    "id": "R03330",
+    "decision": "EXCLUDE",
+    "reason": "Dual-LSTM log anomaly detection, with no LLM role.",
+    "evidence": "a system log anomaly detection method based on dual long short-term memory (LSTM)"
+  },
+  {
+    "id": "R03335",
+    "decision": "UNCLEAR",
+    "reason": "LLM-driven cloud security response, but OS/privileged-interface target is not explicit.",
+    "evidence": "isolation of compromised instances, automated credential rotation, and firewall rule updates"
+  },
+  {
+    "id": "R03336",
+    "decision": "EXCLUDE",
+    "reason": "LLM log anomaly detection/resolution for operations, not security analysis.",
+    "evidence": "detect and resolve anomalies in real-time"
+  },
+  {
+    "id": "R03338",
+    "decision": "EXCLUDE",
+    "reason": "Antivirus-log filtering for attacks without an LLM.",
+    "evidence": "method for detecting events in antivirus logs that are real malware events"
+  },
+  {
+    "id": "R03341",
+    "decision": "EXCLUDE",
+    "reason": "Distributed log-trace anomaly detection with LSTM, not an LLM security task.",
+    "evidence": "a long short-term memory network (LSTM) is used to analyze deviations"
+  },
+  {
+    "id": "R03342",
+    "decision": "EXCLUDE",
+    "reason": "AIOps log anomaly detection using BERT-derived encoders, not LLM OS security.",
+    "evidence": "employs BERT-derived models for semantic encoding of log fragments"
+  },
+  {
+    "id": "R03343",
+    "decision": "UNCLEAR",
+    "reason": "LLM extracts security semantics from cybersecurity logs, but OS target is not explicit.",
+    "evidence": "structured prompt template tailored to cybersecurity logs"
+  },
+  {
+    "id": "R03344",
+    "decision": "EXCLUDE",
+    "reason": "Conformal log anomaly detection without an LLM.",
+    "evidence": "log-based conformal anomaly detection (LogCAD) builds a confidence evaluation mechanism"
+  },
+  {
+    "id": "R03356",
+    "decision": "EXCLUDE",
+    "reason": "BERT-based contrastive log anomaly detection, not LLM security of OS.",
+    "evidence": "introduces contrastive learning and dual-objective tasks in a BERT pre-trained model"
+  },
+  {
+    "id": "R03357",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial training for log anomaly models, not LLM OS security.",
+    "evidence": "combines adversarial fine-tuning and contrastive learning"
+  },
+  {
+    "id": "R03364",
+    "decision": "EXCLUDE",
+    "reason": "Fine-tuned BERT log anomaly detection, not LLM security of OS components.",
+    "evidence": "uses a pretrained BERT-based language model fine-tuned to recognise the linguistic patterns of the normal log data"
+  },
+  {
+    "id": "R03368",
+    "decision": "EXCLUDE",
+    "reason": "Fine-tuned BERT log anomaly detection, not LLM security of OS components.",
+    "evidence": "uses a pretrained BERT-based language model fine-tuned to recognise the linguistic patterns of the normal log data"
+  },
+  {
+    "id": "R03372",
+    "decision": "EXCLUDE",
+    "reason": "Flow-based IoT intrusion detection without an LLM.",
+    "evidence": "a lightweight and efficient anomaly detection framework tailored for IoT environments"
+  },
+  {
+    "id": "R03373",
+    "decision": "EXCLUDE",
+    "reason": "Temporal-convolution log anomaly detection without an LLM.",
+    "evidence": "efficient channel attention and temporal convolutional network (ETCNLog)"
+  },
+  {
+    "id": "R03376",
+    "decision": "EXCLUDE",
+    "reason": "Deep-learning log anomaly detection, not LLM OS security.",
+    "evidence": "a deep learning model with global spatiotemporal features"
+  },
+  {
+    "id": "R03380",
+    "decision": "EXCLUDE",
+    "reason": "EFL writing study, unrelated to security or OS components.",
+    "evidence": "widely used in language teaching and acquisition"
+  },
+  {
+    "id": "R03381",
+    "decision": "EXCLUDE",
+    "reason": "Emotion-representation study, unrelated to security or OS.",
+    "evidence": "dimensional representation of human emotions using large language models"
+  },
+  {
+    "id": "R03382",
+    "decision": "EXCLUDE",
+    "reason": "Emotion-representation study, unrelated to security or OS.",
+    "evidence": "dimensional representation of human emotions using large language models"
+  },
+  {
+    "id": "R03384",
+    "decision": "EXCLUDE",
+    "reason": "Investment-signal extraction, unrelated to security or OS.",
+    "evidence": "extract contextual financial information"
+  },
+  {
+    "id": "R03385",
+    "decision": "EXCLUDE",
+    "reason": "Audit protocol for behavioral experiments, not OS security research.",
+    "evidence": "an auditable protocol for closing that gap"
+  },
+  {
+    "id": "R03386",
+    "decision": "EXCLUDE",
+    "reason": "Academic-writing instruction, unrelated to security or OS.",
+    "evidence": "into academic writing instruction"
+  },
+  {
+    "id": "R03388",
+    "decision": "EXCLUDE",
+    "reason": "Docker security framework without an LLM.",
+    "evidence": "proposing a unique Docker-sec mechanism"
+  },
+  {
+    "id": "R03389",
+    "decision": "EXCLUDE",
+    "reason": "Container-escape blast-radius analysis without an LLM.",
+    "evidence": "escape the confines of containers"
+  },
+  {
+    "id": "R03390",
+    "decision": "EXCLUDE",
+    "reason": "Container vulnerability scanning/DevSecOps without an LLM.",
+    "evidence": "integrates multiple vulnerability scanners (Trivy, Anchore, Clair)"
+  },
+  {
+    "id": "R03391",
+    "decision": "UNCLEAR",
+    "reason": "Title-only record gives no LLM role, so scope cannot be judged.",
+    "evidence": "Containerization Security: Addressing Risks in Cloud Container Deployments"
+  },
+  {
+    "id": "R03394",
+    "decision": "EXCLUDE",
+    "reason": "Docker hardening framework without an LLM.",
+    "evidence": "a comprehensive, multi-layered security framework for Docker containerization"
+  },
+  {
+    "id": "R03395",
+    "decision": "EXCLUDE",
+    "reason": "Survey of container-security literature, not original LLM OS research.",
+    "evidence": "This paper surveys existing literature on container security"
+  },
+  {
+    "id": "R03398",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted shipping-container yard heuristics, not OS security.",
+    "evidence": "LLM-assisted heuristic stacking strategies"
+  }
+]

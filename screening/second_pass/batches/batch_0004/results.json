@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R00439",
+    "decision": "EXCLUDE",
+    "reason": "Benchmarks LLM implementations across programming languages; no security analysis or OS security task.",
+    "evidence": "comparative analysis of these implementations, using the llm.c project as a performance benchmark"
+  },
+  {
+    "id": "R00441",
+    "decision": "EXCLUDE",
+    "reason": "General comparison of GPT-4 and GPT-3.5 capabilities; no security or OS task.",
+    "evidence": "elucidate the capabilities of GPT-4 and conduct a comparative analysis with its predecessor"
+  },
+  {
+    "id": "R00445",
+    "decision": "EXCLUDE",
+    "reason": "General comparison of GPT-4 and GPT-3.5 capabilities; no security or OS task.",
+    "evidence": "elucidate the capabilities of GPT-4 and conduct a comparative analysis with its predecessor"
+  },
+  {
+    "id": "R00446",
+    "decision": "EXCLUDE",
+    "reason": "Partition-table disk security experiment; no LLM use or LLM security task.",
+    "evidence": "potential vulnerabilities of information system structures of computer hard drives with GPT configuration"
+  },
+  {
+    "id": "R00447",
+    "decision": "EXCLUDE",
+    "reason": "Android application permission security; no LLM role described.",
+    "evidence": "vulnerabilities and ways to protect mobile applications based on the Android operating system"
+  },
+  {
+    "id": "R00452",
+    "decision": "EXCLUDE",
+    "reason": "GPT-based vulnerability detection targets front-end application source code, not OS components or privileged interfaces.",
+    "evidence": "static analysis of the source code of front-end applications at the endpoints of the data path"
+  },
+  {
+    "id": "R00458",
+    "decision": "EXCLUDE",
+    "reason": "Overview of Linux kernel security mechanisms; no LLM use and review-like scope.",
+    "evidence": "This paper examines the main security mechanisms implemented in the Linux kernel"
+  },
+  {
+    "id": "R00459",
+    "decision": "EXCLUDE",
+    "reason": "ChatGPT use in agriculture; no security or OS task.",
+    "evidence": "the potential uses of chat GPT in agriculture"
+  },
+  {
+    "id": "R00464",
+    "decision": "EXCLUDE",
+    "reason": "ChatGPT use in microbiology; no security or OS task.",
+    "evidence": "role and limitations of ChatGPT in the field of microbiology"
+  },
+  {
+    "id": "R00466",
+    "decision": "EXCLUDE",
+    "reason": "Mobile browser sensor side-channel study; no LLM use described.",
+    "evidence": "access a mobile phone's sensors through a web browser without the user's knowledge"
+  },
+  {
+    "id": "R00468",
+    "decision": "EXCLUDE",
+    "reason": "Academic information system development; no LLM or security task.",
+    "evidence": "develop a web-based academic information system using the Agile method"
+  },
+  {
+    "id": "R00469",
+    "decision": "EXCLUDE",
+    "reason": "Biblical manuscript study; no LLM, security, or OS component.",
+    "evidence": "a biblical text liable to revision and emendation"
+  },
+  {
+    "id": "R00470",
+    "decision": "EXCLUDE",
+    "reason": "Alumni management system development; no LLM or security task.",
+    "evidence": "design and implement a mobile-based alumni relationship management system"
+  },
+  {
+    "id": "R00471",
+    "decision": "EXCLUDE",
+    "reason": "Data mining web system; no LLM security or OS task.",
+    "evidence": "design and implement a web-based data mining system using the Streamlit framework"
+  },
+  {
+    "id": "R00478",
+    "decision": "EXCLUDE",
+    "reason": "Academic management system; no LLM or security task.",
+    "evidence": "design and implement an integrated web-based academic management and student admission monitoring system"
+  },
+  {
+    "id": "R00490",
+    "decision": "EXCLUDE",
+    "reason": "Food allergen risk assessment; no LLM, security, or OS component.",
+    "evidence": "Assessment of the Codex report on food allergen thresholds"
+  },
+  {
+    "id": "R00491",
+    "decision": "EXCLUDE",
+    "reason": "Islamic legal theory analysis; no LLM, security, or OS component.",
+    "evidence": "El artículo explora la distinción entre ordenamiento y sistema jurídico en la Sharía"
+  },
+  {
+    "id": "R00492",
+    "decision": "EXCLUDE",
+    "reason": "Codex Vaticanus scribal study; no LLM, security, or OS task.",
+    "evidence": "This chapter introduces various scribal features of Codex Vaticanus."
+  },
+  {
+    "id": "R00494",
+    "decision": "EXCLUDE",
+    "reason": "Residency information system concept; no LLM, security, or OS research.",
+    "evidence": "The institutional knowledge required for residency is vast, complex, and frequently changing."
+  },
+  {
+    "id": "R00496",
+    "decision": "EXCLUDE",
+    "reason": "Residency information system concept; no LLM, security, or OS research.",
+    "evidence": "The institutional knowledge required for residency is vast, complex, and frequently changing."
+  },
+  {
+    "id": "R00498",
+    "decision": "EXCLUDE",
+    "reason": "Codex Borgia interpretation; no LLM, security, or OS task.",
+    "evidence": "How Can the Codex Borgia Be Decoded?"
+  },
+  {
+    "id": "R00501",
+    "decision": "EXCLUDE",
+    "reason": "Codex Borgia calendar analysis; no LLM, security, or OS task.",
+    "evidence": "Chapter 4 analyzes the chronology of Calendar Round dates in the Codex Borgia"
+  },
+  {
+    "id": "R00504",
+    "decision": "EXCLUDE",
+    "reason": "Codex Borgia Venus almanac analysis; no LLM, security, or OS task.",
+    "evidence": "Chapter 7 discusses three different Venus almanacs in the Codex Borgia"
+  },
+  {
+    "id": "R00505",
+    "decision": "EXCLUDE",
+    "reason": "Classical tragedy analysis; no LLM, security, or OS task.",
+    "evidence": "A tragédia Filoctetes de Sófocles evoca o dilema ético de Neoptólemo"
+  },
+  {
+    "id": "R00506",
+    "decision": "EXCLUDE",
+    "reason": "Life-management framework using an AI layer; no security or OS component research.",
+    "evidence": "introduces the concept of a Life Operating System (Life OS)"
+  },
+  {
+    "id": "R00508",
+    "decision": "EXCLUDE",
+    "reason": "Operating-room patient vulnerability study; no LLM or OS security task.",
+    "evidence": "mechanisms of power, control and patient vulnerability in the operating room"
+  },
+  {
+    "id": "R00512",
+    "decision": "EXCLUDE",
+    "reason": "Codex Borgia provenance/calendar study; no LLM, security, or OS task.",
+    "evidence": "where the Codex Borgia was created in Central Mexico and how it arrived in Europe"
+  },
+  {
+    "id": "R00513",
+    "decision": "EXCLUDE",
+    "reason": "Codex chapter numeration study; no LLM, security, or OS task.",
+    "evidence": "early chapter numeration in the codex"
+  },
+  {
+    "id": "R00515",
+    "decision": "EXCLUDE",
+    "reason": "IoT OS vulnerability detection uses Random Forest, CNN, and RNN, not an LLM.",
+    "evidence": "detecting vulnerabilities in C/C++ source code of IoT OSs"
+  },
+  {
+    "id": "R00519",
+    "decision": "EXCLUDE",
+    "reason": "Unpublished manuscript publication; no LLM, security, or OS task.",
+    "evidence": "The Book on the Russian Grail"
+  },
+  {
+    "id": "R00520",
+    "decision": "EXCLUDE",
+    "reason": "Human psychology framework using OS metaphor; no LLM security or real OS target.",
+    "evidence": "Fixing Stupid: Repairing The Human Operating System"
+  },
+  {
+    "id": "R00521",
+    "decision": "EXCLUDE",
+    "reason": "Catullus literary analysis; no LLM, security, or OS task.",
+    "evidence": "Troy and Trojan lore plays an appreciable role in the extant poetry of Catullus"
+  },
+  {
+    "id": "R00522",
+    "decision": "EXCLUDE",
+    "reason": "Equipment calibration procedure; no LLM, security, or OS research.",
+    "evidence": "system and requirements for calibration of equipment and instrumentation"
+  },
+  {
+    "id": "R00525",
+    "decision": "EXCLUDE",
+    "reason": "Translation study of the Iliad; no LLM, security, or OS task.",
+    "evidence": "proposta tradutória de Odorico Mendes ao verter a Ilíada para a língua portuguesa"
+  },
+  {
+    "id": "R00526",
+    "decision": "EXCLUDE",
+    "reason": "Pindar transmission study; no LLM, security, or OS task.",
+    "evidence": "Píndaro antes de Alexandria: a conexão aristotélica"
+  },
+  {
+    "id": "R00527",
+    "decision": "EXCLUDE",
+    "reason": "Critique of a Windows evolution overview; no LLM security research.",
+    "evidence": "overview of the evolutionary trends in Windows technology is outlined"
+  },
+  {
+    "id": "R00528",
+    "decision": "EXCLUDE",
+    "reason": "Codex watermark historiography; no LLM, security, or OS task.",
+    "evidence": "analysis of the watermark in the Șumuleu Ciuc (Csíksomlyó) Codex"
+  },
+  {
+    "id": "R00530",
+    "decision": "EXCLUDE",
+    "reason": "Dreams in Greek tragedy; no LLM, security, or OS task.",
+    "evidence": "convencionalmente, os sonhos na tragédia grega"
+  },
+  {
+    "id": "R00531",
+    "decision": "EXCLUDE",
+    "reason": "Codex Vaticanus textual articulation study; no LLM, security, or OS task.",
+    "evidence": "Overview of Text Articulation and Numeration in Codex Vaticanus"
+  },
+  {
+    "id": "R00533",
+    "decision": "EXCLUDE",
+    "reason": "Apuleius literary analysis; no LLM, security, or OS task.",
+    "evidence": "O conto de Cupido e Psiquê jaz no coração de O Asno de Ouro"
+  }
+]

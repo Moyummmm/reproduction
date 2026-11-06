@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R04121",
+    "decision": "EXCLUDE",
+    "reason": "General source-code vulnerability detection with graph/Transformer models; no substantive LLM role or OS target.",
+    "evidence": "Source Code Vulnerability Detection Based on Joint Graph and Multimodal Feature Fusion"
+  },
+  {
+    "id": "R04122",
+    "decision": "EXCLUDE",
+    "reason": "Deep sequence/graph code vulnerability detection; no LLM role or OS component target.",
+    "evidence": "VulD-SG: Enhancing code vulnerability detection via combining deep sequence and graph model"
+  },
+  {
+    "id": "R04123",
+    "decision": "EXCLUDE",
+    "reason": "GNN-based Go source-code vulnerability detection; general software, not LLM/OS.",
+    "evidence": "Go Source Code Vulnerability Detection Method Based on Graph Neural Network"
+  },
+  {
+    "id": "R04124",
+    "decision": "EXCLUDE",
+    "reason": "Repairs insecure LLM-generated code; security of LLM outputs/general code, not OS target.",
+    "evidence": "Semantic Patch Learning for Vulnerability Repair in LLM-Generated Code"
+  },
+  {
+    "id": "R04125",
+    "decision": "EXCLUDE",
+    "reason": "Code generation framework; no security task shown.",
+    "evidence": "GraphCodeNet: a semantic-aware code generation framework integrating code property graph neural networks and large language models"
+  },
+  {
+    "id": "R04126",
+    "decision": "EXCLUDE",
+    "reason": "Requirements-code traceability; no security task shown.",
+    "evidence": "HGTRTracer: Advancing Requirements-Code Traceability with LLM-Augmented Attribution Reasoning and Heterogeneous Graph Transformer"
+  },
+  {
+    "id": "R04127",
+    "decision": "UNCLEAR",
+    "reason": "Vulnerability locator title but abstract missing; LLM role and OS target unclear.",
+    "evidence": "SlicedLocator: Code vulnerability locator based on sliced dependence graph"
+  },
+  {
+    "id": "R04128",
+    "decision": "UNCLEAR",
+    "reason": "Source-code vulnerability detection title; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "Source code vulnerability detection method based on multichannel heterogeneous graph convolutional network"
+  },
+  {
+    "id": "R04129",
+    "decision": "UNCLEAR",
+    "reason": "LLM vulnerability discovery title; missing abstract leaves OS target and evaluation unclear.",
+    "evidence": "LLM-based Vulnerability Discovery through the Lens of Code Metrics"
+  },
+  {
+    "id": "R04130",
+    "decision": "EXCLUDE",
+    "reason": "Issue localization/code graph search; no explicit security task.",
+    "evidence": "Issue Localization via LLM-Driven Iterative Code Graph Searching"
+  },
+  {
+    "id": "R04131",
+    "decision": "EXCLUDE",
+    "reason": "API sequence recommendation; no security task.",
+    "evidence": "Research on API Sequence Recommendation Based on Code Property Graph"
+  },
+  {
+    "id": "R04132",
+    "decision": "UNCLEAR",
+    "reason": "CodeBERT/GAT vulnerability detection; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "Source Code Vulnerability Detection Based on CodeBERT and Graph Attention Network"
+  },
+  {
+    "id": "R04133",
+    "decision": "EXCLUDE",
+    "reason": "Graph-embedding code vulnerability detection; no substantive LLM role or OS target.",
+    "evidence": "this article proposes a code vulnerability detection method, named VulGraB"
+  },
+  {
+    "id": "R04134",
+    "decision": "EXCLUDE",
+    "reason": "DL-based general code vulnerability detection; no LLM role or OS component target.",
+    "evidence": "PVDetector, a DL-based approach that utilizes rich code semantics"
+  },
+  {
+    "id": "R04135",
+    "decision": "UNCLEAR",
+    "reason": "GNN loop-oriented code vulnerability detection; missing abstract leaves LLM/OS scope unclear.",
+    "evidence": "LCVD: Loop-oriented code vulnerability detection via graph neural network"
+  },
+  {
+    "id": "R04136",
+    "decision": "EXCLUDE",
+    "reason": "LLM unit-test code generation; no security task.",
+    "evidence": "High-Coverage LLM-based Unit Test Code Generation through Control Flow Graph Guidance"
+  },
+  {
+    "id": "R04137",
+    "decision": "UNCLEAR",
+    "reason": "Code vulnerability detection system title; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "VulDeCRG: A Vulnerability Detection System based on Code Representation Graph"
+  },
+  {
+    "id": "R04138",
+    "decision": "UNCLEAR",
+    "reason": "LLM code vulnerability detection analysis; missing abstract leaves OS target unclear.",
+    "evidence": "Are Reasoning Traces Faithful in LLM-Based Code Vulnerability Detection?"
+  },
+  {
+    "id": "R04139",
+    "decision": "EXCLUDE",
+    "reason": "PDG/CodeBERT general code vulnerability detection; no OS target.",
+    "evidence": "code vulnerability detection method based on an augmented program dependency graph and optimized CodeBERT"
+  },
+  {
+    "id": "R04140",
+    "decision": "EXCLUDE",
+    "reason": "GNN code dependency vulnerability detection in DevOps; general software, no LLM/OS.",
+    "evidence": "Graph Neural Networks (GNN) for Code Dependency Vulnerability Detection"
+  },
+  {
+    "id": "R04141",
+    "decision": "UNCLEAR",
+    "reason": "Vulnerability severity assessment title; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "A Code Visualization Graph-Based Method for Vulnerability Severity Assessment Using a Multi-Scale Feature Fusion Network"
+  },
+  {
+    "id": "R04142",
+    "decision": "UNCLEAR",
+    "reason": "Repository-level vulnerability detection; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "Collaboration to Repository-Level Vulnerability Detection"
+  },
+  {
+    "id": "R04143",
+    "decision": "UNCLEAR",
+    "reason": "Vulnerability-detection dataset title; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "Toward Scalable Automated Repository-Level Datasets for Software Vulnerability Detection"
+  },
+  {
+    "id": "R04144",
+    "decision": "UNCLEAR",
+    "reason": "Repository-level vulnerability-detection evaluation; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "From Function to Repository: Towards Repository-Level Evaluation of Software Vulnerability Detection"
+  },
+  {
+    "id": "R04145",
+    "decision": "EXCLUDE",
+    "reason": "Repository-level code generation; no security task.",
+    "evidence": "RepoMind: Enhancing Repository-Level Code Generation via LLM Reasoning over Structured Repository Documentation"
+  },
+  {
+    "id": "R04146",
+    "decision": "UNCLEAR",
+    "reason": "ML cybersecurity/vulnerability detection title; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "Machine Learning Applications in Cyber Security: Software Repository Utilization for Vulnerability Centric Vulnerability Detection"
+  },
+  {
+    "id": "R04147",
+    "decision": "UNCLEAR",
+    "reason": "Repository-level vulnerability detection; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "GraphLedger: Repository-Level Vulnerability Detection via Graph-Based Compression and Assumption Validation"
+  },
+  {
+    "id": "R04148",
+    "decision": "UNCLEAR",
+    "reason": "LLM-Risk title is too vague to establish a security task or OS target.",
+    "evidence": "LLM-Risk"
+  },
+  {
+    "id": "R04149",
+    "decision": "EXCLUDE",
+    "reason": "Code smell detection; no security outcome.",
+    "evidence": "Repository-Level Code Smell Detection Based on Multi-Scale Code Information and LLM Assistance"
+  },
+  {
+    "id": "R04150",
+    "decision": "UNCLEAR",
+    "reason": "LLM ReAct vulnerability detection; missing abstract leaves OS target unclear.",
+    "evidence": "Perception, Reasoning, and Action: A ReAct-Based Vulnerability Detection Framework with Repository-Level Reasoning"
+  },
+  {
+    "id": "R04151",
+    "decision": "EXCLUDE",
+    "reason": "LLM code-clone detection in microservices; no security outcome.",
+    "evidence": "An LLM-based Technique for Detection of Code Clones Across Open Source Microservice Repository Forks"
+  },
+  {
+    "id": "R04152",
+    "decision": "UNCLEAR",
+    "reason": "Cross-repository vulnerability detection; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "CodeVul+: A Structure-Aware Framework for Cross-Repository Vulnerability Detection"
+  },
+  {
+    "id": "R04153",
+    "decision": "EXCLUDE",
+    "reason": "Spec-driven repository-level code generation; no security task.",
+    "evidence": "LLM-Assisted Repository-Level Generation with Structured Spec-Driven Engineering"
+  },
+  {
+    "id": "R04154",
+    "decision": "EXCLUDE",
+    "reason": "Repository-level code-generation evaluation; no security task.",
+    "evidence": "A Dynamic Evaluation Approach to Repository-Level Code Generation Via LLM"
+  },
+  {
+    "id": "R04155",
+    "decision": "EXCLUDE",
+    "reason": "BERT-based Python vulnerability detection; general software, no substantive LLM/OS target.",
+    "evidence": "DetectBERT: A Transformer-Based Approach for Statement-Level Vulnerability Detection in Python Code"
+  },
+  {
+    "id": "R04156",
+    "decision": "EXCLUDE",
+    "reason": "Repository-level Rust issue resolution; general software maintenance, no explicit security/OS.",
+    "evidence": "Evaluating and Improving Automated Repository-Level Rust Issue Resolution with LLM-based Agents"
+  },
+  {
+    "id": "R04157",
+    "decision": "EXCLUDE",
+    "reason": "Multi-agent LLM unit-test generation; no security task.",
+    "evidence": "TestAgent: A Multi-Agent LLM Framework for Repository-Level Unit Test Generation"
+  },
+  {
+    "id": "R04158",
+    "decision": "EXCLUDE",
+    "reason": "Collaborative code editor using repository-level LLM; no security task.",
+    "evidence": "C3 – Code Commit Collab - A Collaborative Code Editor using Repository Level LLM"
+  },
+  {
+    "id": "R04159",
+    "decision": "EXCLUDE",
+    "reason": "LLM repository-level program repair on SWE-bench; general software, no security/OS outcome.",
+    "evidence": "ExpeRepair, a novel LLM-based program repair framework"
+  },
+  {
+    "id": "R04160",
+    "decision": "UNCLEAR",
+    "reason": "GNN function/line vulnerability detection; missing abstract leaves LLM role and OS target unclear.",
+    "evidence": "A Multi-Class Function/Line Level Vulnerability Detection Using Graph Neural Networks"
+  }
+]

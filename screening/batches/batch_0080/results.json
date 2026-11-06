@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03201",
+    "decision": "UNCLEAR",
+    "reason": "Title-only record gives no indication of LLM use, security task, or OS/TEE target; scope cannot be assessed.",
+    "evidence": "The Programmer's Model"
+  },
+  {
+    "id": "R03202",
+    "decision": "UNCLEAR",
+    "reason": "TEE/TrustZone security-adjacent framework, but the title does not state an LLM role or empirical security evaluation; missing abstract leaves scope uncertain.",
+    "evidence": "Operator-centric Trusted App Management Framework on ARM TrustZone"
+  },
+  {
+    "id": "R03203",
+    "decision": "EXCLUDE",
+    "reason": "Title describes a TrustZone multithreading/parallel-processing framework, not an LLM-based security analysis or protection task targeting OS components.",
+    "evidence": "A Multithreading Framework for Parallel Processing in ARM TrustZone"
+  },
+  {
+    "id": "R03204",
+    "decision": "EXCLUDE",
+    "reason": "Retraction notice, not original empirical research, and no LLM or OS security task is indicated.",
+    "evidence": "Retraction notice to"
+  },
+  {
+    "id": "R03205",
+    "decision": "UNCLEAR",
+    "reason": "ARM TrustZone confidential-VM work is security-relevant, but the title does not establish LLM use or an empirical security task; abstract missing.",
+    "evidence": "Enabling Confidential VMs Across Diverse ARM Platforms by Retrofitting TrustZone"
+  },
+  {
+    "id": "R03206",
+    "decision": "UNCLEAR",
+    "reason": "TrustZone attack-and-defense paper targets a TEE, but LLM involvement and evaluation details are absent from the title; abstract missing.",
+    "evidence": "Return-to-Non-Secure Vulnerabilities on ARM Cortex-M TrustZone: Attack and Defense"
+  },
+  {
+    "id": "R03207",
+    "decision": "EXCLUDE",
+    "reason": "Abstract describes taxonomy classification of LLM survey papers using classical/deep learning, with no LLM-based security or OS target.",
+    "evidence": "This study develops a taxonomy classification model using traditional and deep learning methods."
+  },
+  {
+    "id": "R03208",
+    "decision": "EXCLUDE",
+    "reason": "Review item, not original empirical research; topic concerns LLM risks rather than LLM use for OS security.",
+    "evidence": "Review for"
+  },
+  {
+    "id": "R03209",
+    "decision": "EXCLUDE",
+    "reason": "Title concerns general LLM evaluation, with no security task or OS/privileged-interface target.",
+    "evidence": "Large Language Model Evaluation"
+  },
+  {
+    "id": "R03210",
+    "decision": "EXCLUDE",
+    "reason": "Review of a financial LLM paper, not original empirical security research and outside the OS security focus.",
+    "evidence": "Review of:"
+  },
+  {
+    "id": "R03211",
+    "decision": "EXCLUDE",
+    "reason": "Review of a financial LLM paper, not original empirical security research and outside the OS security focus.",
+    "evidence": "Review of:"
+  },
+  {
+    "id": "R03212",
+    "decision": "EXCLUDE",
+    "reason": "Review of a financial LLM paper, not original empirical security research and outside the OS security focus.",
+    "evidence": "Review of:"
+  },
+  {
+    "id": "R03213",
+    "decision": "EXCLUDE",
+    "reason": "General LLM-selection question with no indicated security task, OS component, or original empirical evaluation.",
+    "evidence": "What Large Language Model Is the Best for You?"
+  },
+  {
+    "id": "R03214",
+    "decision": "EXCLUDE",
+    "reason": "Robotic-arm control using offline LLMs, not a security analysis or OS/TEE protection task.",
+    "evidence": "Multi-modal Interactive Control of Robotic Arm based on Offline Large Language Models"
+  },
+  {
+    "id": "R03215",
+    "decision": "UNCLEAR",
+    "reason": "Runtime integrity measurement for an ARM TrustZone TEE is security-relevant, but LLM use and empirical scope are not stated; abstract missing.",
+    "evidence": "A Runtime Integrity Measurement Architecture for ARM TrustZone-Based TEE"
+  },
+  {
+    "id": "R03216",
+    "decision": "EXCLUDE",
+    "reason": "Theoretical proposal for a possibilistic language model, with no security task or OS/privileged-interface target.",
+    "evidence": "We propose the Possibilistic Language Model (PLM)"
+  },
+  {
+    "id": "R03217",
+    "decision": "UNCLEAR",
+    "reason": "Secure on-device inference on ARM TrustZone is security-adjacent, but the title does not confirm LLM use or a security analysis task; abstract missing.",
+    "evidence": "Runtime Support for Secure and Efficient On-Device Inference on ARM TrustZone"
+  },
+  {
+    "id": "R03218",
+    "decision": "EXCLUDE",
+    "reason": "ChatGPT prompt engineering for pharmacokinetic data analysis, not security or OS research.",
+    "evidence": "Evaluation of prompt engineering strategies for pharmacokinetic data analysis with the ChatGPT large language model"
+  },
+  {
+    "id": "R03219",
+    "decision": "EXCLUDE",
+    "reason": "Workshop proceedings on LLM memorization, not original empirical research on LLM use for OS security.",
+    "evidence": "Proceedings of the First Workshop on Large Language Model Memorization"
+  },
+  {
+    "id": "R03220",
+    "decision": "EXCLUDE",
+    "reason": "Generic title on LLM developments with no security task or OS component indicated.",
+    "evidence": "Large Language Model Developments"
+  },
+  {
+    "id": "R03221",
+    "decision": "EXCLUDE",
+    "reason": "LLM insights for a graph database, with no security analysis or OS/privileged-interface target.",
+    "evidence": "Large Language Model Insights for Graph Database Neo4J"
+  },
+  {
+    "id": "R03222",
+    "decision": "EXCLUDE",
+    "reason": "Study of LLM disagreement and stock-market effects, outside security and OS scope.",
+    "evidence": "across different models and its economic implications"
+  },
+  {
+    "id": "R03223",
+    "decision": "EXCLUDE",
+    "reason": "Economic-impact study of LLMs in India, not a security task or OS-targeted research.",
+    "evidence": "influence of Large Language Models (LLMs) on the Indian economy"
+  },
+  {
+    "id": "R03224",
+    "decision": "EXCLUDE",
+    "reason": "Duplicate generic LLM-developments title with no security or OS focus.",
+    "evidence": "Large Language Model Developments"
+  },
+  {
+    "id": "R03225",
+    "decision": "EXCLUDE",
+    "reason": "Study of multimodal LLM noise resistance and denoising, not security analysis or OS protection.",
+    "evidence": "noise resistance against both textual noise"
+  },
+  {
+    "id": "R03226",
+    "decision": "EXCLUDE",
+    "reason": "LLM finetuning/merging efficiency work, with no security outcome or OS target indicated.",
+    "evidence": "Democratizing Large Language Model Accessibility Through Efficiency Optimization"
+  },
+  {
+    "id": "R03227",
+    "decision": "UNCLEAR",
+    "reason": "TrustZone covert-channel security analysis is a relevant privileged-interface target, but the title does not establish LLM use; abstract missing.",
+    "evidence": "Data Covert Channels between the Secure World and the Normal World in the ARM TrustZone Architecture"
+  },
+  {
+    "id": "R03228",
+    "decision": "EXCLUDE",
+    "reason": "AI ethics framework for LLM development, not original security analysis or OS-targeted research.",
+    "evidence": "Challenges in Large Language Model Development and AI Ethics"
+  },
+  {
+    "id": "R03229",
+    "decision": "EXCLUDE",
+    "reason": "General LLM-based program repair in model-based development, with no security task or OS target indicated.",
+    "evidence": "Automatic Program Repair Using Large Language Models in Model-Based Development"
+  },
+  {
+    "id": "R03230",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based ARM decompilation could support security analysis, but the title does not specify a security task or OS evaluation; abstract missing.",
+    "evidence": "Enhancing C Language Decompilation on ARM Platform Using Large Language Model"
+  },
+  {
+    "id": "R03231",
+    "decision": "UNCLEAR",
+    "reason": "TrustZone covert-channel security analysis targets a TEE, but LLM use and empirical details are not evident from the title; abstract missing.",
+    "evidence": "Introducing A Novel Cross-World Covert-Channel Through Comprehensive Security Analysis on ARM TrustZone"
+  },
+  {
+    "id": "R03232",
+    "decision": "EXCLUDE",
+    "reason": "Enterprise information-environment interaction model using LLMs, with no security or OS focus.",
+    "evidence": "Interaction Model for Enterprise Information Environments with Large Language Models"
+  },
+  {
+    "id": "R03233",
+    "decision": "EXCLUDE",
+    "reason": "Clinical-reasoning virtual-patient study using ChatGPT, outside security and OS scope.",
+    "evidence": "Virtual Patient Laboratory for Clinical Reasoning Training"
+  },
+  {
+    "id": "R03234",
+    "decision": "EXCLUDE",
+    "reason": "Replication of energy social surveys with LLM agents, not security or OS research.",
+    "evidence": "Energy Social Surveys Replicated with Large Language Model Agents"
+  },
+  {
+    "id": "R03235",
+    "decision": "EXCLUDE",
+    "reason": "Data-science education integration of LLM agents, with no security task or OS target.",
+    "evidence": "Integrating Large Language Model Agents in Data Science Education"
+  },
+  {
+    "id": "R03236",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based malicious-URL detection in a healthcare sandbox, not an OS component or privileged-interface security task.",
+    "evidence": "Healthcare-targeted Malicious URL Detection using LLM Integrated Dynamic Sandbox Environment"
+  },
+  {
+    "id": "R03237",
+    "decision": "EXCLUDE",
+    "reason": "Benchmarking clinical LLM agents on FHIR workflows, not LLM use for OS security.",
+    "evidence": "benchmarking LLM agents on realistic appointment management and genetic testing workflows"
+  },
+  {
+    "id": "R03238",
+    "decision": "EXCLUDE",
+    "reason": "Runtime protection for LLM-agent security is security of LLMs, not LLM-based security work on OS components.",
+    "evidence": "Runtime Protection Practice for LLM Agent Security"
+  },
+  {
+    "id": "R03239",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based educational sandbox for writing purpose statements, outside security and OS scope.",
+    "evidence": "An LLM-Based Sandbox for Novices to Practice Writing Purpose Statements"
+  },
+  {
+    "id": "R03240",
+    "decision": "EXCLUDE",
+    "reason": "Clinical LLM-agent benchmarking sandbox, with no security task or OS/privileged-interface target.",
+    "evidence": "a modular sandbox for benchmarking clinical LLM agents"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R00681",
+    "decision": "EXCLUDE",
+    "reason": "Targets smart contract vulnerability detection and patching, not OS components.",
+    "evidence": "Automated Smart Contract Vulnerability Detection and Patching"
+  },
+  {
+    "id": "R00682",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates C# application code with SAST and LLMs, not OS components.",
+    "evidence": "detecting security vulnerabilities in C# code using the Roslyn Analyzers"
+  },
+  {
+    "id": "R00683",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; generic LLM vulnerability detection leaves the OS target unclear.",
+    "evidence": "LLM-Based Vulnerability Detection via Multi-Signal Focused Verification"
+  },
+  {
+    "id": "R00684",
+    "decision": "EXCLUDE",
+    "reason": "General software vulnerability detection on Big-Vul, not OS components.",
+    "evidence": "software vulnerability detection"
+  },
+  {
+    "id": "R00685",
+    "decision": "EXCLUDE",
+    "reason": "Targets Infrastructure-as-Code vulnerability detection and remediation, not OS components.",
+    "evidence": "Vulnerability Detection and Remediation in Infrastructure-as-Code"
+  },
+  {
+    "id": "R00686",
+    "decision": "EXCLUDE",
+    "reason": "General multi-language code plugin for developers, not OS components.",
+    "evidence": "Offline, Multi-Language Code Vulnerability Detection Plugin"
+  },
+  {
+    "id": "R00687",
+    "decision": "EXCLUDE",
+    "reason": "Generic code vulnerability detection benchmarks, with no OS target.",
+    "evidence": "Experiments on Devign, ReVeal, and DiverseVul"
+  },
+  {
+    "id": "R00688",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; generic code vulnerability detection leaves OS scope unclear.",
+    "evidence": "Exploration On Prompting LLM With Code-Specific Information For Vulnerability Detection"
+  },
+  {
+    "id": "R00689",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; the gas vulnerability target is not specified as OS-related.",
+    "evidence": "An LLM-Based Automated Gas Vulnerability Detection and Mitigation System"
+  },
+  {
+    "id": "R00690",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; Android routing vulnerability scope may be app-level rather than OS.",
+    "evidence": "Android DeepLink-to-Router Vulnerability Chains"
+  },
+  {
+    "id": "R00691",
+    "decision": "EXCLUDE",
+    "reason": "Targets smart contract vulnerabilities, not OS components.",
+    "evidence": "security vulnerabilities in smart contracts"
+  },
+  {
+    "id": "R00692",
+    "decision": "EXCLUDE",
+    "reason": "Industrial IoT anomaly triage, not security analysis of OS components.",
+    "evidence": "streaming industrial Internet of Things (IoT) sensor data"
+  },
+  {
+    "id": "R00693",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Title explicitly pairs LLM-driven remediation with heterogeneous operating-system environments.",
+    "evidence": "An LLM-Driven Framework for Autonomous Vulnerability Remediation Across Heterogeneous Operating Systems Environments"
+  },
+  {
+    "id": "R00694",
+    "decision": "EXCLUDE",
+    "reason": "Smart contract vulnerability detection, outside OS scope.",
+    "evidence": "Smart Contract Vulnerability Detection Empowered by LLM"
+  },
+  {
+    "id": "R00695",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; security-test target and OS relevance are unspecified.",
+    "evidence": "Evaluating LLM-Generated Security Tests via Mutation-Based Vulnerability Detection"
+  },
+  {
+    "id": "R00696",
+    "decision": "EXCLUDE",
+    "reason": "Targets smart contract vulnerability detection, not OS components.",
+    "evidence": "Prompt Patterns in LLM-Based Smart Contract Vulnerability Detection"
+  },
+  {
+    "id": "R00697",
+    "decision": "EXCLUDE",
+    "reason": "OS copiloting without an explicit security task or outcome.",
+    "evidence": "OSAgent: Copiloting Operating System with LLM-based Agent"
+  },
+  {
+    "id": "R00698",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; generic software vulnerability detection leaves the OS target unclear.",
+    "evidence": "Software Vulnerability Detection Using LLM: Does Additional Information Help?"
+  },
+  {
+    "id": "R00699",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; generic code vulnerability detection with CPG leaves OS scope unclear.",
+    "evidence": "LLM-based Code Vulnerability Detection using CPG-based Structural Evidence and Retrieval"
+  },
+  {
+    "id": "R00700",
+    "decision": "EXCLUDE",
+    "reason": "Targets smart contract vulnerability detection, not OS components.",
+    "evidence": "Reducing False Positives in LLM based Smart Contract Vulnerability Detection via Hallucination Suppression"
+  },
+  {
+    "id": "R00701",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; generic vulnerability detection leaves the OS target unclear.",
+    "evidence": "Enhancing vulnerability detection by fusing code semantic features with LLM-generated explanations"
+  },
+  {
+    "id": "R00702",
+    "decision": "EXCLUDE",
+    "reason": "Greenwashing detection is not a security or OS task.",
+    "evidence": "An LLM-Based Agentic System for Greenwashing Detection"
+  },
+  {
+    "id": "R00703",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; generic software vulnerability detection leaves OS scope unclear.",
+    "evidence": "Software Vulnerability Detection Based on LLM"
+  },
+  {
+    "id": "R00704",
+    "decision": "EXCLUDE",
+    "reason": "Replication study of smart contract vulnerability detection, outside OS scope.",
+    "evidence": "When LLM Architectures Meet Smart Contract Vulnerability Detection: a Replication Study"
+  },
+  {
+    "id": "R00705",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; IoT vulnerability target and OS relevance are unclear.",
+    "evidence": "IoT Vulnerability Detection using Featureless LLM CyBert Model"
+  },
+  {
+    "id": "R00706",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; Rust vulnerability detection target is not specified as OS.",
+    "evidence": "LLM-Based Data Generation and Augmentation for Rust Vulnerability Detection"
+  },
+  {
+    "id": "R00707",
+    "decision": "EXCLUDE",
+    "reason": "General source-code vulnerability detection for enterprise repositories, not OS components.",
+    "evidence": "detect security vulnerabilities in source code repositories"
+  },
+  {
+    "id": "R00708",
+    "decision": "EXCLUDE",
+    "reason": "Smart contract vulnerability detection using graphs, outside OS scope.",
+    "evidence": "LLM-Driven Smart Contract Vulnerability Detection Based on Heterogeneous Graphs"
+  },
+  {
+    "id": "R00709",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; generic LLM vulnerability detection leaves the OS target unclear.",
+    "evidence": "VulnTeam: A Team Collaboration Framework for LLM-based Vulnerability Detection"
+  },
+  {
+    "id": "R00710",
+    "decision": "EXCLUDE",
+    "reason": "Targets Solana and Algorand smart contracts, not OS components.",
+    "evidence": "LLM-Based Vulnerability Detection in Solana and Algorand Smart Contracts"
+  },
+  {
+    "id": "R00711",
+    "decision": "EXCLUDE",
+    "reason": "Smart contract vulnerability detection, outside OS scope.",
+    "evidence": "SmartGuard: An LLM-enhanced framework for smart contract vulnerability detection"
+  },
+  {
+    "id": "R00712",
+    "decision": "EXCLUDE",
+    "reason": "Industrial equipment condition monitoring, not security analysis of OS.",
+    "evidence": "SCADA data from a fleet of wind turbines"
+  },
+  {
+    "id": "R00713",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; generic BERT/LLM vulnerability detection leaves OS scope unclear.",
+    "evidence": "Vulnerability detection using BERT based LLM model with transparency obligation practice towards trustworthy AI"
+  },
+  {
+    "id": "R00714",
+    "decision": "EXCLUDE",
+    "reason": "System log anomaly detection for reliability, not a security task targeting OS components.",
+    "evidence": "System log anomaly detection is critical for maintaining the reliability"
+  },
+  {
+    "id": "R00715",
+    "decision": "EXCLUDE",
+    "reason": "General software vulnerability detection on code datasets, not OS components.",
+    "evidence": "Improving Software Security Through an LLM-Based Vulnerability Detection Model"
+  },
+  {
+    "id": "R00716",
+    "decision": "EXCLUDE",
+    "reason": "Smart contract vulnerability detection, outside OS scope.",
+    "evidence": "Collaborative LLM Reasoning for Vulnerability Detection in Smart Contracts"
+  },
+  {
+    "id": "R00717",
+    "decision": "EXCLUDE",
+    "reason": "Human-LLM interaction risk, not OS security analysis.",
+    "evidence": "Asymmetric Epistemic Vulnerability in Human-LLM Interaction"
+  },
+  {
+    "id": "R00718",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; vulnerability scoring domain and OS relevance are unclear.",
+    "evidence": "JewelCVSS: A Domain-Tuned LLM for Automated Vulnerability Scoring"
+  },
+  {
+    "id": "R00719",
+    "decision": "EXCLUDE",
+    "reason": "Targets real-world Java vulnerabilities, not OS components.",
+    "evidence": "Empirical Study on Real-World Java Vulnerabilities"
+  },
+  {
+    "id": "R00720",
+    "decision": "EXCLUDE",
+    "reason": "Book-chapter review of LLM security-system evaluation, not core empirical OS research.",
+    "evidence": "This chapter delves into the performance evaluation"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R05521",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; title suggests endpoint security and multi-agent collaboration, but the LLM role and OS target are not explicit.",
+    "evidence": "Enhancing Endpoint Security through Collaborative Zero-Trust Integration: A Multi-Agent Approach"
+  },
+  {
+    "id": "R05522",
+    "decision": "EXCLUDE",
+    "reason": "Title concerns security of web-use agents, i.e. securing agent systems, not LLM use for an OS security task.",
+    "evidence": "Mind the Web: The Security of Web Use Agents"
+  },
+  {
+    "id": "R05523",
+    "decision": "EXCLUDE",
+    "reason": "Post-quantum access control for multi-agent systems; no LLM and no OS security task.",
+    "evidence": "method of access differentiation based on Goppa codes"
+  },
+  {
+    "id": "R05524",
+    "decision": "EXCLUDE",
+    "reason": "GDPR governance of personal data stores; no LLM or OS security analysis.",
+    "evidence": "A Solid use case to empower and protect data subjects: Responsibilities under GDPR for governance of personal data stores"
+  },
+  {
+    "id": "R05525",
+    "decision": "EXCLUDE",
+    "reason": "Export-control policy for cybersurveillance; no LLM or OS security task.",
+    "evidence": "Export control of cybersurveillance items in the new dual-use regulation: The challenges of applying human rights logic to export control"
+  },
+  {
+    "id": "R05526",
+    "decision": "EXCLUDE",
+    "reason": "Title indicates security of GenAI rather than LLM use for OS security analysis.",
+    "evidence": "GenAI Security"
+  },
+  {
+    "id": "R05527",
+    "decision": "EXCLUDE",
+    "reason": "Structural-equation study of information-security knowledge sharing; no LLM or OS target.",
+    "evidence": "Use of Structural Equation Modeling for Agent-based Modeling and Simulation in the Analysis of Information Security Knowledge Sharing"
+  },
+  {
+    "id": "R05528",
+    "decision": "EXCLUDE",
+    "reason": "Title concerns the special nature of GenAI security, not LLM use for an OS security task.",
+    "evidence": "Why GenAI Security Is So Special"
+  },
+  {
+    "id": "R05529",
+    "decision": "EXCLUDE",
+    "reason": "Blockchain-based e-commerce payment model; no LLM or OS security analysis.",
+    "evidence": "Multi-agent secure payment model of e-commerce based on blockchain perspective"
+  },
+  {
+    "id": "R05530",
+    "decision": "EXCLUDE",
+    "reason": "Agentic enterprise ERP governance and compliance; no security analysis targeting OS components.",
+    "evidence": "financial systems governance‚ compliance transformation, and regulatory risk"
+  },
+  {
+    "id": "R05531",
+    "decision": "EXCLUDE",
+    "reason": "Study of students' antivirus use; no LLM or OS security analysis.",
+    "evidence": "A study of computer engineering students' views and use of antiviruses and their security add-ons"
+  },
+  {
+    "id": "R05532",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; GenAI for IoT security is potentially relevant, but the OS target and LLM role are not explicit.",
+    "evidence": "Agent-Based AI Approach to Security in IoT Systems Leveraging Genai"
+  },
+  {
+    "id": "R05533",
+    "decision": "EXCLUDE",
+    "reason": "General multi-agent tool-use benchmark; no security task or OS target in title.",
+    "evidence": "Reproducible Evaluation of Multi-Agent Harnesses for Multi-Step Tool-Use Tasks"
+  },
+  {
+    "id": "R05534",
+    "decision": "EXCLUDE",
+    "reason": "Security-level agreement framework for agent collaboration, not LLM use for OS security.",
+    "evidence": "Agent-SecSLA: An Ownership-Based Security Level Agreement Framework for Heterogeneous Multi-Agent Collaboration"
+  },
+  {
+    "id": "R05535",
+    "decision": "EXCLUDE",
+    "reason": "Lightweight agent-based network asset discovery; no LLM or OS-component security task in title.",
+    "evidence": "Enhancing Network Security through Accurate Asset Discovery Using Lightweight Agent-Based Approach"
+  },
+  {
+    "id": "R05536",
+    "decision": "EXCLUDE",
+    "reason": "Poisoning attack on cooperative multi-agent RL; not LLM or OS security.",
+    "evidence": "One4All: Manipulate one agent to poison the cooperative multi-agent reinforcement learning"
+  },
+  {
+    "id": "R05537",
+    "decision": "EXCLUDE",
+    "reason": "Cybersecurity threats in multi-agent microgrids; no LLM or OS component target.",
+    "evidence": "Cyber security threats in multi-agent microgrids"
+  },
+  {
+    "id": "R05538",
+    "decision": "EXCLUDE",
+    "reason": "LLM judge screens social-network messages for safety; target is platform content, not OS components.",
+    "evidence": "Large Language Model (LLM) judges can detect such content"
+  },
+  {
+    "id": "R05539",
+    "decision": "EXCLUDE",
+    "reason": "Blockchain e-government data security review; no LLM and mixed-method review.",
+    "evidence": "systematic literature review and expert interviews"
+  },
+  {
+    "id": "R05540",
+    "decision": "EXCLUDE",
+    "reason": "Survey/taxonomy of LLM evaluation harnesses; no security analysis or OS target.",
+    "evidence": "A Taxonomy of Evaluation Infrastructure"
+  },
+  {
+    "id": "R05541",
+    "decision": "EXCLUDE",
+    "reason": "Overview of blockchain e-voting security; no LLM or OS security task.",
+    "evidence": "Use of Blockchain Technology in Electronic Voting Systems: An Overview from Computer Security"
+  },
+  {
+    "id": "R05542",
+    "decision": "EXCLUDE",
+    "reason": "Security-warning news item; no LLM or OS security research.",
+    "evidence": "Government agencies issue stern security warnings"
+  },
+  {
+    "id": "R05543",
+    "decision": "EXCLUDE",
+    "reason": "Industry cyber-security report; no LLM or OS security analysis.",
+    "evidence": "TXOne Networks: 2021 Cyber security Report"
+  },
+  {
+    "id": "R05544",
+    "decision": "EXCLUDE",
+    "reason": "Secure conversational agent for mental healthcare; security target is not OS components.",
+    "evidence": "EmpathAI: A Trustworthy and Secure Conversational Agent for Mental Healthcare"
+  },
+  {
+    "id": "R05545",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; verifiable execution traces may concern agent security, but LLM role and OS target are unclear.",
+    "evidence": "VET Your Agent: Towards Host-Independent Autonomy via Verifiable Execution Traces"
+  },
+  {
+    "id": "R05546",
+    "decision": "EXCLUDE",
+    "reason": "Organizational breach discussion; no LLM or OS security analysis.",
+    "evidence": "are we at the point where a breach is inevitable?"
+  },
+  {
+    "id": "R05547",
+    "decision": "EXCLUDE",
+    "reason": "Software accountability and secure development; no LLM or OS-specific security task.",
+    "evidence": "software vendors to ensure that the code they ship is intrinsically secure"
+  },
+  {
+    "id": "R05548",
+    "decision": "EXCLUDE",
+    "reason": "HTTP alert judgment using RL and multi-agent collaboration; no LLM or OS target in title.",
+    "evidence": "Agent-Based HTTP Alert Judgment System: Integrating Reinforcement Learning and Multi-agent Collaboration"
+  },
+  {
+    "id": "R05549",
+    "decision": "EXCLUDE",
+    "reason": "General future-of-cyber-security item; no LLM or OS security task.",
+    "evidence": "The future of cyber security"
+  },
+  {
+    "id": "R05550",
+    "decision": "EXCLUDE",
+    "reason": "eCommerce web-application attack report; no LLM or OS security analysis.",
+    "evidence": "Web application attacks have increased by more than 250%"
+  },
+  {
+    "id": "R05551",
+    "decision": "EXCLUDE",
+    "reason": "MDR security-transformation article; no LLM or OS security task.",
+    "evidence": "Embracing security transformation with MDR"
+  },
+  {
+    "id": "R05552",
+    "decision": "EXCLUDE",
+    "reason": "Software security initiative discussion; no LLM or OS-specific security analysis.",
+    "evidence": "Building successful software security initiatives"
+  },
+  {
+    "id": "R05553",
+    "decision": "EXCLUDE",
+    "reason": "Security-budget discussion; no LLM or OS security task.",
+    "evidence": "Squeezing the security budget"
+  },
+  {
+    "id": "R05554",
+    "decision": "EXCLUDE",
+    "reason": "Shift-left security commentary; no LLM or OS security analysis.",
+    "evidence": "Security should shift left too"
+  },
+  {
+    "id": "R05555",
+    "decision": "EXCLUDE",
+    "reason": "Cloud shared-responsibility security discussion; no LLM or OS target.",
+    "evidence": "shared responsibility model (SRM)"
+  },
+  {
+    "id": "R05556",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; specialized modules for computer-system security could be OS-relevant, but the LLM role is not explicit.",
+    "evidence": "Enhancing the Security of Computer Systems Through the Use of Specialized Supplementary Modules"
+  },
+  {
+    "id": "R05557",
+    "decision": "EXCLUDE",
+    "reason": "Bioreactor control architecture; no LLM or security task.",
+    "evidence": "single-use bioreactor systems"
+  },
+  {
+    "id": "R05558",
+    "decision": "EXCLUDE",
+    "reason": "Security gateway for AI-agent communications using regex and CharCNN-BiLSTM; not LLM use for OS security.",
+    "evidence": "security gateway that intercepts AI communications across five protocols"
+  },
+  {
+    "id": "R05559",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial protein language models for escape modeling; not OS security.",
+    "evidence": "Adversarial use of protein language models for modeling escape"
+  },
+  {
+    "id": "R05560",
+    "decision": "EXCLUDE",
+    "reason": "Survey of generalist-agent security across its lifecycle; outside the core empirical LLM-for-OS set.",
+    "evidence": "we present a lifecycle survey organized around three stages"
+  }
+]

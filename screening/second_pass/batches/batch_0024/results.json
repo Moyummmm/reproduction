@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02972",
+    "decision": "EXCLUDE",
+    "reason": "LLM assists vulnerability triage, but the target is general Python application code, not OS components or privileged interfaces.",
+    "evidence": "Python vulnerability screening"
+  },
+  {
+    "id": "R02974",
+    "decision": "EXCLUDE",
+    "reason": "No LLM use and no OS security task; the paper proposes a financial computing architecture.",
+    "evidence": "secure financial decision-making"
+  },
+  {
+    "id": "R02976",
+    "decision": "EXCLUDE",
+    "reason": "LLM is the protected workload, not an analyst of OS security; the focus is cloud deployment architecture.",
+    "evidence": "defense-in-depth for LLM workloads"
+  },
+  {
+    "id": "R02977",
+    "decision": "EXCLUDE",
+    "reason": "No LLM role; confidential computing is applied to genomic GWAS, not LLM-based OS security.",
+    "evidence": "privacy-preserving, population-scale, collaborative GWAS tool"
+  },
+  {
+    "id": "R02980",
+    "decision": "EXCLUDE",
+    "reason": "Overview of confidential computing with no LLM component or LLM-driven OS security task.",
+    "evidence": "Confidential Computing in the Cloud: An Overview"
+  },
+  {
+    "id": "R02982",
+    "decision": "EXCLUDE",
+    "reason": "General description of confidential computing; no LLM use or LLM security analysis.",
+    "evidence": "protects data in use by performing the computation in a hardware-based trusted execution environment"
+  },
+  {
+    "id": "R02983",
+    "decision": "EXCLUDE",
+    "reason": "Conceptual comparison of secure-computation approaches with no LLM component.",
+    "evidence": "Trade-offs between secure computation via cryptography and hardware enclaves."
+  },
+  {
+    "id": "R02984",
+    "decision": "EXCLUDE",
+    "reason": "No LLM use; the work concerns federated learning with TEEs, not LLM-based OS security.",
+    "evidence": "CFL addresses this gap with a careful combination of FL with TEEs and commitments"
+  },
+  {
+    "id": "R02985",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based vulnerability repair targets smart-infrastructure code generally, with no OS component or privileged interface specified.",
+    "evidence": "prompt-guided vulnerability repair in smart infrastructures"
+  },
+  {
+    "id": "R02988",
+    "decision": "EXCLUDE",
+    "reason": "Comparison of secure-computation approaches; no LLM use or LLM security task.",
+    "evidence": "Secure computation via MPC/homomorphic encryption versus hardware enclaves presents tradeoffs"
+  },
+  {
+    "id": "R02993",
+    "decision": "EXCLUDE",
+    "reason": "Hardware confidential-computing prototype for machine identities; no LLM component.",
+    "evidence": "using hardware-based confidential computing"
+  },
+  {
+    "id": "R02994",
+    "decision": "EXCLUDE",
+    "reason": "Confidential computing for genomic data sharing; no LLM role.",
+    "evidence": "privacy-enhancing Confidential Computing technology"
+  },
+  {
+    "id": "R02996",
+    "decision": "EXCLUDE",
+    "reason": "Critical review of confidential-computing definitions; reviews are excluded and no LLM is used.",
+    "evidence": "This research critically reviews the definition of confidential computing"
+  },
+  {
+    "id": "R02997",
+    "decision": "EXCLUDE",
+    "reason": "TEE architecture for Kubernetes observability data; no LLM component or LLM-driven security analysis.",
+    "evidence": "ConfObs-TEE, a confidential computing architecture for Kubernetes observability data"
+  },
+  {
+    "id": "R03000",
+    "decision": "EXCLUDE",
+    "reason": "Economic-security study of enclave territories; no LLM and not an OS security task.",
+    "evidence": "economic security in enclave and exclave territories"
+  },
+  {
+    "id": "R03002",
+    "decision": "EXCLUDE",
+    "reason": "Political-science study of enclave units; no LLM and not an OS security task.",
+    "evidence": "building enclave units deepens autocracy"
+  },
+  {
+    "id": "R03015",
+    "decision": "EXCLUDE",
+    "reason": "Comparative analysis of mobile key-storage hardware; no LLM use.",
+    "evidence": "hardware mechanisms for protecting cryptographic keys in mobile platforms"
+  },
+  {
+    "id": "R03016",
+    "decision": "EXCLUDE",
+    "reason": "TEE programming framework for distributed applications; no LLM component.",
+    "evidence": "distributed event-driven applications on shared infrastructures"
+  },
+  {
+    "id": "R03021",
+    "decision": "EXCLUDE",
+    "reason": "General NFV security challenges and solutions; no LLM use.",
+    "evidence": "Network Function Virtualization Security Challenges and Solutions"
+  },
+  {
+    "id": "R03022",
+    "decision": "EXCLUDE",
+    "reason": "General virtualization-security overview; no LLM use or LLM security analysis.",
+    "evidence": "exploring the various concerns and examining the solutions proposed by the research community"
+  },
+  {
+    "id": "R03034",
+    "decision": "EXCLUDE",
+    "reason": "LLM inference is the workload; the study measures virtualization configuration and performance, not a security task.",
+    "evidence": "configuration complexity and performance"
+  },
+  {
+    "id": "R03035",
+    "decision": "EXCLUDE",
+    "reason": "Educational chapter on virtualization and containerization; no LLM use or LLM security task.",
+    "evidence": "Both virtualization and containerization's effects on security are covered"
+  },
+  {
+    "id": "R03046",
+    "decision": "EXCLUDE",
+    "reason": "TEE/hypervisor security design without any LLM component.",
+    "evidence": "an M-mode TEE Security Manager (TSM-driver) for the open RISC-V architecture"
+  },
+  {
+    "id": "R03053",
+    "decision": "EXCLUDE",
+    "reason": "Performance testing of network virtualization; no LLM and no security analysis.",
+    "evidence": "performance test platform based on cloud computing"
+  },
+  {
+    "id": "R03081",
+    "decision": "EXCLUDE",
+    "reason": "VM side-channel mitigation for AES-128; no LLM component.",
+    "evidence": "prevent VM side-channel timing attacks in AES-128"
+  },
+  {
+    "id": "R03083",
+    "decision": "EXCLUDE",
+    "reason": "Hypervisor-based side-channel detection and mitigation; no LLM component.",
+    "evidence": "hypervisor layer monitors the running cloud memory"
+  },
+  {
+    "id": "R03089",
+    "decision": "EXCLUDE",
+    "reason": "Hardware VM isolation overview; no LLM component.",
+    "evidence": "hardware-based isolation"
+  },
+  {
+    "id": "R03090",
+    "decision": "EXCLUDE",
+    "reason": "Cross-VM side-channel attack study in cloud FPGAs; no LLM component.",
+    "evidence": "Cross-VM Covert- and Side-Channel Attacks in Cloud FPGAs"
+  },
+  {
+    "id": "R03093",
+    "decision": "EXCLUDE",
+    "reason": "VM timing side-channel mitigation; no LLM component.",
+    "evidence": "software-based solution to the problem of VM timing side-channel assaults"
+  },
+  {
+    "id": "R03098",
+    "decision": "EXCLUDE",
+    "reason": "LLM used for wireless channel prediction, not for a security task.",
+    "evidence": "LLM-powered downlink channel prediction technique"
+  },
+  {
+    "id": "R03102",
+    "decision": "EXCLUDE",
+    "reason": "Legal and empirical study of corporate compliance; no LLM and not an OS security task.",
+    "evidence": "side-channel compliance works by raising the general salience"
+  },
+  {
+    "id": "R03126",
+    "decision": "EXCLUDE",
+    "reason": "LLM tokenization offload for efficiency; no security analysis or protection task.",
+    "evidence": "shifts tokenization to the client side"
+  },
+  {
+    "id": "R03133",
+    "decision": "EXCLUDE",
+    "reason": "LLM used for drug side-effect prediction, not security.",
+    "evidence": "polypharmacy side effect prediction via LLM-based SMILES encodings"
+  },
+  {
+    "id": "R03135",
+    "decision": "EXCLUDE",
+    "reason": "Fluid-engineering study of a side channel pump; no LLM and no security task.",
+    "evidence": "side channel pump generates several disadvantage vortices"
+  },
+  {
+    "id": "R03136",
+    "decision": "EXCLUDE",
+    "reason": "Review of Android side-channel attacks; reviews are excluded and no LLM is used.",
+    "evidence": "This paper reviews the current landscape of side-channel attacks on Android"
+  },
+  {
+    "id": "R03149",
+    "decision": "EXCLUDE",
+    "reason": "LLM-driven robot task planning; no security task.",
+    "evidence": "LLM-driven communication and task planning"
+  },
+  {
+    "id": "R03152",
+    "decision": "EXCLUDE",
+    "reason": "Game-theoretic retail channel strategy; no LLM and no security task.",
+    "evidence": "Optimal Channel Strategy for Dual-Channel Retailers"
+  },
+  {
+    "id": "R03153",
+    "decision": "EXCLUDE",
+    "reason": "Uses a deep neural network, not an LLM, for cryptographic side-channel key recovery.",
+    "evidence": "deep neural network similar to the one used by Gohr"
+  },
+  {
+    "id": "R03156",
+    "decision": "EXCLUDE",
+    "reason": "LLM used for drug side-effect prediction, not security.",
+    "evidence": "drug side effect prediction with LLM-derived pharmacological representations"
+  },
+  {
+    "id": "R03157",
+    "decision": "EXCLUDE",
+    "reason": "Hardware-security survey; surveys are excluded and no LLM use is described.",
+    "evidence": "This survey provides a comprehensive analysis of advancements in hardware security"
+  }
+]

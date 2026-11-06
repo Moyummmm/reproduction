@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R06201",
+    "decision": "EXCLUDE",
+    "reason": "Audits scientific summaries for methodological flaws, not OS security.",
+    "evidence": "methodological vulnerability detection"
+  },
+  {
+    "id": "R06202",
+    "decision": "EXCLUDE",
+    "reason": "Verifies agent-skill trust in runtimes, not OS components.",
+    "evidence": "a skill is untrusted code until it is verified"
+  },
+  {
+    "id": "R06203",
+    "decision": "EXCLUDE",
+    "reason": "Generates Unix CTF tasks for RL training, not LLM security analysis of OS components.",
+    "evidence": "procedural generator of capture-the-flag tasks for shell agents"
+  },
+  {
+    "id": "R06204",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM repair benchmark for Linux kernel eBPF verifier failures, a privileged OS interface.",
+    "evidence": "eBPF lets developers run custom programs inside the Linux kernel"
+  },
+  {
+    "id": "R06205",
+    "decision": "EXCLUDE",
+    "reason": "Secures LLM agents on Kubernetes, not an OS security analysis task.",
+    "evidence": "agent safety on Kubernetes is therefore an infrastructure problem"
+  },
+  {
+    "id": "R06206",
+    "decision": "EXCLUDE",
+    "reason": "Kernel scheduling policy switching for agents without a security analysis outcome.",
+    "evidence": "agentic OS control needs to switch scheduler behavior"
+  },
+  {
+    "id": "R06207",
+    "decision": "EXCLUDE",
+    "reason": "Fuzzes RTSP protocol implementations, not OS network-stack components.",
+    "evidence": "Network Protocol Fuzzing"
+  },
+  {
+    "id": "R06208",
+    "decision": "EXCLUDE",
+    "reason": "Greybox fuzzing of stateful protocol implementations, not OS components.",
+    "evidence": "Greybox protocol fuzzing is a random testing approach for stateful protocol implementations"
+  },
+  {
+    "id": "R06209",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted fuzzing of network protocol implementations, not OS components.",
+    "evidence": "Testing network protocol implementations"
+  },
+  {
+    "id": "R06210",
+    "decision": "EXCLUDE",
+    "reason": "Fuzzes industrial control protocols, not OS components.",
+    "evidence": "identify vulnerabilities in industrial control protocols (ICPs)"
+  },
+  {
+    "id": "R06211",
+    "decision": "EXCLUDE",
+    "reason": "Fuzzes IoT HTTP services, not OS components.",
+    "evidence": "LLM-guided IoT HTTP fuzzing method"
+  },
+  {
+    "id": "R06212",
+    "decision": "EXCLUDE",
+    "reason": "Fuzzes industrial control protocols, not OS components.",
+    "evidence": "AFL-ICP: Enhancing Industrial Control Protocol Reliability via Specification-Guided Fuzzing"
+  },
+  {
+    "id": "R06213",
+    "decision": "EXCLUDE",
+    "reason": "Validates network protocol parsers, not OS components.",
+    "evidence": "Large Language Models for Validating Network Protocol Parsers"
+  },
+  {
+    "id": "R06214",
+    "decision": "EXCLUDE",
+    "reason": "Tests cryptographic protocol implementations, not OS components.",
+    "evidence": "cryptographic protocol security testing"
+  },
+  {
+    "id": "R06215",
+    "decision": "EXCLUDE",
+    "reason": "LLM-guided mutation for general fuzzing, not OS-specific security.",
+    "evidence": "integrates reasoning LLMs with AFL++ on Google's FuzzBench"
+  },
+  {
+    "id": "R06216",
+    "decision": "EXCLUDE",
+    "reason": "Semantics-aware fuzzing of network protocols, not OS components.",
+    "evidence": "A Semantics-Aware Fuzzing Framework for Network Protocol Implementations"
+  },
+  {
+    "id": "R06217",
+    "decision": "EXCLUDE",
+    "reason": "Fuzzes cross-chain bridge smart contracts, not OS components.",
+    "evidence": "IntentFuzz: a protocol-aware fuzzer"
+  },
+  {
+    "id": "R06218",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-guided harness synthesis for fuzzing UEFI edk2 boot interfaces, a privileged component.",
+    "evidence": "fuzzing edk2 protocols (i.e., boot-time interfaces)"
+  },
+  {
+    "id": "R06219",
+    "decision": "EXCLUDE",
+    "reason": "RAG-based protocol seed generation, not OS security analysis.",
+    "evidence": "network packet seed generation and enrichment"
+  },
+  {
+    "id": "R06220",
+    "decision": "EXCLUDE",
+    "reason": "Infers protocol state machines for fuzzing, not OS components.",
+    "evidence": "inferring state machines from network protocol implementations"
+  },
+  {
+    "id": "R06221",
+    "decision": "EXCLUDE",
+    "reason": "Wireless fuzzing of 5G/Bluetooth devices, not OS components.",
+    "evidence": "wireless fuzzing of 5G-enabled devices"
+  },
+  {
+    "id": "R06222",
+    "decision": "EXCLUDE",
+    "reason": "Symbolic reasoning scaffold for LLM consistency, not OS security.",
+    "evidence": "a symbolic reasoning scaffold that operationalizes Peirce's tripartite inference"
+  },
+  {
+    "id": "R06223",
+    "decision": "EXCLUDE",
+    "reason": "LLM generates fuzz harnesses for general software projects, not OS components.",
+    "evidence": "23 open-source projects spanning C/C++, Java, and JavaScript"
+  },
+  {
+    "id": "R06224",
+    "decision": "EXCLUDE",
+    "reason": "Extremal testing of general protocol implementations, not OS components.",
+    "evidence": "implementations of HTTP, DNS, BGP, SMTP, and QUIC"
+  },
+  {
+    "id": "R06225",
+    "decision": "EXCLUDE",
+    "reason": "Tests LLM agent frameworks, not OS components.",
+    "evidence": "LLM agent frameworks such as LangChain, LlamaIndex, and CrewAI"
+  },
+  {
+    "id": "R06226",
+    "decision": "EXCLUDE",
+    "reason": "Synthesizes protocol specs for testing internet protocols, not OS components.",
+    "evidence": "five widely used internet protocols"
+  },
+  {
+    "id": "R06227",
+    "decision": "EXCLUDE",
+    "reason": "Zero-trust validation of enterprise agent gateways, not OS components.",
+    "evidence": "Semantic Gateway governed by the Model Context Protocol (MCP)"
+  },
+  {
+    "id": "R06228",
+    "decision": "EXCLUDE",
+    "reason": "LLM multi-agent firmware rehosting, not a security analysis of OS components.",
+    "evidence": "environment recovery in firmware rehosting"
+  },
+  {
+    "id": "R06229",
+    "decision": "EXCLUDE",
+    "reason": "LLM agents find Chrome vulnerabilities, not OS-component vulnerabilities.",
+    "evidence": "discovers ten previously unknown zero-day vulnerabilities in Google Chrome"
+  },
+  {
+    "id": "R06230",
+    "decision": "EXCLUDE",
+    "reason": "Exploit synthesis for DeFi smart contracts, not OS components.",
+    "evidence": "end-to-end contract vulnerability detection and exploit synthesis"
+  },
+  {
+    "id": "R06231",
+    "decision": "EXCLUDE",
+    "reason": "Memory-safety fuzzing of Rust libraries, not OS components.",
+    "evidence": "memory safety vulnerabilities in Rust libraries"
+  },
+  {
+    "id": "R06232",
+    "decision": "EXCLUDE",
+    "reason": "Memory-safety detection on general repository codebases, not OS components.",
+    "evidence": "memory-safety vulnerability discovery"
+  },
+  {
+    "id": "R06233",
+    "decision": "EXCLUDE",
+    "reason": "Ports C code to a safe dialect, not OS-specific security.",
+    "evidence": "port C code to a safe C dialect"
+  },
+  {
+    "id": "R06234",
+    "decision": "EXCLUDE",
+    "reason": "LLM-orchestrated symbolic execution on general C/C++ projects, not OS components.",
+    "evidence": "10 open-source C/C++ projects totaling 6.8 M lines of code"
+  },
+  {
+    "id": "R06235",
+    "decision": "EXCLUDE",
+    "reason": "Repairs memory-safety bugs in neural-network code, not OS components.",
+    "evidence": "software implementation of neural networks and related memory safety properties"
+  },
+  {
+    "id": "R06236",
+    "decision": "EXCLUDE",
+    "reason": "Detects logic vulnerabilities in general repositories, not OS components.",
+    "evidence": "detecting logic vulnerabilities that grounds LLM reasoning in repository-level code context"
+  },
+  {
+    "id": "R06237",
+    "decision": "EXCLUDE",
+    "reason": "CPG/LLM analysis of general codebases and libraries, not OS components.",
+    "evidence": "vulnerability discovery, patching, and program comprehension at scale"
+  },
+  {
+    "id": "R06238",
+    "decision": "EXCLUDE",
+    "reason": "Uses RL for Rust warning suppression; LLM appears only as a baseline.",
+    "evidence": "outperforms state-of-the-art LLM-based baselines"
+  },
+  {
+    "id": "R06239",
+    "decision": "EXCLUDE",
+    "reason": "Verifies memory safety in embedded components, not identified OS components.",
+    "evidence": "The problem is especially acute in embedded systems"
+  },
+  {
+    "id": "R06240",
+    "decision": "EXCLUDE",
+    "reason": "LLM/Datalog/SMT vulnerability discovery in general C/C++ libraries, not OS components.",
+    "evidence": "Vulnerability discovery on C/C++ source"
+  }
+]

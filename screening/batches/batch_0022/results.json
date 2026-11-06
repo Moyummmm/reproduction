@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R00881",
+    "decision": "UNCLEAR",
+    "reason": "Title indicates kernel fuzzing but does not mention an LLM; missing abstract leaves the LLM role and target scope unresolved.",
+    "evidence": "Industry Practice of Directed Kernel Fuzzing for Open-source Linux Distribution"
+  },
+  {
+    "id": "R00882",
+    "decision": "EXCLUDE",
+    "reason": "Title describes benchmarking language-model code reasoning on kernel code, not using an LLM for a security task.",
+    "evidence": "Benchmarking and Measuring Code Reasoning of Language Models in Linux Kernel"
+  },
+  {
+    "id": "R00883",
+    "decision": "EXCLUDE",
+    "reason": "Title concerns kernel framework documentation, with no LLM or security outcome indicated.",
+    "evidence": "The Thermal Framework in the Linux Kernel"
+  },
+  {
+    "id": "R00884",
+    "decision": "EXCLUDE",
+    "reason": "Title indicates a language-based kernel safety approach, with no LLM security use.",
+    "evidence": "Safer Linux Kernel Modules Using the D Programming Language"
+  },
+  {
+    "id": "R00885",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Title explicitly combines LLM guidance with fuzzing of RTOS firmware, a security-testing task on OS-level firmware.",
+    "evidence": "Fuzzing RTOS Firmware with Large Language Model Guidance"
+  },
+  {
+    "id": "R00886",
+    "decision": "EXCLUDE",
+    "reason": "Title describes kernel subsystem architecture and programming interface, with no LLM or security analysis.",
+    "evidence": "Linux Kernel Input Subsystem: Architecture and Programming Interface"
+  },
+  {
+    "id": "R00887",
+    "decision": "EXCLUDE",
+    "reason": "Title concerns kernel audio debugging tools, not an LLM security task.",
+    "evidence": "ALSA Debugging Tools and Techniques in Linux Kernel"
+  },
+  {
+    "id": "R00888",
+    "decision": "EXCLUDE",
+    "reason": "The abstract shows LLM-assisted fuzzing of application-level charging management systems, not OS components or privileged interfaces.",
+    "evidence": "we present OCPPuzz, a specification-based fuzzing framework for CSMS"
+  },
+  {
+    "id": "R00889",
+    "decision": "UNCLEAR",
+    "reason": "Title indicates LLM-based fuzzing seed generation, but the target domain is unspecified and the abstract is missing.",
+    "evidence": "SLS-Fuzz: Large Language Model based Self Learned Seeder for efficient Fuzzing"
+  },
+  {
+    "id": "R00890",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Abstract explicitly describes LLMs guiding kernel fuzzing and test-case generation, a security-testing task on the OS kernel.",
+    "evidence": "a framework integrating LLMs with the state-of-the-art kernel fuzzer Syzkaller, where the LLMs are used to guide the mutation and generation of test cases"
+  },
+  {
+    "id": "R00891",
+    "decision": "EXCLUDE",
+    "reason": "Abstract shows option fuzzing of general programs, with no indication the targets are OS components or privileged interfaces.",
+    "evidence": "The tool successfully extracted complete options from all 59 programs in our test set"
+  },
+  {
+    "id": "R00892",
+    "decision": "UNCLEAR",
+    "reason": "Title indicates Linux kernel bug reproduction via fuzzing, but no LLM role is stated and the abstract is missing.",
+    "evidence": "Yesterday Once MorE: Facilitating Linux Kernel Bug Reproduction via Reverse Fuzzing"
+  },
+  {
+    "id": "R00893",
+    "decision": "UNCLEAR",
+    "reason": "Title suggests an exploration or review of LLMs in fuzzing; target scope and empirical nature are uncertain without an abstract.",
+    "evidence": "The Dawn of Intelligent Fuzzing: Exploring the Application of Large Language Models in Fuzzing"
+  },
+  {
+    "id": "R00894",
+    "decision": "EXCLUDE",
+    "reason": "Abstract describes kernel fuzzing via virtualization and snapshots, with no LLM used.",
+    "evidence": "we introduce a virtualization-backed fuzzing framework using differential snapshot orchestration"
+  },
+  {
+    "id": "R00895",
+    "decision": "EXCLUDE",
+    "reason": "Title concerns static loop analysis for kernel memory leaks, with no LLM indicated.",
+    "evidence": "Loop Categorization Analysis for Memory Leak Detection in the Linux Kernel"
+  },
+  {
+    "id": "R00896",
+    "decision": "EXCLUDE",
+    "reason": "Abstract describes reinforcement-learning-guided kernel fuzzing, not LLM use.",
+    "evidence": "we propose an RL-guided fuzzing scheduler"
+  },
+  {
+    "id": "R00897",
+    "decision": "EXCLUDE",
+    "reason": "Title concerns a Linux-based network configuration language, not an LLM security task.",
+    "evidence": "Exploring Linux Algorithmic Approach as a Standard Network Configuration Language Model for Network Devices"
+  },
+  {
+    "id": "R00898",
+    "decision": "EXCLUDE",
+    "reason": "Abstract is a multivocal literature review of kernel maintainership, not empirical LLM security research.",
+    "evidence": "we conducted a multivocal literature review to examine the evolution of maintenance models"
+  },
+  {
+    "id": "R00899",
+    "decision": "EXCLUDE",
+    "reason": "Title targets compiler fuzzing with LLM-generated mutations, not OS components or privileged interfaces.",
+    "evidence": "Fuzzing Compilers with Large Language Model Generated Mutation Operators"
+  },
+  {
+    "id": "R00900",
+    "decision": "EXCLUDE",
+    "reason": "Abstract shows LLM-assisted fuzzing of multimedia protocol server applications, not OS components.",
+    "evidence": "Evaluated on three RTSP-based open-source programs (Live555, RTSPServer, Gstreamer)"
+  },
+  {
+    "id": "R00901",
+    "decision": "EXCLUDE",
+    "reason": "Title concerns detecting ethical risks in LLMs, which is security of LLMs rather than an OS security task.",
+    "evidence": "A Fuzzing-Based Framework for Automated Ethical Risk Detection in Large Language Models"
+  },
+  {
+    "id": "R00902",
+    "decision": "EXCLUDE",
+    "reason": "Title targets deep-learning libraries with LLM fuzzing, not OS components or privileged interfaces.",
+    "evidence": "Fuzzing Deep-Learning Libraries via Large Language Models"
+  },
+  {
+    "id": "R00903",
+    "decision": "UNCLEAR",
+    "reason": "Title indicates machine-learning kernel anomaly detection, but whether an LLM is used and the security evaluation scope are unclear without an abstract.",
+    "evidence": "Predictive Anomaly Detection for Linux Kernel Behavior Using Machine Learning"
+  },
+  {
+    "id": "R00904",
+    "decision": "UNCLEAR",
+    "reason": "Title states LLM-driven penetration testing, but the target being OS components or privileged interfaces is not established.",
+    "evidence": "AI-Powered Automated Penetration Testing in Kali Linux: An Enterprise-Scale Offensive Security Framework Driven by Reinforcement Learning and Large Language Models"
+  },
+  {
+    "id": "R00905",
+    "decision": "EXCLUDE",
+    "reason": "Title concerns LLM-assisted Linux teaching, not a security analysis or testing task.",
+    "evidence": "Reform and Practice of Large Language Model-Assisted Teaching in Linux Course Based on Constructivist Theory"
+  },
+  {
+    "id": "R00906",
+    "decision": "EXCLUDE",
+    "reason": "Title concerns kernel development process bottlenecks, with no LLM security task indicated.",
+    "evidence": "Mapping and Mitigating Bottlenecks in the Linux Kernel Development Model"
+  },
+  {
+    "id": "R00907",
+    "decision": "EXCLUDE",
+    "reason": "Abstract describes reinforcement-learning-guided kernel fuzzing, not LLM use.",
+    "evidence": "we propose an RL-guided fuzzing scheduler"
+  },
+  {
+    "id": "R00908",
+    "decision": "EXCLUDE",
+    "reason": "Abstract describes constraint-based kernel fuzzing using solver queries, with no LLM indicated.",
+    "evidence": "extracts partial symbolic constraints using lightweight solver queries"
+  },
+  {
+    "id": "R00909",
+    "decision": "EXCLUDE",
+    "reason": "Title targets REST APIs with LLM-assisted fuzzing, not OS components or privileged interfaces.",
+    "evidence": "REST API Fuzzing Using API Dependencies and Large Language Models"
+  },
+  {
+    "id": "R00910",
+    "decision": "EXCLUDE",
+    "reason": "Abstract describes microarchitectural-feedback kernel fuzzing, with no LLM use.",
+    "evidence": "leverages branch buffer telemetry from modern CPUs"
+  },
+  {
+    "id": "R00911",
+    "decision": "EXCLUDE",
+    "reason": "Title concerns general option-combination fuzzing via LLM, with no indication of OS-component targets.",
+    "evidence": "Fully Automated Prediction and Fuzzing of High-Risk Option Combinations with Only Documentation via Large Language Model"
+  },
+  {
+    "id": "R00912",
+    "decision": "EXCLUDE",
+    "reason": "Title targets JavaScript engines with LLM fuzzing, not OS components or privileged interfaces.",
+    "evidence": "Program-Interoperable Large Language Models Fuzzing for JavaScript Engines"
+  },
+  {
+    "id": "R00913",
+    "decision": "EXCLUDE",
+    "reason": "Abstract discusses Linux zombie processes without an LLM-based security analysis or testing task.",
+    "evidence": "A zombie process is a type of process that has completed its execution but still has an entry in the process table"
+  },
+  {
+    "id": "R00914",
+    "decision": "EXCLUDE",
+    "reason": "Abstract describes taint-guided kernel fuzzing, with no LLM indicated.",
+    "evidence": "We integrate static taint analysis with dynamic fuzzing to target high-impact kernel code paths"
+  },
+  {
+    "id": "R00915",
+    "decision": "EXCLUDE",
+    "reason": "Title targets JavaScript engines with LLM fuzzing, not OS components or privileged interfaces.",
+    "evidence": "Adaptive, Structure-Aware Fuzzing of Javascript Engines with Large Language Models"
+  },
+  {
+    "id": "R00916",
+    "decision": "EXCLUDE",
+    "reason": "Abstract describes fuzzing Linux network interfaces but gives no indication of LLM use.",
+    "evidence": "create a new approach to fuzzing testing of network interfaces of Linux family operating systems"
+  },
+  {
+    "id": "R00917",
+    "decision": "EXCLUDE",
+    "reason": "Title indicates a discussion of challenges in LLM fuzzing rather than core empirical security research.",
+    "evidence": "On the Challenges of Fuzzing Techniques via Large Language Models"
+  },
+  {
+    "id": "R00918",
+    "decision": "EXCLUDE",
+    "reason": "Title targets IoT HTTP services with LLM-assisted fuzzing, not OS components or privileged interfaces.",
+    "evidence": "ChatHTTPFuzz: large language model-assisted IoT HTTP fuzzing"
+  },
+  {
+    "id": "R00919",
+    "decision": "EXCLUDE",
+    "reason": "Title concerns evaluating LLM knowledge of kernel development, not using LLMs for a security task.",
+    "evidence": "Question-answering Capability Evaluation of Large Language Models on Linux Kernel Development Knowledge"
+  },
+  {
+    "id": "R00920",
+    "decision": "EXCLUDE",
+    "reason": "Title concerns Rust adoption in kernel development, with no LLM security task indicated.",
+    "evidence": "Rusty Linux: Advances in Rust for Linux Kernel Development"
+  }
+]

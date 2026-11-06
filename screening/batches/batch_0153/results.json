@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R06121",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based HLS hardware design repair; no OS component or security outcome.",
+    "evidence": "Automated repair of High-Level Synthesis (HLS) designs using large language models"
+  },
+  {
+    "id": "R06122",
+    "decision": "EXCLUDE",
+    "reason": "GPU kernel performance optimization for LLM inference; no security task.",
+    "evidence": "deployment-aware closed-loop optimization framework"
+  },
+  {
+    "id": "R06123",
+    "decision": "EXCLUDE",
+    "reason": "Assembly-level GPU kernel optimization with functional equivalence; no security analysis.",
+    "evidence": "agentic assembly-level optimizer for AMD GPU kernels"
+  },
+  {
+    "id": "R06124",
+    "decision": "EXCLUDE",
+    "reason": "Multi-agent collaboration and state validation; not an OS security task.",
+    "evidence": "schema-grounded collaboration architecture"
+  },
+  {
+    "id": "R06125",
+    "decision": "EXCLUDE",
+    "reason": "Softmax approximation and kernel acceleration; no security outcome.",
+    "evidence": "approximating softmax at inference"
+  },
+  {
+    "id": "R06126",
+    "decision": "EXCLUDE",
+    "reason": "LLM repairs stale Linux kernel comments for comprehension, not security.",
+    "evidence": "generating LLM-based repair suggestions"
+  },
+  {
+    "id": "R06127",
+    "decision": "EXCLUDE",
+    "reason": "Tensor-network LLM compression; no OS security task.",
+    "evidence": "production compression pipeline"
+  },
+  {
+    "id": "R06128",
+    "decision": "EXCLUDE",
+    "reason": "CUDA graph cold-start optimization; no security task.",
+    "evidence": "template-based CUDA graph context materialization"
+  },
+  {
+    "id": "R06129",
+    "decision": "EXCLUDE",
+    "reason": "Lean proof-statement review; the kernel is a proof checker, not an OS target.",
+    "evidence": "The kernel of the Lean proof assistant checks that a proof establishes its statement."
+  },
+  {
+    "id": "R06130",
+    "decision": "EXCLUDE",
+    "reason": "Studies LLM robustness to perturbations; security of LLMs, not OS security.",
+    "evidence": "robustness is usually evaluated only through output behavior"
+  },
+  {
+    "id": "R06131",
+    "decision": "EXCLUDE",
+    "reason": "LLM pruning method; no security task.",
+    "evidence": "Learnable End-to-End Adaptive Pruning of Large Language Models"
+  },
+  {
+    "id": "R06132",
+    "decision": "EXCLUDE",
+    "reason": "KV-cache memory reclamation for LLM serving; no security task.",
+    "evidence": "elastic KV cache"
+  },
+  {
+    "id": "R06133",
+    "decision": "EXCLUDE",
+    "reason": "NVFP4 pretraining and quantization analysis; no security task.",
+    "evidence": "outlier dynamics across architecture during NVFP4 pretraining"
+  },
+  {
+    "id": "R06134",
+    "decision": "EXCLUDE",
+    "reason": "LLM agent patches Linux kernel crashes; no explicit security analysis or outcome.",
+    "evidence": "generating patches to mitigate crashes reported in systems code"
+  },
+  {
+    "id": "R06135",
+    "decision": "EXCLUDE",
+    "reason": "Multimodal vision representation; no security or OS target.",
+    "evidence": "Enhancing Visual Representation with Visual Spatial Tokens"
+  },
+  {
+    "id": "R06136",
+    "decision": "EXCLUDE",
+    "reason": "Model-hardware inference adaptation; no security task.",
+    "evidence": "model-framework-kernel-hardware co-adaptation problem"
+  },
+  {
+    "id": "R06137",
+    "decision": "EXCLUDE",
+    "reason": "Efficient multi-view geometry attention; no security task.",
+    "evidence": "Block-Sparse Global Attention for Efficient Multi-View Geometry Transformers"
+  },
+  {
+    "id": "R06138",
+    "decision": "EXCLUDE",
+    "reason": "Low-bit GEMM exploration; no security task.",
+    "evidence": "Exploration Framework for CPU-Driven ML Inference"
+  },
+  {
+    "id": "R06139",
+    "decision": "EXCLUDE",
+    "reason": "LLM agents build and evolve OSes; OS engineering without a security outcome.",
+    "evidence": "Building and Evolving Operating Systems with Specification-Guided Agents"
+  },
+  {
+    "id": "R06140",
+    "decision": "EXCLUDE",
+    "reason": "Field study of non-GPU inference deployment; no security task.",
+    "evidence": "real engineering cost of migrating demanding workloads beyond CUDA"
+  },
+  {
+    "id": "R06141",
+    "decision": "UNCLEAR",
+    "reason": "Secures LLM-generated systems code and device drivers via a reference monitor; the LLM role is generation, not clearly security analysis.",
+    "evidence": "reference monitor for regenerated device drivers"
+  },
+  {
+    "id": "R06142",
+    "decision": "EXCLUDE",
+    "reason": "MCP security detection; targets agent tool infrastructure, not OS components.",
+    "evidence": "MCP security detection system"
+  },
+  {
+    "id": "R06143",
+    "decision": "EXCLUDE",
+    "reason": "Vulnerability auditing of MCP servers; target is agent tool infrastructure, not OS.",
+    "evidence": "automated vulnerability auditing framework for MCP servers"
+  },
+  {
+    "id": "R06144",
+    "decision": "EXCLUDE",
+    "reason": "SoK review of prompt injection in coding assistants; security of LLM agents.",
+    "evidence": "Systematization of Knowledge (SoK) paper"
+  },
+  {
+    "id": "R06145",
+    "decision": "EXCLUDE",
+    "reason": "Audits MCP servers for over-privileged capabilities; not an OS component target.",
+    "evidence": "security assessment toolkit designed specifically for MCP servers"
+  },
+  {
+    "id": "R06146",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM generates dynamic SSH honeypot responses, a security protection and deception task targeting a system service.",
+    "evidence": "SSH honeypot that leverages Large Language Models (LLMs) to generate realistic, dynamic command outputs"
+  },
+  {
+    "id": "R06147",
+    "decision": "EXCLUDE",
+    "reason": "Scans agent skills for vulnerabilities; security of the LLM-agent ecosystem, not OS.",
+    "evidence": "Detecting and Mitigating Local and Composite Vulnerabilities in Skills"
+  },
+  {
+    "id": "R06148",
+    "decision": "EXCLUDE",
+    "reason": "Solidity smart-contract generation; not an OS security target.",
+    "evidence": "Specialized Multi-Agent Framework for Solidity Code Generation"
+  },
+  {
+    "id": "R06149",
+    "decision": "EXCLUDE",
+    "reason": "Software-design reasoning with security as one rubric dimension; not a security task.",
+    "evidence": "Quality-Driven Agentic Reasoning for LLM-Assisted Software Design"
+  },
+  {
+    "id": "R06150",
+    "decision": "EXCLUDE",
+    "reason": "Access control for LLM agents; security of agents, not OS components.",
+    "evidence": "access control framework for agents"
+  },
+  {
+    "id": "R06151",
+    "decision": "EXCLUDE",
+    "reason": "Prevents prompt injection in personal AI agents; security of LLM agents.",
+    "evidence": "Preventing Indirect Prompt Injection in Personal AI Agents"
+  },
+  {
+    "id": "R06152",
+    "decision": "EXCLUDE",
+    "reason": "Benchmark for AI agent safety; evaluates agents rather than using an LLM for OS security.",
+    "evidence": "Comprehensive Framework for Evaluating Real-World AI Agent Safety"
+  },
+  {
+    "id": "R06153",
+    "decision": "EXCLUDE",
+    "reason": "Benchmark for risky code execution by code agents; security evaluation of agents.",
+    "evidence": "Risky Code Execution and Generation Benchmark for Code Agents"
+  },
+  {
+    "id": "R06154",
+    "decision": "EXCLUDE",
+    "reason": "Agent state snapshot and rollback runtime; no security task.",
+    "evidence": "Managing Agent State with Statepoints"
+  },
+  {
+    "id": "R06155",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM agent performs a Windows OS password-policy security audit.",
+    "evidence": "leverage Large Language Models (LLMs) as an autonomous agent to execute part of the security audit"
+  },
+  {
+    "id": "R06156",
+    "decision": "EXCLUDE",
+    "reason": "Survey and position on securing LLM agents via OS principles; not an OS security task.",
+    "evidence": "we survey the current landscape of open-source agents"
+  },
+  {
+    "id": "R06157",
+    "decision": "UNCLEAR",
+    "reason": "LLM security patching is core, but the abstract only lists operating systems among general Python domains.",
+    "evidence": "including databases, websites and operating systems"
+  },
+  {
+    "id": "R06158",
+    "decision": "EXCLUDE",
+    "reason": "Defense against indirect prompt injection for LLM agents; security of agents.",
+    "evidence": "Adaptive Trust Boundary Expansion for Securing LLM Agents"
+  },
+  {
+    "id": "R06159",
+    "decision": "EXCLUDE",
+    "reason": "Measures security of mobile LLM agents; security of agents, not LLM-for-OS security.",
+    "evidence": "Measuring the Security of Mobile LLM Agents"
+  },
+  {
+    "id": "R06160",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM assistants serve as TEE security advisors for architecture review and vulnerability triage, targeting a privileged interface.",
+    "evidence": "LLM assistants as security advisors for TEE architecture review, mitigation planning, and vulnerability triage"
+  }
+]

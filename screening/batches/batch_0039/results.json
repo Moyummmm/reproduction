@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01561",
+    "decision": "EXCLUDE",
+    "reason": "Survey/review of VLM security in autonomous driving, not original LLM-assisted OS security research.",
+    "evidence": "Vision-Language Model Security in Autonomous Driving: A Survey"
+  },
+  {
+    "id": "R01562",
+    "decision": "EXCLUDE",
+    "reason": "Title describes deepfake face detection with vision transformers, not an LLM security task on OS components.",
+    "evidence": "Deepfake Face Detection using Patch Vision Transformers"
+  },
+  {
+    "id": "R01563",
+    "decision": "EXCLUDE",
+    "reason": "Seismological sensitivity-kernel and waveform modeling; no LLM, security task, or OS target.",
+    "evidence": "sensitivity kernel construction"
+  },
+  {
+    "id": "R01564",
+    "decision": "EXCLUDE",
+    "reason": "Financial prediction using a language model and time series, with no security or OS component.",
+    "evidence": "Financial Prediction With Language Model"
+  },
+  {
+    "id": "R01565",
+    "decision": "EXCLUDE",
+    "reason": "Agricultural rice-kernel inspection with a vision-language model, outside security and OS scope.",
+    "evidence": "Wild rice kernel inspection using a prompt-guided vision language model"
+  },
+  {
+    "id": "R01566",
+    "decision": "EXCLUDE",
+    "reason": "LLM unlearning study; no security analysis/testing of OS components or privileged interfaces.",
+    "evidence": "LoRA-Based Language Model Unlearning"
+  },
+  {
+    "id": "R01567",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial-patch defense for traffic-sign classification without an LLM or OS target.",
+    "evidence": "defense for traffic sign classification under adversarial patch"
+  },
+  {
+    "id": "R01568",
+    "decision": "EXCLUDE",
+    "reason": "Malicious-URL detection using kernel PCA/SVM/GA, not an LLM or OS component.",
+    "evidence": "Intelligent Malicious URL Detection Using Kernel PCA-SVM-GA Model"
+  },
+  {
+    "id": "R01569",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; transformer-based security-patch identification may be adjacent, but OS target and LLM role are unestablished.",
+    "evidence": "Gated Transformer Network for Multivariate Security Patch Identification"
+  },
+  {
+    "id": "R01570",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; device-driver fuzzing is core-adjacent, but LLM use and exact scope are not established.",
+    "evidence": "DevFuzz: Automatic Device Model-Guided Device Driver Fuzzing"
+  },
+  {
+    "id": "R01571",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; driver-bug fuzzing is core-adjacent, but LLM role and OS target details are unavailable.",
+    "evidence": "Finding Device Driver Bugs With Fuzzing PCIe Configuration Input"
+  },
+  {
+    "id": "R01572",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; on-device microcontroller fuzzing may be adjacent, but LLM role and OS scope are unclear.",
+    "evidence": "DataFlow-Guided On-Device Fuzzing for Microcontrollers"
+  },
+  {
+    "id": "R01573",
+    "decision": "EXCLUDE",
+    "reason": "Abstract describes conventional grey-box fuzzing of an Intel media driver without any LLM component.",
+    "evidence": "conventional Grey box Fuzzers like AFL"
+  },
+  {
+    "id": "R01574",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; title indicates LLM-assisted IoT fuzzing, but the target's OS/privileged-interface scope is unclear.",
+    "evidence": "Initial Seeds Generation Based on Communication Logs Using LLM for IoT Device Fuzzing"
+  },
+  {
+    "id": "R01575",
+    "decision": "EXCLUDE",
+    "reason": "LLM-guided reward shaping for autonomous driving, not security analysis of OS components.",
+    "evidence": "LLM-PPO Driver: Improving Autonomous Driving via LLM-Guided Reward Shaping"
+  },
+  {
+    "id": "R01576",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; driver fuzzing is core-adjacent, but LLM use and target details are not established.",
+    "evidence": "Semantic-Informed Driver Fuzzing"
+  },
+  {
+    "id": "R01577",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; USB driver fuzzing is core-adjacent, but LLM role and OS scope are unestablished.",
+    "evidence": "Saturn: Host-Gadget Synergistic USB Driver Fuzzing"
+  },
+  {
+    "id": "R01578",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; virtual-device fuzzing is core-adjacent, but LLM role and target details are unavailable.",
+    "evidence": "ViDeZZo: Dependency-aware Virtual Device Fuzzing"
+  },
+  {
+    "id": "R01579",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; prompt-based fuzz-driver generation may involve LLMs, but OS target and security scope are unclear.",
+    "evidence": "Prompt Fuzzing for Fuzz Driver Generation"
+  },
+  {
+    "id": "R01580",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based ride-hailing driver agents; no security analysis or OS component.",
+    "evidence": "LLM-Based Driver Agents in Ride-Hailing Markets"
+  },
+  {
+    "id": "R01581",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; embedded Android driver fuzzing is core-adjacent, but LLM role and scope are unestablished.",
+    "evidence": "DROIDFUZZ: Proprietary Driver Fuzzing for Embedded Android Devices"
+  },
+  {
+    "id": "R01582",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted IoT code development with on-device validation, not a security task on OS components.",
+    "evidence": "assist in IoT device code development"
+  },
+  {
+    "id": "R01583",
+    "decision": "EXCLUDE",
+    "reason": "Multi-LLM traffic accident risk prediction and warnings; no OS security analysis.",
+    "evidence": "Multi-LLM Semantic Fusion for Context-Aware Traffic Accident Risk Prediction"
+  },
+  {
+    "id": "R01584",
+    "decision": "EXCLUDE",
+    "reason": "Title concerns source-based fuzz-driver generation for standard library fuzzing, not LLM use on OS components.",
+    "evidence": "Purely Source-Based Driver Generation for Standard Library Fuzzing Pipelines"
+  },
+  {
+    "id": "R01585",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; GPU driver fuzzing is core-adjacent, but LLM use and exact target are unestablished.",
+    "evidence": "Moneta: Ex-Vivo GPU Driver Fuzzing"
+  },
+  {
+    "id": "R01586",
+    "decision": "EXCLUDE",
+    "reason": "Abstract presents protocol-aware virtual-device fuzzing without any LLM component.",
+    "evidence": "protocol-sensitive fuzzing framework"
+  },
+  {
+    "id": "R01587",
+    "decision": "EXCLUDE",
+    "reason": "Hybrid LLM deployment architectures for regulated industries; no security analysis or OS target indicated.",
+    "evidence": "Hybrid LLM Architectures for On-Device and Cloud-Based Intelligence"
+  },
+  {
+    "id": "R01588",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; Windows driver fuzzing is core-adjacent, but LLM role and scope are not established.",
+    "evidence": "Lifecycle-Guided Fuzzing for Windows Driver Cross-Handler Vulnerabilities"
+  },
+  {
+    "id": "R01589",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; kernel driver fuzzing is core-adjacent, but LLM use and target details are unavailable.",
+    "evidence": "Dependency Inference for Augmenting Kernel Driver Fuzzing"
+  },
+  {
+    "id": "R01590",
+    "decision": "EXCLUDE",
+    "reason": "Generic device-driver example; no security task, LLM role, or original research indicated.",
+    "evidence": "An Example Device Driver"
+  },
+  {
+    "id": "R01591",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM-based IoT protocol fuzzing could be adjacent, but OS/network-stack scope is unclear.",
+    "evidence": "Intelligent test case generation method for fuzzing IoT protocols based on LLM"
+  },
+  {
+    "id": "R01592",
+    "decision": "EXCLUDE",
+    "reason": "LLM-AHP/SD-LLM product design for smartphone addiction management, outside security and OS scope.",
+    "evidence": "Adolescent Smartphone Addiction Management Device"
+  },
+  {
+    "id": "R01593",
+    "decision": "EXCLUDE",
+    "reason": "On-device LLM inference memory optimization without any security analysis or testing outcome.",
+    "evidence": "Zero-copy Shared Memory Interface for Unbounded Context Management in on-device LLM Inference"
+  },
+  {
+    "id": "R01594",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted autonomous-driving scenario fuzzing, not OS-component security research.",
+    "evidence": "Enhancing Diversity in Autonomous Driving Scenario Fuzzing with LLMs"
+  },
+  {
+    "id": "R01595",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM-guided pathological-input fuzzing lacks a stated OS target or security scope.",
+    "evidence": "LLM-Guided Fuzzing for Pathological Input Generation"
+  },
+  {
+    "id": "R01596",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM-driven stateful protocol fuzzing lacks a stated OS/network-stack target.",
+    "evidence": "Enhancing Stateful Protocol Fuzzing with LLM-Driven Seed Structure Awareness"
+  },
+  {
+    "id": "R01597",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM-assisted protocol fuzzing of commercial modules lacks established OS scope.",
+    "evidence": "LLM-Assisted Protocol Fuzzing for Commercial Communication Modules"
+  },
+  {
+    "id": "R01598",
+    "decision": "EXCLUDE",
+    "reason": "LLM-generated driver intervention messages for automotive safety, not OS security.",
+    "evidence": "LLM-generated driver intervention messages"
+  },
+  {
+    "id": "R01599",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; LLM-guided protocol-fuzzing seed generation lacks a stated OS/privileged target.",
+    "evidence": "Seed Generation for Protocol Fuzzing via Knowledge Fusion and PCSG-Guided LLM"
+  },
+  {
+    "id": "R01600",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted literature taxonomy of graphene optoelectronics, not security research on OS components.",
+    "evidence": "generative large-language-model (LLM) taxonomy induction"
+  }
+]

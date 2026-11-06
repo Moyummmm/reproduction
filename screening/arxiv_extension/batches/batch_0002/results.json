@@ -1,0 +1,242 @@
+[
+  {
+    "id": "arxiv:2405.00469",
+    "decision": "EXCLUDE",
+    "reason": "Search-ranking content injection, not an OS or privileged-interface target.",
+    "evidence": "injected into a document without adversely affecting its position in search results"
+  },
+  {
+    "id": "arxiv:2405.00981",
+    "decision": "EXCLUDE",
+    "reason": "Conversational recommendation and preference elicitation; no security or OS task.",
+    "evidence": "building effective and personalized conversational recommendation (ConvRec) systems"
+  },
+  {
+    "id": "arxiv:2405.01668",
+    "decision": "EXCLUDE",
+    "reason": "General software bug detection in GitHub repositories, not OS-specific targets.",
+    "evidence": "154 Python and C GitHub repositories, each with over 1,000 stars"
+  },
+  {
+    "id": "arxiv:2405.05508",
+    "decision": "EXCLUDE",
+    "reason": "LLM retrieval for financial QA; no security outcome or OS target.",
+    "evidence": "LLM-based search and question answering system tailored for the financial domain"
+  },
+  {
+    "id": "arxiv:2405.05885",
+    "decision": "EXCLUDE",
+    "reason": "Autonomous-driving perception and control, not security against OS components.",
+    "evidence": "empower the autonomous vehicles with adjustable driving behaviors"
+  },
+  {
+    "id": "arxiv:2405.06034",
+    "decision": "EXCLUDE",
+    "reason": "Statistical inference methodology; no security or OS evaluation.",
+    "evidence": "improves statistical estimates based on limited human-labeled data"
+  },
+  {
+    "id": "arxiv:2405.07767",
+    "decision": "EXCLUDE",
+    "reason": "Synthetic IR test collections; no security or OS target.",
+    "evidence": "construct fully synthetic test collections"
+  },
+  {
+    "id": "arxiv:2405.09318",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-based malware detection using system-call data, a privileged OS interface.",
+    "evidence": "leveraging LLMs to classify malware based on system call data"
+  },
+  {
+    "id": "arxiv:2405.11916",
+    "decision": "EXCLUDE",
+    "reason": "Privacy attack on LLM embeddings, not OS components.",
+    "evidence": "reconstruct original texts from a model's hidden states"
+  },
+  {
+    "id": "arxiv:2405.15485",
+    "decision": "EXCLUDE",
+    "reason": "Mathematical understanding evaluation of LLMs; no security or OS task.",
+    "evidence": "assesses the domain knowledge of LLMs"
+  },
+  {
+    "id": "arxiv:2405.16089",
+    "decision": "EXCLUDE",
+    "reason": "Tool retrieval for LLM augmentation; no security analysis.",
+    "evidence": "develop an effective tool retrieval system"
+  },
+  {
+    "id": "arxiv:2405.19749",
+    "decision": "EXCLUDE",
+    "reason": "Query recommendation for search engines; no security or OS component.",
+    "evidence": "frame the query recommendation problem as a generative task"
+  },
+  {
+    "id": "arxiv:2406.01288",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreaking aligned LLMs; security of LLMs rather than OS targets.",
+    "evidence": "few-shot demonstrations to efficiently jailbreak LLMs"
+  },
+  {
+    "id": "arxiv:2406.01862",
+    "decision": "EXCLUDE",
+    "reason": "Overview of GenAI election interference; no OS target and not core empirical work.",
+    "evidence": "explores the nefarious applications of GenAI"
+  },
+  {
+    "id": "arxiv:2406.03843",
+    "decision": "EXCLUDE",
+    "reason": "Prompt-engineering visual analytics; no security or OS task.",
+    "evidence": "visual analytics system to facilitate efficient prompt engineering"
+  },
+  {
+    "id": "arxiv:2406.08434",
+    "decision": "EXCLUDE",
+    "reason": "Machine translation with LLM self-reflection; no security or OS task.",
+    "evidence": "Translating through Self-Reflection"
+  },
+  {
+    "id": "arxiv:2406.13235",
+    "decision": "EXCLUDE",
+    "reason": "Recommendation-system semantics; no security or OS target.",
+    "evidence": "enhances the understanding of user-item collaborative semantics"
+  },
+  {
+    "id": "arxiv:2406.13885",
+    "decision": "EXCLUDE",
+    "reason": "Math-question knowledge tagging; no security or OS task.",
+    "evidence": "Knowledge tagging for questions plays a crucial role"
+  },
+  {
+    "id": "arxiv:2406.14662",
+    "decision": "EXCLUDE",
+    "reason": "Multi-agent alignment algorithms; no security analysis of OS components.",
+    "evidence": "a family of algorithms derived from first principles"
+  },
+  {
+    "id": "arxiv:2406.16743",
+    "decision": "EXCLUDE",
+    "reason": "Safety alignment of LLMs; security of LLMs rather than OS targets.",
+    "evidence": "Safety Alignment of Large Language Models"
+  },
+  {
+    "id": "arxiv:2406.16745",
+    "decision": "EXCLUDE",
+    "reason": "Preference-feedback bandits; no security or OS task.",
+    "evidence": "Bandits with preference feedback"
+  },
+  {
+    "id": "arxiv:2406.17781",
+    "decision": "EXCLUDE",
+    "reason": "Color-concept association study; no security or OS task.",
+    "evidence": "estimate human-like color-concept associations"
+  },
+  {
+    "id": "arxiv:2406.18722",
+    "decision": "EXCLUDE",
+    "reason": "Robotic grasping; no security outcome or OS target.",
+    "evidence": "open-world grasping pipeline"
+  },
+  {
+    "id": "arxiv:2406.19417",
+    "decision": "EXCLUDE",
+    "reason": "RAG data-poisoning threat; security of LLMs, not OS components.",
+    "evidence": "injecting deceptive content into the retrieval database"
+  },
+  {
+    "id": "arxiv:2407.03045",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreak-prompt discovery; security of LLMs rather than OS targets.",
+    "evidence": "identifying jailbreak prompts in large-scale human-LLM conversational datasets"
+  },
+  {
+    "id": "arxiv:2407.07392",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial vision-language navigation; not an OS or privileged-interface target.",
+    "evidence": "adversarially modify a minimal number of images"
+  },
+  {
+    "id": "arxiv:2407.07791",
+    "decision": "EXCLUDE",
+    "reason": "Manipulated-knowledge spread in LLM multi-agent systems; security of LLMs.",
+    "evidence": "spread of manipulated knowledge"
+  },
+  {
+    "id": "arxiv:2407.07966",
+    "decision": "EXCLUDE",
+    "reason": "Survey of smart-grid security; reviews are excluded and target is not OS.",
+    "evidence": "we conduct a comprehensive review of smart grid security"
+  },
+  {
+    "id": "arxiv:2407.09281",
+    "decision": "EXCLUDE",
+    "reason": "Human decision prediction; no security or OS task.",
+    "evidence": "predict human behavior in two sequential decision-making tasks"
+  },
+  {
+    "id": "arxiv:2407.10510",
+    "decision": "EXCLUDE",
+    "reason": "Herbal prescription prediction; no security or OS task.",
+    "evidence": "Predicting TCM prescriptions"
+  },
+  {
+    "id": "arxiv:2407.11279",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-generated exploit code supports Android filesystem vulnerability discovery and validation.",
+    "evidence": "leverages large language models (LLMs) to generate targeted exploit code"
+  },
+  {
+    "id": "arxiv:2407.12345",
+    "decision": "EXCLUDE",
+    "reason": "Trajectory prediction for autonomous driving; no security analysis of OS components.",
+    "evidence": "Predicting future trajectories for other road agents"
+  },
+  {
+    "id": "arxiv:2407.13093",
+    "decision": "EXCLUDE",
+    "reason": "Threat-intelligence workflow automation in SOCs, not OS components or privileged interfaces.",
+    "evidence": "Automate Threat Intelligence Analysis Workflows in Security Operation Centers"
+  },
+  {
+    "id": "arxiv:2407.13111",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial attack on driving vision models; not an OS or privileged-interface target.",
+    "evidence": "Adversaries can exploit these vulnerabilities to manipulate the vehicle's perception"
+  },
+  {
+    "id": "arxiv:2407.17545",
+    "decision": "EXCLUDE",
+    "reason": "Workflow anomaly detection, not OS-component security analysis.",
+    "evidence": "workflow anomaly detection"
+  },
+  {
+    "id": "arxiv:2407.17716",
+    "decision": "EXCLUDE",
+    "reason": "Speech emotion recognition with LLM text; no security or OS task.",
+    "evidence": "improve the noise-robustness of the SER system"
+  },
+  {
+    "id": "arxiv:2407.17788",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based pentesting and remediation is relevant, but the abstract does not specify OS components or privileged interfaces.",
+    "evidence": "autonomously identify and mitigate security vulnerabilities"
+  },
+  {
+    "id": "arxiv:2407.20242",
+    "decision": "EXCLUDE",
+    "reason": "Jailbreaking embodied LLM agents; safety of LLM-robot systems, not OS components.",
+    "evidence": "make embodied LLMs violate safety and ethical constraints"
+  },
+  {
+    "id": "arxiv:2407.21118",
+    "decision": "EXCLUDE",
+    "reason": "KV-cache compression for LLM inference; no security or OS task.",
+    "evidence": "KV-Cache compression framework"
+  },
+  {
+    "id": "arxiv:2408.00741",
+    "decision": "EXCLUDE",
+    "reason": "Energy-efficient LLM inference clusters; no security or OS task.",
+    "evidence": "energy-management framework for LLM inference environments"
+  }
+]

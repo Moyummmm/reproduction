@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03441",
+    "decision": "EXCLUDE",
+    "reason": "Service discovery and OpenAPI enrichment; no security analysis or OS component target.",
+    "evidence": "An LLM-Based Methodology for RESTful Service Publication and Discovery"
+  },
+  {
+    "id": "R03442",
+    "decision": "EXCLUDE",
+    "reason": "Performance modeling of LLM serving and memory eviction; no security or OS security outcome.",
+    "evidence": "Service-Induced Congestion in Memory-Constrained LLM Serving"
+  },
+  {
+    "id": "R03443",
+    "decision": "EXCLUDE",
+    "reason": "Customer-service chatbot comparison; no security analysis or OS target.",
+    "evidence": "Can LLM Chatbots Replace Flow-Driven NLP Chatbots in Customer Service?"
+  },
+  {
+    "id": "R03444",
+    "decision": "UNCLEAR",
+    "reason": "Vulnerability remediation with LLMs is potentially relevant, but the missing abstract leaves OS target and evaluation unclear.",
+    "evidence": "It is a Teamwork Among Security Technicians, Users and Llms: Practically Implementing an Llm Supported Collaborative Vulnerability Remediation Process"
+  },
+  {
+    "id": "R03445",
+    "decision": "EXCLUDE",
+    "reason": "Telecom LLM inference measurement and SLO proposal; not security analysis of OS components.",
+    "evidence": "This paper proposes twelve new IFA 027 measurement types for LLM inference workloads"
+  },
+  {
+    "id": "R03446",
+    "decision": "EXCLUDE",
+    "reason": "Erratum/correction rather than original research; no abstract to establish core scope.",
+    "evidence": "Erratum to “VPLocator: Vulnerability Patch Localization Model Based on LLM”"
+  },
+  {
+    "id": "R03447",
+    "decision": "EXCLUDE",
+    "reason": "Book-chapter overview of LLM potential in vulnerability management, not original empirical research.",
+    "evidence": "This chapter explores the potential of LLM-driven automation in vulnerability management"
+  },
+  {
+    "id": "R03448",
+    "decision": "UNCLEAR",
+    "reason": "Vulnerability reasoning with an LLM is potentially relevant, but the missing abstract leaves the OS target unclear.",
+    "evidence": "LLaVul: A Multimodal LLM for Interpretable Vulnerability Reasoning about Source Code"
+  },
+  {
+    "id": "R03449",
+    "decision": "EXCLUDE",
+    "reason": "Social-service study of financial vulnerability; no LLM security analysis or OS target.",
+    "evidence": "Holistic Social Service Systems as a Framework for Addressing Financial Vulnerability"
+  },
+  {
+    "id": "R03450",
+    "decision": "EXCLUDE",
+    "reason": "Medical teleconsultation audit and education; no security analysis or OS target.",
+    "evidence": "Post-Session LLM-Based Analysis of Multi-Role Teleconsultations for Audit and Medical Education"
+  },
+  {
+    "id": "R03451",
+    "decision": "EXCLUDE",
+    "reason": "General log-parsing methods overview; no explicit security task or OS target.",
+    "evidence": "Analysis on Log Parsing: Classical Methods to LLM-Based Approaches"
+  },
+  {
+    "id": "R03452",
+    "decision": "EXCLUDE",
+    "reason": "Hospital audit analysis; not security analysis of OS components.",
+    "evidence": "Audit-Copilot: A RAG-Based LLM System for Interactive Hospital Audit Analysis"
+  },
+  {
+    "id": "R03453",
+    "decision": "UNCLEAR",
+    "reason": "Cloud forensics with LLMs is potentially relevant, but the missing abstract leaves OS target and evaluation unclear.",
+    "evidence": "LLM-Powered Automated Cloud Forensics: From Log Analysis to Investigation"
+  },
+  {
+    "id": "R03454",
+    "decision": "UNCLEAR",
+    "reason": "Database forensics with an LLM is potentially relevant, but the missing abstract leaves OS/privileged-interface target unclear.",
+    "evidence": "Intelligent Audit Log Query Chatbot for Database Forensics Using LLM"
+  },
+  {
+    "id": "R03455",
+    "decision": "UNCLEAR",
+    "reason": "Campus-network log analysis could be security-relevant, but the missing abstract leaves security task and OS target unclear.",
+    "evidence": "Lightweight Edge Intelligence: Adapting 1.5B LLM via LoRA for Log Analysis in Campus Networks"
+  },
+  {
+    "id": "R03456",
+    "decision": "EXCLUDE",
+    "reason": "O-RAN MAC-layer performance optimization; no security analysis or OS target.",
+    "evidence": "LLM-5GMAC: Performance Optimization in O-RAN Split 7.2 Using LLM-Based MAC-Layer Log Analysis"
+  },
+  {
+    "id": "R03457",
+    "decision": "EXCLUDE",
+    "reason": "Health information exchange audit-log usage study; no LLM and no security/OS analysis.",
+    "evidence": "Content Analysis of Health Information Exchange Usage in Japan: An Audit Log Study (Preprint)"
+  },
+  {
+    "id": "R03458",
+    "decision": "UNCLEAR",
+    "reason": "Malicious-activity web-log analysis with an LLM is potentially relevant, but the missing abstract leaves the OS target unclear.",
+    "evidence": "Uncovering Malicious Activity: Interpretable Web Log Analysis with XAI, SHAP, and LLM"
+  },
+  {
+    "id": "R03459",
+    "decision": "EXCLUDE",
+    "reason": "Taxonomy and regulatory mapping of AI in audit; not empirical security or OS research.",
+    "evidence": "Mapping Artificial Intelligence in Audit: A Pre-LLM / LLM-Era Taxonomy"
+  },
+  {
+    "id": "R03460",
+    "decision": "EXCLUDE",
+    "reason": "Key audit matter disclosure generation; not security analysis of OS components.",
+    "evidence": "AI-Enabled Key Audit Matter Disclosures: A Hybrid LLM Approach to Enhancing Audit Report Transparency"
+  },
+  {
+    "id": "R03461",
+    "decision": "EXCLUDE",
+    "reason": "Process mining of travel-expense event logs; no security analysis or OS target.",
+    "evidence": "Utilization of LLM for Process Mining Analysis of Event Log of Travel Expenses at the Operational Level"
+  },
+  {
+    "id": "R03462",
+    "decision": "EXCLUDE",
+    "reason": "Nginx log analysis for UX friction detection; not a security or OS-security task.",
+    "evidence": "Nginx-Narrator: LLM-Based Automated Nginx Log Analysis for UX Friction Detection in Web Applications"
+  },
+  {
+    "id": "R03463",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based log anomaly analysis is potentially relevant, but the missing abstract leaves security/OS scope unclear.",
+    "evidence": "HybridLog: LLM-Powered Log Anomaly Analysis with Heterogeneous Semantic Collaboration Training"
+  },
+  {
+    "id": "R03464",
+    "decision": "UNCLEAR",
+    "reason": "General LLM log-analysis work; the missing abstract leaves security task and OS target uncertain.",
+    "evidence": "A Task-Specific Fine-Tuning Strategy and Evaluation for LLM-based Log Analysis"
+  },
+  {
+    "id": "R03465",
+    "decision": "EXCLUDE",
+    "reason": "Disclosure audit of LLM-based social-science papers; not security or OS research.",
+    "evidence": "Five Percent Re-runnable: An Audit of Disclosure in LLM-Based Social Science"
+  },
+  {
+    "id": "R03466",
+    "decision": "EXCLUDE",
+    "reason": "Omics pathway interpretation and audit-gated claims; no security analysis or OS target.",
+    "evidence": "LLM-PathwayCurator transforms enrichment terms into audit-gated decision-grade claims"
+  },
+  {
+    "id": "R03467",
+    "decision": "EXCLUDE",
+    "reason": "CI log reduction for LLM analysis; not a security task or OS-component target.",
+    "evidence": "LogSieve: Task-Aware CI Log Reduction for Sustainable LLM-Based Analysis"
+  },
+  {
+    "id": "R03468",
+    "decision": "EXCLUDE",
+    "reason": "Review-like research-status analysis of LLM code-audit methods; not original empirical research.",
+    "evidence": "Research Status and Analysis of LLM-based Methods for Code Audit"
+  },
+  {
+    "id": "R03469",
+    "decision": "EXCLUDE",
+    "reason": "Wi-Fi log processing and human mobility analysis; no security analysis or OS target.",
+    "evidence": "WiLDash: A Web Application for LLM-Based Wi-Fi Log Data Processing and Human Mobility Analysis"
+  },
+  {
+    "id": "R03470",
+    "decision": "EXCLUDE",
+    "reason": "eHealth consumer behavior study; no LLM security analysis or OS target.",
+    "evidence": "Characterizing eHealth Behaviors in Health Consumers"
+  },
+  {
+    "id": "R03471",
+    "decision": "EXCLUDE",
+    "reason": "Original security log analysis, but the target is a healthcare web application rather than OS components.",
+    "evidence": "Security Log Analysis of A Healthcare Web Application Using LLM Classification and Unsupervised Clustering"
+  },
+  {
+    "id": "R03472",
+    "decision": "EXCLUDE",
+    "reason": "Clinical coding audit pipeline; not security analysis or OS-component research.",
+    "evidence": "LLM-assisted Clinical Coding Audit through an Interpretable Coding Pipeline"
+  },
+  {
+    "id": "R03473",
+    "decision": "EXCLUDE",
+    "reason": "Audit of LLM-simulated public opinion; not security or OS research.",
+    "evidence": "Beyond Marginal Fidelity: An Estimand-Matched Audit of LLM-Simulated Chinese Public Opinion"
+  },
+  {
+    "id": "R03474",
+    "decision": "EXCLUDE",
+    "reason": "Biological dataset readiness audit with LLM guidance; no security analysis or OS target.",
+    "evidence": "Dataset Readiness Assessment With Large Language Model (DRAFT–LLM): A Multi‐Axis Audit Guided by LLM"
+  },
+  {
+    "id": "R03475",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted annotation audit of SciFact labels; no security analysis or OS target.",
+    "evidence": "Gold Label Errors in the SciFact Benchmark: An LLM-Assisted Annotation Audit"
+  },
+  {
+    "id": "R03476",
+    "decision": "UNCLEAR",
+    "reason": "Security log analysis and ATT&CK mapping with an LLM is potentially relevant, but the missing abstract leaves OS target unclear.",
+    "evidence": "Component-wise Evaluation of Evidence-Constrained LLM-Based Security Log Analysis and MITRE ATT&amp;CK Mapping"
+  },
+  {
+    "id": "R03477",
+    "decision": "EXCLUDE",
+    "reason": "Legal information-extraction error audit; not security analysis or OS research.",
+    "evidence": "Not Hallucination but Granularity: Error Taxonomy and Quality Audit of LLM-Based Legal Information Extraction"
+  },
+  {
+    "id": "R03478",
+    "decision": "EXCLUDE",
+    "reason": "Accounting audit-log recording with SQL triggers; no LLM security analysis or OS target.",
+    "evidence": "Audit Trail of Accounting Information System Based on SQL: Audit Log Recording and Analysis Combined with Database Trigger"
+  },
+  {
+    "id": "R03479",
+    "decision": "EXCLUDE",
+    "reason": "Construction-cost diagnostics with cryptographic audit hashes; not security analysis of OS components.",
+    "evidence": "JCCDB v1.2 — Cryptographic Audit Hash and Macroeconomic Price Correction for Reproducible LLM-Based Construction Cost Diagnostics(v1.2.1)"
+  },
+  {
+    "id": "R03480",
+    "decision": "EXCLUDE",
+    "reason": "Precise log generation using code analysis; no explicit security task or OS target.",
+    "evidence": "LogGen: Integrating traditional model and LLM with code analysis for precise log generation"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R01321",
+    "decision": "EXCLUDE",
+    "reason": "Automotive ADS crash-scenario testing; no OS or privileged-interface security.",
+    "evidence": "Scenario-Driven ADS Testing from Multimodal Crash Data"
+  },
+  {
+    "id": "R01322",
+    "decision": "EXCLUDE",
+    "reason": "Clinical LLM reasoning validation; not OS security research.",
+    "evidence": "hallucination detection and reasoning-validation framework"
+  },
+  {
+    "id": "R01323",
+    "decision": "EXCLUDE",
+    "reason": "Kernel-method fault diagnosis without LLM or OS security.",
+    "evidence": "Fault Diagnosis Using Kernel Linear Independence Test"
+  },
+  {
+    "id": "R01324",
+    "decision": "EXCLUDE",
+    "reason": "Breast-cancer clinical decision support; no OS security.",
+    "evidence": "Breast cancer diagnosis using ultrasound imaging"
+  },
+  {
+    "id": "R01325",
+    "decision": "EXCLUDE",
+    "reason": "Standards and evaluation for clinical LLM use; not empirical OS security.",
+    "evidence": "Standards for Use of LLM in Medical Diagnosis"
+  },
+  {
+    "id": "R01326",
+    "decision": "EXCLUDE",
+    "reason": "Automotive collision scenario generation; no OS security.",
+    "evidence": "Collision-Inducing Test Scenario Generation"
+  },
+  {
+    "id": "R01327",
+    "decision": "EXCLUDE",
+    "reason": "Operational data-center fault diagnosis, not security analysis.",
+    "evidence": "root-cause localization accuracy of 82.6%"
+  },
+  {
+    "id": "R01328",
+    "decision": "EXCLUDE",
+    "reason": "Road-safety countermeasure recommendation; no OS security.",
+    "evidence": "road safety countermeasure recommendation"
+  },
+  {
+    "id": "R01329",
+    "decision": "EXCLUDE",
+    "reason": "Mosquito-borne disease expert system; no LLM or OS security.",
+    "evidence": "sistem pakar diagnosis penyakit akibat gigitan nyamuk"
+  },
+  {
+    "id": "R01330",
+    "decision": "EXCLUDE",
+    "reason": "Cognitive-diagnosis Q-matrix automation; no OS security.",
+    "evidence": "Automating Q-Matrix Construction in Cognitive Diagnosis Analysis"
+  },
+  {
+    "id": "R01331",
+    "decision": "EXCLUDE",
+    "reason": "Supply-chain optimization model repair; not OS security.",
+    "evidence": "repair of supply chain optimization models"
+  },
+  {
+    "id": "R01332",
+    "decision": "EXCLUDE",
+    "reason": "Mechanical fault diagnosis; no OS security.",
+    "evidence": "Mechanical Fault Diagnosis"
+  },
+  {
+    "id": "R01333",
+    "decision": "EXCLUDE",
+    "reason": "Crop leaf disease detection; no OS security.",
+    "evidence": "Multi-Crop Leaf Disease Detection"
+  },
+  {
+    "id": "R01334",
+    "decision": "EXCLUDE",
+    "reason": "Rolling-bearing fault diagnosis; no OS security.",
+    "evidence": "rolling bearing fault diagnosis"
+  },
+  {
+    "id": "R01335",
+    "decision": "EXCLUDE",
+    "reason": "Heart-disease prediction; no OS security.",
+    "evidence": "Heart disease prediction using LLM ranked feature selection"
+  },
+  {
+    "id": "R01336",
+    "decision": "EXCLUDE",
+    "reason": "Neuro-ophthalmic clinical diagnosis; no OS security.",
+    "evidence": "neuro-ophthalmic diagnosis and personalized treatment planning"
+  },
+  {
+    "id": "R01337",
+    "decision": "EXCLUDE",
+    "reason": "GPU kernel code generation for performance; no security task.",
+    "evidence": "LLM-Based High-Performance GPU Kernel Generation"
+  },
+  {
+    "id": "R01338",
+    "decision": "EXCLUDE",
+    "reason": "LLM-serving kernel optimization; no security task.",
+    "evidence": "Adaptive Kernel Provision for Quantized LLM Serving"
+  },
+  {
+    "id": "R01339",
+    "decision": "EXCLUDE",
+    "reason": "Alzheimer's clinical diagnosis with retinal imaging; no OS security.",
+    "evidence": "Integrating retinal fundus imaging"
+  },
+  {
+    "id": "R01340",
+    "decision": "EXCLUDE",
+    "reason": "Rare-disease LLM diagnosis study; no OS security.",
+    "evidence": "Retrieval Beat Direct LLM Diagnosis in Rare Disease"
+  },
+  {
+    "id": "R01341",
+    "decision": "EXCLUDE",
+    "reason": "Glaucoma classification with kernel SVM; no LLM or OS security.",
+    "evidence": "Glaucoma diagnosis based on colour and spatial features using kernel SVM"
+  },
+  {
+    "id": "R01342",
+    "decision": "EXCLUDE",
+    "reason": "Manufacturing maintenance fault diagnosis; no OS security.",
+    "evidence": "DT and LLM driven intelligent maintenance system"
+  },
+  {
+    "id": "R01343",
+    "decision": "EXCLUDE",
+    "reason": "Road crash-severity statistical analysis; no LLM or OS security.",
+    "evidence": "Road Traffic Crash Severity Analysis"
+  },
+  {
+    "id": "R01344",
+    "decision": "EXCLUDE",
+    "reason": "Symbolic LLM algebra audit; no OS or privileged-interface security.",
+    "evidence": "Symbolic Interfaces for Auditable LLM Algebra"
+  },
+  {
+    "id": "R01345",
+    "decision": "EXCLUDE",
+    "reason": "Pavement safety assessment; no OS security.",
+    "evidence": "LLM-based crash narrative analysis for pavement safety assessment"
+  },
+  {
+    "id": "R01346",
+    "decision": "EXCLUDE",
+    "reason": "Bearing fault diagnosis with transfer kernel; no LLM or OS security.",
+    "evidence": "fault diagnosis of bearings"
+  },
+  {
+    "id": "R01347",
+    "decision": "EXCLUDE",
+    "reason": "Breast-cancer diagnosis; no LLM or OS security.",
+    "evidence": "Breast Cancer Diagnosis Using Iterative Fourier-Bessel Decomposition"
+  },
+  {
+    "id": "R01348",
+    "decision": "EXCLUDE",
+    "reason": "Breast-cancer diagnosis; no LLM or OS security.",
+    "evidence": "Breast Cancer Diagnosis Using Iterative Fourier-Bessel Decomposition"
+  },
+  {
+    "id": "R01349",
+    "decision": "EXCLUDE",
+    "reason": "Diabetes diagnosis classification; no OS security.",
+    "evidence": "LLM-Based Classification in Diabetes Disease Diagnosis"
+  },
+  {
+    "id": "R01350",
+    "decision": "EXCLUDE",
+    "reason": "Healthcare decision support; no OS security.",
+    "evidence": "LLM-Based Healthcare Decision Support with Differential Diagnosis and Drug Safety Analysis"
+  },
+  {
+    "id": "R01351",
+    "decision": "EXCLUDE",
+    "reason": "Clinical diagnosis via argumentative LLM agents; no OS security.",
+    "evidence": "Argumentative Llm Agents for Clinical Diagnosis"
+  },
+  {
+    "id": "R01352",
+    "decision": "EXCLUDE",
+    "reason": "GPU kernel and sparse tensor co-design for inference; no security task.",
+    "evidence": "GPU Kernel and Sparse Tensor Core"
+  },
+  {
+    "id": "R01353",
+    "decision": "EXCLUDE",
+    "reason": "Wind-turbine fault diagnosis; no OS security.",
+    "evidence": "Fault Diagnosis for Wind Turbine Components"
+  },
+  {
+    "id": "R01354",
+    "decision": "EXCLUDE",
+    "reason": "Preliminary disease diagnosis; no OS security.",
+    "evidence": "Multi-Agent LLM Framework for Preliminary Disease Diagnosis"
+  },
+  {
+    "id": "R01355",
+    "decision": "EXCLUDE",
+    "reason": "Rare-disease diagnosis fine-tuning; no OS security.",
+    "evidence": "Fine-Tuning LLM for Rare Disease Diagnosis"
+  },
+  {
+    "id": "R01356",
+    "decision": "EXCLUDE",
+    "reason": "Operational cloud fault detection and self-healing; not security analysis.",
+    "evidence": "Intelligent Fault Diagnosis and Self-Healing Framework for Cloud Computing Systems"
+  },
+  {
+    "id": "R01357",
+    "decision": "EXCLUDE",
+    "reason": "Diagnostic LLM agents; no OS or privileged-interface security stated.",
+    "evidence": "Evidence-Aware Active Diagnosis with Scaffolded LLM Agents"
+  },
+  {
+    "id": "R01358",
+    "decision": "EXCLUDE",
+    "reason": "Healthcare chatbot for preliminary diagnosis; no OS security.",
+    "evidence": "LLM-Based Multimodal Chatbot for Preliminary Diagnosis"
+  },
+  {
+    "id": "R01359",
+    "decision": "EXCLUDE",
+    "reason": "Cervical-cancer diagnosis; no LLM or OS security.",
+    "evidence": "Cervical Cancer Diagnosis in Photodynamic Images Via Kernel Estimation"
+  },
+  {
+    "id": "R01360",
+    "decision": "EXCLUDE",
+    "reason": "Finance crash-risk proxy measurement; no LLM or OS security.",
+    "evidence": "Do Crash-Risk Measures Measure Crash Risk?"
+  }
+]

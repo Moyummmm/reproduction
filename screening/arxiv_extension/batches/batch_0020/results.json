@@ -1,0 +1,242 @@
+[
+  {
+    "id": "arxiv:2604.27844",
+    "decision": "EXCLUDE",
+    "reason": "Optimizes lossless compression for LLM training; no security analysis or OS-targeted task.",
+    "evidence": "a lossless compressed communication library of collectives for LLM training"
+  },
+  {
+    "id": "arxiv:2605.00012",
+    "decision": "EXCLUDE",
+    "reason": "Studies manipulation of an LLM search-overview application, not OS components or privileged interfaces.",
+    "evidence": "manipulate LLM Overview results"
+  },
+  {
+    "id": "arxiv:2605.01708",
+    "decision": "EXCLUDE",
+    "reason": "Compression work for LLM serving; no security task or OS target.",
+    "evidence": "a GPU-friendly lossless compressor for KV cache transfer"
+  },
+  {
+    "id": "arxiv:2605.02964",
+    "decision": "EXCLUDE",
+    "reason": "Benchmarks reward hacking in LLM agents; no security analysis targeting OS components.",
+    "evidence": "a suite of multi-step tasks requiring sequential tool operations"
+  },
+  {
+    "id": "arxiv:2605.03228",
+    "decision": "EXCLUDE",
+    "reason": "Defense for LLM agents against long-horizon threats; security of LLMs rather than OS security.",
+    "evidence": "a novel defensive framework designed to counter a wide range of long-horizon threats"
+  },
+  {
+    "id": "arxiv:2605.04040",
+    "decision": "EXCLUDE",
+    "reason": "Visual generation work using LLM reasoning; no security or OS dimension.",
+    "evidence": "leverages the LLM as a universal reasoner"
+  },
+  {
+    "id": "arxiv:2605.04256",
+    "decision": "EXCLUDE",
+    "reason": "Control plane for physical neural networks; safety enforcement is not OS security analysis.",
+    "evidence": "a substrate-aware control-plane architecture"
+  },
+  {
+    "id": "arxiv:2605.05460",
+    "decision": "EXCLUDE",
+    "reason": "Agentic scientific discovery for density functionals; no security or OS task.",
+    "evidence": "an LLM proposes structured functional-form changes"
+  },
+  {
+    "id": "arxiv:2605.06068",
+    "decision": "EXCLUDE",
+    "reason": "Agentic synthesis of LLM serving systems; no security outcome or OS target.",
+    "evidence": "let coding agents automatically synthesize bespoke serving systems"
+  },
+  {
+    "id": "arxiv:2605.06472",
+    "decision": "EXCLUDE",
+    "reason": "KV-cache management for agent workflows; no security analysis or OS target.",
+    "evidence": "KV-Cache reuse to save computation"
+  },
+  {
+    "id": "arxiv:2605.06485",
+    "decision": "EXCLUDE",
+    "reason": "SIMD inference framework for ternary models; no security or OS dimension.",
+    "evidence": "custom SIMD kernels that replace matrix multiplication"
+  },
+  {
+    "id": "arxiv:2605.06702",
+    "decision": "EXCLUDE",
+    "reason": "Deployment-time adaptation for LLM agents; no security analysis targeting OS components.",
+    "evidence": "equips LLM agents with an explicit, evolving episodic memory"
+  },
+  {
+    "id": "arxiv:2605.07088",
+    "decision": "EXCLUDE",
+    "reason": "Membership inference against VLA models; model privacy rather than OS security.",
+    "evidence": "first systematic study of MIAs against VLA systems"
+  },
+  {
+    "id": "arxiv:2605.07517",
+    "decision": "EXCLUDE",
+    "reason": "Retrieval strategy for RAG documentation; no security or OS task.",
+    "evidence": "link-aware retrieval strategy"
+  },
+  {
+    "id": "arxiv:2605.07789",
+    "decision": "EXCLUDE",
+    "reason": "Human decision-making analysis for conversational AI; no security or OS target.",
+    "evidence": "analyze 955 real-world Korean conversations"
+  },
+  {
+    "id": "arxiv:2605.08291",
+    "decision": "EXCLUDE",
+    "reason": "GNN analysis for electronic design automation; no security analysis targeting OS components.",
+    "evidence": "GNN-for-EDA, task-aligned analysis"
+  },
+  {
+    "id": "arxiv:2605.08460",
+    "decision": "EXCLUDE",
+    "reason": "Security of multi-agent LLM networks via subagent inheritance; not OS security.",
+    "evidence": "inherited memory from parent agents can carry malicious instructions"
+  },
+  {
+    "id": "arxiv:2605.08639",
+    "decision": "EXCLUDE",
+    "reason": "Load balancing for MoE reinforcement-learning training; no security or OS dimension.",
+    "evidence": "an MoE RL training system"
+  },
+  {
+    "id": "arxiv:2605.08763",
+    "decision": "UNCLEAR",
+    "reason": "LLM agents perform intrusion and exploit tasks, but the abstract does not specify OS-level targets; scope is ambiguous.",
+    "evidence": "25 CTF tasks across five categories"
+  },
+  {
+    "id": "arxiv:2605.09033",
+    "decision": "EXCLUDE",
+    "reason": "Poisoning attack on graph-based agent memory; security of LLM agents rather than OS.",
+    "evidence": "a poisoning attack against graph-based agent memory"
+  },
+  {
+    "id": "arxiv:2605.09338",
+    "decision": "EXCLUDE",
+    "reason": "Multimedia understanding for recommendation systems; no security or OS task.",
+    "evidence": "a generalized framework for MM-LLM-driven multimedia understanding"
+  },
+  {
+    "id": "arxiv:2605.10323",
+    "decision": "EXCLUDE",
+    "reason": "Ordinal preference modeling for LLM recommenders; no security or OS dimension.",
+    "evidence": "a hybrid CF-LLM framework"
+  },
+  {
+    "id": "arxiv:2605.10834",
+    "decision": "UNCLEAR",
+    "reason": "Evaluates pentesting agents on validated vulnerability discovery, but the abstract does not identify OS-level targets.",
+    "evidence": "validated vulnerability discovery"
+  },
+  {
+    "id": "arxiv:2605.11268",
+    "decision": "EXCLUDE",
+    "reason": "Generative-AI spear phishing study; social-engineering target rather than OS components.",
+    "evidence": "highly personalized, context-aware spear-phishing campaigns"
+  },
+  {
+    "id": "arxiv:2605.11532",
+    "decision": "EXCLUDE",
+    "reason": "LLM research ideation and retrieval; no security analysis or OS target.",
+    "evidence": "LLM ideation systems benefit from diverse seed exposure"
+  },
+  {
+    "id": "arxiv:2605.11538",
+    "decision": "EXCLUDE",
+    "reason": "Optimization method for LLM reinforcement learning; no security or OS dimension.",
+    "evidence": "a hyperparameter-free, covariance-weighted optimization method"
+  },
+  {
+    "id": "arxiv:2605.12271",
+    "decision": "EXCLUDE",
+    "reason": "Visual-to-visual generation framework; no security analysis or OS target.",
+    "evidence": "visual-to-visual (V2V) generation"
+  },
+  {
+    "id": "arxiv:2605.12507",
+    "decision": "EXCLUDE",
+    "reason": "Simulates email networks and phishing campaigns; not an OS security task.",
+    "evidence": "synthesizing realistic phishing campaigns"
+  },
+  {
+    "id": "arxiv:2605.13265",
+    "decision": "EXCLUDE",
+    "reason": "Privacy-preserving split learning via projections; ML privacy rather than OS security.",
+    "evidence": "privacy-preserving Split Learning via Orthogonal Projections"
+  },
+  {
+    "id": "arxiv:2605.14040",
+    "decision": "EXCLUDE",
+    "reason": "Audits a physics-reasoning corpus and verifiers; no security analysis targeting OS components.",
+    "evidence": "an audited multimodal training corpus and a held-out olympiad benchmark"
+  },
+  {
+    "id": "arxiv:2605.14718",
+    "decision": "EXCLUDE",
+    "reason": "Uses LLM-driven search to optimize FHE kernels on TPUs; performance work without an OS security outcome.",
+    "evidence": "optimize Fully Homomorphic Encryption on TPUs"
+  },
+  {
+    "id": "arxiv:2605.14766",
+    "decision": "EXCLUDE",
+    "reason": "Streaming speech translation with a SpeechLLM; no security or OS dimension.",
+    "evidence": "streaming speech-to-text translation"
+  },
+  {
+    "id": "arxiv:2605.15503",
+    "decision": "EXCLUDE",
+    "reason": "LLM generates microarchitectural attack PoCs, but the target is processor hardware rather than OS components or privileged interfaces.",
+    "evidence": "automated microarchitectural attack code generation"
+  },
+  {
+    "id": "arxiv:2605.15565",
+    "decision": "EXCLUDE",
+    "reason": "Dataflow system for agentic RL training; no security analysis or OS target.",
+    "evidence": "a dataflow-oriented RL system"
+  },
+  {
+    "id": "arxiv:2605.16191",
+    "decision": "EXCLUDE",
+    "reason": "LLM-guided search for photovoltaic structures; no security or OS task.",
+    "evidence": "LLM guided Tree Search"
+  },
+  {
+    "id": "arxiv:2605.16198",
+    "decision": "EXCLUDE",
+    "reason": "Formal-methods auditing and monitoring of AI systems; not OS security analysis.",
+    "evidence": "monitor and audit AI-enabled products and services"
+  },
+  {
+    "id": "arxiv:2605.17170",
+    "decision": "EXCLUDE",
+    "reason": "KV-cache quantization for agentic inference; no security or OS target.",
+    "evidence": "mixed-precision KV-cache quantization"
+  },
+  {
+    "id": "arxiv:2605.17249",
+    "decision": "EXCLUDE",
+    "reason": "Vision-language navigation framework; no security analysis or OS dimension.",
+    "evidence": "a spatially-enhanced dual-system VLN framework"
+  },
+  {
+    "id": "arxiv:2605.17288",
+    "decision": "EXCLUDE",
+    "reason": "Adversarial attack on LLM cascade systems; security of LLMs rather than OS components.",
+    "evidence": "LLM cascade systems are susceptible to targeted adversarial manipulation"
+  },
+  {
+    "id": "arxiv:2605.17406",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-assisted agents discover and analyze OS-level side channels on iOS, matching the security-analysis and OS-target dimensions.",
+    "evidence": "focusing on OS-level side channels observable by unprivileged applications"
+  }
+]

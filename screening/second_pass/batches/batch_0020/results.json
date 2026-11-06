@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02475",
+    "decision": "EXCLUDE",
+    "reason": "Network intrusion detection study; target is traffic detection, not OS components or privileged interfaces.",
+    "evidence": "closed-loop framework for online open-world NIDS"
+  },
+  {
+    "id": "R02478",
+    "decision": "EXCLUDE",
+    "reason": "Agent memory compaction work with no security task or OS-component target.",
+    "evidence": "Learned Importance Scoring for Adaptive Memory Compaction in LLM-Based Agent Systems"
+  },
+  {
+    "id": "R02479",
+    "decision": "EXCLUDE",
+    "reason": "LLM memory and retrieval efficiency; no security analysis or OS-component focus.",
+    "evidence": "A Memory and Retrieval Approach for LLM Efficiency"
+  },
+  {
+    "id": "R02481",
+    "decision": "EXCLUDE",
+    "reason": "Stress detection in safety-critical operations, not security analysis of OS components.",
+    "evidence": "explainable stress detection and personalized intervention"
+  },
+  {
+    "id": "R02483",
+    "decision": "EXCLUDE",
+    "reason": "Elastic LLM memory article; no security task or OS-component target.",
+    "evidence": "ParaMind and the Future of Elastic LLM Memory"
+  },
+  {
+    "id": "R02484",
+    "decision": "EXCLUDE",
+    "reason": "LLM memory and retrieval efficiency; no security analysis or OS-component focus.",
+    "evidence": "A Memory and Retrieval Approach for LLM Efficiency"
+  },
+  {
+    "id": "R02485",
+    "decision": "EXCLUDE",
+    "reason": "LLM economic decision study; no security task or OS-component target.",
+    "evidence": "Memory and Competence in LLM Economic Decisions"
+  },
+  {
+    "id": "R02486",
+    "decision": "EXCLUDE",
+    "reason": "Safety scaling for LLM interactions; security of LLMs rather than OS components.",
+    "evidence": "adaptive safety scaling framework"
+  },
+  {
+    "id": "R02489",
+    "decision": "EXCLUDE",
+    "reason": "Survey of memory in LLM multi-agent systems; surveys are excluded and no OS security task is present.",
+    "evidence": "This survey provides the first comprehensive review of memory in LLM-MAS"
+  },
+  {
+    "id": "R02493",
+    "decision": "EXCLUDE",
+    "reason": "Audits LLM safety judges; this concerns security of LLMs, not OS components.",
+    "evidence": "audits local open-weight LLMs as semantic safety judges"
+  },
+  {
+    "id": "R02497",
+    "decision": "EXCLUDE",
+    "reason": "Long-context LLM memory article; no security task or OS-component target.",
+    "evidence": "Challenges and Innovations in Scaling LLM Memory"
+  },
+  {
+    "id": "R02499",
+    "decision": "EXCLUDE",
+    "reason": "Memory governance simulation for LLM systems; no security analysis or OS-component target.",
+    "evidence": "simulation-based study of memory governance in longhorizon LLM systems"
+  },
+  {
+    "id": "R02500",
+    "decision": "EXCLUDE",
+    "reason": "Cost-retention study of LLM agent memory; no security task or OS-component target.",
+    "evidence": "cost–retention study of seven memory strategies"
+  },
+  {
+    "id": "R02501",
+    "decision": "EXCLUDE",
+    "reason": "Philosophical dialogue on LLM memory and identity; no security or OS-component task.",
+    "evidence": "Memory, Identity, and the Limits of Artificial Selfhood"
+  },
+  {
+    "id": "R02502",
+    "decision": "EXCLUDE",
+    "reason": "Healthcare PHI routing compliance, not security analysis of OS components.",
+    "evidence": "risk exposing protected health information (PHI)"
+  },
+  {
+    "id": "R02503",
+    "decision": "EXCLUDE",
+    "reason": "Contradiction filtering in agent memory; no security or OS-component task.",
+    "evidence": "IMMUNE MEMORY, a lightweight layer orthogonal to any existing store"
+  },
+  {
+    "id": "R02504",
+    "decision": "EXCLUDE",
+    "reason": "Fake-news detection using LLMs, not security analysis of OS components.",
+    "evidence": "LLM-Based Fake News Detection"
+  },
+  {
+    "id": "R02508",
+    "decision": "EXCLUDE",
+    "reason": "Anomaly detection for LLM agent trajectories; targets agent safety, not OS components.",
+    "evidence": "agent trajectory validation tasks"
+  },
+  {
+    "id": "R02509",
+    "decision": "EXCLUDE",
+    "reason": "LLM hallucination detection; no security analysis of OS components.",
+    "evidence": "Multi-Method Ensemble Framework for LLM Hallucination Detection"
+  },
+  {
+    "id": "R02510",
+    "decision": "EXCLUDE",
+    "reason": "Entity-centered memory for LLM agents; no security or OS-component task.",
+    "evidence": "Entity-Centered Memory for LLM Agents"
+  },
+  {
+    "id": "R02515",
+    "decision": "EXCLUDE",
+    "reason": "Exploratory LLM safety and pathology study; concerns LLM behavior, not OS components.",
+    "evidence": "Four Candidate LLM Pathologies"
+  },
+  {
+    "id": "R02516",
+    "decision": "EXCLUDE",
+    "reason": "Benchmark contamination study; no security task or OS-component target.",
+    "evidence": "quantifies contamination-driven inflation"
+  },
+  {
+    "id": "R02517",
+    "decision": "EXCLUDE",
+    "reason": "Multimodal sarcasm detection; no security or OS-component task.",
+    "evidence": "Multimodal sarcasm detection (MSD)"
+  },
+  {
+    "id": "R02519",
+    "decision": "EXCLUDE",
+    "reason": "LMS chatbot memory framework; no security or OS-component task.",
+    "evidence": "memory-augmented large language model (LLM) framework that enhances the reasoning and contextual continuity of LMS-based chatbots"
+  },
+  {
+    "id": "R02524",
+    "decision": "EXCLUDE",
+    "reason": "Theoretical memory architecture for LLM agents; no security or OS-component task.",
+    "evidence": "Weighted Developmental Memory Architecture (WDMA)"
+  },
+  {
+    "id": "R02525",
+    "decision": "EXCLUDE",
+    "reason": "Memory-efficient LLM inference; no security or OS-component task.",
+    "evidence": "memory-constrained devices"
+  },
+  {
+    "id": "R02532",
+    "decision": "EXCLUDE",
+    "reason": "Home energy management interface; not security or OS-component work.",
+    "evidence": "Large Language Model Interface for Home Energy Management Systems"
+  },
+  {
+    "id": "R02535",
+    "decision": "EXCLUDE",
+    "reason": "LLM planning agent with generative memory; no security or OS-component task.",
+    "evidence": "large language model-based task planning agent"
+  },
+  {
+    "id": "R02538",
+    "decision": "EXCLUDE",
+    "reason": "Serverless LLM inference scheduling; no security or OS-component task.",
+    "evidence": "Cost-Efficient Serverless Inference Scheduling for Large Language Models"
+  },
+  {
+    "id": "R02539",
+    "decision": "EXCLUDE",
+    "reason": "Symbolic memory residual training study; no security or OS-component task.",
+    "evidence": "Symbolic memory residuals were introduced as phase-alternating, high-dimensional signals injected into transformer layers"
+  },
+  {
+    "id": "R02540",
+    "decision": "EXCLUDE",
+    "reason": "LLM recommendation memory system; no security or OS-component task.",
+    "evidence": "Hierarchical ContextAware Memory System (HCAMS)"
+  },
+  {
+    "id": "R02544",
+    "decision": "EXCLUDE",
+    "reason": "Memory footprint reduction architecture; no security or OS-component task.",
+    "evidence": "59-60% reduction in memory footprint"
+  },
+  {
+    "id": "R02545",
+    "decision": "EXCLUDE",
+    "reason": "Bank balance-sheet management simulation; not security or OS-component work.",
+    "evidence": "agent-based model of bank balance-sheet management"
+  },
+  {
+    "id": "R02546",
+    "decision": "EXCLUDE",
+    "reason": "Survey of access-control management and LLM agents; surveys are excluded and no empirical OS-component task is present.",
+    "evidence": "surveying the synergistic integration of ACM and LLM agents"
+  },
+  {
+    "id": "R02549",
+    "decision": "EXCLUDE",
+    "reason": "Preference consistency study; no security or OS-component task.",
+    "evidence": "Preference Consistency in Large Language Models"
+  },
+  {
+    "id": "R02551",
+    "decision": "EXCLUDE",
+    "reason": "Industrial asset integrity and process safety, not cybersecurity or OS components.",
+    "evidence": "asset integrity and process safety (AIPS) management"
+  },
+  {
+    "id": "R02553",
+    "decision": "EXCLUDE",
+    "reason": "Bank balance-sheet management simulation; not security or OS-component work.",
+    "evidence": "agent-based model of bank balance-sheet management"
+  },
+  {
+    "id": "R02555",
+    "decision": "EXCLUDE",
+    "reason": "Context-management evaluation for LLM agents; no security or OS-component task.",
+    "evidence": "Forced Context Compression"
+  },
+  {
+    "id": "R02556",
+    "decision": "EXCLUDE",
+    "reason": "KV-cache performance characterization; no security or OS-component task.",
+    "evidence": "controlled systems characterization of KV-cache performance"
+  },
+  {
+    "id": "R02559",
+    "decision": "EXCLUDE",
+    "reason": "Adaptive memory reallocation framework; no security or OS-component task.",
+    "evidence": "Dynamic Contextual Scope Management (DCSM)"
+  }
+]

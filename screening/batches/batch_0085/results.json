@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03401",
+    "decision": "EXCLUDE",
+    "reason": "Title addresses container placement optimization, with no security task or outcome.",
+    "evidence": "LLM-Based Multi-Agent Collaboration for Constrained Multi-Objective Container Placement"
+  },
+  {
+    "id": "R03402",
+    "decision": "EXCLUDE",
+    "reason": "Container security benchmark, but no LLM use is indicated.",
+    "evidence": "Houdini: Benchmarking Container Security Confinement"
+  },
+  {
+    "id": "R03403",
+    "decision": "EXCLUDE",
+    "reason": "Review/survey of container security perspectives; no LLM indicated.",
+    "evidence": "Container security: Precaution levels, mitigation strategies, and research perspectives"
+  },
+  {
+    "id": "R03404",
+    "decision": "UNCLEAR",
+    "reason": "Title mentions AI and container security, but LLM role is not explicit and no abstract is available.",
+    "evidence": "Security Automation and AI in Cloud Container Security"
+  },
+  {
+    "id": "R03405",
+    "decision": "EXCLUDE",
+    "reason": "Physical water-resistant container testing, outside software and OS security.",
+    "evidence": "Water-Resistant Container Testing: A426-1000 Container Design"
+  },
+  {
+    "id": "R03406",
+    "decision": "EXCLUDE",
+    "reason": "Container build security/performance comparison without LLM evidence.",
+    "evidence": "A Comparative Analysis of Performance and Security Aspects in Container Build Methods"
+  },
+  {
+    "id": "R03407",
+    "decision": "EXCLUDE",
+    "reason": "Physical water-resistant container testing, outside software and OS security.",
+    "evidence": "Water-Resistant Container Testing: A846-500 Container Design"
+  },
+  {
+    "id": "R03408",
+    "decision": "EXCLUDE",
+    "reason": "Docker penetration testing without LLM evidence.",
+    "evidence": "Evaluating Docker Container Security through Penetration Testing: A Smart Computer Security"
+  },
+  {
+    "id": "R03409",
+    "decision": "EXCLUDE",
+    "reason": "Physical water-resistant container testing, outside software and OS security.",
+    "evidence": "Water-Resistant Container Testing: 48 oz Bruntmor Container Design"
+  },
+  {
+    "id": "R03410",
+    "decision": "EXCLUDE",
+    "reason": "Threat-actor access techniques in cloud containers; no LLM use described.",
+    "evidence": "Misconfigured UI tools can allow access and control over cloud-native environments."
+  },
+  {
+    "id": "R03411",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Title explicitly pairs an LLM-based approach with repairing container misconfigurations, a security repair task for container software.",
+    "evidence": "LLMSecConfig: An LLM-Based Approach for Fixing Software Container Misconfigurations"
+  },
+  {
+    "id": "R03412",
+    "decision": "EXCLUDE",
+    "reason": "No LLM use is indicated, and the title concerns container-terminal simulation rather than OS components.",
+    "evidence": "Container terminal simulation for vulnerability assessment"
+  },
+  {
+    "id": "R03413",
+    "decision": "EXCLUDE",
+    "reason": "Container orchestration security framework with no LLM evidence.",
+    "evidence": "Implementing a Security Framework for Container Orchestration"
+  },
+  {
+    "id": "R03414",
+    "decision": "EXCLUDE",
+    "reason": "Syscall filtering for container confinement, but no LLM use indicated.",
+    "evidence": "Confine: Fine-grained system call filtering for container attack surface reduction"
+  },
+  {
+    "id": "R03415",
+    "decision": "EXCLUDE",
+    "reason": "Container security visualization and remediation without LLM evidence.",
+    "evidence": "OGMA: Visualisation for Software Container Security Analysis and Automated Remediation"
+  },
+  {
+    "id": "R03416",
+    "decision": "UNCLEAR",
+    "reason": "Title cites AI-powered container security agents, but does not explicitly identify an LLM and abstract is missing.",
+    "evidence": "Securing Kubernetes: AI-Powered Container Security Agents"
+  },
+  {
+    "id": "R03417",
+    "decision": "EXCLUDE",
+    "reason": "Broad Kubernetes/container security title with no LLM role indicated.",
+    "evidence": "Kubernetes and Container Security"
+  },
+  {
+    "id": "R03418",
+    "decision": "EXCLUDE",
+    "reason": "Physical water-resistant container testing, outside software and OS security.",
+    "evidence": "Water-Resistant Container Testing: A426-7, A426-25, and A426-50 Container Designs"
+  },
+  {
+    "id": "R03419",
+    "decision": "EXCLUDE",
+    "reason": "Review/survey-style comprehensive analysis with no LLM evidence.",
+    "evidence": "Container Security in Cloud Environments: A Comprehensive Analysis and Future Directions for DevSecOps"
+  },
+  {
+    "id": "R03420",
+    "decision": "EXCLUDE",
+    "reason": "LLM used for 3D container loading optimization, not a security task.",
+    "evidence": "Accelerating LLM-Based Algorithm Evolution for the 3D Container Loading Problem"
+  },
+  {
+    "id": "R03421",
+    "decision": "EXCLUDE",
+    "reason": "Physical water-resistant container testing, outside software and OS security.",
+    "evidence": "Water-Resistant Container Testing CNUT INGB Container Design (Rev. 1)"
+  },
+  {
+    "id": "R03422",
+    "decision": "EXCLUDE",
+    "reason": "Kubernetes security title without LLM evidence.",
+    "evidence": "Security in Kubernetes"
+  },
+  {
+    "id": "R03423",
+    "decision": "EXCLUDE",
+    "reason": "Conceptual SDN-container security architecture; no LLM use or empirical security analysis is described.",
+    "evidence": "This article develops a conceptual framework"
+  },
+  {
+    "id": "R03424",
+    "decision": "EXCLUDE",
+    "reason": "LLM healthcare medication system; safety validation is not security analysis of OS components.",
+    "evidence": "LLM-enhanced Intelligent Medication Box Service System (LIMBSS)"
+  },
+  {
+    "id": "R03425",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based microservice API testing title does not indicate a security task.",
+    "evidence": "Graph-Based LLM Prompting for Scalable Microservice API Testing"
+  },
+  {
+    "id": "R03426",
+    "decision": "EXCLUDE",
+    "reason": "Android service vulnerability mining uses a genetic algorithm, not an LLM.",
+    "evidence": "a research method of Android system Service Vulnerability mining technology based on Genetic Algorithm (GA) is proposed"
+  },
+  {
+    "id": "R03427",
+    "decision": "EXCLUDE",
+    "reason": "LLM customer-service question-answering system with no security task.",
+    "evidence": "An LLM-based intelligent customer service question-answering system for expressways"
+  },
+  {
+    "id": "R03428",
+    "decision": "EXCLUDE",
+    "reason": "LLM multi-agent service operations simulation with no security task.",
+    "evidence": "Optimizing Service Operations via LLM-Powered Multi-Agent Simulation"
+  },
+  {
+    "id": "R03429",
+    "decision": "EXCLUDE",
+    "reason": "LLM serving architecture and efficiency, not security analysis or protection.",
+    "evidence": "AMESA: Adaptive Mixture-of-Experts Service Architecture for Efficient LLM Serving"
+  },
+  {
+    "id": "R03430",
+    "decision": "EXCLUDE",
+    "reason": "Docker image vulnerability analysis without LLM evidence.",
+    "evidence": "Vulnerability Analysis of Docker Hub Official Images and Verified Images"
+  },
+  {
+    "id": "R03431",
+    "decision": "EXCLUDE",
+    "reason": "Rail service vulnerability simulation, not OS security, and no LLM indicated.",
+    "evidence": "Service vulnerability assessment of China's high-speed train network: A simulation approach"
+  },
+  {
+    "id": "R03432",
+    "decision": "EXCLUDE",
+    "reason": "LLM tool-learning and selection framework without a security task.",
+    "evidence": "Advanced Tool Learning and Selection System (ATLASS): A Closed-Loop Framework Using LLM"
+  },
+  {
+    "id": "R03433",
+    "decision": "UNCLEAR",
+    "reason": "LLM is explicit and service scanning may be security-related, but the task and OS target are ambiguous without an abstract.",
+    "evidence": "FASST-LLM: Implementing Service Scanning Tools Automatically with LLM"
+  },
+  {
+    "id": "R03434",
+    "decision": "EXCLUDE",
+    "reason": "Product-service system vulnerability ontology with no LLM or OS security focus.",
+    "evidence": "An ontology for the vulnerability of Product-Service System"
+  },
+  {
+    "id": "R03435",
+    "decision": "EXCLUDE",
+    "reason": "Rail service reduction vulnerability modeling, outside OS security and without LLM evidence.",
+    "evidence": "Modeling Vulnerability to a Rail Service Reduction in Chicago"
+  },
+  {
+    "id": "R03436",
+    "decision": "EXCLUDE",
+    "reason": "Threat modeling of LLM system integration concerns security of LLMs, not LLM-for-OS security.",
+    "evidence": "ThreatFinderAI: Automated Threat Modeling Applied to LLM System Integration"
+  },
+  {
+    "id": "R03437",
+    "decision": "EXCLUDE",
+    "reason": "LLM multi-agent edge service collaboration study with no security task.",
+    "evidence": "Experimental evidence on the emergent social network patterns of LLM-driven multi-agent system for edge service collaboration"
+  },
+  {
+    "id": "R03438",
+    "decision": "EXCLUDE",
+    "reason": "LLM service recommendation system with no security task.",
+    "evidence": "LLM-CoSR: Noise-Resistant Service Recommendation via LLM-Augmented Graph Contrastive Learning"
+  },
+  {
+    "id": "R03439",
+    "decision": "EXCLUDE",
+    "reason": "Public service media vulnerability study, outside OS security and without LLM evidence.",
+    "evidence": "Public Service Media in Northern Ireland: Prominence and Vulnerability in a Small Media System"
+  },
+  {
+    "id": "R03440",
+    "decision": "EXCLUDE",
+    "reason": "Conceptual service-system resilience and vulnerability work with no LLM or OS security focus.",
+    "evidence": "Service system resilience under resource scarcity: from vulnerability to balanced centricity"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03601",
+    "decision": "EXCLUDE",
+    "reason": "Microservice root-cause localization and recovery; operational software work, not a security task against OS or privileged interfaces.",
+    "evidence": "root cause localization and recovery in microservice-based business middle platforms"
+  },
+  {
+    "id": "R03602",
+    "decision": "EXCLUDE",
+    "reason": "Nuclear system monitoring RCA; no LLM, security task, or OS/privileged-interface target in the available title.",
+    "evidence": "Physics-constrained causal structure learning for root cause analysis in nuclear system monitoring"
+  },
+  {
+    "id": "R03603",
+    "decision": "EXCLUDE",
+    "reason": "Marine generator failure RCA; unrelated to LLMs, security analysis, or OS components.",
+    "evidence": "The starting-air system of the 114-kW main generator aboard KM Sabuk Nusantara 101 experienced repeated start failures"
+  },
+  {
+    "id": "R03604",
+    "decision": "UNCLEAR",
+    "reason": "Generic data-supported failure/RCA framework; missing abstract leaves LLM use and security/OS scope unresolved.",
+    "evidence": "A framework for integrated data-supported failure and root cause analysis"
+  },
+  {
+    "id": "R03605",
+    "decision": "EXCLUDE",
+    "reason": "Explainable RCA for datacenter network operations; no LLM and no security outcome targeting OS components.",
+    "evidence": "Black-box RCA models are difficult to trust in datacenter operations."
+  },
+  {
+    "id": "R03606",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted RCA of RISC-V build failures; software build engineering, not security or an OS/privileged-interface target.",
+    "evidence": "Root Cause Analysis of RISC-V Build Failures via LLM and MCTS Reasoning"
+  },
+  {
+    "id": "R03607",
+    "decision": "EXCLUDE",
+    "reason": "Engine oil-consumption RCA; unrelated to LLMs, security, or OS components.",
+    "evidence": "Root Cause Analysis of High Oil Consumption in 6.4L Heavy-Duty Engines Under Urban Driving Conditions"
+  },
+  {
+    "id": "R03608",
+    "decision": "EXCLUDE",
+    "reason": "Logistics customer-satisfaction and service-quality RCA; outside LLM security and OS scope.",
+    "evidence": "Analysis Of Indo Paket Customer Satisfaction Using Service Quality Method And Root Cause Analysis"
+  },
+  {
+    "id": "R03609",
+    "decision": "EXCLUDE",
+    "reason": "Carton-box quality-control RCA; no LLM, security task, or OS component.",
+    "evidence": "Improvement of Carton Box Product Quality Using Statistical Quality Control (SQC) and Root Cause Analysis (RCA) Methods"
+  },
+  {
+    "id": "R03610",
+    "decision": "EXCLUDE",
+    "reason": "Temporal RCA using contextual embedding language models for system diagnostics and incident management; no security or OS target.",
+    "evidence": "actionable insights relevant to real-world domains such as system diagnostics and incident management"
+  },
+  {
+    "id": "R03611",
+    "decision": "EXCLUDE",
+    "reason": "General AI-based failure RCA; no substantive LLM security task or OS target.",
+    "evidence": "Failure Root Cause Analysis (FRCA)"
+  },
+  {
+    "id": "R03612",
+    "decision": "EXCLUDE",
+    "reason": "Multi-agent LLM RCA over distributed-system observability data; operational diagnostics, not security or OS-targeted work.",
+    "evidence": "large-scale distributed systems"
+  },
+  {
+    "id": "R03613",
+    "decision": "EXCLUDE",
+    "reason": "Plant-wide oscillation RCA; process-control domain, with no LLM, security, or OS evidence.",
+    "evidence": "Balancing information and predictability: A pan latent feature model for plant-wide oscillations root cause analysis"
+  },
+  {
+    "id": "R03614",
+    "decision": "EXCLUDE",
+    "reason": "Variational-inference RCA in closed-loop systems; no LLM, security task, or OS component in the title.",
+    "evidence": "Variational inference-based prior-informed root cause analysis in closed-loop systems"
+  },
+  {
+    "id": "R03615",
+    "decision": "EXCLUDE",
+    "reason": "Chicken egg production quality RCA; unrelated to LLMs, security, or OS components.",
+    "evidence": "Application of Statistical Process Control Method, Seven Tools, and Root Cause Analysis to Improve the Quality of Chicken Egg Production"
+  },
+  {
+    "id": "R03616",
+    "decision": "EXCLUDE",
+    "reason": "Orthographic/language education RCA; outside LLM security and OS scope.",
+    "evidence": "ORTHOGRAPHIC STRUGGLES: ROOT CAUSE ANALYSIS"
+  },
+  {
+    "id": "R03617",
+    "decision": "EXCLUDE",
+    "reason": "Hybrid RCA for microservices; general software operations, not security or OS-targeted.",
+    "evidence": "Hybrid Root Cause Analysis for Partially Observable Microservices Based on Architecture Profiling"
+  },
+  {
+    "id": "R03618",
+    "decision": "UNCLEAR",
+    "reason": "Generic causal-inference RCA in large complex systems; missing abstract leaves LLM, security, and OS scope unresolved.",
+    "evidence": "A causal inference-based root cause analysis framework using multi-modal data in large-complex system"
+  },
+  {
+    "id": "R03619",
+    "decision": "EXCLUDE",
+    "reason": "Textile-industry performance measurement using Balanced Scorecard and RCA; outside LLM security and OS scope.",
+    "evidence": "Measurement Company Performance using Balanced Scorecard and Root  Cause Analysis Method at Textile Industry"
+  },
+  {
+    "id": "R03620",
+    "decision": "EXCLUDE",
+    "reason": "Conceptual framework comparing RCA techniques; no LLM, security analysis, or OS target.",
+    "evidence": "A unified framework elucidates the equivalence and complementarity of root cause analysis techniques and their results' completeness"
+  },
+  {
+    "id": "R03621",
+    "decision": "UNCLEAR",
+    "reason": "Generic incident RCA title with no abstract; incident domain, LLM role, and OS/security target are unclear.",
+    "evidence": "Root Cause Analysis of Incidents"
+  },
+  {
+    "id": "R03622",
+    "decision": "EXCLUDE",
+    "reason": "Education-focused justice-oriented RCA poster; outside LLM security and OS scope.",
+    "evidence": "Supporting Students with Justice-Oriented Root Cause Analysis Frameworks (Poster 7)"
+  },
+  {
+    "id": "R03623",
+    "decision": "EXCLUDE",
+    "reason": "Assisted RCA for CI failures; software-engineering diagnostics, with no LLM security task or OS target.",
+    "evidence": "Enhancing Continuous Integration Systems with Assisted Root Cause Analysis"
+  },
+  {
+    "id": "R03624",
+    "decision": "EXCLUDE",
+    "reason": "LLM persona/behavioral alignment study; concerns LLM system behavior, not OS-targeted security.",
+    "evidence": "Comparative Mechanism of Persona Configuration and Behavioral Alignment in LLM Systems (Grok and GPT)"
+  },
+  {
+    "id": "R03625",
+    "decision": "UNCLEAR",
+    "reason": "System hardening and secure configuration could be OS security, but this title-only record lacks an explicit LLM role and abstract.",
+    "evidence": "20619 System hardening and secure configuration management"
+  },
+  {
+    "id": "R03626",
+    "decision": "UNCLEAR",
+    "reason": "Cloud hardening and configuration is security-adjacent, but the missing abstract leaves LLM use and OS/privileged scope uncertain.",
+    "evidence": "Cloud Hardening and Configuration Management"
+  },
+  {
+    "id": "R03627",
+    "decision": "UNCLEAR",
+    "reason": "LLM-based system configuration may touch OS settings, but the missing abstract leaves the security outcome and target unclear.",
+    "evidence": "A Novel LLM Architecture for Intelligent System Configuration"
+  },
+  {
+    "id": "R03628",
+    "decision": "EXCLUDE",
+    "reason": "Attack-graph network hardening with an LLM reporting/remediation layer; general network security, not an OS/privileged-interface target.",
+    "evidence": "Attack-graph-based network hardening evaluations"
+  },
+  {
+    "id": "R03629",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted PDDL synthesis of network configurations; no security analysis or OS target in the title.",
+    "evidence": "LLM-Assisted PDDL Modeling for Reliable Network Configuration Synthesis"
+  },
+  {
+    "id": "R03630",
+    "decision": "EXCLUDE",
+    "reason": "LLM configuration understanding and change generation for microservice orchestration; general software operations, not security or OS work.",
+    "evidence": "A Framework for LLM-Based Semantic Configuration Understanding and Automated Change Generation in Microservice Orchestration"
+  },
+  {
+    "id": "R03631",
+    "decision": "EXCLUDE",
+    "reason": "LLM intent-driven service configuration for networks; no security task or OS component in the title.",
+    "evidence": "LLM-enabled Intent-driven Service Configuration for Next Generation Networks"
+  },
+  {
+    "id": "R03632",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted RTL port initialization; hardware design, not security or OS-targeted work.",
+    "evidence": "Configuration-Driven RTL Port Initialization with LLM-Assisted Inference"
+  },
+  {
+    "id": "R03633",
+    "decision": "EXCLUDE",
+    "reason": "Hardening LLM system instructions against extraction attacks; security of LLMs, not OS-targeted security.",
+    "evidence": "Evaluation and Hardening of LLM System Instructions Against Extraction via Encoding Attacks"
+  },
+  {
+    "id": "R03634",
+    "decision": "EXCLUDE",
+    "reason": "Safety brittleness of tool-using LLM agents; security of LLM agents, not an OS/privileged-interface task.",
+    "evidence": "Tool-using Large Language Model (LLM) agents pose a security risk"
+  },
+  {
+    "id": "R03635",
+    "decision": "EXCLUDE",
+    "reason": "LLM-driven MES/manufacturing configuration recommendation; no security task or OS component.",
+    "evidence": "Q GENERATIVE AI FOR MES OPTIMIZATION LLM-DRIVEN DIGITAL MANUFACTURING CONFIGURATION RECOMMENDATION"
+  },
+  {
+    "id": "R03636",
+    "decision": "UNCLEAR",
+    "reason": "Multi-agent LLM for Cisco router configuration; router access may be privileged and security-relevant, but the missing abstract leaves task and target scope unclear.",
+    "evidence": "Poster: Multi-Agent LLM System for Cisco Router Configuration"
+  },
+  {
+    "id": "R03637",
+    "decision": "EXCLUDE",
+    "reason": "Automatic configuration of LLM post-training pipelines; ML engineering, not security or OS-targeted work.",
+    "evidence": "Automatic Configuration of LLM Post-Training Pipelines"
+  },
+  {
+    "id": "R03638",
+    "decision": "EXCLUDE",
+    "reason": "Materials-science nanoprecipitate configuration study; unrelated to LLMs, security, or OS components.",
+    "evidence": "Achieving strength-ductility synergy by tuning the configuration of nanoprecipitates in high Co-Ni secondary hardening steel"
+  },
+  {
+    "id": "R03639",
+    "decision": "EXCLUDE",
+    "reason": "Observability for LLM-based infrastructure as code; production monitoring, not security or OS-targeted analysis.",
+    "evidence": "Poliac: Production Observability for LLM-Based Infrastructure as Code"
+  },
+  {
+    "id": "R03640",
+    "decision": "EXCLUDE",
+    "reason": "Auto-hardening tool-using LLM agents into workflow DAGs; securing LLM agents, not OS components or privileged interfaces.",
+    "evidence": "TraceForge: A Human-Gated System for Auto-Hardening Tool-Using LLM Agents into Immutable Workflow DAGs"
+  }
+]

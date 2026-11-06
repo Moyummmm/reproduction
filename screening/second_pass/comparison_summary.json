@@ -1,0 +1,8 @@
+{
+  "records": 2311,
+  "comparison_status": {
+    "agreement_still_requires_independent_review": 2195,
+    "pending_disagreement": 116
+  },
+  "note": "Separate calls to the same model, not independent human review; agreement is not eligibility."
+}

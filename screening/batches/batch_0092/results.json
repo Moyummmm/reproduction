@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R03681",
+    "decision": "EXCLUDE",
+    "reason": "LLM used for engineering optimization, not a security task or OS target.",
+    "evidence": "connecting LLM and CAE software"
+  },
+  {
+    "id": "R03682",
+    "decision": "EXCLUDE",
+    "reason": "Hardware eFPGA reliability study; no LLM or OS security task.",
+    "evidence": "Soft Error Tolerant Flip-Flop for eFPGA Configuration Hardening"
+  },
+  {
+    "id": "R03683",
+    "decision": "EXCLUDE",
+    "reason": "LLM configures healthcare digital twins; no security task or OS target.",
+    "evidence": "LLM-Driven Configuration of Discrete-Event Healthcare Digital Twins"
+  },
+  {
+    "id": "R03684",
+    "decision": "EXCLUDE",
+    "reason": "Decision letter, not original research; no empirical LLM security study.",
+    "evidence": "Decision letter for"
+  },
+  {
+    "id": "R03685",
+    "decision": "EXCLUDE",
+    "reason": "Decision letter, not original research; no empirical LLM security study.",
+    "evidence": "Decision letter for"
+  },
+  {
+    "id": "R03686",
+    "decision": "EXCLUDE",
+    "reason": "Home automation configuration; no security task or OS target.",
+    "evidence": "LLM-Assisted Configuration of Home Automation Systems"
+  },
+  {
+    "id": "R03687",
+    "decision": "UNCLEAR",
+    "reason": "Network switch configuration with LLM; security task and OS target unclear without abstract.",
+    "evidence": "Switch Configuration Assistant with LLM"
+  },
+  {
+    "id": "R03688",
+    "decision": "EXCLUDE",
+    "reason": "LLM for agile effort estimation; no security task or OS target.",
+    "evidence": "Story point estimation is widely used in agile software planning"
+  },
+  {
+    "id": "R03689",
+    "decision": "UNCLEAR",
+    "reason": "LLM for OS kernel configuration; security outcome or task not explicit in title.",
+    "evidence": "OS Kernel Configuration via LLMs Agentic Reasoning"
+  },
+  {
+    "id": "R03690",
+    "decision": "EXCLUDE",
+    "reason": "Decision letter, not original research; no empirical LLM security study.",
+    "evidence": "Decision letter for"
+  },
+  {
+    "id": "R03691",
+    "decision": "UNCLEAR",
+    "reason": "OS virtualization hardening, but no LLM role evident; abstract missing.",
+    "evidence": "Hardening OS-level Virtualization with Rust"
+  },
+  {
+    "id": "R03692",
+    "decision": "EXCLUDE",
+    "reason": "Security of LLM fine-tuning, not security analysis of OS components.",
+    "evidence": "Hardening LLM Fine-Tuning"
+  },
+  {
+    "id": "R03693",
+    "decision": "UNCLEAR",
+    "reason": "LLM network configuration; security task and OS or privileged target unclear.",
+    "evidence": "Intelligent Network Configuration Via LLM Agent"
+  },
+  {
+    "id": "R03694",
+    "decision": "UNCLEAR",
+    "reason": "LLM network configuration and code generation; no explicit security or OS target.",
+    "evidence": "Automated Network Configuration Through Code Generation"
+  },
+  {
+    "id": "R03695",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates configuration leaking in LLM app stores; security of LLM apps, not OS.",
+    "evidence": "Configuration Leaking Risks in Commercial LLM App Stores"
+  },
+  {
+    "id": "R03696",
+    "decision": "EXCLUDE",
+    "reason": "Hardware eFPGA flip-flop design; no LLM or OS security task.",
+    "evidence": "Flip-Flops for eFPGA Configuration Hardening"
+  },
+  {
+    "id": "R03697",
+    "decision": "EXCLUDE",
+    "reason": "LLM agent for Java project setup; general software configuration, no security outcome.",
+    "evidence": "Autonomous End-to-End Java Project Configuration"
+  },
+  {
+    "id": "R03698",
+    "decision": "UNCLEAR",
+    "reason": "Workstation security configuration, but no LLM role evident; abstract missing.",
+    "evidence": "Workstation Security Configuration"
+  },
+  {
+    "id": "R03699",
+    "decision": "EXCLUDE",
+    "reason": "LLM-generated CI workflows and quality failures; general software, not OS security.",
+    "evidence": "Configuration Quality Failures in LLM-Generated GitHub Actions Workflows"
+  },
+  {
+    "id": "R03700",
+    "decision": "EXCLUDE",
+    "reason": "Materials science steel study; no LLM or security or OS content.",
+    "evidence": "configuration of nanoprecipitates in high Co-Ni secondary hardening steel"
+  },
+  {
+    "id": "R03701",
+    "decision": "EXCLUDE",
+    "reason": "OS memory management for LLM inference; no security task.",
+    "evidence": "OS-Governed Memory for Local Large-LLM Inference"
+  },
+  {
+    "id": "R03702",
+    "decision": "EXCLUDE",
+    "reason": "Civil engineering beam study; no LLM or security or OS content.",
+    "evidence": "hybrid strain hardening cementitious composites"
+  },
+  {
+    "id": "R03703",
+    "decision": "EXCLUDE",
+    "reason": "LLM serving configuration selection; performance only, no security task.",
+    "evidence": "Profiling-Based Configuration Selection for Distributed Edge-Cloud Speculative LLM Serving"
+  },
+  {
+    "id": "R03704",
+    "decision": "UNCLEAR",
+    "reason": "LLM filters false positives in OS migration testing; security task and role unclear without abstract.",
+    "evidence": "Filtering False Positives in OS Migration Testing"
+  },
+  {
+    "id": "R03705",
+    "decision": "UNCLEAR",
+    "reason": "Vague hardening title; LLM role and OS security target cannot be determined.",
+    "evidence": "Hardening with Scapolite"
+  },
+  {
+    "id": "R03706",
+    "decision": "EXCLUDE",
+    "reason": "LLM for production-line configuration and optimization; no security task or OS target.",
+    "evidence": "Automated production line configuration technology"
+  },
+  {
+    "id": "R03707",
+    "decision": "EXCLUDE",
+    "reason": "LLM-enhanced PSO for power-grid ECU placement; not OS security analysis.",
+    "evidence": "The LLM aids in intelligent population initialization and adaptive particle guidance within PSO."
+  },
+  {
+    "id": "R03708",
+    "decision": "EXCLUDE",
+    "reason": "LLM access-control policy for IoMT; target is not an OS or privileged interface.",
+    "evidence": "LLM Based Policy Generation for IoMT Device Access Control"
+  },
+  {
+    "id": "R03709",
+    "decision": "EXCLUDE",
+    "reason": "Dialogue policy learning; no security task or OS target.",
+    "evidence": "Reinforcement Learn-Based Dialogue Policy With LLM-Assisted Decision Distillation"
+  },
+  {
+    "id": "R03710",
+    "decision": "EXCLUDE",
+    "reason": "Policy-safe delivery agents; not OS security analysis.",
+    "evidence": "Policy-Safe LLM Agents Work in Real-World Curbside Delivery"
+  },
+  {
+    "id": "R03711",
+    "decision": "EXCLUDE",
+    "reason": "LLM access-control policy for microservices; not OS or privileged interface.",
+    "evidence": "LLM-based Access Control Policy Generation for Microservices"
+  },
+  {
+    "id": "R03712",
+    "decision": "EXCLUDE",
+    "reason": "Benchmarks LLM agent robustness; security of LLM agents, not OS analysis.",
+    "evidence": "Benchmarking Reference-Free LLM Agent Robustness"
+  },
+  {
+    "id": "R03713",
+    "decision": "EXCLUDE",
+    "reason": "Traffic signal control from text; no security task or OS target.",
+    "evidence": "Executing Signal Control From Text"
+  },
+  {
+    "id": "R03714",
+    "decision": "EXCLUDE",
+    "reason": "LLM cybersecurity auditing of access-control evidence; not OS component testing.",
+    "evidence": "identity and entitlement data, configuration baselines, change records, ticketing workflows, and SIEM/EDR logs"
+  },
+  {
+    "id": "R03715",
+    "decision": "EXCLUDE",
+    "reason": "EV charging demand forecasting; no security task or OS target.",
+    "evidence": "Peak-Aware Residual LLM Over Anchor for EV Charging Station Demand"
+  },
+  {
+    "id": "R03716",
+    "decision": "EXCLUDE",
+    "reason": "Fashion recommendation; no security task or OS target.",
+    "evidence": "LLM-Powered Style-Context Insights for Fashion Recommendation"
+  },
+  {
+    "id": "R03717",
+    "decision": "EXCLUDE",
+    "reason": "UAV formation control; no security task or OS target.",
+    "evidence": "LLM-Guided Distributed Model Predictive Control for Decentralized UAV Formations"
+  },
+  {
+    "id": "R03718",
+    "decision": "EXCLUDE",
+    "reason": "LLM detects smart-contract access-control bugs; target is not OS components.",
+    "evidence": "Detection of Smart Contract Access Control Vulnerabilities"
+  },
+  {
+    "id": "R03719",
+    "decision": "EXCLUDE",
+    "reason": "Systematic literature review methodology; reviews are excluded from the core set.",
+    "evidence": "Systematic Literature Reviews (TriSem-LLM)"
+  },
+  {
+    "id": "R03720",
+    "decision": "UNCLEAR",
+    "reason": "LLM enforces and validates CIS controls; OS or privileged target unclear without abstract.",
+    "evidence": "Prompting LLM to Enforce and Validate CIS Critical Security Control"
+  }
+]

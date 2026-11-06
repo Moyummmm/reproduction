@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R05281",
+    "decision": "EXCLUDE",
+    "reason": "Position paper on LLM reliability and inference-time control; no security or OS target.",
+    "evidence": "formalizing inference-time control as a first-class abstraction"
+  },
+  {
+    "id": "R05282",
+    "decision": "EXCLUDE",
+    "reason": "KV-cache scheduling algorithm for LLM inference; no security or OS dimension.",
+    "evidence": "the non-clairvoyant policy to achieve the first constant competitive ratio"
+  },
+  {
+    "id": "R05283",
+    "decision": "EXCLUDE",
+    "reason": "Optimizes LLM inference clusters for performance and energy; no security outcome.",
+    "evidence": "optimizing the performance and energy efficiency of computational infrastructures"
+  },
+  {
+    "id": "R05284",
+    "decision": "EXCLUDE",
+    "reason": "Verifies deterministic LLM inference execution, not security of OS components.",
+    "evidence": "Verifying the Predestined Execution of Deterministic LLM Inference"
+  },
+  {
+    "id": "R05285",
+    "decision": "EXCLUDE",
+    "reason": "SLO-aware serverless scheduling for LLM inference; no security or OS target.",
+    "evidence": "SLO-Aware and Cost-Aware Elastic Scheduling"
+  },
+  {
+    "id": "R05286",
+    "decision": "EXCLUDE",
+    "reason": "Analyzes privacy risks of LLM KV-cache, i.e. security of LLMs rather than LLM-based OS security analysis.",
+    "evidence": "Privacy Risks of KV-cache in LLM Inference"
+  },
+  {
+    "id": "R05287",
+    "decision": "EXCLUDE",
+    "reason": "Hyperparameter optimization for LLM inference; no security or OS dimension.",
+    "evidence": "Hyperparameter Optimization for LLM Inference"
+  },
+  {
+    "id": "R05288",
+    "decision": "EXCLUDE",
+    "reason": "Framework analyzing determinism limits of LLM inference; no security analysis of OS.",
+    "evidence": "analyze the TML findings through a novel three-part framework"
+  },
+  {
+    "id": "R05289",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted regression specification choice and p-hacking; statistical methodology, not OS security.",
+    "evidence": "select the regression specification most likely to yield statistical significance"
+  },
+  {
+    "id": "R05290",
+    "decision": "EXCLUDE",
+    "reason": "Studies specification gaming in LLM-generated code validation; general software, not OS-targeted security analysis.",
+    "evidence": "LLM-generated test suites as validation artifacts"
+  },
+  {
+    "id": "R05291",
+    "decision": "EXCLUDE",
+    "reason": "LLM inference of platform ratings from reviews; no security or OS component.",
+    "evidence": "infer platform ratings from review narratives"
+  },
+  {
+    "id": "R05292",
+    "decision": "EXCLUDE",
+    "reason": "Virtual processing-in-disk architecture for fast model switching; systems performance, no security.",
+    "evidence": "sub-millisecond model switching through atomic pointer assignment"
+  },
+  {
+    "id": "R05293",
+    "decision": "EXCLUDE",
+    "reason": "Prompt uncertainty in LLM-based measurement; no security or OS target.",
+    "evidence": "formalize this as prompt uncertainty"
+  },
+  {
+    "id": "R05294",
+    "decision": "EXCLUDE",
+    "reason": "Energy-accuracy frontiers for LLM inference prompting; no security dimension.",
+    "evidence": "accuracy-energy Pareto frontiers for each benchmark were constructed"
+  },
+  {
+    "id": "R05295",
+    "decision": "EXCLUDE",
+    "reason": "Quantization and decoding of hallucinated high-entropy strings; LLM reliability, not OS security.",
+    "evidence": "High-Entropy String Hallucinations in LLM Inference"
+  },
+  {
+    "id": "R05296",
+    "decision": "EXCLUDE",
+    "reason": "LLM-augmented quantitative finance forecasting; no security or OS target.",
+    "evidence": "Market State Inference and Forecasting"
+  },
+  {
+    "id": "R05297",
+    "decision": "EXCLUDE",
+    "reason": "Semantic caching framework for distributed LLM inference; no security dimension.",
+    "evidence": "Efficient Context-Aware Semantic Caching Framework"
+  },
+  {
+    "id": "R05298",
+    "decision": "EXCLUDE",
+    "reason": "Data center cooling quantification of LLM inference; no security or OS target.",
+    "evidence": "Quantifying LLM AI Inference in Terms of Data Center Cooling"
+  },
+  {
+    "id": "R05299",
+    "decision": "EXCLUDE",
+    "reason": "Data center power surrogates compared with LLM inference; no security analysis of OS.",
+    "evidence": "Physically Grounded Surrogates versus LLM-Based Inference"
+  },
+  {
+    "id": "R05300",
+    "decision": "EXCLUDE",
+    "reason": "Review of a systems paper; reviews excluded and no OS security research.",
+    "evidence": "Review of: vPID"
+  },
+  {
+    "id": "R05301",
+    "decision": "EXCLUDE",
+    "reason": "Memory module benchmarking for LLM inference; hardware performance, no security.",
+    "evidence": "comparative analysis of the newly standardized Low Power Compression Attached Memory Module"
+  },
+  {
+    "id": "R05302",
+    "decision": "EXCLUDE",
+    "reason": "Secure routing here means data-boundary governance for LLM prompts, not OS security testing.",
+    "evidence": "keeps restricted prompts on self-hosted models by construction"
+  },
+  {
+    "id": "R05303",
+    "decision": "EXCLUDE",
+    "reason": "Review of a systems paper; reviews excluded and no OS security research.",
+    "evidence": "Review of: vPID"
+  },
+  {
+    "id": "R05304",
+    "decision": "EXCLUDE",
+    "reason": "Token routing for edge-cloud LLM inference; no security or OS target.",
+    "evidence": "Adaptive Token Routing for Heterogeneous LLM Inference"
+  },
+  {
+    "id": "R05305",
+    "decision": "EXCLUDE",
+    "reason": "Review of a systems paper; reviews excluded and no OS security research.",
+    "evidence": "Review of: vPID"
+  },
+  {
+    "id": "R05306",
+    "decision": "EXCLUDE",
+    "reason": "Review of a systems paper; reviews excluded and no OS security research.",
+    "evidence": "Review of: vPID"
+  },
+  {
+    "id": "R05307",
+    "decision": "EXCLUDE",
+    "reason": "Review of a systems paper; reviews excluded and no OS security research.",
+    "evidence": "Review of: vPID"
+  },
+  {
+    "id": "R05308",
+    "decision": "EXCLUDE",
+    "reason": "Behavioral specification for controlling LLM outputs, not LLM analysis of OS security.",
+    "evidence": "declares behavioral invariants under universal quantification over known attack frames"
+  },
+  {
+    "id": "R05309",
+    "decision": "EXCLUDE",
+    "reason": "Firmware optimization for LLM latency and accuracy without a security outcome.",
+    "evidence": "firmware improvements that address these constraints"
+  },
+  {
+    "id": "R05310",
+    "decision": "EXCLUDE",
+    "reason": "LLM generation of TLA+ specs verified with SANY and TLC; general formal software work, no OS security task.",
+    "evidence": "automatic generation of formal TLA+ specifications"
+  },
+  {
+    "id": "R05311",
+    "decision": "EXCLUDE",
+    "reason": "Entropy-guided KV caching for inference efficiency; no security dimension.",
+    "evidence": "entropy-guided KV caching strategy"
+  },
+  {
+    "id": "R05312",
+    "decision": "EXCLUDE",
+    "reason": "Response-length perception and sequence scheduling for LLM inference; no security or OS target.",
+    "evidence": "Response Length Perception and Sequence Scheduling"
+  },
+  {
+    "id": "R05313",
+    "decision": "EXCLUDE",
+    "reason": "Static analysis for smart contract security; targets smart contracts, not OS components, and LLM use not stated.",
+    "evidence": "Specification-Oriented Static Analysis for Smart Contract Security"
+  },
+  {
+    "id": "R05314",
+    "decision": "EXCLUDE",
+    "reason": "Domain isolation architecture for reliable LLM inference; no security analysis of OS.",
+    "evidence": "multi-domain session degradation"
+  },
+  {
+    "id": "R05315",
+    "decision": "EXCLUDE",
+    "reason": "Probabilistic layer to improve Mistral retrieval accuracy; no security or OS target.",
+    "evidence": "Probabilistic Inference Layer (PIL) into the Mistral Large Language Model"
+  },
+  {
+    "id": "R05316",
+    "decision": "EXCLUDE",
+    "reason": "Maritime semantic track inference; anomaly detection is domain analytics, not OS security.",
+    "evidence": "the full pipeline from natural language input to SAR representation to inference output"
+  },
+  {
+    "id": "R05317",
+    "decision": "EXCLUDE",
+    "reason": "Economic analysis of leaked LLM credentials; security of LLM assets, not LLM-based OS security analysis.",
+    "evidence": "A Longitudinal Economic Analysis of Hierarchical LLM Credential Leakage"
+  },
+  {
+    "id": "R05318",
+    "decision": "EXCLUDE",
+    "reason": "Maritime semantic track inference; anomaly detection is domain analytics, not OS security.",
+    "evidence": "the full pipeline from natural language input to SAR representation to inference output"
+  },
+  {
+    "id": "R05319",
+    "decision": "EXCLUDE",
+    "reason": "Multimodal LLM framework for cognitive-state inference; no security or OS target.",
+    "evidence": "Real-Time Multimodal Fusion and LLM Reasoning Framework for Cognitive-State Inference"
+  },
+  {
+    "id": "R05320",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted QA on specifications with requirement owners; general requirements work, no OS security evidence.",
+    "evidence": "LLM-Assisted Quality Assurance Through Dialogues on Verifiable Specification"
+  }
+]

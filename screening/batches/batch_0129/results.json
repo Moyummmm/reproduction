@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R05161",
+    "decision": "EXCLUDE",
+    "reason": "Formal RTOS scheduling verification; no LLM or security task.",
+    "evidence": "Formal Verification of Partitioned Scheduling"
+  },
+  {
+    "id": "R05162",
+    "decision": "UNCLEAR",
+    "reason": "Title indicates OS/ROS 2 formal verification, but abstract is missing; LLM role and security task are unclear.",
+    "evidence": "UPPAAL-Based Modeling and Verification of ROS 2 Multi-threaded Execution and Operating System Reservations"
+  },
+  {
+    "id": "R05163",
+    "decision": "EXCLUDE",
+    "reason": "Formal verification of spiking neural controllers for CPS; no LLM or OS security task.",
+    "evidence": "Configuring Safe Spiking Neural Controllers for Cyber-Physical Systems through Formal Verification"
+  },
+  {
+    "id": "R05164",
+    "decision": "EXCLUDE",
+    "reason": "Metrology and channel-sounder verification; no LLM, OS, or security task.",
+    "evidence": "A Formal Quality Control System for Millimetre-Wave Channel Sounder Verification"
+  },
+  {
+    "id": "R05165",
+    "decision": "EXCLUDE",
+    "reason": "Formal verification for out-of-distribution detection; no LLM or OS security target.",
+    "evidence": "PAC-Based Formal Verification for Out-of-Distribution Data Detection"
+  },
+  {
+    "id": "R05166",
+    "decision": "EXCLUDE",
+    "reason": "Bibliography; not original research.",
+    "evidence": "Bibliography"
+  },
+  {
+    "id": "R05167",
+    "decision": "EXCLUDE",
+    "reason": "Foreword; not original research.",
+    "evidence": "Foreword by Harry Foster"
+  },
+  {
+    "id": "R05168",
+    "decision": "EXCLUDE",
+    "reason": "Preface; not original research.",
+    "evidence": "Preface"
+  },
+  {
+    "id": "R05169",
+    "decision": "EXCLUDE",
+    "reason": "Introduction; not original research.",
+    "evidence": "Introduction"
+  },
+  {
+    "id": "R05170",
+    "decision": "EXCLUDE",
+    "reason": "Conclusion; not original research.",
+    "evidence": "Conclusion"
+  },
+  {
+    "id": "R05171",
+    "decision": "UNCLEAR",
+    "reason": "Title-only runtime verification of distributed systems; LLM role, security task, and OS scope unclear.",
+    "evidence": "Runtime verification of partially-synchronous distributed system"
+  },
+  {
+    "id": "R05172",
+    "decision": "EXCLUDE",
+    "reason": "Assessment section; not original research.",
+    "evidence": "Assessment"
+  },
+  {
+    "id": "R05173",
+    "decision": "EXCLUDE",
+    "reason": "Formal property verification guidance; no LLM or OS security task.",
+    "evidence": "Effective FPV for verification"
+  },
+  {
+    "id": "R05174",
+    "decision": "EXCLUDE",
+    "reason": "AI hospital application system; not OS component security research.",
+    "evidence": "AI Integrated Hospital Operating System with Clinical Intelligence and Report Verification"
+  },
+  {
+    "id": "R05175",
+    "decision": "EXCLUDE",
+    "reason": "Review of quantum-circuit formal methods; reviews are excluded.",
+    "evidence": "This review explores how formal methods are currently applied to the verification of quantum circuits"
+  },
+  {
+    "id": "R05176",
+    "decision": "EXCLUDE",
+    "reason": "Smart-contract loan-system verification; no LLM or OS target.",
+    "evidence": "Formal Specification and Verification of Smart Contract-Based Loan Management System Using TLA+"
+  },
+  {
+    "id": "R05177",
+    "decision": "EXCLUDE",
+    "reason": "Formal signoff practice; no LLM, OS, or security research indicated.",
+    "evidence": "Formal signoff on real projects"
+  },
+  {
+    "id": "R05178",
+    "decision": "UNCLEAR",
+    "reason": "Title is too generic and abstract is missing to assess LLM, security, or OS scope.",
+    "evidence": "Verification"
+  },
+  {
+    "id": "R05179",
+    "decision": "EXCLUDE",
+    "reason": "Hyperproperty model checking; no LLM or OS security task.",
+    "evidence": "Temporal hyperproperties are system properties that relate multiple execution traces."
+  },
+  {
+    "id": "R05180",
+    "decision": "EXCLUDE",
+    "reason": "Review of quantum-circuit formal methods; reviews are excluded.",
+    "evidence": "This study examines how formal methods are applied to quantum circuit verification."
+  },
+  {
+    "id": "R05181",
+    "decision": "EXCLUDE",
+    "reason": "Formal verification of JIT compilation; no LLM or OS security task indicated.",
+    "evidence": "Formal Verification of Just-in-Time Compilation"
+  },
+  {
+    "id": "R05182",
+    "decision": "EXCLUDE",
+    "reason": "Polynomial verification; mathematics, not OS security.",
+    "evidence": "Polynomial Verification"
+  },
+  {
+    "id": "R05183",
+    "decision": "EXCLUDE",
+    "reason": "Historical review of arithmetic-circuit verification; review, not core empirical research.",
+    "evidence": "Formal Methods in Arithmetic Circuit Verification: A Brief History and Look into the Future"
+  },
+  {
+    "id": "R05184",
+    "decision": "EXCLUDE",
+    "reason": "Review of quantum-circuit formal methods; reviews are excluded.",
+    "evidence": "This study examines how formal methods are applied to quantum circuit verification."
+  },
+  {
+    "id": "R05185",
+    "decision": "UNCLEAR",
+    "reason": "Title is too generic and abstract is missing to assess LLM, security, or OS scope.",
+    "evidence": "Formal Verification"
+  },
+  {
+    "id": "R05186",
+    "decision": "EXCLUDE",
+    "reason": "Review of quantum-circuit formal methods; reviews are excluded.",
+    "evidence": "This review examines how formal methods are applied to quantum circuit verification."
+  },
+  {
+    "id": "R05187",
+    "decision": "EXCLUDE",
+    "reason": "Review of quantum-circuit formal methods; reviews are excluded.",
+    "evidence": "This review examines how formal methods are applied to quantum circuit verification."
+  },
+  {
+    "id": "R05188",
+    "decision": "EXCLUDE",
+    "reason": "Review of quantum-circuit formal methods; reviews are excluded.",
+    "evidence": "This review examines how formal methods are applied to quantum circuit verification."
+  },
+  {
+    "id": "R05189",
+    "decision": "UNCLEAR",
+    "reason": "Title-only formal verification of black-box models; LLM, security, and OS relevance unclear.",
+    "evidence": "Verification of Models with Black-box Components"
+  },
+  {
+    "id": "R05190",
+    "decision": "EXCLUDE",
+    "reason": "TLA+ verification of a medical CGM system; no LLM or OS security task.",
+    "evidence": "continuous glucose monitoring (CGM) system"
+  },
+  {
+    "id": "R05191",
+    "decision": "EXCLUDE",
+    "reason": "LLM benchmarking for theorem proving; no security or OS target.",
+    "evidence": "Benchmarking Automated Theorem Proving with Large Language Models"
+  },
+  {
+    "id": "R05192",
+    "decision": "EXCLUDE",
+    "reason": "LLM theorem proving in Lean 4; no security or OS target.",
+    "evidence": "Automated Theorem Proving in Lean 4 with Large Language Models"
+  },
+  {
+    "id": "R05193",
+    "decision": "EXCLUDE",
+    "reason": "LLM-assisted formal verification via theorem proving; no security or OS target indicated.",
+    "evidence": "FVEL: Interactive Formal Verification Environment with Large Language Models via Theorem Proving"
+  },
+  {
+    "id": "R05194",
+    "decision": "EXCLUDE",
+    "reason": "Theorem-proving reward shaping; no security or OS target.",
+    "evidence": "Graph2Proof: Topology-Aware Reward Shaping for Natural Language Theorem Proving"
+  },
+  {
+    "id": "R05195",
+    "decision": "EXCLUDE",
+    "reason": "Number-theory proof of Fermat's Last Theorem; no LLM, OS, or security.",
+    "evidence": "Fermat's Last Theorem (FLT)"
+  },
+  {
+    "id": "R05196",
+    "decision": "EXCLUDE",
+    "reason": "Security-protocol formal methods without LLM; protocols are not OS components.",
+    "evidence": "this paper looks into two well-known formal methods: model checking and theorem proving"
+  },
+  {
+    "id": "R05197",
+    "decision": "EXCLUDE",
+    "reason": "Number-theory proof of Fermat's Last Theorem; no LLM, OS, or security.",
+    "evidence": "Fermat's Last Theorem (FLT)"
+  },
+  {
+    "id": "R05198",
+    "decision": "EXCLUDE",
+    "reason": "LLM-symbolic theorem proving for explanations; no security or OS target.",
+    "evidence": "Verification and Refinement of Natural Language Explanations through LLM-Symbolic Theorem Proving"
+  },
+  {
+    "id": "R05199",
+    "decision": "EXCLUDE",
+    "reason": "Overview of LLMs for theorem proving and formal methods; no OS security task.",
+    "evidence": "What Can Large Language Models Do for Theorem Proving and Formal Methods?"
+  },
+  {
+    "id": "R05200",
+    "decision": "EXCLUDE",
+    "reason": "Theorem proving for programming-language semantics; no LLM or OS security task.",
+    "evidence": "A Theorem Proving Approach to Programming Language Semantics"
+  }
+]

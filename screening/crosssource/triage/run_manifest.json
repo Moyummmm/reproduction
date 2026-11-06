@@ -1,0 +1,11 @@
+{
+  "input_filename": "supplemented_records.csv",
+  "input_sha256": "faec450e0a9d473beda9a716e8d680c26aba319ba49dcf525f4c21c47de1985a",
+  "protocol_sha256": "19aedbc9f5e63c6abb3b51d447533b0c171a9c62233dbf7240ce2a87164422c6",
+  "records": 4,
+  "abstract_only": false,
+  "batch_size": 40,
+  "model": "deepseek/deepseek-flash",
+  "workers": 1,
+  "run_start_utc": "2026-11-05T08:37:27.135854+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "frozen_missing_records": 4097,
+  "status_counts": {
+    "not_attempted": 4047,
+    "request_error": 50
+  },
+  "successful_batches": 0,
+  "attempted_batches": 1,
+  "total_batches": 82,
+  "note": "DOI matching is exact; OpenAlex result or an abstract does not verify study eligibility."
+}

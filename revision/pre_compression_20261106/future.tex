@@ -1,0 +1,72 @@
+\section{Open Challenges and Future Directions}
+\label{sec:future}
+
+\revise{The reviewed studies suggest that LLMs can assist kernel patching and code interpretation, while their practical value remains constrained by grounding, validation, and maintainability.}
+\revise{A central question is how developers can distinguish well-supported model outputs from plausible but incorrect explanations.}
+Specifically, these challenges manifest in the following aspects.  
+
+
+\begin{figure}[t!]
+\centering
+   \includegraphics[width=0.45\textwidth]{figures/challenges.png}
+    \caption{Open challenges and future directions for LLMs in OS security.}
+    \label{fig:open-challenges}
+\end{figure}
+
+
+
+
+% \input{figures/open_challenges_infographic}
+
+% as we have observed across the previous  
+
+\textbf{Better grounding and reproducibility of LLMs.}
+Across OS components, LLM outputs should be treated as \emph{candidates} rather than ground truth (\S~\ref{sec:os:kernel}), because the most damaging failure mode in system security is not a low-quality explanation but an incorrect action that nonetheless sounds plausible.
+This risk is amplified in OS settings where evidence is fragmented across heterogeneous artifacts (code, configurations, logs, traces, crash reports, packet captures, and tool outputs), and where many ``bugs'' are violations of implicit invariants (locking, refcounting, memory ordering, protocol state) that are difficult to infer from text alone.
+Therefore, a central open challenge is how to \textbf{make every claim (e.g., bug localization, root cause, exploitability, or configuration intent) traceable to deterministic artifacts} such as symbolized traces, code diffs, pcaps, and minimal reproducers, and how to expose this traceability in a form that is reviewable by maintainers.
+Promising directions include: (i) structured evidence bundles that attach each hypothesis to concrete snippets (trace frames, relevant hunks, specific packet fields, failing assertions) with stable identifiers; (ii) ``executable rationales'' that compile the model's reasoning into checkable constraints (e.g., a query over traces, a differential oracle, or a unit/regression test); and (iii) reproducibility-first evaluation that reports not only success rates but also the minimal artifacts needed for independent re-validation (reproducer, environment, version, and tool configuration).
+Overall, grounding is not merely a safety add-on: it is the mechanism that turns LLM assistance into actionable security engineering by separating verifiable evidence from narrative plausibility.
+
+\textbf{Shifting the component-specific reasoning to a holistic view.}
+OS subsystems expose distinct correctness oracles and failure modes, meaning that a ``working'' change in one component can be silently dangerous in another.
+For kernels, patches must preserve subtle concurrency and memory-ordering assumptions, maintain ABI and behavioral compatibility for long-lived interfaces, and avoid performance regressions in hot paths; consequently, a patch that fixes a crash may still introduce a race, break a compatibility contract, or slow down a fast path in ways that are not captured by unit tests.
+For device drivers, the challenge is compounded by missing or proprietary specifications and device-dependent state machines, where reasoning must respect kernel invariants (locking, lifetimes) while also matching undocumented hardware behavior.
+For networking stacks, security issues often arise from \emph{protocol-valid yet unusual} message structures or sequences that exercise rarely tested state transitions under high throughput and shared-buffer constraints (e.g., \texttt{sk\_buff}), so correctness must be evaluated with stateful, sequence-aware oracles rather than purely syntactic checks.
+
+As have been analyzed in prior sections, existing LLM-assisted works are primarily focusing on a single component or are scoped to a narrowed view of the whole OS. 
+Thus, a natural question is \textbf{how to facilitate a holistic view of OS components for LLMs}, so that the model can reason about cross-layer dependencies (e.g., user input $\rightarrow$ syscall/driver $\rightarrow$ network stack $\rightarrow$ file system) and avoid fixes or diagnoses that are locally plausible but globally inconsistent. 
+This further raises following two technical issues. 
+
+First, how to deal with the long context incurred by the holistic view of the OS? 
+This is non-trivial because the relevant evidence is often spread across multiple repositories and layers (e.g., kernel, driver, user space, configuration, and protocol specifications), quickly exceeding the context window and making naive ``read everything'' prompting brittle.
+Promising directions include retrieval-augmented pipelines that (i) index artifacts by semantic entities (e.g., structs, syscalls, protocol fields), (ii) retrieve evidence on demand along the dependency chain, and (iii) summarize intermediate states into compact, checkable representations (e.g., call graphs, state machines, or invariants) that can be carried across iterations.
+
+Second, how to incorporate the inter-component knowledge into the LLM?  
+Beyond retrieving text, the model needs a \emph{representation} of cross-component contracts (e.g., assumptions about buffer ownership between driver and network stack, or pathname/permission invariants across VFS and file systems) and a way to validate them.
+Future work may combine LLMs with program analysis and specification mining to extract such contracts, and then use tool feedback (differential testing, sanitizers, model checking, or trace queries) as explicit oracles to accept/reject the model's cross-layer hypotheses.
+
+% often are targeting systems should therefore encode such constraints explicitly---for example, concurrency-aware checks (lock/refcount discipline, race detectors, memory-model litmus tests), compatibility tests across versions/configurations, performance regression gates for hot paths, and semantic/differential oracles for protocol state---instead of relying on purely natural-language reasoning.
+
+
+\textbf{Under-explored subsystems.}
+As has been mentioned earlier, several high-impact areas remain largely immature, especially hypervisor/TEE analysis where LLM-assisted reasoning/synthesis appears scarce in current literature (\S~\ref{sec:os:tee}). 
+This gap is concerning because hypervisors and TEEs sit below or alongside the kernel, expose tiny but highly privileged interfaces (e.g., hypercalls, secure-world RPC), and often suffer from limited instrumentation and fragmented vendor documentation, making bugs both high impact and difficult to diagnose.
+Moreover, their failure signals can be weak (e.g., VM resets, enclave aborts), which complicates fuzzing and pushes analysts toward labor-intensive manual triage.
+Future work should therefore expand LLM assistance to these boundary-layer components by (i) inferring interface schemas and setup sequences from headers/manuals/traces, (ii) designing semantic and differential oracles that go beyond crashes, and (iii) systematically evaluating across vendors, versions, and configurations to support cross-version exploitability assessment.
+At the same time, threat models should be broadened to include supply-chain patch risks, cross-version root-cause persistence, and side-channel informed inference, while maintaining rigorous grounding in deterministic artifacts.
+
+\textbf{Lastly, vibe coding for the OS.}
+Recent kernel patching and protocol fuzzing trends increasingly adopt agentic generate--validate loops driven by builds, tests, sanitizers, fuzzers and runtime feedback. 
+On the one hand, such workflows can substantially boost the development cycle by accelerating routine steps (hypothesis formation, edit proposal, and test execution), and by enabling more systematic exploration of candidate fixes and test inputs than a human can realistically perform.
+This can be particularly beneficial for security maintenance, where time-to-mitigation matters and where cross-version propagation (migration/backporting) is labor intensive.
+On the other hand, and more critically, LLM-enabled ``vibe coding'' risks overwhelming the human governance layer that ultimately secures OS codebases.
+\revise{When patch generation outpaces review capacity, maintainers may face large numbers of superficially plausible submissions whose correctness depends on costly checks of concurrency, ABI compatibility, protocol state, and performance.}
+\revise{Potential consequences include reviewer fatigue, delayed assessment of legitimate fixes, and reduced willingness to accept contributions that lack sufficient validation evidence. These are risks motivating future evaluation, not measured outcomes established by this survey. Addressing them requires both technical validation and contribution policies that support trust and accountability.}
+
+Future directions should therefore \emph{prioritize using LLMs to assist reviewing} (not only authoring) and treat \emph{review capacity} as a first-class resource.
+Concretely, LLMs can (i) summarize patch intent and link it to the exact evidence it relies on (reproducer, traces, diffs, benchmarks), (ii) highlight risk hotspots specific to OS code (locking/refcount discipline, memory ordering, ABI surface, protocol-state assumptions, hot-path performance), and (iii) generate reviewer-facing checklists and minimal regression tests that target the claimed invariant.
+At scale, review assistance should also include deduplication and triage: clustering near-duplicate PRs, detecting suspiciously similar changes across repos/versions, and ranking submissions by impact and confidence so that human attention is spent on the most security-relevant and verifiable changes.
+More broadly, we need socio-technical guardrails, e.g., rate limits, provenance and attribution, standardized patch reports, and CI-enforced evidence requirements, so that increased generation throughput translates into higher security rather than lower maintainability.
+
+
+

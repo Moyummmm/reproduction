@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R06018",
+    "decision": "EXCLUDE",
+    "reason": "Mutation analysis of correctness oracles for LLM-generated GPU kernels; no security task or OS component.",
+    "evidence": "Benchmarks for LLM-generated GPU kernels decide correctness with a few random inputs"
+  },
+  {
+    "id": "R06019",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM agents coupled with bounded model checking verify LLM-generated kernel and compiler systems code and confirm real defects.",
+    "evidence": "evaluate it on LLM-generated kernel and compiler code in C and Rust"
+  },
+  {
+    "id": "R06020",
+    "decision": "EXCLUDE",
+    "reason": "Formal safety guarantees for generated programs on CUDA kernels, terminal scripts, and robotics; not OS security.",
+    "evidence": "We evaluate MAGS on 100 CUDA kernels, 100 terminal scripts, and 20 robotic-arm tasks."
+  },
+  {
+    "id": "R06021",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Empirical study uses LLM coding agents and security skills to detect real Linux kernel vulnerabilities.",
+    "evidence": "100 real Linux kernel vulnerabilities across ten classes"
+  },
+  {
+    "id": "R06022",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-based pipeline classifies security patches and identifies OOB/UAF bugs in the Linux kernel.",
+    "evidence": "DUALLM, a dual-method pipeline that integrates two approaches based on a Large Language Model (LLM)"
+  },
+  {
+    "id": "R06023",
+    "decision": "EXCLUDE",
+    "reason": "Security architecture protects healthcare LLM agents; the LLM is the protected workload, not an OS security analysis tool.",
+    "evidence": "security architecture deployed for nine autonomous AI agents in production at a healthcare technology company"
+  },
+  {
+    "id": "R06024",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM agent automates N-day vulnerability reproduction and PoC generation for the Linux kernel.",
+    "evidence": "automates end-to-end bug reproduction of N-day vulnerabilities in the Linux kernel"
+  },
+  {
+    "id": "R06025",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Benchmark has LLM agents exploit real vulnerabilities, including Linux kernel instances.",
+    "evidence": "including userspace programs, Google's V8 JavaScript engine, and the Linux kernel"
+  },
+  {
+    "id": "R06026",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Evaluates LLM vulnerability detection and patching on 307 Linux kernel vulnerabilities.",
+    "evidence": "307 real-world vulnerabilities extracted from the Linux kernel"
+  },
+  {
+    "id": "R06027",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-assisted planners emit security intents at the kernel and eBPF enforcement boundary.",
+    "evidence": "LLM-assisted agents, that translate observations into enforcement actions"
+  },
+  {
+    "id": "R06028",
+    "decision": "EXCLUDE",
+    "reason": "Characterizes kernel syscall telemetry to secure LLM agents; the LLM is the monitored subject, not the analysis tool.",
+    "evidence": "pairing application-level agent telemetry with kernel-level syscall traces"
+  },
+  {
+    "id": "R06029",
+    "decision": "EXCLUDE",
+    "reason": "TrustZone system protects LLM inference; the LLM is the workload, not used for OS security analysis.",
+    "evidence": "protecting LLM inference with TrustZone incurs significant overhead"
+  },
+  {
+    "id": "R06030",
+    "decision": "EXCLUDE",
+    "reason": "Systematization or review of AI-native OS security, not original empirical LLM use.",
+    "evidence": "We systematize the security of such systems around a single distinction"
+  },
+  {
+    "id": "R06031",
+    "decision": "EXCLUDE",
+    "reason": "FlexServe protects LLM inference in TrustZone; the LLM is the workload, not an OS security analysis tool.",
+    "evidence": "FlexServe, a fast and secure LLM serving system for mobile devices"
+  },
+  {
+    "id": "R06032",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Framework evaluates LLM vulnerability detection on curated Linux kernel samples across CWEs.",
+    "evidence": "834 manually curated Linux kernel samples spanning 74 CWEs"
+  },
+  {
+    "id": "R06033",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM and RAG vulnerability detection finds previously unknown Linux kernel bugs.",
+    "evidence": "detect 10 previously-unknown bugs in the recent Linux kernel release"
+  },
+  {
+    "id": "R06034",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM agent discovers and validates vulnerabilities in COTS binaries and Windows kernel drivers.",
+    "evidence": "generalizability of SLYP on Windows kernel targets"
+  },
+  {
+    "id": "R06035",
+    "decision": "EXCLUDE",
+    "reason": "Executive kernel secures LLM agent tool execution; the LLM is the planner, not an OS security analysis tool.",
+    "evidence": "a system-level abstraction for LLM agents which decouples the execution of agent workflows from the LLM reasoning layer"
+  },
+  {
+    "id": "R06036",
+    "decision": "EXCLUDE",
+    "reason": "Proposed vulnerability detector is CodeBERT-based; an LLM appears only as a comparison baseline.",
+    "evidence": "we propose PatchCon, a CodeBERT-based patch-aware contrastive learning model"
+  },
+  {
+    "id": "R06037",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Benchmark tasks LLMs with reproducing vulnerabilities in the Linux kernel and browser engines.",
+    "evidence": "344 validated vulnerabilities across three targets, the V8 and SpiderMonkey browser engines and the Linux kernel"
+  },
+  {
+    "id": "R06038",
+    "decision": "EXCLUDE",
+    "reason": "Mathematical kernel approximation for encrypted deep learning; no OS security task.",
+    "evidence": "kernel-based approximation of ReLU"
+  },
+  {
+    "id": "R06039",
+    "decision": "EXCLUDE",
+    "reason": "Safety-alignment transfer for fine-tuned LLMs; security of LLMs, not OS security.",
+    "evidence": "transfer and maintain safety alignment in downstream LLMs"
+  },
+  {
+    "id": "R06040",
+    "decision": "EXCLUDE",
+    "reason": "Formally verified policy framework governs AI agents via BPF; the LLM is the governed subject.",
+    "evidence": "enforces formally verified policies on AI agents"
+  },
+  {
+    "id": "R06041",
+    "decision": "EXCLUDE",
+    "reason": "LLM orchestrates kernel micro-syscalls for semantics and performance, not a security analysis task.",
+    "evidence": "enables Large Language Models (LLMs) to orchestrate them dynamically"
+  },
+  {
+    "id": "R06042",
+    "decision": "EXCLUDE",
+    "reason": "Spectral fingerprinting for LLM ownership and auditing; no OS component or security analysis task.",
+    "evidence": "model fingerprinting important for ownership protection and offline auditing"
+  },
+  {
+    "id": "R06043",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-guided detection and remediation of container escape path-traversal vulnerabilities at privileged host boundaries.",
+    "evidence": "Grounded patterns guide LLM reasoning, while isolated Proof-of-Concept (PoC) execution validates findings."
+  },
+  {
+    "id": "R06044",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor attack on LLM deployments via platform-dependent kernels; security of LLMs.",
+    "evidence": "platform-triggered backdoor attack against generative LLMs"
+  },
+  {
+    "id": "R06045",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Multi-agent LLM framework verifies and patches real CVEs from systems including the Linux kernel.",
+    "evidence": "75 high-severity CVEs across real-world systems such as the Linux kernel and Chrome"
+  },
+  {
+    "id": "R06046",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Benchmark tests LLM agents breaking out of container sandboxes via kernel flaws and misconfigurations.",
+    "evidence": "sandbox-escape mechanisms spanning misconfiguration, privilege allocation mistakes, kernel flaws"
+  },
+  {
+    "id": "R06047",
+    "decision": "EXCLUDE",
+    "reason": "Neuro-symbolic memory-safety verification on general C code; no OS component target is named.",
+    "evidence": "whether a memory safety defect such as a null dereference, use-after-free, or double free can actually occur"
+  },
+  {
+    "id": "R06048",
+    "decision": "EXCLUDE",
+    "reason": "Rowhammer attack degrades LLM inference; security of LLM systems, not LLM for OS security.",
+    "evidence": "Rowhammer attack that causes LLM inference slowdown"
+  },
+  {
+    "id": "R06049",
+    "decision": "EXCLUDE",
+    "reason": "Security architecture for LLM-based mobile agents; LLM agents are the subject, not the analysis tool.",
+    "evidence": "systematic security analysis of state-of-the-art mobile agents using Doubao Mobile Assistant"
+  },
+  {
+    "id": "R06050",
+    "decision": "EXCLUDE",
+    "reason": "LLM automates Linux driver maintenance for kernel API/ABI co-evolution, without a security vulnerability task.",
+    "evidence": "automating driver maintenance"
+  },
+  {
+    "id": "R06051",
+    "decision": "EXCLUDE",
+    "reason": "LLM fingerprinting for intellectual-property protection; no OS component.",
+    "evidence": "protect LLMs' intellectual property"
+  },
+  {
+    "id": "R06052",
+    "decision": "EXCLUDE",
+    "reason": "eBPF observability attributes AI-agent actions for auditing; the LLM is monitored, not used for OS security analysis.",
+    "evidence": "application-transparent eBPF-based observability tool"
+  },
+  {
+    "id": "R06053",
+    "decision": "EXCLUDE",
+    "reason": "Encrypted Transformer inference for privacy; no OS security task.",
+    "evidence": "two-party private Transformer inference framework"
+  },
+  {
+    "id": "R06054",
+    "decision": "EXCLUDE",
+    "reason": "Agentic CUDA kernel generation and optimization; no security analysis or OS target.",
+    "evidence": "harnessing agentic CUDA kernel generation and optimization from natural language"
+  },
+  {
+    "id": "R06055",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM-based differential analysis of kernel TCP/IP implementations against RFCs to find vulnerabilities.",
+    "evidence": "incremental code function analysis on different versions of kernel code implementations to automatically perform code detection and vulnerability analysis"
+  },
+  {
+    "id": "R06056",
+    "decision": "EXCLUDE",
+    "reason": "Empirical study of labeling strategies for just-in-time vulnerability prediction; the LLM only assists one labeling variant.",
+    "evidence": "precision-first VFC labeling combined with LLM-assisted VIC labeling performs best for localization"
+  },
+  {
+    "id": "R06057",
+    "decision": "POSSIBLE_CORE",
+    "reason": "LLM post-refinement improves static-analysis bug detection on Linux kernel taint-style bugs.",
+    "evidence": "Linux kernel taint-style bugs detected by static analysis tools"
+  }
+]

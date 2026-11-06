@@ -1,0 +1,38 @@
+[
+  {
+    "query_id": "exploit",
+    "start": 1000,
+    "attempt": 1,
+    "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22large+language+model%22+OR+all%3ALLM+OR+all%3AGPT%29+AND+%28all%3Aexploit+AND+%28all%3Akernel+OR+all%3Asystem%29%29&start=1000&max_results=100&sortBy=relevance&sortOrder=descending",
+    "started_utc": "2026-11-05T08:03:27.687519+00:00",
+    "status": "ok",
+    "error": "",
+    "returned": 100,
+    "total_results": 1284,
+    "raw_file": "exploit_01000.xml"
+  },
+  {
+    "query_id": "exploit",
+    "start": 1100,
+    "attempt": 1,
+    "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22large+language+model%22+OR+all%3ALLM+OR+all%3AGPT%29+AND+%28all%3Aexploit+AND+%28all%3Akernel+OR+all%3Asystem%29%29&start=1100&max_results=100&sortBy=relevance&sortOrder=descending",
+    "started_utc": "2026-11-05T08:03:47.322377+00:00",
+    "status": "ok",
+    "error": "",
+    "returned": 100,
+    "total_results": 1284,
+    "raw_file": "exploit_01100.xml"
+  },
+  {
+    "query_id": "exploit",
+    "start": 1200,
+    "attempt": 1,
+    "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22large+language+model%22+OR+all%3ALLM+OR+all%3AGPT%29+AND+%28all%3Aexploit+AND+%28all%3Akernel+OR+all%3Asystem%29%29&start=1200&max_results=100&sortBy=relevance&sortOrder=descending",
+    "started_utc": "2026-11-05T08:03:56.922467+00:00",
+    "status": "ok",
+    "error": "",
+    "returned": 84,
+    "total_results": 1284,
+    "raw_file": "exploit_01200.xml"
+  }
+]

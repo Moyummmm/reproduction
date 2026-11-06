@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R00119",
+    "decision": "EXCLUDE",
+    "reason": "Focuses on securing LLM systems with a deterministic gateway; no LLM-driven security task against OS components.",
+    "evidence": "a mechanism intended to secure an LLM must itself be independent of LLM technology"
+  },
+  {
+    "id": "R00122",
+    "decision": "EXCLUDE",
+    "reason": "Security testing framework targets LLM and agentic AI systems, not OS components or privileged interfaces.",
+    "evidence": "a structured, five-phase practitioner framework for LLM and agentic AI security testing"
+  },
+  {
+    "id": "R00125",
+    "decision": "EXCLUDE",
+    "reason": "Analyzes propagation profiles in agent-security traces; LLM agents are the object of study, not a tool for OS security analysis.",
+    "evidence": "understanding how adversarial influence propagates through resource-operating LLM agents"
+  },
+  {
+    "id": "R00128",
+    "decision": "EXCLUDE",
+    "reason": "Systems-engineering proposal for epistemic correction; no security analysis or OS security outcome.",
+    "evidence": "a generic artificial architecture"
+  },
+  {
+    "id": "R00130",
+    "decision": "EXCLUDE",
+    "reason": "Vision paper on detecting malicious URLs in QR codes; target is end-user QR/URL security, not OS components.",
+    "evidence": "This vision paper proposes an AI-based framework using fine-tuned Large Language Models (LLMs) to identify malicious URLs embedded within QR codes."
+  },
+  {
+    "id": "R00136",
+    "decision": "EXCLUDE",
+    "reason": "UAV cluster security architecture; not OS components or privileged interfaces.",
+    "evidence": "an LLM-layered collaborative security architecture (LLM-LCSA) for multimachine collaborative security"
+  },
+  {
+    "id": "R00138",
+    "decision": "EXCLUDE",
+    "reason": "Trust-boundary assurance framework for LLM-integrated applications; security of LLM apps, not LLM analysis of OS.",
+    "evidence": "a trust-boundary security assurance framework for LLM-integrated and agentic systems"
+  },
+  {
+    "id": "R00139",
+    "decision": "EXCLUDE",
+    "reason": "Prioritizes mitigations for K-12 LLM deployments; not a security analysis of OS components.",
+    "evidence": "prioritizing K-12 LLM security mitigations"
+  },
+  {
+    "id": "R00142",
+    "decision": "EXCLUDE",
+    "reason": "Governs tool access for LLM coding agents; LLM is the governed agent, not used for OS security analysis.",
+    "evidence": "attack surface created when autonomous programming agents are granted broad access to system-level tools"
+  },
+  {
+    "id": "R00143",
+    "decision": "EXCLUDE",
+    "reason": "Cybersecurity framework for LLM-enabled connected vehicles; target is vehicle cyber-physical safety, not OS components.",
+    "evidence": "PSEVGuard, a cloud–edge security framework"
+  },
+  {
+    "id": "R00144",
+    "decision": "EXCLUDE",
+    "reason": "Studies attacks on LLM-powered SOC pipelines; security of LLM/RAG, not LLM security analysis of OS.",
+    "evidence": "attacks that bias LLM reasoning"
+  },
+  {
+    "id": "R00145",
+    "decision": "EXCLUDE",
+    "reason": "Distills secure-coding knowledge into code-generation models; general software security, not OS target.",
+    "evidence": "transfers secure coding expertise into a compact model"
+  },
+  {
+    "id": "R00146",
+    "decision": "EXCLUDE",
+    "reason": "Survey of LLM security in cloud-native architectures; reviews are excluded and target is not OS.",
+    "evidence": "This survey provides a comprehensive analysis of LLM security threats in cloud infrastructures"
+  },
+  {
+    "id": "R00148",
+    "decision": "EXCLUDE",
+    "reason": "LLM generates scraping code for web automation; no OS security analysis target.",
+    "evidence": "an execution grounded pipeline that generates scraping modules from a single successful browser session trace"
+  },
+  {
+    "id": "R00149",
+    "decision": "EXCLUDE",
+    "reason": "LLM orchestration layer for urban edge intelligence; OS engineering without a security outcome.",
+    "evidence": "a trustworthy LLM-based semantic control layer for distributed urban edge intelligence"
+  },
+  {
+    "id": "R00150",
+    "decision": "EXCLUDE",
+    "reason": "LLM multi-agent system generates CodeQL rules for C/C++ software; general software, not OS components.",
+    "evidence": "ensuring security for C/C++ software systems, where static code analysis serves as a key tool for vulnerability detection"
+  },
+  {
+    "id": "R00152",
+    "decision": "EXCLUDE",
+    "reason": "Survey of adversarial attacks and defenses in LLM systems; reviews excluded and no OS target.",
+    "evidence": "This survey complements existing attack and defense taxonomies"
+  },
+  {
+    "id": "R00155",
+    "decision": "EXCLUDE",
+    "reason": "Education/literature review on LLM use and critical thinking; no security or OS dimension.",
+    "evidence": "examinar as implicações do uso do LLM no desenvolvimento do pensamento crítico"
+  },
+  {
+    "id": "R00156",
+    "decision": "EXCLUDE",
+    "reason": "Prompt decomposition improves LLM security auditing of code; general software security, not OS-specific.",
+    "evidence": "analyzing a code snippet, describing its behavior, identifying vulnerabilities, and suggesting patches"
+  },
+  {
+    "id": "R00158",
+    "decision": "EXCLUDE",
+    "reason": "Focused review of security evaluation gaps in RAG/agentic LLM systems; reviews excluded.",
+    "evidence": "This review narrows the problem to those interfaces"
+  },
+  {
+    "id": "R00160",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates prompt-injection detection for LLM applications; security of LLMs, not OS analysis.",
+    "evidence": "We evaluated the capabilities of early prompt injection detection systems"
+  },
+  {
+    "id": "R00164",
+    "decision": "EXCLUDE",
+    "reason": "Discusses standards for LLM security; not original empirical research and not OS analysis.",
+    "evidence": "Standards for LLM Security"
+  },
+  {
+    "id": "R00165",
+    "decision": "EXCLUDE",
+    "reason": "Survey of security threats and defenses in LLM multi-agent systems; reviews excluded and no OS target.",
+    "evidence": "This article surveys the security of LLM-driven agentic and multi-agent systems"
+  },
+  {
+    "id": "R00174",
+    "decision": "EXCLUDE",
+    "reason": "LLM is fine-tuned for SOC alert triage/event classification, not security analysis targeting OS components.",
+    "evidence": "Security Event Classification and SOC Triage"
+  },
+  {
+    "id": "R00176",
+    "decision": "EXCLUDE",
+    "reason": "Generates security unit tests for LLM-produced code; general software, not OS components.",
+    "evidence": "reveal security weaknesses in LLM-generated programs"
+  },
+  {
+    "id": "R00178",
+    "decision": "POSSIBLE_CORE",
+    "reason": "Original empirical study uses an LLM multi-agent pipeline to triage Android ICC security findings, targeting Android OS component interfaces.",
+    "evidence": "LLM-assisted multi-agent framework designed for the context-aware triage of Android ICC security findings"
+  },
+  {
+    "id": "R00182",
+    "decision": "EXCLUDE",
+    "reason": "Backdoor-centric view of LLM output risks; security of LLMs, not LLM analysis of OS.",
+    "evidence": "a unified, backdoor-centric view of three key output risks of LLM"
+  },
+  {
+    "id": "R00183",
+    "decision": "EXCLUDE",
+    "reason": "Empirical analysis of vulnerabilities in LLM-generated source code; general software, not OS target.",
+    "evidence": "how software vulnerabilities evolve throughout iterative AI-assisted development workflows"
+  },
+  {
+    "id": "R00189",
+    "decision": "EXCLUDE",
+    "reason": "Chapter on trustworthy/explainable LLM security frameworks; not original empirical OS security research.",
+    "evidence": "This chapter introduces the concept of trustworthy and explainable LLM security frameworks"
+  },
+  {
+    "id": "R00191",
+    "decision": "EXCLUDE",
+    "reason": "Survey/architecture for IoT-LLM mental health support; no security analysis of OS.",
+    "evidence": "we present a comprehensive survey of existing research at the intersection of LLMs, IoT, and mental health"
+  },
+  {
+    "id": "R00194",
+    "decision": "EXCLUDE",
+    "reason": "LLM repair pipeline injects security tactics into Java programs; general software, not OS components.",
+    "evidence": "automated injection of security mitigation tactics into Java programs"
+  },
+  {
+    "id": "R00196",
+    "decision": "EXCLUDE",
+    "reason": "DNS security architecture with LLM threat detection; target is DNS infrastructure, not OS components or privileged interfaces.",
+    "evidence": "a large-language-model (LLM) based on-alert semantic detector"
+  },
+  {
+    "id": "R00198",
+    "decision": "EXCLUDE",
+    "reason": "Uses RAG-supported LLM to process IT security requirements and compliance; not OS security analysis.",
+    "evidence": "információbiztonsági követelmények kezelése"
+  },
+  {
+    "id": "R00199",
+    "decision": "EXCLUDE",
+    "reason": "Assesses security risks of LLM-written code; general software, not OS analysis.",
+    "evidence": "code generated by LLMs can sometimes have a lot of security risks as well"
+  },
+  {
+    "id": "R00200",
+    "decision": "EXCLUDE",
+    "reason": "Review of LLM applications in security code review and testing; reviews excluded and target is general software.",
+    "evidence": "we systematically present and discuss practical applications of Large Language Models (LLMs) in software security"
+  },
+  {
+    "id": "R00202",
+    "decision": "EXCLUDE",
+    "reason": "Brief record on security assessment of LLM-generated code; general software, not OS target.",
+    "evidence": "assessing the security of the code generated by large language models"
+  },
+  {
+    "id": "R00204",
+    "decision": "EXCLUDE",
+    "reason": "LLM generates CodeQL vulnerability-detection code for general software; not OS components.",
+    "evidence": "automating the generation of CodeQL security vulnerability detection code by leveraging LLM"
+  },
+  {
+    "id": "R00206",
+    "decision": "EXCLUDE",
+    "reason": "Compares LLM code-generation security and efficiency; general software, not OS security analysis.",
+    "evidence": "evaluating their success rates in producing secure and optimized code"
+  },
+  {
+    "id": "R00208",
+    "decision": "EXCLUDE",
+    "reason": "Evaluates vulnerabilities in AI-generated code across languages; general software, not OS target.",
+    "evidence": "security vulnerabilities in code generated by seven LLMs"
+  },
+  {
+    "id": "R00211",
+    "decision": "EXCLUDE",
+    "reason": "Educational flowchart-to-code tool using an LLM; no security analysis or OS target.",
+    "evidence": "developing a tool that can assist young students with less coding experience to learn programming"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R00801",
+    "decision": "UNCLEAR",
+    "reason": "Title pairs generative AI with network security, but no abstract; OS scope and whether it is original research are unclear.",
+    "evidence": "The Future of Network Security Using Generative AI"
+  },
+  {
+    "id": "R00802",
+    "decision": "EXCLUDE",
+    "reason": "Systematic literature review of enterprise GenAI security and governance, not OS-targeted empirical research.",
+    "evidence": "This study presents a systematic literature review"
+  },
+  {
+    "id": "R00803",
+    "decision": "EXCLUDE",
+    "reason": "IoT and robotic platform applications of LLMs, with no security analysis or OS security outcome indicated.",
+    "evidence": "Innovative Research on IoT Architecture and Robotic Operating Platforms"
+  },
+  {
+    "id": "R00804",
+    "decision": "EXCLUDE",
+    "reason": "General foundations of generative AI; no security task or OS target.",
+    "evidence": "Foundations of Generative AI"
+  },
+  {
+    "id": "R00805",
+    "decision": "EXCLUDE",
+    "reason": "Outlook piece on AI and cybersecurity, not original OS-targeted security research.",
+    "evidence": "Future Outlook on"
+  },
+  {
+    "id": "R00806",
+    "decision": "UNCLEAR",
+    "reason": "Single broad phrase with no abstract to establish the LLM role, security task, or OS target.",
+    "evidence": "Cognitive Security"
+  },
+  {
+    "id": "R00807",
+    "decision": "EXCLUDE",
+    "reason": "Cloud cost optimization; no security task or OS target.",
+    "evidence": "AI for Cloud Cost Optimization"
+  },
+  {
+    "id": "R00808",
+    "decision": "EXCLUDE",
+    "reason": "Overview of security and privacy of an LLM cloud service, not OS-targeted LLM security research.",
+    "evidence": "Overview of Security and Privacy of Amazon Bedrock"
+  },
+  {
+    "id": "R00809",
+    "decision": "EXCLUDE",
+    "reason": "Chapter on AI privacy threats and protections with governance, not LLM security testing of OS components.",
+    "evidence": "This chapter examines the dual role of Artificial Intelligence as both a major threat and a vital protector of privacy."
+  },
+  {
+    "id": "R00810",
+    "decision": "EXCLUDE",
+    "reason": "Web application security review; target is web software, not OS components or privileged interfaces.",
+    "evidence": "bolstering the security of Web applications"
+  },
+  {
+    "id": "R00811",
+    "decision": "EXCLUDE",
+    "reason": "Broad cybersecurity overview chapter with no OS target or original empirical study.",
+    "evidence": "the chapter examines the potential of generative artificial intelligence (AI) in redefining conventional cybersecurity paradigms."
+  },
+  {
+    "id": "R00812",
+    "decision": "EXCLUDE",
+    "reason": "Security against AI-synthesized voice threats, i.e. AI security, not OS-targeted analysis.",
+    "evidence": "Advancing Security Against AI-Synthesized Voice Threats"
+  },
+  {
+    "id": "R00813",
+    "decision": "EXCLUDE",
+    "reason": "Blockchain wallet security protocol with no OS component or privileged-interface target.",
+    "evidence": "security protocol based on the concept of cryptocurrency digital wallets with generative/explainable AI (GAI/XAI)"
+  },
+  {
+    "id": "R00814",
+    "decision": "EXCLUDE",
+    "reason": "Gender and representation topic with no security or OS relevance.",
+    "evidence": "Gender, Genre, and Generative AI Representation"
+  },
+  {
+    "id": "R00815",
+    "decision": "EXCLUDE",
+    "reason": "National-security policy recommendations, not original technical LLM research on OS components.",
+    "evidence": "Policy Recommendations for US Military Competitiveness"
+  },
+  {
+    "id": "R00816",
+    "decision": "UNCLEAR",
+    "reason": "Title links generative AI and cybersecurity, but the missing abstract leaves LLM role, originality, and OS scope unclear.",
+    "evidence": "Significance of Use of Generative AI in Cyber Security"
+  },
+  {
+    "id": "R00817",
+    "decision": "EXCLUDE",
+    "reason": "Systematic literature review of enterprise GenAI security and governance, not core empirical research.",
+    "evidence": "This study presents a systematic literature review"
+  },
+  {
+    "id": "R00818",
+    "decision": "EXCLUDE",
+    "reason": "Privacy and security of RAG-based generative AI applications, not OS-targeted LLM security research.",
+    "evidence": "Enhancing Privacy And Security In Rag-Based Generative AI Applications"
+  },
+  {
+    "id": "R00819",
+    "decision": "EXCLUDE",
+    "reason": "Cloud topic only; no security task, LLM role, or OS target is indicated.",
+    "evidence": "Revolutionizing the Cloud"
+  },
+  {
+    "id": "R00820",
+    "decision": "UNCLEAR",
+    "reason": "Title suggests a GenAI security-operations architecture, but the missing abstract leaves OS target and empirical nature unclear.",
+    "evidence": "Reinforcing Cyber Defense: Generative AI Powered Intelligent Agent Architecture for Enhanced Security Operations"
+  },
+  {
+    "id": "R00821",
+    "decision": "EXCLUDE",
+    "reason": "General federated digital-twin cybersecurity ecosystem with no OS components or privileged interfaces targeted.",
+    "evidence": "This paper presents the development of the Federated Digital Twin-Based Cybersecurity Ecosystem Using Generative AI for Predictive Attack Simulation and Defense."
+  },
+  {
+    "id": "R00822",
+    "decision": "EXCLUDE",
+    "reason": "Rock-material property prediction with no security or OS relevance.",
+    "evidence": "Predicting Shear Strength Properties of Rock Materials"
+  },
+  {
+    "id": "R00823",
+    "decision": "UNCLEAR",
+    "reason": "Vague title with no abstract; cannot determine LLM role, security task, or OS target.",
+    "evidence": "Redefining Security"
+  },
+  {
+    "id": "R00824",
+    "decision": "EXCLUDE",
+    "reason": "Automated essay scoring with no security task or OS target.",
+    "evidence": "Generative AI-powered Automated Essay Scoring System"
+  },
+  {
+    "id": "R00825",
+    "decision": "EXCLUDE",
+    "reason": "Security and privacy guidance for deploying GenAI on AWS, not OS-targeted research.",
+    "evidence": "Security and Privacy for Deploying Generative"
+  },
+  {
+    "id": "R00826",
+    "decision": "EXCLUDE",
+    "reason": "AI-enabled DevSecOps for cloud deployments; general cloud and software security, not OS-targeted LLM research.",
+    "evidence": "AI-Enabled DevSecOps for Secure Cloud Deployments"
+  },
+  {
+    "id": "R00827",
+    "decision": "EXCLUDE",
+    "reason": "Healthcare security review with no OS components or privileged interfaces.",
+    "evidence": "securing patient data"
+  },
+  {
+    "id": "R00828",
+    "decision": "EXCLUDE",
+    "reason": "Cloud transformation with no security task or OS target.",
+    "evidence": "AI-Driven Cloud Transformation"
+  },
+  {
+    "id": "R00829",
+    "decision": "EXCLUDE",
+    "reason": "Sustainable cloud architectures with no security outcome or OS target.",
+    "evidence": "AI for Sustainable Cloud Architectures"
+  },
+  {
+    "id": "R00830",
+    "decision": "EXCLUDE",
+    "reason": "Ethics and regulation with no security task, LLM use, or OS target indicated.",
+    "evidence": "Ethical and Regulatory Considerations"
+  },
+  {
+    "id": "R00831",
+    "decision": "EXCLUDE",
+    "reason": "Security testing of cloud-based GenAI services, which is security of LLMs, not OS-component security.",
+    "evidence": "Security Testing of Cloud-based Generative AI Services"
+  },
+  {
+    "id": "R00832",
+    "decision": "EXCLUDE",
+    "reason": "Analysis and policy recommendations for agentic GenAI in defense, not OS-targeted original security research.",
+    "evidence": "Tools, Frameworks, and Policy Recommendations"
+  },
+  {
+    "id": "R00833",
+    "decision": "EXCLUDE",
+    "reason": "Cloud security framework discussion with no OS component or privileged-interface target.",
+    "evidence": "Adaptive and Autonomous Security Frameworks Using Generative AI for Cloud Ecosystems"
+  },
+  {
+    "id": "R00834",
+    "decision": "EXCLUDE",
+    "reason": "Explicit comprehensive survey; surveys are excluded from the core empirical set.",
+    "evidence": "A Comprehensive Survey"
+  },
+  {
+    "id": "R00835",
+    "decision": "EXCLUDE",
+    "reason": "Front matter; not a research article.",
+    "evidence": "Front Matter"
+  },
+  {
+    "id": "R00836",
+    "decision": "EXCLUDE",
+    "reason": "General history and overview of generative AI with no security task or OS target.",
+    "evidence": "For nearly 50 years, artificial intelligence (AI) has been a technology and a field of study."
+  },
+  {
+    "id": "R00837",
+    "decision": "EXCLUDE",
+    "reason": "Generative education system with no security or OS relevance.",
+    "evidence": "University and AI: Towards a Generative Education System"
+  },
+  {
+    "id": "R00838",
+    "decision": "EXCLUDE",
+    "reason": "Power-system stability and blackout prevention with no LLM use or OS target.",
+    "evidence": "Forced Islanding and Adaptive Load Shedding to Prevent Blackout for Improving Power System Security"
+  },
+  {
+    "id": "R00839",
+    "decision": "EXCLUDE",
+    "reason": "AI for cloud compliance with no security research or OS target indicated.",
+    "evidence": "AI for Compliance in Cloud Environments"
+  },
+  {
+    "id": "R00840",
+    "decision": "EXCLUDE",
+    "reason": "Multi-cloud strategy with no security task or OS target.",
+    "evidence": "AI-Powered Multi-cloud and Hybrid Cloud Strategies"
+  }
+]

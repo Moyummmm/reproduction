@@ -1,0 +1,242 @@
+[
+  {
+    "id": "R02961",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; the title indicates confidential-computing data analysis for Java programs but does not make any LLM security role explicit.",
+    "evidence": "Conanj: Confidential Data Analysis for Confidential Computing of Java Programs"
+  },
+  {
+    "id": "R02962",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; the generic hardware-enabled security title provides no explicit LLM role or OS-targeted security task.",
+    "evidence": "Hardware-Enabled Security"
+  },
+  {
+    "id": "R02963",
+    "decision": "EXCLUDE",
+    "reason": "The title focuses on confidential and efficient LLM inference in TEEs, which concerns protecting or serving the model rather than using an LLM for an OS/TEE security task.",
+    "evidence": "Confidential and Efficient Lightweight LLM Inference in TEEs"
+  },
+  {
+    "id": "R02964",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; the TEE attack and mitigation topic does not establish an explicit LLM role or research design.",
+    "evidence": "TEE attack and mitigation"
+  },
+  {
+    "id": "R02965",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; the TEE-IO special-function title is too generic to establish an LLM security task or empirical study.",
+    "evidence": "TEE-IO Special function"
+  },
+  {
+    "id": "R02966",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; the TEE-IO software-development title does not indicate an LLM-based security analysis or evaluation.",
+    "evidence": "TEE-IO software development"
+  },
+  {
+    "id": "R02967",
+    "decision": "EXCLUDE",
+    "reason": "Palliative-care qualitative and philosophical study with no LLM or operating-system security component.",
+    "evidence": "philosophical reflection of a synthesis of four qualitative studies"
+  },
+  {
+    "id": "R02968",
+    "decision": "EXCLUDE",
+    "reason": "Web-application vulnerability validation is general software security rather than an OS or privileged-interface target.",
+    "evidence": "Automatic Web Vulnerability Validation with Knowledge-augmented LLM Agent"
+  },
+  {
+    "id": "R02969",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; the TEE-IO attack and mitigation title gives no explicit LLM role or evaluation detail.",
+    "evidence": "TEE-IO attack and mitigation"
+  },
+  {
+    "id": "R02970",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; confidential computing for cloud-native ML platforms does not clearly indicate LLM use for an OS security analysis.",
+    "evidence": "Aligning Confidential Computing with Cloud-native ML Platforms"
+  },
+  {
+    "id": "R02971",
+    "decision": "EXCLUDE",
+    "reason": "Benchmark for vulnerability-identifier applicability mapping, not an LLM security analysis of OS components.",
+    "evidence": "CPEMatch: A Controlled Benchmark for LLM Reasoning Over CPE/purl Vulnerability-Identifier Applicability"
+  },
+  {
+    "id": "R02972",
+    "decision": "EXCLUDE",
+    "reason": "Python function-level vulnerability detection and LLM triage address general software, not OS components or privileged interfaces.",
+    "evidence": "Python repositories"
+  },
+  {
+    "id": "R02973",
+    "decision": "EXCLUDE",
+    "reason": "Performance and cost study of confidential LLM inference, not LLM used for security analysis or OS protection.",
+    "evidence": "Confidential LLM Inference: Performance and Cost Across CPU and GPU TEEs"
+  },
+  {
+    "id": "R02974",
+    "decision": "EXCLUDE",
+    "reason": "Distributed financial computing with privacy protection; no LLM role or OS security task is described.",
+    "evidence": "Distributed Fiscal Computing Architecture (DFCA)"
+  },
+  {
+    "id": "R02975",
+    "decision": "EXCLUDE",
+    "reason": "A systematization-of-knowledge comparison of confidential-computing platforms, not empirical LLM security research.",
+    "evidence": "SoK: Confidential Quartet - Comparison of Platforms for Virtualization-Based Confidential Computing"
+  },
+  {
+    "id": "R02976",
+    "decision": "EXCLUDE",
+    "reason": "The architecture protects LLM inference workloads; the LLM is the protected object, not the analysis tool for OS security.",
+    "evidence": "defense-in-depth for LLM workloads"
+  },
+  {
+    "id": "R02977",
+    "decision": "EXCLUDE",
+    "reason": "Genomic privacy system using confidential computing; no LLM is used for the security analysis.",
+    "evidence": "collaborative GWAS without compromising privacy or accuracy"
+  },
+  {
+    "id": "R02978",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; implementation analysis of confidential-computing technologies may be review-like and no LLM role is stated.",
+    "evidence": "IMPLEMENTATION ANALYSIS OF CONFIDENTIAL COMPUTING TECHNOLOGIES"
+  },
+  {
+    "id": "R02979",
+    "decision": "EXCLUDE",
+    "reason": "Cross-project software vulnerability detection is general software work, not an OS or privileged-interface security task.",
+    "evidence": "Cross-Project Software Vulnerability Detection Based on Multimodal Code Representation Learning"
+  },
+  {
+    "id": "R02980",
+    "decision": "EXCLUDE",
+    "reason": "An overview of confidential computing rather than empirical research using an LLM for security analysis.",
+    "evidence": "Confidential Computing in the Cloud: An Overview"
+  },
+  {
+    "id": "R02981",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; the confidential-VM collaboration title does not establish an LLM role or a security-analysis target.",
+    "evidence": "Two-Way Confidential VMs (2cVM): Collaborative Confidential Computing for Mutually Distrustful Parties"
+  },
+  {
+    "id": "R02982",
+    "decision": "EXCLUDE",
+    "reason": "Overview of confidential-computing concepts with no LLM-driven security task.",
+    "evidence": "encrypt data in the system"
+  },
+  {
+    "id": "R02983",
+    "decision": "EXCLUDE",
+    "reason": "Comparison of cryptographic and enclave-based secure computation with no LLM role or OS security analysis.",
+    "evidence": "Trade-offs between secure computation via cryptography and hardware enclaves."
+  },
+  {
+    "id": "R02984",
+    "decision": "EXCLUDE",
+    "reason": "Confidential federated learning addresses privacy/security of AI workloads, not LLM-driven OS security analysis.",
+    "evidence": "Trustworthy AI using Confidential Federated Learning"
+  },
+  {
+    "id": "R02985",
+    "decision": "EXCLUDE",
+    "reason": "LLM-based code vulnerability repair for smart-infrastructure software without an explicit OS component target.",
+    "evidence": "vulnerability repair in smart infrastructures"
+  },
+  {
+    "id": "R02986",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; confidential HPC in the public cloud does not indicate LLM security analysis or OS targeting.",
+    "evidence": "Confidential High-Performance Computing in the Public Cloud"
+  },
+  {
+    "id": "R02987",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; the post-quantum confidential-computing title gives no LLM role or OS-focused security task.",
+    "evidence": "Confidential Computing in the Post-Quantum Era"
+  },
+  {
+    "id": "R02988",
+    "decision": "EXCLUDE",
+    "reason": "Trade-off discussion of MPC/homomorphic encryption versus enclaves, with no LLM or OS security analysis.",
+    "evidence": "Secure computation via MPC/homomorphic encryption versus hardware enclaves presents tradeoffs"
+  },
+  {
+    "id": "R02989",
+    "decision": "EXCLUDE",
+    "reason": "Privacy-preserving dataset condensation with no LLM security analysis or OS target.",
+    "evidence": "Differentially Private Dataset Condensation"
+  },
+  {
+    "id": "R02990",
+    "decision": "EXCLUDE",
+    "reason": "LLM used to generate synthetic 3D point clouds, not for security analysis of OS components.",
+    "evidence": "Synthetic 3D Point Clouds Generated Through LLM Discussion"
+  },
+  {
+    "id": "R02991",
+    "decision": "EXCLUDE",
+    "reason": "Empirical study of LLM serving in confidential GPUs addresses deployment/performance, not LLM-driven security analysis.",
+    "evidence": "An Empirical Study of LLM Serving in Confidential GPUs"
+  },
+  {
+    "id": "R02992",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; the generic confidential-computing and TEE title does not establish an LLM security task.",
+    "evidence": "Confidential Computing Using Trusted Execution Environments"
+  },
+  {
+    "id": "R02993",
+    "decision": "EXCLUDE",
+    "reason": "Machine-identity protection using confidential computing; no LLM role or LLM-based security analysis is described.",
+    "evidence": "using hardware-based confidential computing"
+  },
+  {
+    "id": "R02994",
+    "decision": "EXCLUDE",
+    "reason": "Privacy-preserving genomic data sharing with TEEs; no LLM is used for security analysis.",
+    "evidence": "genomic data sharing"
+  },
+  {
+    "id": "R02995",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; the secure joint-cloud title lacks an explicit LLM role or OS security-analysis detail.",
+    "evidence": "Towards A Secure Joint Cloud With Confidential Computing"
+  },
+  {
+    "id": "R02996",
+    "decision": "EXCLUDE",
+    "reason": "Critical review of confidential-computing definitions and comparisons, not empirical LLM security research.",
+    "evidence": "critically reviews the definition of confidential computing"
+  },
+  {
+    "id": "R02997",
+    "decision": "EXCLUDE",
+    "reason": "Confidential Kubernetes observability architecture with no LLM role in the security analysis.",
+    "evidence": "ConfObs-TEE, a confidential computing architecture for Kubernetes observability data"
+  },
+  {
+    "id": "R02998",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; the enclave-management title does not indicate LLM use or a security-analysis outcome.",
+    "evidence": "Enclave Management Models for Safe Execution of Software Components"
+  },
+  {
+    "id": "R02999",
+    "decision": "UNCLEAR",
+    "reason": "Missing abstract; the Rust SDK title suggests enclave-development tooling and no explicit LLM security task.",
+    "evidence": "Towards a Rust SDK for Keystone Enclave Application Development"
+  },
+  {
+    "id": "R03000",
+    "decision": "EXCLUDE",
+    "reason": "Economic-geography study of enclave and exclave territories, unrelated to LLM or OS security analysis.",
+    "evidence": "economic security in enclave and exclave territories"
+  }
+]
