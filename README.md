@@ -17,7 +17,7 @@ These later search and screening materials are separate from the earlier 225-row
 
 ## How studies were identified
 
-1. **Historical collection.** Eighteen saved Google Scholar query formulations describe the earlier search themes. The surviving archive has 485 rows; 220 were scored, including 59 designated for in-depth review. The original execution dates, result lists and complete screening decisions were not retained.
+1. **Historical collection.** The initial Google Scholar search is dated 10 March 2026, as supplied during the 7 November 2026 manuscript revision. Eighteen saved query formulations describe the earlier search themes. The surviving archive has 485 rows; 220 were scored, including 59 designated for in-depth review. The original query execution logs, result lists and complete screening decisions were not retained; see `search/HISTORICAL_SEARCH_DATE.md`.
 2. **Exploratory update on 5 November 2026.** One search used 100 transformed free-text Crossref queries, with up to 20 results per query. Its later candidate workbook has 225 records, including 23 provisional direct OS-security candidates. A separate discovery audit used Crossref and arXiv, followed by pagination of two arXiv queries. The saved logs, linkage rules and preliminary model-assisted screening are documented under `search/`, `search_protocol/`, `arxiv_pagination/` and `screening/`.
 3. **Targeted additions on 6 November 2026.** KnitFuzz, K-Repro, SyzHarness and Live-kBench were suggested in GPT-generated feedback shared by the author, then examined using Codex-assisted checks of accessible sources. Matching records were also identified in the previously saved candidate inventory or discovery audit; those matches are traceability links and do not replace the recommendation as the immediate source of these additions. See the four-study evidence and decision files under `revision/` for source versions, locators, inclusion rationale and extraction scope. The frozen inventory counts remain unchanged.
 
@@ -36,7 +36,7 @@ The 220 and 225 inventories are different record sets, not sequential stages. Th
 
 ## Search snapshot
 
-`search/historical_query_formulations.txt` preserves the 18 historical formulations formerly displayed in the manuscript. These are separate from the 100 later search queries, and their original database-specific execution dates and results are not established.
+`search/historical_query_formulations.txt` preserves the 18 historical formulations formerly displayed in the manuscript. These are separate from the 100 later search queries. A date for the initial search was supplied during revision, but the original query execution logs and results were not retained; see `search/HISTORICAL_SEARCH_DATE.md`.
 
 `google_scholar_queries.csv` contains the 100 original query formulations. Automated Google Scholar requests encountered HTTP 429/CAPTCHA, and were not bypassed. On 5 November 2026, an exploratory Crossref bibliographic search was run instead. Each query requested up to 20 results, with a publication-date lower bound of 2022-01-01. The script removes quotation marks, Boolean operators and parentheses before passing the query to Crossref; its search is not an exact implementation of the original Boolean expressions.
 
@@ -44,7 +44,7 @@ The 220 and 225 inventories are different record sets, not sequential stages. Th
 
 `search/run_crossref_search.py` records the request parameters and query transformation. To rerun it without overwriting the snapshot, copy `google_scholar_queries.csv` and the `search/` directory into a separate working directory preserving their relative paths, then run `python3 search/run_crossref_search.py` from that copy. It makes network requests and overwrites its local result files. Crossref metadata and ranking change over time, so future results can differ from the saved snapshot.
 
-The 18 saved historical formulations describe earlier search themes; execution dates, database-specific expressions, and returned results for that earlier collection are unavailable. They are not the same logged search as the 100-query update.
+The 18 saved historical formulations describe earlier search themes. The initial search date was supplied during revision; original execution logs, database-specific execution details, and returned results for that earlier collection are unavailable. They are not the same logged search as the 100-query update.
 
 ## Checking the saved materials
 

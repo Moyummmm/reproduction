@@ -1,5 +1,7 @@
 # Draft response to reviewers
 
+**Historical draft notice:** This draft predates the 7 November 2026 revision in which the initial Google Scholar search date, 10 March 2026, was supplied. Statements below that the date could not be recovered reflect the information available when this draft was written; original execution logs remain unavailable. The current response letter and `search/HISTORICAL_SEARCH_DATE.md` reflect the later information.
+
 **Author note — draft for review, not yet ready to submit.** Insert the final manuscript page/line numbers and a working public repository or archive URL after release. Check that every file cited below is included in that release and that its contents are accessible to reviewers. The metadata-only public export omits abstracts and raw model responses, so it does not by itself allow complete offline replay of model-based screening. Complete the citation verification and final proofreading noted below, and confirm the highlighted manuscript and clean copy before submission.
 
 ## Reviewer 1, comment 1: citations and bibliography
