@@ -5,9 +5,14 @@
 % KNighter SOSP 2025, Sec. 5 and Table 2: https://yangchenyuan.github.io/files/SOSP25-KNighter.pdf
 % MigGPT NeurIPS 2025, Sec. 6.1 and Table 5: https://proceedings.neurips.cc/paper_files/paper/2025/file/3760dbb5835bf0b771c3f83cb27ef2c0-Paper-Conference.pdf
 % PathSentinel arXiv:2407.11279, Sec. VII-D: https://arxiv.org/html/2407.11279
+% KnitFuzz: publisher abstract, DOI 10.1145/3800506.3803511; method cross-checked against the authors' artifact README.
+% K-Repro: arXiv:2602.07287v2, Secs. 3.6, 4.2 and 4.6 (initial and cumulative results).
+% SyzHarness: arXiv:2609.23889v3, Secs. IV-D and V-A/V-D, Table I (patch-validated results).
+% Live-kBench: arXiv:2602.02690v3, Secs. 4.2, 5.1 and Table 1 (EPR, pass@1).
+% OpenAI: "Exploitability assessment" reports 1,169 working LPE exploits and counts 948 unique LPE vulnerabilities using distinct patches after variant analysis.
 \begin{table*}[t]
 \centering
-\caption{\revise{Representative LLM-assisted OS security approaches and their reported evaluations.}}
+\caption{\revisenew{Representative LLM-assisted OS security studies and their reported evaluations.}}
 \label{tab:representative-evidence}
 \begingroup
 \setlength{\tabcolsep}{2pt}
@@ -69,14 +74,59 @@
 \revise{Linux kernel; local privilege escalation} &
 \revise{Finds candidates, reproduces bugs, develops exploits and proposes patches} &
 \revise{Stock Linux distribution; provider report; human review} &
-\revise{1,724 reproduced vulnerabilities; 948 working LPE exploits} &
+\revisenew{1,724 reproduced findings; 1,169 working LPE exploits corresponding to 948 unique LPE vulnerabilities} &
 \revise{Provider-reported results depend on target configuration and resources; patches require review.} \\
 \hline
 \end{tabular}
 \endgroup
 \end{table*}
 
-\paragraph{\revise{Cross-study synthesis.}}
-\revise{The eight studies intervene at different points in a security workflow. KernelGPT improves the specifications supplied to a fuzzer, while SyzAgent steers mutation toward target functions; BugLens refines reports produced by an analyzer, KNighter generates the analyzer itself, MigGPT proposes migrated patches, PathSentinel assists exploit validation for Android applications, LLM-CAL labels cryptographic code for TEE partitioning, and the OpenAI pipeline reports exploitability assessment and candidate patches. Coverage or target hit rate, report precision, newly confirmed bugs, patch semantic match, code-label metrics and exploit counts measure different outcomes and should not be ranked as if they were a shared benchmark. Improved reachability does not by itself establish a vulnerability, agreement with a reference patch does not establish security correctness, and high code-label scores do not validate a resulting TEE boundary.}
+\begin{table*}[t]
+\ContinuedFloat
+\centering
+\caption[]{\revisenew{Representative LLM-assisted OS security studies and their reported evaluations (continued).}}
+\begingroup
+\setlength{\tabcolsep}{2pt}
+\footnotesize
+\begin{tabular}{@{}>{\RaggedRight\arraybackslash}p{0.105\textwidth}>{\RaggedRight\arraybackslash}p{0.14\textwidth}>{\RaggedRight\arraybackslash}p{0.15\textwidth}>{\RaggedRight\arraybackslash}p{0.15\textwidth}>{\RaggedRight\arraybackslash}p{0.17\textwidth}>{\RaggedRight\arraybackslash}p{0.18\textwidth}@{}}
+\hline
+\revisenew{Study} & \revisenew{OS target and task} & \revisenew{LLM role and validation} & \revisenew{Evaluation and baseline} & \revisenew{Reported result} & \revisenew{Scope and limitation} \\
+\hline
+\revisenew{KnitFuzz}~\newrevcite{zhang2026knitfuzz} &
+\revisenew{Linux socket interfaces; kernel fuzzing} &
+\revisenew{Generates C seed programs; mutation and a state-aware remote endpoint exercise socket interactions} &
+\revisenew{Multiple Linux kernels; coverage and bug discovery} &
+\revisenew{Published abstract reports two kernel bugs, including one previously unknown vulnerability} &
+\revisenew{Socket-call context is central; detailed model and run-budget settings were not extracted.} \\
+\hline
+\revisenew{K-Repro}~\newrevcite{pu2026krepro} &
+\revisenew{Linux kernel; patch-to-PoC reproduction} &
+\revisenew{Generates PoCs with VM and GDB feedback; crash logs and manual trajectory review} &
+\revisenew{100 KernelCTF cases; GPT-5.1 Codex Max, XHigh; 10-hour cap per run} &
+\revisenew{56/100 initially; 64/100 cumulatively after repeated runs; initial mean cost USD 4.02 per case} &
+\revisenew{Cost averages include failures; initial and cumulative rates use different run counts.} \\
+\hline
+\revisenew{SyzHarness}~\newrevcite{li2026syzharness} &
+\revisenew{Linux kernel; patch-based reproduction} &
+\revisenew{Synthesizes harnesses for Syzkaller; coverage feedback and pre/post-patch execution checks} &
+\revisenew{100 KernelCTF cases; GPT-5.2-codex, xhigh; about 24 hours per case} &
+\revisenew{78/100 patch-validated reproductions; mean 2.9 hours over successful cases} &
+\revisenew{Runtime includes fuzzing; ambiguous patch-validation cases are excluded.} \\
+\hline
+\revisenew{Live-kBench}~\newrevcite{huang2026livekbench} &
+\revisenew{Linux kernel crash repair; evaluation benchmark} &
+\revisenew{Agents generate patches in kEnv; repeated execution and LLM-judged patch equivalence} &
+\revisenew{534 bugs; mini-SWE-agent with Gemini 3 Pro; January 2025 cutoff split} &
+\revisenew{Pass@1 equivalent patch rate: 15.60\% before vs. 12.97\% after cutoff} &
+\revisenew{Figures use the budget-limited configuration; equivalence uses Gemini 3 Flash voting.} \\
+\hline
+\end{tabular}
+\endgroup
+\end{table*}
 
-\revise{Tool feedback supplies useful checks, but each study retains a distinct evidence boundary: fuzzing requires executable interfaces and a meaningful oracle; report triage inherits the analyzer's candidate set and dataflow; patch-guided checker synthesis depends on representative historical fixes; and patch migration must preserve the target kernel's semantics. These dependencies motivate reporting baseline configuration, dataset construction, model and kernel versions, false positives, and independent reproduction or review together with success metrics.}
+\paragraph{\revise{Cross-study synthesis.}}
+\revisepurple{The generated artifacts address different bottlenecks in security workflows. KernelGPT supplies system-call interface descriptions, while KnitFuzz generates C seed programs that establish the execution context for socket calls. These approaches address interface modeling and test-state construction, respectively; the artifact choice reflects the information missing from test preparation. In static analysis, BugLens refines existing analyzer reports, whereas KNighter synthesizes executable checkers from historical bug-fix patches. Their intervention points affect their applicability: report refinement relies on an upstream analyzer to supply candidate findings, while checker synthesis requires bug patterns to be expressed as executable detection rules.}
+
+\revisenew{Feedback also serves different purposes. In K-Repro, debugging informs the next PoC edit; in SyzHarness, coverage identifies missing setup and guides harness revision, while execution before and after a patch checks reproduction. Live-kBench measures repair through repeated execution and a separate comparison with developer patches. A useful evaluation therefore records the generated artifact, the feedback available during generation, and the criterion used to accept the final result}~\newrevcite{pu2026krepro,li2026syzharness,huang2026livekbench}.
+
+\revise{Coverage or target hit rate, report precision, newly confirmed bugs, patch semantic match, code-label metrics and exploit counts measure different outcomes and should not be ranked as if they were a shared benchmark.} \revisenew{For reproduction tasks, resource accounting also needs a consistent denominator: K-Repro reports API cost averaged over all cases, whereas SyzHarness reports time-to-reproduction over successful cases and includes substantial fuzzer execution. Recording failures, repeated attempts and execution resources makes these tradeoffs visible}~\newrevcite{pu2026krepro,li2026syzharness}.

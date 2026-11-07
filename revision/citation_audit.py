@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Audit the revised manuscript's citations without changing the frozen prior audit."""
+import argparse
 import csv
 import html
 import re
@@ -10,7 +11,11 @@ from pathlib import Path
 AUDIT = Path(__file__).resolve().parent
 REPRODUCT = AUDIT.parent
 workspace = REPRODUCT.parent
-ROOT = workspace if (workspace / 'reproduct' == REPRODUCT and (workspace / 'refs.bib').is_file() and (workspace / 'sections').is_dir()) else AUDIT / 'manuscript_snapshot'
+default_root = workspace if (workspace / 'reproduct' == REPRODUCT and (workspace / 'refs.bib').is_file() and (workspace / 'sections').is_dir()) else AUDIT / 'manuscript_snapshot'
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--manuscript-root', type=Path, default=default_root,
+                    help='Directory containing the manuscript refs.bib and sections/')
+ROOT = parser.parse_args().manuscript_root.resolve()
 sections = ['introduction', 'background', 'methodology', 'llm_os_security', 'representative_comparison', 'future', 'conclusion']
 
 def norm(s):
@@ -49,7 +54,7 @@ for section in sections:
     text = (ROOT / 'sections' / (section + '.tex')).read_text(encoding='utf-8')
     text = re.sub(r'\\begin\{comment\}.*?\\end\{comment\}', '', text, flags=re.S)
     text = re.sub(r'(?<!\\)%[^\n]*', '', text)
-    for m in re.finditer(r'\\(?:rev)?cite\s*(?:\[[^\]]*\]\s*)?\{([^}]+)\}', text):
+    for m in re.finditer(r'\\(?:newrev|rev)?cite\s*(?:\[[^\]]*\]\s*)?\{([^}]+)\}', text):
         for key in m.group(1).split(','):
             if key.strip(): used[key.strip()].add(section)
 
