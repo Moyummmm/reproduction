@@ -124,6 +124,9 @@
 \endgroup
 \end{table*}
 
+\paragraph{\revise{Component coverage.}}
+\revise{Ten of the twelve studies in Table~\ref{tab:representative-evidence} concern kernel or driver workflows. This emphasis reflects the kernel's central role in OS security: it mediates privileged operations and resource access, and vulnerabilities in its core and drivers can undermine system-wide isolation}~\revcite{chen2011linux}. \revise{The kernel-focused entries span syscall and driver fuzzing, socket testing, static analysis, patch migration, vulnerability reproduction, and repair. A shared kernel execution context thus covers several component-specific workflows. PathSentinel and LLM-CAL extend the comparison to filesystem-access vulnerabilities in Android applications and core services, and to TEE code partitioning, respectively. The table compares representative evaluated workflows rather than allocating equal numbers of studies to each component; its distribution describes this selection, not the relative security importance of the components.}
+
 \paragraph{\revise{Cross-study synthesis.}}
 \revisepurple{The generated artifacts address different bottlenecks in security workflows. KernelGPT supplies system-call interface descriptions, while KnitFuzz generates C seed programs that establish the execution context for socket calls. These approaches address interface modeling and test-state construction, respectively; the artifact choice reflects the information missing from test preparation. In static analysis, BugLens refines existing analyzer reports, whereas KNighter synthesizes executable checkers from historical bug-fix patches. Their intervention points affect their applicability: report refinement relies on an upstream analyzer to supply candidate findings, while checker synthesis requires bug patterns to be expressed as executable detection rules.}
 

@@ -1,7 +1,10 @@
+% Keep the section title with the following subsection and opening text.
+\Needspace{5\baselineskip}
 \section{LLMs for OS Security}
 \label{sec:os}
 
 \subsection{Overview and taxonomy}
+\label{sec:os:taxonomy}
 
 
 \begin{figure}[t]
@@ -163,7 +166,9 @@ In this workflow, the LLM proposes lemmas, tactics, proof sketches, or intermedi
 \revise{AutoRocq reports general verification evaluations, including Linux kernel modules, while FVEL evaluates an interactive proof environment on general code-verification tasks.}~\revcite{tu2025agentic,lin2024fvel}
 \revise{WhiteFox is an LLM-assisted compiler-fuzzing method and is included only as a potentially transferable testing technique.}~\revcite{yang2024whitefox}
 
-\begin{tcolorbox}[colback=gray!8, colframe=gray!55, boxrule=0.4pt, left=1mm, right=1mm, top=0.8mm, bottom=0.8mm, title=Key findings] From a systems-security perspective, these works highlight several recurring challenges: (i) bridging the specification gap between informal kernel intent and formal statements that are both provable and security-meaningful; (ii) scaling proof search and tactic synthesis across rapidly evolving code and configurations; and (iii) maintaining trustworthy toolchains and auditable artifacts (proof scripts, traces, and extracted invariants) in the presence of probabilistic LLM outputs. \end{tcolorbox}
+\begin{tcolorbox}[colback=gray!8, colframe=gray!55, boxrule=0.4pt, left=1mm, right=1mm, top=0.8mm, bottom=0.8mm, title=Key findings]
+\revise{LLM-assisted kernel verification separates proof generation from specification validation. Proof assistants check generated proofs against formal statements and assumptions, while the correspondence between those statements and the intended kernel security properties remains a separate obligation.}
+\end{tcolorbox}
 
 \paragraph{Kernel program analysis and fuzzing} 
 \revise{Program analysis and fuzzing are natural entry points for LLM assistance in kernel security because kernel code contains implicit invariants that can be difficult to reconstruct and validate.}
@@ -207,7 +212,7 @@ eBPF is emblematic: its semantics are constrained by a verifier and by non-trivi
 \smy{As non-LLM background on specification-based testing, \textbf{SpecCheck}, part of \textbf{Veritas}, checks eBPF-verifier behavior against a specification-derived oracle~\cite{lyu2025ebpf}.}
 
 \begin{tcolorbox}[colback=gray!8, colframe=gray!55, boxrule=0.4pt, left=1mm, right=1mm, top=0.8mm, bottom=0.8mm, title=Key findings]
-\revise{Across the studies reviewed here, LLMs assist with navigating subsystems, proposing hypotheses, and generating structured tests. Correctness and security conclusions still depend on task-specific evidence such as checked proofs, test oracles, traces, and reproduced crashes.}
+\revise{The reviewed methods intervene at different points: analysis workflows refine warnings and infer code constraints, while fuzzing workflows construct structured inputs and satisfy path constraints. Report precision measures triage quality and coverage measures exploration; claims of vulnerability discovery require evidence of an actual defect.}
 \end{tcolorbox}
 
 \paragraph{\revisenew{Patch-based vulnerability reproduction}}
@@ -221,6 +226,10 @@ eBPF is emblematic: its semantics are constrained by a verifier and by non-trivi
 \revise{Recent provider reports extend LLM-assisted kernel analysis to exploitability assessment.} \revisenew{OpenAI reports that its pipeline analyzed 2,308 candidate findings and dynamically reproduced 1,724 in a Linux distribution. It generated 1,169 working local privilege-escalation exploits, corresponding to 948 unique LPE vulnerabilities counted using distinct patches after variant analysis.} \revise{The pipeline generated candidate patches for human review; the reported run cost approximately 1.21 million US dollars in API credits}~\revcite{openai2026paths}.
 \revise{Anthropic reports that Claude Mythos Preview constructed Linux local privilege-escalation chains involving multiple vulnerabilities, while other remotely triggerable memory vulnerabilities resisted its exploitation attempts}~\revcite{anthropic2026mythos}.
 \revise{These results illustrate both offensive capability and defensive validation for prioritizing fixes. They are provider-reported observations under specific targets and resource budgets; a working exploit demonstrates impact in its tested environment, and a generated patch still requires maintainer review and validation.}
+
+\begin{tcolorbox}[colback=gray!8, colframe=gray!55, boxrule=0.4pt, left=1mm, right=1mm, top=0.8mm, bottom=0.8mm, title=Key findings]
+\revisenew{Reproduction and exploit development establish different outcomes: a triggering execution and a demonstrated security consequence in a tested configuration. Candidate fixes require separate validation. Comparisons also depend on model and kernel versions, execution budgets and repeated attempts, which differ across the reviewed workflows.}
+\end{tcolorbox}
 
 \paragraph{Kernel auxiliary artifact synthesis}
 \revise{The kernel-specific synthesis work reviewed here generates auxiliary artifacts, such as static-analysis checkers and eBPF extensions}~\revcite{yang2025knighter,zheng2024kgent}.
@@ -244,7 +253,7 @@ This line of work highlights the synthesis--verification interplay: eBPF's verif
 
 \begin{tcolorbox}[colback=gray!8, colframe=gray!55, boxrule=0.4pt, left=1mm, right=1mm, top=0.8mm, bottom=0.8mm, title=Key findings] 
 
-\revise{The evaluated synthesis systems turn bug-fix patterns or user requests into executable checkers or constrained extensions.}
+\revise{The reviewed systems synthesize checkers and eBPF extensions with different validation requirements. Checker evaluation concerns detected bug patterns and false positives; extension evaluation concerns verifier constraints and requested behavior. These checks support claims about detection or program correctness, while security enforcement requires evidence that the generated extension implements the intended policy.}
 \end{tcolorbox}
 
 \paragraph{Kernel patching and repair}
@@ -274,7 +283,7 @@ Finally, ``patch intelligence'' tasks such as stable-patch classification can be
 
 
 \begin{tcolorbox}[colback=gray!8, colframe=gray!55, boxrule=0.4pt, left=1mm, right=1mm, top=0.8mm, bottom=0.8mm, title=Key findings] 
-\revisenew{Kernel repair covers both generating fixes from crash evidence and adapting existing patches across versions. Reproducer execution and comparison with developer fixes assess different aspects of a repair; Live-kBench makes these outcomes and their variation over time available in a shared evaluation environment}~\newrevcite{huang2026livekbench}.
+\revisenew{Kernel repair spans generating fixes from crash evidence and adapting patches across versions. Reproducer execution checks whether an observed failure persists, while comparisons with developer patches assess agreement with a reference repair; migration also requires validation on the target kernel. These outcomes should be reported separately because crash removal and judged patch equivalence do not establish complete correctness}~\newrevcite{huang2026livekbench,dang2025miggpt,li2025portgpt}.
 % because they act as semantic integrators over scattered evidence—turning crash reports and sanitizer traces into coherent hypotheses, proposing localized edits, and iteratively improving patch candidates using tool feedback (builds, tests, sanitizers, fuzzers) until the result is reviewable. 
 % This “agentic” generate–validate loop aligns well with kernel workflows and helps navigate patch ecosystems (e.g., migration/backporting and stable-patch triage) . 
 \end{tcolorbox}
@@ -326,9 +335,8 @@ This is useful for driver auditing, where benign low-level idioms and performanc
 % \zmy{After reviewing the relevant literature, only KernelGPT and BugLens address device drivers. Thus, I retain only these two works and highlight that LLM-based research for device driver security remains largely unexplored.}
 
 \begin{tcolorbox}[colback=gray!8, colframe=gray!55, boxrule=0.4pt, left=1mm, right=1mm, top=0.8mm, bottom=0.8mm, title=Key findings]
-\revise{The driver-facing studies discussed here use LLMs to synthesize fuzzing specifications for driver-reaching entry points or to refine static-analysis results.}
+\revise{The driver studies reviewed here target two bottlenecks: modeling syscall interfaces for fuzzing and assessing warnings from static analyzers. Their results support testing and auditing of driver code, but do not establish correct handling of device state, interrupts or hardware interactions across devices.}
 % Across these categories, LLMs primarily serve as augmentation mechanisms rather than standalone solutions, complementing traditional analyses by compensating for incomplete specifications and high-noise auditing pipelines.
-\revise{Additional evaluation on diverse drivers and hardware remains an open research direction.}
 % Research on LLM for Device Drivers Security is scarce, making it a field that urgently requires further investigation.
 \end{tcolorbox}
 
@@ -366,7 +374,7 @@ By transforming performance optimization from an intuition-driven task into a st
 \revise{SysSpec uses LLMs to turn high-level designs into file-system code and adapts specification principles from formal methods. Its evaluation concerns functional correctness and system evolution, not security properties; applying its approach to security invariants remains an open direction}~\revcite{liu2025sharpen}.
 
 \begin{tcolorbox}[colback=gray!8, colframe=gray!55, boxrule=0.4pt, left=1mm, right=1mm, top=0.8mm, bottom=0.8mm, title=Key findings]
-\revise{The file-system work discussed here focuses more on efficiency and operations than on direct security tasks. PathSentinel uses an LLM to assist validation of Android application filesystem-access findings.}
+\revise{The reviewed evidence distinguishes filesystem-access security from the security of filesystem implementations. PathSentinel uses LLM-generated tests to validate access vulnerabilities in Android applications and core services. Other studies evaluate performance, log anomalies or functional correctness, leaving limited direct evidence in this corpus for security properties within filesystem implementations.}
 \end{tcolorbox}
 
 
@@ -418,7 +426,7 @@ In this setting, LLMs can assist by producing candidate configurations, policy t
 
 
 \begin{tcolorbox}[colback=gray!8, colframe=gray!55, boxrule=0.4pt, left=1mm, right=1mm, top=0.8mm, bottom=0.8mm, title=Key findings]
-\revisenew{The generated artifact follows the tested interface: KnitFuzz constructs C programs for kernel socket state, while application-layer fuzzers generate protocol grammars and message sequences. Both need to establish valid interaction states before exploring deeper behavior.}
+\revisenew{The reviewed methods translate protocol requirements into checkable models and state dependencies into executable tests. KnitFuzz establishes kernel socket state, while application protocol fuzzers construct message sequences to reach deeper states. Claims established in formal models depend on the encoded assumptions, and application protocol results do not by themselves validate the OS network stack.}
 \end{tcolorbox}
 
 
@@ -452,16 +460,15 @@ In this setting, LLMs can assist by producing candidate configurations, policy t
 
 Recent systems explore how to make TEE-backed LLM inference practical under tight memory and performance constraints. \textbf{TZ-LLM} uses Arm TrustZone to protect on-device LLM execution by confining model weights and sensitive intermediate activations to the secure world and managing the host--TEE interface to reduce leakage and overhead~\cite{wang2025tz}.
 
-\textbf{SPADA} and \textbf{PipeLLM} target secure, high-throughput inference by redesigning execution pipelines so protected computation can overlap with communication and scheduling; SPADA also explores scaling across multiple parties or nodes. These approaches aim to amortize TEE and cryptographic costs~\cite{chu2025spada,tan2025pipellm}. \textbf{Countermind} advocates defense in depth across the LLM-serving stack to address cross-layer attacks and side channels beyond the enclave boundary~\cite{schwarz2025countermind}.
+\textbf{SPADA} and \textbf{PipeLLM} target secure, high-throughput inference by redesigning execution pipelines so protected computation can overlap with communication and scheduling; SPADA also explores scaling across multiple parties or nodes. These approaches aim to amortize TEE and cryptographic costs~\cite{chu2025spada,tan2025pipellm}.
 
-Confidential Prompting studies privacy-preserving cloud inference when user prompts are sensitive. It proposes mechanisms to prevent the cloud provider from learning prompt contents while still returning model outputs~\cite{gim2024confidential}. This work complements TEE-based isolation by focusing on the prompt channel and motivates end-to-end threat models that account for possible leakage through execution traces or model-dependent side channels~\cite{gim2024confidential}.
+\revise{Confidential Prompting presents Petridish, which combines a confidential virtual machine (CVM) with Secure Partitioned Decoding to protect user prompts while preserving model confidentiality and output invariance. Per-user processes handle prefill and input-dependent attention computations; a shared service process generates output tokens. Its protection depends on the attested CVM and a trusted guest operating system that enforces process isolation and restricts outbound network access}~\revcite{gim2024confidential}.
 
 TEE deployment also involves governance: Guitton et al. discuss attestation, model and data provenance, and operational responsibility as parts of end-to-end trust~\cite{guitton2024honest}.
 
 \begin{tcolorbox}[colback=gray!8, colframe=gray!55, boxrule=0.4pt, left=1mm, right=1mm, top=0.8mm, bottom=0.8mm, title=Key findings]
 % Hypervisor/TEE fuzzing is less mature than syscall/driver fuzzing due to limited instrumentation, weak failure signals (e.g., VM resets/enclave aborts), and fragmented vendor specifications. Still, tiny but highly privileged interfaces (hypercalls, virtual-device emulation, secure-world RPC) make bugs high impact. 
-\revise{The examples discussed here include non-LLM hypervisor fuzzing, LLM-assisted TEE code annotation, and TEE-based protection of LLM inference.}
-\revise{A promising future direction is to evaluate whether LLMs can help connect hardware/interface specifications to testable security properties of hypervisor and TEE implementations.}
+\revise{LLM-CAL evaluates code labels for TEE partitioning; its reported accuracy does not establish the security of the resulting isolation boundary. Systems that protect LLM inference with TEEs address a separate objective. Within our documented search coverage, we found no evaluations of LLM-assisted vulnerability detection or validation of security properties in hypervisor or TEE implementations.}
 % LLMs help infer argument schemas and setup sequences from headers/manuals/traces and, for non-crash violations, define semantic/differential oracles via replay across versions/configurations.
 \end{tcolorbox}
 
@@ -505,7 +512,7 @@ Unlike the multi-step patch process used for kernel evolution in Section~\ref{se
 \revise{Template-guided repair combines LLM-generated candidates with structured fix templates in general software-repair benchmarks}~\revcite{huang2025template}.
 
 \begin{tcolorbox}[colback=gray!8, colframe=gray!55, boxrule=0.4pt, left=1mm, right=1mm, top=0.8mm, bottom=0.8mm, title=Key findings]
-\revise{The reviewed techniques address complementary parts of service auditing, analysis, and repair, often on different evaluation targets. Integrating them into a validated workflow for privileged services is a promising research direction.}
+\revise{Much of the evidence in this section comes from general software logs, WebAssembly runtimes, network policies and RESTful applications. These evaluations support individual analysis, synthesis or repair capabilities on their respective targets. Evidence that these methods preserve privilege boundaries and improve security in privileged OS services remains limited in the reviewed corpus.}
 \end{tcolorbox}
 
 \begin{comment}

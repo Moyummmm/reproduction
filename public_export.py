@@ -10,7 +10,7 @@ import urllib.parse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-csv.field_size_limit(sys.maxsize)
+csv.field_size_limit(min(sys.maxsize, 2147483647))
 
 # Explicit column allowlist: free-text evidence, rationales, abstracts, model
 # inputs and outputs are not exported. Abstract *availability flags* are kept.
@@ -72,6 +72,9 @@ SAFE_CODE = {
  'source_data/quick_select_200.py','source_data/dedup_crossref20.py','source_data/merge_final_literature.py',
 }
 SAFE_TEXT = {'screening/protocol.txt','screening/third_review_protocol.txt',
+             'screening/HUMAN_REVIEW.md','MANUSCRIPT_ALIGNMENT.md','inventory/README.md',
+             'search/HISTORICAL_SEARCH_DATE.md','revision/INTEGRITY_NOTES.md',
+             'revision/four_study_evidence_20261106.md',
              'search/historical_query_formulations.txt',
              'screening/README.md','search_protocol/README.md',
              'search_protocol/reporting_checklist.md','arxiv_pagination/README.md',
@@ -135,14 +138,17 @@ def write_csv(src,dst):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('output_directory',help='New directory outside reproduct; must not already exist')
+    parser.add_argument('output_directory',help='New directory outside this repository; must not already exist')
     args=parser.parse_args()
     target=Path(args.output_directory).expanduser().resolve()
     if target==ROOT or ROOT in target.parents:
-        parser.error('output directory must be outside reproduct')
+        parser.error('output directory must be outside this repository')
     if target.exists(): parser.error('output directory already exists; choose a new path')
     # Freeze manifest source list before creating output; never overwrite anything.
-    paths=sorted(p for p in ROOT.rglob('*') if p.is_file() and not p.is_symlink())
+    def source_files():
+        return sorted(p for p in ROOT.rglob('*') if p.is_file() and not p.is_symlink()
+                      and not {'.git', '__pycache__'}.intersection(p.relative_to(ROOT).parts))
+    paths=source_files()
     target.mkdir(parents=True,exist_ok=False)
     manifest=[]
     for src in paths:
@@ -172,7 +178,7 @@ def main():
                          'action':action,'exported_path':rel if dst.exists() else '',
                          'exported_sha256':digest(dst) if dst.exists() else '',
                          'exported_columns':' | '.join(columns)})
-    final_paths={p.relative_to(ROOT).as_posix():p for p in ROOT.rglob('*') if p.is_file() and not p.is_symlink()}
+    final_paths={p.relative_to(ROOT).as_posix():p for p in source_files()}
     prior_paths={r['original_path'] for r in manifest}
     changed=[]
     for row in manifest:
@@ -203,6 +209,17 @@ def main():
                 'limits':'Field-level and file-level checks only; this is not a licensing decision or a guarantee that all possible short quotations are absent.'}
     (target/'export_validation.json').write_text(json.dumps(validation,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
     (target/'README.md').write_text('''# Metadata-only review archive\n\nThis export contains selected search queries, request metadata, bibliographic metadata, decision labels and processing code. Supplementary Table S1 is `supplementary_candidate_inventory.csv`; Supplementary Table S2 is `supplementary_legacy_inventory.csv`. It omits abstracts, source excerpts, raw provider responses, individual model prompts and model event/output files. `original_file_manifest.csv` records original paths, SHA-256 hashes, sizes, export actions, output hashes and retained CSV columns. It may include hashes of omitted files; hashes do not provide their contents. `export_state.json` and `export_validation.json` report source consistency and file/field checks.\n\nThe export is not a substitute for access to the underlying abstracts or full texts. Without the withheld inputs and model responses, readers cannot fully reproduce the offline screening or verify every model decision; they may retrieve the sources independently or obtain appropriate authorization. Some code requires omitted source files and does not execute end to end from this archive alone.\n\nPRISMA-S recommends removing abstracts from search result files before public sharing: https://jmla.pitt.edu/ojs/jmla/article/view/962/1274 . This technical export is not a rights or licensing determination. Review all exported materials, data-source terms and licensing before release.\n''',encoding='utf-8')
+    with (target/'README.md').open('a',encoding='utf-8',newline='\n') as f:
+        f.write('\n## Current manuscript method\n\n'
+                'The manuscript is LLM-Assisted OS Security: A Component-Based Scoping Survey. '
+                'The historical 59 in-depth candidates are a subset of 220 scored records within 485 archived records. '
+                'The updated inventory contains 225 = 130 retained + 95 additional records, including 23 provisional direct candidates. '
+                'Later synthesis additions leave those snapshot counts unchanged.\n\n'
+                'Three human reviewers read and voted on relevance; selection required at least two positive votes. '
+                'The author confirmed this procedure and that individual study-level voting records were not retained. '
+                'See [screening/HUMAN_REVIEW.md](screening/HUMAN_REVIEW.md). '
+                'The manuscript snapshot and full verification inputs are available in the full research repository; '
+                'this metadata-only export does not support the complete verification workflow.\n')
     counts={}
     for r in manifest: counts[r['action']]=counts.get(r['action'],0)+1
     print('OUTPUT',target,'actions',json.dumps(counts,ensure_ascii=False),'source_stable',not changed and not added)

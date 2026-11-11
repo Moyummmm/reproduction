@@ -14,7 +14,7 @@ brown20,\smy{Language Models are Few-Shot Learners},,2020,background; introducti
 bulekov2024hyperpill,\smy{HYPERPILL: Fuzzing for Hypervisor-bugs by Leveraging the Hardware Virtualization Interface},,2024,llm_os_security,,no candidate match found
 cadar2008klee,\smy{KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs},,2008,introduction,,no candidate match found
 cai2019understanding,\smy{Understanding Security Vulnerabilities in File Systems},10.1145/3343737.3343753,2019,llm_os_security,,no candidate match found
-chen2011linux,\smy{Linux kernel vulnerabilities: State-of-the-art defenses and open problems},10.1145/2103799.2103805,2011,background; introduction,,no candidate match found
+chen2011linux,\smy{Linux kernel vulnerabilities: State-of-the-art defenses and open problems},10.1145/2103799.2103805,2011,background; introduction; representative_comparison,,no candidate match found
 chen2020koobe,\smy{KOOBE: Towards facilitating exploit generation of kernel Out-Of-Bounds write vulnerabilities},,2020,background,,no candidate match found
 chen2021evaluating,\smy{Evaluating large language models trained on code},10.48550/arXiv.2107.03374,2021,background; introduction; llm_os_security,,no candidate match found
 chen2025gpass,\smy{Gpass: A Goal-Adaptive Neural Theorem Prover Based on Coq for Automated Formal Verification},10.1109/ICSE55347.2025.00116,2025,llm_os_security,,no candidate match found
@@ -30,7 +30,7 @@ egersdoerfer2025stellar,\smy{STELLAR: Storage Tuning Engine Leveraging LLM Auton
 feng2025fuzzing,\smy{Fuzzing: Randomness? Reasoning! Efficient Directed Fuzzing via Large Language Models},10.48550/arXiv.2507.22065,2025,llm_os_security; methodology,"L085 (arXiv ID, exact normalized title)",candidate match; verify study role
 gadey2026llmcal,\smy{Automated Code Annotation with LLMs for Establishing TEE Boundaries},10.14722/ndss.2026.230709,2026,llm_os_security; representative_comparison,,no candidate match found
 gao2025offloading,\smy{Offloading the Tedious Task of Writing eBPF Programs},10.1145/3748355.3748369,2025,llm_os_security,,no candidate match found
-gim2024confidential,Confidential prompting: Protecting user prompts from cloud llm providers,,2024,llm_os_security,,no candidate match found
+gim2024confidential,\smy{Confidential Prompting: Privacy-preserving LLM Inference on Cloud},,2025,llm_os_security,,no candidate match found
 guan2024logllm,\smy{LogLLM: Log-based Anomaly Detection Using Large Language Models},10.1109/TSE.2026.3740394,2026,llm_os_security,,no candidate match found
 guitton2024honest,Honest Computing: achieving demonstrable data lineage and provenance for driving data and process-sensitive policies,,2024,llm_os_security,,no candidate match found
 guo2009linux,\smy{Linux Kernel Developer Responses to Static Analysis Bug Reports},,2009,introduction; llm_os_security,,no candidate match found
@@ -81,7 +81,6 @@ rethlefsen2021prismas,\smy{PRISMA-S: An Extension to the PRISMA Statement for Re
 saltzer1975protection,\smy{The protection of information in computer systems},10.1109/PROC.1975.9939,1975,background,,no candidate match found
 salva2025dynamic,\smy{Dynamic Mitigation of RESTful Service Failures Using LLMs},10.5220/0013460700003964,2025,llm_os_security,L483 (exact normalized title),candidate match; verify study role
 schumilo2021nyx,\smy{Nyx: Greybox hypervisor fuzzing using fast snapshots and affine types},,2021,llm_os_security,,no candidate match found
-schwarz2025countermind,Countermind: A Multi-Layered Security Architecture for Large Language Models,,2025,llm_os_security,,no candidate match found
 serebryany2012addresssanitizer,\smy{AddressSanitizer: A Fast Address Sanity Checker},,2012,llm_os_security,,no candidate match found
 sheng2025llms,\smy{LLMs in Software Security: A Survey of Vulnerability Detection Techniques and Insights},10.1145/3769082,2026,introduction,,no candidate match found
 shoshitaishvili2015firmalice,\smy{Firmalice: Automatic Detection of Authentication Bypass Vulnerabilities in Binary Firmware},10.14722/ndss.2015.23294,2015,llm_os_security,,no candidate match found

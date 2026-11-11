@@ -30,7 +30,7 @@ egersdoerfer2025stellar,\smy{STELLAR: Storage Tuning Engine Leveraging LLM Auton
 feng2025fuzzing,\smy{Fuzzing: Randomness? Reasoning! Efficient Directed Fuzzing via Large Language Models},,no exact or manually confirmed snapshot match
 gadey2026llmcal,\smy{Automated Code Annotation with LLMs for Establishing TEE Boundaries},,no exact or manually confirmed snapshot match
 gao2025offloading,\smy{Offloading the Tedious Task of Writing eBPF Programs},,no exact or manually confirmed snapshot match
-gim2024confidential,Confidential prompting: Protecting user prompts from cloud llm providers,R06165 (arXiv ID),retrieval-snapshot match; verify eligibility and versions
+gim2024confidential,\smy{Confidential Prompting: Privacy-preserving LLM Inference on Cloud},"R06165 (arXiv ID, exact normalized title)",retrieval-snapshot match; verify eligibility and versions
 guan2024logllm,\smy{LogLLM: Log-based Anomaly Detection Using Large Language Models},,no exact or manually confirmed snapshot match
 guitton2024honest,Honest Computing: achieving demonstrable data lineage and provenance for driving data and process-sensitive policies,,no exact or manually confirmed snapshot match
 guo2009linux,\smy{Linux Kernel Developer Responses to Static Analysis Bug Reports},,no exact or manually confirmed snapshot match
@@ -81,7 +81,6 @@ rethlefsen2021prismas,\smy{PRISMA-S: An Extension to the PRISMA Statement for Re
 saltzer1975protection,\smy{The protection of information in computer systems},,no exact or manually confirmed snapshot match
 salva2025dynamic,\smy{Dynamic Mitigation of RESTful Service Failures Using LLMs},,no exact or manually confirmed snapshot match
 schumilo2021nyx,\smy{Nyx: Greybox hypervisor fuzzing using fast snapshots and affine types},,no exact or manually confirmed snapshot match
-schwarz2025countermind,Countermind: A Multi-Layered Security Architecture for Large Language Models,R00614 (exact normalized title); R00629 (exact normalized title),retrieval-snapshot match; verify eligibility and versions
 serebryany2012addresssanitizer,\smy{AddressSanitizer: A Fast Address Sanity Checker},,no exact or manually confirmed snapshot match
 sheng2025llms,\smy{LLMs in Software Security: A Survey of Vulnerability Detection Techniques and Insights},,no exact or manually confirmed snapshot match
 shoshitaishvili2015firmalice,\smy{Firmalice: Automatic Detection of Authentication Bypass Vulnerabilities in Binary Firmware},,no exact or manually confirmed snapshot match

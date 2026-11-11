@@ -1,0 +1,89 @@
+{
+  "alignment_date": "2026-11-11",
+  "manuscript_title": "LLM-Assisted OS Security: A Component-Based Scoping Survey",
+  "historical_records": 485,
+  "historical_scored_records": 220,
+  "historical_score_counts": {
+    "1": 45,
+    "2": 116,
+    "3": 59
+  },
+  "updated_candidate_records": 225,
+  "retained_historical_records": 130,
+  "additional_candidate_records": 95,
+  "updated_score_counts": {
+    "0": 1,
+    "1": 37,
+    "2": 164,
+    "3": 23
+  },
+  "historical_query_formulations": 18,
+  "update_queries": 100,
+  "top20_hit_rows": 2000,
+  "discovery_hit_rows": 10467,
+  "discovery_record_groups": 6408,
+  "discovery_records_with_abstract": 2311,
+  "arxiv_extension_records": 1168,
+  "undetermined_venues": {
+    "missing": 27,
+    "arxiv_only": 20,
+    "book_series_only": 3
+  },
+  "book_series_only_venue_names": [
+    "Lecture Notes in Computer Science",
+    "Advances in Information Security, Privacy, and Ethics"
+  ],
+  "manual_relevance_review": {
+    "reviewers": 3,
+    "minimum_positive_votes": 2,
+    "disagreement_rule": "majority vote",
+    "procedure_evidence": "author clarification on 2026-11-11",
+    "individual_voting_records_retained": false,
+    "reviewed_record_set_reconstructible": false,
+    "final_unique_eligible_study_count": null
+  },
+  "later_synthesis_additions": {
+    "zhang2026knitfuzz": {
+      "record_id": "C0194",
+      "record_set": "updated_candidate_inventory"
+    },
+    "pu2026krepro": {
+      "record_id": "R06024",
+      "record_set": "discovery_audit"
+    },
+    "li2026syzharness": {
+      "record_id": "R06010",
+      "record_set": "discovery_audit"
+    },
+    "huang2026livekbench": {
+      "record_id": "R06013",
+      "record_set": "discovery_audit"
+    }
+  },
+  "representative_studies": 12,
+  "representative_kernel_or_driver_studies": 10,
+  "active_citation_keys": 125,
+  "frozen_screening_updated_file_archives": {
+    "screening/README.md": "revision/history/screening_README_before_20261111.md",
+    "screening/build_checksums.py": "revision/history/screening_build_checksums_before_20261111.py",
+    "screening/verify_replay.py": "revision/history/screening_verify_replay_before_20261111.py"
+  },
+  "additional_frozen_manifests": [
+    {
+      "current": "arxiv_pagination/SHA256SUMS",
+      "original": "revision/history/arxiv_pagination_SHA256SUMS_before_20261111",
+      "base": "arxiv_pagination",
+      "updated_file_archives": {
+        "README.md": "revision/history/arxiv_pagination_README_before_20261111.md"
+      }
+    },
+    {
+      "current": "openalex/SHA256SUMS",
+      "original": "revision/history/openalex_SHA256SUMS_before_20261111",
+      "base": "openalex",
+      "updated_file_archives": {
+        "README.md": "revision/history/openalex_README_before_20261111.md"
+      }
+    }
+  ]
+}

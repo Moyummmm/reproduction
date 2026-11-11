@@ -11,7 +11,7 @@ The initial refresh `run_20261105T075850Z/` returned kernel offsets 0 and 100 (1
 The earlier 888-record `run_20261105T075850Z/new_records.csv` was already sent for screening. `combined_20261105/incremental_new_records.csv` contains the 280 additional identifiers not in that earlier batch, so the two screening files do not overlap. To reconstruct this incremental file:
 
 ```
-python3 reproduct/arxiv_pagination/incremental.py reproduct/arxiv_pagination/run_20261105T075850Z/new_records.csv reproduct/arxiv_pagination/combined_20261105/new_records.csv /tmp/arxiv_incremental.csv
+python -X utf8 arxiv_pagination/incremental.py reproduct/arxiv_pagination/run_20261105T075850Z/new_records.csv reproduct/arxiv_pagination/combined_20261105/new_records.csv /tmp/arxiv_incremental.csv
 ```
 
 The raw pages, results, logs and mapping outputs can be checked using `shasum -a 256 -c SHA256SUMS` from this directory. The reported matching counts are provisional and do not constitute eligibility decisions.

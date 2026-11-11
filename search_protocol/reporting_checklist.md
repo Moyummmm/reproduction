@@ -23,6 +23,8 @@ This is a reporting aid for the saved 5 November 2026 exploratory snapshot, guid
 
 ## Selection-reporting boundaries
 
+The current manuscript separately reports manual relevance review by three reviewers, with at least two positive votes required and 2--1 disagreement resolved by majority vote. This procedure was confirmed by the author on 11 November 2026. Individual study-level voting records were not retained; see `../screening/HUMAN_REVIEW.md`. The model-assessment files below retain their original automated status and do not provide those missing votes.
+
 The snapshot itself does not identify a final included-study set. Any later title/abstract triage must separately disclose the screener or automated tool, input version, protocol, record-level decisions, failures, and any unresolved records. AI-assisted screening must not be reported as independent human review. An eventual flow diagram must be computed from the actual decision file and show missing or pending decisions rather than treating them as exclusions.
 
 The snapshot's source limits, ranking caps, missing abstracts and version ambiguity constrain retrieval and selection. Search reporting improves auditability but cannot establish exhaustive coverage. The public repository is https://github.com/Moyummmm/reproduction.

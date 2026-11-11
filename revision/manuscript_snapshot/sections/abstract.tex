@@ -1,0 +1,13 @@
+Operating systems concentrate security-critical complexity: large privileged codebases, 
+deep hardware coupling, pervasive concurrency, and decades of compatibility. 
+In this setting, large language models (LLMs) are beginning to reshape how we find, 
+understand, and remediate vulnerabilities---not by replacing program analyses, fuzzers, or verification, 
+but by acting as semantic integrators that connect heterogeneous artifacts
+ (\revise{code, specifications, logs/traces, and tool outputs}) and as tool-oriented agents
+  that iteratively generate candidate tests, specifications, and patches under deterministic feedback.
+\revise{This survey synthesizes research through an OS-centric,
+component-based taxonomy spanning kernels, device drivers, networking stacks, file systems, 
+privileged system services, and hypervisors/TEEs. We distinguish evaluated LLM-assisted 
+OS-security applications from potentially transferable methods and adjacent work that protects LLM systems.} We distill recurring design patterns and their limits, emphasizing a central requirement for deployment: LLM outputs must be treated as candidates, grounded in \revise{verifiable} evidence, and paired with guardrails and reviewable artifacts to preserve correctness, compatibility, and performance. Finally, we outline open challenges---from evidence-grounded evaluation and cross-component reasoning to reviewer-capacity bottlenecks under ``vibe coding''---and identify research directions that prioritize auditable, tool-grounded, and review-scalable LLM assistance \revise{for OS security.}
+
+

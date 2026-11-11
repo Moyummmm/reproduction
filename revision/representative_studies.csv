@@ -1,0 +1,13 @@
+bibtex_key,study,primary_target_group,workflow
+yang2025kernelgpt,KernelGPT,kernel_or_driver,Syscall and driver fuzzing specifications
+syzagent25,SyzAgent,kernel_or_driver,Directed kernel fuzzing
+li2025towards,BugLens,kernel_or_driver,Kernel driver report triage
+yang2025knighter,KNighter,kernel_or_driver,Kernel static checker synthesis
+dang2025miggpt,MigGPT,kernel_or_driver,Kernel patch migration and backporting
+lee2024static,PathSentinel,filesystem_access_and_services,Android filesystem-access vulnerability validation
+gadey2026llmcal,LLM-CAL,tee_partitioning,Code labeling for TEE placement
+openai2026paths,OpenAI pipeline,kernel_or_driver,Kernel vulnerability reproduction exploitation and patching
+zhang2026knitfuzz,KnitFuzz,kernel_or_driver,Linux socket fuzzing
+pu2026krepro,K-Repro,kernel_or_driver,Patch-to-PoC kernel vulnerability reproduction
+li2026syzharness,SyzHarness,kernel_or_driver,Patch-based kernel reproduction with fuzzing harnesses
+huang2026livekbench,Live-kBench,kernel_or_driver,Kernel crash repair evaluation

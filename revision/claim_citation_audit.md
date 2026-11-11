@@ -1,5 +1,7 @@
 # Technical claim and citation audit
 
+**Historical audit notice (11 November 2026):** The title, counts and review activity below refer to the 5 November audit, not to the current manuscript. The current title, source snapshot and citation mappings are documented in [README.md](README.md) and [../MANUSCRIPT_ALIGNMENT.md](../MANUSCRIPT_ALIGNMENT.md). The automated section-focused reviews below are distinct from the three-person manual relevance vote documented in [../screening/HUMAN_REVIEW.md](../screening/HUMAN_REVIEW.md).
+
 **Date:** 5 November 2026  
 **Manuscript:** *LLM for OS Security: A Retrospective Survey*
 

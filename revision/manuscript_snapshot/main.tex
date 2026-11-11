@@ -1,0 +1,196 @@
+\PassOptionsToPackage{table}{xcolor}
+\let\CleanVersionCalendarYear\year
+\documentclass{ieeeaccess}
+\let\year\CleanVersionCalendarYear
+
+% --- 基础宏包 ---
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{needspace}
+
+% --- 从你的 header.tex 整合的宏包 ---
+\usepackage{lipsum}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{ragged2e}
+\usepackage{listings}
+\usepackage{booktabs}
+\usepackage{boldline}
+\usepackage{pifont}
+\newcommand{\xmark}{\ding{53}}
+\usepackage{capt-of}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{soul}
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage{setspace}
+\usepackage{xurl} % 允许在 URL 的任何位置断行
+\usepackage{tikz}
+\usetikzlibrary{positioning, arrows.meta, shapes.arrows}
+\usepackage{pgf-pie} % 必须添加这个宏包才能识别 \pie 命令
+\usepackage[table]{xcolor} % Add to preamble
+\newcommand{\my}[1]{{\color{blue}MY: #1}}
+% --- 关键：配置标题颜色为蓝色 ---
+\usepackage{caption}
+% 手动定义 IEEE Access 的标准蓝色（如果 cls 文件没定义）
+\definecolor{accessblue}{RGB}{0,103,165}
+% 按照你找到的方法，强制设置标题字体和颜色
+\captionsetup{
+    font={sf,small,stretch=0.80},
+    labelfont={bf,color=accessblue},
+    justification=centering
+}
+
+% --- 其他自定义样式 ---
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\newenvironment{myitemize}%
+  {\begin{itemize}[leftmargin=0cm,itemindent=.3cm,labelwidth=\itemindent,listparindent=\parindent,labelsep=0pt,parsep=0pt,topsep=1pt,itemsep=2pt,align=left]}%
+  {\end{itemize}}
+
+\newenvironment{myenumerate}%
+  {\begin{enumerate}[leftmargin=0cm,itemindent=.5cm,labelwidth=\itemindent,listparindent=\parindent,labelsep=0pt,parsep=1pt,topsep=1pt,itemsep=3pt,align=left]}%
+  {\end{enumerate}}
+
+% --- 重新定义颜色 ---
+\definecolor{commentgrey}{gray}{0.4}
+\definecolor{queryblue}{RGB}{0,103,165}
+
+% --- 极其稳健的样式定义 ---
+\lstdefinestyle{elegantQueries}{
+    basicstyle=\ttfamily\scriptsize, % 缩小字号防止单栏溢出
+    breaklines=true,                 % 自动换行
+    columns=fullflexible,
+    frame=single,                    % 使用单线框
+    rulecolor=\color{gray!30},       % 使用浅灰色边框，不要背景色
+    commentstyle=\color{commentgrey}\itshape,
+    keywordstyle=\color{queryblue}\bfseries,
+    captionpos=b,                    % 标题在下方
+    xleftmargin=10pt,                % 增加左边距，防止超出栏宽
+    xrightmargin=5pt,
+    aboveskip=15pt,
+    belowskip=15pt
+}
+
+\definecolor{frenzyorange}{RGB}{249, 158, 26}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{\node[shape=circle,fill=frenzyorange,draw,text=white,inner sep=1pt] (char) {#1};}}
+\definecolor{mengxcolor}{RGB}{211, 82, 229}
+\newcommand{\lwg}[1]{\textcolor{mengxcolor}{~lwg: #1~}}
+\newcommand{\zmy}[1]{{\color{teal}[ZMY: #1]}}
+\newcommand\note[1]{#1}
+
+% \definecolor{mygreen}{RGB}{0,128,0}
+% \newcommand{\smy}[1]{{\color{mygreen}[SMY: #1]}}
+\newif\ifshowrevisions
+% Set to \showrevisionsfalse for the clean submission manuscript.
+\showrevisionstrue
+\soulregister\cite7
+\soulregister\ref7
+\soulregister\url7
+\soulregister\S0
+\DeclareRobustCommand{\revise}[1]{\ifshowrevisions{\sethlcolor{yellow}\hl{#1}}\else#1\fi}
+\DeclareRobustCommand{\smy}[1]{\revise{#1}}
+\DeclareRobustCommand{\revcite}[1]{\ifshowrevisions\begingroup\setlength{\fboxsep}{0pt}\colorbox{yellow}{\cite{#1}}\endgroup\else\cite{#1}\fi}
+% November 6 literature update: light blue; earlier revisions remain yellow.
+\definecolor{literatureblue}{RGB}{210,235,255}
+\DeclareRobustCommand{\revisenew}[1]{\ifshowrevisions{\sethlcolor{literatureblue}\hl{#1}}\else#1\fi}
+\DeclareRobustCommand{\newrevcite}[1]{\ifshowrevisions\begingroup\setlength{\fboxsep}{0pt}\colorbox{literatureblue}{\cite{#1}}\endgroup\else\cite{#1}\fi}
+\definecolor{revisiongreen}{RGB}{215,245,215}
+\DeclareRobustCommand{\revisegreen}[1]{\ifshowrevisions{\sethlcolor{revisiongreen}\hl{#1}}\else#1\fi}
+\definecolor{revisionpurple}{RGB}{235,220,250}
+\DeclareRobustCommand{\revisepurple}[1]{\ifshowrevisions{\sethlcolor{revisionpurple}\hl{#1}}\else#1\fi}
+
+% ---------------------------------------------------------
+
+\begin{document}
+
+\history{Date of publication xxxx 00, 0000, date of current version xxxx 00, 0000.}
+\doi{10.1109/ACCESS.2017.DOI}
+
+\title{\revise{LLM-Assisted OS Security: A Component-Based Scoping Survey}}
+
+\author{\uppercase{Pengchao Yao}\authorrefmark{1,*},
+\uppercase{Changhua Sun}\authorrefmark{1},
+\uppercase{Xin Sun}\authorrefmark{1},
+\uppercase{Bang Lv}\authorrefmark{1},
+\uppercase{Yilei Wang}\authorrefmark{1},
+\uppercase{Yifeng Wang}\authorrefmark{1},
+\uppercase{Yining Mao}\authorrefmark{1},
+}
+
+\address[1]{State Grid Zhejiang Electric Power Co., Ltd. Research Institute, Hangzhou, China (e-mails: pcyao@zju.edu.cn, sun\_changhua@zj.sgcc.com.cn, sun\_xin@zj.sgcc.com.cn, lv\_bang@zj.sgcc.com.cn, wang\_yilei@zj.sgcc.com.cn, wang\_yifeng@zj.sgcc.com.cn, mao\_yining@zj.sgcc.com.cn)}
+\tfootnote{This work was supported by State Grid Zhejiang Electric Power Co., Ltd. under Project No. B311DS25Z001.}
+
+\markboth
+{Yao \headeretal: LLM-Assisted OS Security: A Component-Based Scoping Survey}
+{Yao \headeretal: LLM-Assisted OS Security: A Component-Based Scoping Survey}
+
+\corresp{Corresponding author: Pengchao Yao (e-mail: pcyao@zju.edu.cn).}
+
+\begin{abstract}
+\input{sections/abstract}
+\end{abstract}
+
+\begin{keywords}
+Large Language Models, Operating Systems, Security, Survey
+\end{keywords}
+
+
+\titlepgskip=-15pt
+
+\maketitle
+
+%\input{sections/todo}
+%\input{sections/abstract}
+\input{sections/introduction}
+\input{sections/background}
+\input{sections/methodology}
+\input{sections/llm_os_security}
+\input{sections/future}
+\input{sections/conclusion}
+% \input{related}
+
+\section*{Acknowledgment}
+The authors gratefully acknowledge the support of State Grid Zhejiang Electric Power Co., Ltd. under Project No. B311DS25Z001.
+
+The authors also acknowledge the use of a GPT model for checking and polishing the language of this manuscript.
+
+\bibliographystyle{IEEEtran}
+\bibliography{refs}
+
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{figures/yao.jpg}}]{Pengchao Yao}
+received the Ph.D. degree from the College of Control Science and Engineering, Zhejiang University, Hangzhou, China, in 2025. His research interests include industrial cyber–physical system security, IoT security, and industrial network anomaly detection. He is currently a jointly trained postdoctoral researcher with Zhejiang University and State Grid Zhejiang Electric Power Company.
+\end{IEEEbiography}
+
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{figures/sun_ch.jpg}}]{Changhua Sun}
+received the M.S. degree in computer technology from Huazhong University of Science and Technology, Wuhan, China, in 2017. She is currently working at the Electric Power Research Institute of State Grid Zhejiang Electric Power Co., Ltd. She has long been engaged in research on electric power cybersecurity technologies. Her main research directions include network security attack and defense, power industrial control system security, and Internet of Things (IoT) security.
+\end{IEEEbiography}
+
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{figures/sun_x.jpg}}]{Xin Sun}
+received the M.S. degree in system analysis and integration from Zhejiang University, Hangzhou, China, in 2006. He is currently working at the Electric Power Research Institute of State Grid Zhejiang Electric Power Co., Ltd. He has long been engaged in research on electric power cybersecurity technologies. His main research directions include quantum communication, network security attack and defense, power industrial control system security, and Internet of Things (IoT) security.
+\end{IEEEbiography}
+
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{figures/lv.jpg}}]{Bang Lv}
+received the M.S. degree in computer science and technology from Beijing University of Chemical Technology, Beijing, China, in 2016. He is currently working at the Electric Power Research Institute of State Grid Zhejiang Electric Power Co., Ltd. He has long been engaged in research on electric power cybersecurity technologies. His main research directions include quantum communication, network security attack and defense, power industrial control system security, and Internet of Things (IoT) security.
+\end{IEEEbiography}
+
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{figures/wang_yl.jpg}}]{Yilei Wang}
+received the Bachelor's degree in automation from Shanghai Jiao Tong University, Shanghai, China, in 2016. Currently, he is engaged in cyberspace security work at the Electric Power Research Institute of State Grid Zhejiang Electric Power Co., Ltd. His research interests cover several areas in cyberspace security, industrial control system security, etc.
+\end{IEEEbiography}
+
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{figures/wang_yf.jpg}}]{Yifeng Wang}
+received the M.S. degree in data science from the Department of Informatics at King’s College London, London, U.K., in 2020. In 2021, he joined the State Grid Zhejiang Electric Power Company and has since been involved in cybersecurity research and technical work.
+\end{IEEEbiography}
+
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{figures/mao.jpg}}]{Yining Mao}
+received the Bachelor of Science degree in computer technology from the University of Adelaide, Adelaide, SA, Australia, in 2019, and the Master of Science degree in information technology from the University of Sydney, Sydney, NSW, Australia, in 2021. He is currently a full-time engineer at the Network Information Technology Office, Electric Power Research Institute of State Grid Zhejiang Electric Power Co., Ltd. Since August 2022, he has been engaged in his current position, with main research interests focusing on power information network security, power system informatization, and digitalization technologies.
+\end{IEEEbiography}
+
+\EOD
+
+\end{document}

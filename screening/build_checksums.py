@@ -9,7 +9,7 @@ for path in ['search_protocol/records.csv','arxiv_pagination/combined_20261105/n
              'audit/screening_results_sample_frame.csv','audit/screening_audit_review.csv',
              'audit/known_study_retention.csv','audit/citation_search_mapping.csv','audit/missing_abstract_crosssource.csv']:
     files.append(REPRODUCT/path)
-files=sorted(set(files),key=lambda p:str(p.relative_to(REPRODUCT)))
-lines=[hashlib.sha256(p.read_bytes()).hexdigest()+'  '+str(p.relative_to(REPRODUCT)) for p in files]
-(ROOT/'SHA256SUMS').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+files=sorted(set(files),key=lambda p:p.relative_to(REPRODUCT).as_posix())
+lines=[hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.relative_to(REPRODUCT).as_posix() for p in files]
+(ROOT/'SHA256SUMS').write_text('\n'.join(lines)+'\n',encoding='utf-8',newline='\n')
 print('checksummed',len(lines),'files; SHA256SUMS excludes itself')

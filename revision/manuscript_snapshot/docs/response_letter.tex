@@ -1,0 +1,347 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage[a4paper,margin=1in,headheight=14pt,headsep=23pt,footskip=30pt]{geometry}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[most]{tcolorbox}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\usepackage{needspace}
+
+\definecolor{reviewblue}{HTML}{0067A5}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize Access-2026-46004 --- Response to Reviewers}
+\fancyfoot[C]{\footnotesize\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\setlength{\emergencystretch}{1.5em}
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\setlist[itemize]{leftmargin=1.3em,itemsep=2pt,topsep=3pt,parsep=0pt}
+\titleformat{\section}{\large\bfseries\color{reviewblue}}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.6em}{}
+\titlespacing*{\section}{0pt}{14pt}{7pt}
+\titlespacing*{\subsection}{0pt}{12pt}{6pt}
+\pretocmd{\section}{\Needspace{9\baselineskip}}{}{}
+\pretocmd{\subsection}{\Needspace{7\baselineskip}}{}{}
+\newtcolorbox{reviewcomment}{enhanced,breakable,colback=white,colframe=black!17,
+  boxrule=0.4pt,arc=2pt,left=7pt,right=7pt,top=5pt,bottom=5pt,
+  boxsep=0pt,before skip=4pt,after skip=7pt,fontupper=\small}
+\newcommand{\response}{\par\textbf{Response.}\ }
+\newcommand{\action}{\par\textbf{Action taken.}\ }
+\newcommand{\additional}[1]{\par\Needspace{5\baselineskip}\vspace{5pt}\textbf{Additional Questions (Reviewer #1)}\par}
+\newcommand{\repo}{\url{https://github.com/Moyummmm/reproduction}}
+\hypersetup{pdftitle={Response to Reviewers - Access-2026-46004},
+  pdfauthor={Pengchao Yao and coauthors},
+  pdfsubject={Response to the IEEE Access decision dated 4 November 2026}}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries Response to Reviewers\par}
+\vspace{7pt}
+{\large\bfseries LLM-Assisted OS Security: A Component-Based Scoping Survey\par}
+\end{center}
+\vspace{-7pt}
+\textbf{Manuscript ID:} Access-2026-46004\\
+\textbf{Journal:} IEEE Access\\
+\textbf{Authors:} Pengchao Yao, Changhua Sun, Xin Sun, Bang Lv, Yilei Wang, Yifeng Wang, and Yining Mao
+
+Dear Editor and Reviewers,
+
+We thank the Associate Editor and all three reviewers for their assessment and suggestions in the decision letter of 4 November 2026. We have revised the manuscript to clarify the survey's scope and methodology, strengthen the comparison of representative studies, and improve reference relevance and technical accuracy. The title has been changed from \emph{LLM for OS Security: A Comprehensive Survey} to \emph{LLM-Assisted OS Security: A Component-Based Scoping Survey}.
+
+The principal revisions are as follows:
+\begin{itemize}
+\item Characterized the study as a retrospective scoping survey, with explicit eligibility criteria and separate descriptions of the historical collection and dated search updates.
+\item Linked the search procedures, record inventories, screening protocols, and audit materials through the public repository: \repo.
+\item Added a comparison with prior surveys and a detailed comparison of 12 representative studies, including KnitFuzz, K-Repro, SyzHarness, and Live-kBench.
+\item Strengthened the synthesis of workflow bottlenecks, generated artifacts, feedback, evaluation criteria, and resource reporting.
+\item Removed weakly related citations from the active discussion, separated work protecting LLM execution from LLM-assisted OS security, and corrected bibliographic and quantitative attributions.
+\end{itemize}
+
+Below, we reproduce the numbered comments and describe our response and the corresponding action. We also address each reviewer's additional questions. Reference numbers in the quoted comments refer to the reviewed version; our responses identify studies by name and use the revised manuscript's section and table numbers. The revised manuscript marks changes with colored backgrounds.
+
+Sincerely,\\
+Pengchao Yao, on behalf of all authors\\
+State Grid Zhejiang Electric Power Co., Ltd. Research Institute, Hangzhou, China\\
+\texttt{pcyao@zju.edu.cn}
+
+\section{Response to Reviewer 1}
+
+\textbf{General statement}
+
+We appreciate the reviewer's positive assessment of the previous revisions and the recommendation for acceptance with minor editorial corrections. We have addressed the three remaining suggestions, with particular attention to citation consistency and the interpretation of the literature-selection records.
+
+\clearpage
+\subsection{Comment 1 --- Citation and bibliography consistency}
+\begin{reviewcomment}
+Perform a final verification of in-text citations, bibliography entries, and reference formatting to ensure consistency throughout the manuscript.
+\end{reviewcomment}
+
+\response We have checked the active citation keys against the bibliography and reviewed the publication metadata and attributions documented in the reference audit. The current manuscript contains 125 active references, with no missing BibTeX entries. Corrections distinguish KernelGPT's syscall-specification generation from KNighter's checker synthesis and use the published Kgent entry consistently in place of the overlapping KEN preprint citation. We also removed the unsupported Countermind attribution and aligned the Confidential Prompting entry and discussion with arXiv version~5 (November~19, 2025).
+
+\action We updated the affected bibliography entries and their in-text descriptions. The source-linked metadata and claim audits are provided in the repository's \path{revision/} directory. The four recently incorporated studies have also been checked against their identified source versions, with their evaluation settings recorded in Table~3.
+
+\subsection{Comment 2 --- Retrospective selection and coverage}
+\begin{reviewcomment}
+Ensure that the limitations of the retrospective literature-selection process remain clearly communicated, particularly where the survey discusses research coverage and completeness.
+\end{reviewcomment}
+
+\response We have aligned the title and scope statements with the retrospective nature of the work. The revised title uses ``Component-Based Scoping Survey,'' and Sections~I and III explicitly describe a retrospective survey of selected research. Section~III distinguishes the initial collection from the subsequent exploratory update and reports relevance scores as candidate assessments.
+
+\action We revised the title, Introduction, and Section~III. The historical collection contains 485 records, including 220 scored records; the 59 records designated for in-depth review form a subset of those 220. The updated inventory combines 130 retained historical records and 95 additional records, with 23 provisional direct candidates among its 225 records. Section~III explains the relationship between these separate inventory snapshots and the subsequent additions to the manuscript. These are record-level quantities, not a final count of unique eligible studies. The repository documents the historical gaps and the provenance of the later searches.
+
+\subsection{Comment 3 --- Proofreading and presentation}
+\begin{reviewcomment}
+Conduct a final proofreading of the manuscript, including figures, tables, captions, and cross-references, to address any remaining editorial inconsistencies.
+\end{reviewcomment}
+
+\response We have reviewed the revised text, captions, table descriptions, and compiled references. The terminology now distinguishes candidate records, generated artifacts, reported outcomes, and the targets actually evaluated by each study. The publication-venue figure uses the updated 225-record denominator and identifies records whose venue category could not be established.
+
+\action We aligned the title and running header, revised the captions and surrounding discussion of Tables~1--3, and checked the compiled manuscript for unresolved citations and references. Table~3 is presented as a table and a clearly labeled continuation with the same columns. The revised comparison and its accompanying synthesis have also been checked in the rendered PDF.
+
+\additional{1}
+
+\textbf{Confirmation concerning relevant files.} The responses address the reviewer's comments and additional questions, with the accompanying research materials linked from Section~III.
+
+\textbf{1) Contribution to the body of knowledge.} We thank the reviewer for recognizing the component-based taxonomy. Table~1 now makes the survey's relationship to existing software-engineering and security reviews explicit, while Table~3 connects the component discussion to reported evaluations.
+
+\textbf{2) Technical soundness.} We have retained the earlier attribution corrections and further checked the targets, methods, and numerical results described in the revised comparison.
+
+\textbf{3) Comprehensiveness.} The revised title and retrospective scope describe the breadth of the survey more precisely. Section~III distinguishes the historical collection from the updated candidate inventory; the repository also documents the later source review.
+
+\textbf{4) Applicability and sufficiency of references.} We have updated bibliographic metadata and added relevant recent kernel-testing, reproduction, and repair studies. The source records and audit notes support publication lookup and claim checking.
+
+\textbf{5 and 5a) Inappropriate references.} We appreciate the reviewer's assessment that no additional removals are necessary. In response to the other reviewers, we have nevertheless narrowed several discussions and removed the weakly related works identified in our response to Reviewer~2, Comment~6.
+
+\section{Response to Reviewer 2}
+
+\textbf{General statement}
+
+We thank the reviewer for recognizing the importance of the topic and for identifying the need for stronger methodology, comparison, and critical analysis. We have revised the survey's positioning and evidence presentation while retaining the component organization that supports navigation across OS attack surfaces.
+
+\subsection{Comment 1 --- Reproducible methodology and selection statistics}
+\begin{reviewcomment}
+Strengthen the survey methodology by providing reproducible search procedures, explicit inclusion/exclusion criteria, and verified study-selection statistics.
+\end{reviewcomment}
+
+\response We have expanded Section~III and made the supporting records accessible through \repo. Section~III distinguishes the historical literature collection from the searches executed on 5~November 2026. The repository separately documents the targeted source review on 6~November 2026, allowing the updates to be inspected without treating them as a reconstruction of every historical screening decision.
+
+\action The revised methodology and repository provide the following:
+\begin{itemize}
+\item \textbf{Eligibility.} The core synthesis concerns research from 2020--2026 that substantively uses an LLM for security analysis, testing, repair, or verification, explicitly targets an OS component or privileged interface, and provides methodological and evaluation evidence. Foundational work, transferable methods, and LLM-protection systems are identified separately as background or related work.
+\item \textbf{Search procedures.} The materials preserve 18 historical query formulations, the 100-query exploratory Crossref update, and a separate Crossref/arXiv discovery audit. The dated logs record effective queries, request parameters, returned counts, and source identifiers. Crossref's transformed free-text queries and the later arXiv pagination are documented as separate search operations.
+\item \textbf{Record handling.} Section~III describes preprint/publication version handling. The discovery scripts link records using normalized DOI or version-stripped arXiv identifiers. The inventory crosswalk and potential-duplicate file preserve linkage evidence and unresolved cases.
+\item \textbf{Screening.} Section~III distinguishes the preliminary model assessments from the subsequent manual relevance review. For each study considered at the manual stage, three reviewers read the study and then voted on relevance. Selection required at least two votes in favor, so a 2--1 disagreement was resolved by majority vote. The separate assessment call using the same model is reported as another preliminary model assessment.
+\item \textbf{Counts.} The 59 in-depth candidates are a subset of the 220 scored records within the 485-record historical inventory. The updated inventory combines 130 retained historical records and 95 additional records; its 23 provisional direct candidates form a subset of those 225 records. Section~III states that these are separate inventory snapshots and explains the November~6 additions: KnitFuzz was already in the updated inventory, while K-Repro, SyzHarness, and Live-kBench came from the separate discovery audit. The snapshot counts remain fixed.
+\end{itemize}
+
+The title and Sections~I and III now characterize the work as a retrospective scoping survey. PRISMA-S and PRISMA~2020 guide the reporting; the available records do not establish a completed systematic-review eligibility flow.
+
+\subsection{Comment 2 --- Novelty relative to existing surveys}
+\begin{reviewcomment}
+Clarify the novelty and distinguish this survey from existing reviews of LLM-based software security.
+\end{reviewcomment}
+
+\response We have made the survey's organizing contribution explicit. Its focus is the relationship between OS components and privileged interfaces, the security workflows applied to them, and the artifacts used to assess model outputs. This connects low-level operating conditions, such as syscall semantics, device state, and isolation boundaries, to the role assigned to the LLM.
+
+\action Section~I now includes Table~1, comparing our perspective with reviews of LLMs in software engineering, vulnerability detection, automated program repair, and cybersecurity. The opening taxonomy discussion in Section~IV-A states how the component and workflow dimensions complement each other: the component identifies the interface and execution environment, while the workflow identifies the LLM's task, generated artifact, and evaluation. The contribution is presented as a synthesis of existing evidence.
+
+\subsection{Comment 3 --- Comparative tables}
+\begin{reviewcomment}
+Add comparative tables summarizing representative approaches, techniques, datasets, evaluation metrics, strengths, and limitations.
+\end{reviewcomment}
+
+\response We have added complementary comparisons at the survey, technique, and study levels. Table~1 positions this survey among prior reviews; Table~2 summarizes representative works and their underlying techniques; Table~3 compares 12 studies using a common set of descriptive fields.
+
+\action Table~3 records the study, OS target and task, LLM role and validation, evaluation setting and baseline, reported result, and scope and limitation. It covers KernelGPT, BugLens, SyzAgent, KNighter, MigGPT, PathSentinel, LLM-CAL, the OpenAI pipeline, KnitFuzz, K-Repro, SyzHarness, and Live-kBench. The capability and validation columns explain the practical role of each approach, alongside the conditions limiting the reported result. The new ``Component coverage'' paragraph explains why ten entries concern kernel or driver workflows: the kernel mediates privileged operations and isolation, and the selected studies span several workflows, including socket testing, patch migration, reproduction, and repair. PathSentinel and LLM-CAL cover filesystem-access vulnerabilities and TEE code partitioning. The table presents representative evaluations without imposing equal study counts per component or treating the distribution as a measure of relative security importance.
+
+For example, K-Repro's entry separates its initial 56/100 result from the cumulative 64/100 result after repeated runs. SyzHarness reports 78/100 reproductions validated through patch-based checks, and Live-kBench reports repair evaluation on a 534-bug benchmark. The table also identifies the relevant model and budget where available. KnitFuzz's entry confines its extracted result to the published abstract and identifies the settings that were not extracted. The synthesis explains how the different outcome measures should be interpreted.
+
+\subsection{Comment 4 --- Deeper critical analysis}
+\begin{reviewcomment}
+Provide deeper critical analysis instead of primarily descriptive summaries.
+\end{reviewcomment}
+
+\response We have strengthened the comparison of where each method intervenes and what enables its downstream analysis or testing. The revised ``Cross-study synthesis'' in Section~IV-A explains why different generated artifacts address different workflow bottlenecks.
+
+\action The synthesis now compares KernelGPT's interface descriptions with KnitFuzz's executable socket-call setup, connecting the artifact choice to gaps in interface modeling and test-state construction. It also compares BugLens's refinement of existing reports with KNighter's generation of executable checkers. This identifies a concrete difference in applicability: report refinement requires an upstream analyzer to provide candidates, while checker synthesis requires bug patterns to be encoded as detection rules.
+
+Section~IV-B further contrasts K-Repro's direct PoC revision using debugging feedback with SyzHarness's separation of setup construction from fuzzer-driven input search. The synthesis distinguishes feedback used during generation from the criterion used to accept a final reproduction or repair. It also compares resource denominators: K-Repro averages API cost across all cases, whereas SyzHarness reports reproduction time over successful cases and includes fuzzer execution. Section~V uses the differing temporal findings of Live-kBench and K-Repro to motivate evaluation by task, bug date, and environment.
+
+\subsection{Comment 5 --- OS-specific evidence and adjacent work}
+\begin{reviewcomment}
+Clearly distinguish OS-specific security studies from general software engineering and adjacent LLM research.
+\end{reviewcomment}
+
+\response We have made this distinction in the eligibility criteria and in the individual technical discussions. Each study is described in relation to its evaluated target and security task, so that the component organization does not imply that every cited technique has already been evaluated on privileged OS code.
+
+\action Section~III states the core OS-security eligibility criteria. In Section~IV, KernelGPT and BugLens are discussed through their kernel and driver evaluations, while QLCoder is identified as query synthesis evaluated on Java projects. The networking discussion distinguishes KnitFuzz's Linux socket target from application-protocol fuzzing. The file-system and service discussions likewise identify the targets of functional synthesis, performance modeling, and general software-analysis methods.
+
+Section~IV-F places systems that protect LLM execution under the explicit heading ``Adjacent work: protecting LLMs with TEEs.'' LLM-CAL is discussed separately as assistance for TEE code partitioning, with its code-label evaluation identified. The Abstract and Conclusion use the same scope distinction.
+
+\subsection{Comment 6 --- Reference relevance and bibliographic accuracy}
+\begin{reviewcomment}
+Remove or justify weakly related references and verify bibliographic accuracy.
+
+\medskip
+\textbf{Related concern in Additional Question 5a:}
+
+Yes. Several references have limited relevance to LLM-assisted OS security, including:
+\begin{itemize}
+\item {[71]} LLM-generated attention operators.
+\item {[95]} Steganography using sparse sampling.
+\item {[104]--[108]} Protecting LLM execution rather than improving OS security.
+\item {[119]} General codebase-to-diagram generation.
+\end{itemize}
+These references should be removed or more clearly justified as background or adjacent research.
+\end{reviewcomment}
+
+\response We have addressed the named groups individually. The attention-operator, sparse-sampling steganography, codebase-to-diagram, and Countermind works have been removed from the active discussion and compiled reference list. Four works on protecting LLM execution are retained within the explicitly separated adjacent-work discussion because they illustrate how the OS/TEE isolation boundary is used when hosting LLM workloads.
+
+\action The current manuscript treats the identified references as follows:
+\begin{itemize}
+\item \textbf{Former [71], QiMeng-Attention:} removed from active citations.
+\item \textbf{Former [95], SparSamp:} removed from active citations.
+\item \textbf{Former [104]--[108], TZ-LLM, SPADA, PipeLLM, Countermind, and Confidential Prompting:} TZ-LLM, SPADA, PipeLLM, and Confidential Prompting are retained in Section~IV-F under ``Adjacent work: protecting LLMs with TEEs.'' The introductory paragraph distinguishes this direction from using LLMs to secure OS components or help design TEE boundaries. Countermind is removed: its conceptual defenses address prompt injection and related LLM threats and do not support the previous claim about side channels beyond enclave boundaries.
+\item \textbf{Former [119], RECoRD:} removed from active citations.
+\end{itemize}
+
+We have also corrected publication metadata and version mappings, including the KEN/Kgent consolidation, and checked active citations against the compiled bibliography. Confidential Prompting now explicitly cites arXiv version~5 (November~19, 2025), with the corresponding title, author order, and description of Petridish and Secure Partitioned Decoding. Removed works may remain as unused archival entries in the source bibliography; they do not appear in the current PDF's reference list.
+
+\subsection{Comment 7 --- Language, figures, and tables}
+\begin{reviewcomment}
+Improve language consistency, eliminate grammatical errors, and refine figures and tables.
+\end{reviewcomment}
+
+\response We have revised the wording of the scope, methodology, and technical summaries and aligned the captions and comparison fields with the claims made in the text. Terminology now distinguishes the OS target, LLM-generated artifact, validation procedure, and reported outcome.
+
+\action The revised manuscript uses the same title in the title block and running header, identifies the denominator and unknown-venue records in the publication-venue figure, and presents the expanded Table~3 with a labeled continuation. We have checked citation resolution, cross-references, and the rendered comparison pages. The KernelGPT illustration is consistently labeled as a literature-based workflow example, and the adjacent TEE discussion has its own descriptive heading.
+
+\additional{2}
+
+\textbf{Confirmation concerning relevant files.} We address all seven numbered comments and the reference-specific concern in Additional Question~5a. The public repository supplies the research records discussed in the methodology responses.
+
+\textbf{1) Contribution to the body of knowledge (moderate novelty).} Table~1 and the revised contribution statement identify the OS-component and workflow perspective. The stronger synthesis explains how interface semantics, executable state, analyzer candidates, and validation conditions shape the role of an LLM.
+
+\textbf{2) Technical soundness (methodological rigor).} Section~III documents eligibility, dated updates, version handling, and preliminary screening. The record inventories and scripts expose the evidence behind the reported counts. The retrospective characterization reflects the remaining limits of the historical record.
+
+\textbf{3) Comprehensiveness (uneven depth and missing comparisons).} Table~3 adds structured evidence across 12 representative studies. The workflow synthesis and the reproduction and repair discussions provide more detailed comparisons, while the component sections identify areas with limited direct evidence.
+
+\textbf{4) Applicability and sufficiency of references.} We have removed the specifically identified peripheral works where their role did not support the focus of the survey, justified the retained adjacent systems, and updated source metadata. Newly added work addresses kernel networking, vulnerability reproduction, and repair evaluation.
+
+\textbf{5 and 5a) Inappropriate references.} The exact dispositions of the named works are given in Comment~6. The original reference numbers are retained in the quoted concern, while the response uses study names to avoid ambiguity after renumbering.
+
+\section{Response to Reviewer 3}
+
+\textbf{General statement}
+
+We appreciate the reviewer's recognition of the earlier technical corrections and the usefulness of the component taxonomy. We have addressed the remaining concerns by clarifying the retrospective scope, providing access to the inventories and search records, and aligning the response with the current manuscript and supporting files.
+
+\subsection{Comment 1 --- Reproducibility of the survey methodology}
+\begin{reviewcomment}
+The revised Section III appropriately acknowledges limitations concerning the historical literature-search records. However, important methodological information remains unavailable, including exact search dates, database-specific search procedures, independent screening arrangements, and disagreement-resolution procedures.
+
+Since the manuscript is presented as a comprehensive survey, the authors should consider reconstructing or repeating the literature search using a clearly documented and reproducible protocol. The revised methodology should identify the databases searched, search dates, adapted search strings, deduplication procedures, eligibility decisions, and screening process.
+
+If this information cannot be recovered, the manuscript should consistently characterize the work as a retrospective literature survey and avoid implying a level of systematic reproducibility that cannot be demonstrated.
+\end{reviewcomment}
+
+\response We have adopted the retrospective characterization recommended by the reviewer and documented the subsequent search operations separately. The title now identifies a component-based scoping survey, and the Introduction and Section~III explicitly describe a retrospective survey. The initial search is dated 10~March 2026, as supplied during revision. Section~III now specifies the manual relevance-review procedure: three reviewers read each study under consideration and voted, with selection requiring at least two votes in favor and disagreement resolved by majority vote. The original query execution logs remain unavailable; the later logs support inspection of the dated updates.
+
+\action Section~III summarizes the search and selection process and links to the repository. Together, the manuscript and repository document the following stages:
+\begin{itemize}
+\item \textbf{Historical collection:} the initial Google Scholar search is dated 10~March 2026, as supplied during revision. The surviving materials contain 18 query formulations and the record inventory with relevance scores; the original execution log is not available.
+\item \textbf{November 5 update:} 100 transformed Crossref free-text queries with a 2022 publication-date lower bound, followed by a separately documented Crossref/arXiv discovery audit and arXiv pagination. The repository records the effective expressions, request settings, timestamps, and returned records.
+\item \textbf{Linkage and screening:} identifier-based linkage, a version-handling policy, preliminary model-assisted title/abstract assessment, and subsequent manual relevance review by three reviewers using majority voting. Section~III identifies \texttt{deepseek/deepseek-flash} and the separate call using the same model. The saved model assessments document automated triage; the human review procedure is described separately in the manuscript, without claiming independent or blinded screening or an inter-reviewer agreement statistic.
+\item \textbf{November 6 source review:} the repository records GPT-generated recommendations followed by Codex-assisted source checks for KnitFuzz, K-Repro, SyzHarness, and Live-kBench. Their addition is documented separately from the frozen historical and candidate counts.
+\end{itemize}
+
+The public repository is linked in Section~III. Its search and inventory documentation specifies what can be reconstructed from saved records and which historical details remain unavailable. PRISMA-S and PRISMA~2020 are used as reporting guidance for this retrospective account.
+
+\subsection{Comment 2 --- Verification of the supplementary inventory}
+\begin{reviewcomment}
+The authors indicate that Supplementary Table S1 contains 220 candidate records and that DOI information has been added where available. However, the supplementary CSV should be made accessible for independent inspection.
+
+The authors should also ensure that the description of the spreadsheet fields in Appendix A is consistent with the actual supplementary file and the claims made in the response letter. The distinction between candidate records, unique publications, and eligible studies should remain explicit.
+\end{reviewcomment}
+
+\response The inventories are publicly accessible at \repo. We have clarified their filenames, counts, and roles. The current package separates the historical scored inventory from the later candidate inventory; this also resolves the ambiguity in the previous use of ``Supplementary Table S1.''
+
+\action The repository provides:
+\begin{itemize}
+\item \path{supplementary_legacy_inventory.csv}: 220 historical records with scores 1--3, identified in the repository as Supplementary Table~S2. It retains historical record IDs, scores, titles, venue and year information, article/full-text links, and available links to the later inventory.
+\item \path{supplementary_candidate_inventory.csv}: 225 updated candidate records, identified as Supplementary Table~S1. It includes candidate and legacy identifiers, title, authors, year, venue, DOI where available, source links, OS component, task, query identifiers, relevance assessments, and evidence-source fields.
+\item \path{legacy_to_candidate_crosswalk.csv} and \path{potential_duplicate_pairs.csv}: provenance and possible-duplicate relationships. The updated inventory comprises 130 retained legacy records and 95 additional candidate records; it is not the next screening stage of the 220-record set.
+\end{itemize}
+
+The DOI field belongs to the updated candidate inventory; the legacy inventory retains its historical link fields. We have checked these descriptions against the actual CSV headers and row counts. The former Appendix~A is no longer part of the current manuscript. Section~III instead links directly to the repository, where \path{inventory/README.md} explains the exports and linkage rules. The records remain distinguishable from unique publications and finally eligible studies.
+
+\subsection{Comment 3 --- Status of the KernelGPT workflow example}
+\begin{reviewcomment}
+The KernelGPT example improves the technical explanation by illustrating the relationship between implementation artifacts, generated Syzkaller specifications, validation feedback, and downstream fuzzing.
+
+Nevertheless, the authors explicitly identify this example as a synthesis of existing literature rather than an independently conducted experiment. This distinction is appropriate, but the example should not be interpreted as empirical validation of the overall survey framework. The authors should maintain this qualification consistently throughout the manuscript.
+\end{reviewcomment}
+
+\response We agree with this interpretation and have retained the example as an explanation of the published KernelGPT workflow. It connects implementation evidence to the specification-generation and fuzzing stages without introducing a new experimental result by the survey authors.
+
+\action Section~IV-C retains the heading ``Literature-based workflow example: KernelGPT'' and explicitly identifies its status in the opening sentence. The four stages describe implementation inputs, generated syzlang specifications, validation and refinement, and downstream syscall-based fuzzing. The example cites KernelGPT directly. The Conclusion describes the survey's contribution as a synthesis of recurring approaches, without presenting this example as an empirical test of the taxonomy.
+
+\subsection{Comment 4 --- Consistency of coverage claims}
+\begin{reviewcomment}
+The revised manuscript appropriately distinguishes 220 scored candidate records from the 59 records designated for in-depth analysis. However, the number of unique eligible studies remains unestablished. The authors should ensure that statements concerning the breadth and comprehensiveness of the literature coverage are consistent with these limitations.
+\end{reviewcomment}
+
+\response We have revised the survey's framing and the interpretation of its counts. The title now uses ``Scoping Survey,'' and the Introduction refers to selected research assembled through targeted searches. The component coverage describes the organizing scope of the review, while the inventories document the available records.
+
+\action Section~III explains that the 59 in-depth candidates are a subset of the 220 scored records within the 485-record historical inventory. The updated inventory comprises 130 retained historical records and 95 additional records, with 23 provisional direct candidates among its 225 records. The later synthesis additions are documented separately: KnitFuzz was already in the updated inventory, while K-Repro, SyzHarness, and Live-kBench came from the separate discovery audit. Table~3 presents 12 representative comparisons; it is not used as a total of eligible studies. The Conclusion identifies both evaluated applications and areas where evidence remains limited. We do not assert a final unique-study count.
+
+\subsection{Comment 5 --- Claim-to-reference verification}
+\begin{reviewcomment}
+The correction of the KernelGPT, AEM, SparSamp, KNighter, and QLCoder discussions is appreciated. The distinction between direct OS-security research and adjacent transferable techniques is also considerably improved. A final claim-to-reference verification should nevertheless be performed to ensure that every cited publication supports the specific technical statement associated with it.
+\end{reviewcomment}
+
+\response We have checked the technical descriptions against the source-verification records and reviewed the methods, evaluation targets, and numerical quantities in the revised comparison. The checks include both publication identity and the scope of the claim attached to it.
+
+\action Representative outcomes of this verification are:
+\begin{itemize}
+\item \textbf{KernelGPT and KNighter:} syscall-specification generation and executable-checker synthesis are attributed to the corresponding systems.
+\item \textbf{AEM and SparSamp:} the unsupported LLM attribution to AEM is absent from the active discussion, and SparSamp is absent from the active discussion and compiled reference list.
+\item \textbf{QLCoder:} the reported 53.4\% result is tied to its vulnerable-versus-patched criterion on 176 CVEs across 111 Java projects.
+\item \textbf{LLIFT and BugLens:} the text identifies LLIFT's kernel use-before-initialization target, while Table~3 describes BugLens's recovery of four true bugs previously dismissed in the evaluated manual review.
+\item \textbf{LLM-CAL:} the comparison identifies line-level code-label metrics and the evaluated cryptographic-code setting.
+\item \textbf{Countermind and Confidential Prompting:} the unsupported enclave-side-channel attribution to Countermind is removed. Confidential Prompting is described using version~5's Petridish design, with its CVM, trusted guest OS, and process-isolation assumptions made explicit.
+\item \textbf{Recent reproduction and repair work:} Table~3 separates initial and cumulative K-Repro outcomes, SyzHarness's patch-validated reproductions, and Live-kBench's crash-repair and patch-equivalence evaluation.
+\item \textbf{OpenAI report:} the kernel discussion and Table~3 distinguish 1,169 working local privilege-escalation exploits from 948 unique LPE vulnerabilities, counted using distinct patches after variant analysis.
+\end{itemize}
+
+The repository's \path{revision/} directory provides source-linked claim and bibliography audits. The current manuscript's 125 active citation keys all resolve to bibliography entries. Source-level interpretations and numerical definitions are also stated in the relevant component discussions and Table~3.
+
+\additional{3}
+
+\textbf{Confirmation concerning relevant files.} The responses address all five numbered concerns, the overall assessment, and the additional questions. Section~III links the supporting research materials for inspection.
+
+\textbf{1) Contribution to the body of knowledge.} We appreciate the recognition of the component framework. The revised comparison explains how OS interfaces and execution conditions shape artifact generation, tool feedback, and evaluation across the surveyed workflows.
+
+\textbf{2) Technical soundness (partial).} We have addressed the methodological concern through explicit retrospective framing and dated, inspectable updates. The model-assisted triage and the literature-based KernelGPT illustration are described according to the procedures actually used.
+
+\textbf{3) Comprehensiveness.} We thank the reviewer for recognizing the broad component coverage. The new title and scope statements keep this breadth consistent with a scoping survey, while the added kernel studies and comparative analysis provide further depth.
+
+\textbf{4) Applicability and sufficiency of references (with reservations).} The claim-to-source and metadata checks described in Comment~5 address the remaining concern. Each comparison identifies the evaluated target and the meaning of the reported result.
+
+\textbf{5 and 5a) Inappropriate references.} No additional removals were requested by this reviewer. The reference-relevance revisions described for Reviewer~2 remove peripheral works and explicitly justify the retained adjacent LLM-protection systems.
+
+\medskip
+We again thank the Editor and all three reviewers. Their comments have helped us clarify the survey's scope, make the research records accessible, and develop more specific comparisons of LLM-assisted OS-security workflows.
+
+\end{document}

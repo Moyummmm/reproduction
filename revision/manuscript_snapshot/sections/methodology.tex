@@ -13,7 +13,9 @@
 \revise{Version handling considers preprints and published versions reporting the same contribution as one study, with preference for a published version available within the search period. Distinct contributions in extended versions are considered separately when justified.}
 
 \paragraph{\textbf{Screening and relevance assessment}}
-\revise{The initial inventory contains 485 records, including 220 scored 1--3; 59 score-3 records were designated for in-depth review. The updated inventory contains 225 candidate records, including 23 provisionally scored as direct OS-security candidates. Scores indicate topical relevance (1: background; 2: adjacent or transferable; 3: direct OS-security candidate). Figure~\ref{fig:venue-distribution} summarizes the publication-venue fields of the updated inventory.}
+\revise{Scores indicate topical relevance (1: background; 2: adjacent or transferable; 3: direct OS-security candidate). The historical inventory contains 485 records, of which 220 were scored 1--3. Within this 220-record subset, the 59 score-3 records were designated for in-depth review.}
+
+\revise{The updated inventory combines 130 retained historical records and 95 additional records, giving 225 candidate records in total. Within this updated set, 23 records were provisionally scored as direct OS-security candidates. The updated inventory is a separately assembled snapshot, not a further screening stage of the 220-record set. The 59 and 23 records are therefore relevance-based subsets of their respective inventories; these counts do not establish the final number of unique eligible studies. Figure~\ref{fig:venue-distribution} summarizes the publication-venue fields of the 225-record updated inventory.}
 
 \begin{figure}[t]
 \centering
@@ -22,7 +24,9 @@
 \label{fig:venue-distribution}
 \end{figure}
 
-\revise{The discovery audit used \texttt{deepseek/deepseek-flash} for preliminary title and abstract triage. A separate call with the same model assessed records with available abstracts.} \revisenew{Details of the literature search, selection, and subsequent additions are available in the GitHub repository at} \url{https://github.com/Moyummmm/reproduction}.
+\revise{The discovery audit used \texttt{deepseek/deepseek-flash} for preliminary title and abstract triage. A separate call with the same model assessed records with available abstracts. These model assessments supported preliminary screening. At the subsequent manual review stage, three reviewers read each study under consideration and then voted on its relevance to the survey scope. A study was selected on relevance grounds when at least two of the three reviewers voted in favor; a 2--1 disagreement was resolved by the majority vote.}
+
+\revisenew{The targeted source review on November 6, 2026, added KnitFuzz, K-Repro, SyzHarness, and Live-kBench to the manuscript synthesis. KnitFuzz was already present in the 225-record inventory; K-Repro, SyzHarness, and Live-kBench were identified in the separate discovery audit. These later additions to the synthesis are documented separately, while the inventory counts above retain their original snapshot denominators. Details of the literature search, selection, and subsequent additions are available in the GitHub repository at} \url{https://github.com/Moyummmm/reproduction}.
 
 \revise{Table~\ref{tab:llm-kernel-related} presents representative core and related work.}
 

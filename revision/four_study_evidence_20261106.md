@@ -1,5 +1,7 @@
 # Source checks for the four-study update
 
+**Manuscript alignment note, 11 November 2026:** This dated file records the source-assisted checks that prompted the four additions and their matches in existing inventories. The current manuscript separately describes the author-confirmed three-person majority-vote relevance procedure; individual study-level votes were not retained. See [../screening/HUMAN_REVIEW.md](../screening/HUMAN_REVIEW.md). The November 6 records below have not been relabeled as human ballots.
+
 Review date: 2026-11-06. The four studies were suggested in GPT-generated feedback shared by the author. Following the author's instruction, Codex checked accessible source materials and prepared the additions documented below. The GPT feedback was the immediate recommendation source; the saved inventory and discovery-audit matches were identified as traceability links. These checks preserve the earlier candidate scores and discovery-audit decisions. No experiments were rerun, and the record does not document an independent human screening round.
 
 The 225-record candidate inventory and its 23 provisional direct candidates retain their original meanings. KnitFuzz already occurs as C0194. K-Repro (R06024), SyzHarness (R06010), and Live-kBench (R06013) occur in the separate discovery audit. Adding these citations does not turn the 225 candidates into 229 candidates or establish a new total of eligible studies. The representative comparison now covers 12 studies and benchmarks across a table and its continuation.

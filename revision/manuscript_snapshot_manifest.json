@@ -1,0 +1,18 @@
+{
+  "snapshot_date": "2026-11-11",
+  "manuscript_title": "LLM-Assisted OS Security: A Component-Based Scoping Survey",
+  "purpose": "Source and citation verification; not a standalone PDF build bundle",
+  "files": {
+    "main.tex": "beaac9b149a076c79c04466b8021e1255c4edf5b5e4f3e4d7a4576207fcbc57c",
+    "refs.bib": "0f0c9ee90f64baebf836155dd013841b4b73dbdf2b4ecc4478e9392b79a51463",
+    "docs/response_letter.tex": "6df1dd5986d8b5a3c2870fd4f28732897c90d5cbfff40633f41fd93db482f33f",
+    "sections/abstract.tex": "33b22d44f825d8a672b9975f83b5c4e72ee06ca354ceb12012cafc56faf373c9",
+    "sections/background.tex": "6ae355d98a00a625acac11d2351383b9253139593980ef312af0e0afe507ecf1",
+    "sections/conclusion.tex": "e596aea49860108a1936dd354abfd6eaea29d7059ee6ba8d6894c3caae33e4d0",
+    "sections/future.tex": "c990ea464bf59065474d103dff78b8cdc90bba62a2e882f32f39cc77d1c191c7",
+    "sections/introduction.tex": "904806ed0575e7445380083bfb48f703fd5bfade026c132b5b21bd043ab00c10",
+    "sections/llm_os_security.tex": "fc1a4d2b97f6757e397981ea3b55704f1a174311de2cd305696524838b7ec636",
+    "sections/methodology.tex": "8067d435c61f12067315c7730a8ac6d2f49671cc014d56078b7c1140c6e8ca22",
+    "sections/representative_comparison.tex": "0b7bfde3f55d29d32b9be7a2b44204ffd3e9748f8757a04fe67625696375ffaf"
+  }
+}

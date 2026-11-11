@@ -1,20 +1,22 @@
-# Reproducibility status for resubmission
+# Reproducibility status for the current manuscript
 
-This is an audit status, not a claim that the historical review has been converted into a completed systematic review. The manuscript's historical search and screening decisions cannot be fully reconstructed from the retained files. The later searches and model triage are separate discovery and audit activities.
+Status date: **11 November 2026**. Manuscript: **LLM-Assisted OS Security: A Component-Based Scoping Survey**.
 
-## What is recorded
+## Documented and aligned
 
-- The historical archive has 485 records; 220 have original scores 1–3. A 485-row crosswalk and the later 225-candidate inventory are included. Agreement of the old counts with the prior manuscript does not prove identity with the unavailable historical supplementary file.
-- The two-source audit has 10,467 retrieved hit rows, 6,408 exact-identifier record groups and a hit-level source map. Crossref queries were all capped at 100; two arXiv queries were later paginated in a separate run. Two different identifiers can still represent one study.
-- Automated title/abstract triage preserves the inputs, prompts, model responses, schema checks and conservative flags. A separate call to the same model covers the 2,311 frozen records with saved abstracts. A targeted third model review and a separate 60-record Codex audit are also documented. Neither is independent human screening or final eligibility adjudication.
-- The citation audit maps current manuscript citations to the available inventories where possible and records source-checked title/version aliases and known errors. Citation-role labels remain provisional.
+- The initial Google Scholar search date is 10 March 2026, supplied during revision; 18 query formulations survive. The dated November 5 Crossref update, separate Crossref/arXiv discovery audit and arXiv pagination retain their own logs and counting units.
+- The historical archive has 485 records. Its 220 scored records include 59 score-3 in-depth candidates. The separately assembled updated inventory has 225 = 130 retained historical + 95 additional records, including 23 provisional direct candidates.
+- The author confirmed the manual relevance procedure: three reviewers read each study under consideration and voted; at least two positive votes were required, and 2--1 disagreements were resolved by majority vote. Individual study-level voting records were not retained. See `screening/HUMAN_REVIEW.md`.
+- Automated title/abstract assessments used `deepseek/deepseek-flash`, with a separate call using the same model for records with abstracts. Model labels, later model rechecks and the Codex audit retain their automated status and are distinct from human votes.
+- KnitFuzz, K-Repro, SyzHarness and Live-kBench were added to the synthesis after the November 6 source checks. Their existing-record links are C0194, R06024, R06010 and R06013. The inventory counts remain fixed.
+- Table 3 contains 12 representative comparisons, including ten kernel/driver workflows. The manuscript explains the kernel emphasis and the scope of the other two targets.
+- The current manuscript source snapshot, response-letter source and 125 citation-key mappings are under `revision/`. The mapping reports no missing bibliography entries; it does not certify every technical claim.
 
-## Items that remain open
+## Evidence limits retained
 
-1. **Final eligible studies and study-level counts.** No fully adjudicated study/version list or final inclusion/exclusion flow exists. Review the high-priority queue, missing evidence and known seed failures before using model labels as selection decisions. Match decisions to manuscript claims and citations, then compute all reported selection counts from the frozen final log.
-2. **Independent review.** No independent human screening or adjudication is documented. Model agreement and the separate Codex sample do not substitute for it. Record actual reviewers, decisions, disagreements and resolution if such a review is performed.
-3. **Missing abstracts.** The frozen search snapshot has 4,097 records without a saved abstract. An OpenAlex enrichment attempt received HTTP 429 on four attempts for the first batch of 50 DOI records; 4,047 further record lookups were not attempted. No abstract was obtained by that run. See `openalex/README.md` and the cross-source audit for recovery status.
-4. **Search completeness.** The 100 Crossref searches were all truncated, and the refreshed arXiv pages span different request times and a rate-limit interruption. Searches are reproducible as saved snapshots, but coverage is bounded and cannot be called exhaustive.
-5. **Public access and data rights.** The repository is available at https://github.com/Moyummmm/reproduction. Full raw data and model prompts include third-party abstract text. `PUBLIC_EXPORT.md` describes an optional metadata-only export that preserves hashes and decisions but cannot fully replay model screening without access to omitted inputs and responses.
+1. **Individual votes and final eligible-study count.** The reported procedure is author-confirmed, but the exact manually reviewed set and per-study outcomes cannot be reconstructed. No final deduplicated eligible-study count or fully logged selection flow is asserted. Candidate scores and model agreement do not substitute for votes.
+2. **Historical search execution.** Original query execution logs and complete result lists are unavailable. The supplied search date is distinguished from the later executable logs.
+3. **Retrieval coverage and missing abstracts.** The discovery snapshot contains 6,408 identifier groups, including 4,097 without a saved abstract. Search caps, separate pagination times and unresolved versions limit coverage. Missing evidence is not a verified exclusion.
+4. **Publication/preprint versions.** The manuscript's version policy is documented, while unresolved links remain visible in the inventory and possible-duplicate files.
 
-Useful starting files: `search_protocol/README.md`, `search_protocol/reporting_checklist.md`, `screening/README.md`, `screening/high_priority_review_queue.csv`, `audit/README.md`, and `openalex/README.md`.
+The public repository is https://github.com/Moyummmm/reproduction. [MANUSCRIPT_ALIGNMENT.md](MANUSCRIPT_ALIGNMENT.md) gives the statement-to-evidence mapping. Run `python -X utf8 verify_alignment.py` for offline checks; add `--manuscript-root /path/to/manuscript` to compare the source snapshot with a live checkout. `PUBLIC_EXPORT.md` describes the optional metadata-only export and its reduced replay scope.

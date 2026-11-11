@@ -15,8 +15,13 @@ default_root = workspace if (workspace / 'reproduct' == REPRODUCT and (workspace
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--manuscript-root', type=Path, default=default_root,
                     help='Directory containing the manuscript refs.bib and sections/')
-ROOT = parser.parse_args().manuscript_root.resolve()
-sections = ['introduction', 'background', 'methodology', 'llm_os_security', 'representative_comparison', 'future', 'conclusion']
+parser.add_argument('--output-dir', type=Path, default=AUDIT,
+                    help='Directory for the two regenerated CSV mappings')
+args = parser.parse_args()
+ROOT = args.manuscript_root.resolve()
+OUTPUT = args.output_dir.resolve()
+OUTPUT.mkdir(parents=True, exist_ok=True)
+sections = ['abstract', 'introduction', 'background', 'methodology', 'llm_os_security', 'representative_comparison', 'future', 'conclusion']
 
 def norm(s):
     s = html.unescape(html.unescape(s or ''))
@@ -51,7 +56,10 @@ for n, m in enumerate(starts):
 
 used = defaultdict(set)
 for section in sections:
-    text = (ROOT / 'sections' / (section + '.tex')).read_text(encoding='utf-8')
+    source = ROOT / 'sections' / (section + '.tex')
+    if section == 'abstract' and not source.exists():
+        continue  # Older snapshots omitted the abstract.
+    text = source.read_text(encoding='utf-8')
     text = re.sub(r'\\begin\{comment\}.*?\\end\{comment\}', '', text, flags=re.S)
     text = re.sub(r'(?<!\\)%[^\n]*', '', text)
     for m in re.finditer(r'\\(?:newrev|rev)?cite\s*(?:\[[^\]]*\]\s*)?\{([^}]+)\}', text):
@@ -83,7 +91,7 @@ for key in sorted(used):
         for c in byarxiv.get(arx,[]): matches[c['candidate_id']].add('arXiv ID')
     for candidate_id, evidence in aliases.get(key, []): matches[candidate_id].add(evidence)
     out.append({'bibtex_key':key, 'title':b.get('title',''), 'doi':b.get('doi',''), 'year':b.get('year',''), 'sections':'; '.join(sorted(used[key])), 'candidate_matches':'; '.join(f'{i} ({", ".join(sorted(v))})' for i,v in sorted(matches.items())), 'match_status':'candidate match; verify study role' if matches else ('no candidate match found' if b else 'missing BibTeX entry')})
-with (AUDIT/'citation_candidate_mapping.csv').open('w',encoding='utf-8-sig',newline='') as f:
+with (OUTPUT/'citation_candidate_mapping.csv').open('w',encoding='utf-8-sig',newline='') as f:
     w=csv.DictWriter(f,fieldnames=out[0].keys()); w.writeheader(); w.writerows(out)
 print('cited keys:',len(out),'candidate match:',sum(bool(r['candidate_matches']) for r in out),'no match found:',sum(r['match_status']=='no candidate match found' for r in out),'missing BibTeX:',sum(r['match_status']=='missing BibTeX entry' for r in out))
 
@@ -110,6 +118,6 @@ if searchfile.exists():
         for record_id,evidence in search_aliases.get(key,[]): matches[record_id].add(evidence)
         linked.append({'bibtex_key':key,'title':row['title'],'search_matches':'; '.join(f'{i} ({", ".join(sorted(v))})' for i,v in sorted(matches.items())),
                        'status':'retrieval-snapshot match; verify eligibility and versions' if matches else 'no exact or manually confirmed snapshot match'})
-    with (AUDIT/'citation_search_mapping.csv').open('w',encoding='utf-8-sig',newline='') as f:
+    with (OUTPUT/'citation_search_mapping.csv').open('w',encoding='utf-8-sig',newline='') as f:
         w=csv.DictWriter(f,fieldnames=linked[0].keys());w.writeheader();w.writerows(linked)
     print('search snapshot linked keys:',sum(bool(r['search_matches']) for r in linked),'of',len(linked))

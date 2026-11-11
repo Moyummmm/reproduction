@@ -1,21 +1,58 @@
 #!/usr/bin/env python3
-"""Recompute derived exports and compare byte-level checksums."""
-import hashlib,json,subprocess,tempfile,shutil
+"""Verify saved events and replay derived exports in an isolated temporary copy."""
+import hashlib
+import json
+import shutil
+import subprocess
+import sys
+import tempfile
 from pathlib import Path
-ROOT=Path(__file__).resolve().parent
-digest=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
-checks={}
-for folder,source in [(ROOT,ROOT.parent/'search_protocol/records.csv'),(ROOT/'arxiv_extension',ROOT.parent/'arxiv_pagination/combined_20261105/new_records.csv'),(ROOT/'crosssource/triage',ROOT/'crosssource/supplemented_records.csv')]:
-    with tempfile.TemporaryDirectory() as tmp:
-        out=Path(tmp); shutil.copy2(folder/'run_manifest.json',out/'run_manifest.json'); (out/'batches').symlink_to((folder/'batches').resolve(),target_is_directory=True)
-        subprocess.run(['python3',str(ROOT/'aggregate.py'),'--input-file',str(source),'--output-dir',str(out)],check=True,capture_output=True)
-        checks[str(folder.relative_to(ROOT))+'/screening_results.csv']=digest(out/'screening_results.csv')==digest(folder/'screening_results.csv')
-names=['second_pass/comparison.csv','third_pass/third_review.csv','priority_review_queue.csv','high_priority_review_queue.csv']
-before={n:digest(ROOT/n) for n in names}
-for script in ['compare_passes.py','finalize_third_review.py','build_priority_queue.py']:
-    subprocess.run(['python3',str(ROOT/script)],check=True,capture_output=True)
-checks.update({n:before[n]==digest(ROOT/n) for n in names})
-report={'byte_identical':checks,'note':'Derived outputs replay saved model events; no claim of model factual accuracy.'}
-(ROOT/'replay_verification.json').write_text(json.dumps(report,indent=2))
-print(json.dumps(report))
-if not all(checks.values()): raise SystemExit(1)
+
+ROOT = Path(__file__).resolve().parent
+
+
+def digest(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def run(script, *args):
+    result = subprocess.run(
+        [sys.executable, '-X', 'utf8', str(script), *map(str, args)],
+        capture_output=True, text=True, encoding='utf-8',
+    )
+    if result.returncode:
+        raise RuntimeError(f'{script.name}: {result.stdout}\n{result.stderr}')
+    return result.stdout
+
+
+def main():
+    checks = {}
+    with tempfile.TemporaryDirectory(prefix='reproduction-replay-') as tmp:
+        archive = Path(tmp) / 'archive'
+        shutil.copytree(ROOT.parent, archive,
+                        ignore=shutil.ignore_patterns('.git', '__pycache__'))
+        work = archive / 'screening'
+        saved = json.loads(run(work / 'verify_saved_responses.py'))
+        sources = [
+            (Path('.'), archive / 'search_protocol/records.csv'),
+            (Path('arxiv_extension'), archive / 'arxiv_pagination/combined_20261105/new_records.csv'),
+            (Path('crosssource/triage'), work / 'crosssource/supplemented_records.csv'),
+        ]
+        for folder, source in sources:
+            run(work / 'aggregate.py', '--input-file', source, '--output-dir', work / folder)
+            output = folder / 'screening_results.csv'
+            checks[output.as_posix()] = digest(work / output) == digest(ROOT / output)
+        for script in ['compare_passes.py', 'finalize_third_review.py', 'build_priority_queue.py']:
+            run(work / script)
+        for name in ['second_pass/comparison.csv', 'third_pass/third_review.csv',
+                     'priority_review_queue.csv', 'high_priority_review_queue.csv']:
+            checks[name] = digest(work / name) == digest(ROOT / name)
+    report = {'byte_identical': checks, 'saved_response_verification': saved,
+              'note': 'Offline replay in a temporary copy; source archive unchanged. '
+                      'This checks consistency, not model accuracy or human votes.'}
+    print(json.dumps(report, indent=2))
+    return 0 if all(checks.values()) and not saved['errors'] else 1
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())
